@@ -67,6 +67,7 @@ DEFAULT_GUIDANCE_RULES = [
     "To find brokers who received no PFOF, group by executing_bd and use HAVING SUM(COALESCE(..., 0)) = 0 for all PFOF USD fields.",
     "When asked to find the highest value across multiple *_cph columns, unpivot using a CTE and UNION ALL to track the highest per row.",
     "Exclude invalid numeric comparisons like column != ''.",
+    "when executing_bd is part of the WHERE clause, include it in the GROUP BY clause.",
     "Respond with only the SQL query. Do not include code fences, explanations, or comments — just valid SQL."
 ]
 
@@ -82,7 +83,7 @@ def classify_query(user_input: str) -> dict:
         "mentions_rate": any(k in user_input.lower() for k in ["rate", "cents per", "per share"]),
         "mentions_max": any(k in user_input.lower() for k in ["highest", "maximum"]),
         "mentions_zero_pfof": any(k in user_input.lower() for k in ["not paid", "no pfof", "zero flow", "received no"]),
-        "mentions_combined_metric": any(k in user_input.lower() for k in ["divide payment", "ratio of payment to cph", "payment over cph", "payment per rate", "calclulate volune"]),
+        "mentions_combined_metric": any(k in user_input.lower() for k in ["divide payment", "ratio of payment to cph", "payment over cph", "payment per rate", "calculate volune"]),
         "year": 2024 if "2024" in user_input else None,
         "stock_group": "SP500" if "sp500" in user_input.upper() else None
     }
