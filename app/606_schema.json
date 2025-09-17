@@ -1,0 +1,35 @@
+{
+  "table": "executing_bd_606",
+  "columns": [
+    {"name": "executing_bd", "type": "varchar"},
+    {"name": "venues", "type": "varchar"},
+    {"name": "stock_group", "type": "varchar", "values": ["SP500", "OtherStocks", "Options"]},
+    {"name": "marketablelimitpct", "type": "numeric"},
+    {"name": "nonmarketablelimitpct", "type": "numeric"},
+    {"name": "otherpct", "type": "numeric"},
+
+    {"name": "netpmtpaidrecvmarketordersusd", "type": "numeric"},
+    {"name": "netpmtpaidrecvmarketorderscph", "type": "numeric"},
+    {"name": "netpmtpaidrecvmarketablelimitordersusd", "type": "numeric"},
+    {"name": "netpmtpaidrecvmarketablelimitorderscph", "type": "numeric"},
+    {"name": "netpmtpaidrecvnonmarketablelimitordersusd", "type": "numeric"},
+    {"name": "netpmtpaidrecvnonmarketablelimitorderscph", "type": "numeric"},
+    {"name": "netpmtpaidrecvotherordersusd", "type": "numeric"},
+    {"name": "netpmtpaidrecvotherorderscph", "type": "numeric"},
+
+    {"name": "ndopct", "type": "numeric"},
+    {"name": "ndomarketpct", "type": "numeric"},
+    {"name": "ndomarketablelimitpct", "type": "numeric"},
+    {"name": "ndononmarketablelimitpct", "type": "numeric"},
+    {"name": "ndootherpct", "type": "numeric"},
+
+    {"name": "orderpct", "type": "numeric"},
+    {"name": "marketpct", "type": "numeric"},
+
+    {"name": "materialaspects", "type": "text"},
+    {"name": "month", "type": "numeric"},
+    {"name": "year", "type": "integer"},
+    {"name": "created_at", "type": "timestamp"},
+    {"name": "data_type", "type": "varchar", "values": ["executing_bd", "venue"] }
+  ]
+}
