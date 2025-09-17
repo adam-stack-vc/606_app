@@ -11,7 +11,7 @@ from app.query_framework import (
     classify_query,
     clean_and_dedup,
     load_schema_from_json,
-    generate_payment_to_cph_ratio_query,
+    generate_volume_estimation_query,
     sanitize_sql_output,
     DEFAULT_GUIDANCE_RULES
 )
@@ -24,6 +24,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def run_query_from_nl(prompt: str):
     tags = classify_query(prompt)
+    print(f"🏷️  Detected tags: {tags}")
 
     year = tags.get("year", 2024)
     stock_group = tags.get("stock_group", "SP500")
@@ -35,9 +36,9 @@ def run_query_from_nl(prompt: str):
 
     try:
         # Custom logic router
-        if tags.get("mentions_combined_metric"):
-            sql = generate_payment_to_cph_ratio_query(year=year, stock_group=stock_group,executing_bd=executing_bd)
-            print("🔁 Routed to: generate_payment_to_cph_ratio_query")
+        if tags.get("mentions_volume"):
+            sql = generate_volume_estimation_query(year=year, stock_group=stock_group, executing_bd=executing_bd)
+            print("🔁 Routed to: generate_volume_estimation_query")
         else:
             response = client.chat.completions.create(
                 model="gpt-4",

@@ -25,7 +25,9 @@ def load_broker_aliases(filename: str = "executing_bd_aliases.json") -> dict:
 
 def resolve_executing_bd(user_input: str, alias_map: dict) -> str:
     lowered = user_input.lower()
-    for canonical, aliases in alias_map.items():
+    # Handle nested structure where aliases are under "executing_bd_map" key
+    broker_map = alias_map.get("executing_bd_map", alias_map)
+    for canonical, aliases in broker_map.items():
         if any(alias.lower() in lowered for alias in aliases):
             return canonical
     return ""
@@ -76,16 +78,15 @@ DEFAULT_GUIDANCE_RULES = [
 # -----------------------------
 def classify_query(user_input: str) -> dict:
     tags = {
-        "mentions_volume": any(k in user_input.lower() for k in ["volume", "number of trades", "how many"]),
+        "mentions_volume": any(k in user_input.lower() for k in ["volume", "number of trades", "how many", "divide payment", "ratio of payment to cph", "payment over cph", "payment per rate", "calculate volume", "payment to cph ratio"]),
         "mentions_pfof": "pfof" in user_input.lower() or "payment for order flow" in user_input.lower(),
         "mentions_order_type": "order type" in user_input.lower(),
         "ambiguous_paid": "who paid" in user_input.lower(),
         "mentions_rate": any(k in user_input.lower() for k in ["rate", "cents per", "per share"]),
         "mentions_max": any(k in user_input.lower() for k in ["highest", "maximum"]),
         "mentions_zero_pfof": any(k in user_input.lower() for k in ["not paid", "no pfof", "zero flow", "received no"]),
-        "mentions_combined_metric": any(k in user_input.lower() for k in ["divide payment", "ratio of payment to cph", "payment over cph", "payment per rate", "calculate volune"]),
-        "year": 2024 if "2024" in user_input else None,
-        "stock_group": "SP500" if "sp500" in user_input.upper() else None
+        "year": 2024 if any(k in user_input for k in ["2024", "24"]) else None,
+        "stock_group": "SP500" if any(k in user_input.upper() for k in ["SP500", "S&P 500", "S&P500"]) else None
     }
 
     # Add broker resolution
@@ -114,6 +115,8 @@ def sanitize_sql_output(sql: str) -> str:
 
     sql = re.sub(r"\b\w+\s*!=\s*''", "", sql)
     sql = re.sub(r"\b(AND|OR)\s*(GROUP BY|ORDER BY|LIMIT)", r"\2", sql, flags=re.IGNORECASE)
+    # Remove trailing AND/OR at the end of WHERE clauses
+    sql = re.sub(r"\b(AND|OR)\s*;?\s*$", "", sql, flags=re.IGNORECASE)
 
     return sql.strip()
     
@@ -129,47 +132,51 @@ def clean_and_dedup(df: pd.DataFrame) -> pd.DataFrame:
 # -----------------------------
 # Custom Query Generator
 # -----------------------------
-def generate_payment_to_cph_ratio_query(year: int = 2024, stock_group: str = 'SP500') -> str:
+
+def generate_volume_estimation_query(year: int = 2024, stock_group: str = 'SP500', executing_bd: str = None) -> str:
+    """Generate query to estimate volume from cph and usd"""
+    where_conditions = [
+        f"year = {year}" if year is not None else "year IS NOT NULL",
+        f"stock_group = '{stock_group}'" if stock_group is not None else "stock_group IS NOT NULL",
+        "data_type = 'venue'",
+        "executing_bd IS NOT NULL",
+        "executing_bd != ''"
+    ]
+    
+    # Add executing_bd filter if specified
+    if executing_bd:
+        where_conditions.append(f"executing_bd = '{executing_bd}'")
+    
+    where_clause = " AND ".join(where_conditions)
+    
     return f"""
 SELECT 
   executing_bd,
-  CASE
-    WHEN
-     (
-       AVG(
-        COALESCE(netpmtpaidrecvmarketorderscph, 0) +
-        COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) +
-        COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) +
-        COALESCE(netpmtpaidrecvotherorderscph, 0)
-      )
-    ) <= 0
-    THEN 'could not calculate because values are indivisible'
-    ELSE
-      ROUND(
-      (
-      SUM(
-        COALESCE(netpmtpaidrecvmarketordersusd, 0) +
-        COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
-        COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) +
-        COALESCE(netpmtpaidrecvotherordersusd, 0)
-      ) 
-      ) /
-      NULLIF(
-        AVG(
-          COALESCE(netpmtpaidrecvmarketorderscph, 0) +
-          COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) +
-          COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) +
-          COALESCE(netpmtpaidrecvotherorderscph, 0)
-        ), 0
-      ), 4
-    )::text
-  END AS payment_to_cph_ratio
+  SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+      COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+      COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) +
+      COALESCE(netpmtpaidrecvotherordersusd, 0)) as total_usd,
+  AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) +
+      COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) +
+      COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) +
+      COALESCE(netpmtpaidrecvotherorderscph, 0)) as avg_cph,
+  CASE 
+    WHEN AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) +
+             COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) +
+             COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) +
+             COALESCE(netpmtpaidrecvotherorderscph, 0)) > 0
+    THEN ROUND((SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+                    COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+                    COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) +
+                    COALESCE(netpmtpaidrecvotherordersusd, 0)) / 
+                AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) +
+                    COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) +
+                    COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) +
+                    COALESCE(netpmtpaidrecvotherorderscph, 0))) * 100, 2)
+    ELSE 0
+  END as estimated_volume
 FROM executing_bd_606
-WHERE
-  year = {year} AND
-  stock_group = '{stock_group}' AND
-  data_type = 'venue' AND
-  executing_bd IS NOT NULL AND
-  executing_bd != ''
-GROUP BY executing_bd;
+WHERE {where_clause}
+GROUP BY executing_bd
+ORDER BY estimated_volume DESC;
 """
