@@ -1,0 +1,91 @@
+from fastapi import FastAPI
+import os
+import sys
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    stream=sys.stdout
+)
+logger = logging.getLogger(__name__)
+
+logger.info("=== STARTING FASTAPI APPLICATION ===")
+logger.info(f"Python version: {sys.version}")
+logger.info(f"Working directory: {os.getcwd()}")
+logger.info(f"AWS_EXECUTION_ENV: {os.getenv('AWS_EXECUTION_ENV')}")
+logger.info(f"SECRET_NAME: {os.getenv('SECRET_NAME')}")
+logger.info(f"AWS_REGION: {os.getenv('AWS_REGION')}")
+
+app = FastAPI()
+
+@app.on_event("startup")
+async def startup_event():
+    logger.info("FastAPI startup event triggered")
+
+@app.get("/")
+@app.get("/health")
+async def health_check():
+    logger.info("Health check endpoint called")
+    return {
+        "status": "ok",
+        "env_check": {
+            "AWS_EXECUTION_ENV": os.getenv('AWS_EXECUTION_ENV'),
+            "SECRET_NAME": os.getenv('SECRET_NAME'),
+            "AWS_REGION": os.getenv('AWS_REGION'),
+            "has_aws_config": os.path.exists('/app/aws_config.py'),
+            "has_query": os.path.exists('/app/query.py'),
+            "has_db": os.path.exists('/app/db.py'),
+            "has_prompt": os.path.exists('/app/prompt.txt')
+        }
+    }
+
+@app.get("/debug")
+async def debug():
+    logger.info("Debug endpoint called")
+    errors = []
+    
+    try:
+        from aws_config import config
+        errors.append("aws_config: OK")
+    except Exception as e:
+        errors.append(f"aws_config ERROR: {str(e)}")
+        logger.error(f"aws_config import failed: {e}")
+    
+    try:
+        from db import get_db_connection
+        errors.append("db: OK")
+    except Exception as e:
+        errors.append(f"db ERROR: {str(e)}")
+        logger.error(f"db import failed: {e}")
+    
+    try:
+        from query import run_query_from_nl
+        errors.append("query: OK")
+    except Exception as e:
+        errors.append(f"query ERROR: {str(e)}")
+        logger.error(f"query import failed: {e}")
+    
+    return {"checks": errors}
+
+try:
+    from fastapi import HTTPException
+    from pydantic import BaseModel
+    from query import run_query_from_nl
+    
+    logger.info("Successfully imported query module")
+    
+    class QuestionInput(BaseModel):
+        question: str
+    
+    @app.post("/ask")
+    async def ask_question(body: QuestionInput):
+        logger.info(f"Ask endpoint called with question: {body.question}")
+        if not body.question:
+            raise HTTPException(status_code=400, detail="Missing question")
+        return run_query_from_nl(body.question)
+except Exception as e:
+    logger.error(f"Could not load /ask endpoint: {e}", exc_info=True)
+
+logger.info("=== FASTAPI APPLICATION LOADED ===")

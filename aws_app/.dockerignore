@@ -1,0 +1,34 @@
+# Development and documentation files
+edgecases.txt
+test_*.py
+debug_*.py
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+*.md
+!README.md
+
+# Deployment scripts
+deploy*.sh
+*.tar.gz
+
+# Test data
+test_data/
+
