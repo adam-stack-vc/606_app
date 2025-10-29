@@ -1,0 +1,29 @@
+{
+  "table_name": "finra_ats",
+  "description": "FINRA Alternative Trading System (ATS) quarterly trading data",
+  "primary_key": "id",
+  "columns": [
+    {"name": "quarter", "type": "integer", "description": "Quarter (1-4)"},
+    {"name": "year", "type": "integer", "description": "Year"},
+    {"name": "tier", "type": "varchar", "description": "ATS tier classification"},
+    {"name": "ats_name", "type": "varchar", "description": "Alternative Trading System name"},
+    {"name": "total_trades", "type": "numeric", "description": "Total number of trades"},
+    {"name": "total_shares", "type": "numeric", "description": "Total share volume"},
+    {"name": "mpid", "type": "varchar", "description": "Market Participant Identifier"},
+    {"name": "created_at", "type": "timestamp", "description": "Record creation timestamp"}
+  ],
+  "relationships": [
+    {
+      "type": "one_to_many",
+      "target_table": "venue_mapping",
+      "join_condition": "finra_ats.ats_name = venue_mapping.canonical_name"
+    }
+  ],
+  "query_patterns": [
+    "Quarterly ATS performance",
+    "ATS tier analysis",
+    "Trading volume by ATS",
+    "Year-over-year comparisons",
+    "MPID analysis"
+  ]
+}

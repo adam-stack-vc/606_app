@@ -90,3 +90,7 @@ Thumbs.db
 .env
 secrets.json
 config.json
+
+# Large files / Docker images
+*.tar.gz
+fastapi-*.tar.gz

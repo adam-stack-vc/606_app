@@ -1,0 +1,31 @@
+{
+  "table_name": "entity_types",
+  "description": "Lookup table for venue types and organizational relationships",
+  "primary_key": "id",
+  "columns": [
+    {"name": "venue_name", "type": "varchar", "description": "Venue name (unique)"},
+    {"name": "entity_type", "type": "varchar", "description": "Type of entity (Exchange, ATS, Market Maker, etc.)"},
+    {"name": "description", "type": "text", "description": "Description of the venue"},
+    {"name": "parent_organization", "type": "varchar", "description": "Parent organization name"},
+    {"name": "created_at", "type": "timestamp", "description": "Record creation timestamp"},
+    {"name": "updated_at", "type": "timestamp", "description": "Record last update timestamp"}
+  ],
+  "relationships": [
+    {
+      "type": "one_to_many",
+      "target_table": "executing_bd_606",
+      "join_condition": "entity_types.venue_name = executing_bd_606.venues"
+    },
+    {
+      "type": "one_to_many",
+      "target_table": "venue_mapping",
+      "join_condition": "entity_types.venue_name = venue_mapping.canonical_name"
+    }
+  ],
+  "query_patterns": [
+    "Venue type classification",
+    "Parent organization analysis",
+    "Entity type breakdowns",
+    "Venue lookup and validation"
+  ]
+}

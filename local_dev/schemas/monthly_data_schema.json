@@ -1,0 +1,36 @@
+{
+  "table_name": "monthly_data",
+  "description": "Daily market volume data by market participant, broken down by tape (A, B, C)",
+  "primary_key": "id",
+  "columns": [
+    {"name": "day", "type": "date", "description": "Trading day"},
+    {"name": "market_participant", "type": "varchar", "description": "Market participant name"},
+    {"name": "tape_a_shares", "type": "bigint", "description": "Tape A share volume"},
+    {"name": "tape_b_shares", "type": "bigint", "description": "Tape B share volume"},
+    {"name": "tape_c_shares", "type": "bigint", "description": "Tape C share volume"},
+    {"name": "total_shares", "type": "bigint", "description": "Total share volume across all tapes"},
+    {"name": "tape_a_notional", "type": "numeric", "description": "Tape A notional value"},
+    {"name": "tape_b_notional", "type": "numeric", "description": "Tape B notional value"},
+    {"name": "tape_c_notional", "type": "numeric", "description": "Tape C notional value"},
+    {"name": "total_notional", "type": "numeric", "description": "Total notional value across all tapes"},
+    {"name": "tape_a_trade_count", "type": "integer", "description": "Number of Tape A trades"},
+    {"name": "tape_b_trade_count", "type": "integer", "description": "Number of Tape B trades"},
+    {"name": "tape_c_trade_count", "type": "integer", "description": "Number of Tape C trades"},
+    {"name": "total_trade_count", "type": "integer", "description": "Total number of trades across all tapes"},
+    {"name": "created_at", "type": "timestamp", "description": "Record creation timestamp"}
+  ],
+  "relationships": [
+    {
+      "type": "one_to_many",
+      "target_table": "venue_mapping", 
+      "join_condition": "monthly_data.market_participant = venue_mapping.canonical_name"
+    }
+  ],
+  "query_patterns": [
+    "Daily volume analysis",
+    "Market participant rankings",
+    "Tape-specific analysis (A, B, C)",
+    "Time series trends",
+    "Volume comparisons"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table_name": "executing_bd_606",
+  "description": "Main 606 data table containing PFOF payments, venue relationships, and order type breakdowns",
+  "primary_key": "id",
+  "columns": [
+    {"name": "executing_bd", "type": "varchar", "description": "Broker that routes orders (receives PFOF)"},
+    {"name": "venues", "type": "varchar", "description": "Venue that executes orders (pays PFOF)"},
+    {"name": "stock_group", "type": "varchar", "values": ["SP500", "OtherStocks", "Options"], "description": "Type of securities"},
+    {"name": "marketablelimitpct", "type": "numeric", "description": "Percentage of marketable limit orders"},
+    {"name": "nonmarketablelimitpct", "type": "numeric", "description": "Percentage of non-marketable limit orders"},
+    {"name": "otherpct", "type": "numeric", "description": "Percentage of other order types"},
+    {"name": "netpmtpaidrecvmarketordersusd", "type": "numeric", "description": "PFOF payment for market orders (USD)"},
+    {"name": "netpmtpaidrecvmarketorderscph", "type": "numeric", "description": "PFOF rate for market orders (cents per hundred)"},
+    {"name": "netpmtpaidrecvmarketablelimitordersusd", "type": "numeric", "description": "PFOF payment for marketable limit orders (USD)"},
+    {"name": "netpmtpaidrecvmarketablelimitorderscph", "type": "numeric", "description": "PFOF rate for marketable limit orders (cents per hundred)"},
+    {"name": "netpmtpaidrecvnonmarketablelimitordersusd", "type": "numeric", "description": "PFOF payment for non-marketable limit orders (USD)"},
+    {"name": "netpmtpaidrecvnonmarketablelimitorderscph", "type": "numeric", "description": "PFOF rate for non-marketable limit orders (cents per hundred)"},
+    {"name": "netpmtpaidrecvotherordersusd", "type": "numeric", "description": "PFOF payment for other orders (USD)"},
+    {"name": "netpmtpaidrecvotherorderscph", "type": "numeric", "description": "PFOF rate for other orders (cents per hundred)"},
+    {"name": "ndopct", "type": "numeric", "description": "Non-displayed order percentage"},
+    {"name": "ndomarketpct", "type": "numeric", "description": "Non-displayed market order percentage"},
+    {"name": "ndomarketablelimitpct", "type": "numeric", "description": "Non-displayed marketable limit order percentage"},
+    {"name": "ndononmarketablelimitpct", "type": "numeric", "description": "Non-displayed non-marketable limit order percentage"},
+    {"name": "ndootherpct", "type": "numeric", "description": "Non-displayed other order percentage"},
+    {"name": "orderpct", "type": "numeric", "description": "Order percentage"},
+    {"name": "marketpct", "type": "numeric", "description": "Market percentage"},
+    {"name": "materialaspects", "type": "text", "description": "Material aspects of the relationship"},
+    {"name": "month", "type": "varchar", "description": "Month of the data"},
+    {"name": "year", "type": "integer", "description": "Year of the data"},
+    {"name": "created_at", "type": "timestamp", "description": "Record creation timestamp"},
+    {"name": "data_type", "type": "varchar", "values": ["executing_bd", "venue", "ndo"], "description": "Type of data record"}
+  ],
+  "relationships": [
+    {
+      "type": "one_to_many",
+      "target_table": "venue_mapping",
+      "join_condition": "executing_bd_606.venues = venue_mapping.canonical_name"
+    },
+    {
+      "type": "one_to_many", 
+      "target_table": "entity_types",
+      "join_condition": "executing_bd_606.executing_bd = entity_types.entity_name"
+    }
+  ],
+  "query_patterns": [
+    "PFOF payments and rates",
+    "Volume estimation (usd/cph * 100)",
+    "Order type breakdowns",
+    "Broker-venue relationships",
+    "Time-based analysis (month/year)"
+  ]
+}
