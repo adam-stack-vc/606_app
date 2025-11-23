@@ -30,6 +30,7 @@ except Exception:
 from handlers.executing_bd_606_handler import generate_top_pfof_broker_per_quarter_query
 from handlers.monthly_data_handler import generate_top_exchange_share_per_quarter_query
 from handlers.finra_ats_handler import generate_top_ats_shares_per_quarter_query
+from planner import plan_single_sql
 
 # Load environment variables
 load_dotenv()
@@ -1522,12 +1523,38 @@ def route_hybrid_query(user_input: str, query_tags: Dict) -> Dict:
     """Route query to appropriate handler based on complexity"""
     
     print(f"🔍 Query Classification: {query_tags}")
-    # 1) Direct list/unique (default simple path)
+    # 0) Planner single-shot path (default). Returns first if deterministically plannable.
+    try:
+        planned_sql = plan_single_sql(user_input, dict(query_tags))
+        if planned_sql:
+            print("🧭 Planner produced single-shot SQL")
+            try:
+                cursor.execute(planned_sql)
+                rows = cursor.fetchall()
+                cols = [d[0] for d in cursor.description] if cursor.description else []
+                formatted = [dict(zip(cols, r)) for r in rows] if rows else []
+                return {
+                    "question": user_input,
+                    "query_type": "direct_single",
+                    "sql": planned_sql,
+                    "results": formatted,
+                    "row_count": len(formatted),
+                    "query_classification": query_tags
+                }
+            except Exception as e_pl:
+                try:
+                    conn.rollback()
+                except Exception:
+                    pass
+                print(f"Planner SQL failed: {e_pl} — falling through to other handlers")
+    except Exception as e_plan:
+        print(f"Planner routing error: {e_plan}")
+    # 1) Direct list/unique (legacy simple path)
     if _is_list_unique_query(user_input, query_tags):
         print("🎯 Routing to direct single-shot: DISTINCT list query")
         return execute_direct_list_query(user_input, query_tags)
 
-    # 2) Direct single-shot: PFOF by venue for broker
+    # 2) Direct single-shot: PFOF by venue for broker (legacy specific)
     if _is_direct_pfof_broker_venues_query(user_input, query_tags):
         print("🎯 Routing to direct single-shot: PFOF by venue for broker")
         return execute_direct_pfof_by_venue_for_broker(user_input, query_tags)
