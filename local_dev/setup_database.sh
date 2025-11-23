@@ -5,8 +5,18 @@
 
 set -e
 
-# Set PostgreSQL password
-export PGPASSWORD="639Woods@Clermont"
+# Load .env if present (DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD)
+if [ -f ".env" ]; then
+    set -a
+    # shellcheck disable=SC1091
+    source .env
+    set +a
+fi
+
+# Prefer DB_PASSWORD from .env if available, else keep existing PGPASSWORD
+if [ -n "$DB_PASSWORD" ]; then
+    export PGPASSWORD="$DB_PASSWORD"
+fi
 
 echo "=================================="
 echo "606 App Local Database Setup"
@@ -14,7 +24,7 @@ echo "=================================="
 echo ""
 
 # Check if PostgreSQL is running
-if ! pg_isready -h localhost -p 5432 >/dev/null 2>&1; then
+if ! pg_isready -h "${DB_HOST:-localhost}" -p "${DB_PORT:-5432}" >/dev/null 2>&1; then
     echo "❌ Error: PostgreSQL is not running"
     echo "Please start PostgreSQL first:"
     echo "  brew services start postgresql"
@@ -38,7 +48,7 @@ echo ""
 
 # Create tables
 echo "📋 Step 1: Creating database tables..."
-psql -h localhost -U postgres -d postgres -f create_tables.sql
+psql -h "${DB_HOST:-localhost}" -p "${DB_PORT:-5432}" -U "${DB_USER:-postgres}" -d "${DB_NAME:-postgres}" -f create_tables.sql
 
 if [ $? -eq 0 ]; then
     echo "✅ Tables created successfully"
@@ -50,7 +60,7 @@ echo ""
 
 # Load data
 echo "📊 Step 2: Loading data..."
-psql -h localhost -U postgres -d postgres -f load_data_robust.sql
+psql -h "${DB_HOST:-localhost}" -p "${DB_PORT:-5432}" -U "${DB_USER:-postgres}" -d "${DB_NAME:-postgres}" -f load_data_robust.sql
 
 if [ $? -eq 0 ]; then
     echo "✅ Data loaded successfully"
@@ -62,7 +72,7 @@ echo ""
 
 # Verify setup
 echo "🔍 Step 3: Verifying setup..."
-psql -h localhost -U postgres -d postgres -c "
+psql -h "${DB_HOST:-localhost}" -p "${DB_PORT:-5432}" -U "${DB_USER:-postgres}" -d "${DB_NAME:-postgres}" -c "
 SELECT 
     'executing_bd_606' as table_name, COUNT(*) as records FROM executing_bd_606
 UNION ALL

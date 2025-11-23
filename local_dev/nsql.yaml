@@ -1,0 +1,51 @@
+
+---
+
+# 🧠 Component Summary
+
+## 1. classify_query_enhanced()
+Keyword-based tagging:
+- mentions_volume  
+- mentions_pfof  
+- mentions_broker  
+- mentions_venue  
+- mentions_month/year  
+- stock_group detection  
+- alias resolution (venue, broker)
+
+Outputs a `tags: dict`.
+
+---
+
+## 2. disambiguate_context(user_input, tags)
+
+Adds:
+- semantic direction (executing_bd → venue OR venue → executing_bd)
+- agent/recipient (handles passive/active voice)
+- metric inference (volume, pfof, rate)
+- time extraction (`year`, `month`, `quarter`)
+- subject_role / object_role
+
+Uses:
+- **direction_map.json**
+- **spaCy dependency parsing**
+- **time extraction patterns**
+
+---
+
+## 3. QueryIntent (dataclass)
+
+A normalized semantic object:
+
+```python
+QueryIntent(
+    topic,
+    metric,
+    direction,
+    entities,
+    period,
+    dimensions,
+    filters,
+    subject_role,
+    object_role
+)

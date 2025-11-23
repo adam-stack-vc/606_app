@@ -4,7 +4,58 @@ import os
 import re
 import json
 from typing import List, Dict, Optional, Tuple
+from datetime import datetime
 import pandas as pd
+
+# Try importing spacy, handle if missing
+try:
+    import spacy
+except ImportError:
+    spacy = None
+    print("Warning: 'spacy' not found. NLP features will be disabled.")
+
+# -----------------------------
+# Global Resource Loading (NLP & Maps)
+# -----------------------------
+
+NLP_MODEL = None
+DIRECTION_MAP = {}
+
+def initialize_nlp_resources():
+    """Initialize SpaCy model and direction map safely"""
+    global NLP_MODEL, DIRECTION_MAP
+    
+    # Load SpaCy
+    if spacy:
+        try:
+            NLP_MODEL = spacy.load("en_core_web_sm")
+        except OSError:
+            print("Warning: Spacy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm")
+
+    # Load Direction Map
+    map_path = os.path.join(os.path.dirname(__file__), "direction_map.json")
+    if os.path.exists(map_path):
+        with open(map_path, "r") as f:
+            DIRECTION_MAP = json.load(f)
+    else:
+        # Fallback/Default map if file is missing to prevent crash
+        DIRECTION_MAP = {
+            "venue_to_executing_bd": {
+                "verbs": ["pay", "paid", "rebate", "send"],
+                "subject_role": "venue",
+                "object_role": "executing_bd",
+                "implied_metric": "pfof"
+            },
+            "executing_bd_to_venue": {
+                "verbs": ["route", "send", "direct"],
+                "subject_role": "executing_bd",
+                "object_role": "venue",
+                "implied_metric": "volume"
+            }
+        }
+
+# Initialize on module load
+initialize_nlp_resources()
 
 # -----------------------------
 # Multi-Table Schema Management
@@ -15,6 +66,10 @@ def load_all_schemas(schemas_dir: str = "schemas") -> Dict[str, Dict]:
     schemas = {}
     schemas_path = os.path.join(os.path.dirname(__file__), schemas_dir)
     
+    if not os.path.exists(schemas_path):
+        # Fallback if directory doesn't exist
+        return {}
+
     for filename in os.listdir(schemas_path):
         if filename.endswith('_schema.json'):
             table_name = filename.replace('_schema.json', '')
@@ -105,83 +160,246 @@ def build_multi_table_schema_doc(relevant_tables: List[str], all_schemas: Dict[s
     return "\n".join(schema_docs)
 
 # -----------------------------
+# NLP & Time Extraction Helpers
+# -----------------------------
+
+MONTHS_MAP = {
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "may": 5, "june": 6, "july": 7, "august": 8,
+    "september": 9, "october": 10, "november": 11, "december": 12
+}
+
+def get_direction_for_verb(verb: str):
+    """Lookup direction from verb using grouped dictionary"""
+    verb = verb.lower()
+    for direction, cfg in DIRECTION_MAP.items():
+        if verb in cfg["verbs"]:
+            return {
+                "direction": direction,
+                "subject_role": cfg["subject_role"],
+                "object_role": cfg["object_role"],
+                "implied_metric": cfg.get("implied_metric")
+            }
+    return None
+
+def extract_time_period(user_input: str) -> dict:
+    """Extract time period from text including relative dates"""
+    text = user_input.lower()
+    now = datetime.now()
+
+    year, month, quarter = None, None, None
+
+    # ---- Explicit year (e.g., 2024)
+    year_match = re.search(r"\b(20[0-9]{2})\b", text)
+    if year_match:
+        year = int(year_match.group(1))
+
+    # ---- Explicit month (e.g., January)
+    for m_name, m_num in MONTHS_MAP.items():
+        if m_name in text:
+            month = m_num
+            break
+
+    # ---- Quarter (Q1, Q2, etc.)
+    q_match = re.search(r"\bq([1-4])\b", text)
+    if q_match:
+        quarter = int(q_match.group(1))
+
+    # ---- Relative time expressions
+    if "last year" in text:
+        year = now.year - 1
+    elif "this year" in text:
+        year = now.year
+
+    if "this month" in text:
+        month = now.month
+        year = year or now.year
+
+    if "last month" in text:
+        if now.month == 1:
+            month = 12
+            year = (year or now.year) - 1
+        else:
+            month = now.month - 1
+            year = year or now.year
+
+    if "this quarter" in text:
+        quarter = (now.month - 1) // 3 + 1
+        year = year or now.year
+
+    if "last quarter" in text:
+        q = (now.month - 1) // 3 + 1
+        quarter = q - 1 if q > 1 else 4
+        year = now.year if q > 1 else now.year - 1
+
+    return {"year": year, "month": month, "quarter": quarter}
+
+def disambiguate_context(user_input: str, tags: dict, debug=False) -> dict:
+    """Disambiguate direction + metric + entities + time using NLP"""
+    if not NLP_MODEL:
+        return tags
+
+    text = user_input.lower()
+    doc = NLP_MODEL(text)
+
+    if debug:
+        print("\n--- Dependency Parse ---")
+        for tok in doc:
+            print(f"{tok.text:12s} {tok.dep_:12s} -> {tok.head.text}")
+        print("------------------------\n")
+
+    # 1. Step: Direction from verb
+    direction_info = None
+    for token in doc:
+        direction_info = get_direction_for_verb(token.lemma_)
+        if direction_info:
+            tags["direction"] = direction_info["direction"]
+            tags["subject_role"] = direction_info["subject_role"]
+            tags["object_role"] = direction_info["object_role"]
+            
+            if direction_info.get("implied_metric"):
+                tags["metric"] = direction_info["implied_metric"]
+            break
+
+    # 2. Extract agent/recipient (passive + active)
+    agent = None       # semantic sender
+    recipient = None   # semantic receiver
+
+    for tok in doc:
+        # Passive voice agent: "by Robinhood"
+        if tok.dep_ == "agent":
+            for child in tok.children:
+                if child.dep_ == "pobj":
+                    agent = child.text
+
+        # Recipient via preposition: "to Citadel", "from Robinhood"
+        if tok.dep_ == "pobj" and tok.head.text.lower() in ["to", "from"]:
+            recipient = tok.text
+
+        # Direct object for "send", "pay", etc.
+        if tok.dep_ in ["dobj", "pobj"] and tok.head.lemma_ in ["send", "pay"]:
+            recipient = tok.text
+
+    # 3. Assign entities based on direction mapping
+    if direction_info:
+        if direction_info["direction"] == "executing_bd_to_venue":
+            if agent: tags["executing_bd"] = agent
+            if recipient: tags["venue"] = recipient
+
+        elif direction_info["direction"] == "venue_to_executing_bd":
+            if agent: tags["venue"] = agent
+            if recipient: tags["executing_bd"] = recipient
+
+    # 4. Fallback metric inference from context
+    if not tags.get("metric"):
+        if "order" in text or "orders" in text:
+            tags["metric"] = "volume"
+        elif "pfof" in text or "payment" in text or "rebate" in text:
+            tags["metric"] = "pfof"
+        elif "rate" in text or "cents per" in text:
+            tags["metric"] = "rate"
+
+    # 5. Direction fallback (based on metric)
+    if not tags.get("direction"):
+        if tags.get("metric") == "pfof":
+            tags["direction"] = "venue_to_executing_bd"
+        else:
+            tags["direction"] = "executing_bd_to_venue"
+
+    # 6. Time extraction
+    time_info = extract_time_period(user_input)
+
+    if time_info["year"]:
+        tags["year"] = time_info["year"]
+    if time_info["month"]:
+        tags["month"] = time_info["month"]
+    if time_info["quarter"]:
+        tags["quarter"] = time_info["quarter"]
+
+    # Update boolean flags based on extracted year/month
+    if tags.get("year"): tags["mentions_year"] = True
+    if tags.get("month"): tags["mentions_month"] = True
+    if tags.get("quarter"): tags["mentions_quarter"] = True
+
+    return tags
+
+# -----------------------------
 # Enhanced Query Classification
 # -----------------------------
 
 def classify_query_enhanced(user_input: str) -> Dict:
-    """Enhanced query classification with table routing"""
+    """Enhanced query classification with table routing and NLP refinement"""
     text = user_input.lower()
 
+    # Initial keyword-based tagging
     tags = {
-        # --- Existing tags ---
         "mentions_volume": any(k in text for k in [
-            "volume", "number of trades", "how many", "divide payment",
-            "ratio of payment to cph", "payment over cph", "payment per rate",
-            "calculate volume", "payment to cph ratio"
+            "volume", "number of shares", "shares traded", "number of trades"
         ]),
-        "mentions_pfof": "pfof" in text or "payment for order flow" in text,
-        "mentions_order_type": "order type" in text,
+        "mentions_pfof": (
+            "pfof" in text or
+            "payment for order flow" in text or
+            ("payment" in text and ("broker" in text or "brokers" in text)) or
+            ("paid" in text and ("broker" in text or "brokers" in text)) or
+            ("revenue" in text and ("broker" in text or "brokers" in text)) or
+            ("payment received" in text)
+        ),
+        "mentions_order_type": "order type" in text or "stock group" in text,
         "ambiguous_paid": "who paid" in text,
-        "mentions_rate": any(k in text for k in ["rate", "cents per", "per share"]),
+        "mentions_rate": any(k in text for k in ["rate", "cents per", "per share", "cph"]),
+        "mentions_cph": ("cph" in text),
         "mentions_max": any(k in text for k in ["highest", "maximum"]),
         "mentions_zero_pfof": any(k in text for k in ["not paid", "no pfof", "zero flow", "received no"]),
-
-        # --- Time filters ---
-        "mentions_month": any(k in text for k in [
-            "month", "monthly", "last month", "this month"
-        ]),
-        "mentions_year": any(k in text for k in [
-            "year", "annual", "this year", "last year", "yoy"
-        ]),
-        "mentions_quarter": any(k in text for k in [
-            "quarter", "q1", "q2", "q3", "q4"
-        ]),
-
-        # --- Entity / dimension filters ---
-        "mentions_broker": any(k in text for k in [
-            "broker", "bd", "executing broker", "receiving broker"
-        ]),
-        "mentions_venue": any(k in text for k in [
-            "venue", "exchange", "market center"
-        ]),
-        "mentions_trend": any(k in text for k in [
-            "trend", "compare", "change over", "increase", "decrease"
-        ]),
-
-        # --- Table-specific patterns ---
-        "mentions_ats": any(k in text for k in [
-            "ats", "alternative trading system", "finra"
-        ]),
-        "mentions_virtu": any(k in text for k in [
-            "virtu", "virtual", "virtu financial"
-        ]),
-        "mentions_tape": any(k in text for k in [
-            "tape a", "tape b", "tape c", "tape"
-        ]),
-        "mentions_entity_type": any(k in text for k in [
-            "entity type", "exchange", "market maker", "organization"
-        ]),
-
-        # --- Specific year parsing ---
+        "mentions_month": any(k in text for k in ["month", "monthly", "last month", "this month"]),
+        "mentions_year": any(k in text for k in ["year", "annual", "this year", "last year", "yoy"]),
+        "mentions_quarter": any(k in text for k in ["quarter", "q1", "q2", "q3", "q4"]),
+        "mentions_broker": any(k in text for k in ["broker", "bd", "routing broker", "retail broker", "orders routed"]),
+        "mentions_venue": any(k in text for k in ["venue", "exchange", "market center", "market maker","wholesaler","executing broker"]),
+        "mentions_trend": (
+            any(k in text for k in ["trend", "compare", "change over", "increase", "decrease"])
+            or ("was that month also" in text) or ("also the largest" in text)
+        ),
+        "mentions_ats": any(k in text for k in ["ats", "alternative trading system", "finra","dark pool","ATS"]),
+        "mentions_tape": any(k in text for k in ["tape a", "tape b", "tape c", "tape","NYSE-listed","NASDAQ-listed","AMEX-listed","ETFs","ETNs","stocks"]),
+        "mentions_market_share": any(k in text for k in ["market share", "percentage share", "share of market", "percent share", "share %", "share pct", "share percentage"]),
+        "mentions_entity_type": any(k in text for k in ["entity type", "exchange", "market maker", "organization"]),
+        "mentions_streak": any(k in text for k in ["streak", "consecutive", "longest run", "longest streak"]),
+        "mentions_longest": any(k in text for k in ["longest", "max", "record"]),
+        "mentions_first": any(k in text for k in ["first", "earliest", "beginning", "start"]),
+        "mentions_orders": any(k in text for k in ["order", "orders", "got the most orders", "most orders", "received the most orders"]),
+        
+        # Default None, filled by logic or NLP
         "year": None,
         "month": None,
+        "quarter": None,
+        "executing_bd": None,
+        "venue": None,
         "stock_group": "SP500" if any(k in user_input.upper() for k in ["SP500", "S&P 500", "S&P500"]) else None,
     }
 
-    # --- Extract numeric year (e.g. 2023, 2024) ---
+    # Basic Regex Year Extraction (Fallback if NLP fails)
     match_year = re.search(r"\b(20[0-9]{2})\b", user_input)
     if match_year:
         tags["year"] = int(match_year.group(1))
 
-    # --- Extract month if present ---
-    months = [
-        "january", "february", "march", "april", "may", "june",
-        "july", "august", "september", "october", "november", "december"
-    ]
-    for i, m in enumerate(months, start=1):
-        if m in text:
-            tags["month"] = i
+    # Basic Month Name Extraction (Fallback if NLP is unavailable)
+    for m_name, m_num in MONTHS_MAP.items():
+        if m_name in text:
+            tags["month"] = m_num
+            tags["mentions_month"] = True
             break
+
+    # Attempt to resolve venue from DB Alias
+    try:
+        resolved_venue = resolve_venue(user_input)
+        if resolved_venue:
+            tags["venue"] = resolved_venue
+    except Exception:
+        pass
+
+    # --- INTEGRATION POINT: Apply NLP Refinement ---
+    if NLP_MODEL:
+        tags = disambiguate_context(user_input, tags)
 
     return tags
 
@@ -227,6 +445,40 @@ def build_targeted_guidance_rules(query_tags: Dict, relevant_tables: List[str]) 
         "Use AVG(...) for rate-based queries."
     ]
     
+    # monthly_data-specific rules to avoid GROUP BY errors on 'day'
+    if 'monthly_data' in relevant_tables:
+        rules.extend([
+            "For monthly_data, do not select raw 'day' unless you GROUP BY it.",
+            "For month-level trends: SELECT EXTRACT(MONTH FROM day) AS month and GROUP BY EXTRACT(MONTH FROM day).",
+            "For quarter-level trends: SELECT EXTRACT(QUARTER FROM day) AS quarter and GROUP BY EXTRACT(QUARTER FROM day).",
+            "For year-level trends: SELECT EXTRACT(YEAR FROM day) AS year and GROUP BY EXTRACT(YEAR FROM day).",
+            "Prefer COUNT(DISTINCT day) for trading day counts; avoid selecting 'day' with aggregates.",
+        ])
+
+    # Market share-specific guidance
+    if query_tags.get('mentions_market_share') and 'monthly_data' in relevant_tables:
+        rules.extend([
+            "For market share, compute entity_shares / total_shares within the same period (month/quarter/year).",
+            "Use EXTRACT(QUARTER FROM day) or EXTRACT(MONTH FROM day) to bucket time, then rank share_pct.",
+            "If tapes are mentioned, use tape_a_shares + tape_b_shares + tape_c_shares; otherwise total_shares.",
+            "Filter out TRF/FINRA if the question is about exchanges only.",
+        ])
+
+    # CPH-specific guidance
+    if query_tags.get('mentions_cph') or query_tags.get('mentions_rate'):
+        rules.extend([
+            "For CPH questions, use *_cph columns (marketorderscph, marketablelimitorderscph, nonmarketablelimitorderscph, otherorderscph).",
+            "When ranking by highest CPH overall, compute GREATEST(...) across the *_cph columns per broker.",
+            "Group and rank within stock_group and specified time filters (year/month).",
+        ])
+    
+    # NLP-Derived Specificity
+    if query_tags.get('executing_bd'):
+        rules.append(f"Filter specifically for broker: executing_bd = '{query_tags['executing_bd']}'")
+    
+    if query_tags.get('venue'):
+        rules.append(f"Filter specifically for venue: venues = '{query_tags['venue']}'")
+
     # PFOF-specific rules
     if query_tags.get('mentions_pfof') and 'executing_bd_606' in relevant_tables:
         rules.extend([
@@ -239,8 +491,9 @@ def build_targeted_guidance_rules(query_tags: Dict, relevant_tables: List[str]) 
     
     # Volume-specific rules
     if query_tags.get('mentions_volume'):
-        if 'executing_bd_606' in relevant_tables:
-            rules.append("For volume estimation: volume = (usd / cph) * 100")
+        if 'executing_bd_606' in relevant_tables and query_tags.get('mentions_pfof'):
+            rules.append("Only estimate volume from executing_bd_606 when explicitly asked; otherwise use PFOF USD totals.")
+            rules.append("For executing_bd_606 volume estimation: volume = (usd / cph) * 100")
         if 'monthly_data' in relevant_tables:
             rules.extend([
                 "For market volume, use total_shares or total_notional columns.",
@@ -253,7 +506,15 @@ def build_targeted_guidance_rules(query_tags: Dict, relevant_tables: List[str]) 
             "For time filtering, use string comparison: WHERE month = '1' not WHERE month = 1",
             "Use date functions for time-based analysis."
         ])
-    
+        
+        # Inject specific time filters if NLP found them
+        if query_tags.get('year'):
+            rules.append(f"Filter by year = {query_tags['year']}")
+        if query_tags.get('month'):
+            rules.append(f"Filter by month = '{query_tags['month']}'")
+        if query_tags.get('quarter'):
+             rules.append(f"Filter by quarter explicitly if column exists, or months {((query_tags['quarter']-1)*3)+1}-{query_tags['quarter']*3}")
+
     # Venue/broker rules
     if query_tags.get('mentions_venue') or query_tags.get('mentions_broker'):
         rules.extend([
@@ -309,7 +570,7 @@ Instructions:
 """
 
 # -----------------------------
-# Volume Estimation (from original query_framework.py)
+# Volume Estimation
 # -----------------------------
 
 def generate_volume_estimation_query(user_input: str, query_tags: Dict) -> str:
@@ -319,36 +580,36 @@ def generate_volume_estimation_query(user_input: str, query_tags: Dict) -> str:
     year = query_tags.get('year', 2024)
     stock_group = query_tags.get('stock_group', 'SP500')
     
-    # Determine if query is by venue or broker
+    # Use NLP derived entities if available, else fallbacks
+    venue = query_tags.get('venue')
+    executing_bd = query_tags.get('executing_bd')
+    
+    # Fallback logic if NLP didn't catch them but tags exist
     query_by_venue = query_tags.get('mentions_venue', False)
     
-    # Extract venue/broker from user input
-    venue = None
-    executing_bd = None
-    
-    # Simple venue/broker extraction (can be enhanced)
-    if query_by_venue:
-        # Look for venue names in the input
-        venue_keywords = ['citadel', 'cboe', 'nasdaq', 'nyse', 'bats', 'iex']
-        for keyword in venue_keywords:
-            if keyword.lower() in user_input.lower():
-                # This would need to be resolved through venue_mapping
-                venue = keyword.upper()  # Simplified for now
-                break
-    else:
-        # Look for broker names
-        broker_keywords = ['robinhood', 'schwab', 'fidelity', 'etrade']
-        for keyword in broker_keywords:
-            if keyword.lower() in user_input.lower():
-                executing_bd = keyword.upper()  # Simplified for now
-                break
+    if not venue and not executing_bd:
+         # Simple venue/broker extraction (can be enhanced)
+        if query_by_venue:
+            # Look for venue names in the input
+            venue_keywords = ['citadel', 'cboe', 'nasdaq', 'nyse', 'bats', 'iex']
+            for keyword in venue_keywords:
+                if keyword.lower() in user_input.lower():
+                    venue = keyword.upper() 
+                    break
+        else:
+            # Look for broker names
+            broker_keywords = ['robinhood', 'schwab', 'fidelity', 'etrade']
+            for keyword in broker_keywords:
+                if keyword.lower() in user_input.lower():
+                    executing_bd = keyword.upper()
+                    break
     
     return generate_volume_estimation_query_detailed(
         year=year,
         stock_group=stock_group,
         executing_bd=executing_bd,
         venue=venue,
-        query_by_venue=query_by_venue
+        query_by_venue=bool(venue) or query_by_venue
     )
 
 def generate_volume_estimation_query_detailed(year: int = 2024, stock_group: str = 'SP500', executing_bd: str = None, venue: str = None, query_by_venue: bool = False) -> str:
@@ -421,7 +682,7 @@ LIMIT 1;
 """
 
 # -----------------------------
-# SQL Sanitization (from original query_framework.py)
+# SQL Sanitization
 # -----------------------------
 
 def sanitize_sql_output(sql: str) -> str:
@@ -448,7 +709,7 @@ def sanitize_sql_output(sql: str) -> str:
     return sql.strip()
 
 # -----------------------------
-# Venue Resolution (from original query_framework.py)
+# Venue Resolution
 # -----------------------------
 
 def resolve_venue_from_db(user_input: str) -> Optional[str]:
@@ -492,7 +753,7 @@ def resolve_venue_from_db(user_input: str) -> Optional[str]:
         return None
         
     except Exception as e:
-        print(f"Error resolving venue: {e}")
+        # print(f"Error resolving venue: {e}")
         return None
 
 def resolve_venue(user_input: str) -> Optional[str]:
@@ -500,7 +761,7 @@ def resolve_venue(user_input: str) -> Optional[str]:
     return resolve_venue_from_db(user_input)
 
 # -----------------------------
-# Broker Resolution (from original query_framework.py)
+# Broker Resolution
 # -----------------------------
 
 def load_broker_aliases(filename: str = "executing_bd_aliases.json") -> dict:
@@ -535,4 +796,4 @@ DEFAULT_GUIDANCE_RULES = [
     "Use GROUP BY and SUM(...) for total PFOF queries.",
     "Use AVG(..._cph) for rate-based queries.",
     "Only generate read-only SQL queries."
-]
+    ]

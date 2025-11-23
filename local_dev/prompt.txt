@@ -33,9 +33,9 @@ Note: The dataset does not include a column named `order_type`. However, users m
 - `marketablelimitpct`: marketable limit orders
 - `nonmarketablelimitpct`: non-marketable limit orders
 - `otherpct`: other order types
-- all questions regarding dollar amounts of "PFOF" will require values from column_names that begin with "netpmtaidrec" and end "usd"
-- all questions regarding payment amounts will require values from column_names that begin with "netpmtaidrec" and with "cph"
-- If a user asks to "break down by order type" or compare order types, interpret that as referring to these three fields.
+- all questions regarding dollar amounts of "PFOF" will require values from column_names that begin with "netpmtpaidrecv" and end "usd"
+- all questions regarding per share amount of "PFOF" will require values from column_names that begin with "netpmtpaidrecv" and end with "cph"
+- If a user asks to "break down by order type" or compare order types, interpret that as referring to fields that contain "marketorder","marketablelimitorder" and "nonmarketablelimitorder". Break down PFOF by order type would mean to calculate separate numbers for  netpmtpaidrecvmarketordersusd and the two other columns. 
 - Only generate read-only SQL queries. Do not modify the database.
 - Respond with only the SQL query.
 - Always use `SELECT DISTINCT ...` when you are only listing values from a single column .

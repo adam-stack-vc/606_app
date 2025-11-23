@@ -1,0 +1,62 @@
+{
+  "executing_bd_to_venue": {
+    "verbs": ["sent", "routed", "forwarded", "delivered", "received", "got"],
+    "subject_role": "executing_bd",
+    "object_role": "venue",
+    "implied_metric": "volume",
+    "examples": [
+      "Robinhood sent orders to Citadel",
+      "Citadel received orders from Robinhood"
+    ]
+  },
+  "venue_to_executing_bd": {
+    "verbs": ["paid", "gave", "rebated", "compensated", "credited"],
+    "subject_role": "venue",
+    "object_role": "executing_bd",
+    "implied_metric": "pfof",
+    "examples": [
+      "Citadel paid Robinhood for order flow",
+      "Virtu compensated brokers for routing volume"
+    ]
+  },
+  "executing_bd_to_customer": {
+    "verbs": ["executed", "handled", "placed", "filled"],
+    "subject_role": "executing_bd",
+    "object_role": "customer",
+    "implied_metric": "execution_quality",
+    "examples": [
+      "Schwab executed orders for its clients",
+      "Fidelity filled customer orders quickly"
+    ]
+  },
+  "venue_to_market": {
+    "verbs": ["posted", "provided", "supplied", "traded"],
+    "subject_role": "venue",
+    "object_role": "market",
+    "implied_metric": "liquidity",
+    "examples": [
+      "IEX posted liquidity to the market",
+      "CBOE traded record volumes"
+    ]
+  },
+  "venue_to_regulator": {
+    "verbs": ["reported", "filed", "submitted"],
+    "subject_role": "venue",
+    "object_role": "regulator",
+    "implied_metric": "disclosure",
+    "examples": [
+      "FINRA ATSs reported quarterly data to the SEC",
+      "Nasdaq filed Form 1 updates with the regulator"
+    ]
+  },
+  "issuer_to_market": {
+    "verbs": ["issued", "listed", "offered", "sold"],
+    "subject_role": "issuer",
+    "object_role": "market",
+    "implied_metric": "issuance_volume",
+    "examples": [
+      "BlackRock listed a new ETF",
+      "Coinbase offered shares on Nasdaq"
+    ]
+  }
+}

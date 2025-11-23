@@ -8,8 +8,24 @@ from multi_table_query_framework import (
     load_all_schemas,
     route_query,
     classify_query_enhanced,
+    generate_market_data_query,
     generate_volume_estimation_query,
     sanitize_sql_output
+)
+from handlers.executing_bd_606_handler import (
+    generate_top_cph_brokers_query,
+    generate_top_pfof_broker_per_stock_group_query,
+    generate_top_pfof_broker_per_order_type_query,
+    generate_earliest_pfof_month_query,
+    generate_earliest_pfof_by_broker_query,
+    generate_longest_broker_venue_streak_query,
+    generate_top_pfof_broker_per_quarter_query,
+)
+from handlers.monthly_data_handler import (
+    generate_top_exchange_share_per_quarter_query,
+)
+from handlers.finra_ats_handler import (
+    generate_top_ats_shares_per_quarter_query,
 )
 
 # Load environment variables
@@ -26,6 +42,7 @@ conn = psycopg2.connect(
     user=os.getenv("DB_USER"),
     password=os.getenv("DB_PASSWORD"),
 )
+conn.autocommit = True
 cursor = conn.cursor()
 
 def ask_multi_table(question: str):
@@ -65,46 +82,419 @@ def ask_multi_table(question: str):
     sql = sanitize_sql_output(sql)
     
     try:
-        # Execute the query
+        # Execute the primary query
         cursor.execute(sql)
         results = cursor.fetchall()
-        
-        # Get column names
         column_names = [desc[0] for desc in cursor.description] if cursor.description else []
-        
-        # Format results
-        if results:
-            formatted_results = []
-            for row in results:
-                formatted_results.append(dict(zip(column_names, row)))
-            
-            return {
-                "question": question,
-                "sql": sql,
-                "results": formatted_results,
-                "row_count": len(formatted_results),
-                "relevant_tables": relevant_tables,
-                "query_classification": query_tags
+        primary_formatted = [dict(zip(column_names, row)) for row in results] if results else []
+
+        # Build query_results with primary
+        query_results = {
+            'primary': {
+                'description': 'Primary query result',
+                'query': sql,
+                'results': primary_formatted,
+                'row_count': len(primary_formatted),
             }
+        }
+
+        # Add market_data if month/quarter mentioned
+        if query_tags.get('mentions_trend') or query_tags.get('mentions_month') or query_tags.get('mentions_quarter'):
+            try:
+                md_sql = generate_market_data_query(query_tags)
+                cursor.execute(md_sql)
+                md_rows = cursor.fetchall()
+                md_cols = [d[0] for d in cursor.description] if cursor.description else []
+                md_fmt = [dict(zip(md_cols, r)) for r in md_rows]
+                query_results['market_data'] = {
+                    'description': 'Market volume data from monthly_data',
+                    'query': md_sql,
+                    'results': md_fmt,
+                    'row_count': len(md_fmt)
+                }
+            except Exception as e_md:
+                query_results['market_data'] = {
+                    'description': 'Market volume data from monthly_data',
+                    'query': md_sql,
+                    'error': str(e_md),
+                    'row_count': 0
+                }
+
+        # Add cph_data if asked about rate/CPH
+        if query_tags.get('mentions_cph') or (query_tags.get('mentions_rate') and query_tags.get('mentions_broker')):
+            try:
+                cph_sql = generate_top_cph_brokers_query(query_tags)
+                cursor.execute(cph_sql)
+                cph_rows = cursor.fetchall()
+                cph_cols = [d[0] for d in cursor.description] if cursor.description else []
+                cph_fmt = [dict(zip(cph_cols, r)) for r in cph_rows]
+                query_results['cph_data'] = {
+                    'description': 'Top brokers by CPH per stock group from executing_bd_606',
+                    'query': cph_sql,
+                    'results': cph_fmt,
+                    'row_count': len(cph_fmt)
+                }
+            except Exception as e_cph:
+                query_results['cph_data'] = {
+                    'description': 'Top brokers by CPH per stock group from executing_bd_606',
+                    'query': cph_sql,
+                    'error': str(e_cph),
+                    'row_count': 0
+                }
+
+        # Add pfof_by_stock_group when asking across stock groups
+        if query_tags.get('mentions_pfof') and ('stock group' in question.lower() or query_tags.get('mentions_order_type')):
+            try:
+                sgs_sql = generate_top_pfof_broker_per_stock_group_query(query_tags)
+                cursor.execute(sgs_sql)
+                sgs_rows = cursor.fetchall()
+                sgs_cols = [d[0] for d in cursor.description] if cursor.description else []
+                sgs_fmt = [dict(zip(sgs_cols, r)) for r in sgs_rows]
+                query_results['pfof_by_stock_group'] = {
+                    'description': 'Top broker by total PFOF per stock group from executing_bd_606',
+                    'query': sgs_sql,
+                    'results': sgs_fmt,
+                    'row_count': len(sgs_fmt)
+                }
+            except Exception as e_sgs:
+                query_results['pfof_by_stock_group'] = {
+                    'description': 'Top broker by total PFOF per stock group from executing_bd_606',
+                    'query': sgs_sql,
+                    'error': str(e_sgs),
+                    'row_count': 0
+                }
+
+        # Add pfof_by_order_type when order types mentioned
+        if query_tags.get('mentions_pfof') and query_tags.get('mentions_order_type'):
+            try:
+                ot_sql = generate_top_pfof_broker_per_order_type_query(query_tags)
+                cursor.execute(ot_sql)
+                ot_rows = cursor.fetchall()
+                ot_cols = [d[0] for d in cursor.description] if cursor.description else []
+                ot_fmt = [dict(zip(ot_cols, r)) for r in ot_rows]
+                query_results['pfof_by_order_type'] = {
+                    'description': 'Top broker by total PFOF per order type from executing_bd_606',
+                    'query': ot_sql,
+                    'results': ot_fmt,
+                    'row_count': len(ot_fmt)
+                }
+            except Exception as e_ot:
+                query_results['pfof_by_order_type'] = {
+                    'description': 'Top broker by total PFOF per order type from executing_bd_606',
+                    'query': ot_sql,
+                    'error': str(e_ot),
+                    'row_count': 0
+                }
+
+        # Earliest PFOF month (overall and per-broker)
+        if query_tags.get('mentions_pfof') and query_tags.get('mentions_first'):
+            try:
+                e_sql = generate_earliest_pfof_month_query()
+                cursor.execute(e_sql)
+                e_rows = cursor.fetchall()
+                e_cols = [d[0] for d in cursor.description] if cursor.description else []
+                e_fmt = [dict(zip(e_cols, r)) for r in e_rows]
+                query_results['earliest_pfof_month'] = {
+                    'description': 'Earliest month/year with PFOF > 0',
+                    'query': e_sql,
+                    'results': e_fmt,
+                    'row_count': len(e_fmt)
+                }
+            except Exception as e_e:
+                query_results['earliest_pfof_month'] = {
+                    'description': 'Earliest month/year with PFOF > 0',
+                    'query': e_sql,
+                    'error': str(e_e),
+                    'row_count': 0
+                }
+            try:
+                eb_sql = generate_earliest_pfof_by_broker_query()
+                cursor.execute(eb_sql)
+                eb_rows = cursor.fetchall()
+                eb_cols = [d[0] for d in cursor.description] if cursor.description else []
+                eb_fmt = [dict(zip(eb_cols, r)) for r in eb_rows]
+                query_results['earliest_pfof_by_broker'] = {
+                    'description': 'Earliest month/year per broker with PFOF > 0',
+                    'query': eb_sql,
+                    'results': eb_fmt,
+                    'row_count': len(eb_fmt)
+                }
+            except Exception as e_eb:
+                query_results['earliest_pfof_by_broker'] = {
+                    'description': 'Earliest month/year per broker with PFOF > 0',
+                    'query': eb_sql,
+                    'error': str(e_eb),
+                    'row_count': 0
+                }
+
+        # Longest broker→venue streak
+        if query_tags.get('mentions_streak'):
+            try:
+                st_sql = generate_longest_broker_venue_streak_query()
+                cursor.execute(st_sql)
+                st_rows = cursor.fetchall()
+                st_cols = [d[0] for d in cursor.description] if cursor.description else []
+                st_fmt = [dict(zip(st_cols, r)) for r in st_rows]
+                query_results['streak_data'] = {
+                    'description': 'Longest consecutive month streak with PFOF > 0 per broker→venue pair',
+                    'query': st_sql,
+                    'results': st_fmt,
+                    'row_count': len(st_fmt)
+                }
+            except Exception as e_st:
+                query_results['streak_data'] = {
+                    'description': 'Longest consecutive month streak with PFOF > 0 per broker→venue pair',
+                    'query': st_sql,
+                    'error': str(e_st),
+                    'row_count': 0
+                }
+
+        # Quarter-based PFOF top broker
+        if query_tags.get('mentions_pfof') and (query_tags.get('mentions_quarter') or query_tags.get('year')):
+            try:
+                pq_sql = generate_top_pfof_broker_per_quarter_query(query_tags)
+                cursor.execute(pq_sql)
+                pq_rows = cursor.fetchall()
+                pq_cols = [d[0] for d in cursor.description] if cursor.description else []
+                pq_fmt = [dict(zip(pq_cols, r)) for r in pq_rows]
+                query_results['pfof_by_quarter'] = {
+                    'description': 'Top broker by total PFOF per quarter from executing_bd_606',
+                    'query': pq_sql,
+                    'results': pq_fmt,
+                    'row_count': len(pq_fmt)
+                }
+            except Exception as e_pq:
+                query_results['pfof_by_quarter'] = {
+                    'description': 'Top broker by total PFOF per quarter from executing_bd_606',
+                    'query': pq_sql,
+                    'error': str(e_pq),
+                    'row_count': 0
+                }
+
+        # Exchange with largest market share per quarter
+        if query_tags.get('mentions_market_share') and (query_tags.get('mentions_quarter') or query_tags.get('year')):
+            try:
+                es_sql = generate_top_exchange_share_per_quarter_query(query_tags)
+                cursor.execute(es_sql)
+                es_rows = cursor.fetchall()
+                es_cols = [d[0] for d in cursor.description] if cursor.description else []
+                es_fmt = [dict(zip(es_cols, r)) for r in es_rows]
+                query_results['exchange_share_by_quarter'] = {
+                    'description': 'Exchange with largest market share per quarter from monthly_data',
+                    'query': es_sql,
+                    'results': es_fmt,
+                    'row_count': len(es_fmt)
+                }
+            except Exception as e_es:
+                query_results['exchange_share_by_quarter'] = {
+                    'description': 'Exchange with largest market share per quarter from monthly_data',
+                    'query': es_sql,
+                    'error': str(e_es),
+                    'row_count': 0
+                }
+
+        # ATS with highest share volume per quarter
+        if query_tags.get('mentions_ats') and (query_tags.get('mentions_quarter') or query_tags.get('year')):
+            try:
+                ats_sql = generate_top_ats_shares_per_quarter_query(query_tags)
+                cursor.execute(ats_sql)
+                ats_rows = cursor.fetchall()
+                ats_cols = [d[0] for d in cursor.description] if cursor.description else []
+                ats_fmt = [dict(zip(ats_cols, r)) for r in ats_rows]
+                query_results['ats_top_by_quarter'] = {
+                    'description': 'ATS with highest share volume per quarter from finra_ats',
+                    'query': ats_sql,
+                    'results': ats_fmt,
+                    'row_count': len(ats_fmt)
+                }
+            except Exception as e_ats:
+                query_results['ats_top_by_quarter'] = {
+                    'description': 'ATS with highest share volume per quarter from finra_ats',
+                    'query': ats_sql,
+                    'error': str(e_ats),
+                    'row_count': 0
+                }
+
+        # Deterministic synthesis (subset of hybrid)
+        synthesis = _multi_deterministic_synthesis(query_results, query_tags)
+
+        return {
+            'question': question,
+            'query_results': query_results,
+            'synthesis': synthesis,
+            'query_classification': query_tags
+        }
+            
+    except Exception as e:
+        error_msg = str(e)
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        
+        # Fallback: If LLM SQL against monthly_data failed due to GROUP BY/day issues,
+        # use a deterministic monthly_data aggregation query.
+        if ("monthly_data" in sql.lower() or "monthly_data" in error_msg.lower()) and (
+            "must appear in the GROUP BY clause" in error_msg.lower() or
+            "column" in error_msg.lower() and "day" in error_msg.lower()
+        ):
+            try:
+                fallback_sql = generate_market_data_query(query_tags)
+                cursor.execute(fallback_sql)
+                results = cursor.fetchall()
+                column_names = [desc[0] for desc in cursor.description] if cursor.description else []
+                formatted_results = [dict(zip(column_names, row)) for row in results]
+                return {
+                    "question": question,
+                    "sql": fallback_sql,
+                    "results": formatted_results,
+                    "row_count": len(formatted_results),
+                    "relevant_tables": relevant_tables,
+                    "query_classification": query_tags,
+                    "note": "Used deterministic monthly_data fallback due to GROUP BY/day aggregation error"
+                }
+            except Exception as e2:
+                return {
+                    "question": question,
+                    "sql": sql,
+                    "error": f"{error_msg} | Fallback error: {str(e2)}",
+                    "relevant_tables": relevant_tables,
+                    "query_classification": query_tags
+                }
         else:
             return {
                 "question": question,
                 "sql": sql,
-                "results": [],
-                "row_count": 0,
-                "message": "No results found",
+                "error": error_msg,
                 "relevant_tables": relevant_tables,
                 "query_classification": query_tags
             }
             
-    except Exception as e:
-        return {
-            "question": question,
-            "sql": sql,
-            "error": str(e),
-            "relevant_tables": relevant_tables,
-            "query_classification": query_tags
-        }
+def _multi_deterministic_synthesis(query_results: dict, query_tags: dict) -> str:
+    # CPH summary
+    try:
+        if 'cph_data' in query_results and 'results' in query_results['cph_data'] and query_results['cph_data']['results']:
+            rows = query_results['cph_data']['results']
+            seen = set()
+            grouped = {}
+            for r in rows:
+                key = (r.get('executing_bd'), r.get('stock_group'), float(r.get('cph_max') or 0))
+                if key in seen:
+                    continue
+                seen.add(key)
+                sg = r.get('stock_group') or 'Unknown'
+                grouped.setdefault(sg, []).append((r.get('executing_bd'), r.get('cph_max')))
+            lines = []
+            period = []
+            if query_tags.get('month'):
+                month_map = {1:'January',2:'February',3:'March',4:'April',5:'May',6:'June',7:'July',8:'August',9:'September',10:'October',11:'November',12:'December'}
+                m = query_tags['month']
+                month_name = month_map.get(m, str(m)) if isinstance(m, int) else str(m)
+                period.append(month_name)
+            if query_tags.get('year'):
+                period.append(str(query_tags['year']))
+            period_str = ' '.join(period) if period else 'the requested period'
+            for sg in sorted(grouped.keys()):
+                top = grouped[sg][:3]
+                parts = [f"{name} ({cph:.2f} cph)" for name, cph in top if name is not None and cph is not None]
+                if parts:
+                    lines.append(f"{sg}: " + ", ".join(parts))
+            if lines:
+                return (
+                    f"Top brokers by PFOF rate (CPH) in {period_str}, per stock group:\n" + "\n".join(f"- {ln}" for ln in lines)
+                )
+    except Exception:
+        pass
+
+    # PFOF by stock group
+    try:
+        if 'pfof_by_stock_group' in query_results and 'results' in query_results['pfof_by_stock_group'] and query_results['pfof_by_stock_group']['results']:
+            rows = query_results['pfof_by_stock_group']['results']
+            grouped = {}
+            for r in rows:
+                sg = r.get('stock_group') or 'Unknown'
+                grouped[sg] = (r.get('executing_bd'), r.get('total_pfof_usd'))
+            period = []
+            if query_tags.get('month'):
+                month_map = {1:'January',2:'February',3:'March',4:'April',5:'May',6:'June',7:'July',8:'August',9:'September',10:'October',11:'November',12:'December'}
+                m = query_tags['month']
+                month_name = month_map.get(m, str(m)) if isinstance(m, int) else str(m)
+                period.append(month_name)
+            if query_tags.get('year'):
+                period.append(str(query_tags['year']))
+            period_str = ' '.join(period) if period else 'the requested period'
+            lines = []
+            for sg in sorted(grouped.keys()):
+                name, usd = grouped[sg]
+                if name is not None and usd is not None:
+                    lines.append(f"{sg}: {name} (${usd:,.2f})")
+            if lines:
+                return f"Top broker by PFOF in {period_str}, per stock group:\n" + "\n".join(f"- {ln}" for ln in lines)
+    except Exception:
+        pass
+
+    # PFOF by order type
+    try:
+        if 'pfof_by_order_type' in query_results and 'results' in query_results['pfof_by_order_type'] and query_results['pfof_by_order_type']['results']:
+            rows = query_results['pfof_by_order_type']['results']
+            mapping = {
+                'market': 'Market Orders',
+                'marketable_limit': 'Marketable Limit Orders',
+                'nonmarketable_limit': 'Nonmarketable Limit Orders',
+                'other': 'Other Orders'
+            }
+            results_map = {}
+            for r in rows:
+                ot = r.get('order_type')
+                results_map[ot] = (r.get('executing_bd'), r.get('total_pfof_usd'))
+            period = []
+            if query_tags.get('month'):
+                month_map = {1:'January',2:'February',3:'March',4:'April',5:'May',6:'June',7:'July',8:'August',9:'September',10:'October',11:'November',12:'December'}
+                m = query_tags['month']
+                month_name = month_map.get(m, str(m)) if isinstance(m, int) else str(m)
+                period.append(month_name)
+            if query_tags.get('year'):
+                period.append(str(query_tags['year']))
+            period_str = ' '.join(period) if period else 'the requested period'
+            lines = []
+            for key, label in mapping.items():
+                if key in results_map:
+                    name, usd = results_map[key]
+                    if name is not None and usd is not None:
+                        lines.append(f"{label}: {name} (${usd:,.2f})")
+            if lines:
+                return f"Top broker by PFOF in {period_str}, per order type:\n" + "\n".join(f"- {ln}" for ln in lines)
+    except Exception:
+        pass
+
+    # Earliest PFOF month
+    try:
+        if 'earliest_pfof_month' in query_results and 'results' in query_results['earliest_pfof_month'] and query_results['earliest_pfof_month']['results']:
+            r = query_results['earliest_pfof_month']['results'][0]
+            y = r.get('year')
+            m = r.get('month')
+            total = r.get('total_pfof_usd')
+            return f"Earliest PFOF observed: {m}/{y} (total ${total:,.2f})."
+    except Exception:
+        pass
+
+    # Longest streak summary
+    try:
+        if 'streak_data' in query_results and 'results' in query_results['streak_data'] and query_results['streak_data']['results']:
+            r = query_results['streak_data']['results'][0]
+            ed = r.get('executing_bd')
+            vn = r.get('venues')
+            sl = r.get('streak_length')
+            sy = r.get('start_year')
+            sm = r.get('start_month')
+            ey = r.get('end_year')
+            em = r.get('end_month')
+            return f"Longest broker→venue streak: {ed} → {vn}, {sl} months ({sm}/{sy} to {em}/{ey})."
+    except Exception:
+        pass
+
+    # Fallback: no deterministic synthesis
+    return ""
 
 # Backward compatibility function
 def ask(question: str):

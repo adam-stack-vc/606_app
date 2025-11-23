@@ -94,3 +94,7 @@ config.json
 # Large files / Docker images
 *.tar.gz
 fastapi-*.tar.gz
+
+# Local dev data ignores
+local_dev/**/*.csv
+local_dev/*.csv

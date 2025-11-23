@@ -5,10 +5,7 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 from hybrid_query_handler import (
-    route_hybrid_query,
-    is_simple_two_table_query,
-    is_complex_multi_table_query,
-    is_virtu_ats_query
+    route_hybrid_query
 )
 from multi_table_query_framework import classify_query_enhanced
 
@@ -26,56 +23,20 @@ conn = psycopg2.connect(
     user=os.getenv("DB_USER"),
     password=os.getenv("DB_PASSWORD"),
 )
+conn.autocommit = True
 cursor = conn.cursor()
 
 def ask_hybrid(question: str):
-    """Hybrid ask function that routes queries to appropriate handlers"""
-    
-    # Classify the query
+    """Hybrid ask that always delegates to the router (complex multi-table)."""
+    # Classify first for logging/debug
     query_tags = classify_query_enhanced(question)
-    
     print(f"🔍 Query Classification: {query_tags}")
-    
-    # Route to appropriate handler
-    if is_virtu_ats_query(query_tags):
-        print("🔗 Routing to Virtu ATS handler")
-        result = route_hybrid_query(question, query_tags)
-        
-        # Format response for API
-        return {
-            "question": question,
-            "sql": result.get("main_query", ""),
-            "context_sql": result.get("context_query", ""),
-            "results": result.get("main_results", []),
-            "context_results": result.get("context_results", []),
-            "response": result.get("response", ""),
-            "query_type": "two_table_virtu_ats",
-            "query_classification": query_tags,
-            "row_count": len(result.get("main_results", []))
-        }
-        
-    elif is_simple_two_table_query(query_tags):
-        print("🔗 Routing to two-table handler")
-        result = route_hybrid_query(question, query_tags)
-        
-        # Format response for API
-        return {
-            "question": question,
-            "sql": result.get("main_query", ""),
-            "context_sql": result.get("context_query", ""),
-            "results": result.get("main_results", []),
-            "context_results": result.get("context_results", []),
-            "response": result.get("response", ""),
-            "query_type": "two_table_time_based",
-            "query_classification": query_tags,
-            "row_count": len(result.get("main_results", []))
-        }
-        
-    elif is_complex_multi_table_query(query_tags):
-        print("🔗 Routing to complex multi-table handler")
-        result = route_hybrid_query(question, query_tags)
-        
-        # Format response for API
+
+    # Always use router (which now always returns complex multi-table results)
+    result = route_hybrid_query(question, query_tags)
+
+    # If router produced multi-table results
+    if isinstance(result, dict) and result.get("query_results") is not None:
         return {
             "question": question,
             "sql": "Multiple queries executed",
@@ -85,26 +46,23 @@ def ask_hybrid(question: str):
             "query_classification": query_tags,
             "row_count": sum(r.get("row_count", 0) for r in result.get("query_results", {}).values())
         }
-        
-    else:
-        print("🔗 Routing to single-table handler (fallback)")
-        # Fallback to existing single-table logic
-        from ask606 import ask
-        result = ask(question)
-        
-        # Ensure result is a dict, not a list
-        if isinstance(result, list):
-            return {
-                "question": question,
-                "sql": "Single table query",
-                "results": result,
-                "response": f"Found {len(result)} results",
-                "query_type": "single_table_fallback",
-                "query_classification": query_tags,
-                "row_count": len(result)
-            }
-        else:
-            return result
+
+    # If router returned a two-table style dict
+    if isinstance(result, dict) and (result.get("main_query") is not None or result.get("main_results") is not None):
+        return {
+            "question": question,
+            "sql": result.get("main_query", ""),
+            "context_sql": result.get("context_query", ""),
+            "results": result.get("main_results", []),
+            "context_results": result.get("context_results", []),
+            "response": result.get("response", ""),
+            "query_type": result.get("query_type", "two_table"),
+            "query_classification": query_tags,
+            "row_count": len(result.get("main_results", []))
+        }
+
+    # Final fallback: return whatever the router returned
+    return result
 
 # Backward compatibility function
 def ask(question: str):

@@ -1,0 +1,34 @@
+{
+  "id": "test_001",
+  "category": "multi_table_join",
+  "subcategory": "pfof_volume_correlation",
+  "natural_language": "What's the relationship between PFOF payments and market volume for Citadel in 2024?",
+  "expected_tables": ["executing_bd_606", "monthly_data", "venue_mapping"],
+  "expected_joins": ["executing_bd_606.venues = venue_mapping.canonical_name"],
+  "expected_sql": "SELECT e.executing_bd, SUM(e.netpmtpaidrecvmarketordersusd) as total_pfof...",need to include volume
+  "validation_criteria": {
+    "must_include_tables": ["executing_bd_606", "monthly_data"],
+    "must_have_join": true,
+    "must_filter_year": 2024,
+    "must_aggregate": true
+  }
+}
+
+{
+    "id": "test_001",
+    "category": "multi_table_join",
+    "subcategory": "pfof_volume_correlation",
+    "natural_language": "What's the relationship between PFOF payments and market volume for Citadel in 2024?",
+    "expected_tables": ["executing_bd_606", "monthly_data", "venue_mapping"],
+    "expected_joins": ["executing_bd_606.venues = venue_mapping.canonical_name"],
+    "expected_sql": "SELECT e.executing_bd, SUM(e.netpmtpaidrecvmarketordersusd) as total_pfof...",
+    "validation_criteria": {
+      "must_include_tables": ["executing_bd_606", "monthly_data"],
+      "must_have_join": true,
+      "must_filter_year": 2024,
+      "must_aggregate": true
+    }
+  }
+
+  "natural_language": "What's the relationship between PFOF payments and market volume for Citadel in 2024?",
+634

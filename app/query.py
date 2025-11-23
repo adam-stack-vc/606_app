@@ -29,6 +29,7 @@ def run_query_from_nl(prompt: str):
     year = tags.get("year", 2024)
     stock_group = tags.get("stock_group", "SP500")
     executing_bd = tags.get("executing_bd")
+    venue = tags.get("venue")
 
     sql = ""
     cur = None
@@ -37,14 +38,30 @@ def run_query_from_nl(prompt: str):
     try:
         # Custom logic router
         if tags.get("mentions_volume"):
-            sql = generate_volume_estimation_query(year=year, stock_group=stock_group, executing_bd=executing_bd)
-            print("🔁 Routed to: generate_volume_estimation_query")
+            # Check if this is a venue-based query
+            is_venue_query = "venue" in prompt.lower() or venue is not None
+            sql = generate_volume_estimation_query(
+                year=year, 
+                stock_group=stock_group, 
+                executing_bd=executing_bd,
+                venue=venue,
+                query_by_venue=is_venue_query
+            )
+            query_type = "venue-based" if is_venue_query else "broker-based"
+            print(f"🔁 Routed to: generate_volume_estimation_query ({query_type})")
         else:
+            # Build enhanced prompt with resolved entities
+            enhanced_prompt = prompt
+            if venue:
+                enhanced_prompt += f"\n\nNote: The venue '{venue}' has been identified and should be used in the query."
+            if executing_bd:
+                enhanced_prompt += f"\n\nNote: The executing broker '{executing_bd}' has been identified and should be used in the query."
+            
             response = client.chat.completions.create(
                 model="gpt-4",
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": f"Translate this to SQL: {prompt}"}
+                    {"role": "user", "content": f"Translate this to SQL: {enhanced_prompt}"}
                 ]
             )
             raw_sql = response.choices[0].message.content
