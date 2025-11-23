@@ -1,0 +1,195 @@
+{
+  "functions": [
+    {
+      "function_id": "private_funds",
+      "name": "Private Funds",
+      "positive_cues": [
+        "crypto hedge fund",
+        "digital asset private fund",
+        "fund-of-funds disclosure",
+        "alternative assets",
+        "hedge funds",
+        "Decentralized Autonomous Organization",
+        "DAO",
+        "LAO"
+      ],
+      "negative_cues": [
+        "municipal",
+        "proxy",
+        "40act",
+        "mutual fund",
+        "ETF",
+        "unit investment trust"
+      ]
+    },
+  {
+    "function_id": "defi_protocols",
+    "name": "Decentralized Finance (DeFi) Protocols",
+    "positive_cues": [
+      "smart contract",
+      "automated market maker",
+      "amm",
+      "yield farming",
+      "decentralized exchange",
+      "dex",
+      "protocol governance",
+      "oracle",
+      "atomic swap",
+      "atomic settlement",
+      "FOP",
+      "wormhole"
+    ],
+    "negative_cues": [
+      "centralized exchange",
+      "centrealized order book",
+      "custody rule",
+      "order protection"
+    
+    ]
+  },
+  {
+    "function_id": "stablecoin_regulation",
+    "name": "Stablecoin Regulation & Oversight",
+    "positive_cues": [
+      "stablecoin",
+      "stablecoins",
+      "usd coin",
+      "tether",
+      "usdc",
+      "usdt",
+      "peg",
+      "redemption rights",
+      "reserve disclosure",
+      "fiat-backed",
+      "asset-backed stablecoin",
+      "proof of reserves",
+      "proof of reserves audits"
+    ],
+    "negative_cues": [
+      "equity securities",
+      "mutual fund",
+      "broker-dealer",
+      "money market fund"
+    ]
+  },
+  {
+    "function_id": "tokenized_securities",
+    "name": "Token Market Infrastructure",
+    "positive_cues": [
+      "tokenization",
+      "tokenized securities",
+      "distributed ledger",
+      "blockchain settlement",
+      "digital bond",
+      "digital fund share",
+      "programmable security",
+      "custody of tokenized assets",
+      "token wrapper",
+      "digital transfer agent",
+      "special purpose broker-dealer",
+      "SPBD"
+    ],
+    "negative_cues": [
+      "nft art",
+      "gaming token",
+      "airdrop"
+    ]
+  },
+  {
+    "function_id": "cbdc_policy",
+    "name": "Central Bank Digital Currencies (CBDCs)",
+    "positive_cues": [
+      "cbdc",
+      "central bank digital currency",
+      "digital dollar",
+      "digital euro",
+      "digital yuan",
+      "sovereign digital currency",
+      "federal reserve digital currency"
+    ],
+    "negative_cues": [
+      "stablecoin",
+      "tokenized security",
+      "defi"
+    ]
+  },
+  {
+    "function_id": "digital_custodians",
+    "name": "Digital Asset Custody",
+    "positive_cues": [
+      "digital asset custody",
+      "qualified custodian",
+      "cold wallet",
+      "hot wallet",
+      "custody of crypto assets",
+      "advisers act custody",
+      "safeguarding client assets",
+      "collateralized custody"
+    
+    ],
+    "negative_cues": [
+      "bank custody",
+      "transfer agent",
+      "mutual fund custodian"
+    ]
+  },
+  {
+    "function_id": "staking_services",
+    "name": "Staking-as-a-Service & Delegation",
+    "positive_cues": [
+      "staking-as-a-service",
+      "staking service",
+      "validator",
+      "delegation",
+      "slashing",
+      "staking rewards"
+    ],
+    "negative_cues": [
+      "bank staking",
+      "bond staking"
+    ]
+  },
+  {
+    "function_id": "broker_custody_rule_digital",
+    "name": "Broker-Dealer Custody of Digital Assets (15c3-3)",
+    "positive_cues": [
+      "15c3-3",
+      "customer protection rule",
+      "special reserve bank account",
+      "control location",
+      "possession or control",
+      "digital asset broker"
+    ],
+    "negative_cues": [
+      "advisers act custody only"
+    ]
+  },
+ {
+    "function_id": "market_data",
+    "name": "Market Data",
+    "positive_cues": [
+      "market data",
+      "price feeds",
+      "market information",
+      "trading data",
+      "real-time quotes"
+    ],
+    "negative_cues": []
+  },
+  {
+    "function_id": "crypto_execution_and_onramp",
+    "name": "Crypto Execution and Onramp",
+    "positive_cues": [
+      "crypto execution",
+      "crypto onramp",
+      "fiat to crypto",
+      "crypto trading",
+      "digital asset trading"
+    ],
+    "negative_cues": []
+  }
+  ],
+  "persons_mentioned": [],
+  "companies_mentioned": [],
+  "cryptos_mentioned": []
+}

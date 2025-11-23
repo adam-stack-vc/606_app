@@ -1,0 +1,121 @@
+# SEC Crypto Document Analysis Instructions
+
+## Overview
+Analyze the provided markdown content and extract structured information according to the specified schema. Focus on precision, accuracy, and completeness in your analysis.
+
+## Decision Rules
+
+### 1. Function-ID Assignment
+When evaluating whether to assign content to a function_id:
+- Content must be **strongly signaled** by matching topics to positive cues
+- **Avoid negative cues** - if negative cues are present, do not assign that function_id
+- Use **exact matching** and **semantic understanding** of the content
+- Ignore scoring mechanisms - focus on clear signal strength
+
+**Naming Convention:**
+- `function_id`: lowercase snake_case; concise and unambiguous
+- `name`: concise title-case label (e.g., "Market Making")
+- `definition`: 1–2 sentences, capability-oriented, not company-specific
+
+### 2. Entity Extraction Rules
+
+#### Persons Mentioned
+- Extract **all names** mentioned in the content
+- Include full names when available
+- Use pipe-separated format (|) for multiple names
+- Focus on people, not companies or organizations
+
+#### Cryptos Mentioned
+- Match **cryptocurrencies** and **tokenized securities** mentioned
+- Include both formal names and common abbreviations
+- Be comprehensive but accurate
+
+#### Companies Mentioned
+- Extract **all company names** mentioned in the content
+- Include both formal legal names and common business names
+- Distinguish between companies and individuals
+
+### 3. Document Metadata Extraction
+
+#### Author Extraction
+- Look at **top and bottom** of the content for author information
+- Include all listed authors
+- Use array format for multiple authors
+
+#### Date Extraction
+- Look at **top and bottom** of the content for date information
+- Format as mm-dd-yy (e.g., "03-13-25")
+- Use the most recent or primary date if multiple dates exist
+
+#### Company/Organization
+- Extract the **primary company or organization** associated with the content
+- Look for letterhead, signatures, or organizational context
+
+### 4. Regulatory Analysis
+
+#### Crypto Persona Classification
+Using web search and content analysis, categorize the company as:
+- **TradFi**: Traditional financial institution
+- **Crypto Native**: Crypto-focused company
+- **NA**: Not applicable or unclear
+
+#### Regulatory Belief Analysis
+- **Reg_Belief_Tokens**: Determine if content suggests tokenized securities should have:
+  - **less** regulation than traditional securities
+  - **same** regulation as traditional securities  
+  - **more** regulation than traditional securities
+
+- **Reg_Belief_Evidence**: Extract or construct a passage that reflects the regulatory belief about tokens
+- **Reg_Belief_Disclosure**: Extract specific disclosures mentioned about tokens
+- **Reg_Belief_Disclosure_Evidence**: Extract passage or summary reflecting regulatory belief about disclosures
+
+### 5. Content Analysis
+
+#### Key Points
+- Summarize **no more than 5** key points
+- Each point should be **no more than 25 words**
+- Focus on the most important arguments or positions
+- Be concise but comprehensive
+
+#### Guiding Principles
+Determine the overarching principles reflected in the content. Choose from:
+- **investor protection**
+- **capital formation** 
+- **fair and orderly markets**
+- **investor choice**
+- **technology modernization**
+- **lack of trust with intermediaries**
+
+Select **no more than 2** principles that best represent the content's underlying philosophy.
+
+## Output Requirements
+
+### Format Precision
+- Use **exact field names** as specified in the schema
+- Follow **data type requirements** (arrays vs strings)
+- Maintain **consistent formatting** across all fields
+- Ensure **complete responses** for all required fields
+
+### Quality Standards
+- **Accuracy**: Base analysis on actual content, not assumptions
+- **Completeness**: Fill all required fields with appropriate values
+- **Precision**: Use specific, actionable language
+- **Consistency**: Maintain logical coherence across related fields
+
+### Error Handling
+- If information is not available, use appropriate default values
+- For enum fields, choose the closest match or "NA" if unclear
+- For arrays, use empty arrays `[]` if no items found
+- For strings, use empty strings `""` if no content available
+
+## Analysis Process
+
+1. **Read the entire content** carefully
+2. **Identify function matches** using positive/negative cue analysis
+3. **Extract entities** systematically (persons, cryptos, companies)
+4. **Analyze regulatory positions** and supporting evidence
+5. **Summarize key points** and identify guiding principles
+6. **Verify completeness** of all required fields
+7. **Format response** according to schema requirements
+
+Remember: Your analysis should be thorough, accurate, and directly based on the provided content. Avoid speculation and focus on what is explicitly stated or clearly implied.

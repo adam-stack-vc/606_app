@@ -28,6 +28,20 @@ from handlers.finra_ats_handler import (
     generate_top_ats_shares_per_quarter_query,
 )
 
+# Optional NL2SQL semantic hint adapter (hints only by default)
+try:
+    from semantic_sql_adapter import (  # type: ignore
+        get_sql_hint as _get_sql_hint,
+        build_intent_from_user_input as _build_intent,
+        build_final_sql as _build_final_sql,
+    )
+    _ADAPTER_OK = True
+except Exception:  # adapter or deps may be absent; fall back gracefully
+    _ADAPTER_OK = False
+    _get_sql_hint = lambda q, i: None  # type: ignore
+    _build_intent = lambda q, t: t  # type: ignore
+    _build_final_sql = lambda i, h=None: None  # type: ignore
+
 # Load environment variables
 load_dotenv()
 
@@ -60,6 +74,9 @@ def ask_multi_table(question: str):
     print(f"🔍 Query Classification: {query_tags}")
     print(f"📊 Relevant Tables: {relevant_tables}")
     
+    hint_sql = None
+    final_hint_sql = None
+
     # Check if this is a volume query and route to custom function
     if query_tags.get("mentions_volume"):
         print("📈 Volume query detected - using custom volume estimation")
@@ -78,8 +95,23 @@ def ask_multi_table(question: str):
         )
         sql = response.choices[0].message.content.strip()
     
-    # Sanitize the SQL
+    # Sanitize the SQL from LLM output
     sql = sanitize_sql_output(sql)
+
+    # Optionally compute and (optionally) apply semantic NL2SQL hints
+    try:
+        show_hints = os.getenv("SHOW_SEMANTIC_HINTS", "false").lower() == "true"
+        use_hints = os.getenv("USE_SEMANTIC_HINTS", "false").lower() == "true"
+        if _ADAPTER_OK and (show_hints or use_hints):
+            intent = _build_intent(question, dict(query_tags))
+            hint_sql = _get_sql_hint(question, intent)
+            if use_hints and hint_sql:
+                final_hint_sql = _build_final_sql(intent, hint_sql)
+                if final_hint_sql:
+                    sql = sanitize_sql_output(final_hint_sql)
+    except Exception:
+        # Do not block execution if adapter or deps are missing
+        pass
     
     try:
         # Execute the primary query
@@ -97,6 +129,19 @@ def ask_multi_table(question: str):
                 'row_count': len(primary_formatted),
             }
         }
+
+        # Attach semantic hint info for transparency if requested
+        try:
+            show_hints = os.getenv("SHOW_SEMANTIC_HINTS", "false").lower() == "true"
+            use_hints = os.getenv("USE_SEMANTIC_HINTS", "false").lower() == "true"
+            if _ADAPTER_OK and (show_hints or use_hints):
+                query_results['semantic_nl2sql'] = {
+                    'used': use_hints,
+                    'hint': hint_sql,
+                    'final_sql': final_hint_sql,
+                }
+        except Exception:
+            pass
 
         # Add market_data if month/quarter mentioned
         if query_tags.get('mentions_trend') or query_tags.get('mentions_month') or query_tags.get('mentions_quarter'):

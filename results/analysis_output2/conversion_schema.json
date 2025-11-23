@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "filename": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "sentiment": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "text_length": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "string"
+    },
+    "processing_info": {
+      "type": "object",
+      "properties": {
+        "converted_at": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "converted_at",
+        "source_file"
+      ]
+    }
+  },
+  "required": [
+    "filename",
+    "url",
+    "text",
+    "source",
+    "processing_info"
+  ]
+}

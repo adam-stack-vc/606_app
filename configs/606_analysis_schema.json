@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "filename": {
+      "type": "string",
+      "description": "The name of the file being analyzed"
+    },
+    "date": {
+      "type": "string",
+      "description": "The date of the document"
+    },
+    "author": {
+      "type": "string", 
+      "description": "The author of the document"
+    },
+    "author_role": {
+      "type": "string",
+      "description": "The role of the author"
+    },
+    "company": {
+      "type": "string",
+      "description": "The company or organization"
+    },
+    "company_role": {
+      "type": "string",
+      "description": "The role of the company in the industry"
+    },
+    "pfof_stance": {
+      "type": "string",
+      "enum": ["positive", "neutral", "negative"],
+      "description": "Document has a positive, neutral, or negative stance on PFOF"
+    },
+    "pfof_evidence": {
+      "type": "string",
+      "description": "Evidence for the PFOF stance"
+    }
+  },
+  "required": ["filename", "date", "author", "author_role", "company", "company_role", "pfof_stance", "pfof_evidence"]
+}

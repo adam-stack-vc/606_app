@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>SOFI</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-28T21:27:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>72.55</ndoMarketPct>
+      <ndoMarketableLimitPct>0.66</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.77</ndoNonmarketableLimitPct>
+      <ndoOtherPct>21.02</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>35.24</orderPct>
+          <marketPct>28.33</marketPct>
+          <marketableLimitPct>9.92</marketableLimitPct>
+          <nonMarketableLimitPct>5.78</nonMarketableLimitPct>
+          <otherPct>67.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1779.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.9888</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.6659</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>618.87</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9475</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Virtu Americas. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Virtu Americas by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>22.55</orderPct>
+          <marketPct>27.21</marketPct>
+          <marketableLimitPct>13.60</marketableLimitPct>
+          <nonMarketableLimitPct>9.04</nonMarketableLimitPct>
+          <otherPct>10.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1747.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.6557</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8312</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>740.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT</name>
+          <orderPct>18.09</orderPct>
+          <marketPct>21.11</marketPct>
+          <marketableLimitPct>8.47</marketableLimitPct>
+          <nonMarketableLimitPct>9.11</nonMarketableLimitPct>
+          <otherPct>10.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1246.43</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.3684</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8773</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>587.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Husdon River Trading. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Hudson River Trading by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>7.32</orderPct>
+          <marketPct>9.40</marketPct>
+          <marketableLimitPct>3.79</marketableLimitPct>
+          <nonMarketableLimitPct>8.24</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>581.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.4706</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.9012</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at GTS Securities LLC. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to GTS Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>6.18</orderPct>
+          <marketPct>4.67</marketPct>
+          <marketableLimitPct>2.68</marketableLimitPct>
+          <nonMarketableLimitPct>8.38</nonMarketableLimitPct>
+          <otherPct>10.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>339.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.6667</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8907</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>726.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.9997</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Citadel by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.52</orderPct>
+          <marketPct>4.76</marketPct>
+          <marketableLimitPct>2.45</marketableLimitPct>
+          <nonMarketableLimitPct>0.84</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>284.21</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.7273</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.7576</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Canaccord Genuity. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Canaccord Genuity by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>3.29</orderPct>
+          <marketPct>4.52</marketPct>
+          <marketableLimitPct>1.78</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>279.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at G1 Execution Services. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to G1 Executions Services by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>1.80</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>18.95</marketableLimitPct>
+          <nonMarketableLimitPct>28.27</nonMarketableLimitPct>
+          <otherPct>0.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.7895</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>155.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.9256</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-7.35</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.0521</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at NYSE Arca. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to NYSE Arca by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>0.87</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.58</marketableLimitPct>
+          <nonMarketableLimitPct>13.99</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-19.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-89.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-16.8427</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at The Nasdaq Stock Market. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to The Nasdaq Stock Market by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>other</name>
+          <orderPct>0.38</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.04</marketableLimitPct>
+          <nonMarketableLimitPct>5.30</nonMarketableLimitPct>
+          <otherPct>0.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.1590</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-23.99</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-13.7300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>68.79</ndoMarketPct>
+      <ndoMarketableLimitPct>1.35</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>4.37</ndoNonmarketableLimitPct>
+      <ndoOtherPct>25.49</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>34.95</orderPct>
+          <marketPct>28.25</marketPct>
+          <marketableLimitPct>16.82</marketableLimitPct>
+          <nonMarketableLimitPct>4.75</nonMarketableLimitPct>
+          <otherPct>59.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>41990.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9854</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>85.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.6816</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>17.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.0110</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13900.35</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.4324</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Virtu Americas. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Virtu Americas by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>22.40</orderPct>
+          <marketPct>26.98</marketPct>
+          <marketableLimitPct>15.88</marketableLimitPct>
+          <nonMarketableLimitPct>6.37</nonMarketableLimitPct>
+          <otherPct>13.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>44115.32</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9625</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>51.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.5058</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>42.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.4484</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>14330.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.4328</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT</name>
+          <orderPct>18.47</orderPct>
+          <marketPct>21.17</marketPct>
+          <marketableLimitPct>12.39</marketableLimitPct>
+          <nonMarketableLimitPct>7.41</nonMarketableLimitPct>
+          <otherPct>13.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>32195.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9851</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>37.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.4796</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>46.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.2683</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>12653.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.2396</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Hudson River Trading. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Hudson River Trading by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>7.19</orderPct>
+          <marketPct>4.80</marketPct>
+          <marketableLimitPct>3.43</marketableLimitPct>
+          <nonMarketableLimitPct>7.46</nonMarketableLimitPct>
+          <otherPct>13.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>16218.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9018</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0173</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>22.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.4510</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>16526.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.5859</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Citadel by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>6.85</orderPct>
+          <marketPct>9.41</marketPct>
+          <marketableLimitPct>6.63</marketableLimitPct>
+          <nonMarketableLimitPct>6.42</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>16021.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9844</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>19.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.4575</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>22.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.7872</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at GTS Securities LLC. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to GTS Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.33</orderPct>
+          <marketPct>4.75</marketPct>
+          <marketableLimitPct>2.84</marketableLimitPct>
+          <nonMarketableLimitPct>0.57</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7867.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.8813</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.7244</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6.87</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.2924</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Canaccord Genuity. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Canaccord Genuity by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>3.22</orderPct>
+          <marketPct>4.63</marketPct>
+          <marketableLimitPct>2.54</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9888.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9868</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.0308</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at G1 Execution Sevices. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to G1 Executions Services by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>1.59</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>12.41</marketableLimitPct>
+          <nonMarketableLimitPct>30.90</nonMarketableLimitPct>
+          <otherPct>0.30</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>138.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>1.7302</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>506.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.0602</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-44.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.9602</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at NYSE Arca. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to NYSE Arca by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>0.75</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.59</marketableLimitPct>
+          <nonMarketableLimitPct>14.76</nonMarketableLimitPct>
+          <otherPct>0.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-416.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-22.6998</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-929.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.5776</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-131.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.8221</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at The Nasdaq Stock Market. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to The Nasdaq Stock Market by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>other</name>
+          <orderPct>0.44</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>9.87</marketableLimitPct>
+          <nonMarketableLimitPct>6.76</nonMarketableLimitPct>
+          <otherPct>0.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-458.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.1525</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-338.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.2967</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-94.38</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-17.6447</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.73</ndoMarketPct>
+      <ndoMarketableLimitPct>51.60</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>47.21</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.47</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>26.17</orderPct>
+          <marketPct>25.40</marketPct>
+          <marketableLimitPct>25.57</marketableLimitPct>
+          <nonMarketableLimitPct>26.69</nonMarketableLimitPct>
+          <otherPct>40.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>356.62</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.4711</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>57898.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>24.4241</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>33646.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.0633</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>773.26</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.1869</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel Securities LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Citadel Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>22.03</orderPct>
+          <marketPct>21.11</marketPct>
+          <marketableLimitPct>21.94</marketableLimitPct>
+          <nonMarketableLimitPct>22.14</nonMarketableLimitPct>
+          <otherPct>22.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>391.78</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.5030</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>45961.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.5268</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>26595.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.0755</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>426.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.6404</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Global Execution Brokers LP. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Global Execution Brokers LP by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash Financial Technologies</name>
+          <orderPct>17.46</orderPct>
+          <marketPct>16.48</marketPct>
+          <marketableLimitPct>17.75</marketableLimitPct>
+          <nonMarketableLimitPct>17.17</nonMarketableLimitPct>
+          <otherPct>16.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>206.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.2180</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>34389.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.0285</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19550.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.9459</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>319.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.6427</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Dash Financial Technologies. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Dash Financial Technologies by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>WATERSHED</name>
+          <orderPct>10.73</orderPct>
+          <marketPct>10.34</marketPct>
+          <marketableLimitPct>10.79</marketableLimitPct>
+          <nonMarketableLimitPct>10.67</nonMarketableLimitPct>
+          <otherPct>10.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>294.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.7627</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>19296.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.6388</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12162.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.9113</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>477.07</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.7194</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Watershed. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Watershed by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>9.70</orderPct>
+          <marketPct>10.60</marketPct>
+          <marketableLimitPct>9.31</marketableLimitPct>
+          <nonMarketableLimitPct>10.11</nonMarketableLimitPct>
+          <otherPct>10.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>249.04</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0040</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>21940.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>24.9308</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>14996.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.9663</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>145.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.6947</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Wolverine Execution Services, LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Wolverine Execution Services, LLC  by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.34</orderPct>
+          <marketPct>10.51</marketPct>
+          <marketableLimitPct>8.87</marketableLimitPct>
+          <nonMarketableLimitPct>7.80</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>338.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.1633</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>14949.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.6981</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9011.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.8952</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>5.58</orderPct>
+          <marketPct>5.55</marketPct>
+          <marketableLimitPct>5.76</marketableLimitPct>
+          <nonMarketableLimitPct>5.43</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>164.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>19.9727</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>11564.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.7026</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6218.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.4933</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Matrix Executions, LLC / Simplex Trading, LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Matrix Executions, LLC / Simplex Trading, LLC by Apex for execution.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>75.85</ndoMarketPct>
+      <ndoMarketableLimitPct>0.26</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>2.45</ndoNonmarketableLimitPct>
+      <ndoOtherPct>21.43</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>36.26</orderPct>
+          <marketPct>28.14</marketPct>
+          <marketableLimitPct>26.59</marketableLimitPct>
+          <nonMarketableLimitPct>14.88</nonMarketableLimitPct>
+          <otherPct>67.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2125.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.4545</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.7754</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>594.69</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.6423</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Virtu Americas. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Virtu Americas by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT</name>
+          <orderPct>19.58</orderPct>
+          <marketPct>21.96</marketPct>
+          <marketableLimitPct>19.94</marketableLimitPct>
+          <nonMarketableLimitPct>23.24</nonMarketableLimitPct>
+          <otherPct>10.74</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1552.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.4545</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.73</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8672</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>475.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Husdon River Trading. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Hudson River Trading by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>18.55</orderPct>
+          <marketPct>20.81</marketPct>
+          <marketableLimitPct>21.15</marketableLimitPct>
+          <nonMarketableLimitPct>17.78</nonMarketableLimitPct>
+          <otherPct>10.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1579.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.9143</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8409</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>587.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>11.72</orderPct>
+          <marketPct>14.75</marketPct>
+          <marketableLimitPct>19.34</marketableLimitPct>
+          <nonMarketableLimitPct>19.64</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1111.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.7500</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8298</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at GTS Securities LLC. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to GTS Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>6.44</orderPct>
+          <marketPct>4.60</marketPct>
+          <marketableLimitPct>7.25</marketableLimitPct>
+          <nonMarketableLimitPct>22.50</nonMarketableLimitPct>
+          <otherPct>11.09</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>452.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.3333</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.9543</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>656.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Citadel by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.89</orderPct>
+          <marketPct>5.06</marketPct>
+          <marketableLimitPct>3.32</marketableLimitPct>
+          <nonMarketableLimitPct>1.96</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>348.17</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.7273</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.6066</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Canaccord Genuity. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Canaccord Genuity by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>3.55</orderPct>
+          <marketPct>4.68</marketPct>
+          <marketableLimitPct>2.42</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>357.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.01</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at G1 Execution Services. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to G1 Executions Services by Apex for execution.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>71.56</ndoMarketPct>
+      <ndoMarketableLimitPct>1.30</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>1.95</ndoNonmarketableLimitPct>
+      <ndoOtherPct>25.19</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>35.73</orderPct>
+          <marketPct>28.04</marketPct>
+          <marketableLimitPct>27.19</marketableLimitPct>
+          <nonMarketableLimitPct>11.72</nonMarketableLimitPct>
+          <otherPct>59.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>38266.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9587</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>70.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.4426</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.9135</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11895.22</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.7963</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Virtu Americas. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Virtu Americas by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT</name>
+          <orderPct>19.75</orderPct>
+          <marketPct>21.85</marketPct>
+          <marketableLimitPct>22.26</marketableLimitPct>
+          <nonMarketableLimitPct>24.63</nonMarketableLimitPct>
+          <otherPct>13.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>31846.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9797</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>53.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.4148</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>20.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.4825</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>10135.88</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.6941</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Hudson River Trading. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Hudson River Trading by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>18.82</orderPct>
+          <marketPct>20.91</marketPct>
+          <marketableLimitPct>22.46</marketableLimitPct>
+          <nonMarketableLimitPct>17.69</nonMarketableLimitPct>
+          <otherPct>12.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>27967.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9750</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>38.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.1761</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>35.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.9499</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>12721.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.6947</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>11.32</orderPct>
+          <marketPct>15.01</marketPct>
+          <marketableLimitPct>14.81</marketableLimitPct>
+          <nonMarketableLimitPct>19.73</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>28356.27</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9623</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.5608</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10.61</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.6357</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at GTS Securities LLC. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to GTS Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>7.44</orderPct>
+          <marketPct>4.68</marketPct>
+          <marketableLimitPct>5.11</marketableLimitPct>
+          <nonMarketableLimitPct>24.87</nonMarketableLimitPct>
+          <otherPct>14.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>15915.61</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9454</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>18.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.6440</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>32.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.2796</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>14132.24</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.4250</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Citadel by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.57</orderPct>
+          <marketPct>4.88</marketPct>
+          <marketableLimitPct>4.33</marketableLimitPct>
+          <nonMarketableLimitPct>1.36</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7454.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9040</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0233</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.6522</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Canaccord Genuity. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Canaccord Genuity by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>3.37</orderPct>
+          <marketPct>4.63</marketPct>
+          <marketableLimitPct>3.84</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8770.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9937</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.2936</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at G1 Execution Sevices. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to G1 Executions Services by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>0.00</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Two Sigma Securities. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Two Sigma Securities by Apex for execution.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.80</ndoMarketPct>
+      <ndoMarketableLimitPct>49.89</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>48.86</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.45</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>25.41</orderPct>
+          <marketPct>25.26</marketPct>
+          <marketableLimitPct>24.78</marketableLimitPct>
+          <nonMarketableLimitPct>25.91</nonMarketableLimitPct>
+          <otherPct>41.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>298.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.2560</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>39922.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.8100</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>28156.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.6787</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>797.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.0571</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel Securities LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Citadel Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash Financial Technologies</name>
+          <orderPct>22.21</orderPct>
+          <marketPct>21.42</marketPct>
+          <marketableLimitPct>22.29</marketableLimitPct>
+          <nonMarketableLimitPct>22.17</nonMarketableLimitPct>
+          <otherPct>19.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>427.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.3018</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>35814.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.7317</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>23642.73</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.6272</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>224.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.8080</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Dash Financial Technologies. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Dash Financial Technologies by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>19.52</orderPct>
+          <marketPct>21.02</marketPct>
+          <marketableLimitPct>19.44</marketableLimitPct>
+          <nonMarketableLimitPct>19.58</nonMarketableLimitPct>
+          <otherPct>19.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>274.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.2312</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>31420.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.3073</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>21572.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.1680</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>224.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.6867</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Global Execution Brokers LP. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Global Execution Brokers LP by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>11.33</orderPct>
+          <marketPct>11.91</marketPct>
+          <marketableLimitPct>11.06</marketableLimitPct>
+          <nonMarketableLimitPct>11.61</nonMarketableLimitPct>
+          <otherPct>11.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>181.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.1729</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>19547.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.0860</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11936.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.1909</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>111.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.6644</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Wolverine Execution Services, LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Wolverine Execution Services, LLC  by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.48</orderPct>
+          <marketPct>9.03</marketPct>
+          <marketableLimitPct>9.20</marketableLimitPct>
+          <nonMarketableLimitPct>7.81</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>76.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>19.6595</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12678.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.4008</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8392.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.7070</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>WATERSHED</name>
+          <orderPct>7.32</orderPct>
+          <marketPct>6.00</marketPct>
+          <marketableLimitPct>7.37</marketableLimitPct>
+          <nonMarketableLimitPct>7.28</nonMarketableLimitPct>
+          <otherPct>9.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>64.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.0014</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>11609.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.0261</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7358.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.1723</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>102.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.6284</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Watershed. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Watershed by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>5.73</orderPct>
+          <marketPct>5.36</marketPct>
+          <marketableLimitPct>5.86</marketableLimitPct>
+          <nonMarketableLimitPct>5.64</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>44.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.2115</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8134.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.4402</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6107.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.1461</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Matrix Executions, LLC / Simplex Trading, LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Matrix Executions, LLC / Simplex Trading, LLC by Apex for execution.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>72.72</ndoMarketPct>
+      <ndoMarketableLimitPct>0.68</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.75</ndoNonmarketableLimitPct>
+      <ndoOtherPct>20.85</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>34.75</orderPct>
+          <marketPct>28.06</marketPct>
+          <marketableLimitPct>10.14</marketableLimitPct>
+          <nonMarketableLimitPct>5.62</nonMarketableLimitPct>
+          <otherPct>66.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1827.47</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.9341</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8498</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>625.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9588</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Virtu Americas. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Virtu Americas by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT</name>
+          <orderPct>18.05</orderPct>
+          <marketPct>21.08</marketPct>
+          <marketableLimitPct>7.58</marketableLimitPct>
+          <nonMarketableLimitPct>9.04</nonMarketableLimitPct>
+          <otherPct>10.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1516.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.9412</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8950</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>518.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Husdon River Trading. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Hudson River Trading by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>17.28</orderPct>
+          <marketPct>19.98</marketPct>
+          <marketableLimitPct>6.80</marketableLimitPct>
+          <nonMarketableLimitPct>6.87</nonMarketableLimitPct>
+          <otherPct>11.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1302.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.9672</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.9386</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>710.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>12.71</orderPct>
+          <marketPct>16.81</marketPct>
+          <marketableLimitPct>6.69</marketableLimitPct>
+          <nonMarketableLimitPct>7.63</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1068.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.8000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.9033</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at GTS Securities LLC. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to GTS Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>6.02</orderPct>
+          <marketPct>4.34</marketPct>
+          <marketableLimitPct>2.34</marketableLimitPct>
+          <nonMarketableLimitPct>8.71</nonMarketableLimitPct>
+          <otherPct>11.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>308.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.9048</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.58</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.9758</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>745.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Citadel by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.70</orderPct>
+          <marketPct>5.02</marketPct>
+          <marketableLimitPct>1.34</marketableLimitPct>
+          <nonMarketableLimitPct>0.79</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>331.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>18.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8667</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Canaccord Genuity. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Canaccord Genuity by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>3.43</orderPct>
+          <marketPct>4.71</marketPct>
+          <marketableLimitPct>0.67</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>336.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.01</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at G1 Execution Services. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to G1 Executions Services by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>1.90</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>22.97</marketableLimitPct>
+          <nonMarketableLimitPct>29.48</nonMarketableLimitPct>
+          <otherPct>0.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.6913</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>88.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>6.9259</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.81</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.5738</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at NYSE Arca. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to NYSE Arca by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>0.92</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.48</marketableLimitPct>
+          <nonMarketableLimitPct>14.45</nonMarketableLimitPct>
+          <otherPct>0.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-19.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-29.7774</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-92.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-20.6871</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-5.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-29.9528</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at The Nasdaq Stock Market. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to The Nasdaq Stock Market by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>other</name>
+          <orderPct>0.42</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.26</marketableLimitPct>
+          <nonMarketableLimitPct>5.91</nonMarketableLimitPct>
+          <otherPct>0.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-14.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-23.5645</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-21.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-11.1290</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-29.8837</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>68.51</ndoMarketPct>
+      <ndoMarketableLimitPct>2.25</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.50</ndoNonmarketableLimitPct>
+      <ndoOtherPct>23.74</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>33.85</orderPct>
+          <marketPct>28.12</marketPct>
+          <marketableLimitPct>20.14</marketableLimitPct>
+          <nonMarketableLimitPct>3.68</nonMarketableLimitPct>
+          <otherPct>58.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>44283.26</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9653</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>170.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.6013</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>57.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.5494</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>14982.24</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.3939</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Virtu Americas. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Virtu Americas by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT</name>
+          <orderPct>18.35</orderPct>
+          <marketPct>20.92</marketPct>
+          <marketableLimitPct>15.20</marketableLimitPct>
+          <nonMarketableLimitPct>8.85</nonMarketableLimitPct>
+          <otherPct>13.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>37291.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9657</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>87.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.4207</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>89.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.6207</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13498.24</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.7377</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Hudson River Trading. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Hudson River Trading by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>17.55</orderPct>
+          <marketPct>20.11</marketPct>
+          <marketableLimitPct>14.68</marketableLimitPct>
+          <nonMarketableLimitPct>5.98</nonMarketableLimitPct>
+          <otherPct>13.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>37556.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9451</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>149.37</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.6694</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>72.53</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.5453</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>15206.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.2777</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>12.17</orderPct>
+          <marketPct>16.76</marketPct>
+          <marketableLimitPct>12.30</marketableLimitPct>
+          <nonMarketableLimitPct>7.49</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>31665.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9748</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>153.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.7248</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>52.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.7523</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at GTS Securities LLC. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to GTS Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>6.98</orderPct>
+          <marketPct>4.52</marketPct>
+          <marketableLimitPct>3.19</marketableLimitPct>
+          <nonMarketableLimitPct>8.82</nonMarketableLimitPct>
+          <otherPct>14.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>21423.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9958</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>40.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.7708</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>66.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.0994</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20022.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.4753</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Citadel by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.47</orderPct>
+          <marketPct>4.91</marketPct>
+          <marketableLimitPct>3.72</marketableLimitPct>
+          <nonMarketableLimitPct>0.31</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9429.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9920</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.7688</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.4098</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Canaccord Genuity. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to Canaccord Genuity by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>3.27</orderPct>
+          <marketPct>4.66</marketPct>
+          <marketableLimitPct>3.68</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11274.26</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9996</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>140.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.9073</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at G1 Execution Sevices. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to G1 Executions Services by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>1.95</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.47</marketableLimitPct>
+          <nonMarketableLimitPct>30.22</nonMarketableLimitPct>
+          <otherPct>0.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-324.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.5568</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1388.61</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.9122</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>56.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.8430</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at NYSE Arca. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to NYSE Arca by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>0.88</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.39</marketableLimitPct>
+          <nonMarketableLimitPct>13.78</nonMarketableLimitPct>
+          <otherPct>0.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-549.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.8375</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1147.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.9713</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-91.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.1861</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at The Nasdaq Stock Market. SoFi and Apex have an 90%/10% (in favor of SoFi) split on all payment for order flow generated from SoFi’s equities orders routed to The Nasdaq Stock Market by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>other</name>
+          <orderPct>0.55</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.94</marketableLimitPct>
+          <nonMarketableLimitPct>6.85</nonMarketableLimitPct>
+          <otherPct>0.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-501.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.3488</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-849.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-9.6810</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-150.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-23.1563</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.67</ndoMarketPct>
+      <ndoMarketableLimitPct>49.78</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>49.06</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.49</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>25.86</orderPct>
+          <marketPct>24.25</marketPct>
+          <marketableLimitPct>25.17</marketableLimitPct>
+          <nonMarketableLimitPct>26.40</nonMarketableLimitPct>
+          <otherPct>42.81</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>279.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.2887</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>47281.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.5007</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>37544.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.4395</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>663.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>28.7632</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Citadel Securities LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Citadel Securities LLC by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash Financial Technologies</name>
+          <orderPct>19.91</orderPct>
+          <marketPct>18.73</marketPct>
+          <marketableLimitPct>20.04</marketableLimitPct>
+          <nonMarketableLimitPct>19.79</nonMarketableLimitPct>
+          <otherPct>20.96</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>253.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.2628</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>32620.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.7652</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>26396.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.6810</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>264.38</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.5577</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Dash Financial Technologies. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Dash Financial Technologies by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>19.74</orderPct>
+          <marketPct>19.38</marketPct>
+          <marketableLimitPct>19.94</marketableLimitPct>
+          <nonMarketableLimitPct>19.53</nonMarketableLimitPct>
+          <otherPct>20.29</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>318.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.9008</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>34671.45</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.1311</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>25667.39</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.7027</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>367.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.7072</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Global Execution Brokers LP. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Global Execution Brokers LP by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>12.30</orderPct>
+          <marketPct>14.44</marketPct>
+          <marketableLimitPct>12.65</marketableLimitPct>
+          <nonMarketableLimitPct>12.02</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>338.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.6595</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>22102.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.1039</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>17123.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.4509</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Jane Street Capital. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Jane Street Capital by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>9.27</orderPct>
+          <marketPct>10.14</marketPct>
+          <marketableLimitPct>9.11</marketableLimitPct>
+          <nonMarketableLimitPct>9.42</nonMarketableLimitPct>
+          <otherPct>8.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>171.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.0842</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>16897.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.1578</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11891.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.9152</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>220.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.1357</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Wolverine Execution Services, LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Wolverine Execution Services, LLC  by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>WATERSHED</name>
+          <orderPct>7.40</orderPct>
+          <marketPct>7.38</marketPct>
+          <marketableLimitPct>7.53</marketableLimitPct>
+          <nonMarketableLimitPct>7.28</nonMarketableLimitPct>
+          <otherPct>7.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>82.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.5330</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12991.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.6507</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8598.53</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.1240</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>130.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.4151</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Watershed. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Watershed by Apex for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>5.52</orderPct>
+          <marketPct>5.68</marketPct>
+          <marketableLimitPct>5.54</marketableLimitPct>
+          <nonMarketableLimitPct>5.55</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>92.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.6000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>9413.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.6829</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7664.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.8763</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SoFi Securities LLC ("SoFi") routes order flow to Apex Clearing Corporation (“Apex”) who in turn routes to and executes order flow at Matrix Executions, LLC / Simplex Trading, LLC. SoFi and Apex have an 95%/5% (in favor of SoFi) split on all payment for order flow generated from SoFi’s options orders routed to Matrix Executions, LLC / Simplex Trading, LLC by Apex for execution.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

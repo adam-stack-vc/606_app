@@ -1,0 +1,91 @@
+{
+  "filename": "row_084_tradersmagazine_com_extracted",
+  "url": "https://tradersmagazine.com/xtra/the-incredible-shrinking-market",
+  "title": "The Incredible Shrinking Market",
+  "date": "8/20/20",
+  "sentiment": "Negative",
+  "text": "----------------------------------------\nRetail-led irrational exuberance may or may not explain this week’s S&P 500 record highs, but 2020’s lockdown-inspired home trading explosion has reignited concerns about the uneasy coexistence of retail and institutional players in US equity markets. The conditions that are so attractive to newly active traders are leaving institutions feeling frustrated and restless.\nSince March, a combination of zero commissions and an unexpectedly isolated, remotely employed and sports-deprived population has ramped up retail brokerage volumes significantly. Metrics vary, but the phenomenon is epitomized by Silicon Valley newcomer Robinhood, which reported 13 million customers in May, three record trading days in June and a new round of funding this month, pushing its valuation beyond US$11 billion. Overall activity has dipped from the highs of the early lockdown, but volumes are still buoyant at approximately 10 billion shares traded per day.\nAs a legion of armchair investors work on their stock-picking skills, they may be oblivious to their commission rate, best execution and price improvement advantages over institutional traders. They may also be unconcerned that they are less the customer and more the product in payment-for-order-flow (PFOF) deals that reap handsome revenues for their retail brokers, which sell their orders on to wholesale market-makers.\nWholesale market makers have seen their equity market share rise from around a quarter to a third in recent quarters, buoyed in no small part by retail flow. “If you don’t have direct access to these liquidity providers, you’re missing out on a lot of the market,” said Larry Tabb, Head of Market Structure Research, Bloomberg Intelligence. “Their aggregation of order flow also means they know the direction in which the retail segment is pushing particular names. Thus they are gaining an advantage from seeing the flows coming through their pipes.”\nThese flows add value to the wholesale market-makers, but only in the equity options market do they make their way onto exchange, otherwise being crossed internally.\n“In both equities and options, retail investors know their orders will get filled at or inside the National Best Bid and Offer, but the market microstructure of the options market offers more opportunity for price improvement,” said Stino Milito, Co-COO at DASH Financial, a capital markets technology provider. In the options market, the wholesale market-maker will make a price to the retail broker, but the order must be executed via a cross on one of the 11 options exchanges, enabling other market-makers an opportunity to offer price improvement.\n“It’s a really good environment for these retail investors. But market bifurcation means large institutions don’t engage with retail flow that often,” said Mett Kinak, Global Head of Systematic Trading and Market Structure at T Rowe Price.\nPFOF arrangements notwithstanding, retail favourites may not hold strong appeal for long-term investors. Hertz, for example, has a strong retail following before filing for Chapter 11 bankruptcy in May. Whilst retail orders have turbocharged US equity trading volumes this year – rising from around seven billion per day prior to the pandemic to peaks of around 19 billion – this extra liquidity was rarely useful to longer-term investors.\n“Some may look at volumes and think we’re in a robust and plentiful market, but many institutions would say it’s difficult to find liquidity right now,” said Kinak. “That bifurcation is frustrating because you ideally want a market where everyone can engage with each other. And with all those retail trades being executed via wholesale market-makers, we also need to ask: what’s the effect on price discovery and overall accessible liquidity?”\nJustin Schack, Managing Director at Rosenblatt Securities, shares these concerns, noting that 45% of equity trading volume is currently executed off-exchange, without pre-trade price transparency, rising above 50-60% for some actively-traded names. Regulators have recently focused on reforms aimed at limiting the power of big exchange groups. But Schack argues for a broader approach, harmonizing a long-established two-tier system which imposes fewer regulatory burdens on off-board brokers, lending them a competitive advantage. “Off-exchange operators have a lot more flexibility when it comes to segmenting order flow. That means exchanges are fighting for market share with one arm tied behind their backs,” he said.\nT Rowe Price is among the founders of block crossing venue Luminex and Kinak is keen to encourage the development of additional channels and platforms on which institutions can trade – and post liquidity – in large size. Potentially positive initiatives include IEX’s plans for a new D-Limit order type, aimed at reducing the risk of adverse selection, and CBOE Global Markets’ intention to add a Quote Depletion Protection feature to its Midpoint Discretionary Order.\nKinak is also engaging with regulators. T Rowe Price has opposed extending Regulation NMS’s Order Protection Rule to sub-100-share round lots due to its potential impact on quote sizes. “If we reduce the protected size from 100 shares, that new level is what the prevailing quote size will become. Quoting in ever smaller increments will just make it harder to trade anything of size,” Kinak explained.\nFurther, Kinak notes the impending expansion of the US equity market from 13 exchanges to 16 with some trepidation, due to its likely diluting impact on liquidity. “We’re in favour of policies that aggregate liquidity, for example the removal of unlisted trading privileges and consolidating small-caps in a single venue where interest can be more easily aggregated. We don’t want to be in a position in five years where average trade size in certain stocks has shrunk to just a couple of shares.”",
+  "text_length": 5899,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.514087",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_084_tradersmagazine_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "Market Structure Research",
+    "Co-COO",
+    "Hertz",
+    "Rosenblatt Securities",
+    "Schack",
+    "IEX",
+    "CBOE Global Markets",
+    "Midpoint Discretionary Order",
+    "Regulation NMS’s Order Protection Rule"
+  ],
+  "persons_mentioned": [
+    "Larry Tabb",
+    "Bloomberg Intelligence",
+    "Offer",
+    "Stino Milito",
+    "Mett Kinak",
+    "Kinak",
+    "Justin Schack",
+    "Luminex"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "equity market data",
+          "limit order book",
+          "market maker",
+          "pre trade risk controls",
+          "pre-trade clearing",
+          "pre-trade risk",
+          "retail brokerage"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "equity market data": [
+          "equity market data"
+        ],
+        "exchange trading": [
+          "limit order book"
+        ],
+        "market making": [
+          "market maker"
+        ],
+        "pre trade risk controls": [
+          "pre trade risk controls"
+        ],
+        "pre trade process": [
+          "pre-trade clearing",
+          "pre-trade risk"
+        ],
+        "trading": [
+          "retail brokerage"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "equity market data",
+        "limit order book",
+        "market maker",
+        "pre trade risk controls",
+        "pre-trade clearing",
+        "pre-trade risk",
+        "retail brokerage"
+      ]
+    },
+    "content_length": 5899,
+    "word_count": 911
+  }
+}

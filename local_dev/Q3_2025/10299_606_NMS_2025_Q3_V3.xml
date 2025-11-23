@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20190331.xsd">
+  <version>1.2</version>
+  <bd>Cetera Advisors LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-29T13:00:02Z</timestamp>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>9</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>96.18</ndoMarketPct>
+        <ndoMarketableLimitPct>0.41</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>2.46</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.95</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>26.96</orderPct>
+              <marketPct>27.01</marketPct>
+              <marketableLimitPct>18.85</marketableLimitPct>
+              <nonMarketableLimitPct>25.65</nonMarketableLimitPct>
+              <otherPct>28.52</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>17.96</orderPct>
+              <marketPct>17.95</marketPct>
+              <marketableLimitPct>21.31</marketableLimitPct>
+              <nonMarketableLimitPct>17.60</nonMarketableLimitPct>
+              <otherPct>17.96</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.82</orderPct>
+              <marketPct>12.73</marketPct>
+              <marketableLimitPct>16.39</marketableLimitPct>
+              <nonMarketableLimitPct>15.55</nonMarketableLimitPct>
+              <otherPct>13.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>12.77</orderPct>
+              <marketPct>12.75</marketPct>
+              <marketableLimitPct>13.93</marketableLimitPct>
+              <nonMarketableLimitPct>14.32</nonMarketableLimitPct>
+              <otherPct>9.51</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.17</orderPct>
+              <marketPct>11.02</marketPct>
+              <marketableLimitPct>8.20</marketableLimitPct>
+              <nonMarketableLimitPct>14.73</nonMarketableLimitPct>
+              <otherPct>17.96</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.70</orderPct>
+              <marketPct>6.77</marketPct>
+              <marketableLimitPct>9.02</marketableLimitPct>
+              <nonMarketableLimitPct>5.18</nonMarketableLimitPct>
+              <otherPct>2.46</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.73</orderPct>
+              <marketPct>5.73</marketPct>
+              <marketableLimitPct>6.56</marketableLimitPct>
+              <nonMarketableLimitPct>3.82</nonMarketableLimitPct>
+              <otherPct>9.86</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>5.69</orderPct>
+              <marketPct>5.81</marketPct>
+              <marketableLimitPct>5.74</marketableLimitPct>
+              <nonMarketableLimitPct>3.00</nonMarketableLimitPct>
+              <otherPct>0.35</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.18</orderPct>
+              <marketPct>0.19</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.02</orderPct>
+              <marketPct>0.02</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>95.60</ndoMarketPct>
+        <ndoMarketableLimitPct>0.74</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>2.03</ndoNonmarketableLimitPct>
+        <ndoOtherPct>1.63</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>23.51</orderPct>
+              <marketPct>23.55</marketPct>
+              <marketableLimitPct>21.15</marketableLimitPct>
+              <nonMarketableLimitPct>24.31</nonMarketableLimitPct>
+              <otherPct>21.24</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>19.00</orderPct>
+              <marketPct>19.14</marketPct>
+              <marketableLimitPct>16.09</marketableLimitPct>
+              <nonMarketableLimitPct>19.32</nonMarketableLimitPct>
+              <otherPct>11.19</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>17.14</orderPct>
+              <marketPct>17.02</marketPct>
+              <marketableLimitPct>19.54</marketableLimitPct>
+              <nonMarketableLimitPct>17.90</nonMarketableLimitPct>
+              <otherPct>22.28</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>11.53</orderPct>
+              <marketPct>11.72</marketPct>
+              <marketableLimitPct>5.75</marketableLimitPct>
+              <nonMarketableLimitPct>9.33</nonMarketableLimitPct>
+              <otherPct>5.91</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.32</orderPct>
+              <marketPct>11.11</marketPct>
+              <marketableLimitPct>18.85</marketableLimitPct>
+              <nonMarketableLimitPct>13.16</nonMarketableLimitPct>
+              <otherPct>18.34</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.37</orderPct>
+              <marketPct>6.34</marketPct>
+              <marketableLimitPct>7.59</marketableLimitPct>
+              <nonMarketableLimitPct>6.49</nonMarketableLimitPct>
+              <otherPct>7.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>6.24</orderPct>
+              <marketPct>6.15</marketPct>
+              <marketableLimitPct>5.52</marketableLimitPct>
+              <nonMarketableLimitPct>6.91</nonMarketableLimitPct>
+              <otherPct>10.67</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>4.33</orderPct>
+              <marketPct>4.39</marketPct>
+              <marketableLimitPct>5.52</marketableLimitPct>
+              <nonMarketableLimitPct>2.58</nonMarketableLimitPct>
+              <otherPct>2.28</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.44</orderPct>
+              <marketPct>0.45</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.83</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.12</orderPct>
+              <marketPct>0.13</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>60.27</ndoMarketPct>
+        <ndoMarketableLimitPct>1.01</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>14.92</ndoNonmarketableLimitPct>
+        <ndoOtherPct>23.80</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>32.81</orderPct>
+              <marketPct>33.72</marketPct>
+              <marketableLimitPct>43.75</marketableLimitPct>
+              <nonMarketableLimitPct>38.35</nonMarketableLimitPct>
+              <otherPct>26.56</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>27.75</orderPct>
+              <marketPct>22.65</marketPct>
+              <marketableLimitPct>9.38</marketableLimitPct>
+              <nonMarketableLimitPct>32.84</nonMarketableLimitPct>
+              <otherPct>38.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>21.08</orderPct>
+              <marketPct>20.50</marketPct>
+              <marketableLimitPct>37.50</marketableLimitPct>
+              <nonMarketableLimitPct>15.47</nonMarketableLimitPct>
+              <otherPct>25.37</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>17.16</orderPct>
+              <marketPct>21.13</marketPct>
+              <marketableLimitPct>9.38</marketableLimitPct>
+              <nonMarketableLimitPct>13.35</nonMarketableLimitPct>
+              <otherPct>9.83</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>1.20</orderPct>
+              <marketPct>1.99</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>7</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>96.64</ndoMarketPct>
+        <ndoMarketableLimitPct>0.25</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>2.45</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.65</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>26.47</orderPct>
+              <marketPct>26.46</marketPct>
+              <marketableLimitPct>24.69</marketableLimitPct>
+              <nonMarketableLimitPct>27.30</nonMarketableLimitPct>
+              <otherPct>25.94</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.00</orderPct>
+              <marketPct>17.89</marketPct>
+              <marketableLimitPct>14.81</marketableLimitPct>
+              <nonMarketableLimitPct>20.50</nonMarketableLimitPct>
+              <otherPct>25.94</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>13.01</orderPct>
+              <marketPct>13.08</marketPct>
+              <marketableLimitPct>9.88</marketableLimitPct>
+              <nonMarketableLimitPct>11.82</nonMarketableLimitPct>
+              <otherPct>8.96</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.77</orderPct>
+              <marketPct>12.80</marketPct>
+              <marketableLimitPct>16.05</marketableLimitPct>
+              <nonMarketableLimitPct>12.08</nonMarketableLimitPct>
+              <otherPct>10.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.36</orderPct>
+              <marketPct>11.31</marketPct>
+              <marketableLimitPct>11.11</marketableLimitPct>
+              <nonMarketableLimitPct>12.33</nonMarketableLimitPct>
+              <otherPct>14.62</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.66</orderPct>
+              <marketPct>6.70</marketPct>
+              <marketableLimitPct>9.88</marketableLimitPct>
+              <nonMarketableLimitPct>5.91</nonMarketableLimitPct>
+              <otherPct>1.89</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.76</orderPct>
+              <marketPct>5.67</marketPct>
+              <marketableLimitPct>3.70</marketableLimitPct>
+              <nonMarketableLimitPct>7.92</nonMarketableLimitPct>
+              <otherPct>12.26</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>5.75</orderPct>
+              <marketPct>5.87</marketPct>
+              <marketableLimitPct>9.88</marketableLimitPct>
+              <nonMarketableLimitPct>2.14</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.19</orderPct>
+              <marketPct>0.20</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.02</orderPct>
+              <marketPct>0.02</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>96.68</ndoMarketPct>
+        <ndoMarketableLimitPct>0.48</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>1.41</ndoNonmarketableLimitPct>
+        <ndoOtherPct>1.43</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>23.63</orderPct>
+              <marketPct>23.71</marketPct>
+              <marketableLimitPct>22.48</marketableLimitPct>
+              <nonMarketableLimitPct>20.91</nonMarketableLimitPct>
+              <otherPct>20.72</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.60</orderPct>
+              <marketPct>18.62</marketPct>
+              <marketableLimitPct>11.74</marketableLimitPct>
+              <nonMarketableLimitPct>22.29</nonMarketableLimitPct>
+              <otherPct>15.88</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>17.09</orderPct>
+              <marketPct>16.96</marketPct>
+              <marketableLimitPct>16.44</marketableLimitPct>
+              <nonMarketableLimitPct>18.63</nonMarketableLimitPct>
+              <otherPct>24.44</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>11.78</orderPct>
+              <marketPct>11.90</marketPct>
+              <marketableLimitPct>10.40</marketableLimitPct>
+              <nonMarketableLimitPct>10.74</nonMarketableLimitPct>
+              <otherPct>5.41</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.38</orderPct>
+              <marketPct>11.23</marketPct>
+              <marketableLimitPct>14.43</marketableLimitPct>
+              <nonMarketableLimitPct>12.91</nonMarketableLimitPct>
+              <otherPct>19.37</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.26</orderPct>
+              <marketPct>6.24</marketPct>
+              <marketableLimitPct>8.39</marketableLimitPct>
+              <nonMarketableLimitPct>7.43</nonMarketableLimitPct>
+              <otherPct>6.08</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>6.18</orderPct>
+              <marketPct>6.17</marketPct>
+              <marketableLimitPct>10.74</marketableLimitPct>
+              <nonMarketableLimitPct>4.57</nonMarketableLimitPct>
+              <otherPct>6.64</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>4.48</orderPct>
+              <marketPct>4.56</marketPct>
+              <marketableLimitPct>5.37</marketableLimitPct>
+              <nonMarketableLimitPct>2.40</nonMarketableLimitPct>
+              <otherPct>0.90</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.51</orderPct>
+              <marketPct>0.52</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.11</nonMarketableLimitPct>
+              <otherPct>0.56</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.09</orderPct>
+              <marketPct>0.09</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>51.22</ndoMarketPct>
+        <ndoMarketableLimitPct>2.06</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>17.90</ndoNonmarketableLimitPct>
+        <ndoOtherPct>28.82</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>31.07</orderPct>
+              <marketPct>34.95</marketPct>
+              <marketableLimitPct>35.82</marketableLimitPct>
+              <nonMarketableLimitPct>33.16</nonMarketableLimitPct>
+              <otherPct>22.52</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>27.07</orderPct>
+              <marketPct>22.88</marketPct>
+              <marketableLimitPct>34.33</marketableLimitPct>
+              <nonMarketableLimitPct>35.74</nonMarketableLimitPct>
+              <otherPct>28.60</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>22.79</orderPct>
+              <marketPct>20.78</marketPct>
+              <marketableLimitPct>10.45</marketableLimitPct>
+              <nonMarketableLimitPct>17.87</nonMarketableLimitPct>
+              <otherPct>30.31</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>19.01</orderPct>
+              <marketPct>21.32</marketPct>
+              <marketableLimitPct>19.40</marketableLimitPct>
+              <nonMarketableLimitPct>13.06</nonMarketableLimitPct>
+              <otherPct>18.57</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>0.03</orderPct>
+              <marketPct>0.06</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>0.03</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.17</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>8</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>95.65</ndoMarketPct>
+        <ndoMarketableLimitPct>0.26</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>3.12</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.96</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>27.20</orderPct>
+              <marketPct>27.13</marketPct>
+              <marketableLimitPct>23.61</marketableLimitPct>
+              <nonMarketableLimitPct>28.64</nonMarketableLimitPct>
+              <otherPct>30.27</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>17.87</orderPct>
+              <marketPct>17.70</marketPct>
+              <marketableLimitPct>22.22</marketableLimitPct>
+              <nonMarketableLimitPct>22.89</nonMarketableLimitPct>
+              <otherPct>17.62</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.95</orderPct>
+              <marketPct>12.89</marketPct>
+              <marketableLimitPct>23.61</marketableLimitPct>
+              <nonMarketableLimitPct>13.73</nonMarketableLimitPct>
+              <otherPct>13.79</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>12.72</orderPct>
+              <marketPct>12.79</marketPct>
+              <marketableLimitPct>4.17</marketableLimitPct>
+              <nonMarketableLimitPct>12.91</nonMarketableLimitPct>
+              <otherPct>7.28</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>10.91</orderPct>
+              <marketPct>10.95</marketPct>
+              <marketableLimitPct>6.94</marketableLimitPct>
+              <nonMarketableLimitPct>9.04</nonMarketableLimitPct>
+              <otherPct>14.18</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.70</orderPct>
+              <marketPct>6.76</marketPct>
+              <marketableLimitPct>2.78</marketableLimitPct>
+              <nonMarketableLimitPct>4.93</nonMarketableLimitPct>
+              <otherPct>8.05</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.70</orderPct>
+              <marketPct>5.65</marketPct>
+              <marketableLimitPct>6.94</marketableLimitPct>
+              <nonMarketableLimitPct>6.92</nonMarketableLimitPct>
+              <otherPct>6.13</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>5.63</orderPct>
+              <marketPct>5.80</marketPct>
+              <marketableLimitPct>9.72</marketableLimitPct>
+              <nonMarketableLimitPct>0.94</nonMarketableLimitPct>
+              <otherPct>2.68</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.30</orderPct>
+              <marketPct>0.32</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.02</orderPct>
+              <marketPct>0.02</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>94.68</ndoMarketPct>
+        <ndoMarketableLimitPct>0.76</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>2.36</ndoNonmarketableLimitPct>
+        <ndoOtherPct>2.19</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>23.56</orderPct>
+              <marketPct>23.50</marketPct>
+              <marketableLimitPct>23.02</marketableLimitPct>
+              <nonMarketableLimitPct>22.15</nonMarketableLimitPct>
+              <otherPct>27.79</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.55</orderPct>
+              <marketPct>18.50</marketPct>
+              <marketableLimitPct>21.10</marketableLimitPct>
+              <nonMarketableLimitPct>21.68</nonMarketableLimitPct>
+              <otherPct>16.47</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>16.87</orderPct>
+              <marketPct>16.81</marketPct>
+              <marketableLimitPct>16.79</marketableLimitPct>
+              <nonMarketableLimitPct>16.90</nonMarketableLimitPct>
+              <otherPct>19.63</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.76</orderPct>
+              <marketPct>11.57</marketPct>
+              <marketableLimitPct>13.67</marketableLimitPct>
+              <nonMarketableLimitPct>12.50</nonMarketableLimitPct>
+              <otherPct>18.14</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>11.29</orderPct>
+              <marketPct>11.56</marketPct>
+              <marketableLimitPct>5.76</marketableLimitPct>
+              <nonMarketableLimitPct>9.34</nonMarketableLimitPct>
+              <otherPct>3.66</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.55</orderPct>
+              <marketPct>6.53</marketPct>
+              <marketableLimitPct>6.95</marketableLimitPct>
+              <nonMarketableLimitPct>7.56</nonMarketableLimitPct>
+              <otherPct>6.16</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>6.49</orderPct>
+              <marketPct>6.47</marketPct>
+              <marketableLimitPct>6.95</marketableLimitPct>
+              <nonMarketableLimitPct>6.87</nonMarketableLimitPct>
+              <otherPct>6.99</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>4.38</orderPct>
+              <marketPct>4.49</marketPct>
+              <marketableLimitPct>5.52</marketableLimitPct>
+              <nonMarketableLimitPct>2.78</nonMarketableLimitPct>
+              <otherPct>0.83</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.47</orderPct>
+              <marketPct>0.48</marketPct>
+              <marketableLimitPct>0.24</marketableLimitPct>
+              <nonMarketableLimitPct>0.23</nonMarketableLimitPct>
+              <otherPct>0.33</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.08</orderPct>
+              <marketPct>0.09</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>54.38</ndoMarketPct>
+        <ndoMarketableLimitPct>1.87</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>18.77</ndoNonmarketableLimitPct>
+        <ndoOtherPct>24.97</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>32.34</orderPct>
+              <marketPct>34.21</marketPct>
+              <marketableLimitPct>39.29</marketableLimitPct>
+              <nonMarketableLimitPct>37.66</nonMarketableLimitPct>
+              <otherPct>23.77</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>29.64</orderPct>
+              <marketPct>23.85</marketPct>
+              <marketableLimitPct>21.43</marketableLimitPct>
+              <nonMarketableLimitPct>41.21</nonMarketableLimitPct>
+              <otherPct>34.18</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>21.27</orderPct>
+              <marketPct>20.48</marketPct>
+              <marketableLimitPct>25.00</marketableLimitPct>
+              <nonMarketableLimitPct>14.03</nonMarketableLimitPct>
+              <otherPct>28.17</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>16.31</orderPct>
+              <marketPct>20.66</marketPct>
+              <marketableLimitPct>14.29</marketableLimitPct>
+              <nonMarketableLimitPct>7.10</nonMarketableLimitPct>
+              <otherPct>13.89</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>0.43</orderPct>
+              <marketPct>0.80</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Advisors LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Advisors LLC (CA) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CA’s order flow is managed exclusively by Pershing. Although CA is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CA does not receive or solicit any payment for order flow from any venue.
+ 3.CA does not receive any sort of consideration from any venue.
+ 4.CA does not receive any services or technologies subsidized by venues.
+ 5.CA does not receive any payment for order flow passed through by Pershing.    </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+</heldOrderRoutingPublicReport>

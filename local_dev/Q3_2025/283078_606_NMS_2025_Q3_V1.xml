@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>FUTU CLEARING INC.</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-28T18:45:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>3.36</ndoMarketPct>
+      <ndoMarketableLimitPct>12.48</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>79.28</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.88</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>34.68</orderPct>
+          <marketPct>41.68</marketPct>
+          <marketableLimitPct>37.25</marketableLimitPct>
+          <nonMarketableLimitPct>34.32</nonMarketableLimitPct>
+          <otherPct>29.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5693.73</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8665</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20758.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.0073</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>87066.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.8063</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>9486.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.4219</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed.
+Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0005 per share executed as part of a cost+ model for orders executed outside regular market orders from 4:00 AM ET up to 7:00 AM ET. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>30.61</orderPct>
+          <marketPct>42.44</marketPct>
+          <marketableLimitPct>31.30</marketableLimitPct>
+          <nonMarketableLimitPct>29.18</nonMarketableLimitPct>
+          <otherPct>43.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6037.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9719</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>26116.37</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.5495</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>130039.67</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.2364</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>14229.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.5147</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Jane Street recognized under MPID: JNST for the order handling and execution of customer market and limit orders entered between 7:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>16.95</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.44</marketableLimitPct>
+          <nonMarketableLimitPct>19.08</nonMarketableLimitPct>
+          <otherPct>23.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>92.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3732.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>89968.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.9999</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11210.01</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.5317</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Virtu Americas LLC recognized under MPID: NITE for the order handling and execution of customer market and limit orders originated and entered between 7:00 AM ET up to 8:00 PM ET.
+Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean Technologies, LLC</name>
+          <orderPct>10.26</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>20.90</marketableLimitPct>
+          <nonMarketableLimitPct>9.65</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-10257.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.1009</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4177.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.5630</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Blue Ocean Technologies LLC recognized as Trade.Com Online Securities, Inc. or under MPID: BLUE for the order handling and execution of customer limit orders entered between 8:00 pm up to 4:00 AM ET (Sunday – Thursday). Futu Clearing Inc receives $0.0006 per share executed for orders adding liquidity and pays $0.002 per share executed for orders taking liquidity for securities priced equal to or above $1.00. Futu Clearing Inc receives $0.00 per share executed on orders adding liquidity and pays $0.003 per share executed for orders taking liquidity on securities priced below $1.00. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>6.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.08</marketableLimitPct>
+          <nonMarketableLimitPct>6.81</nonMarketableLimitPct>
+          <otherPct>2.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>37.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.6585</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-644.78</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-11.2216</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being  per share executed as part of a cost+ model. Securities priced greater than or equal to $1.00 Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. 
+Securities priced less than $1.00 and order size equal to or less than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. Securities priced less than $1.00 and order size is greater than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0002 per share executed as part of a cost+ model. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model on its algorithmic order types. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>3.45</ndoMarketPct>
+      <ndoMarketableLimitPct>17.32</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>75.98</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.25</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>34.49</orderPct>
+          <marketPct>43.11</marketPct>
+          <marketableLimitPct>32.34</marketableLimitPct>
+          <nonMarketableLimitPct>34.07</nonMarketableLimitPct>
+          <otherPct>46.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>75625.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.6688</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>529703.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.1237</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1359741.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.8512</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>27343.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.1249</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Jane Street recognized under MPID: JNST for the order handling and execution of customer market and limit orders entered between 7:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET.  The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>31.59</orderPct>
+          <marketPct>39.77</marketPct>
+          <marketableLimitPct>36.98</marketableLimitPct>
+          <nonMarketableLimitPct>30.27</nonMarketableLimitPct>
+          <otherPct>24.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>69992.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.6451</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>363697.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.2906</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1082003.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.6229</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20606.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.8654</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET.  The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0005 per share executed as part of a cost+ model for orders executed outside regular market orders from 4:00 AM ET up to 7:00 AM ET. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>15.85</orderPct>
+          <marketPct>0.45</marketPct>
+          <marketableLimitPct>6.36</marketableLimitPct>
+          <nonMarketableLimitPct>18.32</nonMarketableLimitPct>
+          <otherPct>25.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>12212.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>2.9575</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>192171.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.0914</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>966377.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.7247</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>60422.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>3.7056</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Virtu Americas LLC recognized under MPID: NITE for the order handling and execution of customer market and limit orders originated and entered between 7:00 AM ET up to 8:00 PM ET. 
+Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean Technologies, LLC</name>
+          <orderPct>9.92</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>16.91</marketableLimitPct>
+          <nonMarketableLimitPct>9.20</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-136611.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-13.2755</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>51068.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.7575</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Blue Ocean Technologies LLC recognized as Trade.Com Online Securities, Inc. or under MPID: BLUE for the order handling and execution of customer limit orders entered between 8:00 pm up to 4:00 AM ET (Sunday – Thursday). Futu Clearing Inc receives $0.0006 per share executed for orders adding liquidity and pays $0.002 per share executed for orders taking liquidity for securities priced equal to or above $1.00. Futu Clearing Inc receives $0.00 per share executed on orders adding liquidity and pays $0.003 per share executed for orders taking liquidity on securities priced below $1.00. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>6.49</orderPct>
+          <marketPct>0.30</marketPct>
+          <marketableLimitPct>6.02</marketableLimitPct>
+          <nonMarketableLimitPct>7.04</nonMarketableLimitPct>
+          <otherPct>2.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-13846.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.1334</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-53371.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.4234</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-35658.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.8273</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being  per share executed as part of a cost+ model. Securities priced greater than or equal to $1.00 Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. 
+Securities priced less than $1.00 and order size equal to or less than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. Securities priced less than $1.00 and order size is greater than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0002 per share executed as part of a cost+ model. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model on its algorithmic order types. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>96.49</ndoPct>
+      <ndoMarketPct>2.17</ndoMarketPct>
+      <ndoMarketableLimitPct>7.91</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>76.85</ndoNonmarketableLimitPct>
+      <ndoOtherPct>13.07</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>22.27</orderPct>
+          <marketPct>19.92</marketPct>
+          <marketableLimitPct>21.16</marketableLimitPct>
+          <nonMarketableLimitPct>22.78</nonMarketableLimitPct>
+          <otherPct>20.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>79346.85</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.2875</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>620050.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.7916</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>764075.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.4615</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>97327.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>32.2460</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.42 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.432 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.532 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>21.81</orderPct>
+          <marketPct>22.15</marketPct>
+          <marketableLimitPct>22.17</marketableLimitPct>
+          <nonMarketableLimitPct>22.09</nonMarketableLimitPct>
+          <otherPct>19.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>90966.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.1404</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>384549.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.6421</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1083609.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.5659</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>90060.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.7886</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Global Execution Brokers, LP, recognized under MPID: GEBB for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.42 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.432 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.532 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>19.66</orderPct>
+          <marketPct>20.66</marketPct>
+          <marketableLimitPct>19.85</marketableLimitPct>
+          <nonMarketableLimitPct>18.69</nonMarketableLimitPct>
+          <otherPct>25.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>103936.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>35.6525</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>594659.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.8775</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>939665.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.3188</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>83572.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>33.6922</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.42 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.432 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.532 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>18.82</orderPct>
+          <marketPct>19.17</marketPct>
+          <marketableLimitPct>19.17</marketableLimitPct>
+          <nonMarketableLimitPct>18.97</nonMarketableLimitPct>
+          <otherPct>17.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>84973.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>37.0406</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>537027.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.4236</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>804002.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>37.0146</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>93409.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>33.8283</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Jane Street Capital recognized under MPID: JNST for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.42 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.432 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.532 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>17.44</orderPct>
+          <marketPct>18.09</marketPct>
+          <marketableLimitPct>17.65</marketableLimitPct>
+          <nonMarketableLimitPct>17.47</nonMarketableLimitPct>
+          <otherPct>17.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>54787.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.3953</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>235123.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.2753</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>579117.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>39.1491</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>42798.92</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.8988</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Wolverine Execution Services recognized under MPID: WEXM or WEXX for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.42 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.432 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.532 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>3.69</ndoMarketPct>
+      <ndoMarketableLimitPct>12.19</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>79.20</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.91</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>34.99</orderPct>
+          <marketPct>41.33</marketPct>
+          <marketableLimitPct>37.87</marketableLimitPct>
+          <nonMarketableLimitPct>34.57</nonMarketableLimitPct>
+          <otherPct>29.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6769.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8993</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>23608.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.8793</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>88208.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.6194</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>10608.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.8815</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed.
+Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0005 per share executed as part of a cost+ model for orders executed outside regular market orders from 4:00 AM ET up to 7:00 AM ET. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>31.35</orderPct>
+          <marketPct>42.21</marketPct>
+          <marketableLimitPct>32.76</marketableLimitPct>
+          <nonMarketableLimitPct>29.83</nonMarketableLimitPct>
+          <otherPct>44.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7325.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9742</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>29519.77</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.4158</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>130868.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.1429</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>15727.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.7260</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Jane Street recognized under MPID: JNST for the order handling and execution of customer market and limit orders entered between 7:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>16.60</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>5.34</marketableLimitPct>
+          <nonMarketableLimitPct>18.74</nonMarketableLimitPct>
+          <otherPct>22.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>158.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4169.71</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>85453.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.9994</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11298.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.7626</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Virtu Americas LLC recognized under MPID: NITE for the order handling and execution of customer market and limit orders originated and entered between 7:00 AM ET up to 8:00 PM ET.
+Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean Technologies, LLC</name>
+          <orderPct>9.38</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>18.83</marketableLimitPct>
+          <nonMarketableLimitPct>8.94</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8956.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-14.8411</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3851.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.5246</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Blue Ocean Technologies LLC recognized as Trade.Com Online Securities, Inc. or under MPID: BLUE for the order handling and execution of customer limit orders entered between 8:00 pm up to 4:00 AM ET (Sunday – Thursday). Futu Clearing Inc receives $0.0006 per share executed for orders adding liquidity and pays $0.002 per share executed for orders taking liquidity for securities priced equal to or above $1.00. Futu Clearing Inc receives $0.00 per share executed on orders adding liquidity and pays $0.003 per share executed for orders taking liquidity on securities priced below $1.00. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>5.93</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>3.97</marketableLimitPct>
+          <nonMarketableLimitPct>6.75</nonMarketableLimitPct>
+          <otherPct>2.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>57.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>2.7947</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.01</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-445.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.7472</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being  per share executed as part of a cost+ model. Securities priced greater than or equal to $1.00 Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. 
+Securities priced less than $1.00 and order size equal to or less than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. Securities priced less than $1.00 and order size is greater than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0002 per share executed as part of a cost+ model. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model on its algorithmic order types. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>3.64</ndoMarketPct>
+      <ndoMarketableLimitPct>16.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>76.38</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.47</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>33.61</orderPct>
+          <marketPct>42.35</marketPct>
+          <marketableLimitPct>32.78</marketableLimitPct>
+          <nonMarketableLimitPct>32.83</nonMarketableLimitPct>
+          <otherPct>45.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>63386.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>6.9208</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>456843.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.7108</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1156299.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.9368</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>28413.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.7622</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Jane Street recognized under MPID: JNST for the order handling and execution of customer market and limit orders entered between 7:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET.  The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>32.91</orderPct>
+          <marketPct>40.77</marketPct>
+          <marketableLimitPct>37.43</marketableLimitPct>
+          <nonMarketableLimitPct>31.82</nonMarketableLimitPct>
+          <otherPct>27.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>58769.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>6.8203</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>329719.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0036</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>928847.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.3941</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20188.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.7649</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET.  The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0005 per share executed as part of a cost+ model for orders executed outside regular market orders from 4:00 AM ET up to 7:00 AM ET. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>15.71</orderPct>
+          <marketPct>0.20</marketPct>
+          <marketableLimitPct>6.20</marketableLimitPct>
+          <nonMarketableLimitPct>18.13</nonMarketableLimitPct>
+          <otherPct>23.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9671.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.6116</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>157355.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.9981</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>802696.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.7415</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>52557.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0501</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Virtu Americas LLC recognized under MPID: NITE for the order handling and execution of customer market and limit orders originated and entered between 7:00 AM ET up to 8:00 PM ET. 
+Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean Technologies, LLC</name>
+          <orderPct>9.68</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>16.81</marketableLimitPct>
+          <nonMarketableLimitPct>9.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-98564.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-13.0242</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>39924.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.9255</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Blue Ocean Technologies LLC recognized as Trade.Com Online Securities, Inc. or under MPID: BLUE for the order handling and execution of customer limit orders entered between 8:00 pm up to 4:00 AM ET (Sunday – Thursday). Futu Clearing Inc receives $0.0006 per share executed for orders adding liquidity and pays $0.002 per share executed for orders taking liquidity for securities priced equal to or above $1.00. Futu Clearing Inc receives $0.00 per share executed on orders adding liquidity and pays $0.003 per share executed for orders taking liquidity on securities priced below $1.00. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>6.33</orderPct>
+          <marketPct>0.20</marketPct>
+          <marketableLimitPct>5.43</marketableLimitPct>
+          <nonMarketableLimitPct>6.97</nonMarketableLimitPct>
+          <otherPct>2.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-7754.38</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.2604</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-72904.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.8809</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-14615.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.3867</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being  per share executed as part of a cost+ model. Securities priced greater than or equal to $1.00 Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. 
+Securities priced less than $1.00 and order size equal to or less than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. Securities priced less than $1.00 and order size is greater than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0002 per share executed as part of a cost+ model. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model on its algorithmic order types. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>96.22</ndoPct>
+      <ndoMarketPct>2.14</ndoMarketPct>
+      <ndoMarketableLimitPct>7.75</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>76.44</ndoNonmarketableLimitPct>
+      <ndoOtherPct>13.67</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>22.50</orderPct>
+          <marketPct>20.27</marketPct>
+          <marketableLimitPct>21.22</marketableLimitPct>
+          <nonMarketableLimitPct>23.11</nonMarketableLimitPct>
+          <otherPct>20.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>110626.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.8675</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>920299.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>44.0700</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1233558.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.0828</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>190551.77</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>45.8495</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.451 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4744 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5744 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>21.70</orderPct>
+          <marketPct>22.12</marketPct>
+          <marketableLimitPct>22.25</marketableLimitPct>
+          <nonMarketableLimitPct>22.16</nonMarketableLimitPct>
+          <otherPct>18.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>117262.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.6766</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>540438.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.0058</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1511091.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.1619</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>182551.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>45.6641</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Global Execution Brokers, LP, recognized under MPID: GEBB for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.451 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4744 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5744 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>19.63</orderPct>
+          <marketPct>21.12</marketPct>
+          <marketableLimitPct>20.16</marketableLimitPct>
+          <nonMarketableLimitPct>18.45</nonMarketableLimitPct>
+          <otherPct>25.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>127001.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.8364</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>796660.89</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.1249</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1184616.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.5496</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>122285.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.3934</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.451 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4744 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5744 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>18.69</orderPct>
+          <marketPct>19.09</marketPct>
+          <marketableLimitPct>18.81</marketableLimitPct>
+          <nonMarketableLimitPct>18.73</nonMarketableLimitPct>
+          <otherPct>18.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>104354.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>41.5217</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>681462.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.2791</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1072254.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.5503</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>165129.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>45.3272</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Jane Street Capital recognized under MPID: JNST for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.451 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4744 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5744 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>17.49</orderPct>
+          <marketPct>17.40</marketPct>
+          <marketableLimitPct>17.56</marketableLimitPct>
+          <nonMarketableLimitPct>17.55</nonMarketableLimitPct>
+          <otherPct>17.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>64387.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.5507</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>328134.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.1245</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>711138.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.6741</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>72166.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.4261</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Wolverine Execution Services recognized under MPID: WEXM or WEXX for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.451 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4744 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5744 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>3.60</ndoMarketPct>
+      <ndoMarketableLimitPct>13.32</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>78.42</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.67</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>34.65</orderPct>
+          <marketPct>41.44</marketPct>
+          <marketableLimitPct>38.72</marketableLimitPct>
+          <nonMarketableLimitPct>33.92</nonMarketableLimitPct>
+          <otherPct>30.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7482.38</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8914</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>26604.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.6820</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>106982.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.6149</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13133.81</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.5532</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed.
+Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0005 per share executed as part of a cost+ model for orders executed outside regular market orders from 4:00 AM ET up to 7:00 AM ET. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>32.20</orderPct>
+          <marketPct>42.21</marketPct>
+          <marketableLimitPct>32.68</marketableLimitPct>
+          <nonMarketableLimitPct>30.99</nonMarketableLimitPct>
+          <otherPct>43.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7818.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9526</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>33885.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.4026</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>153127.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.9449</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>18464.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.4933</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Jane Street recognized under MPID: JNST for the order handling and execution of customer market and limit orders entered between 7:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>17.05</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>6.04</marketableLimitPct>
+          <nonMarketableLimitPct>19.33</nonMarketableLimitPct>
+          <otherPct>23.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>230.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6125.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>100794.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.9994</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13823.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.0745</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Virtu Americas LLC recognized under MPID: NITE for the order handling and execution of customer market and limit orders originated and entered between 7:00 AM ET up to 8:00 PM ET.
+Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean Technologies, LLC</name>
+          <orderPct>9.28</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>17.78</marketableLimitPct>
+          <nonMarketableLimitPct>8.82</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9380.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-13.7348</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4238.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.3602</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Blue Ocean Technologies LLC recognized as Trade.Com Online Securities, Inc. or under MPID: BLUE for the order handling and execution of customer limit orders entered between 8:00 pm up to 4:00 AM ET (Sunday – Thursday). Futu Clearing Inc receives $0.0006 per share executed for orders adding liquidity and pays $0.002 per share executed for orders taking liquidity for securities priced equal to or above $1.00. Futu Clearing Inc receives $0.00 per share executed on orders adding liquidity and pays $0.003 per share executed for orders taking liquidity on securities priced below $1.00. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>5.18</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>3.66</marketableLimitPct>
+          <nonMarketableLimitPct>5.87</nonMarketableLimitPct>
+          <otherPct>2.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>150.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>3.0115</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>9.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.8581</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-464.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-6.2661</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being  per share executed as part of a cost+ model. Securities priced greater than or equal to $1.00 Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. 
+Securities priced less than $1.00 and order size equal to or less than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. Securities priced less than $1.00 and order size is greater than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0002 per share executed as part of a cost+ model. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model on its algorithmic order types. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>3.69</ndoMarketPct>
+      <ndoMarketableLimitPct>17.59</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>75.36</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.35</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>33.59</orderPct>
+          <marketPct>41.08</marketPct>
+          <marketableLimitPct>39.14</marketableLimitPct>
+          <nonMarketableLimitPct>32.17</nonMarketableLimitPct>
+          <otherPct>28.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>62928.21</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>6.7543</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>397572.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.1912</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1114045.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.8623</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20994.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.2960</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET.  The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0005 per share executed as part of a cost+ model for orders executed outside regular market orders from 4:00 AM ET up to 7:00 AM ET. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>33.48</orderPct>
+          <marketPct>42.16</marketPct>
+          <marketableLimitPct>32.08</marketableLimitPct>
+          <nonMarketableLimitPct>32.88</nonMarketableLimitPct>
+          <otherPct>44.81</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>68045.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>6.8608</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>527923.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.6967</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1333349.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.0675</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>32008.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.7261</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Jane Street recognized under MPID: JNST for the order handling and execution of customer market and limit orders entered between 7:00 AM ET up to 8:00 PM ET. Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET.  The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>15.86</orderPct>
+          <marketPct>0.22</marketPct>
+          <marketableLimitPct>6.29</marketableLimitPct>
+          <nonMarketableLimitPct>18.51</nonMarketableLimitPct>
+          <otherPct>23.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10202.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.8256</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>181811.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.7624</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>892808.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.8580</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>56114.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.6909</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Virtu Americas LLC recognized under MPID: NITE for the order handling and execution of customer market and limit orders originated and entered between 7:00 AM ET up to 8:00 PM ET. 
+Futu Clearing Inc. receives payment for order flow for orders executed during regular market hours from 9:30 AM ET up to 4:00 PM ET. The rate received for executed marketable orders is $0.001 per share executed and the rate received for executed non-marketable orders is $0.003 per share executed. Futu Clearing Inc. receives payment for order flow for orders executed outside regular market orders from 7:00 AM ET up to 9:30 AM ET and orders executed outside regular market orders from 4:00 PM ET up to 8:00 PM ET, the rate received is $0.0002 per share executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue.  Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean Technologies, LLC</name>
+          <orderPct>9.64</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>15.90</marketableLimitPct>
+          <nonMarketableLimitPct>9.09</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-106601.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-12.1372</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>45585.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.1336</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Blue Ocean Technologies LLC recognized as Trade.Com Online Securities, Inc. or under MPID: BLUE for the order handling and execution of customer limit orders entered between 8:00 pm up to 4:00 AM ET (Sunday – Thursday). Futu Clearing Inc receives $0.0006 per share executed for orders adding liquidity and pays $0.002 per share executed for orders taking liquidity for securities priced equal to or above $1.00. Futu Clearing Inc receives $0.00 per share executed on orders adding liquidity and pays $0.003 per share executed for orders taking liquidity on securities priced below $1.00. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>5.55</orderPct>
+          <marketPct>0.27</marketPct>
+          <marketableLimitPct>5.09</marketableLimitPct>
+          <nonMarketableLimitPct>6.05</nonMarketableLimitPct>
+          <otherPct>2.63</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-8146.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.5257</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-110760.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.7330</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-21259.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.1024</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes listed equity order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer market and limit orders entered between 4:00 AM ET up to 8:00 PM ET. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being  per share executed as part of a cost+ model. Securities priced greater than or equal to $1.00 Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. 
+Securities priced less than $1.00 and order size equal to or less than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model. Securities priced less than $1.00 and order size is greater than 250,000,000 shares executed, Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0002 per share executed as part of a cost+ model. Futu Clearing Inc receives exchange rebates and pays exchange fees with the base commission being $0.0004 per share executed as part of a cost+ model on its algorithmic order types. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>96.08</ndoPct>
+      <ndoMarketPct>2.05</ndoMarketPct>
+      <ndoMarketableLimitPct>7.61</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>77.03</ndoNonmarketableLimitPct>
+      <ndoOtherPct>13.31</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>22.68</orderPct>
+          <marketPct>20.46</marketPct>
+          <marketableLimitPct>21.46</marketableLimitPct>
+          <nonMarketableLimitPct>23.28</nonMarketableLimitPct>
+          <otherPct>20.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>110193.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.5150</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1092641.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.5453</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1461630.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.8376</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>152001.88</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.6486</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Citadel Securities recognized under MPID: CDRG for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.4485 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4734 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5734 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>21.95</orderPct>
+          <marketPct>22.20</marketPct>
+          <marketableLimitPct>22.56</marketableLimitPct>
+          <nonMarketableLimitPct>22.34</nonMarketableLimitPct>
+          <otherPct>19.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>123084.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.5028</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>645250.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>41.5312</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1831795.99</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.9278</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>141542.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.7913</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Global Execution Brokers, LP, recognized under MPID: GEBB for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.4485 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4734 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5734 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>19.59</orderPct>
+          <marketPct>21.23</marketPct>
+          <marketableLimitPct>20.23</marketableLimitPct>
+          <nonMarketableLimitPct>18.51</nonMarketableLimitPct>
+          <otherPct>25.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>142769.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.3525</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>925772.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.5298</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1395820.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.2993</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>115070.59</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.6669</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Dash Financial Technologies LLC recognized under MPID: DFIN or DFTR for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.4485 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4734 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5734 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>18.24</orderPct>
+          <marketPct>18.43</marketPct>
+          <marketableLimitPct>18.22</marketableLimitPct>
+          <nonMarketableLimitPct>18.27</nonMarketableLimitPct>
+          <otherPct>18.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>103923.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.9306</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>766165.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.6798</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1271308.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.1853</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>125174.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.0171</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Jane Street Capital recognized under MPID: JNST for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.4485 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4734 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5734 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>17.55</orderPct>
+          <marketPct>17.67</marketPct>
+          <marketableLimitPct>17.53</marketableLimitPct>
+          <nonMarketableLimitPct>17.60</nonMarketableLimitPct>
+          <otherPct>17.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>65320.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>38.3522</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>368937.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.1418</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>836793.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.5120</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>71725.65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>36.5408</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Futu Clearing Inc. routes option order flow to Wolverine Execution Services recognized under MPID: WEXM or WEXX for the order handling and execution of customer single leg option market and limit orders as well as complex option limit orders. Futu Clearing Inc. receives payment for order flow for single leg option marketable order flow at a rate of $0.4485 per contract executed. Futu Clearing Inc. receives payment for order flow for single leg option non-marketable order flow at a rate of $0.4734 per contract executed. Futu Clearing Inc. receives payment for order flow for complex option order flow at a rate of $0.5734 per contract executed. Futu Clearing Inc. does not negotiate payment as a condition for sending more order flow to a venue. Venues must compete for order flow based on the execution quality they are providing our customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

@@ -1,0 +1,20 @@
+{
+  "table": "monthly_data",
+  "columns": [
+    {"name": "day", "type": "date"},
+    {"name": "market_participant", "type": "varchar"},
+    {"name": "tape_a_shares", "type": "numeric"},
+    {"name": "tape_b_shares", "type": "numeric"},
+    {"name": "tape_c_shares", "type": "numeric"},
+    {"name": "total_shares", "type": "numeric"},
+    {"name": "tape_a_notional", "type": "numeric"},
+    {"name": "tape_b_notional", "type": "numeric"},
+    {"name": "tape_c_notional", "type": "numeric"},
+    {"name": "total_notional", "type": "numeric"},
+    {"name": "tape_a_trade_count", "type": "numeric"},
+    {"name": "tape_b_trade_count", "type": "numeric"},
+    {"name": "tape_c_trade_count", "type": "numeric"},
+    {"name": "total_trade_count", "type": "numeric"},
+    {"name": "created_at", "type": "timestamp"}
+  ]
+}

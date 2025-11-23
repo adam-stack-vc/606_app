@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Wells Fargo Clearing Services, LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-10T16:55:34Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>58.51</ndoMarketPct>
+      <ndoMarketableLimitPct>0.91</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>31.44</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.14</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wells Fargo Securities</name>
+          <orderPct>58.40</orderPct>
+          <marketPct>87.99</marketPct>
+          <marketableLimitPct>65.17</marketableLimitPct>
+          <nonMarketableLimitPct>13.08</nonMarketableLimitPct>
+          <otherPct>24.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “WFCS”) and Wells Fargo Securities, LLC (WFS) are registered broker/dealers and are both indirect, wholly-owned subsidiaries of Wells Fargo &amp; Company. WFCS routes the majority of its ‘held’  customer orders in equity securities to WFS, which routes the orders to other venues on an agency basis, including broker-dealers and ATS platforms.  WFS does not execute the orders in a principal capacity, nor receive payments from the venues to which it routes.   Additional information regarding the arrangement between WFCS and WFS for handling these orders includes: 
+•	WFS receives a non-financial benefit from the handling of WFCS orders in the form of increased prominence in industry trading volume rankings.  
+•	WFS participates in an order matching system (LUMINEX TRADING &amp; ANALYTICS LLC (EBXL)) that systematically matches WFCS and WFS client orders, in certain instances.  Matched orders are generally executed at NBBO mid-point and WFS receives a commission payment from the WFS client. Further information on the order matching system is available in the WFS quarterly report referenced above for venue ‘EBXL’.  
+•	WFCS does not accept rebates, credits, or payments for order flow in connection with orders routed to WFS   
+•	WFCS has an arrangement to route approximately 90% of its held customer orders in equity securities to WFS, but does not have any arrangements with WFS: 
+A. that provide incentives for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives for failing to meet certain minimum volume thresholds; or
+C. for volume-based tiered payment schedules.
+Quarterly reports with information on WFS order routing are available at https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/WellsFargoSecuritiesLLC/241 by selecting ‘WCHV’, and include identification of venues to which WFS routes orders, and pertinent material aspects of the arrangements between WFS and identified venues.  WFS quarterly reports may combine information on customer orders received from WFCS with WFS customer orders.  
+
+  Held orders are required to be executed immediately upon receipt.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>9.21</orderPct>
+          <marketPct>2.81</marketPct>
+          <marketableLimitPct>7.98</marketableLimitPct>
+          <nonMarketableLimitPct>18.72</nonMarketableLimitPct>
+          <otherPct>17.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>8.30</orderPct>
+          <marketPct>2.99</marketPct>
+          <marketableLimitPct>9.00</marketableLimitPct>
+          <nonMarketableLimitPct>15.09</nonMarketableLimitPct>
+          <otherPct>18.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>7.26</orderPct>
+          <marketPct>0.69</marketPct>
+          <marketableLimitPct>7.59</marketableLimitPct>
+          <nonMarketableLimitPct>17.66</nonMarketableLimitPct>
+          <otherPct>13.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>7.17</orderPct>
+          <marketPct>0.67</marketPct>
+          <marketableLimitPct>4.21</marketableLimitPct>
+          <nonMarketableLimitPct>17.80</nonMarketableLimitPct>
+          <otherPct>12.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>6.95</orderPct>
+          <marketPct>0.84</marketPct>
+          <marketableLimitPct>3.78</marketableLimitPct>
+          <nonMarketableLimitPct>17.19</nonMarketableLimitPct>
+          <otherPct>11.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wells Fargo Clearing Services, LLC</name>
+          <orderPct>1.88</orderPct>
+          <marketPct>2.82</marketPct>
+          <marketableLimitPct>1.67</marketableLimitPct>
+          <nonMarketableLimitPct>0.35</nonMarketableLimitPct>
+          <otherPct>1.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services (“WFCS”):  WFCS executes client orders as principal solely to facilitate execution of orders involving fractional shares.  For orders that involve whole and fractional shares, WFCS routes an order for the whole shares to one of the execution venues identified in this report and executes the fractional share component as principal.  WFCS may generate trading profits (or losses) from orders it executes as principal.  WFCS does not accept rebates, credits, or payments in connection with fractional share orders, nor are there arrangements:  
+
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds;
+C. for volume-based tiered payment schedules; or 
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>0.82</orderPct>
+          <marketPct>1.20</marketPct>
+          <marketableLimitPct>0.60</marketableLimitPct>
+          <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+          <otherPct>0.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>46.97</ndoMarketPct>
+      <ndoMarketableLimitPct>5.29</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>38.94</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.80</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wells Fargo Securities</name>
+          <orderPct>51.45</orderPct>
+          <marketPct>83.67</marketPct>
+          <marketableLimitPct>68.58</marketableLimitPct>
+          <nonMarketableLimitPct>15.74</nonMarketableLimitPct>
+          <otherPct>27.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “WFCS”) and Wells Fargo Securities, LLC (WFS) are registered broker/dealers and are both indirect, wholly-owned subsidiaries of Wells Fargo &amp; Company. WFCS routes the majority of its ‘held’  customer orders in equity securities to WFS, which routes the orders to other venues on an agency basis, including broker-dealers and ATS platforms.  WFS does not execute the orders in a principal capacity, nor receive payments from the venues to which it routes.   Additional information regarding the arrangement between WFCS and WFS for handling these orders includes: 
+•	WFS receives a non-financial benefit from the handling of WFCS orders in the form of increased prominence in industry trading volume rankings.  
+•	WFS participates in an order matching system (LUMINEX TRADING &amp; ANALYTICS LLC (EBXL)) that systematically matches WFCS and WFS client orders, in certain instances.  Matched orders are generally executed at NBBO mid-point and WFS receives a commission payment from the WFS client. Further information on the order matching system is available in the WFS quarterly report referenced above for venue ‘EBXL’.  
+•	WFCS does not accept rebates, credits, or payments for order flow in connection with orders routed to WFS   
+•	WFCS has an arrangement to route approximately 90% of its held customer orders in equity securities to WFS, but does not have any arrangements with WFS: 
+A. that provide incentives for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives for failing to meet certain minimum volume thresholds; or
+C. for volume-based tiered payment schedules.
+Quarterly reports with information on WFS order routing are available at https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/WellsFargoSecuritiesLLC/241 by selecting ‘WCHV’, and include identification of venues to which WFS routes orders, and pertinent material aspects of the arrangements between WFS and identified venues.  WFS quarterly reports may combine information on customer orders received from WFCS with WFS customer orders.  
+
+  Held orders are required to be executed immediately upon receipt.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>12.06</orderPct>
+          <marketPct>4.36</marketPct>
+          <marketableLimitPct>9.22</marketableLimitPct>
+          <nonMarketableLimitPct>20.39</nonMarketableLimitPct>
+          <otherPct>18.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.95</orderPct>
+          <marketPct>4.38</marketPct>
+          <marketableLimitPct>9.51</marketableLimitPct>
+          <nonMarketableLimitPct>14.79</nonMarketableLimitPct>
+          <otherPct>18.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>7.95</orderPct>
+          <marketPct>0.90</marketPct>
+          <marketableLimitPct>2.64</marketableLimitPct>
+          <nonMarketableLimitPct>16.35</nonMarketableLimitPct>
+          <otherPct>11.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>7.80</orderPct>
+          <marketPct>0.80</marketPct>
+          <marketableLimitPct>3.53</marketableLimitPct>
+          <nonMarketableLimitPct>15.87</nonMarketableLimitPct>
+          <otherPct>12.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.75</orderPct>
+          <marketPct>1.09</marketPct>
+          <marketableLimitPct>2.94</marketableLimitPct>
+          <nonMarketableLimitPct>15.87</nonMarketableLimitPct>
+          <otherPct>10.29</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wells Fargo Clearing Services, LLC</name>
+          <orderPct>1.40</orderPct>
+          <marketPct>2.53</marketPct>
+          <marketableLimitPct>0.68</marketableLimitPct>
+          <nonMarketableLimitPct>0.21</nonMarketableLimitPct>
+          <otherPct>1.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services (“WFCS”):  WFCS executes client orders as principal solely to facilitate execution of orders involving fractional shares.  For orders that involve whole and fractional shares, WFCS routes an order for the whole shares to one of the execution venues identified in this report and executes the fractional share component as principal.  WFCS may generate trading profits (or losses) from orders it executes as principal.  WFCS does not accept rebates, credits, or payments in connection with fractional share orders, nor are there arrangements:  
+
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds;
+C. for volume-based tiered payment schedules; or 
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>1.19</orderPct>
+          <marketPct>1.81</marketPct>
+          <marketableLimitPct>1.81</marketableLimitPct>
+          <nonMarketableLimitPct>0.41</nonMarketableLimitPct>
+          <otherPct>1.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>0.44</orderPct>
+          <marketPct>0.46</marketPct>
+          <marketableLimitPct>1.07</marketableLimitPct>
+          <nonMarketableLimitPct>0.38</nonMarketableLimitPct>
+          <otherPct>0.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MCAP LLC</name>
+          <orderPct>0.00</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>32.98</ndoMarketPct>
+      <ndoMarketableLimitPct>9.35</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.28</ndoNonmarketableLimitPct>
+      <ndoOtherPct>6.40</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>34.18</orderPct>
+          <marketPct>33.97</marketPct>
+          <marketableLimitPct>33.97</marketableLimitPct>
+          <nonMarketableLimitPct>34.36</nonMarketableLimitPct>
+          <otherPct>34.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>33.43</orderPct>
+          <marketPct>33.40</marketPct>
+          <marketableLimitPct>34.70</marketableLimitPct>
+          <nonMarketableLimitPct>33.18</nonMarketableLimitPct>
+          <otherPct>33.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>32.39</orderPct>
+          <marketPct>32.62</marketPct>
+          <marketableLimitPct>31.32</marketableLimitPct>
+          <nonMarketableLimitPct>32.46</nonMarketableLimitPct>
+          <otherPct>32.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>59.33</ndoMarketPct>
+      <ndoMarketableLimitPct>0.86</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>30.70</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.10</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wells Fargo Securities</name>
+          <orderPct>59.06</orderPct>
+          <marketPct>88.31</marketPct>
+          <marketableLimitPct>67.62</marketableLimitPct>
+          <nonMarketableLimitPct>13.00</nonMarketableLimitPct>
+          <otherPct>22.96</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “WFCS”) and Wells Fargo Securities, LLC (WFS) are registered broker/dealers and are both indirect, wholly-owned subsidiaries of Wells Fargo &amp; Company. WFCS routes the majority of its ‘held’  customer orders in equity securities to WFS, which routes the orders to other venues on an agency basis, including broker-dealers and ATS platforms.  WFS does not execute the orders in a principal capacity, nor receive payments from the venues to which it routes.   Additional information regarding the arrangement between WFCS and WFS for handling these orders includes: 
+•	WFS receives a non-financial benefit from the handling of WFCS orders in the form of increased prominence in industry trading volume rankings.  
+•	WFS participates in an order matching system (LUMINEX TRADING &amp; ANALYTICS LLC (EBXL)) that systematically matches WFCS and WFS client orders, in certain instances.  Matched orders are generally executed at NBBO mid-point and WFS receives a commission payment from the WFS client. Further information on the order matching system is available in the WFS quarterly report referenced above for venue ‘EBXL’.  
+•	WFCS does not accept rebates, credits, or payments for order flow in connection with orders routed to WFS   
+•	WFCS has an arrangement to route approximately 90% of its held customer orders in equity securities to WFS, but does not have any arrangements with WFS: 
+A. that provide incentives for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives for failing to meet certain minimum volume thresholds; or
+C. for volume-based tiered payment schedules.
+Quarterly reports with information on WFS order routing are available at https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/WellsFargoSecuritiesLLC/241 by selecting ‘WCHV’, and include identification of venues to which WFS routes orders, and pertinent material aspects of the arrangements between WFS and identified venues.  WFS quarterly reports may combine information on customer orders received from WFCS with WFS customer orders.  
+
+  Held orders are required to be executed immediately upon receipt.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.74</orderPct>
+          <marketPct>3.01</marketPct>
+          <marketableLimitPct>8.29</marketableLimitPct>
+          <nonMarketableLimitPct>19.00</nonMarketableLimitPct>
+          <otherPct>22.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>8.16</orderPct>
+          <marketPct>2.53</marketPct>
+          <marketableLimitPct>7.52</marketableLimitPct>
+          <nonMarketableLimitPct>16.60</nonMarketableLimitPct>
+          <otherPct>16.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>7.37</orderPct>
+          <marketPct>0.81</marketPct>
+          <marketableLimitPct>4.10</marketableLimitPct>
+          <nonMarketableLimitPct>18.68</nonMarketableLimitPct>
+          <otherPct>12.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>7.22</orderPct>
+          <marketPct>0.81</marketPct>
+          <marketableLimitPct>7.22</marketableLimitPct>
+          <nonMarketableLimitPct>16.92</nonMarketableLimitPct>
+          <otherPct>16.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.95</orderPct>
+          <marketPct>0.79</marketPct>
+          <marketableLimitPct>3.08</marketableLimitPct>
+          <nonMarketableLimitPct>15.41</nonMarketableLimitPct>
+          <otherPct>7.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wells Fargo Clearing Services, LLC</name>
+          <orderPct>1.94</orderPct>
+          <marketPct>2.91</marketPct>
+          <marketableLimitPct>1.80</marketableLimitPct>
+          <nonMarketableLimitPct>0.33</nonMarketableLimitPct>
+          <otherPct>1.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services (“WFCS”):  WFCS executes client orders as principal solely to facilitate execution of orders involving fractional shares.  For orders that involve whole and fractional shares, WFCS routes an order for the whole shares to one of the execution venues identified in this report and executes the fractional share component as principal.  WFCS may generate trading profits (or losses) from orders it executes as principal.  WFCS does not accept rebates, credits, or payments in connection with fractional share orders, nor are there arrangements:  
+
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds;
+C. for volume-based tiered payment schedules; or 
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>0.56</orderPct>
+          <marketPct>0.83</marketPct>
+          <marketableLimitPct>0.38</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>47.03</ndoMarketPct>
+      <ndoMarketableLimitPct>4.89</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>39.15</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.93</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wells Fargo Securities</name>
+          <orderPct>51.53</orderPct>
+          <marketPct>85.28</marketPct>
+          <marketableLimitPct>65.68</marketableLimitPct>
+          <nonMarketableLimitPct>15.31</nonMarketableLimitPct>
+          <otherPct>24.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “WFCS”) and Wells Fargo Securities, LLC (WFS) are registered broker/dealers and are both indirect, wholly-owned subsidiaries of Wells Fargo &amp; Company. WFCS routes the majority of its ‘held’  customer orders in equity securities to WFS, which routes the orders to other venues on an agency basis, including broker-dealers and ATS platforms.  WFS does not execute the orders in a principal capacity, nor receive payments from the venues to which it routes.   Additional information regarding the arrangement between WFCS and WFS for handling these orders includes: 
+•	WFS receives a non-financial benefit from the handling of WFCS orders in the form of increased prominence in industry trading volume rankings.  
+•	WFS participates in an order matching system (LUMINEX TRADING &amp; ANALYTICS LLC (EBXL)) that systematically matches WFCS and WFS client orders, in certain instances.  Matched orders are generally executed at NBBO mid-point and WFS receives a commission payment from the WFS client. Further information on the order matching system is available in the WFS quarterly report referenced above for venue ‘EBXL’.  
+•	WFCS does not accept rebates, credits, or payments for order flow in connection with orders routed to WFS   
+•	WFCS has an arrangement to route approximately 90% of its held customer orders in equity securities to WFS, but does not have any arrangements with WFS: 
+A. that provide incentives for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives for failing to meet certain minimum volume thresholds; or
+C. for volume-based tiered payment schedules.
+Quarterly reports with information on WFS order routing are available at https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/WellsFargoSecuritiesLLC/241 by selecting ‘WCHV’, and include identification of venues to which WFS routes orders, and pertinent material aspects of the arrangements between WFS and identified venues.  WFS quarterly reports may combine information on customer orders received from WFCS with WFS customer orders.  
+
+  Held orders are required to be executed immediately upon receipt.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>11.51</orderPct>
+          <marketPct>4.00</marketPct>
+          <marketableLimitPct>8.07</marketableLimitPct>
+          <nonMarketableLimitPct>18.52</nonMarketableLimitPct>
+          <otherPct>22.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>10.91</orderPct>
+          <marketPct>3.81</marketPct>
+          <marketableLimitPct>11.51</marketableLimitPct>
+          <nonMarketableLimitPct>18.07</nonMarketableLimitPct>
+          <otherPct>16.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>8.30</orderPct>
+          <marketPct>0.83</marketPct>
+          <marketableLimitPct>2.42</marketableLimitPct>
+          <nonMarketableLimitPct>17.19</nonMarketableLimitPct>
+          <otherPct>11.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>8.06</orderPct>
+          <marketPct>0.90</marketPct>
+          <marketableLimitPct>3.58</marketableLimitPct>
+          <nonMarketableLimitPct>15.57</nonMarketableLimitPct>
+          <otherPct>15.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.03</orderPct>
+          <marketPct>0.90</marketPct>
+          <marketableLimitPct>5.88</marketableLimitPct>
+          <nonMarketableLimitPct>14.44</nonMarketableLimitPct>
+          <otherPct>7.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wells Fargo Clearing Services, LLC</name>
+          <orderPct>1.40</orderPct>
+          <marketPct>2.59</marketPct>
+          <marketableLimitPct>0.63</marketableLimitPct>
+          <nonMarketableLimitPct>0.21</nonMarketableLimitPct>
+          <otherPct>0.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services (“WFCS”):  WFCS executes client orders as principal solely to facilitate execution of orders involving fractional shares.  For orders that involve whole and fractional shares, WFCS routes an order for the whole shares to one of the execution venues identified in this report and executes the fractional share component as principal.  WFCS may generate trading profits (or losses) from orders it executes as principal.  WFCS does not accept rebates, credits, or payments in connection with fractional share orders, nor are there arrangements:  
+
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds;
+C. for volume-based tiered payment schedules; or 
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>0.87</orderPct>
+          <marketPct>1.32</marketPct>
+          <marketableLimitPct>1.21</marketableLimitPct>
+          <nonMarketableLimitPct>0.36</nonMarketableLimitPct>
+          <otherPct>0.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>0.37</orderPct>
+          <marketPct>0.37</marketPct>
+          <marketableLimitPct>1.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.34</nonMarketableLimitPct>
+          <otherPct>0.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MCAP LLC</name>
+          <orderPct>0.00</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>35.46</ndoMarketPct>
+      <ndoMarketableLimitPct>9.57</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>48.92</ndoNonmarketableLimitPct>
+      <ndoOtherPct>6.05</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>36.39</orderPct>
+          <marketPct>36.21</marketPct>
+          <marketableLimitPct>37.80</marketableLimitPct>
+          <nonMarketableLimitPct>36.19</nonMarketableLimitPct>
+          <otherPct>36.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>32.28</orderPct>
+          <marketPct>32.74</marketPct>
+          <marketableLimitPct>30.81</marketableLimitPct>
+          <nonMarketableLimitPct>32.39</nonMarketableLimitPct>
+          <otherPct>30.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>31.33</orderPct>
+          <marketPct>31.04</marketPct>
+          <marketableLimitPct>31.39</marketableLimitPct>
+          <nonMarketableLimitPct>31.43</nonMarketableLimitPct>
+          <otherPct>32.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>58.78</ndoMarketPct>
+      <ndoMarketableLimitPct>0.88</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>31.15</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.19</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wells Fargo Securities</name>
+          <orderPct>58.87</orderPct>
+          <marketPct>88.79</marketPct>
+          <marketableLimitPct>64.05</marketableLimitPct>
+          <nonMarketableLimitPct>13.05</nonMarketableLimitPct>
+          <otherPct>22.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “WFCS”) and Wells Fargo Securities, LLC (WFS) are registered broker/dealers and are both indirect, wholly-owned subsidiaries of Wells Fargo &amp; Company. WFCS routes the majority of its ‘held’  customer orders in equity securities to WFS, which routes the orders to other venues on an agency basis, including broker-dealers and ATS platforms.  WFS does not execute the orders in a principal capacity, nor receive payments from the venues to which it routes.   Additional information regarding the arrangement between WFCS and WFS for handling these orders includes: 
+•	WFS receives a non-financial benefit from the handling of WFCS orders in the form of increased prominence in industry trading volume rankings.  
+•	WFS participates in an order matching system (LUMINEX TRADING &amp; ANALYTICS LLC (EBXL)) that systematically matches WFCS and WFS client orders, in certain instances.  Matched orders are generally executed at NBBO mid-point and WFS receives a commission payment from the WFS client. Further information on the order matching system is available in the WFS quarterly report referenced above for venue ‘EBXL’.  
+•	WFCS does not accept rebates, credits, or payments for order flow in connection with orders routed to WFS   
+•	WFCS has an arrangement to route approximately 90% of its held customer orders in equity securities to WFS, but does not have any arrangements with WFS: 
+A. that provide incentives for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives for failing to meet certain minimum volume thresholds; or
+C. for volume-based tiered payment schedules.
+Quarterly reports with information on WFS order routing are available at https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/WellsFargoSecuritiesLLC/241 by selecting ‘WCHV’, and include identification of venues to which WFS routes orders, and pertinent material aspects of the arrangements between WFS and identified venues.  WFS quarterly reports may combine information on customer orders received from WFCS with WFS customer orders.  
+
+  Held orders are required to be executed immediately upon receipt.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.22</orderPct>
+          <marketPct>3.08</marketPct>
+          <marketableLimitPct>8.63</marketableLimitPct>
+          <nonMarketableLimitPct>17.45</nonMarketableLimitPct>
+          <otherPct>20.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>7.75</orderPct>
+          <marketPct>2.55</marketPct>
+          <marketableLimitPct>7.55</marketableLimitPct>
+          <nonMarketableLimitPct>15.96</nonMarketableLimitPct>
+          <otherPct>13.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.37</orderPct>
+          <marketPct>0.37</marketPct>
+          <marketableLimitPct>3.50</marketableLimitPct>
+          <nonMarketableLimitPct>19.25</nonMarketableLimitPct>
+          <otherPct>12.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>7.30</orderPct>
+          <marketPct>0.59</marketPct>
+          <marketableLimitPct>8.86</marketableLimitPct>
+          <nonMarketableLimitPct>16.97</nonMarketableLimitPct>
+          <otherPct>17.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>6.83</orderPct>
+          <marketPct>0.67</marketPct>
+          <marketableLimitPct>5.35</marketableLimitPct>
+          <nonMarketableLimitPct>16.91</nonMarketableLimitPct>
+          <otherPct>12.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wells Fargo Clearing Services, LLC</name>
+          <orderPct>1.94</orderPct>
+          <marketPct>2.91</marketPct>
+          <marketableLimitPct>1.68</marketableLimitPct>
+          <nonMarketableLimitPct>0.32</nonMarketableLimitPct>
+          <otherPct>1.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services (“WFCS”):  WFCS executes client orders as principal solely to facilitate execution of orders involving fractional shares.  For orders that involve whole and fractional shares, WFCS routes an order for the whole shares to one of the execution venues identified in this report and executes the fractional share component as principal.  WFCS may generate trading profits (or losses) from orders it executes as principal.  WFCS does not accept rebates, credits, or payments in connection with fractional share orders, nor are there arrangements:  
+
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds;
+C. for volume-based tiered payment schedules; or 
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>0.72</orderPct>
+          <marketPct>1.04</marketPct>
+          <marketableLimitPct>0.38</marketableLimitPct>
+          <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+          <otherPct>0.77</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>47.10</ndoMarketPct>
+      <ndoMarketableLimitPct>4.95</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>38.28</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.67</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wells Fargo Securities</name>
+          <orderPct>51.59</orderPct>
+          <marketPct>84.43</marketPct>
+          <marketableLimitPct>70.66</marketableLimitPct>
+          <nonMarketableLimitPct>15.85</nonMarketableLimitPct>
+          <otherPct>23.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “WFCS”) and Wells Fargo Securities, LLC (WFS) are registered broker/dealers and are both indirect, wholly-owned subsidiaries of Wells Fargo &amp; Company. WFCS routes the majority of its ‘held’  customer orders in equity securities to WFS, which routes the orders to other venues on an agency basis, including broker-dealers and ATS platforms.  WFS does not execute the orders in a principal capacity, nor receive payments from the venues to which it routes.   Additional information regarding the arrangement between WFCS and WFS for handling these orders includes: 
+•	WFS receives a non-financial benefit from the handling of WFCS orders in the form of increased prominence in industry trading volume rankings.  
+•	WFS participates in an order matching system (LUMINEX TRADING &amp; ANALYTICS LLC (EBXL)) that systematically matches WFCS and WFS client orders, in certain instances.  Matched orders are generally executed at NBBO mid-point and WFS receives a commission payment from the WFS client. Further information on the order matching system is available in the WFS quarterly report referenced above for venue ‘EBXL’.  
+•	WFCS does not accept rebates, credits, or payments for order flow in connection with orders routed to WFS   
+•	WFCS has an arrangement to route approximately 90% of its held customer orders in equity securities to WFS, but does not have any arrangements with WFS: 
+A. that provide incentives for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives for failing to meet certain minimum volume thresholds; or
+C. for volume-based tiered payment schedules.
+Quarterly reports with information on WFS order routing are available at https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/WellsFargoSecuritiesLLC/241 by selecting ‘WCHV’, and include identification of venues to which WFS routes orders, and pertinent material aspects of the arrangements between WFS and identified venues.  WFS quarterly reports may combine information on customer orders received from WFCS with WFS customer orders.  
+
+  Held orders are required to be executed immediately upon receipt.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>10.99</orderPct>
+          <marketPct>4.59</marketPct>
+          <marketableLimitPct>6.97</marketableLimitPct>
+          <nonMarketableLimitPct>16.91</nonMarketableLimitPct>
+          <otherPct>20.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>10.15</orderPct>
+          <marketPct>3.93</marketPct>
+          <marketableLimitPct>8.60</marketableLimitPct>
+          <nonMarketableLimitPct>17.00</nonMarketableLimitPct>
+          <otherPct>14.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>8.63</orderPct>
+          <marketPct>0.78</marketPct>
+          <marketableLimitPct>3.85</marketableLimitPct>
+          <nonMarketableLimitPct>18.08</nonMarketableLimitPct>
+          <otherPct>11.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>8.09</orderPct>
+          <marketPct>0.81</marketPct>
+          <marketableLimitPct>3.88</marketableLimitPct>
+          <nonMarketableLimitPct>15.51</nonMarketableLimitPct>
+          <otherPct>16.30</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>7.74</orderPct>
+          <marketPct>1.01</marketPct>
+          <marketableLimitPct>2.64</marketableLimitPct>
+          <nonMarketableLimitPct>15.63</nonMarketableLimitPct>
+          <otherPct>11.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wells Fargo Clearing Services, LLC</name>
+          <orderPct>1.39</orderPct>
+          <marketPct>2.55</marketPct>
+          <marketableLimitPct>0.65</marketableLimitPct>
+          <nonMarketableLimitPct>0.20</nonMarketableLimitPct>
+          <otherPct>0.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services (“WFCS”):  WFCS executes client orders as principal solely to facilitate execution of orders involving fractional shares.  For orders that involve whole and fractional shares, WFCS routes an order for the whole shares to one of the execution venues identified in this report and executes the fractional share component as principal.  WFCS may generate trading profits (or losses) from orders it executes as principal.  WFCS does not accept rebates, credits, or payments in connection with fractional share orders, nor are there arrangements:  
+
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds;
+C. for volume-based tiered payment schedules; or 
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>0.99</orderPct>
+          <marketPct>1.45</marketPct>
+          <marketableLimitPct>1.44</marketableLimitPct>
+          <nonMarketableLimitPct>0.41</nonMarketableLimitPct>
+          <otherPct>0.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>0.44</orderPct>
+          <marketPct>0.44</marketPct>
+          <marketableLimitPct>1.27</marketableLimitPct>
+          <nonMarketableLimitPct>0.41</nonMarketableLimitPct>
+          <otherPct>0.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MCAP LLC</name>
+          <orderPct>0.00</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>38.07</ndoMarketPct>
+      <ndoMarketableLimitPct>9.14</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>46.85</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.94</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>35.67</orderPct>
+          <marketPct>35.82</marketPct>
+          <marketableLimitPct>34.69</marketableLimitPct>
+          <nonMarketableLimitPct>35.56</nonMarketableLimitPct>
+          <otherPct>37.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>33.49</orderPct>
+          <marketPct>33.71</marketPct>
+          <marketableLimitPct>33.64</marketableLimitPct>
+          <nonMarketableLimitPct>33.35</nonMarketableLimitPct>
+          <otherPct>32.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>30.83</orderPct>
+          <marketPct>30.46</marketPct>
+          <marketableLimitPct>31.67</marketableLimitPct>
+          <nonMarketableLimitPct>31.09</nonMarketableLimitPct>
+          <otherPct>29.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Wells Fargo Clearing Services, LLC (the “Firm”) does not accept rebates, credits or payments from this broker-dealer.
+The Firm and this venue do not have any arrangements: 
+A. that provide incentives to the Firm for meeting or exceeding certain volume thresholds; 
+B. that provide disincentives to the Firm for failing to meet certain minimum volume thresholds; 
+C. for volume-based tiered payment schedules; or
+D. for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

@@ -1,0 +1,202 @@
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.2</version>
+  <bd>Odeon Capital Group LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-10T11:02:25Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct />
+      <ndoMarketPct />
+      <ndoMarketableLimitPct />
+      <ndoNonmarketableLimitPct />
+      <ndoOtherPct />
+      <rVenues />
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct />
+      <ndoMarketPct />
+      <ndoMarketableLimitPct />
+      <ndoNonmarketableLimitPct />
+      <ndoOtherPct />
+      <rVenues />
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>100.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>DASH FINIANCIAL TECHNOLOGIES LLC </name>
+          <mic>DFIN</mic>
+          <orderPct>70.34</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>70.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1100.2450</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>03.4558</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Odeon Capital Group (Odeon) is charged commission plus exchange, regulatory, market data, and clearing fees, less standard exchange rebates when applicable. Odeon is charged $0.05 per contract for sweeping and algorithmic routing orders and $0.025 for crossing orders. Odeon does not accept payment for order flow from other broker-dealers. Odeon may receive payment from venues in the form of pass-through rebates from certain exchanges. These payments generally offset fees for accessing orders or for other services provided by exchanges. From time to time, the amount of rebates Odeon receives as a pass-through from an exchange may exceed the amount of fees that is charged by such exchange. Odeon does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. To the extent that any exchange provides Odeon with a rebate or similar payment, such payments: (i) are provided according to exchange fee schedules and rules approved by the SEC; (ii) are not actively solicited or sought after by Odeon; (iii) if received, are de minimus; and (iv) do not influence Odeon's order routing practices, which are determined by Odeon's duty of best execution. Odeon effectively manages this potential conflict of interest by (i) providing customer disclosures regarding its payment for order flow practices; (ii)not seeking out or negotiating payments for order flow; and (iii) making order routing determinations wholly independently from any rebates or similar payments that Odeon may receive. Additional information can be found on the most recent DFIN SEC Rule 606(a) report, which is available at https://dashfinancial.com/rule-606/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>TRADEMAS INC.</name>
+          <mic>WALL</mic>
+          <orderPct>26.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>26.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>438.9250</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.2789</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Odeon Capital Group (Odeon) is charged commission plus exchange, regulatory, market data, and clearing fees, less standard exchange rebates when applicable. Odeon is charged $0.025 per side on crosses with $500.00 cap, $0.00 per contract on QCC rebate-able crosses, $0.04 per contract on electronic liquidity on smart router orders, $0.05 per contract on liquidity (non-smart router) orders, and $0.025 per CMTA . Odeon does not accept payment for order flow from other broker-dealers. Odeon may receive payment from venues in the form of pass-through rebates from certain exchanges. These payments generally offset fees for accessing orders or for other services provided by exchanges. From time to time, the amount of rebates Odeon receives as a pass-through from an exchange may exceed the amount of fees that is charged by such exchange. Odeon does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. To the extent that any exchange provides Odeon with a rebate or similar payment, such payments: (i) are provided according to exchange fee schedules and rules approved by the SEC; (ii) are not actively solicited or sought after by Odeon; (iii) if received, are de minimus; and (iv) do not influence Odeon's order routing practices, which are determined by Odeon's duty of best execution. Odeon effectively manages this potential conflict of interest by (i) providing customer disclosures regarding its payment for order flow practices; (ii)not seeking out or negotiating payments for order flow; and (iii) making order routing determinations wholly independently from any rebates or similar payments that Odeon may receive. Additional information can be found on the most recent WALL SEC Rule 606(a) report, which is available at https://www.finra.org/finra-data/606-nms-data.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct />
+      <ndoMarketPct />
+      <ndoMarketableLimitPct />
+      <ndoNonmarketableLimitPct />
+      <ndoOtherPct />
+      <rVenues />
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct />
+      <ndoMarketPct />
+      <ndoMarketableLimitPct />
+      <ndoNonmarketableLimitPct />
+      <ndoOtherPct />
+      <rVenues />
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>100.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>DASH FINIANCIAL TECHNOLOGIES LLC </name>
+          <mic>DFIN</mic>
+          <orderPct>64.36</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>64.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1510.7250</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>03.3362</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Odeon Capital Group (Odeon) is charged commission plus exchange, regulatory, market data, and clearing fees, less standard exchange rebates when applicable. Odeon is charged $0.05 per contract for sweeping and algorithmic routing orders and $0.025 for crossing orders. Odeon does not accept payment for order flow from other broker-dealers. Odeon may receive payment from venues in the form of pass-through rebates from certain exchanges. These payments generally offset fees for accessing orders or for other services provided by exchanges. From time to time, the amount of rebates Odeon receives as a pass-through from an exchange may exceed the amount of fees that is charged by such exchange. Odeon does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. To the extent that any exchange provides Odeon with a rebate or similar payment, such payments: (i) are provided according to exchange fee schedules and rules approved by the SEC; (ii) are not actively solicited or sought after by Odeon; (iii) if received, are de minimus; and (iv) do not influence Odeon's order routing practices, which are determined by Odeon's duty of best execution. Odeon effectively manages this potential conflict of interest by (i) providing customer disclosures regarding its payment for order flow practices; (ii)not seeking out or negotiating payments for order flow; and (iii) making order routing determinations wholly independently from any rebates or similar payments that Odeon may receive. Additional information can be found on the most recent DFIN SEC Rule 606(a) report, which is available at https://dashfinancial.com/rule-606/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>TRADEMAS INC.</name>
+          <mic>WALL</mic>
+          <orderPct>30.50</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>30.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>889.3500</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.4341</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Odeon Capital Group (Odeon) is charged commission plus exchange, regulatory, market data, and clearing fees, less standard exchange rebates when applicable. Odeon is charged $0.025 per side on crosses with $500.00 cap, $0.00 per contract on QCC rebate-able crosses, $0.04 per contract on electronic liquidity on smart router orders, $0.05 per contract on liquidity (non-smart router) orders, and $0.025 per CMTA . Odeon does not accept payment for order flow from other broker-dealers. Odeon may receive payment from venues in the form of pass-through rebates from certain exchanges. These payments generally offset fees for accessing orders or for other services provided by exchanges. From time to time, the amount of rebates Odeon receives as a pass-through from an exchange may exceed the amount of fees that is charged by such exchange. Odeon does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. To the extent that any exchange provides Odeon with a rebate or similar payment, such payments: (i) are provided according to exchange fee schedules and rules approved by the SEC; (ii) are not actively solicited or sought after by Odeon; (iii) if received, are de minimus; and (iv) do not influence Odeon's order routing practices, which are determined by Odeon's duty of best execution. Odeon effectively manages this potential conflict of interest by (i) providing customer disclosures regarding its payment for order flow practices; (ii)not seeking out or negotiating payments for order flow; and (iii) making order routing determinations wholly independently from any rebates or similar payments that Odeon may receive. Additional information can be found on the most recent WALL SEC Rule 606(a) report, which is available at https://www.finra.org/finra-data/606-nms-data</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct />
+      <ndoMarketPct />
+      <ndoMarketableLimitPct />
+      <ndoNonmarketableLimitPct />
+      <ndoOtherPct />
+      <rVenues />
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct />
+      <ndoMarketPct />
+      <ndoMarketableLimitPct />
+      <ndoNonmarketableLimitPct />
+      <ndoOtherPct />
+      <rVenues />
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>100.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>DASH FINIANCIAL TECHNOLOGIES LLC </name>
+          <mic>DFIN</mic>
+          <orderPct>77.96</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>77.96</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3131.9125</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>02.3036</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Odeon Capital Group (Odeon) is charged commission plus exchange, regulatory, market data, and clearing fees, less standard exchange rebates when applicable. Odeon is charged $0.05 per contract for sweeping and algorithmic routing orders and $0.025 for crossing orders. Odeon does not accept payment for order flow from other broker-dealers. Odeon may receive payment from venues in the form of pass-through rebates from certain exchanges. These payments generally offset fees for accessing orders or for other services provided by exchanges. From time to time, the amount of rebates Odeon receives as a pass-through from an exchange may exceed the amount of fees that is charged by such exchange. Odeon does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. To the extent that any exchange provides Odeon with a rebate or similar payment, such payments: (i) are provided according to exchange fee schedules and rules approved by the SEC; (ii) are not actively solicited or sought after by Odeon; (iii) if received, are de minimus; and (iv) do not influence Odeon's order routing practices, which are determined by Odeon's duty of best execution. Odeon effectively manages this potential conflict of interest by (i) providing customer disclosures regarding its payment for order flow practices; (ii)not seeking out or negotiating payments for order flow; and (iii) making order routing determinations wholly independently from any rebates or similar payments that Odeon may receive. Additional information can be found on the most recent DFIN SEC Rule 606(a) report, which is available at https://dashfinancial.com/rule-606/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>TRADEMAS INC.</name>
+          <mic>WALL</mic>
+          <orderPct>17.72</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>17.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.0000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-754.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.3447</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Odeon Capital Group (Odeon) is charged commission plus exchange, regulatory, market data, and clearing fees, less standard exchange rebates when applicable. Odeon is charged $0.025 per side on crosses with $500.00 cap, $0.00 per contract on QCC rebate-able crosses, $0.04 per contract on electronic liquidity on smart router orders, $0.05 per contract on liquidity (non-smart router) orders, and $0.025 per CMTA . Odeon does not accept payment for order flow from other broker-dealers. Odeon may receive payment from venues in the form of pass-through rebates from certain exchanges. These payments generally offset fees for accessing orders or for other services provided by exchanges. From time to time, the amount of rebates Odeon receives as a pass-through from an exchange may exceed the amount of fees that is charged by such exchange. Odeon does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. To the extent that any exchange provides Odeon with a rebate or similar payment, such payments: (i) are provided according to exchange fee schedules and rules approved by the SEC; (ii) are not actively solicited or sought after by Odeon; (iii) if received, are de minimus; and (iv) do not influence Odeon's order routing practices, which are determined by Odeon's duty of best execution. Odeon effectively manages this potential conflict of interest by (i) providing customer disclosures regarding its payment for order flow practices; (ii)not seeking out or negotiating payments for order flow; and (iii) making order routing determinations wholly independently from any rebates or similar payments that Odeon may receive. Additional information can be found on the most recent WALL SEC Rule 606(a) report, which is available at https://www.finra.org/finra-data/606-nms-data.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

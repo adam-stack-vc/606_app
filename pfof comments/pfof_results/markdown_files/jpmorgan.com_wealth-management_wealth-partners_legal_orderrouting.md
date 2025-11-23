@@ -1,0 +1,239 @@
+---
+                title: "('Order Routing Practices',)"
+                url: "https://jpmorgan.com/wealth-management/wealth-partners/legal/orderrouting"
+                date: ""
+                sentiment: "('Neutral',)"
+                topic: "pfof"
+                ---
+
+                
+[Skip to main content](#main)
+
+
+[![J.P. Morgan Wealth Management logo](/content/dam/jpm/wealth-management/logos/jpwm-logo.svg)](/wealth-management/wealth-partners)
+
+* Services
+* [Our Advisors](https://wealthpartners.jpmorgan.com/search?query=Advisor+near+me)
+* Perspectives
+* About Us
+* [Contact Us](/wealth-management/wealth-partners/contact-us)
+
+Menu
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+* Services
+* [Our Advisors](https://wealthpartners.jpmorgan.com/search?query=Advisor+near+me)
+* Perspectives
+* About Us
+* [Contact Us](/wealth-management/wealth-partners/contact-us)
+
+* [Careers](/wealth-management/wealth-partners/join-our-team)
+* [Login](https://secure01b.chase.com/web/auth/?treatment=jpo#/logon/logon/chaseOnline)
+* [FIND A WEALTH ADVISOR](https://wealthpartners.jpmorgan.com/)
+
+
+* [Careers](/wealth-management/wealth-partners/join-our-team)
+* [Login](https://secure01b.chase.com/web/auth/?treatment=jpo#/logon/logon/chaseOnline)
+* [FIND A WEALTH ADVISOR](https://wealthpartners.jpmorgan.com/)
+
+
+Search
+
+
+
+
+
+
+
+
+
+* Explore our services
+
+Back to menu
+Explore our services
+
+* Explore our services
+
+[Explore our services](/wealth-management/wealth-partners/services)
+
+* [Wealth Planning](/wealth-management/wealth-partners/wealth-planning)
+Receive a multigenerational wealth plan with personalized strategies and guidance.
+* [Investing](/wealth-management/wealth-partners/investing)
+Experience a holistic approach to investing, centered on your goals and priorities.
+* [Lending](/wealth-management/wealth-partners/lending)
+Unlock liquidity with a variety of customized lending products, strategies and solutions.
+* [Banking](/wealth-management/wealth-partners/banking)
+Access a variety of banking products and services tailored to your needs.
+* [Family Wealth](/wealth-management/wealth-partners/family-wealth)
+Access a suite of family wealth services to help you navigate the distinct opportunities and challenges of family wealth.
+
+
+
+
+
+
+
+
+
+
+
+* Read our Perspectives
+
+Back to menu
+Read our Perspectives
+
+* Read our Perspectives
+
+[Read our Perspectives](/wealth-management/wealth-partners/insights)
+
+Sharpen your knowledge with the latest wealth engagement news, market commentary and planning education.
+
+
+* [Family Wealth Institute](/wealth-management/wealth-partners/family-wealth-institute)
+
+Access educational resources designed to help build and preserve your family legacy.
+
+
+
+
+
+
+
+
+
+
+
+* Learn about us
+
+Back to menu
+Learn about us
+
+* Learn about us
+
+[Learn about us](/wealth-management/wealth-partners/about-us)
+
+Discover our approach, digital tools and community initiatives.
+
+
+* [Join our team](/wealth-management/wealth-partners/join-our-team)
+
+See how we support our elite advisors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Order Routing Practices
+=======================
+
+
+
+
+
+
+
+On November 15, 2000, the Securities and Exchange Commission adopted rules mandating the public disclosure of order execution and routing practices (the "Disclosure Rules"). Under Rule 605 (formerly SEC Rule 11Ac1-5), market centers that trade national market system securities, are required to make available to the public monthly electronic reports that include uniform statistical measures of execution quality. Under Rule 606 (formerly SEC Rule 11Ac1-6), broker-dealers that route customer orders in equity and option securities are required to make publicly available quarterly reports that, among other things, identify the venues to which customer orders are routed for execution.
+
+[**Click to view our SEC Rule 605 Report on Order Execution**](http://vrs.vista-one-solutions.com/sec605rule.aspx "Click  to view SEC Rule 605 Report on Order Execution")
+
+[**Click to view our SEC Rule 606 Report on Routing of Customer Orders**](http://vrs.vista-one-solutions.com/sec606rule.aspx "Click to view SEC Rule 606 Report on Routing of Customer Orders")
+
+[**Click to view our SEC Rule 606(a) Report on Routing of Customer Orders**](https://mta.ihsmarkit.com/app-v2/public-report-library/public-report-library-view/JP%20Morgan%20Securities%20LLC/202 "Click to view  SEC Rule 606(a) Report on Routing of Customer Orders")
+
+The information required by SEC Rules 605 and 606 does not encompass all of the factors that may be important to investors in evaluating the order execution and routing services of a broker-dealer. SEC Rule 605 statistics are intended to facilitate a comparison of execution quality between market makers, alternative trading systems, and other trading venues. However, any particular venue's statistics reflect varying types of orders received from different customers with a wide range of objectives. In addition, SEC Rule 606 statistics are intended to provide a general overview of a broker-dealer’s order routing practices. Accordingly, the statistical information required by SEC Rule 605 and 606 alone does not create a reliable basis to address whether any particular broker-dealer obtained the most favorable terms reasonably available under the circumstances for customer orders.
+
+We have attempted to prepare these statistics in compliance with the SEC's rules. However the statistics have not been audited and may contain errors. J.P. Morgan Securities LLC and its affiliates (collectively, "JP Morgan") do not represent, warrant, or guarantee that the statistics are accurate. From time to time the Firm may become aware of systems or other errors that may affect the data or results reflected in its Report but which cannot be corrected before publication. The Firm may, in its discretion, revise and republish this Report and/or previous Reports for prior periods. JP Morgan disclaims liability for any direct, indirect, punitive, special, consequential, or incidental damages related to the statistics or the use of such. The information provided in the reports may be impacted by market data system outages or errors, both internal and external, and it is dependent upon the integrity and accuracy of data provided by outside sources. Certain assumptions have been made in preparing the statistics, and changes to the assumptions may have a material impact on results. The statistics do not endorse or recommend any particular security or market participant.
+
+Customers of J.P. Morgan Securities LLC may request information on any order executed within the prior six months from the time of the request. Specifically, you may request the identity of the venue to which the identified orders were routed for execution, whether the order was directed by you to that venue, and the time of the executions, if any, that resulted from such orders.
+
+
+
+
+
+LEARN MORE ABOUT OUR FIRM AND INVESTMENT PROFESSIONALS AT [FINRA BROKERCHECK](http://brokercheck.finra.org/ "FINRA brokercheck").
+
+To learn more about J.P. Morgan’s investment business, including our accounts, products and services, as well as our relationship with you, please review our [J.P. Morgan Securities LLC Form CRS (PDF)](https://www.jpmorgan.com/directdoc/form_crs.pdf "securities llc form") and [Guide to Investment Services and Brokerage Products](https://investment.jpmorgan.com/ "guide to investment").
+
+This website is for informational purposes only, and not an offer, recommendation or solicitation of any product, strategy service or transaction. Any views, strategies or products discussed on this site may not be appropriate or suitable for all individuals and are subject to risks. Prior to making any investment or financial decisions, an investor should seek individualized advice from a personal financial, legal, tax and other professional advisors that take into account all of the particular facts and circumstances of an investor's own situation.
+
+This website provides information about the brokerage and investment advisory services provided by **J.P. Morgan Securities LLC** (JPMS). When JPMS acts as a broker-dealer, a client's relationship with us and our duties to the client will be different in some important ways than a client's relationship with us and our duties to the client when we are acting as an investment advisor. A client should carefully read the agreements and disclosures received (including our Form ADV disclosure brochure, if and when applicable) in connection with our provision of services for important information about the capacity in which we will be acting.
+
+J.P. Morgan Wealth Management is a business of JPMorgan Chase & Co., which offers investment products and services through **J.P. Morgan Securities LLC** (JPMS), a registered broker-dealer and investment adviser, member [FINRA](https://www.finra.org/ "FINRA website"), and [SIPC](https://www.sipc.org/). Insurance products are made available through Chase Insurance Agency, Inc. (CIA), a licensed insurance agency, doing business as Chase Insurance Agency Services, Inc. in Florida. Certain custody and other services are provided by JPMorgan Chase Bank, N.A. (JPMCB). JPMS, CIA and JPMCB are affiliated companies under the common control of JPMorgan Chase & Co. Products not available in all states.
+
+
+
+![](/content/dam/jpm/securities/images/misc/equal-housing-lender.png)
+
+
+Investments in alternative investment strategies is speculative, often involves a greater degree of risk than traditional investments including limited liquidity and limited transparency, among other factors and should only be considered by sophisticated investors with the financial capability to accept the loss of all or part of the assets devoted to such strategies.
+
+Borrowing with securities as collateral involves certain risks, including the possibility that you may need to deposit additional securities and/or cash in the account to meet a maintenance call, and that securities in the account may be sold to meet the maintenance call.  Proper management of your account and a thorough understanding of the conditions that may affect your investments will assist you in effectively using the margin lending program.
+
+Please read additional [Important Information](/wealth-management/wealth-partners/important-information "read important information") in conjunction with these pages.
+
+**INVESTMENT AND INSURANCE PRODUCTS ARE:   
+
+• NOT FDIC INSURED • NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY • NOT A DEPOSIT OR OTHER OBLIGATION OF, OR GUARANTEED BY, JPMORGAN CHASE BANK, N.A. OR ANY OF ITS AFFILIATES • SUBJECT TO INVESTMENT RISKS, INCLUDING POSSIBLE LOSS OF THE PRINCIPAL AMOUNT INVESTED**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You're now leaving J.P. Morgan
+
+J.P. Morgan’s website and/or mobile terms, privacy and security policies don’t apply to the site or app you're about to visit. Please review its terms, privacy and security policies to see how they apply to you. J.P. Morgan isn’t responsible for (and doesn’t provide) any products, services or content at this third-party site or app, except for products and services that explicitly carry the J.P. Morgan name.
+
+
+Cancel
+Proceed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

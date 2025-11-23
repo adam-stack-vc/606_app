@@ -1,0 +1,52 @@
+{
+  "filename": "row_010_truewealth_ch_extracted",
+  "url": "https://truewealth.ch/en/blog/payment-for-order-flow-a-controversial-practice",
+  "title": "Payment for order flow: a controversial practice in equity trading",
+  "date": "7/30/24",
+  "sentiment": "Neutral, Negative",
+  "text": "----------------------------------------\nMany people who manage their investments independently use so-called «free brokers» to trade. Neobrokers such as Robinhood, Scalable Capital and Trade Republic offer their customers relatively simple and inexpensive digital access to trading shares and other financial instruments.\nThey earn money primarily through so-called «Payment for Order Flow» (PFOF) – i.e. payments for forwarding their customers' trades.\nIdeally, your stockbroker or trading platform should forward your trading order to the trading venue that is best suited for your trade. This is called «best execution». Depending on the trading order, however, «best» can mean something different. For example, that your trade is executed as quickly as possible and with a high probability, or that your trade is executed at the best possible price, or both at the same time.\nThe more liquid the trading venue, the more likely these requirements are met. Usually, the most liquid and therefore most suitable trading venue is quite simply the stock exchange on which the share is listed. This is because the market between buyers and sellers of securities takes place on the stock exchange.\nMarket makers are a special category of market participants. Market makers have the task of ensuring a minimum liquidity for a particular security at all times by constantly quoting a price to buy and a price to sell at the same time. To enable a market maker to set these prices, he keeps an inventory of the security in his own book. The market maker earns his income from the spread between the bid and ask price, which compensates him for the risk of sitting on his holdings or having to sell them at a lower price than he bought them at.\nMarket makers are an important source of liquidity. However, they are only one of many and are also in competition with all other market participants. If a market maker spreads its bid-ask spread too wide, another market participant may beat it to the punch and accept your trading order on the exchange.\nIn principle, the more different market participants there are, the more liquid an exchange is. With «Payment for Order Flow», however, your neobroker or trading platform does not forward your trading order to the exchange, but directly to a single market maker. The advantage for the market maker is that it does not have to set its bid-ask spread as tightly as it would otherwise have to on the exchange because it has no competition. In return, the trading platform receives a fee.\nThe PFOF model is mainly used by free online trading platforms. Instead of charging their customers a transparent brokerage fee for executing the trade, these providers use the PFOF model and thus receive a sales commission for brokering the trade to the market maker. In short: your trading order is executed at a lower price, but «free of charge».\nHowever, many customers are often unaware of these hidden costs. This is another reason why the model is controversial. In addition, neobrokers may be tempted to forward their clients' trading orders to the trading venues that pay them the highest commissions. This can lead to your order being executed at an unfavorable price. A classic conflict of interest for which the client ultimately has to pay.\nIn the EU, a ban on the «Payment for Order Flow» (PFOF) remuneration model was decided on March 8, 2024, which came into force shortly afterward. The newly adopted ban is expected to have to be implemented by the EU member states from mid-2026. The PFOF model is already banned in Canada, the UK, and Australia, but no ban is foreseeable in Switzerland in the near future.\nWere you aware of how neobrokers make their money? Leave us your feedback by e-mail.",
+  "text_length": 3739,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.485921",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_010_truewealth_ch_extracted.txt"
+  },
+  "companies_mentioned": [
+    "Scalable Capital and Trade Republic",
+    "EU"
+  ],
+  "persons_mentioned": [],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "client order",
+          "market maker"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "equity trading": [
+          "client order"
+        ],
+        "market making": [
+          "market maker"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "client order",
+        "market maker"
+      ]
+    },
+    "content_length": 3739,
+    "word_count": 625
+  }
+}

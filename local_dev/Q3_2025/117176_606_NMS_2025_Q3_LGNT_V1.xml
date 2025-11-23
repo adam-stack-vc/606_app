@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>LGNT</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-23T15:00:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>93.10</ndoMarketPct>
+      <ndoMarketableLimitPct>0.83</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>3.74</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.33</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>63.68</orderPct>
+          <marketPct>67.64</marketPct>
+          <marketableLimitPct>16.96</marketableLimitPct>
+          <nonMarketableLimitPct>5.47</nonMarketableLimitPct>
+          <otherPct>15.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1734.31</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>100.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>65.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Virtu Americas, LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>12.82</orderPct>
+          <marketPct>12.30</marketPct>
+          <marketableLimitPct>21.20</marketableLimitPct>
+          <nonMarketableLimitPct>15.53</nonMarketableLimitPct>
+          <otherPct>26.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1096.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>69.01</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.3550</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>110.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.5089</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>62.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0033</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>10.20</orderPct>
+          <marketPct>9.45</marketPct>
+          <marketableLimitPct>17.46</marketableLimitPct>
+          <nonMarketableLimitPct>18.08</nonMarketableLimitPct>
+          <otherPct>24.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>255.41</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.5012</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>359.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.5005</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>65.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.5010</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>25.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.5011</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from UBS Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>7.48</orderPct>
+          <marketPct>6.67</marketPct>
+          <marketableLimitPct>21.70</marketableLimitPct>
+          <nonMarketableLimitPct>17.14</nonMarketableLimitPct>
+          <otherPct>19.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>925.92</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0270</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>60.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0091</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>134.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0121</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>33.67</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9858</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Canaccord Genuity Securities for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>87.23</ndoMarketPct>
+      <ndoMarketableLimitPct>3.27</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>6.45</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.04</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>60.38</orderPct>
+          <marketPct>68.03</marketPct>
+          <marketableLimitPct>1.74</marketableLimitPct>
+          <nonMarketableLimitPct>1.74</nonMarketableLimitPct>
+          <otherPct>28.74</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7211.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9608</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>778.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>47.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9990</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0095</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Virtu Americas, LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>12.88</orderPct>
+          <marketPct>11.22</marketPct>
+          <marketableLimitPct>24.84</marketableLimitPct>
+          <nonMarketableLimitPct>22.18</nonMarketableLimitPct>
+          <otherPct>27.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7992.13</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.2446</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6242.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.6047</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4354.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.3370</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>468.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.5678</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.
+
+Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in non-NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.25 for each order when the share price is $0 to $0.05. Axos Clearing LLC receives remuneration in the form of $0.75 for each order when the share price is $0.05 to $1. Axos Clearing LLC receives remuneration in the form of $1.50 for each order when the share price is greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>6.70</orderPct>
+          <marketPct>4.89</marketPct>
+          <marketableLimitPct>19.79</marketableLimitPct>
+          <nonMarketableLimitPct>19.62</nonMarketableLimitPct>
+          <otherPct>17.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2706.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>6.3041</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4642.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.6265</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2926.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.4486</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>288.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.3804</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from UBS Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>6.13</orderPct>
+          <marketPct>4.34</marketPct>
+          <marketableLimitPct>19.01</marketableLimitPct>
+          <nonMarketableLimitPct>18.79</nonMarketableLimitPct>
+          <otherPct>16.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8261.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.5774</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4119.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.5103</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4716.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.8756</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1355.41</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.5006</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Canaccord Genuity Securities for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.
+
+Axos Clearing LLC receives payments from Canaccord Genuity Securities LLC for routing flow in non-NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.40 for each order when the share price is $0.01 to $1. Axos Clearing LLC receives remuneration in the form of $1.00 for each order when the share price is $1.01 to $5. Axos Clearing LLC receives $2.00 for each order when the shares price is greater than $5. Axos Clearing LLC does not receive remuneration when the share price is less than $0.01.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>4.91</orderPct>
+          <marketPct>3.27</marketPct>
+          <marketableLimitPct>18.08</marketableLimitPct>
+          <nonMarketableLimitPct>18.54</nonMarketableLimitPct>
+          <otherPct>8.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9861.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.0023</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6145.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.6699</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4513.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.1256</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>754.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.2462</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Two Sigma Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 when the execution price is $1 per share or higher.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>18.97</ndoMarketPct>
+      <ndoMarketableLimitPct>13.22</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>66.06</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.75</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Execution Services</name>
+          <orderPct>51.57</orderPct>
+          <marketPct>52.26</marketPct>
+          <marketableLimitPct>51.75</marketableLimitPct>
+          <nonMarketableLimitPct>51.48</nonMarketableLimitPct>
+          <otherPct>46.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>15751.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.1666</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5045.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.4908</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7810.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>37.2960</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>595.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>47.1553</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for directing options order flow to this venue. Axos Clearing LLC receives remuneration as follows:
+Executed option orders whose underlying securities participate in the penny increment program at a rate of $0.25 per contract.
+Executed option orders whose underlying securities do not participate in the penny increment program at a rate of $0.65 per contract.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Susquehanna Financial Group, LLP</name>
+          <orderPct>48.41</orderPct>
+          <marketPct>47.74</marketPct>
+          <marketableLimitPct>48.12</marketableLimitPct>
+          <nonMarketableLimitPct>48.52</nonMarketableLimitPct>
+          <otherPct>53.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>16129.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.8881</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3089.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.0550</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9963.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.0311</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>561.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.9342</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Susquehanna International Group LLP for directing options order flow to this venue. Axos Clearing LLC receives remuneration as follows:
+Executed option orders whose underlying securities participate in the penny increment program at a rate of $0.25 per contract.
+Executed option orders whose underlying securities do not participate in the penny increment program at a rate of $0.65 per contract.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>92.28</ndoMarketPct>
+      <ndoMarketableLimitPct>1.11</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>4.21</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.40</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>61.38</orderPct>
+          <marketPct>65.77</marketPct>
+          <marketableLimitPct>10.18</marketableLimitPct>
+          <nonMarketableLimitPct>4.64</nonMarketableLimitPct>
+          <otherPct>15.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1685.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9992</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.6744</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Virtu Americas, LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>14.26</orderPct>
+          <marketPct>13.99</marketPct>
+          <marketableLimitPct>18.36</marketableLimitPct>
+          <nonMarketableLimitPct>11.00</nonMarketableLimitPct>
+          <otherPct>28.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>938.93</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0001</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>27.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.1587</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>103.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.3438</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>61.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0023</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>9.84</orderPct>
+          <marketPct>9.09</marketPct>
+          <marketableLimitPct>32.73</marketableLimitPct>
+          <nonMarketableLimitPct>12.58</nonMarketableLimitPct>
+          <otherPct>23.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>343.48</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.0005</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>379.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.6331</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>59.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.2727</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>58.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.5740</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from UBS Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>7.53</orderPct>
+          <marketPct>6.85</marketPct>
+          <marketableLimitPct>21.27</marketableLimitPct>
+          <nonMarketableLimitPct>12.10</nonMarketableLimitPct>
+          <otherPct>19.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>737.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0130</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>55.64</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0066</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>79.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0166</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>63.92</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0054</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Canaccord Genuity Securities for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>86.66</ndoMarketPct>
+      <ndoMarketableLimitPct>3.60</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>6.77</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.98</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>60.39</orderPct>
+          <marketPct>68.71</marketPct>
+          <marketableLimitPct>2.91</marketableLimitPct>
+          <nonMarketableLimitPct>1.67</nonMarketableLimitPct>
+          <otherPct>20.97</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7045.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9833</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>627.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>273.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9982</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0132</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Virtu Americas, LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>12.93</orderPct>
+          <marketPct>11.50</marketPct>
+          <marketableLimitPct>21.88</marketableLimitPct>
+          <nonMarketableLimitPct>19.42</nonMarketableLimitPct>
+          <otherPct>28.76</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7986.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.0673</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7637.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.8226</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4248.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.4712</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1574.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.9605</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.
+
+Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in non-NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.25 for each order when the share price is $0 to $0.05. Axos Clearing LLC receives remuneration in the form of $0.75 for each order when the share price is $0.05 to $1. Axos Clearing LLC receives remuneration in the form of $1.50 for each order when the share price is greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>6.72</orderPct>
+          <marketPct>4.79</marketPct>
+          <marketableLimitPct>20.55</marketableLimitPct>
+          <nonMarketableLimitPct>18.38</nonMarketableLimitPct>
+          <otherPct>19.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3856.76</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0345</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7219.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.3140</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4852.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.2486</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>419.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.1750</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from UBS Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>6.26</orderPct>
+          <marketPct>4.34</marketPct>
+          <marketableLimitPct>20.44</marketableLimitPct>
+          <nonMarketableLimitPct>18.38</nonMarketableLimitPct>
+          <otherPct>17.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7661.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.2523</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4105.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.2625</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5757.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.4227</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1337.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.1289</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Canaccord Genuity Securities for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.
+
+Axos Clearing LLC receives payments from Canaccord Genuity Securities LLC for routing flow in non-NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.40 for each order when the share price is $0.01 to $1. Axos Clearing LLC receives remuneration in the form of $1.00 for each order when the share price is $1.01 to $5. Axos Clearing LLC receives $2.00 for each order when the shares price is greater than $5. Axos Clearing LLC does not receive remuneration when the share price is less than $0.01.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>4.71</orderPct>
+          <marketPct>2.75</marketPct>
+          <marketableLimitPct>21.30</marketableLimitPct>
+          <nonMarketableLimitPct>17.96</nonMarketableLimitPct>
+          <otherPct>11.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7273.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.8713</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7842.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.2478</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3435.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.3708</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>689.86</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.6847</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Two Sigma Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 when the execution price is $1 per share or higher.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>16.91</ndoMarketPct>
+      <ndoMarketableLimitPct>14.50</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>67.02</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.57</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Susquehanna Financial Group, LLP</name>
+          <orderPct>50.54</orderPct>
+          <marketPct>48.00</marketPct>
+          <marketableLimitPct>48.12</marketableLimitPct>
+          <nonMarketableLimitPct>51.70</nonMarketableLimitPct>
+          <otherPct>50.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8159.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.8757</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6032.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.6209</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6613.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.4881</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>160.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>34.2964</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Susquehanna International Group LLP for directing options order flow to this venue. Axos Clearing LLC receives remuneration as follows:
+Executed option orders whose underlying securities participate in the penny increment program at a rate of $0.25 per contract.
+Executed option orders whose underlying securities do not participate in the penny increment program at a rate of $0.65 per contract.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Execution Services</name>
+          <orderPct>49.43</orderPct>
+          <marketPct>52.00</marketPct>
+          <marketableLimitPct>51.88</marketableLimitPct>
+          <nonMarketableLimitPct>48.25</nonMarketableLimitPct>
+          <otherPct>49.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9542.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.5763</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7603.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>33.3776</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6275.66</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.6266</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>198.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>31.3722</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for directing options order flow to this venue. Axos Clearing LLC receives remuneration as follows:
+Executed option orders whose underlying securities participate in the penny increment program at a rate of $0.25 per contract.
+Executed option orders whose underlying securities do not participate in the penny increment program at a rate of $0.65 per contract.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>93.33</ndoMarketPct>
+      <ndoMarketableLimitPct>0.81</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>2.84</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.02</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>63.20</orderPct>
+          <marketPct>66.98</marketPct>
+          <marketableLimitPct>20.87</marketableLimitPct>
+          <nonMarketableLimitPct>10.55</nonMarketableLimitPct>
+          <otherPct>7.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1656.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>14.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4.38</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.2026</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Virtu Americas, LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>14.52</orderPct>
+          <marketPct>13.95</marketPct>
+          <marketableLimitPct>14.36</marketableLimitPct>
+          <nonMarketableLimitPct>17.18</nonMarketableLimitPct>
+          <otherPct>29.74</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1070.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>169.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9915</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>109.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>9.7331</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>93.88</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0011</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>9.76</orderPct>
+          <marketPct>8.84</marketPct>
+          <marketableLimitPct>18.16</marketableLimitPct>
+          <nonMarketableLimitPct>18.49</nonMarketableLimitPct>
+          <otherPct>27.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>643.78</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>226.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>59.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>84.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from UBS Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>7.54</orderPct>
+          <marketPct>6.77</marketPct>
+          <marketableLimitPct>15.45</marketableLimitPct>
+          <nonMarketableLimitPct>15.25</nonMarketableLimitPct>
+          <otherPct>22.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>699.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0302</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0203</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>105.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0080</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>67.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0113</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Canaccord Genuity Securities for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>87.44</ndoMarketPct>
+      <ndoMarketableLimitPct>3.62</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.61</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.33</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>60.47</orderPct>
+          <marketPct>68.14</marketPct>
+          <marketableLimitPct>2.87</marketableLimitPct>
+          <nonMarketableLimitPct>2.29</nonMarketableLimitPct>
+          <otherPct>19.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8227.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8182</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>551.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>166.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0216</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Virtu Americas, LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>13.31</orderPct>
+          <marketPct>11.97</marketPct>
+          <marketableLimitPct>21.44</marketableLimitPct>
+          <nonMarketableLimitPct>20.40</nonMarketableLimitPct>
+          <otherPct>27.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9631.43</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.9432</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8199.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.8461</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3578.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>9.7167</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1781.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.0868</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.
+
+Axos Clearing LLC receives payments from Citadel Securities LLC for routing order flow in non-NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.25 for each order when the share price is $0 to $0.05. Axos Clearing LLC receives remuneration in the form of $0.75 for each order when the share price is $0.05 to $1. Axos Clearing LLC receives remuneration in the form of $1.50 for each order when the share price is greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>6.64</orderPct>
+          <marketPct>4.73</marketPct>
+          <marketableLimitPct>21.32</marketableLimitPct>
+          <nonMarketableLimitPct>18.81</nonMarketableLimitPct>
+          <otherPct>20.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5441.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.1873</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>10859.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.2236</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3550.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.4545</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>814.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.6758</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from UBS Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>6.27</orderPct>
+          <marketPct>4.40</marketPct>
+          <marketableLimitPct>21.77</marketableLimitPct>
+          <nonMarketableLimitPct>19.18</nonMarketableLimitPct>
+          <otherPct>16.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9802.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.5552</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4211.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.6762</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6841.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.7067</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1577.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0002</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Canaccord Genuity Securities for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 per executed share when the execution price is $1 per share or higher. Axos Clearing LLC does not receive remuneration for executed shares when the execution price is less than $1 per share.
+
+Axos Clearing LLC receives payments from Canaccord Genuity Securities LLC for routing flow in non-NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.40 for each order when the share price is $0.01 to $1. Axos Clearing LLC receives remuneration in the form of $1.00 for each order when the share price is $1.01 to $5. Axos Clearing LLC receives $2.00 for each order when the shares price is greater than $5. Axos Clearing LLC does not receive remuneration when the share price is less than $0.01.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>4.57</orderPct>
+          <marketPct>2.76</marketPct>
+          <marketableLimitPct>21.54</marketableLimitPct>
+          <nonMarketableLimitPct>18.12</nonMarketableLimitPct>
+          <otherPct>10.97</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9275.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.2421</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8082.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.1092</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2984.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.8546</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>961.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.7338</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Two Sigma Securities LLC for routing order flow in NMS securities to this venue. Axos Clearing LLC receives remuneration in the form of $0.0015 when the execution price is $1 per share or higher.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>13.28</ndoMarketPct>
+      <ndoMarketableLimitPct>15.15</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>69.71</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.86</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Execution Services</name>
+          <orderPct>50.71</orderPct>
+          <marketPct>51.45</marketPct>
+          <marketableLimitPct>50.37</marketableLimitPct>
+          <nonMarketableLimitPct>50.48</nonMarketableLimitPct>
+          <otherPct>56.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4911.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.6948</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5138.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>31.1736</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6731.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.7107</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>289.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.5037</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Citadel Securities LLC for directing options order flow to this venue. Axos Clearing LLC receives remuneration as follows:
+Executed option orders whose underlying securities participate in the penny increment program at a rate of $0.25 per contract.
+Executed option orders whose underlying securities do not participate in the penny increment program at a rate of $0.65 per contract.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Susquehanna Financial Group, LLP</name>
+          <orderPct>49.27</orderPct>
+          <marketPct>48.55</marketPct>
+          <marketableLimitPct>49.63</marketableLimitPct>
+          <nonMarketableLimitPct>49.49</nonMarketableLimitPct>
+          <otherPct>43.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4230.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0414</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3517.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.4062</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7804.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.4658</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>113.40</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.9296</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Axos Clearing LLC receives payments from Susquehanna International Group LLP for directing options order flow to this venue. Axos Clearing LLC receives remuneration as follows:
+Executed option orders whose underlying securities participate in the penny increment program at a rate of $0.25 per contract.
+Executed option orders whose underlying securities do not participate in the penny increment program at a rate of $0.65 per contract.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

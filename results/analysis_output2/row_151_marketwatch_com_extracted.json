@@ -1,0 +1,85 @@
+{
+  "filename": "row_151_marketwatch_com_extracted",
+  "url": "https://marketwatch.com/amp/story/the-sec-could-cripple-robinhoods-business-model-by-enforcing-existing-rules-experts-say-11612377651",
+  "title": "The SEC could cripple Robinhood’s business model by enforcing existing rules, experts say",
+  "date": "",
+  "sentiment": "Negative, Neutral",
+  "text": "----------------------------------------\nOnline brokerage Robinhood has drawn bipartisan ire in Washington after it unexpectedly restricted purchases of share GameStop, Inc. and other hot stocks, and this attention could motivate regulators to curtail its most profitable line of business, experts tell MarketWatch.\nMeanwhile, Citadel Securities said in a statement last week that “Citadel Securities has not instructed or otherwise caused any brokerage firm to stop, suspend, or limit trading or otherwise refuse to do business.”\nSee also: Lawsuits see conspiracy in Robinhood’s GameStop moves, but experts doubt narrative\nBut with Robinhood CEO reportedly scheduled to testify before the House Financial Services Committee and Treasury Secretary Janet Yellen set to host a a meeting with top federal regulators to address last week’s events, the broader implications of Robinhood’s connection with Citadel Securities could be brought to the fore and force the Securities and Exchange Commission and the Financial Industry Regulatory Authority to reign in the practice of payment for order flow, whereby market makers pay brokers for the privilege of executing investor trades.\n“The SEC and FINRA have inexplicably allowed payment for order flow to continue for years,” said Tyler Gellasch, executive director of Healthy Markets, a nonprofit consortium of pension funds that advocates for rights of investors.\nGellasch said that its difficult to reconcile the stock broker practice of selling the right to trade against one’s clients with “best execution” regulations that essentially require brokerages to find the best price for their retail clients.\nMarket makers have huge upfront costs, including technology, infrastructure, data and payment for order flow (PFOF), he said. “After all four of those expenses, they still turn a profit from trading against a customer even though they have no significant financial exposure themselves for any period of time.”\nFamed venture capitalist Bill Gurley also brought attention to the practice in a series of tweets Sunday, where he pointed out that even Citadel itself was once against the practice, when it told the SEC in 2004 that PFOF “creates an obvious and substantial conflict of interest between broker-dealers and their customers.”\nNevertheless, payment for order flow is a practice that U.S. regulators have condoned for more than thirty years, and an abrupt change in its stance toward it is unlikely and would face court challenges, according to Amy Lynch, a former SEC regulator and president of FrontLine Compliance.\n“Payment for order flow is not new,” she said. “The practice in and of itself is widely accepted, widely used and completely legal.”\nGellasch argued that though the practice has been deemed legal, it remains controversial and is likely to be scrutinized by a Congress that has in some ways grown even more skeptical of Wall Street since 2014, when former Senator Carl Levin held hearings on it and recommended regulators ban it.\nThe SEC “needs to stop brokers from accepting payments for routing their customers’ orders to certain traders and exchanges,” the Michigian Democrat wrote in an op-ed in the Financial Times last month. “It is like paying a hidden, private tax on savings whether someone invests through a large mutual fund or directly through a personal brokerage account.”\nSince the 2014 hearings, FINRA has issued more guidance and engaged in targeted examinations to better understand how inducements for routing orders impacted execution and found that some brokers were not engaged in regular analysis of their orders to make sure that customers, on average, were getting the best price and execution.\nRobinhood reached a settlement with the SEC in December after the regulator said that between 2015 and 2018, Robinhood made misleading statements about its order routing inducements, and that a fraction of its customers were not given the best price on their orders, a failure that cost them $34 million relative to what they would have paid had they used other brokers that charged $5-per-trade commissions.\nRobinhood settled without confirming nor denying the charges and said in a statement at the “settlement relates to historical practices that do not reflect Robinhood today,” and that it has since amended its order routing protocol to ensure best execution.\nDr. Richard Smith, founder TradeSmith and CEO of Foundation for the Study of Cycles argued that Robinhood may not be out of the woods yet, given that it still engages in payment-for-order flow practices that especially incentivize the broker to offer illiquid and risky investments.\nRobinhood says on its website that it structures its rebates from market makers as “a percentage of the bid-ask spread, or the difference between the highest price to buy and the lowest price to sell the equity, at the time of execution.”\n“Now think of all the call options bought by WallStreetBets/Robinhood users at some of the widest spreads ever seen in the history or markets and notice how that is the best thing that could possibly happened to Robinhood in terms of how they get paid,” Smith told MarketWatch.\nPublic data show that Robinhood earned significantly more per share for its rebates in the fourth quarter of 2020 than competitors Charles Schwab Corp.\n. Robinhood did not immediately respond to a request for comment about its rebate structure.\nDevin Ryan, analyst with JMP Securities wrote in a note to clients earlier this week that despite the discomfort around perceived conflicts of interest regarding payment for order flow, “brokerages tend to make anywhere from less than a dollar to up to two dollars per trade, substantially less than the brokerage firms used to charge customers over the years.”\nDespite what Ryan sees as a model that has benefitted the average investor, he said that he would not be surprised if Congress and regulators take a hard look at these arrangments in the coming years.\nIf regulators move to curtail order routing rebates, “we ultimately think many of these companies would look to bring market-making activities in house, like Fidelity and some others,” he wrote. “It would take some time to set up, but we think there is too much at stake and internalizing trading would be one allowable solution that could drive a rush to build or buy market-making functionality.”",
+  "text_length": 6369,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.513159",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_151_marketwatch_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "MarketWatch",
+    "Citadel Securities",
+    "Robinhood",
+    "the House Financial Services Committee",
+    "Treasury",
+    "the Securities and Exchange Commission",
+    "the Financial Industry Regulatory Authority",
+    "SEC",
+    "FINRA",
+    "Gellasch",
+    "FrontLine Compliance",
+    "Congress",
+    "the Financial Times",
+    "TradeSmith",
+    "Foundation",
+    "the Study of Cycles",
+    "Charles Schwab Corp.",
+    "JMP Securities",
+    "Fidelity"
+  ],
+  "persons_mentioned": [
+    "Janet Yellen",
+    "Tyler Gellasch",
+    "Healthy Markets",
+    "Bill Gurley",
+    "Citadel",
+    "Amy Lynch",
+    "Carl Levin",
+    "Richard Smith",
+    "Smith",
+    "MarketWatch",
+    "Devin Ryan",
+    "Ryan"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "market maker",
+          "order execution systems",
+          "order routing"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "market making": [
+          "market maker"
+        ],
+        "trading infrastructure": [
+          "order execution systems",
+          "order routing"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "market maker",
+        "order execution systems",
+        "order routing"
+      ]
+    },
+    "content_length": 6369,
+    "word_count": 1012
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "filename": "row_068_bestexresearch_com_extracted",
+  "url": "https://bestexresearch.com/insights/let-the-pfof-debate-begin",
+  "title": "Let the PFOF Debate Begin",
+  "date": "5/4/21",
+  "sentiment": "Negative",
+  "text": "----------------------------------------\nWith 25% of the market volume driven by retail, PFOF market structure is no longer an issue that affects just the retail investors. It behooves all market participants, including institutional investors, to understand this market structure and its implications for execution costs.\nYesterday, we published a paper that breaks down this practice and analyzes the good, the bad, and the ugly about the current wholesale/retail market structure. Coincidentally, Citadel Securities also published a paper yesterday that makes some concrete recommendations around PFOF structure to the (new) SEC.\nIn my opinion, they bring up some good suggestions. For example, I agree with their recommendation to reduce tick size by 50% for tick-constrained stocks; I would personally recommend going as low as one-tenth of a penny for the most highly constrained stocks. I also agree with a very popular ask for more transparency around PFOF (which is likely to happen regardless of their recommendation).\nOn the other hand, their paper doesn’t address the REAL ISSUE that PFOF creates. As we discuss in our paper, while we do not suspect wholesalers are doing anything illegal with PFOF, the practice of PFOF has created a monopolistic structure that is harmful to all market participants and is here to stay unless some serious regulatory changes are brought by the SEC.\nTheir stance is understandable given their own market share; Citadel represents roughly 50% of the wholesale volume and Virtu another 25%. Even more striking is the fact that a few of these wholesalers represent over 45% of the entire displayed volume traded on all 16 exchanges throughout the day, collectively. In many securities, they get more retail volume than the ENTIRE volume traded on the entire displayed volume (not for just one day, rather the entire month). The information advantage wholesalers have over the “regular” market makers on exchanges cannot be healthy for our market given that they also make markets on exchanges with that huge informational advantage (not to mention the obvious edge that the most benign flow being intercepted by a few wholesalers leaves the rest of the market participants on exchanges to interact with the most toxic flow).\nThere are several aspects to our current market structure that lead to this monopolistic environment. The biggest driver in my view is simply the fact that retail brokers are not required to seek the best execution on an ORDER BY ORDER basis inside the NBBO the way they do on exchanges. Rather, they can get away with showing some AVERAGE price improvement versus the NBBO spread to win business from retail brokers. The NBBO spread itself is artificially widened (in our estimate by at least 25%) because non-toxic retail flow doesn’t make it to exchanges, and likely a lot more than 25% due to the informational edge of wholesalers. The second biggest driver is that wholesalers can price liquidity at sub-penny increments but other market participants cannot (in ATSs or on exchanges). Lastly, wholesalers get to segment liquidity to know what type of investors orders are coming from, while other market participants cannot (on exchanges).\nEven though their piece is called “ENHANCING COMPETITION …in US financial markets”, their suggestions do not lead to an outcome where even ONE MORE market participant becomes eligible to trade against retail flow.\nAs we explain in our paper, the irony of current market structure is not only that exchange market makers and institutions are prevented from trading with (and thereby competing for) retail flow, RETAIL limit orders themselves cannot interact with RETAIL market orders. Although all reports show that retail limit orders go to wholesalers, that’s only a detour driven by retail brokers’ need to produce the right optics.\nCitadel’s recommendations are merely diverting attention from the real issue. For example, they make recommendations to help exchanges compete with dark pools (ATSs). The irony is that dark pools (ATSs) are only about 10% of the market volume, while consisting of thousands of participants (unlike the much larger retail volume that is mostly controlled by a few wholesalers). Also, dark pools mostly help investors disintermediate market makers like Citadel by allowing a majority of volume to cross at the midpoint price.\nBestEx Research doesn’t have a horse in this race; we don’t run a wholesale business nor an ATS. When I was on the buy-side, I would watch sell-side firms and exchanges (often the largest ones) only get vocal when it affected their business, often with little consideration for how it affected the investors they are supposed to be serving. We hope to be able to change that, one topic at a time. We tried to do that last year with our comment letter on “RegNMS 2.0” arguing against the largest exchanges, and we believe our arguments led to some important policy decisions that will help investors when the rule is implemented.\nWatching the recent debate around PFOF, I felt that the real issues were not being talked about. I only noticed the giant communication machinery from retail brokers and wholesalers at work but saw no sell-side firms participating in the debate. My colleague, Kathryn, and I then decided to take a deep dive into the data (TAQ, 605 reports) and devote a lot of our time to present some important aspects neither analyzed nor discussed before.\nWe welcome you to read our paper The Good, The Bad and The Ugly of Payment for Order Flow and the paper from Citadel Securities to inform your own views. We look forward to hearing what you think. If you are interested in understanding how our transparent, systematic approach to designing execution algorithms can reduce your execution costs in ways that traditional sell-side firms have not even begun to consider, contact us.",
+  "text_length": 5872,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.471578",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_068_bestexresearch_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "Citadel Securities",
+    "SEC",
+    "Virtu",
+    "ENTIRE",
+    "NBBO",
+    "TAQ"
+  ],
+  "persons_mentioned": [
+    "Citadel",
+    "Kathryn"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "ats dark operator",
+          "best execution",
+          "limit order book",
+          "market maker",
+          "tick size"
+        ]
+      },
+      "functions": {
+        "ats dark operator": [
+          "ats dark operator"
+        ],
+        "amb igious": [
+          "best execution"
+        ],
+        "exchange trading": [
+          "limit order book",
+          "tick size"
+        ],
+        "market making": [
+          "market maker"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "ats dark operator",
+        "best execution",
+        "limit order book",
+        "market maker",
+        "tick size"
+      ]
+    },
+    "content_length": 5872,
+    "word_count": 951
+  }
+}

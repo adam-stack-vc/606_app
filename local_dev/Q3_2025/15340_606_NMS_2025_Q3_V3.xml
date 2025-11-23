@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20190331.xsd">
+  <version>1.2</version>
+  <bd>Cetera Investment Services LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-29T12:38:57Z</timestamp>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>7</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>90.04</ndoMarketPct>
+        <ndoMarketableLimitPct>0.22</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>5.65</ndoNonmarketableLimitPct>
+        <ndoOtherPct>4.10</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>33.35</orderPct>
+              <marketPct>27.41</marketPct>
+              <marketableLimitPct>32.14</marketableLimitPct>
+              <nonMarketableLimitPct>84.64</nonMarketableLimitPct>
+              <otherPct>93.26</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>26.06</orderPct>
+              <marketPct>28.03</marketPct>
+              <marketableLimitPct>45.24</marketableLimitPct>
+              <nonMarketableLimitPct>10.10</nonMarketableLimitPct>
+              <otherPct>3.79</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>25.13</orderPct>
+              <marketPct>27.62</marketPct>
+              <marketableLimitPct>13.10</marketableLimitPct>
+              <nonMarketableLimitPct>2.84</nonMarketableLimitPct>
+              <otherPct>1.93</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>15.46</orderPct>
+              <marketPct>16.94</marketPct>
+              <marketableLimitPct>9.52</marketableLimitPct>
+              <nonMarketableLimitPct>2.42</nonMarketableLimitPct>
+              <otherPct>1.03</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>96.31</ndoMarketPct>
+        <ndoMarketableLimitPct>0.38</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>2.48</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.83</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>70.25</orderPct>
+              <marketPct>70.69</marketPct>
+              <marketableLimitPct>76.60</marketableLimitPct>
+              <nonMarketableLimitPct>63.53</nonMarketableLimitPct>
+              <otherPct>36.59</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>21.48</orderPct>
+              <marketPct>21.10</marketPct>
+              <marketableLimitPct>6.38</marketableLimitPct>
+              <nonMarketableLimitPct>27.06</nonMarketableLimitPct>
+              <otherPct>55.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>4.66</orderPct>
+              <marketPct>4.71</marketPct>
+              <marketableLimitPct>5.96</marketableLimitPct>
+              <nonMarketableLimitPct>3.09</nonMarketableLimitPct>
+              <otherPct>2.94</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.61</orderPct>
+              <marketPct>3.50</marketPct>
+              <marketableLimitPct>11.06</marketableLimitPct>
+              <nonMarketableLimitPct>6.32</nonMarketableLimitPct>
+              <otherPct>5.09</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>84.09</ndoMarketPct>
+        <ndoMarketableLimitPct>2.71</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>11.68</ndoNonmarketableLimitPct>
+        <ndoOtherPct>1.52</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>35.36</orderPct>
+              <marketPct>35.41</marketPct>
+              <marketableLimitPct>12.50</marketableLimitPct>
+              <nonMarketableLimitPct>40.58</nonMarketableLimitPct>
+              <otherPct>33.33</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>23.18</orderPct>
+              <marketPct>20.93</marketPct>
+              <marketableLimitPct>43.75</marketableLimitPct>
+              <nonMarketableLimitPct>30.43</nonMarketableLimitPct>
+              <otherPct>55.56</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>21.49</orderPct>
+              <marketPct>23.14</marketPct>
+              <marketableLimitPct>18.75</marketableLimitPct>
+              <nonMarketableLimitPct>11.59</nonMarketableLimitPct>
+              <otherPct>11.11</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>19.97</orderPct>
+              <marketPct>20.52</marketPct>
+              <marketableLimitPct>25.00</marketableLimitPct>
+              <nonMarketableLimitPct>17.39</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>8</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>90.22</ndoMarketPct>
+        <ndoMarketableLimitPct>0.18</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>5.36</ndoNonmarketableLimitPct>
+        <ndoOtherPct>4.25</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>32.39</orderPct>
+              <marketPct>26.48</marketPct>
+              <marketableLimitPct>31.75</marketableLimitPct>
+              <nonMarketableLimitPct>83.69</nonMarketableLimitPct>
+              <otherPct>93.23</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>26.57</orderPct>
+              <marketPct>28.55</marketPct>
+              <marketableLimitPct>44.44</marketableLimitPct>
+              <nonMarketableLimitPct>9.80</nonMarketableLimitPct>
+              <otherPct>5.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>25.91</orderPct>
+              <marketPct>28.48</marketPct>
+              <marketableLimitPct>12.70</marketableLimitPct>
+              <nonMarketableLimitPct>2.92</nonMarketableLimitPct>
+              <otherPct>0.99</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>15.13</orderPct>
+              <marketPct>16.49</marketPct>
+              <marketableLimitPct>11.11</marketableLimitPct>
+              <nonMarketableLimitPct>3.60</nonMarketableLimitPct>
+              <otherPct>0.79</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>96.92</ndoMarketPct>
+        <ndoMarketableLimitPct>0.26</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>1.98</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.84</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>70.72</orderPct>
+              <marketPct>71.34</marketPct>
+              <marketableLimitPct>78.34</marketableLimitPct>
+              <nonMarketableLimitPct>54.70</nonMarketableLimitPct>
+              <otherPct>33.46</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>20.90</orderPct>
+              <marketPct>20.26</marketPct>
+              <marketableLimitPct>9.55</marketableLimitPct>
+              <nonMarketableLimitPct>37.14</nonMarketableLimitPct>
+              <otherPct>60.24</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>4.92</orderPct>
+              <marketPct>4.98</marketPct>
+              <marketableLimitPct>7.01</marketableLimitPct>
+              <nonMarketableLimitPct>3.00</nonMarketableLimitPct>
+              <otherPct>1.97</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.46</orderPct>
+              <marketPct>3.41</marketPct>
+              <marketableLimitPct>5.10</marketableLimitPct>
+              <nonMarketableLimitPct>5.16</nonMarketableLimitPct>
+              <otherPct>4.33</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>79.26</ndoMarketPct>
+        <ndoMarketableLimitPct>3.29</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>13.96</ndoNonmarketableLimitPct>
+        <ndoOtherPct>3.49</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>35.52</orderPct>
+              <marketPct>35.49</marketPct>
+              <marketableLimitPct>43.75</marketableLimitPct>
+              <nonMarketableLimitPct>35.29</nonMarketableLimitPct>
+              <otherPct>29.41</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>25.05</orderPct>
+              <marketPct>25.91</marketPct>
+              <marketableLimitPct>12.50</marketableLimitPct>
+              <nonMarketableLimitPct>16.18</nonMarketableLimitPct>
+              <otherPct>52.94</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>19.51</orderPct>
+              <marketPct>17.36</marketPct>
+              <marketableLimitPct>31.25</marketableLimitPct>
+              <nonMarketableLimitPct>29.41</nonMarketableLimitPct>
+              <otherPct>17.65</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>19.30</orderPct>
+              <marketPct>20.47</marketPct>
+              <marketableLimitPct>12.50</marketableLimitPct>
+              <nonMarketableLimitPct>19.12</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>0.62</orderPct>
+              <marketPct>0.78</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>9</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>90.53</ndoMarketPct>
+        <ndoMarketableLimitPct>0.19</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>4.84</ndoNonmarketableLimitPct>
+        <ndoOtherPct>4.45</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>33.94</orderPct>
+              <marketPct>28.08</marketPct>
+              <marketableLimitPct>32.84</marketableLimitPct>
+              <nonMarketableLimitPct>88.57</nonMarketableLimitPct>
+              <otherPct>93.81</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>26.13</orderPct>
+              <marketPct>28.58</marketPct>
+              <marketableLimitPct>11.94</marketableLimitPct>
+              <nonMarketableLimitPct>3.50</nonMarketableLimitPct>
+              <otherPct>1.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>24.26</orderPct>
+              <marketPct>26.26</marketPct>
+              <marketableLimitPct>43.28</marketableLimitPct>
+              <nonMarketableLimitPct>5.28</nonMarketableLimitPct>
+              <otherPct>3.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>15.67</orderPct>
+              <marketPct>17.08</marketPct>
+              <marketableLimitPct>11.94</marketableLimitPct>
+              <nonMarketableLimitPct>2.64</nonMarketableLimitPct>
+              <otherPct>1.31</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>96.98</ndoMarketPct>
+        <ndoMarketableLimitPct>0.28</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>2.04</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.69</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>70.34</orderPct>
+              <marketPct>71.00</marketPct>
+              <marketableLimitPct>80.79</marketableLimitPct>
+              <nonMarketableLimitPct>52.47</nonMarketableLimitPct>
+              <otherPct>26.56</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>21.09</orderPct>
+              <marketPct>20.44</marketPct>
+              <marketableLimitPct>8.47</marketableLimitPct>
+              <nonMarketableLimitPct>38.10</nonMarketableLimitPct>
+              <otherPct>66.97</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>4.82</orderPct>
+              <marketPct>4.91</marketPct>
+              <marketableLimitPct>2.26</marketableLimitPct>
+              <nonMarketableLimitPct>1.96</nonMarketableLimitPct>
+              <otherPct>1.62</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.76</orderPct>
+              <marketPct>3.66</marketPct>
+              <marketableLimitPct>8.47</marketableLimitPct>
+              <nonMarketableLimitPct>7.46</nonMarketableLimitPct>
+              <otherPct>4.85</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>81.24</ndoMarketPct>
+        <ndoMarketableLimitPct>2.65</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>14.34</ndoNonmarketableLimitPct>
+        <ndoOtherPct>1.77</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>32.92</orderPct>
+              <marketPct>31.81</marketPct>
+              <marketableLimitPct>33.33</marketableLimitPct>
+              <nonMarketableLimitPct>39.51</nonMarketableLimitPct>
+              <otherPct>30.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>25.84</orderPct>
+              <marketPct>23.97</marketPct>
+              <marketableLimitPct>26.67</marketableLimitPct>
+              <nonMarketableLimitPct>32.10</nonMarketableLimitPct>
+              <otherPct>60.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>22.30</orderPct>
+              <marketPct>24.18</marketPct>
+              <marketableLimitPct>13.33</marketableLimitPct>
+              <nonMarketableLimitPct>14.81</nonMarketableLimitPct>
+              <otherPct>10.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>17.70</orderPct>
+              <marketPct>18.52</marketPct>
+              <marketableLimitPct>26.67</marketableLimitPct>
+              <nonMarketableLimitPct>13.58</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>1.24</orderPct>
+              <marketPct>1.53</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Investment Services LLC reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.CIS does not receive or solicit any payment for order flow from any venue.
+ 2.CIS does not receive any sort of consideration from any venue for routing order flow.
+ 3.CIS does not receive any services or technologies subsidized by venues to influence its routing decisions.
+ 4.CIS does not receive any incentives to influence its routing decisions, including reduced fees, volume-based tiered discounts, fee rebates, etc. CIS does not receive any disincentives to influence its routing decisions, such as fee avoidance, minimum volume incentives, etc. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+</heldOrderRoutingPublicReport>

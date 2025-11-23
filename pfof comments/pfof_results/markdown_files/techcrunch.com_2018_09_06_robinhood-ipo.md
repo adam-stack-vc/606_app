@@ -1,0 +1,230 @@
+---
+                title: "('Robinhood aims at IPO as the fintech startup seeks CFO',)"
+                url: "https://techcrunch.com/2018/09/06/robinhood-ipo"
+                date: "9/6/18"
+                sentiment: "('Positive',)"
+                topic: "pfof"
+                ---
+
+                
+
+[Skip to content](#wp--skip-link--target)
+
+
+
+
+![](https://techcrunch.com/wp-content/uploads/2018/05/baiju-bhatt.jpg?w=1024)
+
+**Image Credits:**Robinhood
+
+ 
+
+
+
+
+
+
+
+
+
+
+Robinhood aims at IPO as the fintech startup seeks CFO
+======================================================
+
+
+[Josh Constine](https://techcrunch.com/author/josh-constine/)
+
+
+
+
+2:34 PM PDT · September 6, 2018 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Now valued at $5.6 billion, zero-fee stock trading app and cryptocurrency exchange [Robinhood](https://robinhood.com/) is starting preparations to go public. Just a year and a half ago, it was still largely under the radar. But then it raised a $110 million Series C at a $1.3 billion valuation in April 2017 and then just a year later scored a $363 million Series D, both led by DST Global, founded by Russian investor Yuri Milner. Combined with the growth of its premium subscription for trading on margin called Robinhood Gold, the startup now has the firepower and revenue to make a viable Wall Street debut.
+
+Today during Robinhood CEO Baiju Bhatt’s talk at TechCrunch Disrupt SF, he revealed that his company is on the path to an IPO and has begun its search for a chief financial officer. It’s also undergoing constant audits from the SEC, FINRA and its security team to make sure everything is kosher and locked up tight.
+
+
+The CFO hire could help the five-year-old Silicon Valley startup pitch itself as the cheaper youthful alternative to E\*Trade and traditional stock brokers. They’d also have to convince potential investors that even though cryptocurrency prices are in a downturn, allowing people to trade them for cheaper than competitors like Coinbase is a powerful user acquisition funnel.
+
+Robinhood now has 5 million customers tracking, buying and selling stocks, options, ETFs, [American depositary slips receipts of international companies](https://techcrunch.com/2018/08/28/robinhood-gives-investors-international-targets-to-aim-for-with-launch-of-adr-products/) and cryptos like Bitcoin and Ethereum. That’s twice as many customers as its incumbent competitor E\*Trade despite it having 4,000 employees compared to Robinhood’s 250.
+
+The startup has raised a total of $539 million to date from prestigious investors like Andreessen Horowitz, Kleiner Perkins, Sequoia and Google’s Capital G, allowing it to rapidly roll out products before its rivals can react. This rapid rise in valuation can go to some founders’ heads, or crush them under the pressure, but Bhatt cited “friendship” with his co-CEO Vlad Tenev as what keeps him sane.
+
+The startup has three main monetization streams. First, it earns interest on money users keep in their Robinhood account. Second, it sells order flow to stock exchanges that want more liquidity for their traders. And it sells Robinhood Gold subscriptions which range from $10 per month for $2,000 in extra buying power to $200 per month for $50,000 in margin trading, with a 5 percent APR charged for borrowing over that. Gold was growing its subscriber count at 17 percent per month earlier this year, showing the potential of giving trades away for free and then charging for extra services.
+
+ 
+Techcrunch event
+### Join 10k+ tech and VC leaders for growth and connections at Disrupt 2025
+
+#### Netflix, Box, a16z, ElevenLabs, Wayve, Hugging Face, Elad Gil, Vinod Khosla — just some of the 250+ heavy hitters leading 200+ sessions designed to deliver the insights that fuel startup growth and sharpen your edge. Don’t miss the 20th anniversary of TechCrunch, and a chance to learn from the top voices in tech. **Grab your ticket before doors open to save up to $444.**
+
+
+### Join 10k+ tech and VC leaders for growth and connections at Disrupt 2025
+
+#### Netflix, Box, a16z, ElevenLabs, Wayve, Hugging Face, Elad Gil, Vinod Khosla — just some of the 250+ heavy hitters leading 200+ sessions designed to deliver the insights that fuel startup growth and sharpen your edge. Don’t miss a chance to learn from the top voices in tech. **Grab your ticket before doors open to save up to $444.**
+
+
+
+San Francisco
+|
+October 27-29, 2025
+
+[**REGISTER NOW**](https://techcrunch.com/events/tc-disrupt-2025/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2025&utm_content=ticketsales&promo=tc_inline_lb&display=)
+
+
+
+
+![](https://techcrunch.com/wp-content/uploads/2015/11/robinhood-feature.jpg?w=680)
+
+But Robinhood is also encountering renewed competition as both startups and incumbents wise up. European banking app Revolut is building a commission-free stock trading, and Y Combinator startup Titan just launched its app that lets you buy into a  managed portfolio of top stocks. Finance giant JP Morgan now gives customers 100 free trades in hopes of not being undercut by Robinhood.
+
+Over on the crypto side, Coinbase continues to grow in popularity despite its 1.4 percent to 4 percent fees on trades. It’s rapidly expanding its product offering and the two fintech startups are destined to keep clashing. Robinhood may also be suffering from the crypto downturn, which is likely dissuading the mainstream public from dumping cash into tokens after seeing people lose fortunes as Bitcoin and Ethereum’s prices tumbled this year.
+
+
+There’s also the persistent risk of a security breach that could tank Robinhood’s brand. Meanwhile, the startup uses both human and third-party software-based systems to moderate its crypto chat rooms to make sure pump and dump schemes aren’t running rampant. Bhatt says he’s proud of making cryptocurrency more accessible, though he didn’t say he felt responsible for prices plummeting, which could mean many of Robinhood Crypto’s users have lost money.
+
+![](https://techcrunch.com/wp-content/uploads/2018/01/robinhood-crypto.png?w=680)
+
+Fundamentally, Robinhood is using software to make the common but expensive behavior of stock trading much cheaper and more accessible to a wider audience. Traditional banks and brokers have big costs for offices and branches, trading execs and TV commercials. Robinhood has managed to replace much of that with a lean engineering team and viral app that grows itself. Once it finds its CFO, that could give it an efficiency and growth rate that has Wall Street seeing green.
+
+Topics
+
+[baiju bhatt](https://techcrunch.com/tag/baiju-bhatt/), [Crypto](https://techcrunch.com/category/cryptocurrency/), [disrupt sf 2018](https://techcrunch.com/tag/disrupt-sf-2018/), [initial public offering](https://techcrunch.com/tag/initial-public-offering/), [IPO](https://techcrunch.com/tag/ipo/), [Media & Entertainment](https://techcrunch.com/category/media-entertainment/), [Robinhood](https://techcrunch.com/tag/robinhood/), [Startups](https://techcrunch.com/category/startups/) 
+
+
+
+
+
+
+
+
+![Josh Constine](https://techcrunch.com/wp-content/uploads/2024/05/Josh-Constine-Headshot-Dark-Gray-Square.jpeg?w=150)
+
+Josh Constine 
+
+Venture Partner
+
+
+
+
+
+
+
+
+Josh Constine is a Venture Partner at ~$3 billion AUM early-stage VC fund SignalFire where he invests in pre-seed startups with a focus on consumer. He teaches startup pitch writing and fundraising strategy as a recurring lecturer at the Stanford Graduate School Of Business, and with accelerators like Z Fellows, Inception Studios, and Stanford ASES.
+Previously, Constine was Editor-At-Large for TechCrunch where he wrote 4000 articles and was ranked the #1 most cited tech journalist in the world from 2016-2020 by Techmeme. Constine has led 300+ on-stage interviews and keynotes in 18 countries with luminaries including Mark Zuckerberg and the CEOs of Shopify, DoorDash, Snapchat, Instagram, and more. Constine graduated from Stanford University with a Master’s degree he designed in Cybersociology, and wrote his thesis in 2008 on why remixable memes would be the future of marketing. He has been quoted in the NYT and WSJ, is regularly featured on CNN for his thoughts on AI and Silicon Valley, and advises startups on PR, fundraising, and organic growth. 
+
+[View Bio](https://techcrunch.com/author/josh-constine/) 
+
+
+
+
+![Event Logo](https://techcrunch.com/wp-content/uploads/2025/07/TC25_Disrupt-Color.png)
+October 27-29, 2025
+San Francisco
+
+
+**[ONE-WEEK BUNDLE FLASH SALE](https://techcrunch.com/events/tc-disrupt-2025/tickets/?promo=rightrail_disrupt2025_bundle&utm_campaign=disrupt2025&utm_content=bundles&utm_medium=ad&utm_source=tc)**  
+***Founder Bundle Offer:*** Land your investor and sharpen your pitch. Save 15% when you bring 4-9 founders.  
+
+***Investors Bundle Offer:*** Discover your next breakout startup. Save 20% when you bring 4-9 investors.  
+
+**Bundle offer ends October 3.**
+
+[**Register Now**](https://techcrunch.com/events/tc-disrupt-2025/tickets/?promo=rightrail_disrupt2025_bundle&utm_campaign=disrupt2025&utm_content=bundles&utm_medium=ad&utm_source=tc)
+
+
+
+Most Popular
+------------
+
+
+
+* ### [AI recruiter Alex raises $17M to automate initial job interviews](https://techcrunch.com/2025/09/29/ai-recruiter-alex-raises-17m-to-automate-initial-job-interviews/)
+
++ [Marina Temkin](https://techcrunch.com/author/marina-temkin/)
+* ### [Vibe-coding startup Anything nabs a $100M valuation after hitting $2M ARR in its first two weeks](https://techcrunch.com/2025/09/29/vibe-coding-startup-anything-nabs-a-100m-valuation-after-hitting-2m-arr-in-its-first-two-weeks/)
+
++ [Marina Temkin](https://techcrunch.com/author/marina-temkin/)
+* ### [The AI services transformation may be harder than VCs think](https://techcrunch.com/2025/09/28/the-ai-services-transformation-may-be-harder-than-vcs-think/)
+
++ [Connie Loizos](https://techcrunch.com/author/connie-loizos/)
+* ### [Famed roboticist says humanoid robot bubble is doomed to burst](https://techcrunch.com/2025/09/26/famed-roboticist-says-humanoid-robot-bubble-is-doomed-to-burst/)
+
++ [Connie Loizos](https://techcrunch.com/author/connie-loizos/)
+ 
+Techcrunch event
+### Join 10k+ tech and VC leaders for growth and connections at Disrupt 2025
+
+#### Netflix, Box, a16z, ElevenLabs, Wayve, Hugging Face, Elad Gil, Vinod Khosla — just some of the 250+ heavy hitters leading 200+ sessions designed to deliver the insights that fuel startup growth and sharpen your edge. Don’t miss the 20th anniversary of TechCrunch, and a chance to learn from the top voices in tech. **Grab your ticket before doors open to save up to $444.**
+
+
+### Join 10k+ tech and VC leaders for growth and connections at Disrupt 2025
+
+#### Netflix, Box, a16z, ElevenLabs, Wayve, Hugging Face, Elad Gil, Vinod Khosla — just some of the 250+ heavy hitters leading 200+ sessions designed to deliver the insights that fuel startup growth and sharpen your edge. Don’t miss a chance to learn from the top voices in tech. **Grab your ticket before doors open to save up to $444.**
+
+
+
+San Francisco
+|
+October 27-29, 2025
+
+[**REGISTER NOW**](https://techcrunch.com/events/tc-disrupt-2025/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2025&utm_content=ticketsales&promo=tc_inline_lb&display=)
+* ### [Spotify to label AI music, filter spam and more in AI policy change](https://techcrunch.com/2025/09/25/spotify-updates-ai-policy-to-label-tracks-cut-down-on-spam/)
+
++ [Sarah Perez](https://techcrunch.com/author/sarah-perez/)
+* ### [It isn’t your imagination: Google Cloud is flooding the zone](https://techcrunch.com/2025/09/24/it-isnt-your-imagination-google-cloud-is-flooding-the-zone/)
+
++ [Connie Loizos](https://techcrunch.com/author/connie-loizos/)
+* ### [Neon, the No. 2 social app on the Apple App Store, pays users to record their phone calls and sells data to AI firms](https://techcrunch.com/2025/09/24/neon-the-no-2-social-app-on-the-apple-app-store-pays-users-to-record-their-phone-calls-and-sells-data-to-ai-firms/)
+
++ [Sarah Perez](https://techcrunch.com/author/sarah-perez/)
+
+
+
+
+
+
+
+
+
+Loading the next article 
+
+
+
+
+
+
+
+Error loading the next article 
+
+
+
+
+![](https://pixel.wp.com/g.gif?v=ext&blog=136296444&post=1706608&tz=-7&srv=techcrunch.com&hp=vip&j=1%3A15.0.2&host=techcrunch.com&ref=&fcp=1821&rand=0.09992628124373448)Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+
+
+
+
+
+
+
+
+
+
+
+
+

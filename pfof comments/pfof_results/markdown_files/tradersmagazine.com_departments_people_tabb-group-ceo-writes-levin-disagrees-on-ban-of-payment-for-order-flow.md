@@ -1,0 +1,1613 @@
+---
+                title: "('TABB Group CEO Writes Levin, Disagrees on Ban of Payment for Order Flow',)"
+                url: "https://tradersmagazine.com/departments/people/tabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow"
+                date: ""
+                sentiment: "('Neutral, Positive',)"
+                topic: "pfof"
+                ---
+
+                
+This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
+
+We won't track your information when you visit our site. But in order to comply with your preferences, we'll have to use just one tiny cookie so that you're not asked to make this choice again.
+
+Accept
+Decline
+
+
+
+
+
+We value your privacy
+
+We and our 1533 partners use cookies and other tracking technologies to improve your experience on our website. We may store and/or access information on a device and process personal data, such as your IP address and browsing data, for personalised advertising and content, advertising and content measurement, audience research and services development. Additionally, we may utilize precise geolocation data and identification through device scanning.
+
+Please note that your consent will be valid across all our subdomains. Once you give consent, a floating button will appear at the bottom of your screen, allowing you to change or withdraw your consent at any time. We respect your choices and are committed to providing you with a transparent and secure browsing experience.
+
+
+ Reject All Accept All
+
+
+
+Customize Consent Preferences ![Close](https://cdn-cookieyes.com/assets/images/close.svg)
+
+Customise your consent preferences for Cookie Categories and advertising tracking preferences for Purposes & Features and Vendors below. You can give granular consent for each Third Party Vendor and Google Ad Tech Provider. Most vendors require explicit consent for personal data processing, while some rely on legitimate interest. However, you have the right to object to their use of legitimate interest. Additionally, please note that your preferences regarding purposes and vendors are saved in a cookie named 'euconsent' on your device and may be retained for up to 730 days to remember your choices.
+
+
+* Cookie Categories
+* Purposes & Features
+* Vendors
+
+Cookie Categories
+
+We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.
+
+The cookies that are categorized as "Necessary" are stored on your browser as they are essential for enabling the basic functionalities of the site. ... Show more
+
+
+
+NecessaryAlways Active
+
+Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.
+
+
+
+
+* Cookie
+cookieyes-consent
+* Duration
+1 year
+* Description
+CookieYes sets this cookie to remember users' consent preferences so that their preferences are respected on their subsequent visits to this site. It does not collect or store any personal information of the site visitors.
+
+* Cookie
+\_cfuvid
+* Duration
+session
+* Description
+Cloudflare sets this cookie to track users across sessions to optimize user experience by maintaining session consistency and providing personalized services
+
+* Cookie
+rc::h
+* Duration
+Never Expires
+* Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+
+* Cookie
+wpEmojiSettingsSupports
+* Duration
+session
+* Description
+WordPress sets this cookie when a user interacts with emojis on a WordPress site. It helps determine if the user's browser can display emojis properly.
+
+* Cookie
+rc::e
+* Duration
+session
+* Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+
+* Cookie
+euconsent
+* Duration
+1 year
+* Description
+CookieYes sets this cookie to store data when IAB TCF is enabled.
+
+
+Functional
+
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+
+
+
+
+* Cookie
+\_\_cf\_bm
+* Duration
+1 hour
+* Description
+This cookie, set by Cloudflare, is used to support Cloudflare Bot Management.
+
+
+Analytics
+
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.
+
+
+
+
+* Cookie
+\_ga
+* Duration
+1 year 1 month 4 days
+* Description
+The \_ga cookie, installed by Google Analytics, calculates visitor, session and campaign data and also keeps track of site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognize unique visitors.
+
+* Cookie
+\_\_gads
+* Duration
+1 year 24 days
+* Description
+The \_\_gads cookie, set by Google, is stored under DoubleClick domain and tracks the number of times users see an advert, measures the success of the campaign and calculates its revenue. This cookie can only be read from the domain they are set on and will not track any data while browsing through other sites.
+
+* Cookie
+\_pk\_id.\*
+* Duration
+1 year 1 month
+* Description
+Matomo set this cookie to store a unique user ID.
+
+* Cookie
+\_pk\_ses.\*
+* Duration
+1 hour
+* Description
+Matomo set this cookie to store a unique session ID for gathering information on how the users use the website.
+
+* Cookie
+cppro-ft
+* Duration
+1 year
+* Description
+This cookie is provided by Convert Pro and used to track how a user has behaved on your website or a call-to-action.
+
+* Cookie
+cppro-ft-style
+* Duration
+session
+* Description
+This cookie is provided by Convert Pro and used to track how a user has behaved on your website or a call-to-action.
+
+* Cookie
+cppro-ft-style-temp
+* Duration
+1 day
+* Description
+This cookie is provided by Convert Pro and used to track how a user has behaved on your website or a call-to-action.
+
+* Cookie
+\_ga\_\*
+* Duration
+1 year 1 month 4 days
+* Description
+Google Analytics sets this cookie to store and count page views.
+
+* Cookie
+FPID
+* Duration
+1 year 1 month 4 days
+* Description
+ Google Tag Manager sets this cookie for server-side tagging.
+
+* Cookie
+FPLC
+* Duration
+20 hours
+* Description
+Google Tag Manager sets this cookie for tracking between domains.
+
+
+Performance
+
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+
+
+
+
+No cookies to display.
+
+
+
+Advertisement
+
+Advertisement cookies are used to provide visitors with customized advertisements based on the pages you visited previously and to analyze the effectiveness of the ad campaigns.
+
+
+
+
+* Cookie
+test\_cookie
+* Duration
+15 minutes
+* Description
+The test\_cookie is set by doubleclick.net and is used to determine if the user's browser supports cookies.
+
+* Cookie
+IDE
+* Duration
+1 year 24 days
+* Description
+Google DoubleClick IDE cookies are used to store information about how the user uses the website to present them with relevant ads and according to the user profile.
+
+
+Others
+
+Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+
+
+
+
+* Cookie
+\_\_eoi
+* Duration
+6 months
+* Description
+Description is currently not available.
+
+
+
+
+Purposes & Features
+
+   
+ Purposes (11)    
+
+
+
+   
+ Store and/or access information on a device   Consent
+
+ 
+
+
+ 
+
+Cookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.
+
+Illustrations
+
+* Most purposes explained in this notice rely on the storage or accessing of information from your device when you use an app or visit a website. For example, a vendor or publisher might need to store a cookie on your device during your first visit on a website, to be able to recognise your device during your next visits (by accessing this cookie each time).
+
+Number of Vendors seeking consent: 759
+
+
+
+   
+ Use limited data to select advertising   Legitimate Interest
+
+Consent
+
+ 
+
+
+ 
+
+Advertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).
+
+Illustrations
+
+* A car manufacturer wants to promote its electric vehicles to environmentally conscious users living in the city after office hours. The advertising is presented on a page with related content (such as an article on climate change actions) after 6:30 p.m. to users whose non-precise location suggests that they are in an urban zone.
+* A large producer of watercolour paints wants to carry out an online advertising campaign for its latest watercolour range, diversifying its audience to reach as many amateur and professional artists as possible and avoiding showing the ad next to mismatched content (for instance, articles about how to paint your house). The number of times that the ad has been presented to you is detected and limited, to avoid presenting it too often.
+
+Number of Vendors seeking consent or relying on legitimate interest: 721
+
+
+
+   
+ Create profiles for personalised advertising   Consent
+
+ 
+
+
+ 
+
+Information about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.
+
+Illustrations
+
+* If you read several articles about the best bike accessories to buy, this information could be used to create a profile about your interest in bike accessories. Such a profile may be used or improved later on, on the same or a different website or app to present you with advertising for a particular bike accessory brand. If you also look at a configurator for a vehicle on a luxury car manufacturer website, this information could be combined with your interest in bikes to refine your profile and make an assumption that you are interested in luxury cycling gear.
+* An apparel company wishes to promote its new line of high-end baby clothes. It gets in touch with an agency that has a network of clients with high income customers (such as high-end supermarkets) and asks the agency to create profiles of young parents or couples who can be assumed to be wealthy and to have a new child, so that these can later be used to present advertising within partner apps based on those profiles.
+
+Number of Vendors seeking consent: 572
+
+
+
+   
+ Use profiles to select personalised advertising   Consent
+
+ 
+
+
+ 
+
+Advertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.
+
+Illustrations
+
+* An online retailer wants to advertise a limited sale on running shoes. It wants to target advertising to users who previously looked at running shoes on its mobile app. Tracking technologies might be used to recognise that you have previously used the mobile app to consult running shoes, in order to present you with the corresponding advertisement on the app.
+* A profile created for personalised advertising in relation to a person having searched for bike accessories on a website can be used to present the relevant advertisement for bike accessories on a mobile app of another organisation.
+
+Number of Vendors seeking consent: 574
+
+
+
+   
+ Create profiles to personalise content   Consent
+
+ 
+
+
+ 
+
+Information about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.
+
+Illustrations
+
+* You read several articles on how to build a treehouse on a social media platform. This information might be added to a profile to mark your interest in content related to outdoors as well as do-it-yourself guides (with the objective of allowing the personalisation of content, so that for example you are presented with more blog posts and articles on treehouses and wood cabins in the future).
+* You have viewed three videos on space exploration across different TV apps. An unrelated news platform with which you have had no contact builds a profile based on that viewing behaviour, marking space exploration as a topic of possible interest for other videos.
+
+Number of Vendors seeking consent: 251
+
+
+
+   
+ Use profiles to select personalised content   Consent
+
+ 
+
+
+ 
+
+Content presented to you on this service can be based on your content personalisation profiles, which can reflect your activity on this or other services (for instance, the forms you submit, content you look at), possible interests and personal aspects. This can for example be used to adapt the order in which content is shown to you, so that it is even easier for you to find (non-advertising) content that matches your interests.
+
+Illustrations
+
+* You read articles on vegetarian food on a social media platform and then use the cooking app of an unrelated company. The profile built about you on the social media platform will be used to present you vegetarian recipes on the welcome screen of the cooking app.
+* You have viewed three videos about rowing across different websites. An unrelated video sharing platform will recommend five other videos on rowing that may be of interest to you when you use your TV app, based on a profile built about you when you visited those different websites to watch online videos.
+
+Number of Vendors seeking consent: 225
+
+
+
+   
+ Measure advertising performance   Legitimate Interest
+
+Consent
+
+ 
+
+
+ 
+
+Information regarding which advertising is presented to you and how you interact with it can be used to determine how well an advert has worked for you or other users and whether the goals of the advertising were reached. For instance, whether you saw an ad, whether you clicked on it, whether it led you to buy a product or visit a website, etc. This is very helpful to understand the relevance of advertising campaigns.
+
+Illustrations
+
+* You have clicked on an advertisement about a “black Friday” discount by an online shop on the website of a publisher and purchased a product. Your click will be linked to this purchase. Your interaction and that of other users will be measured to know how many clicks on the ad led to a purchase.
+* You are one of very few to have clicked on an advertisement about an “international appreciation day” discount by an online gift shop within the app of a publisher. The publisher wants to have reports to understand how often a specific ad placement within the app, and notably the “international appreciation day” ad, has been viewed or clicked by you and other users, in order to help the publisher and its partners (such as agencies) optimise ad placements.
+
+Number of Vendors seeking consent or relying on legitimate interest: 823
+
+
+
+   
+ Measure content performance   Legitimate Interest
+
+Consent
+
+ 
+
+
+ 
+
+Information regarding which content is presented to you and how you interact with it can be used to determine whether the (non-advertising) content e.g. reached its intended audience and matched your interests. For instance, whether you read an article, watch a video, listen to a podcast or look at a product description, how long you spent on this service and the web pages you visit etc. This is very helpful to understand the relevance of (non-advertising) content that is shown to you.
+
+Illustrations
+
+* You have read a blog post about hiking on a mobile app of a publisher and followed a link to a recommended and related post. Your interactions will be recorded as showing that the initial hiking post was useful to you and that it was successful in interesting you in the related post. This will be measured to know whether to produce more posts on hiking in the future and where to place them on the home screen of the mobile app.
+* You were presented a video on fashion trends, but you and several other users stopped watching after 30 seconds. This information is then used to evaluate the right length of future videos on fashion trends.
+
+Number of Vendors seeking consent or relying on legitimate interest: 394
+
+
+
+   
+ Understand audiences through statistics or combinations of data from different sources   Legitimate Interest
+
+Consent
+
+ 
+
+
+ 
+
+Reports can be generated based on the combination of data sets (like user profiles, statistics, market research, analytics data) regarding your interactions and those of other users with advertising or (non-advertising) content to identify common characteristics (for instance, to determine which target audiences are more receptive to an ad campaign or to certain contents).
+
+Illustrations
+
+* The owner of an online bookstore wants commercial reporting showing the proportion of visitors who consulted and left its site without buying, or consulted and bought the last celebrity autobiography of the month, as well as the average age and the male/female distribution of each category. Data relating to your navigation on its site and to your personal characteristics is then used and combined with other such data to produce these statistics.
+* An advertiser wants to better understand the type of audience interacting with its adverts. It calls upon a research institute to compare the characteristics of users who interacted with the ad with typical attributes of users of similar platforms, across different devices. This comparison reveals to the advertiser that its ad audience is mainly accessing the adverts through mobile devices and is likely in the 45-60 age range.
+
+Number of Vendors seeking consent or relying on legitimate interest: 521
+
+
+
+   
+ Develop and improve services   Legitimate Interest
+
+Consent
+
+ 
+
+
+ 
+
+Information about your activity on this service, such as your interaction with ads or content, can be very helpful to improve products and services and to build new products and services based on user interactions, the type of audience, etc. This specific purpose does not include the development or improvement of user profiles and identifiers.
+
+Illustrations
+
+* A technology platform working with a social media provider notices a growth in mobile app users, and sees based on their profiles that many of them are connecting through mobile connections. It uses a new technology to deliver ads that are formatted for mobile devices and that are low-bandwidth, to improve their performance.
+* An advertiser is looking for a way to display ads on a new type of consumer device. It collects information regarding the way users interact with this new kind of device to determine whether it can build a new mechanism for displaying advertising on this type of device.
+
+Number of Vendors seeking consent or relying on legitimate interest: 617
+
+
+
+   
+ Use limited data to select content   Legitimate Interest
+
+Consent
+
+ 
+
+
+ 
+
+Content presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type, or which content you are (or have been) interacting with (for example, to limit the number of times a video or an article is presented to you).
+
+Illustrations
+
+* A travel magazine has published an article on its website about the new online courses proposed by a language school, to improve travelling experiences abroad. The school’s blog posts are inserted directly at the bottom of the page, and selected on the basis of your non-precise location (for instance, blog posts explaining the course curriculum for different languages than the language of the country you are situated in).
+* A sports news mobile app has started a new section of articles covering the most recent football games. Each article includes videos hosted by a separate streaming platform showcasing the highlights of each match. If you fast-forward a video, this information may be used to select a shorter video to play next.
+
+Number of Vendors seeking consent or relying on legitimate interest: 165
+
+
+
+ 
+   
+ Special Purposes (3)  
+
+
+   
+ Ensure security, prevent and detect fraud, and fix errors  
+
+
+ 
+
+Your data can be used to monitor for and prevent unusual and possibly fraudulent activity (for example, regarding advertising, ad clicks by bots), and ensure systems and processes work properly and securely. It can also be used to correct any problems you, the publisher or the advertiser may encounter in the delivery of content and ads and in your interaction with them.
+
+Illustrations
+
+* An advertising intermediary delivers ads from various advertisers to its network of partnering websites. It notices a large increase in clicks on ads relating to one advertiser, and uses data regarding the source of the clicks to determine that 80% of the clicks come from bots rather than humans.
+
+Number of Vendors seeking consent: 578
+
+
+
+   
+ Deliver and present advertising and content  
+
+
+ 
+
+Certain information (like an IP address or device capabilities) is used to ensure the technical compatibility of the content or advertising, and to facilitate the transmission of the content or ad to your device.
+
+Illustrations
+
+* Clicking on a link in an article might normally send you to another page or part of the article. To achieve this, 1°) your browser sends a request to a server linked to the website, 2°) the server answers back (“here is the article you asked for”), using technical information automatically included in the request sent by your device, to properly display the information / images that are part of the article you asked for. Technically, such exchange of information is necessary to deliver the content that appears on your screen.
+
+Number of Vendors seeking consent: 576
+
+
+
+   
+ Save and communicate privacy choices  
+
+
+ 
+
+The choices you make regarding the purposes and entities listed in this notice are saved and made available to those entities in the form of digital signals (such as a string of characters). This is necessary in order to enable both this service and those entities to respect such choices.
+
+Illustrations
+
+* When you visit a website and are offered a choice between consenting to the use of profiles for personalised advertising or not consenting, the choice you make is saved and made available to advertising providers, so that advertising presented to you respects that choice.
+
+Number of Vendors seeking consent: 425
+
+
+
+ 
+   
+ Features (3)  
+
+
+   
+ Match and combine data from other data sources  
+
+
+ 
+
+Information about your activity on this service may be matched and combined with other information relating to you and originating from various sources (for instance your activity on a separate online service, your use of a loyalty card in-store, or your answers to a survey), in support of the purposes explained in this notice.
+
+Number of Vendors seeking consent: 415
+
+
+
+   
+ Link different devices  
+
+
+ 
+
+In support of the purposes explained in this notice, your device might be considered as likely linked to other devices that belong to you or your household (for instance because you are logged in to the same service on both your phone and your computer, or because you may use the same Internet connection on both devices).
+
+Number of Vendors seeking consent: 355
+
+
+
+   
+ Identify devices based on information transmitted automatically  
+
+
+ 
+
+Your device might be distinguished from other devices based on information it automatically sends when accessing the Internet (for instance, the IP address of your Internet connection or the type of browser you are using) in support of the purposes exposed in this notice.
+
+Number of Vendors seeking consent: 549
+
+
+
+ 
+   
+ Special Features (2)    
+
+
+
+   
+ Use precise geolocation data   Consent
+
+ 
+
+
+ 
+
+With your acceptance, your precise location (within a radius of less than 500 metres) may be used in support of the purposes explained in this notice.
+
+Number of Vendors seeking consent: 283
+
+
+
+   
+ Actively scan device characteristics for identification   Consent
+
+ 
+
+
+ 
+
+With your acceptance, certain characteristics specific to your device might be requested and used to distinguish it from other devices (such as the installed fonts or plugins, the resolution of your screen) in support of the purposes explained in this notice.
+
+Number of Vendors seeking consent: 152
+
+
+
+ 
+
+
+
+Vendors
+
+   
+ Third party vendors (937)     
+
+
+
+   
+ Google Ad Tech Providers (596)     
+
+
+
+
+
+
+
+
+
+Accept All Save My Preferences Reject All
+
+Powered by [![Cookieyes logo](https://cdn-cookieyes.com/assets/images/poweredbtcky.svg)](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=powered-by-cookieyes)
+
+
+
+
+
+
+[Facebook](https://www.facebook.com/TradersMagazine/?ref=bookmarks "Facebook")
+
+[Linkedin](https://www.linkedin.com/company/tradersmagazine/?viewAsMember=true "Linkedin")
+
+[Twitter](https://twitter.com/traders_tweets "Twitter")
+ 
+
+
+
+* [DEPARTMENTS](https://www.tradersmagazine.com/category/departments/algos/)
++ [ALGOS/DMA](https://www.tradersmagazine.com/category/departments/algos/)
++ [Brokerage](https://www.tradersmagazine.com/category/departments/brokerage/)
++ [Buyside](https://www.tradersmagazine.com/category/departments/buyside/)
++ [Cannabis](https://www.tradersmagazine.com/category/departments/cannabis/)
++ [Clearing](https://www.tradersmagazine.com/category/departments/clearing/)
++ [Commentary](https://www.tradersmagazine.com/category/departments/commentary/)
++ [commissions/TCA](https://www.tradersmagazine.com/category/departments/commissions/)
++ [crossing networks](https://www.tradersmagazine.com/category/departments/crossing_networks/)
++ [Cryptocurrencies](https://www.tradersmagazine.com/category/departments/cryptocurrencies/)
++ [Digital Assets](https://www.tradersmagazine.com/category/departments/digital-assets/)
++ [Equities](https://www.tradersmagazine.com/category/departments/equities/)
++ [ETFs](https://www.tradersmagazine.com/category/departments/etfs/)
++ [Fixed Income](https://www.tradersmagazine.com/category/departments/fixed-income/)
++ [foreign exchange](https://www.tradersmagazine.com/category/departments/foreign-exchange/)
++ [FX](https://www.tradersmagazine.com/category/departments/fx/)
++ [Options](https://www.tradersmagazine.com/category/departments/options/)
++ [People](https://www.tradersmagazine.com/category/departments/people/)
++ [Regulation](https://www.tradersmagazine.com/category/departments/regulation/)
++ [Technology](https://www.tradersmagazine.com/category/departments/technology/)
++ [Trading Reimagined](https://www.tradersmagazine.com/category/departments/trading-reimagined/)
++ [Trading Venues](https://www.tradersmagazine.com/category/departments/ecns_and_exchanges/)
+* [FLASH FRIDAY](https://www.tradersmagazine.com/category/flashback/)
+* [TECH TUES](https://www.tradersmagazine.com/category/tech-tuesday/)
+* [DerivSource](https://www.tradersmagazine.com/category/feature/)
+* [Podcast](/podcast/)
+ 
+
+
+
+Search
+
+
+
+
+
+
+![websites-group](https://www.tradersmagazine.com/wp-content/uploads/2021/05/new-MMG-01.svg) 
+
+[![Markets Media](https://www.tradersmagazine.com/wp-content/uploads/2021/05/dropdown-new-marketsmedia-logo.svg)](https://www.marketsmedia.com/)
+
+[![Traders Magazine](https://www.tradersmagazine.com/wp-content/uploads/2021/05/dropdown-menu-traders-redlogo.svg)](https://www.tradersmagazine.com/)
+
+[![Global Trading](https://www.tradersmagazine.com/wp-content/uploads/2021/05/GlobalTrading_FINAL_BoW.svg)](https://www.globaltrading.net/)
+
+[![The Desk](https://www.tradersmagazine.com/wp-content/uploads/2021/05/dropdown-menu-fidesk-logo.svg)](https://www.fi-desk.com/)
+
+[![DerivSource](https://www.tradersmagazine.com/wp-content/uploads/2021/05/new-derivsource.svg)](https://www.derivsource.com)
+
+[![Logo Site](https://www.tradersmagazine.com/wp-content/uploads/2021/05/tradertv-logo-1.webp)](https://www.tradertv.net)
+
+
+
+
+
+
+
+ 
+
+[![Logo](/wp-content/themes/Newspaper-child/assets/icons/white-sticky-logo.svg)](https://www.tradersmagazine.com/)
+ 
+
+ 
+
+
+ 
+
+![websites-group](https://www.tradersmagazine.com/wp-content/uploads/2021/05/new-MMG-01.svg) 
+
+[![Markets Media](https://www.tradersmagazine.com/wp-content/uploads/2021/05/dropdown-new-marketsmedia-logo.svg)](https://www.marketsmedia.com/)
+
+[![Traders Magazine](https://www.tradersmagazine.com/wp-content/uploads/2021/05/dropdown-menu-traders-redlogo.svg)](https://www.tradersmagazine.com/)
+
+[![Global Trading](https://www.tradersmagazine.com/wp-content/uploads/2021/05/GlobalTrading_FINAL_BoW.svg)](https://www.globaltrading.net/)
+
+[![The Desk](https://www.tradersmagazine.com/wp-content/uploads/2021/05/dropdown-menu-fidesk-logo.svg)](https://www.fi-desk.com/)
+
+[![DerivSource](https://www.tradersmagazine.com/wp-content/uploads/2021/05/new-derivsource.svg)](https://www.derivsource.com)
+
+[![Logo Site](https://www.tradersmagazine.com/wp-content/uploads/2021/05/tradertv-logo-1.webp)](https://www.tradertv.net)
+
+
+
+
+
+
+
+Wednesday, October 1, 2025
+ 
+
+Search
+
+
+
+
+
+ 
+
+
+[![Logo](/wp-content/themes/Newspaper-child/assets/icons/white-sticky-logo.svg)](https://www.tradersmagazine.com/)
+ 
+
+
+* [DEPARTMENTS](https://www.tradersmagazine.com/category/departments/algos/)
++ [All](https://www.tradersmagazine.com/category/departments/)[ALGOS/DMA](https://www.tradersmagazine.com/category/departments/algos/)[Brokerage](https://www.tradersmagazine.com/category/departments/brokerage/)[Buyside](https://www.tradersmagazine.com/category/departments/buyside/)[Cannabis](https://www.tradersmagazine.com/category/departments/cannabis/)[Clearing](https://www.tradersmagazine.com/category/departments/clearing/)[Commentary](https://www.tradersmagazine.com/category/departments/commentary/)[commissions/TCA](https://www.tradersmagazine.com/category/departments/commissions/)[crossing networks](https://www.tradersmagazine.com/category/departments/crossing_networks/)[Cryptocurrencies](https://www.tradersmagazine.com/category/departments/cryptocurrencies/)[Digital Assets](https://www.tradersmagazine.com/category/departments/digital-assets/)[Equities](https://www.tradersmagazine.com/category/departments/equities/)[ETFs](https://www.tradersmagazine.com/category/departments/etfs/)[Fixed Income](https://www.tradersmagazine.com/category/departments/fixed-income/)[foreign exchange](https://www.tradersmagazine.com/category/departments/foreign-exchange/)[FX](https://www.tradersmagazine.com/category/departments/fx/)[Options](https://www.tradersmagazine.com/category/departments/options/)[People](https://www.tradersmagazine.com/category/departments/people/)[Regulation](https://www.tradersmagazine.com/category/departments/regulation/)[Technology](https://www.tradersmagazine.com/category/departments/technology/)[Trading Reimagined](https://www.tradersmagazine.com/category/departments/trading-reimagined/)
+  
+  [News](https://www.tradersmagazine.com/category/news/)  
+  ### [Cboe Announces Derivatives and Data Vantage Leadership Appointments](https://www.tradersmagazine.com/xtra/cboe-announces-derivatives-and-data-vantage-leadership-appointments/ "Cboe Announces Derivatives and Data Vantage Leadership Appointments")
+  
+  
+  
+  
+  [featured articles](https://www.tradersmagazine.com/category/featured_articles/)  
+  ### [Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation](https://www.tradersmagazine.com/featured_articles/toward-regulatory-harmonization-sec-and-cftc-seek-unified-framework-for-innovation/ "Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation")
+  
+  
+  
+  
+  [News](https://www.tradersmagazine.com/category/news/)  
+  ### [TXSE Group Inc announces SEC approval of Texas Stock Exchange](https://www.tradersmagazine.com/xtra/txse-group-inc-announces-sec-approval-of-texas-stock-exchange/ "TXSE Group Inc announces SEC approval of Texas Stock Exchange")
+  
+  
+  
+  
+  [AM](https://www.tradersmagazine.com/category/am/)  
+  ### [SEC Advances ETF Share Class](https://www.tradersmagazine.com/am/sec-advances-etf-share-class/ "SEC Advances ETF Share Class")
+* [FLASH FRIDAY](https://www.tradersmagazine.com/category/flashback/)
+* [TECH TUES](https://www.tradersmagazine.com/category/tech-tuesday/)
+* [DerivSource](https://www.tradersmagazine.com/category/feature/)
+* [Podcast](/podcast/)
+
+More
+
+
+
+
+
+
+[Facebook](# "Facebook")
+[Linkedin](# "Linkedin")
+[Twitter](# "Twitter")
+
+
+
+
+[![Logo](/wp-content/themes/Newspaper-child/assets/icons/white-sticky-logo.svg)](https://www.tradersmagazine.com/)
+ 
+
+
+* [DEPARTMENTS](https://www.tradersmagazine.com/category/departments/algos/)
++ [All](https://www.tradersmagazine.com/category/departments/)[ALGOS/DMA](https://www.tradersmagazine.com/category/departments/algos/)[Brokerage](https://www.tradersmagazine.com/category/departments/brokerage/)[Buyside](https://www.tradersmagazine.com/category/departments/buyside/)[Cannabis](https://www.tradersmagazine.com/category/departments/cannabis/)[Clearing](https://www.tradersmagazine.com/category/departments/clearing/)[Commentary](https://www.tradersmagazine.com/category/departments/commentary/)
+  
+  [News](https://www.tradersmagazine.com/category/news/)  
+  ### [Cboe Announces Derivatives and Data Vantage Leadership Appointments](https://www.tradersmagazine.com/xtra/cboe-announces-derivatives-and-data-vantage-leadership-appointments/ "Cboe Announces Derivatives and Data Vantage Leadership Appointments")
+  
+  
+  
+  
+  [featured articles](https://www.tradersmagazine.com/category/featured_articles/)  
+  ### [Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation](https://www.tradersmagazine.com/featured_articles/toward-regulatory-harmonization-sec-and-cftc-seek-unified-framework-for-innovation/ "Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation")
+  
+  
+  
+  
+  [News](https://www.tradersmagazine.com/category/news/)  
+  ### [TXSE Group Inc announces SEC approval of Texas Stock Exchange](https://www.tradersmagazine.com/xtra/txse-group-inc-announces-sec-approval-of-texas-stock-exchange/ "TXSE Group Inc announces SEC approval of Texas Stock Exchange")
+  
+  
+  
+  
+  [AM](https://www.tradersmagazine.com/category/am/)  
+  ### [SEC Advances ETF Share Class](https://www.tradersmagazine.com/am/sec-advances-etf-share-class/ "SEC Advances ETF Share Class")
+* [FLASH FRIDAY](https://www.tradersmagazine.com/category/flashback/)
+* [TECH TUES](https://www.tradersmagazine.com/category/tech-tuesday/)
+* [DerivSource](https://www.tradersmagazine.com/category/feature/)
+* [Podcast](/podcast/)
+
+More
+
+
+
+
+
+
+[Facebook](# "Facebook")
+[Linkedin](# "Linkedin")
+[Twitter](# "Twitter")
+
+
+
+
+ 
+
+
+
+[Commentary](https://www.tradersmagazine.com/category/departments/commentary/)[People](https://www.tradersmagazine.com/category/departments/people/)[Regulation](https://www.tradersmagazine.com/category/departments/regulation/)[News](https://www.tradersmagazine.com/category/news/)
+
+
+TABB Group CEO Writes Levin, Disagrees on Ban of Payment for Order Flow
+=======================================================================
+
+
+
+
+
+[![Editorial Staff](https://secure.gravatar.com/avatar/3cb8f04c92e560d0e6fdc9aa0663b4c4e3aaf6e9ee186cd25869d0977870dd24?s=96&d=mm&r=g)](https://www.tradersmagazine.com/author/editorial/ "Editorial Staff")
+By [Editorial Staff](https://www.tradersmagazine.com/author/editorial/)
+
+
+
+August 20, 2014
+ 
+[Share](https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+[Tweet](https://twitter.com/intent/tweet?text=TABB+Group+CEO+Writes+Levin%2C+Disagrees+on+Ban+of+Payment+for+Order+Flow&url=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+[Share](https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+
+Senator Levin, just hold on a sec. Payment for Order Flow, as a market pricing schema might not be as bad as you think.
+
+That’s the opinion of market structure expert Larry Tabb, founder and CEO of capital markets research and consulting firm TABB Group. Tabb wrote a letter to U.S. Senator Carl Levin, chairman of the Permanent Subcommittee on Investigations, disagreeing with conclusions Levin shared in his July 15th letter to SEC Chair Mary Jo White, asking that she ban payment for order flow:
+
+![](https://www.tradersmagazine.com/wp-content/uploads/2019/04/pfof.jpg)
+
+
+
+“Such payments create another incentive for brokers to maximize their own profits at the expense of best execution of customer orders,” Tabb wrote. “In addition, while retail brokers must disclose the amount they receive per-share from wholesale brokers for order flow, the aggregate totals of such payments are typically not disclosed. As a result, in most cases, consumers are unaware that the fractions of a cent received by retail brokers per-share add up to a multi-million dollar conflict of interest. Furthermore, the limited disclosures currently required are not filed with the SEC and often disappear from broker web sites at the end of each quarter.”
+
+Also in the letter, dated August 11th, Tabb explained that banning this practice would be a serious mistake, that “we need more disclosure on payments for order flow arrangements; reports should be filed with the SEC; better archival mechanisms are needed; and current reporting requirements are not as informative as needed. However, I would pause between requiring more transparency and the attempt to ban the practice. While payment for order flow does introduce conflicts, banning the practice will only create more challenges and magnify conflicts of interest.”
+
+He proceeded to give three reasons why retail investors’ orders are valuable, that paring size, spreads and the herding nature of institutions, create an environment in which interacting with smaller retail investors is safer for a market maker than providing institutional liquidity.
+
+Referring the senator to “U.S. Equity Market Structure: Q1-2014 Market Metrics,” a July 2014 TABB report that aggregates and publishes price improvement statistics, he says while it’s in the best interest of retail brokers to obtain as much payment for their order flow, they also force wholesalers to actively compete on their price improvement statistics, adding that although this is not a perfect process, “it’s transparent, aboveboard and many retail investors receive a better price than offered in the market.”
+
+![](https://www.tradersmagazine.com/wp-content/uploads/2019/04/larry_tabb.jpg)
+
+
+
+Given the SEC’s desire to ensure retail investors obtain price improvement, he concludes, payment for order flow allows brokers to reduce retail commissions, invest in better client-facing technology and provide a better customer-facing environment. The process is transparent and regulated (although more rigorous reporting would absolutely be welcomed). It allows wholesalers to not only compete over who pays the broker the most, but to compete over the benefits provided to retail clients. While not perfect, it works without drastically layering on a new set of costs, conflicts, management challenges and potential under-the-table incentives. “Payment for order flow also provides retail brokers with investment capital to spawn innovation; it creates a market where wholesalers actively compete to provide top-tier execution; it levels the execution framework for individuals, given their inability to invest in professional trading technology; and most important, it provides a better execution experience for clients.”
+
+Below is the complete letter from Tabb to Levin:
+
+*The Honorable Carl Levin*  
+*US Senator and*  
+*Chairman, Permanent Subcommittee on Investigations*  
+*269 Russell Office Building*  
+*U.S. Senate*  
+*Washington, DC 20510-2202*
+
+*August 11, 2014*
+
+*Dear Senator Levin:*
+
+*I read with interest your letter to SEC Chair White dated July 15, 2014 and while I understand your sentiments, I am generally not in agreement with your conclusions, especially with regards to your thoughts on Payment for Order Flow.* 
+
+*Toward the end of your letter you state in your discussion of payment for order flow:*
+
+*“Such payments create another incentive for brokers to maximize their own profits at the expense of best execution of customer orders. In addition, while retail brokers must disclose the amount they receive per-share from wholesale brokers for order flow, the aggregate totals of such payments are typically not disclosed. As a result, in most cases, consumers are unaware that the fractions of a cent received by retail brokers per-share add up to a multi-million-dollar conflict of interest. Furthermore, the limited disclosures currently required are not filed with the SEC and often disappear from broker web sites at the end of each quarter.”*
+
+*I completely agree with you that:*  
+*. We need more disclosure on payment for order flow arrangements.*   
+*. Reports should not be filed with the SEC.*   
+*. Better archival mechanisms are needed, and*   
+*. Current reporting requirements are not as informative as needed.* 
+
+*However, I would pause between requiring more transparency and the attempt to ban the practice.*  
+*While payment for order flow does introduce conflicts, banning the practices will only create more challenges, and magnify conflicts of interest.* 
+
+*No matter how bad payment for order flow sounds, payment for order flow is a legitimate practice governed by the SEC. Orders must be priced at least as well as the national best bid offer (NBBO), and all executions are covered by best execution rules, which require brokers to execute orders at the most advantageous price to the client.*
+
+*The problem with banning payment for order flow is that retail flow is valuable and just banning the practice doesn’t change the value of this order stream; rather, it changes, and possibly corrupts, how that value is harvested.*
+
+*Retail investors’ orders are valuable because of three key factors: order size, the mandated width of trading spreads, and the herding nature of institutional order flow.* 
+
+*First, while many non-professional investors have significant financial resources, they generally do not invest with the same concentration as institutions. Since market makers are providing client liquidity (to capture a spread), large market-moving client orders more often than not do not provide enough time for intermediaries to get out of their positions before the price changes. This causes market making in these situations to become unprofitable. Non-professional orders, since they are smaller, generally do not have as much heft to move the market, allowing the market maker to unwind trades more easily and to effectively capture a larger spread. It generally is more profitable to interact with non-professional orders.*
+
+*Second, mandated minimum spreads allow market makers to capture a greater amount of the economics than if markets were free to trade with no minimum spread.* 
+
+*Third, many institutional investors are full-time and employ professional traders who keep abreast of the latest equity research, analyst calls, and corporate management decisions, and have sophisticated investment and trading tools. Professionals are more prone to make similar trading decisions, causing them to move synchronously – i.e., to herd. Smaller investors/traders are less likely to be driven by professional information, making retail investors’ trading cycles different than professionals’.* 
+
+*Paring these three factors – size, spreads, and the herding nature of institutions – creates an environment in which interacting with smaller retail investors is safer for a market maker than providing institutional liquidity. Because markets don’t know when they are interacting with retail flow, spreads are artificially wide when trading against retail flow.* 
+
+*When non-professional marketable orders are routed directly to an exchange, the orders most likely will trade at either the best bid or offer, forcing the retail investor (using a market order) to receive the least and or pay the most. While good for the quoting party (mostly market makers or professionals), it is not good for the non-professional investor.*
+
+*Payment for order flow is the tool that helps wholesalers give a portion of that benefit back to investors and retail brokers.* 
+
+*Now, the price improvement a retail investor may see may only be 1/10 or 2/10s of a cent ($0.001/$0.002); however, it transfers more value to retail investors than if they transacted natively on exchange.* 
+
+*Many think this process is too opaque; however, the SEC forces all wholesalers and exchanges to provide execution-quality reports (605/6 Reports). These reports display both brokers’ order routing policies and wholesalers’ price improvement statistics.* 
+
+*While it is clearly in the best interests of the retail brokers to obtain as much payment for their order flow as possible, the retail brokers also force the wholesalers to actively compete on their price improvement statistics.*
+
+*Is the process perfect? Certainly not. It is, however, transparent and aboveboard. And many retail investors do receive a better price than offered in the market.* 
+
+*Banning payment for order flow doesn’t change the nature of the order flow. Retail flow is and will always be valuable – non-professional orders are smaller and safer to interact with, it is better for the market if spreads are restricted, and institutions herd. Banning payments forces retail brokers either to set up their own trading desks, harvest value directly, or send valuable order flow to wholesalers/brokers that now are not allowed to pay for it.*
+
+*Setting up a trading desk that provides wholesaler-quality execution is expensive. People, technology, data, and infrastructure are complicated and costly, and not investing in trading infrastructure opens up firms to best execution criticism.* 
+
+*Bringing the process in-house makes it harder to manage, as the flow becomes less portable and competition to maximize the value of that flow declines, and since different markets have different pricing structures, there will continue to be agency conflicts, as orders could still be routed to exchanges providing the highest rebates and charging the lowest fees.* 
+
+*Creating a competitive process typically is better than managing an internal process, especially for a high-fixed-cost, low-variable-cost operation such as building a trading desk.* 
+
+*Trading valuable retail flows in-house also could create an environment rife for corruption. Taking a multimillion-dollar asset (order flow stream) and turning it into a cost will most certainly create incentives for non-transparent influencing mechanisms. Policing this would certainly become problematic.* 
+
+*Since the SEC’s decision to facilitate a better environment for retail execution led to the development of payment for order flow, the practice has been called controversial, at best, and nefarious, at worst. In my view, payment for order flow, while conflict-laden, is not as conflict-laden as other execution means and provides a positive outcome for retail investors, their brokers, and the concentrating wholesalers.* 
+
+*Given the SEC’s desire to ensure retail investors obtain price improvement, payment for order flow allows brokers to reduce retail commissions, invest in better client-facing technology, and provide a better customer-facing environment. The process is transparent and regulated (although more rigorous reporting would absolutely be welcomed). It allows wholesalers not only to compete over who pays the broker the most, but to compete over the benefits provided to retail clients.* 
+
+*While this is not perfect, it works – without drastically layering on a new set of costs, conflicts, management challenges, and potential under-the-table incentives. Payment for order flow also provides retail brokers with investment capital to spawn innovation; it creates a market where wholesalers actively compete to provide top-tier execution; it levels the execution framework for individuals, given their inability to invest in professional trading technology; and most important, it provides a better execution experience for clients.*  
+*In my position as a market structure expert and the CEO of a financial markets research firm, banning this practice would be a serious mistake.*
+
+*I would like to thank you for your patience in taking my thoughts into consideration.*
+
+*Regards,*
+
+*Larry Tabb*  
+*Founder & CEO*  
+*TABB Group*
+
+*cc. The Honorable Mary Jo White*  
+*Chair, Securities and Exchange Commission*  
+*I 00 F Street, NE*  
+*Washington, DC 20549*
+
+[Share](https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+[Tweet](https://twitter.com/intent/tweet?text=TABB+Group+CEO+Writes+Levin%2C+Disagrees+on+Ban+of+Payment+for+Order+Flow&url=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+[Share](https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+
+
+
+
+
+[Facebook](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F "Facebook")[Twitter](https://twitter.com/intent/tweet?text=TABB+Group+CEO+Writes+Levin%2C+Disagrees+on+Ban+of+Payment+for+Order+Flow&url=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F&via=Traders+Magazine "Twitter")[Pinterest](https://pinterest.com/pin/create/button/?url=https://www.tradersmagazine.com/departments/people/tabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow/&media=https://www.tradersmagazine.com/wp-content/uploads/2019/04/pfof.jpg&description=Larry%20Tabb,%20founder%20of%20TABB%20Group%20responded%20to%20U.S.%20Senator%20Carl%20Levin,%20chairman%20of%20the%20Permanent%20Subcommittee%20on%20Investigations,%20disagreeing%20with%20conclusions%20Levin%20shared%20in%20his%20July%2015th%20letter%20to%20SEC%20Chair%20Mary%20Jo%20White,%20asking%20that%20she%20ban%20payment%20for%20order%20flow. "Pinterest")[WhatsApp](https://api.whatsapp.com/send?text=TABB+Group+CEO+Writes+Levin%2C+Disagrees+on+Ban+of+Payment+for+Order+Flow%20%0A%0A%20https://www.tradersmagazine.com/departments/people/tabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow/ "WhatsApp")
+
+
+
+
+
+
+
+Previous article[NASDAQ OMX Lists Equity Fixed Income Blend First Trust Strategic Income ETF](https://www.tradersmagazine.com/departments/buyside/nasdaq-omx-lists-equity-fixed-income-blend-first-trust-strategic-income-etf/)
+
+Next article[The Rise of the SEFs](https://www.tradersmagazine.com/departments/buyside/the-rise-of-the-sefs/)
+
+
+
+#### RELATED ARTICLES
+
+
+ 
+### [Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor](https://www.tradersmagazine.com/xtra/maylan-studart-from-stakes-winning-jockey-to-wealth-advisor/ "Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor")
+
+
+
+
+
+ 
+### [Cboe Announces Derivatives and Data Vantage Leadership Appointments](https://www.tradersmagazine.com/xtra/cboe-announces-derivatives-and-data-vantage-leadership-appointments/ "Cboe Announces Derivatives and Data Vantage Leadership Appointments")
+
+
+
+
+
+ 
+### [Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation](https://www.tradersmagazine.com/featured_articles/toward-regulatory-harmonization-sec-and-cftc-seek-unified-framework-for-innovation/ "Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation")
+
+
+
+
+
+
+
+
+
+
+#### MOST READ
+
+
+### [Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor](https://www.tradersmagazine.com/xtra/maylan-studart-from-stakes-winning-jockey-to-wealth-advisor/ "Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor")
+
+October 1, 2025 
+
+
+
+
+### [Cboe Announces Derivatives and Data Vantage Leadership Appointments](https://www.tradersmagazine.com/xtra/cboe-announces-derivatives-and-data-vantage-leadership-appointments/ "Cboe Announces Derivatives and Data Vantage Leadership Appointments")
+
+October 1, 2025 
+
+
+
+
+### [Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation](https://www.tradersmagazine.com/featured_articles/toward-regulatory-harmonization-sec-and-cftc-seek-unified-framework-for-innovation/ "Toward Regulatory Harmonization: SEC and CFTC Seek Unified Framework for Innovation")
+
+October 1, 2025 
+
+
+
+
+### [TXSE Group Inc announces SEC approval of Texas Stock Exchange](https://www.tradersmagazine.com/xtra/txse-group-inc-announces-sec-approval-of-texas-stock-exchange/ "TXSE Group Inc announces SEC approval of Texas Stock Exchange")
+
+October 1, 2025 
+
+
+
+
+### [SEC Advances ETF Share Class](https://www.tradersmagazine.com/am/sec-advances-etf-share-class/ "SEC Advances ETF Share Class")
+
+October 1, 2025 
+
+
+
+
+
+
+#### PODCAST
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+[![Logo](/wp-content/themes/Newspaper-child/assets/icons/white-sticky-logo.svg)](https://www.tradersmagazine.com/)
+ 
+
+* [About Us](/about-us)
+* [Careers](/about-us)
+* [Contact](/about-us)
+* [Advertise](/about-us)
+* [Newsletter](/about-us)
+* [Corporate Site](/about-us)
+
+
+
+[Facebook](# "Facebook")
+
+[Instagram](# "Instagram")
+[Twitter](# "Twitter")
+[Vimeo](# "Vimeo")
+
+
+
+
+
+ 
+© 2025 Markets Media Holdings LLC
+[Terms & Conditions](/terms-and-conditions)
+[Privacy Policy](/privacy-policy)
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor
+------------------------------------------------------------
+
+
+
+
+### Open Order
+
+
+
+
+
+
+
+
+
+
+Audio Player
+
+
+00:00
+00:00 | 36:21
+
+
+
+
+
+
+
+
+
+Chapters
+[1:27
+
+Introduction](#)
+[6:14
+
+Childhood and how she got into horse racing](#)
+[9:32
+
+High points as a jockey](#)
+[11:10
+
+Connections with the horses](#)
+[13:09
+
+What's it like riding a racehorse?](#)
+[15:54
+
+Who left an impression on you?](#)
+[21:19
+
+How did your riding career come to a close?](#)
+[22:49
+
+Did you consider staying in horse racing in a different capacity?](#)
+[27:03
+
+Post riding career](#)
+[31:30
+
+A career as a financial manager and how you differentiate](#)
+[33:52
+
+Working with the horse racing community](#)
+[35:41
+
+Looking to the future](#)
+[36:13
+
+Conclusion](#)
+
+
+
+
+More Info
+
+Open Order 
+Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor
+Oct 01, 2025
+Season 1
+Episode 4
+
+Terry Flanagan
+
+**Maylan Studart** may be the only financial market professional who has ridden racehorses and won races at premier New York racetracks. Maylan discusses her very unique career journey from jockey to Merrill Lynch wealth advisor with Traders Magazine Editor **Terry Flanagan** in this episode of the Open Order Podcast.
+
+
+
+
+
+
+Share
+
+Share Episode
+[Share on Facebook](http://www.facebook.com/sharer.php?u=https://www.buzzsprout.com/2471466/episodes/17939670-maylan-studart-from-stakes-winning-jockey-to-wealth-advisor "Share on Facebook")
+[Share on Twitter](http://twitter.com/intent/tweet?text=Listening+to+%22Maylan+Studart%3A+From+Stakes-Winning+Jockey+to+Wealth+Advisor%22+at+&url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F17939670-maylan-studart-from-stakes-winning-jockey-to-wealth-advisor "Share on Twitter")
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F17939670-maylan-studart-from-stakes-winning-jockey-to-wealth-advisor "Share on Linkedin")
+[Download](https://www.buzzsprout.com/2471466/episodes/17939670-maylan-studart-from-stakes-winning-jockey-to-wealth-advisor.mp3?client_source=small_player&download=true)
+
+
+Subscribe
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+
+
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+[![Buzzsprout](https://assets.buzzsprout.com/assets/wave_player/poweredby-buzzsprout-302f98fa361c672baf21e30267804cd9e7aa49223b03b35988eaa851712705b9.svg)](https://www.buzzsprout.com)
+
+
+
+
+
+
+
+
+
+Joe Wald on Entrepreneurship
+----------------------------
+
+
+
+
+### Open Order
+
+
+
+
+
+
+
+
+
+
+Audio Player
+
+
+00:00
+00:00 | 14:23
+
+
+
+
+
+
+
+
+
+Chapters
+[1:08
+
+Introduction](#)
+[3:28
+
+How did you get started in entrepreneurship?](#)
+[4:28
+
+EdgeTrade](#)
+[6:02
+
+What was your past entrepreneurial path?](#)
+[7:01
+
+What misses have you had in your career?](#)
+[8:09
+
+What is an intrepreneur?](#)
+[9:12
+
+What is the secret to taking an idea to action?](#)
+[10:25
+
+Who do you most admire?](#)
+[11:35
+
+What do you think about convention wisdom around entrepreneurship?](#)
+[12:32
+
+What is Mosaic and what are the next steps?](#)
+[12:54
+
+When do you expect to go live?](#)
+[13:43
+
+Final thoughts?](#)
+[14:17
+
+Thanks and conclusion](#)
+
+
+
+
+More Info
+
+Open Order 
+Joe Wald on Entrepreneurship
+Sep 15, 2025
+Season 1
+Episode 3
+
+Terry Flanagan
+
+Capital markets trading and technology veteran Joe Wald talks all things entrepreneurship with Traders Magazine Editor Terry Flanagan in this episode of the Open Order Podcast.
+
+Joe discusses his first exposure to entrepreneurship (TS), career entrepreneurial highlights such as EdgeTrade (TS) and Clearpool (TS), his entrepreneurial misses (TS), keys to moving from idea to action (TS), and his current entrepreneurial venture Mosaic Platforms (TS).
+
+
+
+
+
+
+Share
+
+Share Episode
+[Share on Facebook](http://www.facebook.com/sharer.php?u=https://www.buzzsprout.com/2471466/episodes/17847550-joe-wald-on-entrepreneurship "Share on Facebook")
+[Share on Twitter](http://twitter.com/intent/tweet?text=Listening+to+%22Joe+Wald+on+Entrepreneurship%22+at+&url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F17847550-joe-wald-on-entrepreneurship "Share on Twitter")
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F17847550-joe-wald-on-entrepreneurship "Share on Linkedin")
+[Download](https://www.buzzsprout.com/2471466/episodes/17847550-joe-wald-on-entrepreneurship.mp3?client_source=small_player&download=true)
+
+
+Subscribe
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+
+
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+[![Buzzsprout](https://assets.buzzsprout.com/assets/wave_player/poweredby-buzzsprout-302f98fa361c672baf21e30267804cd9e7aa49223b03b35988eaa851712705b9.svg)](https://www.buzzsprout.com)
+
+
+
+
+
+
+
+
+
+FTSE Russell's Catherine Yoshimoto Discusses the Russell Reconstitution
+-----------------------------------------------------------------------
+
+
+
+
+### Open Order
+
+
+
+
+
+
+
+
+
+
+Audio Player
+
+
+00:00
+00:00 | 19:41
+
+
+
+
+
+
+
+
+More Info
+
+Open Order 
+FTSE Russell's Catherine Yoshimoto Discusses the Russell Reconstitution
+Jul 10, 2025
+Season 1
+Episode 2
+
+Terry Flanagan
+
+**Catherine Yoshimoto**, Director of Product Management at global index provider **FTSE Russell**, discusses the Russell Reconstitution with **Traders Magazine** Editor **Terry Flanagan** in this episode of the *Open Order Podcast*. Catherine covers her career background, her current role, the evolution of the Russell Reconstitution and its importance for traders, and the future of the "cornerstone event for the US equity markets," including a change going into effect next year.
+
+
+
+
+
+
+Share
+
+Share Episode
+[Share on Facebook](http://www.facebook.com/sharer.php?u=https://www.buzzsprout.com/2471466/episodes/17444703-ftse-russell-s-catherine-yoshimoto-discusses-the-russell-reconstitution "Share on Facebook")
+[Share on Twitter](http://twitter.com/intent/tweet?text=Listening+to+%22FTSE+Russell%27s+Catherine+Yoshimoto+Discusses+the+Russell+Reconstitution%22+at+&url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F17444703-ftse-russell-s-catherine-yoshimoto-discusses-the-russell-reconstitution "Share on Twitter")
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F17444703-ftse-russell-s-catherine-yoshimoto-discusses-the-russell-reconstitution "Share on Linkedin")
+[Download](https://www.buzzsprout.com/2471466/episodes/17444703-ftse-russell-s-catherine-yoshimoto-discusses-the-russell-reconstitution.mp3?client_source=small_player&download=true)
+
+
+Subscribe
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+
+
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+[![Buzzsprout](https://assets.buzzsprout.com/assets/wave_player/poweredby-buzzsprout-302f98fa361c672baf21e30267804cd9e7aa49223b03b35988eaa851712705b9.svg)](https://www.buzzsprout.com)
+
+
+
+
+
+
+
+
+
+Georgetown University's Jim Angel Discusses Equity Market Structure
+-------------------------------------------------------------------
+
+
+
+
+### Open Order
+
+
+
+
+
+
+
+
+
+
+Audio Player
+
+
+00:00
+00:00 | 16:41
+
+
+
+
+
+
+
+
+
+Chapters
+[0:57
+
+Introducing the Open Order Podcast](#)
+[1:40
+
+Introducing Jim Angel](#)
+[2:43
+
+About Jim Angel and teaching at Georgetown University](#)
+[4:03
+
+What might be the most impactful trend throughout 2025?](#)
+[4:57
+
+Equity market structure and volatility this year - what has this shown us?](#)
+[5:21
+
+Is market structure holding up pretty well this year?](#)
+[7:36
+
+Regulation - what is your expectations going forward?](#)
+[8:28
+
+SEC chairs - looking back.](#)
+[10:01
+
+Alternative trading systems - why have they gained traction and what is the future outlook?](#)
+[11:53
+
+Dallas is emerging as potential market center for equity trading - why is this happening?](#)
+[13:58
+
+What else is going on in equity market structure that we should be paying attention to?](#)
+[15:08
+
+What's your favorite exchange to visit?](#)
+[15:58
+
+Conferences to attend and trading desk invitations](#)
+[16:38
+
+Thank you and concluding remarks](#)
+
+
+
+
+More Info
+
+Open Order 
+Georgetown University's Jim Angel Discusses Equity Market Structure
+Apr 28, 2025
+Season 1
+Episode 1
+
+Terry Flanagan
+
+**Jim Angel**, Associate Professor at **Georgetown University**, discusses equity market structure with Traders Magazine Editor Terry Flanagan in the first episode of the Open Order Podcast. Jim discusses his teaching at Georgetown (1:30), the most important current trends in equity market structure (2:30), implications of recent market volatility (4:00), the outlook for the US Securities and Exchange Commission post- Gary Gensler (5:40), the emerging stock market ecosystem in Texas (10:30), and more.
+
+This podcast was recorded on April 3, 2025.
+
+
+
+
+
+
+Share
+
+Share Episode
+[Share on Facebook](http://www.facebook.com/sharer.php?u=https://www.buzzsprout.com/2471466/episodes/16997391-georgetown-university-s-jim-angel-discusses-equity-market-structure "Share on Facebook")
+[Share on Twitter](http://twitter.com/intent/tweet?text=Listening+to+%22Georgetown+University%27s+Jim+Angel+Discusses+Equity+Market+Structure%22+at+&url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F16997391-georgetown-university-s-jim-angel-discusses-equity-market-structure "Share on Twitter")
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.buzzsprout.com%2F2471466%2Fepisodes%2F16997391-georgetown-university-s-jim-angel-discusses-equity-market-structure "Share on Linkedin")
+[Download](https://www.buzzsprout.com/2471466/episodes/16997391-georgetown-university-s-jim-angel-discusses-equity-market-structure.mp3?client_source=small_player&download=true)
+
+
+Subscribe
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+
+
+[RSS Feed](https://feeds.buzzsprout.com/2471466.rss)
+
+
+
+[![Buzzsprout](https://assets.buzzsprout.com/assets/wave_player/poweredby-buzzsprout-302f98fa361c672baf21e30267804cd9e7aa49223b03b35988eaa851712705b9.svg)](https://www.buzzsprout.com)
+
+
+
+
+
+
+
+
+
+[![Episode Artwork](https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCQndtUWdrPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d2972d768b83a04494b52a2ca653f07c23683445/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFuZ0ZhUUo0QlhzR09nbGpjbTl3T2d0alpXNTBjbVU2RUdSbFptRjFiSFJmZFhKc1NTSTVhSFIwY0hNNkx5OTNkM2N1WW5WNmVuTndjbTkxZEM1amIyMHZhVzFoWjJWekwyRnlkSGR2Y210elgyeGhjbWRsTG1wd1p3WTZCa1ZVT2dwellYWmxjbnNHT2d4eGRXRnNhWFI1YVVFNkVHTnZiRzkxY25Od1lXTmxTU0lKYzNKbllnWTdDMVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2a89ede784d6e184500689d6dcbd55b204c8d4ad/TM-OO-Favicon.jpg)
+Maylan Studart: From Stakes-Winning Jockey to Wealth Advisor
+
+36:21](#)
+[![Episode Artwork](https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCQkRKTWdrPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1e3168489a62fc8c946917aa007c6d4e323fa71c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFuZ0ZhUUo0QlhzR09nbGpjbTl3T2d0alpXNTBjbVU2RUdSbFptRjFiSFJmZFhKc1NTSTVhSFIwY0hNNkx5OTNkM2N1WW5WNmVuTndjbTkxZEM1amIyMHZhVzFoWjJWekwyRnlkSGR2Y210elgyeGhjbWRsTG1wd1p3WTZCa1ZVT2dwellYWmxjbnNHT2d4eGRXRnNhWFI1YVVFNkVHTnZiRzkxY25Od1lXTmxTU0lKYzNKbllnWTdDMVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2a89ede784d6e184500689d6dcbd55b204c8d4ad/TM-OO-Favicon.jpg)
+Joe Wald on Entrepreneurship
+
+14:23](#)
+[![Episode Artwork](https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRDd1K0FnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--392f371332f30a5225802ca1798351e8c614f9f2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFuZ0ZhUUo0QlhzR09nbGpjbTl3T2d0alpXNTBjbVU2RUdSbFptRjFiSFJmZFhKc1NTSTVhSFIwY0hNNkx5OTNkM2N1WW5WNmVuTndjbTkxZEM1amIyMHZhVzFoWjJWekwyRnlkSGR2Y210elgyeGhjbWRsTG1wd1p3WTZCa1ZVT2dwellYWmxjbnNHT2d4eGRXRnNhWFI1YVVFNkVHTnZiRzkxY25Od1lXTmxTU0lKYzNKbllnWTdDMVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2a89ede784d6e184500689d6dcbd55b204c8d4ad/TM-OO-Favicon.jpg)
+FTSE Russell's Catherine Yoshimoto Discusses the Russell Reconstitution
+
+19:41](#)
+[![Episode Artwork](https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTVdRc0FnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--dc10627396c366ed546cf10e7cc1f04cacf5ba5a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFuZ0ZhUUo0QlhzR09nbGpjbTl3T2d0alpXNTBjbVU2RUdSbFptRjFiSFJmZFhKc1NTSTVhSFIwY0hNNkx5OTNkM2N1WW5WNmVuTndjbTkxZEM1amIyMHZhVzFoWjJWekwyRnlkSGR2Y210elgyeGhjbWRsTG1wd1p3WTZCa1ZVT2dwellYWmxjbnNHT2d4eGRXRnNhWFI1YVVFNkVHTnZiRzkxY25Od1lXTmxTU0lKYzNKbllnWTdDMVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2a89ede784d6e184500689d6dcbd55b204c8d4ad/TM-OO-Favicon.jpg)
+Georgetown University's Jim Angel Discusses Equity Market Structure
+
+16:41](#)
+
+
+
+
+
+![iStock-501199714-1024x683-1](https://marketsmedia-20473405.hs-sites.com/hubfs/Imported%20sitepage%20images/iStock-501199714-1024x683-1.jpg "iStock-501199714-1024x683-1")
+
+
+
+
+
+
+Sign up to our newsletters
+--------------------------
+
+
+
+
+
+Subscribe to our free newsletters to receive our industry coverage straight to your inbox. You can unsubscribe at anytime.
+
+
+
+
+
+[SIGN UP](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLL7T7fkJBnGRIzxn8OZWazQbvRSgmiEG8AxM0z2yv6FxJ6hWBU6a6EvBMQGXlqOtM7pJfTPYpQNoez4iqX3fFG9ROgEevLz2mBnlsmj%2BCH8tYHAg9CPKae5pFI4FXBry36P0qjdedg%2BQtlu%2BL9CfxOHr%2Blm55%2FM02lwqp4nwDa0Mr%2BuqyNgp2bsjnEslQOPilmmEnQUNeBBjInLqk6s8DAliARxQcsQywtkrfMm&portalId=20473405&webInteractiveId=448109456436&webInteractiveContentId=193665220501&containerType=SLIDE_IN&campaignId=507ebb46-e2e1-48bc-ba53-aa7f6e32d3f1&pageUrl=https%3A%2F%2Fwww.tradersmagazine.com%2Fdepartments%2Fpeople%2Ftabb-group-ceo-writes-levin-disagrees-on-ban-of-payment-for-order-flow%2F)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

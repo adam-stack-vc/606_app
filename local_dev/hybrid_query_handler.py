@@ -260,6 +260,168 @@ For context, off-exchange volume that month was {finra_total_formatted} shares, 
 # Complex Multi-Table Query Handler (Separate Queries + OpenAI Synthesis)
 # -----------------------------
 
+def _is_direct_pfof_broker_venues_query(user_input: str, query_tags: Dict) -> bool:
+    """
+    Detect a direct, single-shot query: Broker PFOF by venue for a specific time.
+    Examples:
+      - 'How much did Robinhood receive in PFOF from each of its venues in Jan 2024'
+    Requirements:
+      - mentions_pfof true
+      - executing_bd resolved
+      - month and/or year present
+      - phrase indicating venue breakdown (e.g., 'each of its venues', 'by venue', 'from each venue')
+    """
+    if not query_tags.get('mentions_pfof'):
+        return False
+    if not query_tags.get('executing_bd'):
+        return False
+    if not (query_tags.get('month') or query_tags.get('year')):
+        return False
+    text = (user_input or "").lower()
+    venue_breakdown = any(
+        p in text for p in [
+            "each of its venues", "each venue", "by venue", "from each venue", "from each of its venues"
+        ]
+    )
+    return venue_breakdown
+
+
+def execute_direct_pfof_by_venue_for_broker(user_input: str, query_tags: Dict) -> Dict:
+    """
+    Single deterministic query answering:
+      PFOF totals per venue for a specific executing_bd within a time filter (month/year).
+    No extras; no synthesis. Returns only the direct answer.
+    """
+    broker = query_tags.get('executing_bd')
+    year = query_tags.get('year')
+    month = query_tags.get('month')
+
+    where_conditions = ["data_type = 'venue'"]
+    if broker:
+        # Escape single quotes in broker name minimally
+        safe_broker = str(broker).replace("'", "''")
+        where_conditions.append(f"executing_bd = '{safe_broker}'")
+    if year:
+        where_conditions.append(f"year = {int(year)}")
+    if month:
+        where_conditions.append(f"month = '{int(month)}'")
+
+    sql = f"""
+    SELECT
+        venues,
+        SUM(
+          COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+          COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+          COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) +
+          COALESCE(netpmtpaidrecvotherordersusd, 0)
+        ) AS total_pfof_usd
+    FROM executing_bd_606
+    WHERE {' AND '.join(where_conditions)}
+    GROUP BY venues
+    ORDER BY total_pfof_usd DESC;
+    """.strip()
+
+    try:
+        cursor.execute(sql)
+        rows = cursor.fetchall()
+        cols = [d[0] for d in cursor.description] if cursor.description else []
+        formatted = [dict(zip(cols, r)) for r in rows] if rows else []
+        return {
+            "question": user_input,
+            "query_type": "direct_single",
+            "sql": sql,
+            "results": formatted,
+            "row_count": len(formatted),
+            "query_classification": query_tags
+        }
+    except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        return {
+            "question": user_input,
+            "query_type": "direct_single",
+            "sql": sql,
+            "error": str(e),
+            "query_classification": query_tags
+        }
+
+
+def _is_list_unique_query(user_input: str, query_tags: Dict) -> bool:
+    """
+    Detect simple list/unique queries that can be answered with DISTINCT on a single column.
+    Examples:
+      - 'list all the unique executing brokers for January 2024'
+      - 'show distinct venues in 2024'
+    """
+    text = (user_input or "").lower()
+    has_list_word = any(w in text for w in ["list", "show", "display"])
+    has_unique_word = any(w in text for w in ["unique", "distinct", "all"])
+    mentions_target = any(w in text for w in ["executing broker", "executing brokers", "brokers", "venues", "venue"])
+    return has_list_word and has_unique_word and mentions_target
+
+
+def execute_direct_list_query(user_input: str, query_tags: Dict) -> Dict:
+    """
+    Single deterministic DISTINCT query for one column (executing_bd or venues) on executing_bd_606.
+    Applies optional time filters (year/month). No extras; no synthesis.
+    """
+    text = (user_input or "").lower()
+    # Choose target column
+    if any(w in text for w in ["executing broker", "executing brokers", "brokers"]):
+        target_col = "executing_bd"
+    elif any(w in text for w in ["venues", "venue"]):
+        target_col = "venues"
+    else:
+        # Default to executing_bd if not explicit
+        target_col = "executing_bd"
+
+    year = query_tags.get('year')
+    month = query_tags.get('month')
+
+    where_conditions = ["data_type = 'venue'"]
+    if year:
+        where_conditions.append(f"year = {int(year)}")
+    if month:
+        where_conditions.append(f"month = '{int(month)}'")
+    # Filter out null/empty values
+    where_conditions.extend([f"{target_col} IS NOT NULL", f"{target_col} != ''"])
+
+    sql = f"""
+    SELECT DISTINCT {target_col}
+    FROM executing_bd_606
+    WHERE {' AND '.join(where_conditions)}
+    ORDER BY {target_col};
+    """.strip()
+
+    try:
+        cursor.execute(sql)
+        rows = cursor.fetchall()
+        cols = [d[0] for d in cursor.description] if cursor.description else []
+        formatted = [dict(zip(cols, r)) for r in rows] if rows else []
+        return {
+            "question": user_input,
+            "query_type": "direct_single",
+            "sql": sql,
+            "results": formatted,
+            "row_count": len(formatted),
+            "query_classification": query_tags
+        }
+    except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        return {
+            "question": user_input,
+            "query_type": "direct_single",
+            "sql": sql,
+            "error": str(e),
+            "query_classification": query_tags
+        }
+
+
 def generate_complex_multi_table_query(user_input: str, query_tags: Dict) -> Dict:
     """Generate complex multi-table query using separate queries + OpenAI synthesis"""
     
@@ -1064,9 +1226,12 @@ def generate_openai_synthesis(user_input: str, query_results: Dict, query_tags: 
             return ""
     except Exception:
         pass
-    # 0) Strict priority: if earliest per-broker is present, return it directly
+    # 0) Strict priority: if user asked for "first/earliest" per broker and we have it, return that directly
     try:
-        if False and 'earliest_pfof_by_broker' in query_results and 'results' in query_results['earliest_pfof_by_broker'] and query_results['earliest_pfof_by_broker']['results']:
+        if (query_tags.get('mentions_first')
+            and 'earliest_pfof_by_broker' in query_results
+            and 'results' in query_results['earliest_pfof_by_broker']
+            and query_results['earliest_pfof_by_broker']['results']):
             rows = query_results['earliest_pfof_by_broker']['results']
             lines = []
             for r in rows:
@@ -1357,8 +1522,17 @@ def route_hybrid_query(user_input: str, query_tags: Dict) -> Dict:
     """Route query to appropriate handler based on complexity"""
     
     print(f"🔍 Query Classification: {query_tags}")
-    
-    # Always use complex multi-table handler
+    # 1) Direct list/unique (default simple path)
+    if _is_list_unique_query(user_input, query_tags):
+        print("🎯 Routing to direct single-shot: DISTINCT list query")
+        return execute_direct_list_query(user_input, query_tags)
+
+    # 2) Direct single-shot: PFOF by venue for broker
+    if _is_direct_pfof_broker_venues_query(user_input, query_tags):
+        print("🎯 Routing to direct single-shot: PFOF by venue for broker")
+        return execute_direct_pfof_by_venue_for_broker(user_input, query_tags)
+
+    # 3) Fallback: complex multi-table handler
     print("🔗 Routing to complex multi-table handler")
     return generate_complex_multi_table_query(user_input, query_tags)
 

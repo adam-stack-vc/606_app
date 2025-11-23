@@ -1,0 +1,57 @@
+{
+  "filename": "row_085_qz_com_extracted",
+  "url": "https://qz.com/1878145/why-robinhood-makes-more-money-from-options-than-stocks",
+  "title": "Robinhood is making far more money from the options boom than from stocks",
+  "date": "7/9/20",
+  "sentiment": "Neutral",
+  "text": "----------------------------------------\nThere are signs that individual investors are powering much of the trading surge, which is good news for retail brokerages. Since they no longer charge trading commissions, one of the main ways companies like Robinhood, E-trade, and Charles Schwab make money is by selling their customer orders to high-frequency trading outfits—also known as market makers—through a controversial process known as payment for order flow. (You can read more about that here and here.)\nOptions trades are much more lucrative for retail brokerages than stock trades are, according to data compiled by Piper Sandler, an investment bank. Take Robinhood: the financial upstart got paid about 0.0024 cents per share for its customers’ stock trades in the first quarter, making the company some $31 million. But it got paid 0.0048 cents for each options contract, raking in $60 million during that period. TD Ameritrade charges an even higher rate—it made $130 million from options in the first three months of the year.\nThink of market makers as sort of like used car sellers, says James Angel, a professor at Georgetown University who specializes in market structure. Their goal is to buy a car from you as cheaply as possible (their bid), hold it on their lot for a while, and then resell it at a higher price (their offer). If that car suddenly becomes more popular, they will make even more money. If for some reason that car becomes less popular, they could take a loss. That’s similar to what happens in financial markets, but stocks are traded much more quickly (nearly the speed of light) and frequently.\nMarket makers can earn more profit from options orders than from stocks (and therefore pay Robinhood and other retail brokerages more money for those orders), Angel says, because the spread between the bid and the offer tends to be wider. That’s in part because there’s less competition. Electric car company Tesla only has one stock that is listed on the Nasdaq exchange, and it’s traded by many types of investors, with a wide range of expertise and sophistication, whose constant trading imparts market information into the price. But there are many options contracts tied to Tesla stock that expire throughout the calendar—and there are far fewer parties analyzing and trading each of those.\nThere are guard rails in place to look out for retail customers. Regulations require that brokerages give their customers the best bid and offer available on an exchange, for example (this rule is known as the national best bid and offer, or NBBO). To reduce the incentive for brokerages to send customer trades to the market maker that pays them the most, rather than the one that gets their customer the best deal, companies like Robinhood get paid the same rate by all the market makers they work with.\nOverall, retail traders appear to be getting a better deal than they have in the past, said Robert Battalio, a finance professor at the University of Notre Dame. But as commissions go away, it’s harder for customers to price compare, and to understand whether they could do better with another brokerage. “Everybody is getting NBBO,” Battalio said. “It’s how much inside of that are you getting. How much price improvement are you getting?”\nBrokerages increased their advertising campaigns slightly this year. Five of the biggest brokerages raised these expenditures by about 1.3% in the first quarter from a year earlier to $183 million, according to research firm Kantar. But the company’s data shows that the big brokers, from Charles Schwab to TD Ameritrade, reduced their spending in April, suggesting that the craze is being fueled by word of mouth, and perhaps by a growing fear of missing out.\n📬 Sign up for the Daily Brief",
+  "text_length": 3764,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.497434",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_085_qz_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "TD Ameritrade",
+    "Georgetown University",
+    "NBBO",
+    "the University of Notre Dame"
+  ],
+  "persons_mentioned": [
+    "Charles Schwab",
+    "Piper Sandler",
+    "James Angel",
+    "Angel",
+    "Robert Battalio",
+    "Brokerages",
+    "Kantar"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "market maker",
+          "retail brokerage"
+        ]
+      },
+      "functions": {
+        "market making": [
+          "market maker"
+        ],
+        "trading": [
+          "retail brokerage"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "market maker",
+        "retail brokerage"
+      ]
+    },
+    "content_length": 3764,
+    "word_count": 624
+  }
+}

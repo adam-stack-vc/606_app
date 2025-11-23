@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>GPC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-30T00:12:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>1.91</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.11</ndoNonmarketableLimitPct>
+      <ndoOtherPct>97.98</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>36.25</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>60.00</nonMarketableLimitPct>
+          <otherPct>36.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3353.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.3957</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>9.73</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>73.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>8.51</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-306.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-45.4714</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-138.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5447</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>8.85</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>10.23</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>8.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-214.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-63.0469</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-248.24</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.8644</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Emerald, LLC</name>
+          <orderPct>8.17</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.40</marketableLimitPct>
+          <nonMarketableLimitPct>8.00</nonMarketableLimitPct>
+          <otherPct>8.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1572.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-22.9768</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>7.50</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>7.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-115.46</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-10.5636</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>6.58</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>329.29</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.8016</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>6.49</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>20.00</nonMarketableLimitPct>
+          <otherPct>6.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>171.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.3947</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>6.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-62.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-11.8254</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>4.92</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>5.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-17.40</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-16.2617</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>1.43</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.02</ndoNonmarketableLimitPct>
+      <ndoOtherPct>98.55</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>33.22</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>100.00</nonMarketableLimitPct>
+          <otherPct>33.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2138.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.6639</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>12.32</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>73.79</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>11.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-121.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-30.9362</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-88.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.8423</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>10.42</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>12.10</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>10.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-80.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-60.4328</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-110.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.3729</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>9.37</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>9.51</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>292.37</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.6342</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>8.49</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>8.61</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>27.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.3963</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Emerald, LLC</name>
+          <orderPct>8.37</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>8.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-538.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-23.5343</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>7.15</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>7.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-70.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.4548</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>3.86</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-23.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-34.1429</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>2.10</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.03</ndoNonmarketableLimitPct>
+      <ndoOtherPct>97.87</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>35.10</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>100.00</nonMarketableLimitPct>
+          <otherPct>35.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2398.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.7367</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>19.78</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>82.78</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>18.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-240.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-64.3035</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-328.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-21.9963</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>8.23</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.43</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>8.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-94.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-69.4853</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-111.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.0315</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Emerald, LLC</name>
+          <orderPct>6.68</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-653.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-24.9161</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>6.42</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-100.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.3900</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>6.21</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>163.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.6687</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>5.50</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>5.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-110.88</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-25.2000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>4.27</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>4.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-8.35</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.4343</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Great Point Capital, LLC (“GPC”) sends options customer orders to Dash Financial Technologies (“Dash”), which provides smart-order routing and access to U.S. options exchanges and alternative trading systems in seeking the most favorable execution terms.
+
+Dash may receive rebates from, or pay access fees to, exchanges in accordance with standard exchange fee schedules. Under GPC’s cost-plus arrangement with Dash, such exchange fees or rebates are passed through at cost, and a flat execution fee is applied by Dash for its services. In certain cases, the net of such fees and rebates may result in a small credit or debit to GPC. These economics are incidental and do not influence routing decisions. GPC does not have any ownership or profit-sharing relationship with Dash or the exchanges listed in this report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

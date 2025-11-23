@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>MLCO.GWIM.NEW</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-11-04T17:53:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>37.04</ndoMarketPct>
+      <ndoMarketableLimitPct>2.31</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>59.07</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.59</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>BofA Securities, Inc.</name>
+          <orderPct>81.88</orderPct>
+          <marketPct>61.39</marketPct>
+          <marketableLimitPct>82.07</marketableLimitPct>
+          <nonMarketableLimitPct>94.27</nonMarketableLimitPct>
+          <otherPct>98.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1844.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1331</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9055.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.8016</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>136272.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.7729</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4043.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.5057</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Merrill Lynch, Pierce, Fenner &amp; Smith Incorporated ("MLPF&amp;S") is a broker-dealer that executes its customer orders in National Market System (“NMS”) securities as agent. MLPF&amp;S routes the bulk of its customer held orders in NMS stocks and NMS securities that are option contracts to its affiliated broker-dealer under common control, BofA Securities, Inc. (“BofAS”), for further order handling, leveraging BofAS’s connectivity and other infrastructure. As further described below, BofAS then may either further route, as agent, MLPF&amp;S customer orders to other venues for execution or, with respect to MLPF&amp;S’s brokerage customer orders in NMS stocks, BofAS may execute such MLPF&amp;S customer orders on a principal basis. BofAS acts as a registered market maker in numerous Nasdaq and other exchange-listed securities and may execute customer orders in such securities on a principal basis. BofAS also may principally commit capital to facilitate customer transactions or serve as the contra-side to customer orders executed internally through one or more alternative trading systems operated by BofAS. BofAS, however, does not transact on a principal basis with respect to any orders executed on behalf of MLPF&amp;S investment advisory customers or with respect to any MLPF&amp;S customer orders in option contracts. BofAS stands to realize 100% of any profits or losses generated when BofAS trades as agent or principal with respect to MLPF&amp;S customer orders. In addition, BofAS may route MLPF&amp;S customer orders to other venues including but not limited to national securities exchanges, multi-lateral trading facilities, other alternative trading systems or external liquidity providers, or broker-dealers. For information about BofAS’s routing of its customer orders in NMS securities and the material aspects of its relationships with its identified trading venues, see BofAS’s quarterly public disclosure, available at http://public.s3.com/rule606/bofas. When BofAS routes orders to certain SEC-registered securities exchanges, BofAS pays fees and receives credits in accordance with that market center’s published fee schedule filed with the SEC, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by a market center to BofAS over a period of time will exceed the charges assessed. Likewise, in some cases, the charges over a period of time will exceed the credits. BofAS passes through to MLPF&amp;S the net credit or net charge attributable to MLPF&amp;S customer orders. Aside from holdings that BofAS may acquire from time to time as part of its ordinary market making, block positioning, client facilitation and related hedging activities, an MLPF&amp;S affiliate under common control may acquire equity stakes in market centers as part of a strategic investment. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Pearl, LLC and MIAX Emerald, LLC. Additionally, BofAS owns and is the broker-dealer operator of Instinct X®, an NMS stock Alternative Trading System in the United States</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>3.31</orderPct>
+          <marketPct>8.91</marketPct>
+          <marketableLimitPct>0.09</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>3.22</orderPct>
+          <marketPct>8.66</marketPct>
+          <marketableLimitPct>0.31</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>2.36</orderPct>
+          <marketPct>6.36</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NEW YORK STOCK EXCHANGE, INC.</name>
+          <orderPct>2.28</orderPct>
+          <marketPct>0.57</marketPct>
+          <marketableLimitPct>8.53</marketableLimitPct>
+          <nonMarketableLimitPct>3.17</nonMarketableLimitPct>
+          <otherPct>0.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-237.71</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.3964</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-866.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.1038</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>579.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.1188</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.81</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.5132</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>1.94</orderPct>
+          <marketPct>5.23</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>1.67</orderPct>
+          <marketPct>0.30</marketPct>
+          <marketableLimitPct>6.30</marketableLimitPct>
+          <nonMarketableLimitPct>2.39</nonMarketableLimitPct>
+          <otherPct>0.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-177.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.1792</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1252.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-12.6386</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1846.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.1672</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.59</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.6458</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>1.66</orderPct>
+          <marketPct>4.48</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>1.25</orderPct>
+          <marketPct>3.38</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Level Markets, LLC</name>
+          <orderPct>0.21</orderPct>
+          <marketPct>0.57</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-221.74</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S may pay SEC transaction fees other trade reporting fees for orders routed to this venue for execution.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>37.29</ndoMarketPct>
+      <ndoMarketableLimitPct>4.39</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>56.52</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.80</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>BofA Securities, Inc.</name>
+          <orderPct>86.02</orderPct>
+          <marketPct>69.30</marketPct>
+          <marketableLimitPct>87.54</marketableLimitPct>
+          <nonMarketableLimitPct>96.51</nonMarketableLimitPct>
+          <otherPct>99.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-10377.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1699</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-190466.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0150</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>605633.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.5333</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7305.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.1600</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Merrill Lynch, Pierce, Fenner &amp; Smith Incorporated ("MLPF&amp;S") is a broker-dealer that executes its customer orders in National Market System (“NMS”) securities as agent. MLPF&amp;S routes the bulk of its customer held orders in NMS stocks and NMS securities that are option contracts to its affiliated broker-dealer under common control, BofA Securities, Inc. (“BofAS”), for further order handling, leveraging BofAS’s connectivity and other infrastructure. As further described below, BofAS then may either further route, as agent, MLPF&amp;S customer orders to other venues for execution or, with respect to MLPF&amp;S’s brokerage customer orders in NMS stocks, BofAS may execute such MLPF&amp;S customer orders on a principal basis. BofAS acts as a registered market maker in numerous Nasdaq and other exchange-listed securities and may execute customer orders in such securities on a principal basis. BofAS also may principally commit capital to facilitate customer transactions or serve as the contra-side to customer orders executed internally through one or more alternative trading systems operated by BofAS. BofAS, however, does not transact on a principal basis with respect to any orders executed on behalf of MLPF&amp;S investment advisory customers or with respect to any MLPF&amp;S customer orders in option contracts. BofAS stands to realize 100% of any profits or losses generated when BofAS trades as agent or principal with respect to MLPF&amp;S customer orders. In addition, BofAS may route MLPF&amp;S customer orders to other venues including but not limited to national securities exchanges, multi-lateral trading facilities, other alternative trading systems or external liquidity providers, or broker-dealers. For information about BofAS’s routing of its customer orders in NMS securities and the material aspects of its relationships with its identified trading venues, see BofAS’s quarterly public disclosure, available at http://public.s3.com/rule606/bofas. When BofAS routes orders to certain SEC-registered securities exchanges, BofAS pays fees and receives credits in accordance with that market center’s published fee schedule filed with the SEC, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by a market center to BofAS over a period of time will exceed the charges assessed. Likewise, in some cases, the charges over a period of time will exceed the credits. BofAS passes through to MLPF&amp;S the net credit or net charge attributable to MLPF&amp;S customer orders. Aside from holdings that BofAS may acquire from time to time as part of its ordinary market making, block positioning, client facilitation and related hedging activities, an MLPF&amp;S affiliate under common control may acquire equity stakes in market centers as part of a strategic investment. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Pearl, LLC and MIAX Emerald, LLC. Additionally, BofAS owns and is the broker-dealer operator of Instinct X®, an NMS stock Alternative Trading System in the United States</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>2.69</orderPct>
+          <marketPct>7.18</marketPct>
+          <marketableLimitPct>0.11</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>2.61</orderPct>
+          <marketPct>6.96</marketPct>
+          <marketableLimitPct>0.32</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>1.89</orderPct>
+          <marketPct>5.06</marketPct>
+          <marketableLimitPct>0.07</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>1.56</orderPct>
+          <marketPct>4.16</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>1.34</orderPct>
+          <marketPct>3.57</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>1.00</orderPct>
+          <marketPct>2.69</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>0.83</orderPct>
+          <marketPct>0.20</marketPct>
+          <marketableLimitPct>3.59</marketableLimitPct>
+          <nonMarketableLimitPct>1.06</nonMarketableLimitPct>
+          <otherPct>0.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1911.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-15.1035</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7192.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-17.6383</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1913.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.0947</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.1461</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>0.76</orderPct>
+          <marketPct>0.16</marketPct>
+          <marketableLimitPct>2.73</marketableLimitPct>
+          <nonMarketableLimitPct>1.03</nonMarketableLimitPct>
+          <otherPct>0.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-266.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.7400</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8558.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.9849</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6687.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.4208</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.1908</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NEW YORK STOCK EXCHANGE, INC.</name>
+          <orderPct>0.72</orderPct>
+          <marketPct>0.14</marketPct>
+          <marketableLimitPct>1.98</marketableLimitPct>
+          <nonMarketableLimitPct>1.03</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-350.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.2502</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3662.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-13.7247</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3291.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.3285</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.2563</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>5.09</ndoMarketPct>
+      <ndoMarketableLimitPct>23.94</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>61.79</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.19</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>37.26</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.87</marketableLimitPct>
+          <nonMarketableLimitPct>54.73</nonMarketableLimitPct>
+          <otherPct>6.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>68481.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.7776</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>673978.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.7624</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1007.37</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing during this quarter. In Q3 2025, BofAS qualified for an additional $0.25 customer posting rebate in Penny Interval Program symbols, and an additional $0.25 customer posting rebate in non-Penny Interval Program symbols.  For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>11.90</orderPct>
+          <marketPct>0.03</marketPct>
+          <marketableLimitPct>2.07</marketableLimitPct>
+          <nonMarketableLimitPct>17.32</nonMarketableLimitPct>
+          <otherPct>7.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>30.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>27.8829</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5410.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.7356</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>21743.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.3146</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-716.46</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.1760</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/phlx/rules. information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>7.24</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.61</marketableLimitPct>
+          <nonMarketableLimitPct>11.09</nonMarketableLimitPct>
+          <otherPct>0.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9373.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-13.6073</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>210515.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>68.9874</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing benefits during this quarter. In Q3 2025, BofAS qualified for an additional $0.30 customer posting rebate in Penny Interval Program symbols and an additional $0.30 customer posting rebate in non-Penny Interval Program symbols. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>5.38</orderPct>
+          <marketPct>39.56</marketPct>
+          <marketableLimitPct>11.11</marketableLimitPct>
+          <nonMarketableLimitPct>1.15</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>5.38</orderPct>
+          <marketPct>36.21</marketPct>
+          <marketableLimitPct>12.46</marketableLimitPct>
+          <nonMarketableLimitPct>0.89</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>5.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.14</marketableLimitPct>
+          <nonMarketableLimitPct>3.50</nonMarketableLimitPct>
+          <otherPct>22.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-7.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-69.6364</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3969.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.5409</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>18049.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.9474</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13460.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>3.1797</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/cone/.
+Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>4.81</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>18.51</marketableLimitPct>
+          <nonMarketableLimitPct>0.58</nonMarketableLimitPct>
+          <otherPct>0.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>196758.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>41.5178</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>894.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.0423</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-288.99</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.miaxglobal.com/markets/us-options/sapphire-options/fees. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Sapphire. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>3.58</orderPct>
+          <marketPct>24.19</marketPct>
+          <marketableLimitPct>2.52</marketableLimitPct>
+          <nonMarketableLimitPct>1.51</nonMarketableLimitPct>
+          <otherPct>8.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>328.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.2963</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>14270.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0529</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>29403.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.3740</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20577.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.4676</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Orders routed to this market center for execution may be executed by such center or may be further routed by Dash to other venues (such as exchanges or other market centers) for execution.  For MLPF&amp;S’s customer orders routed to exchanges, Dash pays fees or receives credits in accordance with the published fee schedules of the relevant exchanges, may receive incremental pricing benefits in accordance with such published fee schedules, and may participate in fee programs sponsored by the relevant exchanges.  In some cases, the credits or rebates offered by relevant exchanges to Dash over a period of time may exceed the charges assessed and, in such cases, Dash passes through to BofAS the net credit or net charge attributable to MLPF&amp;S customer orders, which BofAS in turn passes through to MLPF&amp;S.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>2.68</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.85</marketableLimitPct>
+          <nonMarketableLimitPct>1.47</nonMarketableLimitPct>
+          <otherPct>6.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2394.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.1776</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-360.61</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.1602</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-3143.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://boxoptions.com/fee-schedule/. Information reflecting BOX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>2.16</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.90</marketableLimitPct>
+          <nonMarketableLimitPct>0.74</nonMarketableLimitPct>
+          <otherPct>8.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>29664.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.1280</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>233.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.5413</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1653.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.1398</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/edgx/. 
+Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>44.20</ndoMarketPct>
+      <ndoMarketableLimitPct>1.98</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>52.45</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.37</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>BofA Securities, Inc.</name>
+          <orderPct>73.92</orderPct>
+          <marketPct>48.33</marketPct>
+          <marketableLimitPct>81.35</marketableLimitPct>
+          <nonMarketableLimitPct>94.56</nonMarketableLimitPct>
+          <otherPct>98.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2658.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1918</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9017.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.8520</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>127486.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.6847</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2867.73</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.0857</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Merrill Lynch, Pierce, Fenner &amp; Smith Incorporated ("MLPF&amp;S") is a broker-dealer that executes its customer orders in National Market System (“NMS”) securities as agent. MLPF&amp;S routes the bulk of its customer held orders in NMS stocks and NMS securities that are option contracts to its affiliated broker-dealer under common control, BofA Securities, Inc. (“BofAS”), for further order handling, leveraging BofAS’s connectivity and other infrastructure. As further described below, BofAS then may either further route, as agent, MLPF&amp;S customer orders to other venues for execution or, with respect to MLPF&amp;S’s brokerage customer orders in NMS stocks, BofAS may execute such MLPF&amp;S customer orders on a principal basis. BofAS acts as a registered market maker in numerous Nasdaq and other exchange-listed securities and may execute customer orders in such securities on a principal basis. BofAS also may principally commit capital to facilitate customer transactions or serve as the contra-side to customer orders executed internally through one or more alternative trading systems operated by BofAS. BofAS, however, does not transact on a principal basis with respect to any orders executed on behalf of MLPF&amp;S investment advisory customers or with respect to any MLPF&amp;S customer orders in option contracts. BofAS stands to realize 100% of any profits or losses generated when BofAS trades as agent or principal with respect to MLPF&amp;S customer orders. In addition, BofAS may route MLPF&amp;S customer orders to other venues including but not limited to national securities exchanges, multi-lateral trading facilities, other alternative trading systems or external liquidity providers, or broker-dealers. For information about BofAS’s routing of its customer orders in NMS securities and the material aspects of its relationships with its identified trading venues, see BofAS’s quarterly public disclosure, available at http://public.s3.com/rule606/bofas. When BofAS routes orders to certain SEC-registered securities exchanges, BofAS pays fees and receives credits in accordance with that market center’s published fee schedule filed with the SEC, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by a market center to BofAS over a period of time will exceed the charges assessed. Likewise, in some cases, the charges over a period of time will exceed the credits. BofAS passes through to MLPF&amp;S the net credit or net charge attributable to MLPF&amp;S customer orders. Aside from holdings that BofAS may acquire from time to time as part of its ordinary market making, block positioning, client facilitation and related hedging activities, an MLPF&amp;S affiliate under common control may acquire equity stakes in market centers as part of a strategic investment. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Pearl, LLC and MIAX Emerald, LLC. Additionally, BofAS owns and is the broker-dealer operator of Instinct X®, an NMS stock Alternative Trading System in the United States</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Level Markets, LLC</name>
+          <orderPct>13.16</orderPct>
+          <marketPct>29.76</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-14352.27</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S may pay SEC transaction fees other trade reporting fees for orders routed to this venue for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>2.25</orderPct>
+          <marketPct>5.08</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>2.20</orderPct>
+          <marketPct>4.94</marketPct>
+          <marketableLimitPct>0.43</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NEW YORK STOCK EXCHANGE, INC.</name>
+          <orderPct>1.95</orderPct>
+          <marketPct>0.45</marketPct>
+          <marketableLimitPct>8.94</marketableLimitPct>
+          <nonMarketableLimitPct>3.00</nonMarketableLimitPct>
+          <otherPct>0.09</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-205.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.6667</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-624.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.8611</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>512.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.5410</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-4.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.5273</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>1.61</orderPct>
+          <marketPct>3.63</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>1.44</orderPct>
+          <marketPct>0.25</marketPct>
+          <marketableLimitPct>6.64</marketableLimitPct>
+          <nonMarketableLimitPct>2.29</nonMarketableLimitPct>
+          <otherPct>0.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-138.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.7710</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1045.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-12.8142</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1703.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.3484</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-3.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1.7135</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>1.32</orderPct>
+          <marketPct>2.98</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>1.13</orderPct>
+          <marketPct>2.55</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>0.84</orderPct>
+          <marketPct>1.91</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>42.75</ndoMarketPct>
+      <ndoMarketableLimitPct>3.92</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.62</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.71</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>BofA Securities, Inc.</name>
+          <orderPct>79.51</orderPct>
+          <marketPct>57.44</marketPct>
+          <marketableLimitPct>87.27</marketableLimitPct>
+          <nonMarketableLimitPct>96.53</nonMarketableLimitPct>
+          <otherPct>99.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-10791.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1860</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-185432.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0396</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>559667.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.5708</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>9052.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.5942</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Merrill Lynch, Pierce, Fenner &amp; Smith Incorporated ("MLPF&amp;S") is a broker-dealer that executes its customer orders in National Market System (“NMS”) securities as agent. MLPF&amp;S routes the bulk of its customer held orders in NMS stocks and NMS securities that are option contracts to its affiliated broker-dealer under common control, BofA Securities, Inc. (“BofAS”), for further order handling, leveraging BofAS’s connectivity and other infrastructure. As further described below, BofAS then may either further route, as agent, MLPF&amp;S customer orders to other venues for execution or, with respect to MLPF&amp;S’s brokerage customer orders in NMS stocks, BofAS may execute such MLPF&amp;S customer orders on a principal basis. BofAS acts as a registered market maker in numerous Nasdaq and other exchange-listed securities and may execute customer orders in such securities on a principal basis. BofAS also may principally commit capital to facilitate customer transactions or serve as the contra-side to customer orders executed internally through one or more alternative trading systems operated by BofAS. BofAS, however, does not transact on a principal basis with respect to any orders executed on behalf of MLPF&amp;S investment advisory customers or with respect to any MLPF&amp;S customer orders in option contracts. BofAS stands to realize 100% of any profits or losses generated when BofAS trades as agent or principal with respect to MLPF&amp;S customer orders. In addition, BofAS may route MLPF&amp;S customer orders to other venues including but not limited to national securities exchanges, multi-lateral trading facilities, other alternative trading systems or external liquidity providers, or broker-dealers. For information about BofAS’s routing of its customer orders in NMS securities and the material aspects of its relationships with its identified trading venues, see BofAS’s quarterly public disclosure, available at http://public.s3.com/rule606/bofas. When BofAS routes orders to certain SEC-registered securities exchanges, BofAS pays fees and receives credits in accordance with that market center’s published fee schedule filed with the SEC, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by a market center to BofAS over a period of time will exceed the charges assessed. Likewise, in some cases, the charges over a period of time will exceed the credits. BofAS passes through to MLPF&amp;S the net credit or net charge attributable to MLPF&amp;S customer orders. Aside from holdings that BofAS may acquire from time to time as part of its ordinary market making, block positioning, client facilitation and related hedging activities, an MLPF&amp;S affiliate under common control may acquire equity stakes in market centers as part of a strategic investment. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Pearl, LLC and MIAX Emerald, LLC. Additionally, BofAS owns and is the broker-dealer operator of Instinct X®, an NMS stock Alternative Trading System in the United States</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Level Markets, LLC</name>
+          <orderPct>10.16</orderPct>
+          <marketPct>23.76</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-19640.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2.18</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. “MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S may pay SEC transaction fees other trade reporting fees for orders routed to this venue for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>1.89</orderPct>
+          <marketPct>4.41</marketPct>
+          <marketableLimitPct>0.09</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>1.84</orderPct>
+          <marketPct>4.27</marketPct>
+          <marketableLimitPct>0.32</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>1.33</orderPct>
+          <marketPct>3.11</marketPct>
+          <marketableLimitPct>0.07</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>1.10</orderPct>
+          <marketPct>2.57</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>0.94</orderPct>
+          <marketPct>2.20</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>0.74</orderPct>
+          <marketPct>0.15</marketPct>
+          <marketableLimitPct>3.53</marketableLimitPct>
+          <nonMarketableLimitPct>1.04</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1803.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-15.0209</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6651.41</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.0163</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1683.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.4108</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-6.5445</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>0.71</orderPct>
+          <marketPct>0.12</marketPct>
+          <marketableLimitPct>2.84</marketableLimitPct>
+          <nonMarketableLimitPct>1.06</nonMarketableLimitPct>
+          <otherPct>0.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-236.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.7737</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8840.97</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-20.8443</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6357.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.2601</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.5508</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>0.71</orderPct>
+          <marketPct>1.65</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>5.71</ndoMarketPct>
+      <ndoMarketableLimitPct>24.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>60.46</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.83</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>39.36</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>10.29</marketableLimitPct>
+          <nonMarketableLimitPct>59.90</nonMarketableLimitPct>
+          <otherPct>6.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>73994.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>38.4257</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>683129.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.9035</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-3366.40</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing during this quarter. In Q3 2025, BofAS qualified for an additional $0.25 customer posting rebate in Penny Interval Program symbols, and an additional $0.25 customer posting rebate in non-Penny Interval Program symbols.  For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>10.57</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>1.88</marketableLimitPct>
+          <nonMarketableLimitPct>15.54</nonMarketableLimitPct>
+          <otherPct>7.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5592.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>18.3688</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>18020.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.3259</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-312.18</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.5222</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/phlx/rules. information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>7.21</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.45</marketableLimitPct>
+          <nonMarketableLimitPct>11.36</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-10006.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-14.5403</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>212461.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>68.6796</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing benefits during this quarter. In Q3 2025, BofAS qualified for an additional $0.30 customer posting rebate in Penny Interval Program symbols and an additional $0.30 customer posting rebate in non-Penny Interval Program symbols. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>6.02</orderPct>
+          <marketPct>39.49</marketPct>
+          <marketableLimitPct>12.43</marketableLimitPct>
+          <nonMarketableLimitPct>1.29</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>5.97</orderPct>
+          <marketPct>36.08</marketPct>
+          <marketableLimitPct>13.94</marketableLimitPct>
+          <nonMarketableLimitPct>0.94</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>4.99</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.12</marketableLimitPct>
+          <nonMarketableLimitPct>3.49</nonMarketableLimitPct>
+          <otherPct>21.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-5.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-43.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-4315.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.1443</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>20813.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.8545</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11703.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.6265</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/cone/.
+Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>4.86</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>19.26</marketableLimitPct>
+          <nonMarketableLimitPct>0.38</nonMarketableLimitPct>
+          <otherPct>0.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>210174.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.6314</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>407.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.1507</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-288.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.miaxglobal.com/markets/us-options/sapphire-options/fees. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Sapphire. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>3.90</orderPct>
+          <marketPct>24.41</marketPct>
+          <marketableLimitPct>2.74</marketableLimitPct>
+          <nonMarketableLimitPct>1.63</nonMarketableLimitPct>
+          <otherPct>8.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>298.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.2743</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>16590.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.4380</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>29092.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.2924</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>19605.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>28.0135</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Orders routed to this market center for execution may be executed by such center or may be further routed by Dash to other venues (such as exchanges or other market centers) for execution.  For MLPF&amp;S’s customer orders routed to exchanges, Dash pays fees or receives credits in accordance with the published fee schedules of the relevant exchanges, may receive incremental pricing benefits in accordance with such published fee schedules, and may participate in fee programs sponsored by the relevant exchanges.  In some cases, the credits or rebates offered by relevant exchanges to Dash over a period of time may exceed the charges assessed and, in such cases, Dash passes through to BofAS the net credit or net charge attributable to MLPF&amp;S customer orders, which BofAS in turn passes through to MLPF&amp;S.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>2.03</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.26</marketableLimitPct>
+          <nonMarketableLimitPct>0.30</nonMarketableLimitPct>
+          <otherPct>8.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>35586.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.5355</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>265.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.4397</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-367.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1.8466</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/edgx/. 
+Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>1.93</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.77</nonMarketableLimitPct>
+          <otherPct>9.96</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-16658.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-28.5266</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12210.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.4581</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-806.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.2927</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/ise/rules.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>42.89</ndoMarketPct>
+      <ndoMarketableLimitPct>2.07</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.69</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.36</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>BofA Securities, Inc.</name>
+          <orderPct>75.34</orderPct>
+          <marketPct>50.03</marketPct>
+          <marketableLimitPct>83.72</marketableLimitPct>
+          <nonMarketableLimitPct>94.66</nonMarketableLimitPct>
+          <otherPct>98.63</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2495.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1795</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8170.97</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.4147</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>141191.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.0771</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3789.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.4471</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Merrill Lynch, Pierce, Fenner &amp; Smith Incorporated ("MLPF&amp;S") is a broker-dealer that executes its customer orders in National Market System (“NMS”) securities as agent. MLPF&amp;S routes the bulk of its customer held orders in NMS stocks and NMS securities that are option contracts to its affiliated broker-dealer under common control, BofA Securities, Inc. (“BofAS”), for further order handling, leveraging BofAS’s connectivity and other infrastructure. As further described below, BofAS then may either further route, as agent, MLPF&amp;S customer orders to other venues for execution or, with respect to MLPF&amp;S’s brokerage customer orders in NMS stocks, BofAS may execute such MLPF&amp;S customer orders on a principal basis. BofAS acts as a registered market maker in numerous Nasdaq and other exchange-listed securities and may execute customer orders in such securities on a principal basis. BofAS also may principally commit capital to facilitate customer transactions or serve as the contra-side to customer orders executed internally through one or more alternative trading systems operated by BofAS. BofAS, however, does not transact on a principal basis with respect to any orders executed on behalf of MLPF&amp;S investment advisory customers or with respect to any MLPF&amp;S customer orders in option contracts. BofAS stands to realize 100% of any profits or losses generated when BofAS trades as agent or principal with respect to MLPF&amp;S customer orders. In addition, BofAS may route MLPF&amp;S customer orders to other venues including but not limited to national securities exchanges, multi-lateral trading facilities, other alternative trading systems or external liquidity providers, or broker-dealers. For information about BofAS’s routing of its customer orders in NMS securities and the material aspects of its relationships with its identified trading venues, see BofAS’s quarterly public disclosure, available at http://public.s3.com/rule606/bofas. When BofAS routes orders to certain SEC-registered securities exchanges, BofAS pays fees and receives credits in accordance with that market center’s published fee schedule filed with the SEC, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by a market center to BofAS over a period of time will exceed the charges assessed. Likewise, in some cases, the charges over a period of time will exceed the credits. BofAS passes through to MLPF&amp;S the net credit or net charge attributable to MLPF&amp;S customer orders. Aside from holdings that BofAS may acquire from time to time as part of its ordinary market making, block positioning, client facilitation and related hedging activities, an MLPF&amp;S affiliate under common control may acquire equity stakes in market centers as part of a strategic investment. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Pearl, LLC and MIAX Emerald, LLC. Additionally, BofAS owns and is the broker-dealer operator of Instinct X®, an NMS stock Alternative Trading System in the United States</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Level Markets, LLC</name>
+          <orderPct>12.60</orderPct>
+          <marketPct>29.37</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-20127.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S may pay SEC transaction fees other trade reporting fees for orders routed to this venue for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>2.06</orderPct>
+          <marketPct>4.78</marketPct>
+          <marketableLimitPct>0.07</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>2.02</orderPct>
+          <marketPct>4.68</marketPct>
+          <marketableLimitPct>0.25</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NEW YORK STOCK EXCHANGE, INC.</name>
+          <orderPct>1.93</orderPct>
+          <marketPct>0.42</marketPct>
+          <marketableLimitPct>8.06</marketableLimitPct>
+          <nonMarketableLimitPct>2.94</nonMarketableLimitPct>
+          <otherPct>0.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-146.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-1.7602</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-613.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.3780</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>719.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.8362</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>3.6904</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>1.45</orderPct>
+          <marketPct>3.38</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>1.43</orderPct>
+          <marketPct>0.24</marketPct>
+          <marketableLimitPct>5.78</marketableLimitPct>
+          <nonMarketableLimitPct>2.25</nonMarketableLimitPct>
+          <otherPct>0.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-89.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-1.9356</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-672.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.9234</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1316.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.6436</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.22</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.5677</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>1.20</orderPct>
+          <marketPct>2.79</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>1.03</orderPct>
+          <marketPct>2.39</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>0.78</orderPct>
+          <marketPct>1.82</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>42.87</ndoMarketPct>
+      <ndoMarketableLimitPct>4.02</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.34</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.77</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>BofA Securities, Inc.</name>
+          <orderPct>80.20</orderPct>
+          <marketPct>59.16</marketPct>
+          <marketableLimitPct>88.76</marketableLimitPct>
+          <nonMarketableLimitPct>96.44</nonMarketableLimitPct>
+          <otherPct>99.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-11746.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1765</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-180756.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.4363</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>664664.93</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.5783</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>12766.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.7771</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Merrill Lynch, Pierce, Fenner &amp; Smith Incorporated ("MLPF&amp;S") is a broker-dealer that executes its customer orders in National Market System (“NMS”) securities as agent. MLPF&amp;S routes the bulk of its customer held orders in NMS stocks and NMS securities that are option contracts to its affiliated broker-dealer under common control, BofA Securities, Inc. (“BofAS”), for further order handling, leveraging BofAS’s connectivity and other infrastructure. As further described below, BofAS then may either further route, as agent, MLPF&amp;S customer orders to other venues for execution or, with respect to MLPF&amp;S’s brokerage customer orders in NMS stocks, BofAS may execute such MLPF&amp;S customer orders on a principal basis. BofAS acts as a registered market maker in numerous Nasdaq and other exchange-listed securities and may execute customer orders in such securities on a principal basis. BofAS also may principally commit capital to facilitate customer transactions or serve as the contra-side to customer orders executed internally through one or more alternative trading systems operated by BofAS. BofAS, however, does not transact on a principal basis with respect to any orders executed on behalf of MLPF&amp;S investment advisory customers or with respect to any MLPF&amp;S customer orders in option contracts. BofAS stands to realize 100% of any profits or losses generated when BofAS trades as agent or principal with respect to MLPF&amp;S customer orders. In addition, BofAS may route MLPF&amp;S customer orders to other venues including but not limited to national securities exchanges, multi-lateral trading facilities, other alternative trading systems or external liquidity providers, or broker-dealers. For information about BofAS’s routing of its customer orders in NMS securities and the material aspects of its relationships with its identified trading venues, see BofAS’s quarterly public disclosure, available at http://public.s3.com/rule606/bofas. When BofAS routes orders to certain SEC-registered securities exchanges, BofAS pays fees and receives credits in accordance with that market center’s published fee schedule filed with the SEC, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by a market center to BofAS over a period of time will exceed the charges assessed. Likewise, in some cases, the charges over a period of time will exceed the credits. BofAS passes through to MLPF&amp;S the net credit or net charge attributable to MLPF&amp;S customer orders. Aside from holdings that BofAS may acquire from time to time as part of its ordinary market making, block positioning, client facilitation and related hedging activities, an MLPF&amp;S affiliate under common control may acquire equity stakes in market centers as part of a strategic investment. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Pearl, LLC and MIAX Emerald, LLC. Additionally, BofAS owns and is the broker-dealer operator of Instinct X®, an NMS stock Alternative Trading System in the United States</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Level Markets, LLC</name>
+          <orderPct>9.67</orderPct>
+          <marketPct>22.54</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-22155.69</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2.87</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. “MLPF&amp;S did not receive any payment for order flow or have any profit-sharing arrangement with this venue during the calendar quarter. MLPF&amp;S may pay SEC transaction fees other trade reporting fees for orders routed to this venue for execution.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>1.85</orderPct>
+          <marketPct>4.28</marketPct>
+          <marketableLimitPct>0.10</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>1.82</orderPct>
+          <marketPct>4.20</marketPct>
+          <marketableLimitPct>0.32</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>1.30</orderPct>
+          <marketPct>3.02</marketPct>
+          <marketableLimitPct>0.07</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>1.07</orderPct>
+          <marketPct>2.49</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>0.92</orderPct>
+          <marketPct>2.13</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>0.72</orderPct>
+          <marketPct>0.14</marketPct>
+          <marketableLimitPct>3.05</marketableLimitPct>
+          <nonMarketableLimitPct>1.06</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1637.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-15.0827</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6432.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.0757</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1908.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.9660</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.3159</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>0.72</orderPct>
+          <marketPct>0.11</marketPct>
+          <marketableLimitPct>2.52</marketableLimitPct>
+          <nonMarketableLimitPct>1.11</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-610.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.9663</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8331.37</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.6893</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8121.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.7925</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-10.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.1442</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>0.69</orderPct>
+          <marketPct>1.60</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>5.80</ndoMarketPct>
+      <ndoMarketableLimitPct>23.90</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>58.95</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.35</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>38.67</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>10.05</marketableLimitPct>
+          <nonMarketableLimitPct>60.09</nonMarketableLimitPct>
+          <otherPct>7.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>61639.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>31.4440</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>612900.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>45.2416</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-9487.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing during this quarter. In Q3 2025, BofAS qualified for an additional $0.25 customer posting rebate in Penny Interval Program symbols, and an additional $0.25 customer posting rebate in non-Penny Interval Program symbols.  For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>9.89</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>2.12</marketableLimitPct>
+          <nonMarketableLimitPct>14.40</nonMarketableLimitPct>
+          <otherPct>7.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.6667</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5500.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.2741</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>20340.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.6906</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-959.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.5049</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/phlx/rules. information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>7.03</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.49</marketableLimitPct>
+          <nonMarketableLimitPct>11.32</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-16969.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-21.1594</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>225375.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>67.3628</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing benefits during this quarter. In Q3 2025, BofAS qualified for an additional $0.30 customer posting rebate in Penny Interval Program symbols and an additional $0.30 customer posting rebate in non-Penny Interval Program symbols. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>6.19</orderPct>
+          <marketPct>39.75</marketPct>
+          <marketableLimitPct>12.93</marketableLimitPct>
+          <nonMarketableLimitPct>1.35</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>6.03</orderPct>
+          <marketPct>36.32</marketPct>
+          <marketableLimitPct>14.11</marketableLimitPct>
+          <nonMarketableLimitPct>0.94</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>MLPF&amp;S did not receive any payment for order flow from or have any profit-sharing arrangement with this venue during the calendar quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>5.14</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.46</marketableLimitPct>
+          <nonMarketableLimitPct>3.53</nonMarketableLimitPct>
+          <otherPct>19.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-7.42</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-46.3750</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2778.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.8029</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>24099.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.5908</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13397.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.9310</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/cone/.
+Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>4.84</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>19.26</marketableLimitPct>
+          <nonMarketableLimitPct>0.38</nonMarketableLimitPct>
+          <otherPct>0.07</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>234228.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.0184</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>905.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.7814</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-354.78</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.miaxglobal.com/markets/us-options/sapphire-options/fees. BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Sapphire. Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>3.81</orderPct>
+          <marketPct>23.91</marketPct>
+          <marketableLimitPct>2.72</marketableLimitPct>
+          <nonMarketableLimitPct>1.60</nonMarketableLimitPct>
+          <otherPct>7.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>429.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.3467</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>18009.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.1835</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>32810.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.4969</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20704.23</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.3815</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Orders routed to this market center for execution may be executed by such center or may be further routed by Dash to other venues (such as exchanges or other market centers) for execution.  For MLPF&amp;S’s customer orders routed to exchanges, Dash pays fees or receives credits in accordance with the published fee schedules of the relevant exchanges, may receive incremental pricing benefits in accordance with such published fee schedules, and may participate in fee programs sponsored by the relevant exchanges.  In some cases, the credits or rebates offered by relevant exchanges to Dash over a period of time may exceed the charges assessed and, in such cases, Dash passes through to BofAS the net credit or net charge attributable to MLPF&amp;S customer orders, which BofAS in turn passes through to MLPF&amp;S.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>2.36</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.58</marketableLimitPct>
+          <nonMarketableLimitPct>0.46</nonMarketableLimitPct>
+          <otherPct>8.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>36579.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.8990</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>418.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>6.1006</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-516.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1.9667</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/edgx/. 
+Information reflecting the fee schedule for Q3 2025, as applicable to BofAS, can be found in the BofAS Tiered Rate Card 2025Q3 that accompanies its quarterly report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>2.06</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.97</marketableLimitPct>
+          <nonMarketableLimitPct>0.78</nonMarketableLimitPct>
+          <otherPct>9.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-17515.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-29.3912</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11790.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>55.4382</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2086.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.7000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofAS pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS  did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/ise/rules.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

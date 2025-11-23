@@ -1,0 +1,102 @@
+{
+  "type": "object",
+  "properties": {
+    "filename": {
+      "type": "string",
+      "description": "The name of the file being analyzed"
+    },
+    "sec_topic": {
+      "type": "string",
+      "description": "The topic of the document"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The author of the document"
+    },
+    "company": {
+      "type": "object",
+      "properties": {
+        "company": {
+          "type": "string",
+          "description": "The company or organization"
+        },
+        "company_type": {
+          "type": "string",
+          "enum": ["institutional broker", "asset manager", "market maker","exchange", "dark pool", "retail broker", "individual investor","industry association","law firm","other"],
+          "description": "the kind of financial services company the company is"
+        }
+      },
+      "required": ["company", "company_type"],
+      "additionalProperties": false
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])-(\\d{2})$",
+      "description": "Date in mm-dd-yy format"
+    },
+    "rule_ids": {
+      "type": "object",
+      "properties": {
+        "rule_id": {
+          "type": "number",
+          "description": "Rule number"
+        },
+        "section": {
+          "type": "string",
+          "description": "Name of the rule"
+        },
+        "rule_sentiment ": {
+          "type": "string",
+          "enum": ["positive", "negative", "mixed","ambiguous"],
+          "description": "Sentiment of the rule by author"
+        },
+        "sentiment_quote_1": {
+          "type": "string",
+          "description": "strongest statement from the letter about the rule"
+        },
+        "sentiment_quote_2": {
+          "type": "string",
+          "description": "second strongest statement from the letter about the rule"
+        },
+        "sentiment_quote_3": {
+          "type": "string",
+          "description": "third strongest statement from the letter about the rule"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Name of the components of the rule mentioned in the letter"
+          }
+        }
+      },
+      "required": ["rule_id", "section", "rule_sentiment", "sentiment_quote_1", "sentiment_quote_2", "sentiment_quote_3", "components"],
+      "additionalProperties": false
+    },
+    "companies_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of company names mentioned"
+    },
+    "text": {
+      "type": "string",
+      "description": "The text of the letter"
+    }
+  },
+  "required": [
+    "filename",
+    "sec_topic",
+    "authors",
+    "company",
+    "date",
+    "rule_ids",
+    "companies_mentioned",
+    "text"
+  ],
+  "additionalProperties": false
+}

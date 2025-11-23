@@ -1,0 +1,63 @@
+EDGE CASES AND ISSUES TO ADDRESS
+=================================
+
+1. How to respond when question uses the word "orders" instead of "shares"
+   - Users may ask "how many orders" when they mean "how much volume" or "how many shares"
+   - The database doesn't track order counts directly, only percentages and payment amounts
+   - Need to clarify: orderpct vs actual order counts vs share volume
+   - Possible solution: Add guidance in prompt to clarify with user or estimate from cph/usd ratio
+
+2. Venue and Broker Categorization
+   - Need to categorize venues by type: Market Makers, Exchanges, ATSs (Alternative Trading Systems)
+   - Need to categorize brokers: Retail, Institutional, Clearing Firms
+   - RECOMMENDATION: Create separate files for this
+     * Reason 1: Different purpose - aliases are for name resolution, categories are for grouping/analysis
+     * Reason 2: Keeps files focused on single responsibility
+     * Reason 3: Categories may evolve independently from aliases
+   
+   Suggested structure (TWO SEPARATE FILES):
+   
+   File 1: venue_categories.json
+   {
+     "market_makers": ["Citadel Securities, LLC", "Virtu Americas, LLC", "Two Sigma Securities, LLC", ...],
+     "exchanges": ["NYSE Arca, Inc.", "The Nasdaq Stock Market", "Cboe EDGX Exchange, Inc.", ...],
+     "ats": ["UBS Securities, LLC ATS", "Virtu POSIT ATS", ...]
+   }
+   
+   File 2: broker_categories.json
+   {
+     "retail": ["Robinhood Securities, LLC", "Webull Financial LLC", "Charles Schwab", ...],
+     "institutional": ["UBS Securities, LLC", "Citigroup Global Markets Inc.", ...],
+     "clearing": ["APEX Clearing", "Pershing LLC", ...]
+   }
+   
+   Why separate files?
+   - Different category types (venue types vs broker business models)
+   - Different use cases and query patterns
+   - Easier to maintain and update independently
+   - Clearer code organization
+   
+   Example queries this would enable:
+   - "How much PFOF did retail brokers receive from market makers?"
+   - "Compare PFOF from exchanges vs market makers"
+   - "Which market maker paid the most PFOF in 2024?"
+   
+   STATUS: IMPLEMENTED
+   - Created venue_categories.json with:
+     * exchanges (35 venues)
+     * global_investment_banks (15 venues)
+     * wholesalers (18 venues)
+     * market_makers (18 venues)
+     * ats (10 venues)
+   - Created broker_categories.json with:
+     * retail (7 brokers: Schwab, Robinhood, Webull, Public, TD Ameritrade, WLTH)
+     * institutional (pending)
+     * clearing (pending)
+   
+   NEXT STEPS:
+   - Categorize institutional brokers (UBS, Citi, etc.)
+   - Categorize clearing firms (APEX, Pershing, etc.)
+   - Integrate categories into query.py for query resolution
+   - Update prompt.txt to recognize category-based queries
+
+

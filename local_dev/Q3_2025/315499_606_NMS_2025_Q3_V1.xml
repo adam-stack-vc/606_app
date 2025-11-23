@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20190331.xsd">
+  <version>1.3</version>
+  <bd>GTN Americas</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-16T20:05:03Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon> 7</mon>
+    <rSP500>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             56.5380</ndoMarketPct>
+      <ndoMarketableLimitPct>              5.4574</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             22.8266</ndoNonmarketableLimitPct>
+      <ndoOtherPct>             15.1780</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>JNST</name>
+          <orderPct>             47.7306</orderPct>
+          <marketPct>             44.3515</marketPct>
+          <marketableLimitPct>             29.5226</marketableLimitPct>
+          <nonMarketableLimitPct>             26.8817</nonMarketableLimitPct>
+          <otherPct>             98.2203</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1256.3440</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>            963.3801</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           2209.8420</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             77.5380</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Jane Street Capital, LLC. ("Jane Street") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             28.0921</orderPct>
+          <marketPct>             25.9895</marketPct>
+          <marketableLimitPct>             24.5477</marketableLimitPct>
+          <nonMarketableLimitPct>             51.8292</nonMarketableLimitPct>
+          <otherPct>              1.4997</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1135.1920</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           1199.9117</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             19.2268</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           3022.9380</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             18.0477</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             39.3000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities, LLC. ("Citadel") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable limit and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. For orders filled between 4:00 and 7:00 am ET, the Firm paid a fixed cost between $0.00005 and $0.0004 and received a $0.0034 rebate for non-marketable limit orders if the price is equal to or over $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SOHO</name>
+          <orderPct>             24.1773</orderPct>
+          <marketPct>             29.6590</marketPct>
+          <marketableLimitPct>             45.9296</marketableLimitPct>
+          <nonMarketableLimitPct>             21.2891</nonMarketableLimitPct>
+          <otherPct>              0.2801</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>            966.3160</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           1142.0880</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           2102.1560</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             25.2960</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Two Sigma Securities, LLC. ("Two Sigma") and all other brokers for equity directing NMS order flow that result in executions. For market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. The Firm does not receive payment for On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             45.0693</ndoMarketPct>
+      <ndoMarketableLimitPct>             11.3019</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             35.3147</ndoNonmarketableLimitPct>
+      <ndoOtherPct>              8.3141</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             37.6500</orderPct>
+          <marketPct>             27.1881</marketPct>
+          <marketableLimitPct>             44.6771</marketableLimitPct>
+          <nonMarketableLimitPct>             56.4569</nonMarketableLimitPct>
+          <otherPct>              4.9259</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          23631.2715</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>              9.0218</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          65845.9219</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>              4.8299</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>         129340.7969</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>              9.0315</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           1657.8561</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             16.1342</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities, LLC. ("Citadel") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable limit and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. For orders filled between 4:00 and 7:00 am ET, the Firm paid a fixed cost between $0.00005 and $0.0004 and received a $0.0034 rebate for non-marketable limit orders if the price is equal to or over $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>JNST</name>
+          <orderPct>             37.5082</orderPct>
+          <marketPct>             41.6692</marketPct>
+          <marketableLimitPct>             24.4765</marketableLimitPct>
+          <nonMarketableLimitPct>             22.9485</nonMarketableLimitPct>
+          <otherPct>             94.5096</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          30824.9121</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             10.0067</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          53456.4883</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>              9.0869</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          74013.8047</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             11.2162</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           1565.8361</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             18.5222</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Jane Street Capital, LLC. ("Jane Street") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SOHO</name>
+          <orderPct>             24.8418</orderPct>
+          <marketPct>             31.1426</marketPct>
+          <marketableLimitPct>             30.8464</marketableLimitPct>
+          <nonMarketableLimitPct>             20.5945</nonMarketableLimitPct>
+          <otherPct>              0.5645</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          26462.1836</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>              9.0629</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          54120.3672</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>              8.0860</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          71207.9375</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             11.1093</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>            594.8620</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             13.6769</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Two Sigma Securities, LLC. ("Two Sigma") and all other brokers for equity directing NMS order flow that result in executions. For market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. The Firm does not receive payment for On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             13.4838</ndoMarketPct>
+      <ndoMarketableLimitPct>             37.4532</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             48.7372</ndoNonmarketableLimitPct>
+      <ndoOtherPct>              0.3259</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>WEXX</name>
+          <orderPct>             47.6929</orderPct>
+          <marketPct>             49.6096</marketPct>
+          <marketableLimitPct>             47.1783</marketableLimitPct>
+          <nonMarketableLimitPct>             47.3997</nonMarketableLimitPct>
+          <otherPct>             72.5000</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           4863.3750</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             41.3377</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          25259.7207</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             43.0172</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          24389.7871</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             43.1838</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             30.6000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             27.5676</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Wolverine Execution Services, LLC. ("Wex") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             47.6768</orderPct>
+          <marketPct>             49.8498</marketPct>
+          <marketableLimitPct>             47.9906</marketableLimitPct>
+          <nonMarketableLimitPct>             46.9704</nonMarketableLimitPct>
+          <otherPct>             27.5000</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           4196.9053</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             39.4409</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          30242.4414</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             44.7532</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          28696.8125</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             44.0068</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             11.1000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             24.1304</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities LLC. ("CDRG") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DFIN</name>
+          <orderPct>              4.6302</orderPct>
+          <marketPct>              0.5405</marketPct>
+          <marketableLimitPct>              4.8311</marketableLimitPct>
+          <nonMarketableLimitPct>              5.6298</nonMarketableLimitPct>
+          <otherPct>              0.0000</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>            -14.9589</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>            -51.5824</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           -341.8109</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>            -50.0455</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           -870.6082</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>            -57.8477</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>              0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>              0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Dash Financial Technologies, LLC. ("Dash") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon> 8</mon>
+    <rSP500>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             59.2766</ndoMarketPct>
+      <ndoMarketableLimitPct>              3.3841</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             15.9365</ndoNonmarketableLimitPct>
+      <ndoOtherPct>             21.4028</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>JNST</name>
+          <orderPct>             51.4970</orderPct>
+          <marketPct>             42.7972</marketPct>
+          <marketableLimitPct>             28.8675</marketableLimitPct>
+          <nonMarketableLimitPct>             24.8419</nonMarketableLimitPct>
+          <otherPct>             99.0170</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1710.7321</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           2535.1240</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           2900.4001</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             76.4420</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Jane Street Capital, LLC. ("Jane Street") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             25.5534</orderPct>
+          <marketPct>             26.6801</marketPct>
+          <marketableLimitPct>             29.2177</marketableLimitPct>
+          <nonMarketableLimitPct>             53.6693</nonMarketableLimitPct>
+          <otherPct>              0.9184</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1847.8021</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           3714.5215</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             17.2092</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           4360.3936</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             19.0222</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             40.4880</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities, LLC. ("Citadel") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable limit and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. For orders filled between 4:00 and 7:00 am ET, the Firm paid a fixed cost between $0.00005 and $0.0004 and received a $0.0034 rebate for non-marketable limit orders if the price is equal to or over $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SOHO</name>
+          <orderPct>             22.9497</orderPct>
+          <marketPct>             30.5227</marketPct>
+          <marketableLimitPct>             41.9148</marketableLimitPct>
+          <nonMarketableLimitPct>             21.4888</nonMarketableLimitPct>
+          <otherPct>              0.0646</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1497.2740</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           1796.0400</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           2322.7700</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             10.1880</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Two Sigma Securities, LLC. ("Two Sigma") and all other brokers for equity directing NMS order flow that result in executions. For market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. The Firm does not receive payment for On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             49.0187</ndoMarketPct>
+      <ndoMarketableLimitPct>              9.0873</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             29.5054</ndoNonmarketableLimitPct>
+      <ndoOtherPct>             12.3886</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>JNST</name>
+          <orderPct>             41.2826</orderPct>
+          <marketPct>             42.3724</marketPct>
+          <marketableLimitPct>             23.6967</marketableLimitPct>
+          <nonMarketableLimitPct>             21.6547</nonMarketableLimitPct>
+          <otherPct>             96.6168</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          26972.3965</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             13.3269</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          55426.6211</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             13.8113</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          68061.0313</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             14.9187</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           1753.2341</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             19.4773</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Jane Street Capital, LLC. ("Jane Street") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             34.8961</orderPct>
+          <marketPct>             26.8131</marketPct>
+          <marketableLimitPct>             46.6340</marketableLimitPct>
+          <nonMarketableLimitPct>             58.0910</nonMarketableLimitPct>
+          <otherPct>              3.0262</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          23209.5156</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             12.2661</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          76721.3359</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>              7.6727</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>         105098.8438</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             11.0809</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           2497.7422</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             18.3743</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities, LLC. ("Citadel") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable limit and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. For orders filled between 4:00 and 7:00 am ET, the Firm paid a fixed cost between $0.00005 and $0.0004 and received a $0.0034 rebate for non-marketable limit orders if the price is equal to or over $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SOHO</name>
+          <orderPct>             23.8213</orderPct>
+          <marketPct>             30.8145</marketPct>
+          <marketableLimitPct>             29.6693</marketableLimitPct>
+          <nonMarketableLimitPct>             20.2543</nonMarketableLimitPct>
+          <otherPct>              0.3571</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          24961.6387</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             12.6332</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          56869.0195</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             12.7428</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          63705.7578</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             14.1901</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>            768.8740</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             17.9851</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Two Sigma Securities, LLC. ("Two Sigma") and all other brokers for equity directing NMS order flow that result in executions. For market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. The Firm does not receive payment for On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             14.7189</ndoMarketPct>
+      <ndoMarketableLimitPct>             37.7063</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             47.3151</ndoNonmarketableLimitPct>
+      <ndoOtherPct>              0.2597</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             51.7717</orderPct>
+          <marketPct>             54.6123</marketPct>
+          <marketableLimitPct>             51.4298</marketableLimitPct>
+          <nonMarketableLimitPct>             51.1971</nonMarketableLimitPct>
+          <otherPct>             48.3871</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           5851.2026</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             39.1071</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          51784.3789</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             38.7379</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          24679.7148</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             38.9417</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>              9.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             23.0769</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities LLC. ("CDRG") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>WEXX</name>
+          <orderPct>             37.1489</orderPct>
+          <marketPct>             38.3135</marketPct>
+          <marketableLimitPct>             37.8574</marketableLimitPct>
+          <nonMarketableLimitPct>             36.1728</nonMarketableLimitPct>
+          <otherPct>             45.1613</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           4529.3447</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             39.7485</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          33547.3828</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             39.3098</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          15124.7236</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             38.8621</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>              7.6000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             21.1111</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Wolverine Execution Services, LLC. ("Wex") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DFIN</name>
+          <orderPct>             11.0794</orderPct>
+          <marketPct>              7.0741</marketPct>
+          <marketableLimitPct>             10.7128</marketableLimitPct>
+          <nonMarketableLimitPct>             12.6301</nonMarketableLimitPct>
+          <otherPct>              6.4516</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>            108.0819</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>              9.3658</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           -722.1445</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>            -10.9532</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          -1805.8992</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>            -22.0420</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>              2.1000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Dash Financial Technologies, LLC. ("Dash") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon> 9</mon>
+    <rSP500>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             68.4387</ndoMarketPct>
+      <ndoMarketableLimitPct>              2.5286</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             12.6143</ndoNonmarketableLimitPct>
+      <ndoOtherPct>             16.4185</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>JNST</name>
+          <orderPct>             48.6027</orderPct>
+          <marketPct>             41.8707</marketPct>
+          <marketableLimitPct>             29.0736</marketableLimitPct>
+          <nonMarketableLimitPct>             24.0523</nonMarketableLimitPct>
+          <otherPct>             98.5338</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           2281.3420</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           3174.0520</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           5070.5244</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>            107.2700</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Jane Street Capital, LLC. ("Jane Street") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             26.2330</orderPct>
+          <marketPct>             26.8514</marketPct>
+          <marketableLimitPct>             28.9197</marketableLimitPct>
+          <nonMarketableLimitPct>             54.6525</nonMarketableLimitPct>
+          <otherPct>              1.4069</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1924.0441</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           3652.2466</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             15.2377</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           5722.3125</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             18.5706</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             50.4660</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities, LLC. ("Citadel") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable limit and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. For orders filled between 4:00 and 7:00 am ET, the Firm paid a fixed cost between $0.00005 and $0.0004 and received a $0.0034 rebate for non-marketable limit orders if the price is equal to or over $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SOHO</name>
+          <orderPct>             25.1643</orderPct>
+          <marketPct>             31.2779</marketPct>
+          <marketableLimitPct>             42.0067</marketableLimitPct>
+          <nonMarketableLimitPct>             21.2952</nonMarketableLimitPct>
+          <otherPct>              0.0593</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           1747.0861</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           3021.0322</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           4830.5884</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             20.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             13.2520</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Two Sigma Securities, LLC. ("Two Sigma") and all other brokers for equity directing NMS order flow that result in executions. For market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. The Firm does not receive payment for On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             57.4543</ndoMarketPct>
+      <ndoMarketableLimitPct>              7.2411</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             26.0875</ndoNonmarketableLimitPct>
+      <ndoOtherPct>              9.2171</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>JNST</name>
+          <orderPct>             39.0471</orderPct>
+          <marketPct>             40.8765</marketPct>
+          <marketableLimitPct>             22.6230</marketableLimitPct>
+          <nonMarketableLimitPct>             20.1696</nonMarketableLimitPct>
+          <otherPct>             93.9767</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          44011.1172</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             15.2974</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          54368.4375</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             12.7141</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          78868.5625</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             13.9259</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           2418.6301</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             17.6377</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Jane Street Capital, LLC. ("Jane Street") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             35.7419</orderPct>
+          <marketPct>             27.4544</marketPct>
+          <marketableLimitPct>             50.5276</marketableLimitPct>
+          <nonMarketableLimitPct>             60.5550</nonMarketableLimitPct>
+          <otherPct>              5.5564</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          36545.8438</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             14.7976</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>         111832.2656</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             11.0597</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>         132829.7188</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             12.2238</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           4430.7119</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             18.1520</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities, LLC. ("Citadel") and all other brokers for directing NMS order flow that result in executions. For equity market, marketable limit and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. For orders filled between 4:00 and 7:00 am ET, the Firm paid a fixed cost between $0.00005 and $0.0004 and received a $0.0034 rebate for non-marketable limit orders if the price is equal to or over $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SOHO</name>
+          <orderPct>             25.2110</orderPct>
+          <marketPct>             31.6691</marketPct>
+          <marketableLimitPct>             26.8494</marketableLimitPct>
+          <nonMarketableLimitPct>             19.2755</nonMarketableLimitPct>
+          <otherPct>              0.4669</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>          39019.5586</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             15.2864</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          51990.4414</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             12.1222</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          65659.9141</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             13.1363</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>           2472.9561</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             15.8390</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Two Sigma Securities, LLC. ("Two Sigma") and all other brokers for equity directing NMS order flow that result in executions. For market, marketable and non-marketable limit orders the payment rate was $0.0020 per share, and payment was not received for executions priced less than $1. The Firm does not receive payment for On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>            100.0000</ndoPct>
+      <ndoMarketPct>             16.0858</ndoMarketPct>
+      <ndoMarketableLimitPct>             41.6496</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>             42.0517</ndoNonmarketableLimitPct>
+      <ndoOtherPct>              0.2129</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CDRG</name>
+          <orderPct>             41.2088</orderPct>
+          <marketPct>             40.1171</marketPct>
+          <marketableLimitPct>             41.7188</marketableLimitPct>
+          <nonMarketableLimitPct>             41.0941</nonMarketableLimitPct>
+          <otherPct>             44.4444</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           4582.5132</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             35.4300</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>          29427.9453</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             44.4242</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>          17845.7109</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             42.9417</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>             17.9000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             33.7736</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Citadel Securities LLC. ("CDRG") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DFIN</name>
+          <orderPct>             30.0332</orderPct>
+          <marketPct>             30.3563</marketPct>
+          <marketableLimitPct>             30.1987</marketableLimitPct>
+          <nonMarketableLimitPct>             29.7845</nonMarketableLimitPct>
+          <otherPct>             22.2222</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           2284.0000</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             33.0344</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           8437.8203</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             38.2407</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           6305.9102</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             35.9824</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>              4.9000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             28.8235</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Dash Financial Technologies, LLC. ("Dash") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>WEXX</name>
+          <orderPct>             28.7580</orderPct>
+          <marketPct>             29.5266</marketPct>
+          <marketableLimitPct>             28.0824</marketableLimitPct>
+          <nonMarketableLimitPct>             29.1214</nonMarketableLimitPct>
+          <otherPct>             33.3333</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>           2157.2886</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>             35.2556</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>           8622.9229</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>             43.2943</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>           7864.2515</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>             41.7867</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>              6.3000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>             24.2308</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>GTN Americas Financial Services (GTNA) received payment from Wolverine Execution Services, LLC. ("Wex") and all other brokers for directing NMS order flow that result in executions. For non-index option market, marketable and non-marketable limit orders the payment rate was $0.50 per contract. For ETF options, the rate was $0.30 per executed contract. For index options, the Firm passes through any fees incurred.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

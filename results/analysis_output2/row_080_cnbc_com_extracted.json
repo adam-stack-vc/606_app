@@ -1,0 +1,70 @@
+{
+  "filename": "row_080_cnbc_com_extracted",
+  "url": "https://cnbc.com/2020/12/17/sec-charges-robinhood-with-misleading-customers-about-how-it-makes-money.html",
+  "title": "SEC charges Robinhood with misleading customers about how it makes money",
+  "date": "12/17/20",
+  "sentiment": "Negative",
+  "text": "----------------------------------------\nThe Securities and Exchange Commission on Thursday charged Robinhood with deceiving customers about how the stock trading app makes money and failing to deliver the promised best execution of trades.\nRobinhood agreed to pay a $65 million civil penalty, without admitting or denying SEC’s findings. A lawyer for the company said the practices “do not reflect Robinhood today.”\nThe Silicon Valley start-up, which has eventual plans to go public, has raised more than $1 billion in funding in 2020, lifting Robinhood’s valuation to $11.7 billion.\n“Between 2015 and late 2018, Robinhood made misleading statements and omissions in customer communications, including in FAQ pages on its website, about its largest revenue source when describing how it made money — namely, payments from trading firms in exchange for Robinhood sending its customer orders to those firms for execution, also known as ‘payment for order flow,’” the SEC said.\n“One of Robinhood’s selling points to customers was that trading was ‘commission free,’ but due in large part to its unusually high payment for order flow rates, Robinhood customers’ orders were executed at prices that were inferior to other brokers’ prices,” the statement added.\nThe millennial-favored trading app is best known for pioneering the “commission-free trading.” Robinhood, and the rest of the online brokerage industry, rely on what’s known as payment for order flow as their profit engine in lieu of commissions.\nTaking payments for order flow from Wall Street firms is a controversial, but legal practice done by most electronic brokers. For Robinhood, it’s the biggest revenue source. Robinhood received $180 million in payments for trades in the second quarter, according to an SEC filing.\nThe SEC order found that Robinhood provided inferior trade prices that cost customers $34.1 million, even after considering the savings from not paying a commission.\n“Robinhood provided misleading information to customers about the true costs of choosing to trade with the firm,” said Stephanie Avakian, director of the SEC’s Enforcement Division. “Brokerage firms cannot mislead customers about order execution quality.”\nMarket makers such as Citadel Securities or Virtu pay e-brokers like Robinhood for the right to execute customer trades. The broker is then paid a small fee for the shares that are routed, which can add up to millions when customers trade as actively as they have this year.\nRobinhood has experienced record growth in 2020 due to the unprecedented market volatility from the Covid-19 pandemic. Robinhood posted a record 3 million new customers in the first four months of 2020.\n“The settlement relates to historical practices that do not reflect Robinhood today,” said Dan Gallagher, Robinhood’s chief legal officer at Robinhood. “We recognize the responsibility that comes with having helped millions of investors make their first investments, and we’re committed to continuing to evolve Robinhood as we grow to meet our customers’ needs.”\nA Robinhood spokesperson added: ”We are fully transparent in our communications with customers about our current revenue streams, have significantly improved our best execution processes, and have established relationships with additional market makers to improve execution quality.”\nThe SEC’s charges came a day after Massachusetts regulators filed a complaint accusing the trading app of predatory marketing on inexperienced investors.\nThe complaint cites Robinhood’s “aggressive tactics to attract inexperienced investors, its use of gamification strategies to manipulate customers, and its failure to prevent frequent outages and disruptions on its trading platform.”\nSubscribe to CNBC PRO for exclusive insights and analysis, and live business day programming from around the world.",
+  "text_length": 3834,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.518909",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_080_cnbc_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "The Securities and Exchange Commission",
+    "SEC",
+    "FAQ",
+    "the SEC’s Enforcement Division",
+    "Citadel Securities or Virtu",
+    "Robinhood",
+    "CNBC"
+  ],
+  "persons_mentioned": [
+    "Stephanie Avakian",
+    "Dan Gallagher"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "execution quality",
+          "market maker",
+          "order execution systems",
+          "trading apps"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "institutional brokerage": [
+          "execution quality"
+        ],
+        "market making": [
+          "market maker"
+        ],
+        "trading infrastructure": [
+          "order execution systems"
+        ],
+        "trading": [
+          "trading apps"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "execution quality",
+        "market maker",
+        "order execution systems",
+        "trading apps"
+      ]
+    },
+    "content_length": 3834,
+    "word_count": 575
+  }
+}

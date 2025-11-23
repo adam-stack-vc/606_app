@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>APEX Clearing</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-28T17:56:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>51.32</ndoMarketPct>
+      <ndoMarketableLimitPct>8.19</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>31.85</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.64</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>45.68</orderPct>
+          <marketPct>72.85</marketPct>
+          <marketableLimitPct>23.64</marketableLimitPct>
+          <nonMarketableLimitPct>14.21</nonMarketableLimitPct>
+          <otherPct>21.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18858.76</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.5700</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3003.89</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.9517</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>997.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.2429</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2046.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.0298</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Virtu Americas, LLC (“Virtu”) and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.    These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>29.04</orderPct>
+          <marketPct>1.80</marketPct>
+          <marketableLimitPct>57.44</marketableLimitPct>
+          <nonMarketableLimitPct>67.54</nonMarketableLimitPct>
+          <otherPct>22.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2778.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2332.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.7348</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11925.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.9030</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1822.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.5930</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Citadel Securities, LLC. ("Citadel")and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>8.07</orderPct>
+          <marketPct>9.71</marketPct>
+          <marketableLimitPct>3.57</marketableLimitPct>
+          <nonMarketableLimitPct>1.91</nonMarketableLimitPct>
+          <otherPct>25.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.    All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>6.93</orderPct>
+          <marketPct>5.87</marketPct>
+          <marketableLimitPct>6.50</marketableLimitPct>
+          <nonMarketableLimitPct>6.44</nonMarketableLimitPct>
+          <otherPct>15.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10790.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0010</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2609.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2265.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.6779</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2131.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.7616</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Jane Street Capital (“Jane” )and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>5.67</orderPct>
+          <marketPct>4.56</marketPct>
+          <marketableLimitPct>4.61</marketableLimitPct>
+          <nonMarketableLimitPct>5.40</nonMarketableLimitPct>
+          <otherPct>14.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8503.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2366.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2957.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1494.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Hudson River Trading (“HRT” )and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>30.58</ndoMarketPct>
+      <ndoMarketableLimitPct>20.19</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>38.72</ndoNonmarketableLimitPct>
+      <ndoOtherPct>10.52</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>51.09</orderPct>
+          <marketPct>3.55</marketPct>
+          <marketableLimitPct>72.39</marketableLimitPct>
+          <nonMarketableLimitPct>84.57</nonMarketableLimitPct>
+          <otherPct>25.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>80960.83</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.6458</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>337784.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.4781</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>476663.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>9.8633</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>54068.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.6111</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Citadel Securities, LLC. ("Citadel")and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>22.58</orderPct>
+          <marketPct>55.12</marketPct>
+          <marketableLimitPct>8.53</marketableLimitPct>
+          <nonMarketableLimitPct>4.31</nonMarketableLimitPct>
+          <otherPct>22.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>291566.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.1484</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>211858.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.4075</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>15721.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.1943</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>63454.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.2154</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Virtu Americas, LLC (“Virtu”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>7.78</orderPct>
+          <marketPct>13.56</marketPct>
+          <marketableLimitPct>1.87</marketableLimitPct>
+          <nonMarketableLimitPct>2.05</nonMarketableLimitPct>
+          <otherPct>23.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.   All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>7.47</orderPct>
+          <marketPct>10.71</marketPct>
+          <marketableLimitPct>7.02</marketableLimitPct>
+          <nonMarketableLimitPct>3.34</nonMarketableLimitPct>
+          <otherPct>14.09</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>176860.76</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.6786</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>275150.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.5097</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>22976.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.2424</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>49787.81</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.1030</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Jane Street Capital (“JANE”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>6.18</orderPct>
+          <marketPct>8.34</marketPct>
+          <marketableLimitPct>5.24</marketableLimitPct>
+          <nonMarketableLimitPct>3.04</nonMarketableLimitPct>
+          <otherPct>13.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>140982.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.9036</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>211103.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.1518</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>41473.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.4709</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>47329.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.3483</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Hudson River Trading (“HRT”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>2.81</ndoMarketPct>
+      <ndoMarketableLimitPct>10.55</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>22.88</ndoNonmarketableLimitPct>
+      <ndoOtherPct>63.76</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>21.15</orderPct>
+          <marketPct>12.16</marketPct>
+          <marketableLimitPct>16.76</marketableLimitPct>
+          <nonMarketableLimitPct>13.61</nonMarketableLimitPct>
+          <otherPct>24.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.  All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms. In turn, APEX distributed 100% of the options exchange rebates and other options payments received from Instinet to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.   https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.19</orderPct>
+          <marketPct>17.62</marketPct>
+          <marketableLimitPct>15.84</marketableLimitPct>
+          <nonMarketableLimitPct>21.27</nonMarketableLimitPct>
+          <otherPct>19.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>15280.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.3767</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>238321.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.1612</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>116397.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.2208</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>166343.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.6339</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025,for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Citadel Securities LLC ("Citadel"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract For classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>18.30</orderPct>
+          <marketPct>7.92</marketPct>
+          <marketableLimitPct>12.04</marketableLimitPct>
+          <nonMarketableLimitPct>12.66</nonMarketableLimitPct>
+          <otherPct>21.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9481.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.0262</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>144073.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.3138</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>73750.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>37.3488</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>218459.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>51.6145</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Wolverine Execution Services ("WEX"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>16.74</orderPct>
+          <marketPct>17.50</marketPct>
+          <marketableLimitPct>13.02</marketableLimitPct>
+          <nonMarketableLimitPct>13.35</nonMarketableLimitPct>
+          <otherPct>18.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>15555.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.7635</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>193364.05</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.4045</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>62293.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.6484</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>140296.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>48.5521</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Dash/IMC Financial Markets ("Dash/IMC"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>10.59</orderPct>
+          <marketPct>15.43</marketPct>
+          <marketableLimitPct>12.40</marketableLimitPct>
+          <nonMarketableLimitPct>9.08</nonMarketableLimitPct>
+          <otherPct>10.61</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>14644.73</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.6072</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>143747.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.3329</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>54557.74</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.2869</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>90130.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.3121</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Jane Street Capital ("JANE"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.    
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>8.67</orderPct>
+          <marketPct>21.39</marketPct>
+          <marketableLimitPct>22.59</marketableLimitPct>
+          <nonMarketableLimitPct>23.40</nonMarketableLimitPct>
+          <otherPct>0.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>21903.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>28.9082</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>301195.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.3167</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>122533.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9501</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3990.29</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>32.4256</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Global Execution Brokers ("G1X"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC</name>
+          <orderPct>5.36</orderPct>
+          <marketPct>7.98</marketPct>
+          <marketableLimitPct>7.34</marketableLimitPct>
+          <nonMarketableLimitPct>6.63</nonMarketableLimitPct>
+          <otherPct>4.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025,for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”)  received payment for multi-listed option order flow routed to and executed by Matrix Executions, LLC ("Matrix"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract For classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  
+During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>52.23</ndoMarketPct>
+      <ndoMarketableLimitPct>7.85</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>31.13</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.79</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>46.26</orderPct>
+          <marketPct>72.30</marketPct>
+          <marketableLimitPct>24.84</marketableLimitPct>
+          <nonMarketableLimitPct>15.19</nonMarketableLimitPct>
+          <otherPct>20.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>23886.17</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.1849</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2475.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.9466</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>957.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.3299</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2050.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.8385</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Virtu Americas, LLC (“Virtu”) and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.    These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>27.13</orderPct>
+          <marketPct>1.64</marketPct>
+          <marketableLimitPct>54.26</marketableLimitPct>
+          <nonMarketableLimitPct>64.52</nonMarketableLimitPct>
+          <otherPct>21.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3369.42</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3669.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.6454</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13651.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.3135</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1502.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.5576</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Citadel Securities, LLC. ("Citadel")and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>7.59</orderPct>
+          <marketPct>7.23</marketPct>
+          <marketableLimitPct>7.84</marketableLimitPct>
+          <nonMarketableLimitPct>2.50</nonMarketableLimitPct>
+          <otherPct>27.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.    All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>5.91</orderPct>
+          <marketPct>4.55</marketPct>
+          <marketableLimitPct>4.06</marketableLimitPct>
+          <nonMarketableLimitPct>6.36</nonMarketableLimitPct>
+          <otherPct>14.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>12853.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2396.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2736.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1388.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Hudson River Trading (“HRT” )and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>5.70</orderPct>
+          <marketPct>4.43</marketPct>
+          <marketableLimitPct>4.62</marketableLimitPct>
+          <nonMarketableLimitPct>5.75</nonMarketableLimitPct>
+          <otherPct>14.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>12197.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0004</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1930.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2105.61</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.8427</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1725.55</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.3879</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Jane Street Capital (“Jane” )and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>32.75</ndoMarketPct>
+      <ndoMarketableLimitPct>17.99</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>37.35</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.91</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>46.02</orderPct>
+          <marketPct>3.35</marketPct>
+          <marketableLimitPct>67.14</marketableLimitPct>
+          <nonMarketableLimitPct>80.56</nonMarketableLimitPct>
+          <otherPct>23.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>75950.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0933</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>300554.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.8232</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>431607.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.1028</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>39133.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.6753</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Citadel Securities, LLC. ("Citadel")and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>25.16</orderPct>
+          <marketPct>56.92</marketPct>
+          <marketableLimitPct>10.30</marketableLimitPct>
+          <nonMarketableLimitPct>5.43</nonMarketableLimitPct>
+          <otherPct>22.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>272421.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.5465</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>215587.89</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.4652</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>14634.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.4933</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>42309.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.1357</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Virtu Americas, LLC (“Virtu”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>7.37</orderPct>
+          <marketPct>9.18</marketPct>
+          <marketableLimitPct>2.23</marketableLimitPct>
+          <nonMarketableLimitPct>2.57</nonMarketableLimitPct>
+          <otherPct>25.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.   All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>7.02</orderPct>
+          <marketPct>8.30</marketPct>
+          <marketableLimitPct>6.33</marketableLimitPct>
+          <nonMarketableLimitPct>4.16</nonMarketableLimitPct>
+          <otherPct>13.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>138930.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9387</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>194585.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.8104</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>66520.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0482</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>55094.43</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.5230</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Hudson River Trading (“HRT”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>6.80</orderPct>
+          <marketPct>8.06</marketPct>
+          <marketableLimitPct>6.58</marketableLimitPct>
+          <nonMarketableLimitPct>3.60</nonMarketableLimitPct>
+          <otherPct>13.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>120596.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.3280</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>171704.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.6107</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>22715.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.8397</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>30990.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.7179</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Jane Street Capital (“JANE”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>2.74</ndoMarketPct>
+      <ndoMarketableLimitPct>10.07</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>21.14</ndoNonmarketableLimitPct>
+      <ndoOtherPct>66.06</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>23.68</orderPct>
+          <marketPct>11.91</marketPct>
+          <marketableLimitPct>15.04</marketableLimitPct>
+          <nonMarketableLimitPct>12.45</nonMarketableLimitPct>
+          <otherPct>29.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.  All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms. In turn, APEX distributed 100% of the options exchange rebates and other options payments received from Instinet to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.   https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.37</orderPct>
+          <marketPct>15.84</marketPct>
+          <marketableLimitPct>14.02</marketableLimitPct>
+          <nonMarketableLimitPct>18.71</nonMarketableLimitPct>
+          <otherPct>20.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11489.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.3667</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>213922.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.2466</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>91287.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.0817</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>161418.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.3135</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025,for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Citadel Securities LLC ("Citadel"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract For classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>17.27</orderPct>
+          <marketPct>9.77</marketPct>
+          <marketableLimitPct>14.76</marketableLimitPct>
+          <nonMarketableLimitPct>15.44</nonMarketableLimitPct>
+          <otherPct>18.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8609.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.9769</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>175185.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.8899</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>72058.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>36.0719</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>167946.73</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>51.2475</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Wolverine Execution Services ("WEX"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>16.57</orderPct>
+          <marketPct>18.94</marketPct>
+          <marketableLimitPct>15.24</marketableLimitPct>
+          <nonMarketableLimitPct>17.21</nonMarketableLimitPct>
+          <otherPct>16.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>14134.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.8906</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>221946.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.6623</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>70965.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.1420</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>115259.23</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>46.6082</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Dash/IMC Financial Markets ("Dash/IMC"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>10.44</orderPct>
+          <marketPct>14.88</marketPct>
+          <marketableLimitPct>12.20</marketableLimitPct>
+          <nonMarketableLimitPct>8.57</nonMarketableLimitPct>
+          <otherPct>10.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11015.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.5126</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>130883.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.6183</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>48378.27</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.8868</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>80844.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>49.9088</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Jane Street Capital ("JANE"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.    
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>7.38</orderPct>
+          <marketPct>20.43</marketPct>
+          <marketableLimitPct>21.06</marketableLimitPct>
+          <nonMarketableLimitPct>20.74</nonMarketableLimitPct>
+          <otherPct>0.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>17785.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>29.3145</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>277484.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.2417</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>99758.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.6022</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6978.78</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.6829</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Global Execution Brokers ("G1X"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC</name>
+          <orderPct>5.28</orderPct>
+          <marketPct>8.23</marketPct>
+          <marketableLimitPct>7.69</marketableLimitPct>
+          <nonMarketableLimitPct>6.88</nonMarketableLimitPct>
+          <otherPct>4.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025,for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”)  received payment for multi-listed option order flow routed to and executed by Matrix Executions, LLC ("Matrix"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract For classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  
+During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>47.12</ndoMarketPct>
+      <ndoMarketableLimitPct>10.07</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>34.90</ndoNonmarketableLimitPct>
+      <ndoOtherPct>7.91</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>41.08</orderPct>
+          <marketPct>69.05</marketPct>
+          <marketableLimitPct>22.26</marketableLimitPct>
+          <nonMarketableLimitPct>12.81</nonMarketableLimitPct>
+          <otherPct>23.07</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>33417.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.7442</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3047.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.9510</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1097.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.4078</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1850.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.3157</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Virtu Americas, LLC (“Virtu”) and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.    These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>33.38</orderPct>
+          <marketPct>1.94</marketPct>
+          <marketableLimitPct>57.06</marketableLimitPct>
+          <nonMarketableLimitPct>71.18</nonMarketableLimitPct>
+          <otherPct>23.76</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5222.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>19.9999</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3127.05</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.5012</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12604.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.2113</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1487.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.1675</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Citadel Securities, LLC. ("Citadel")and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>5.86</orderPct>
+          <marketPct>5.21</marketPct>
+          <marketableLimitPct>4.53</marketableLimitPct>
+          <nonMarketableLimitPct>4.89</nonMarketableLimitPct>
+          <otherPct>15.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>19313.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2186.77</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3215.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1493.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Hudson River Trading (“HRT” )and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>5.84</orderPct>
+          <marketPct>5.09</marketPct>
+          <marketableLimitPct>5.09</marketableLimitPct>
+          <nonMarketableLimitPct>4.53</nonMarketableLimitPct>
+          <otherPct>17.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18333.76</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0007</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2462.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2261.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.8519</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1991.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.2575</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Jane Street Capital (“Jane” )and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS INC</name>
+          <orderPct>4.50</orderPct>
+          <marketPct>9.50</marketPct>
+          <marketableLimitPct>0.14</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>30.58</ndoMarketPct>
+      <ndoMarketableLimitPct>21.10</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>38.62</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.70</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>53.96</orderPct>
+          <marketPct>12.78</marketPct>
+          <marketableLimitPct>72.46</marketableLimitPct>
+          <nonMarketableLimitPct>83.22</nonMarketableLimitPct>
+          <otherPct>27.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>110236.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.7359</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>309982.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.4323</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>492300.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.3165</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>64550.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9117</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Citadel Securities, LLC. ("Citadel")and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>20.99</orderPct>
+          <marketPct>49.69</marketPct>
+          <marketableLimitPct>8.68</marketableLimitPct>
+          <nonMarketableLimitPct>4.52</nonMarketableLimitPct>
+          <otherPct>22.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>371399.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.9279</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>233367.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.9465</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>15987.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.9294</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>49082.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.9456</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Virtu Americas, LLC (“Virtu”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, for extended hours orders the rate was $0.0010 per share or less, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>6.34</orderPct>
+          <marketPct>7.61</marketPct>
+          <marketableLimitPct>5.62</marketableLimitPct>
+          <nonMarketableLimitPct>3.39</nonMarketableLimitPct>
+          <otherPct>15.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>205533.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.7815</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>194328.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.4529</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>27325.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.1862</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>41749.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.3408</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Jane Street Capital (“JANE”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>6.31</orderPct>
+          <marketPct>7.74</marketPct>
+          <marketableLimitPct>5.23</marketableLimitPct>
+          <nonMarketableLimitPct>3.64</nonMarketableLimitPct>
+          <otherPct>14.75</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>209136.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.6226</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>208269.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.4792</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>89128.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.3700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>102663.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.4694</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from Hudson River Trading (“HRT”) all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>4.04</orderPct>
+          <marketPct>6.04</marketPct>
+          <marketableLimitPct>4.16</marketableLimitPct>
+          <nonMarketableLimitPct>2.86</nonMarketableLimitPct>
+          <otherPct>2.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>171199.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.8991</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>163777.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.4989</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>45219.74</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.9398</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>43983.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.0851</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (“APEX”) received payment from GTS Securities, LLC (“GTS”) and all other brokers for directing NMS order flow that result in executions.  For marketable orders the payment rate was $0.0020 per share, for non-marketable orders the rate was $0.0030 per share, and payment was not received for executions priced less than $1.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>2.90</ndoMarketPct>
+      <ndoMarketableLimitPct>10.88</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>24.53</ndoNonmarketableLimitPct>
+      <ndoOtherPct>61.69</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Instinet, LLC</name>
+          <orderPct>23.09</orderPct>
+          <marketPct>12.69</marketPct>
+          <marketableLimitPct>14.58</marketableLimitPct>
+          <nonMarketableLimitPct>12.25</nonMarketableLimitPct>
+          <otherPct>29.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet is APEX's order routing technology provider and APEX also routes orders to Instinet brokerage services.  All non-directed orders that APEX routed to Instinet were further routed to U.S. securities exchanges, alternative trading centers or single dealer platforms pursuant to Instinet’s order routing arrangements.  APEX paid Instinet a technology fee for its order routing provider services which included routes to brokers, and APEX also paid Instinet for exchange fees and ATS fees (as applicable) for orders that Instinet further routed to an exchange or an ATS and received an execution.  In certain instances, APEX paid Instinet a brokerage fee for other non-directed orders that resulted in execution on an exchange or ATS.  Brokerage fees paid by APEX to Instinet are based upon volume tiers.  Instinet rebated to APEX exchange fees and payment that it received from exchanges, ATS’ and single broker platforms. In turn, APEX distributed 100% of the options exchange rebates and other options payments received from Instinet to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.  In turn, APEX distributed the exchange rebates and other payments received to the applicable APEX client that sent such qualifying, non-directed orders resulting in execution.   https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.30</orderPct>
+          <marketPct>15.67</marketPct>
+          <marketableLimitPct>14.51</marketableLimitPct>
+          <nonMarketableLimitPct>20.03</nonMarketableLimitPct>
+          <otherPct>20.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>13286.38</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.5316</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>250250.56</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.1982</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>111334.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.6116</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>133332.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.2455</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025,for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Citadel Securities LLC ("Citadel"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract For classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>17.24</orderPct>
+          <marketPct>9.15</marketPct>
+          <marketableLimitPct>13.61</marketableLimitPct>
+          <nonMarketableLimitPct>13.34</nonMarketableLimitPct>
+          <otherPct>19.81</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4612.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.4679</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>183404.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.6928</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>76330.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.3969</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>171668.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>50.1613</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Wolverine Execution Services ("WEX"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>15.22</orderPct>
+          <marketPct>18.28</marketPct>
+          <marketableLimitPct>14.73</marketableLimitPct>
+          <nonMarketableLimitPct>15.68</nonMarketableLimitPct>
+          <otherPct>14.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>13639.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.4125</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>246893.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.2396</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>73987.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.0955</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>86672.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>44.5337</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Dash/IMC Financial Markets ("Dash/IMC"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>11.52</orderPct>
+          <marketPct>16.48</marketPct>
+          <marketableLimitPct>14.18</marketableLimitPct>
+          <nonMarketableLimitPct>11.28</nonMarketableLimitPct>
+          <otherPct>10.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11563.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.7166</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>184551.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.3842</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>85866.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.0528</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>81821.26</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>47.4728</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Jane Street Capital ("JANE"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.    
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>8.29</orderPct>
+          <marketPct>19.81</marketPct>
+          <marketableLimitPct>20.87</marketableLimitPct>
+          <nonMarketableLimitPct>20.67</nonMarketableLimitPct>
+          <otherPct>0.61</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18131.13</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.7213</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>312250.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>29.8439</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>114113.67</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.3360</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4352.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>32.4123</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025, for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”) received payment for multi-listed option order flow routed to and executed by Global Execution Brokers ("G1X"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract for classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories other than the one client referenced in the preceding paragraph.  These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC</name>
+          <orderPct>5.33</orderPct>
+          <marketPct>7.92</marketPct>
+          <marketableLimitPct>7.53</marketableLimitPct>
+          <nonMarketableLimitPct>6.74</nonMarketableLimitPct>
+          <otherPct>4.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During Q3 2025,for all clearing and/or execution other than one client in particular, Apex Clearing Corporation (“APEX”)  received payment for multi-listed option order flow routed to and executed by Matrix Executions, LLC ("Matrix"). For non-complex marketable orders in the penny interval program, the payment rate was between $.21 to $.25 per contract For classes not in the penny interval program, the rate was $0.60 per contract.  For complex orders in the penny interval program, the payment rate was between $.51-$.52 per contract.  For classes not in the penny interval program, the rate was $0.80 per contract.  
+During Q3 2025 for one client, Apex received a fixed rate of $0.25 per option contract for SPY, QQQ, IWM and $.45 per contract for Penny and Non Penny names which was applied uniformly across all options orders, irrespective of their size or complexity.  
+
+All option market makers that APEX routed options orders resulting in executions paid the same rates to APEX for orders in the same categories. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, disincentives for failing to meet order flow thresholds, nor trade-off’s of payment or other incentives/disincentives for price improvement or other execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

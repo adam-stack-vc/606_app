@@ -1,0 +1,447 @@
+---
+                title: "('Robinhood and Payments for Order Flow',)"
+                url: "https://alphacution.com/robinhood-and-payments-for-order-flow"
+                date: ""
+                sentiment: "('Neutral',)"
+                topic: "pfof"
+                ---
+
+                
+ [Skip to content](#content)
+
+
+Robinhood and Payments for Order Flow
+=====================================
+
+
+
+
+
+
+Robinhood and Payments for Order Flow
+
+* [View Larger Image
+![](https://alphacution.com/wp-content/uploads/2018/11/robinhood.jpg)](https://alphacution.com/wp-content/uploads/2018/11/robinhood.jpg)
+
+* [](#)
+* [](#)
+
+**Get access to every Feed post starting with our Basic subscription.**
+
+Explore Subscriptions
+
+By [Paul Rowady](https://alphacution.com/author/paul/ "Posts by Paul Rowady")|2020-10-14T21:50:30-04:00November 14th, 2018|[For Subscribers](https://alphacution.com/category/for-subscribers/)|
+ 
+#### Share this Alphacution Content!
+
+[Facebook](https://www.facebook.com/sharer.php?u=https%3A%2F%2Falphacution.com%2Frobinhood-and-payments-for-order-flow%2F&t=Robinhood%20and%20Payments%20for%20Order%20Flow)[Twitter](https://twitter.com/share?text=Robinhood%20and%20Payments%20for%20Order%20Flow&url=https%3A%2F%2Falphacution.com%2Frobinhood-and-payments-for-order-flow%2F)[LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Falphacution.com%2Frobinhood-and-payments-for-order-flow%2F&title=Robinhood%20and%20Payments%20for%20Order%20Flow&summary=It%20was%20a%20recent%20father-son%20%28and%20dog%29%20road%20trip.%20Several%20hours%20in%20the%20car%2C%20on%20our%20way%20to%20support%20daughter%20%2F%20sister%2C%20Emma%2C%20at%20her%20final%20regatta%20of%20the%20season.%20Head%20of%20the%20Hooch%20in%20Chattanooga%2C%20Tennessee.%20And%2C%20an%20opportunity%20for%20some%20undistracted%20conversation)[Reddit](http://reddit.com/submit?url=https://alphacution.com/robinhood-and-payments-for-order-flow/&title=Robinhood%20and%20Payments%20for%20Order%20Flow)[Email](mailto:?subject=Robinhood%20and%20Payments%20for%20Order%20Flow&body=https://alphacution.com/robinhood-and-payments-for-order-flow/)
+ 
+### About the Author: [Paul Rowady](https://alphacution.com/author/paul/ "Posts by Paul Rowady")
+
+
+![](https://secure.gravatar.com/avatar/2d6d1d04188b06b3eeff51cbfcd977ad?s=72&d=mm&r=g) 
+Paul Rowady is the Director of Research for Alphacution Research Conservatory, a research and strategic advisory platform uniquely focused on modeling and benchmarking the impacts of technology on global financial markets and the businesses of trading, asset management and banking. He is a 30-year veteran of the proprietary, quantitative and derivatives trading arenas. Contact: feedback@alphacution.com; Follow: @alphacution. 
+
+
+### Related Posts
+
+
+* ![Approaching Peak Proprietary](https://alphacution.com/wp-content/uploads/2025/09/cloudsandmountains_169optimized.gif)
+[Approaching Peak Proprietary](https://alphacution.com/approaching-peak-proprietary/)
+
+
+
+#### [Approaching Peak Proprietary](https://alphacution.com/approaching-peak-proprietary/ "Approaching Peak Proprietary")
+
+September 26th, 2025
+* ![Alphacution Press: A 50-Pound Book Holds the Keys to Citadel Securities](https://alphacution.com/wp-content/uploads/2025/09/Bloomberg_Citadel-Book-v2-e1758934090107.png)
+[Alphacution Press: A 50-Pound Book Holds the Keys to Citadel Securities](https://alphacution.com/alphacution-press-a-50-pound-book-holds-the-keys-to-citadel-securities/)
+
+
+
+#### [Alphacution Press: A 50-Pound Book Holds the Keys to Citadel Securities](https://alphacution.com/alphacution-press-a-50-pound-book-holds-the-keys-to-citadel-securities/ "Alphacution Press: A 50-Pound Book Holds the Keys to Citadel Securities")
+
+September 22nd, 2025
+* ![Speculating on Speculation: Robinhood Joins S&P 500](https://alphacution.com/wp-content/uploads/2025/09/Vlad_HOOD.png)
+[Speculating on Speculation: Robinhood Joins S&P 500](https://alphacution.com/speculating-on-speculation-robinhood-to-join-sp-500/)
+
+
+
+#### [Speculating on Speculation: Robinhood Joins S&P 500](https://alphacution.com/speculating-on-speculation-robinhood-to-join-sp-500/ "Speculating on Speculation: Robinhood Joins S&P 500")
+
+September 21st, 2025
+* ![Optiver’s Charm Offensive – Part I (Updated)](https://alphacution.com/wp-content/uploads/2025/09/SEARCHLIGHT.GIF.gif)
+[Optiver’s Charm Offensive – Part I (Updated)](https://alphacution.com/optivers-charm-offensive-part-i/)
+
+
+
+#### [Optiver’s Charm Offensive – Part I (Updated)](https://alphacution.com/optivers-charm-offensive-part-i/ "Optiver’s Charm Offensive – Part I (Updated)")
+
+September 2nd, 2025
+* ![The Retail Option Landscape – Q2 2025 Update](https://alphacution.com/wp-content/uploads/2025/08/abstract_2-ezgif.com-optimize.gif)
+[The Retail Option Landscape – Q2 2025 Update](https://alphacution.com/the-retail-option-landscape-q2-2025-update/)
+
+
+
+#### [The Retail Option Landscape – Q2 2025 Update](https://alphacution.com/the-retail-option-landscape-q2-2025-update/ "The Retail Option Landscape – Q2 2025 Update")
+
+August 11th, 2025
+
+
+
+
+
+
+
+
+#### Tag Cloud
+
+ 
+
+Anything in here will be replaced on browsers that support the canvas element
+
+
+
+* [options](https://alphacution.com/tag/options/)
+* [Citadel Securities](https://alphacution.com/tag/citadel-securities/)
+* [PFOF](https://alphacution.com/tag/pfof/)
+* [Robinhood](https://alphacution.com/tag/robinhood/)
+* [Virtu Financial](https://alphacution.com/tag/virtu-financial/)
+* [market makers](https://alphacution.com/tag/market-makers/)
+* [SIG](https://alphacution.com/tag/sig/)
+* [banks](https://alphacution.com/tag/banks/)
+* [wholesale market makers](https://alphacution.com/tag/wholesale-market-makers/)
+* [technical leverage](https://alphacution.com/tag/technical-leverage/)
+* [volatility](https://alphacution.com/tag/volatility/)
+* [TD Ameritrade](https://alphacution.com/tag/td-ameritrade/)
+* [Citadel](https://alphacution.com/tag/citadel/)
+* [E\*Trade](https://alphacution.com/tag/etrade/)
+* [ETFs](https://alphacution.com/tag/etfs/)
+* [Goldman Sachs](https://alphacution.com/tag/goldman-sachs/)
+* [SEC](https://alphacution.com/tag/sec/)
+* [Jane Street](https://alphacution.com/tag/jane-street/)
+* [KCG](https://alphacution.com/tag/kcg/)
+* [Two Sigma Securities](https://alphacution.com/tag/two-sigma-securities/)
+* [digital transformation](https://alphacution.com/tag/digital-transformation/)
+* [Jane Street Group](https://alphacution.com/tag/jane-street-group/)
+* [Charles Schwab](https://alphacution.com/tag/charles-schwab/)
+* [Simplex Trading](https://alphacution.com/tag/simplex-trading/)
+* [Tower Research Capital](https://alphacution.com/tag/tower-research-capital/)
+* [VIX](https://alphacution.com/tag/vix/)
+* [CBOE](https://alphacution.com/tag/cboe/)
+* [Two Sigma](https://alphacution.com/tag/two-sigma/)
+* [retail brokers](https://alphacution.com/tag/retail-brokers/)
+* [Virtu Americas](https://alphacution.com/tag/virtu-americas/)
+* [D E Shaw](https://alphacution.com/tag/d-e-shaw/)
+* [price improvement](https://alphacution.com/tag/price-improvement/)
+* [XTX Markets](https://alphacution.com/tag/xtx-markets/)
+* [Susquehanna International Group](https://alphacution.com/tag/susquehanna-international-group/)
+* [Flow Traders](https://alphacution.com/tag/flow-traders/)
+* [G1 Execution Services](https://alphacution.com/tag/g1-execution-services/)
+* [Jump Trading](https://alphacution.com/tag/jump-trading/)
+* [Interactive Brokers](https://alphacution.com/tag/interactive-brokers/)
+* [Susquehanna Securities](https://alphacution.com/tag/susquehanna-securities/)
+* [market-making](https://alphacution.com/tag/market-making/)
+* [0DTE](https://alphacution.com/tag/0dte/)
+* [Morgan Stanley](https://alphacution.com/tag/morgan-stanley/)
+* [GETCO](https://alphacution.com/tag/getco/)
+* [retail investors](https://alphacution.com/tag/retail-investors/)
+* [HFT](https://alphacution.com/tag/hft/)
+* [BlackRock](https://alphacution.com/tag/blackrock/)
+* [video](https://alphacution.com/tag/video/)
+* [proprietary trading](https://alphacution.com/tag/proprietary-trading/)
+* [Numerix](https://alphacution.com/tag/numerix/)
+* [Hudson River Trading](https://alphacution.com/tag/hudson-river-trading/)
+
+ 
+Search for:
+
+
+
+
+
+
+ 
+
+* [Popular](#)
+* [Recent](#)
+
+* [![](https://alphacution.com/wp-content/uploads/2016/09/TR-TCO-title-image-1-e1607048935604-66x66.jpg)](https://alphacution.com/thomson-reuters-publishes-quantifying-the-transformation/)
+
+[Thomson Reuters publishes “Quantifying the Transformation”](https://alphacution.com/thomson-reuters-publishes-quantifying-the-transformation/)
+October 3rd, 2016
+* [![](https://alphacution.com/wp-content/uploads/2019/10/Alphacution-Barbell-w-Logo-66x66.png)](https://alphacution.com/blackrock-bridgewater-citadel-and-the-decline-of-speculation-at-scale/)
+
+[BlackRock, Bridgewater, Citadel: The Decline of Speculation at Scale](https://alphacution.com/blackrock-bridgewater-citadel-and-the-decline-of-speculation-at-scale/)
+October 24th, 2019
+* [![](https://alphacution.com/wp-content/uploads/2019/03/deconstruction-race-car-66x66.jpg)](https://alphacution.com/download-the-executive-summary-deconstructing-citadel-securities-2/)
+
+[Deconstructing Citadel Securities: Overview and Expanded Executive Summary Available for Download](https://alphacution.com/download-the-executive-summary-deconstructing-citadel-securities-2/)
+April 24th, 2019
+* [![](https://alphacution.com/wp-content/uploads/2020/07/stop-loss-e1609792099314-66x66.jpg)](https://alphacution.com/robinhoods-trailing-stop-orders-extreme-profitability-by-design/)
+
+[Robinhood’s Trailing Stop Orders: Extreme Profitability, By Design](https://alphacution.com/robinhoods-trailing-stop-orders-extreme-profitability-by-design/)
+July 15th, 2020
+
+* [![](https://alphacution.com/wp-content/uploads/2025/09/cloudsandmountains_169optimized-66x66.gif)](https://alphacution.com/approaching-peak-proprietary/)
+
+[Approaching Peak Proprietary](https://alphacution.com/approaching-peak-proprietary/)
+September 26th, 2025
+* [![](https://alphacution.com/wp-content/uploads/2025/09/Bloomberg_Citadel-Book-v2-e1758934090107-66x66.png)](https://alphacution.com/alphacution-press-a-50-pound-book-holds-the-keys-to-citadel-securities/)
+
+[Alphacution Press: A 50-Pound Book Holds the Keys to Citadel Securities](https://alphacution.com/alphacution-press-a-50-pound-book-holds-the-keys-to-citadel-securities/)
+September 22nd, 2025
+* [![](https://alphacution.com/wp-content/uploads/2025/09/Vlad_HOOD-66x66.png)](https://alphacution.com/speculating-on-speculation-robinhood-to-join-sp-500/)
+
+[Speculating on Speculation: Robinhood Joins S&P 500](https://alphacution.com/speculating-on-speculation-robinhood-to-join-sp-500/)
+September 21st, 2025
+* [![](https://alphacution.com/wp-content/uploads/2025/09/Spotlights-66x66.gif)](https://alphacution.com/optivers-charm-offensive-part-ii/)
+
+[Optiver’s Charm Offensive – Part II](https://alphacution.com/optivers-charm-offensive-part-ii/)
+September 3rd, 2025
+
+
+
+#### Feed Categories
+
+
+Feed Categories
+Select Category
+For Subscribers  (347)
+News  (6)
+Open  (106)
+Podcasts  (8)
+Premium Subscribers  (1)
+Press  (36)
+Private  (1)
+Silver / Premium  (14)
+Video  (18)
+
+
+#### Archives
+
+ Archives
+Select Month
+ September 2025  (6)
+ August 2025  (1)
+ July 2025  (2)
+ June 2025  (3)
+ May 2025  (2)
+ April 2025  (3)
+ March 2025  (1)
+ February 2025  (4)
+ January 2025  (2)
+ December 2024  (1)
+ November 2024  (2)
+ October 2024  (4)
+ September 2024  (1)
+ August 2024  (3)
+ July 2024  (4)
+ June 2024  (6)
+ May 2024  (6)
+ April 2024  (3)
+ March 2024  (4)
+ February 2024  (5)
+ January 2024  (4)
+ December 2023  (3)
+ November 2023  (6)
+ October 2023  (2)
+ September 2023  (4)
+ August 2023  (5)
+ July 2023  (4)
+ June 2023  (2)
+ May 2023  (4)
+ April 2023  (3)
+ March 2023  (3)
+ February 2023  (11)
+ January 2023  (7)
+ December 2022  (5)
+ November 2022  (4)
+ October 2022  (4)
+ September 2022  (4)
+ August 2022  (4)
+ July 2022  (5)
+ June 2022  (3)
+ May 2022  (3)
+ April 2022  (3)
+ March 2022  (8)
+ February 2022  (3)
+ January 2022  (5)
+ December 2021  (7)
+ November 2021  (5)
+ October 2021  (5)
+ September 2021  (5)
+ August 2021  (4)
+ July 2021  (6)
+ June 2021  (9)
+ May 2021  (8)
+ April 2021  (6)
+ March 2021  (6)
+ February 2021  (5)
+ January 2021  (6)
+ December 2020  (9)
+ November 2020  (8)
+ October 2020  (8)
+ September 2020  (5)
+ August 2020  (6)
+ July 2020  (7)
+ June 2020  (4)
+ May 2020  (7)
+ April 2020  (5)
+ March 2020  (9)
+ February 2020  (6)
+ January 2020  (4)
+ December 2019  (4)
+ November 2019  (7)
+ October 2019  (10)
+ September 2019  (7)
+ August 2019  (4)
+ July 2019  (7)
+ June 2019  (5)
+ May 2019  (10)
+ April 2019  (8)
+ March 2019  (9)
+ February 2019  (9)
+ January 2019  (11)
+ December 2018  (5)
+ November 2018  (7)
+ October 2018  (6)
+ September 2018  (8)
+ August 2018  (5)
+ July 2018  (3)
+ June 2018  (2)
+ May 2018  (1)
+ April 2018  (9)
+ March 2018  (5)
+ February 2018  (1)
+ January 2018  (2)
+ December 2017  (1)
+ November 2017  (1)
+ October 2017  (3)
+ September 2017  (1)
+ August 2017  (2)
+ June 2017  (4)
+ May 2017  (3)
+ April 2017  (5)
+ March 2017  (4)
+ February 2017  (2)
+ January 2017  (3)
+ December 2016  (7)
+ October 2016  (3)
+ September 2016  (4)
+ July 2016  (3)
+ May 2016  (3)
+ April 2016  (2)
+ March 2016  (3)
+ February 2016  (1)
+ January 2016  (1)
+ December 2015  (2)
+ November 2015  (6)
+ October 2015  (4)
+ February 2013  (1)
+
+[Tweets by alphacution](https://twitter.com/alphacution)
+
+ 
+
+
+
+
+
+
+Close
+#### We hope you've enjoyed your free articles.
+
+### Don't miss another story. Become a subscriber today.
+
+[Subscribe For Free](https://alphacution.com/register/)
+
+Already a subscriber? [Sign in](https://alphacution.com/login-or-subscribe/)
+
+
+![](https://alphacution.com/wp-content/uploads/2020/09/alphacution-logo-2xretina.png)
+
+### STRATEGIC INTELLIGENCE: On Markets, Trading, and Technology.
+
+Sign up for our newsletter and stay up to date on all Alphacution research  
+
+and organizational developments.
+
+
+
+
+
+
+
+
+
+
+×
+
+
+No thanks. I already receive Alphacution newsletters.By signing up, you acknowledge that you have read the [Privacy Policy](/alphacution/privacy-policy/) and agree to receive emails from Alphacution. You may unsubscribe from email communication at any time.
+
+![](https://alphacution.com/wp-content/uploads/2016/04/alphacution-logo-1x-standard.png)
+#### Subscription Plans
+
+##### Basic Subscription
+
+Monthly / Individual$25
+[Exclusive Feed Content](#)[Subscribe](https://alphacution.com/register/?level=2)cancel anytime
+
+##### Silver Subscription
+
+Annual / Individual$275
+[Exclusive Feed Content   
++ Silver Case Studies   
+ (Screen only)](#)[Subscribe](https://alphacution.com/register/?level=3)cancel anytime
+
+##### Premium Subscription
+
+Annual / Enterprise
+Starting at  
+ $5,000
+[Exclusive Feed Content   
++ Silver Case Studies   
++ Premium Case Studies   
+ (Downloadable)](#)[Inquire](https://alphacution.com/contact/)Inquire at [info@alphacution.com](mailto:info@alphacution.com)
+
+
+
+[**Looking for enterprise access?**](https://alphacution.com/contact/)
+
+Enterprise subscriptions include premium access to published content, unlimited logins for employees, and report downloads.
+
+Already a subscriber? [Sign in](https://alphacution.com/login-or-subscribe/).
+
+
+
+
+
+```
+Rate limit exceeded
+
+```
+
+
+Recaptcha requires verification. 
+
+
+
+I'm not a robot
+reCAPTCHA is changing its terms of service. [Take action.](https://google.com/recaptcha/admin/migrate)
+
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) - [Terms](https://www.google.com/intl/en/policies/terms/)
+
+
+
+
+
+
+
+
+
+

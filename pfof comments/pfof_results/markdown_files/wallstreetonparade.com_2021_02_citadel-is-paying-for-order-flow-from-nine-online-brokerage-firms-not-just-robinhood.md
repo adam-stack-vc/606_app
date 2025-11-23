@@ -1,0 +1,194 @@
+---
+                title: "('Citadel Is Paying for Order Flow from Nine Online Brokerage Firms – Not Just Robinhood',)"
+                url: "https://wallstreetonparade.com/2021/02/citadel-is-paying-for-order-flow-from-nine-online-brokerage-firms-not-just-robinhood"
+                date: ""
+                sentiment: "('Negative',)"
+                topic: "pfof"
+                ---
+
+                
+
+
+
+
+[Skip to content](#content "Skip to content")
+![](https://wallstreetonparade.com/wp-content/uploads/2012/02/cropped-WallStreetOnParade97-03onJan31VII.jpg)
+
+* [Home](http://wallstreetonparade.com/)
+* [About/Contact/](https://wallstreetonparade.com/about-3/about/)
+* [Books](https://wallstreetonparade.com/book-shelf/)
+
+Search for:
+
+
+
+ 
+
+
+[← Severe Dysfunction in Washington and Wall Street Puts the U.S. at Risk of Capital Flight](https://wallstreetonparade.com/2021/02/severe-dysfunction-in-washington-and-wall-street-put-the-u-s-at-risk-of-capital-flight/)
+[SEC: 621,000 Shares in GameStop Trades Had Not Properly Settled by January 14 →](https://wallstreetonparade.com/2021/02/sec-621000-shares-in-gamestop-trades-had-not-properly-settled-by-january-14/)
+
+[Citadel Is Paying for Order Flow from Nine OnLine Brokerage Firms – Not Just Robinhood](https://wallstreetonparade.com/2021/02/citadel-is-paying-for-order-flow-from-nine-online-brokerage-firms-not-just-robinhood/ "Permalink to Citadel Is Paying for Order Flow from Nine OnLine Brokerage Firms – Not Just Robinhood")
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**By Pam Martens and Russ Martens: February 4, 2021 ~**
+
+[![Puppet Master (Thumbnail)](https://wallstreetonparade.com/wp-content/uploads/2021/02/Puppet-Master-Thumbnail.jpg)](https://wallstreetonparade.com/wp-content/uploads/2021/02/Puppet-Master-Thumbnail.jpg)Since 2000, the Securities and Exchange Commission has required brokerage firms to file a quarterly report showing where they are routing their stock trades for execution. The filing is known as a 606 report after Rule 606 of Regulation NMS (National Market System). Because so many traders at Reddit’s WallStreetBets’ message board have focused on the fact that billionaire Ken Griffin’s Citadel Securities was executing the majority of trades for Robinhood, the trading app where a lot of the Redditors directed their GameStop trades, we decided to take a look at what other online brokers might have also been directing GameStop trades to Citadel Securities.
+
+According to the 606 reports for the fourth quarter of 2020 for the following nine online brokers, Citadel was providing payment-for-order-flow (giving a cash rebate for trade orders directed to it) to each of the following: [Robinhood](https://cdn.robinhood.com/assets/robinhood/legal/RHS%20SEC%20Rule%20606a%20and%20607%20Disclosure%20Report%20Q4%202020.pdf), [E-Trade](https://content.etrade.com/etrade/powerpage/pdf/q4-2020-606a.pdf), [TD Ameritrade](https://www.tdameritrade.com/retail-en_us/resources/606_disclosure/tdac-TDA2054-q4-2020.pdf), [Charles Schwab](https://content.schwab.com/drupal_dependencies/psr/606/2020-Q4-Schwab-Quarterly-Report.pdf), [WeBull](http://public.s3.com/rule606/webull/), [Ally Invest Securities](https://www.ally.com/resources/pdf/invest/order-routing/4th-quarter-2020-606-report.pdf), [First Trade](http://d4l0yihtmj3iw.cloudfront.net/forms/en-us/routing_reports/routing_report_2020q4.pdf?v=20210201) and [TradeStation](https://uploads.tradestation.com/uploads/2020-Q4-SEC-Rule-606-607.pdf?_gl=1*c1pknc*_gcl_aw*R0NMLjE2MTIzOTE4NjIuRUFJYUlRb2JDaE1JOHB2VTR1TE83Z0lWQ0w3QUNoME9SQWpZRUFBWUFTQUFFZ0xDZlBEX0J3RQ..*_gcl_dc*R0NMLjE2MTIzOTE4NjIuRUFJYUlRb2JDaE1JOHB2VTR1TE83Z0lWQ0w3QUNoME9SQWpZRUFBWUFTQUFFZ0xDZlBEX0J3RQ..&_ga=2.155356411.1301215273.1612391606-2044820137.1612391606&_gac=1.247145136.1612391862.EAIaIQobChMI8pvU4uLO7gIVCL7ACh0ORAjYEAAYASAAEgLCfPD_BwE). At [Fidelity Brokerage Services](https://clearingcustody.fidelity.com/app/literature/item/9901330.html), it was directing stock and option orders to Citadel Securities but was only receiving payment-for-order-flow on the option orders, according to its 606 report.
+
+According to these 606 reports, Citadel ranked as the number one venue for sending both stock and option orders at the following firms: Robinhood, TD Ameritrade, Charles Schwab, WeBull, Fidelity Brokerage Services and Ally Invest Securities. Citadel was the number one venue for options trades by E-Trade while ranking lower for stock trades. At First Trade and TradeStation, Citadel ranked number one for market orders for stocks (trades with no stated price limit) and number one for options.
+
+The bottom line here: there was a high probability that no matter what online brokerage firm Redditors sent their GameStop orders to initially, Ken Griffin’s Citadel Securities was getting a piece of the action in the end. According to the website of Citadel Securities, “To maximize trading opportunities for clients, our automated trading platform sources liquidity from all U.S. exchanges and more than 18 alternative liquidity venues.”
+
+That last sentence is what investigators want to look at. That is, what is the final destination of all of these Citadel Securities trades. “Alternative liquidity venues” may include Dark Pools which are in desperate need of some sunshine. (See [GameStop Shares: Dark Pools Owned by Goldman Sachs, JPMorgan, UBS, et al, Have Made Tens of Thousands of Trades](https://wallstreetonparade.com/2021/01/gamestop-shares-dark-pools-owned-by-goldman-sachs-jpmorgan-ubs-et-al-have-made-tens-of-thousands-of-trades/).)
+
+Pay to play in the trading world has worked out very well for Griffin. According to Forbes, as of today, [Griffin’s net worth is $15 billion](https://www.forbes.com/profile/ken-griffin/?sh=6e54bd065079). Forbes reported Griffin’s wealth at just $7.6 billion less than five years ago.
+
+All that dough sloshing around in Griffin’s bank accounts has found some interesting destinations. Just ask U.S. Treasury Secretary Janet Yellen. Citadel paid Yellen $992,500 for speaking gigs since she stepped down as Fed Chair in February of 2018. Two of those events, on October 17, 2019 and December 3, 2019, commanded $292,500 *each*. Then, at the height of the pandemic in October 2020, Citadel paid Yellen $337,500 in total to speak at unspecified events on October 9; October 20; October 26; and October 27. Yellen’s disclosure form also lists a liability to Citadel of “$50,001 to $100,000,” owed as a refund for a cancelled event. Why she hasn’t paid that back yet is curious. [See updated information at end of this article.]
+
+All of this comes from the jaw-dropping [financial disclosure form that Yellen filed](https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C22B882BBDC40AC78525864F008106AB/$FILE/Yellen,%20Janet%20L.%20AMENDEDfinal%20278.pdf) with the (try to contain your laughter) Office of Government Ethics in advance of her Senate Finance Committee Confirmation Hearing to become the U.S. Treasury Secretary.
+
+Yellen’s cash haul for speaking gigs in 2019 and 2020 came to more than $7 million, with most of that coming from Wall Street firms and hedge funds. Yellen did not disclose her speaking fees in 2018.
+
+Yellen is now rumored to be hauling together the SEC, the Fed, and the Commodity Futures Trading Commission this week to look into the trading in GameStop. In a rational world, Yellen would have to recuse herself from any matter involving Citadel. But when it comes to matters involving Wall Street, we left that rational world in 1999 with the repeal of the Glass-Steagall Act which allowed giant federally-insured banks to merge with Wall Street’s casino trading firms for the first time since 1933. It’s been downhill ever since.
+
+Curiously, *The Hill* [is reporting](https://thehill.com/policy/finance/537136-yellen-calls-regulator-meeting-on-gamestop) that the New York Fed is also to take part in Yellen’s private meeting with regulators. The New York Fed has absolutely nothing to do with stock or options trading or online trading platforms. What it does do is electronically print trillions of dollars to bail out Wall Street when it blows itself up, while being simultaneously owned by the mega banks on Wall Street. (See [These Are the Banks that Own the New York Fed and Its Money Button](https://wallstreetonparade.com/2019/11/these-are-the-banks-that-own-the-new-york-fed-and-its-money-button/).)
+
+This is not the first time that Citadel has enriched the coffers of a recently retired Fed Chair. In April 2015, Citadel issued [a press release](https://www.citadel.com/_files/uploads/2015/04/Dr.-Ben-Bernanke-To-Serve-As-A-Senior-Advisor-To-Citadel.pdf.) announcing that former Fed Chairman, Ben Bernanke, would move to the payroll of Citadel as an outside Senior Advisor. Bernanke presided over the largest secret bailout of Wall Street and foreign banks in U.S. history.
+
+Fortune Magazine reported that Citadel was holding secret meetings with the Fed during the Wall Street crisis, [writing on December 9, 2008](http://archive.fortune.com/2008/12/08/news/companies/citadel_vickers.boyd.fortune/index.htm) that “Then there was the most damaging rumor of all: Griffin had been holding ‘secret meetings’ with the Federal Reserve, looking for a bailout.”
+
+*Wall Street On Parade* attempted to find out whom Bernanke had met with during the crisis. We filed a Freedom of Information Act (FOIA) request and waited. When we received [Bernanke’s daily appointment calendar in 2014](http://wallstreetonparade.com/2014/03/fed-chair-bernanke-held-84-secret-meetings-in-the-lead-up-to-the-wall-street-collapse/), six long years after the peak of the crisis, it remained heavily redacted, with 84 meetings between January 1, 2007 and the collapse of Bear Stearns on the weekend of March 15-16, 2008 still blacked out.
+
+When the announcement was made that Bernanke would join the payroll of Citadel, Bernanke was quoted as follows in the press release: “Citadel is a dynamic firm with tremendously talented people and a rigorous approach to research and investing. I look forward to adding my perspective on a range of issues affecting our global economy.”
+
+“Rigorous” is not exactly what [all those fines by regulators](https://files.brokercheck.finra.org/firm/firm_116797.pdf) suggest.
+
+On June 25, 2014, Citadel Securities was fined a total of $800,000 by its various regulators for serious trading misconduct. Citadel paid the fines in the typical manner, without admitting or denying the charges. This is how the New York Stock Exchange described what Citadel had done:
+
+“The firm sent multiple, periodic bursts of order messages, at 10,000 orders per second, to the exchanges. This excessive messaging activity, which involved hundreds of thousands of orders for more than 19 million shares, occurred two to three times per day.”
+
+In addition, according to the York Stock Exchange, Citadel “erroneously sold short, on a proprietary basis, 2.75 million shares of an entity causing the share price of the entity to fall by 77 percent during an eleven minute period.”
+
+In another instance, according to the New York Stock Exchange, Citadel’s trading resulted in “an immediate increase in the price of the security of 132 percent.”
+
+Read that and then look at this chart in GameStop over the past month:
+
+[![GameStop Share Price from January 2, 2021 through February 3, 2021](https://wallstreetonparade.com/wp-content/uploads/2021/02/GameStop-Share-Price-from-January-2-2021-through-February-3-2021.jpg)](https://wallstreetonparade.com/wp-content/uploads/2021/02/GameStop-Share-Price-from-January-2-2021-through-February-3-2021.jpg)
+
+GameStop Share Price from January 2, 2021 through February 3, 2021
+
+On January 9, 2014, the New York Stock Exchange charged Citadel Securities with engaging in wash sales 502,243 times using its computer algorithms. A wash sale is where the buyer and the seller are the same entity and no change in beneficial ownership occurs. (Wash sales are illegal because they can manipulate stock prices up or down.) Citadel paid a $115,000 fine for these 502,243 violations.
+
+On November 13, 2020, FINRA, the self-regulator, fined Citadel Securities $180,000 for failing to mark 6.5 *million* equity trades as short sales. Citadel did not admit or deny the allegations but paid the fine.
+
+On July 16, 2020, Citadel Securities agreed to a $700,000 fine by FINRA for executing customer orders at prices worse than it traded for its own account. It was, again, allowed to neither admit nor deny the charges.
+
+On February 28, 2020, Citadel Securities entered into a final agreement with the CBOE (which runs exchanges for options and futures) for selling a stock short while not actually borrowing the stock to sell short (in other words, entering into a naked short). Citadel Securities received a censure and a fine of $10,000.
+
+We could go on and on and on, but you get the picture.
+
+Congresswoman Maxine Waters, Chair of the House Financial Services Committee, [gave an interview](https://cheddar.com/media/rep-waters-wants-answers-from-robinhood-gamestop-reddit-and-hedge-funds) to the Cheddar financial news service yesterday. Among those she said she wanted at the Committee’s hearing on the GameStop matter on February 18 are: the Redditor that was hawking the GameStop shares, Keith Gill; the CEO of Robinhood, Vlad Tenev; a representative from GameStop; and “the big boys.” We assume “big boys” mean [the hedge funds and investors](https://wallstreetonparade.com/2021/02/gamestop-short-squeeze-these-are-the-big-wall-street-players-who-stood-to-make-billions/) who had taken both a big short and/or long position in the shares of GameStop.
+
+**Editor’s Update**: A reader has called our attention to the fact that there was a footnote on Yellen’s financial disclosure form indicating that she had paid the refund to Citadel for the cancelled speaking engagement in December 2020. Why Yellen chose to list this as an existing liability and then put the refund in a footnote remains curious.
+
+
+ 
+Bookmark the [permalink](https://wallstreetonparade.com/2021/02/citadel-is-paying-for-order-flow-from-nine-online-brokerage-firms-not-just-robinhood/ "Permalink to Citadel Is Paying for Order Flow from Nine OnLine Brokerage Firms – Not Just Robinhood"). 
+
+[← Severe Dysfunction in Washington and Wall Street Puts the U.S. at Risk of Capital Flight](https://wallstreetonparade.com/2021/02/severe-dysfunction-in-washington-and-wall-street-put-the-u-s-at-risk-of-capital-flight/)
+[SEC: 621,000 Shares in GameStop Trades Had Not Properly Settled by January 14 →](https://wallstreetonparade.com/2021/02/sec-621000-shares-in-gamestop-trades-had-not-properly-settled-by-january-14/)
+
+Comments are closed.
+
+
+
+* © 2025 Wall Street On Parade. Wall Street On Parade ® is registered in the U.S. Patent and Trademark Office. WallStreetOnParade.com is a financial news website operated by Russ and Pam Martens to help the investing public better understand systemic corruption on Wall Street. Ms. Martens is a former Wall Street veteran with a background in journalism. Mr. Martens' career spans four decades in printing and publishing management.
+
+
+* [Dow Jones Industrial Average Intraday Trading Level, Stock Quotes and Breaking Market News](https://www.marketwatch.com/investing/index/djia/charts?mod=mw_quote_tab)
+* ### Recent Posts
+
++ [It’s Time to Name the “Wall Street Financiers” in the Epstein Files](https://wallstreetonparade.com/2025/09/its-time-to-name-the-wall-street-financiers-in-the-epstein-files/)
++ [Trump’s “Big Beautiful Bill” Is a Grotesque Giveaway to Fossil Fuel Billionaires While Adding $3.3 Trillion to Nation’s Debt](https://wallstreetonparade.com/2025/06/trumps-big-beautiful-bill-is-a-grotesque-giveaway-to-fossil-fuel-billionaires-while-adding-3-3-trillion-to-nations-debt/)
++ [Senator Chris Murphy Charges that Trump “Has Opened a Channel for Bribery”](https://wallstreetonparade.com/2025/05/senator-chris-murphy-charges-that-trump-has-opened-a-channel-for-bribery/)
++ [Congressman Casten: Trump’s Assault on the Rule of Law Is Causing Capital Flight Out of U.S. by Foreign Investors](https://wallstreetonparade.com/2025/05/congressman-casten-trumps-assault-on-the-rule-of-law-is-causing-capital-flight-out-of-u-s-by-foreign-investors/)
++ [Trump’s Approval Rating Drops to 80-Year Low; IMF Says U.S. Tariffs Now Exceed the Highs During the Great Depression](https://wallstreetonparade.com/2025/04/trumps-approval-rating-drops-to-80-year-low-imf-says-u-s-tariffs-now-exceed-the-highs-during-the-great-depression/)
++ [Nasdaq Has Lost More than 3,000 Points Since Trump’s First Full Day in Office in 2025; the Pain Has Barely Begun](https://wallstreetonparade.com/2025/04/nasdaq-has-lost-more-than-3000-points-since-trumps-first-full-day-in-office-in-2025-the-pain-has-barely-begun/)
++ [The Bond Crisis Last Week Was a Global No-Confidence Vote in U. S. President Donald Trump](https://wallstreetonparade.com/2025/04/the-bond-crisis-last-week-was-a-global-no-confidence-vote-in-u-s-president-donald-trump/)
++ [Trump’s Tariff Plan Guts $5 Trillion in Stock Value in Two Days; Senator Warren Calls for Emergency Action Before Markets Open on Monday](https://wallstreetonparade.com/2025/04/trumps-tariff-plan-guts-5-trillion-in-stock-value-in-two-days-senator-warren-calls-for-emergency-action-before-markets-open-on-monday/)
++ [Trump’s Attacks on Big Law, Universities, and the Media Have a Common Goal: Silence Dissent Against Authoritarian Rule](https://wallstreetonparade.com/2025/03/trumps-attacks-on-big-law-universities-and-the-media-have-a-common-goal-silence-dissent-against-authoritarian-rule/)
++ [Trump Administration Gives All Clear to Laundering Money through Shell Companies and Bribing Foreign Officials](https://wallstreetonparade.com/2025/03/trump-administration-gives-all-clear-to-laundering-money-through-shell-companies-and-bribing-foreign-officials/)
++ [Four Megabanks on Wall Street Hold $3.2 Trillion in Uninsured Deposits – Which May Explain Senator Schumer’s Pivot to the GOP to Stop a Government Shutdown](https://wallstreetonparade.com/2025/03/four-megabanks-on-wall-street-hold-3-2-trillion-in-uninsured-deposits-which-may-explain-senator-schumers-pivot-to-the-gop-to-stop-a-government-shutdown/)
++ [Here’s What Came Crashing Down Yesterday for Trump’s “Genius” Guy, Elon Musk: Tesla Stock, Access to Twitter (X), His Years of Secret Calls with Putin](https://wallstreetonparade.com/2025/03/heres-what-came-crashing-down-yesterday-for-trumps-genius-guy-elon-musk-tesla-stock-access-to-twitter-x-his-years-of-secret-calls-with-putin/)
++ [After Banning the Associated Press, Trump Is Now Targeting Specific Journalists That He Wants to See Fired](https://wallstreetonparade.com/2025/03/after-banning-the-associated-press-trump-is-now-targeting-specific-journalists-that-he-wants-to-see-fired/)
++ [Closely Watched Atlanta Fed Model Predicts Negative U.S. Growth in First Quarter](https://wallstreetonparade.com/2025/03/closely-watched-atlanta-fed-model-predicts-negative-u-s-growth-in-first-quarter/)
++ [Trump’s Gangster Diplomacy Makes Front Page Headlines Around the Globe](https://wallstreetonparade.com/2025/03/trumps-gangster-diplomacy-makes-front-page-headlines-around-the-globe/)
++ [Who Benefits Alongside Elon Musk If He Succeeds in Killing the CFPB: the Megabanks on Wall Street that Underwrite His Tesla Stock Offerings](https://wallstreetonparade.com/2025/02/who-benefits-alongside-elon-musk-if-he-succeeds-in-killing-the-cfpb-the-megabanks-on-wall-street-that-underwrite-his-tesla-stock-offerings/)
++ [In Trump 1.0, the State Department Used Taxpayer Money to Publish a Book Elevating Elon Musk to a Superhero; It Was Funded by USAID, the Agency Musk Wants to Quickly Shut Down](https://wallstreetonparade.com/2025/02/in-trump-1-0-the-state-department-used-taxpayer-money-to-publish-a-book-elevating-elon-musk-to-a-superhero-it-was-funded-by-usaid-the-agency-musk-wants-to-quickly-shut-down/)
++ [News Host Joy Reid Raises Threat of Trump Selling U.S. to Putin; Ten Days Later Her Show Is Cancelled](https://wallstreetonparade.com/2025/02/news-host-joy-reid-raises-threat-of-trump-selling-u-s-to-putin-ten-days-later-her-show-is-cancelled/)
++ [Elon Musk’s DOGE Appears to Be Violating a Court Order; It Has Taken Down Hundreds of YouTube Videos that Educate Americans on How to Avoid Being Swindled](https://wallstreetonparade.com/2025/02/elon-musks-doge-appears-to-be-violating-a-court-order-it-has-taken-down-hundreds-of-youtube-videos-that-educate-americans-on-how-to-avoid-being-swindled/)
++ [Barron’s Releases Audio of Jamie Dimon Cursing Out His Workers at a Town Hall, as Dimon Plans to Dump Another One Million JPM Shares](https://wallstreetonparade.com/2025/02/barrons-releases-audio-of-jamie-dimon-cursing-out-his-workers-at-a-town-hall-as-dimon-plans-to-dump-another-one-million-jpm-shares/)
++ [There’s One Federal Investigative Agency that Neither Trump nor Elon Musk Can Touch: It Just Opened an Investigation into DOGE](https://wallstreetonparade.com/2025/02/theres-one-federal-investigative-agency-that-neither-trump-nor-elon-musk-can-touch-it-just-opened-an-investigation-into-doge/)
++ [Elon Musk’s Companies Were Under Investigation by Five Inspectors General When the Trump Administration Fired Them and Made Musk the Investigator](https://wallstreetonparade.com/2025/02/elon-musks-companies-were-under-investigation-by-five-inspectors-general-when-the-trump-administration-fired-them-and-made-musk-the-investigator/)
++ [Donald Trump Gives the Greenlight to Goldman Sachs and JPMorgan Chase to Return to Bribing Foreign Officials](https://wallstreetonparade.com/2025/02/donald-trump-gives-the-greenlight-to-goldman-sachs-and-jpmorgan-chase-to-return-to-bribing-foreign-officials/)
++ [After Tech Geeks Built a Back Door to Loot Billions from FTX, Republicans Refuse to Investigate What Elon Musk’s Tech-Squad Did Inside the U.S. Treasury’s Payment System](https://wallstreetonparade.com/2025/02/after-tech-geeks-built-a-back-door-to-loot-billions-from-ftx-republicans-refuse-to-investigate-what-elon-musks-tech-squad-did-inside-the-u-s-treasurys-payment-system/)
++ [Former Prosecutor, Now U.S. Senator, Informs Tesla That CEO Musk May Be Violating Federal Law and to “Preserve All Records”](https://wallstreetonparade.com/2025/02/former-prosecutor-now-u-s-senator-informs-tesla-that-ceo-musk-may-be-violating-federal-law-and-to-preserve-all-records/)
++ [Trump’s Hedge Fund Guy Is Now Overseeing the U.S. Treasury, IRS, OCC, U.S. Mint, FinCEN, F-SOC, and the Consumer Financial Protection Bureau](https://wallstreetonparade.com/2025/02/trumps-hedge-fund-guy-is-now-overseeing-the-u-s-treasury-irs-occ-u-s-mint-fincen-f-soc-and-the-consumer-financial-protection-bureau/)
++ [As Elon Musk Begins Shutting Down Payments to Federal Contractors, a Strange Money Trail Emerges to His Operatives Inside the U.S. Treasury’s Payment System](https://wallstreetonparade.com/2025/02/as-elon-musk-begins-shutting-down-payments-to-federal-contractors-a-strange-money-trail-emerges-to-his-operatives-inside-the-u-s-treasurys-payment-system/)
++ [JPMorgan Chase Charged by Yet Another Internal Whistleblower with Cooking the Books](https://wallstreetonparade.com/2025/01/jpmorgan-chase-charged-by-yet-another-internal-whistleblower-with-cooking-the-books/)
++ [We Asked Google’s AI Search Model, Gemini, Questions About the Fed and Wall Street Megabanks: It Got the Answers Dead Wrong](https://wallstreetonparade.com/2025/01/we-asked-googles-ai-search-model-gemini-questions-about-the-fed-and-wall-street-megabanks-it-got-the-answers-dead-wrong/)
++ [With Trump and Melania’s Crypto Coins Likely to Raise Legal Challenges, Why Didn’t Trump Fire the SEC’s Inspector General in His Purge of IGs?](https://wallstreetonparade.com/2025/01/with-trump-and-melanias-crypto-coins-likely-to-raise-legal-challenges-why-didnt-trump-fire-the-secs-inspector-general-in-his-purge-of-igs/)
++ [Fossil Fuel Industry Could End Up Paying Tens of Billions for LA Wildfires and Deceiving the Public on Climate Change for Decades](https://wallstreetonparade.com/2025/01/fossil-fuel-industry-could-end-up-paying-tens-of-billions-for-la-wildfires-and-deceiving-the-public-on-climate-change-for-decades/)
++ [It’s Being Called the Biggest Grift by a President in U.S. History: Trump and First Lady Launch their Own Crypto Coins](https://wallstreetonparade.com/2025/01/its-being-called-the-biggest-grift-by-a-president-in-u-s-history-trump-and-first-lady-launch-their-own-crypto-coins/)
++ [Trump Plans to Install a Fracking CEO to Head the Energy Department and Declare a National Emergency on Energy to Gain Vast Powers](https://wallstreetonparade.com/2025/01/trump-plans-to-install-a-fracking-ceo-to-head-the-energy-department-and-declare-a-national-emergency-on-energy-to-gain-vast-powers/)
++ [Fossil Fuel Money Played a Role in the Los Angeles Fires and the Push to Install Pete Hegseth as Secretary of Defense](https://wallstreetonparade.com/2025/01/fossil-fuel-money-played-a-role-in-the-los-angeles-fires-and-the-push-to-install-pete-hegseth-as-secretary-of-defense/)
++ [When It Comes to Wealth Retention in Retirement, Concrete May Be the New Gold](https://wallstreetonparade.com/2025/01/when-it-comes-to-wealth-retention-in-retirement-concrete-may-be-the-new-gold/)
++ [Wall Street Watchdog Warns “Clock Is Ticking on a Coming Catastrophic Financial Crash”](https://wallstreetonparade.com/2025/01/wall-street-watchdog-warns-clock-is-ticking-on-a-coming-catastrophic-financial-crash/)
++ [Wall Street Is Sending the Same Message to Americans on Fossil Fuel Financing that It Sent on Cigarettes: Drop Dead](https://wallstreetonparade.com/2025/01/wall-street-is-sending-the-same-message-to-americans-on-fossil-fuel-financing-that-it-sent-on-cigarettes-drop-dead/)
++ [In a Six-Week Span, this Dark Pool with a Curious Past Traded 3.7 Billion Shares](https://wallstreetonparade.com/2025/01/in-a-six-week-span-this-dark-pool-with-a-curious-past-traded-3-7-billion-shares/)
++ [Wall Street’s Lobby Firm Hired Eugene Scalia of Gibson Dunn to Sue the Fed for Jamie Dimon](https://wallstreetonparade.com/2024/12/wall-streets-lobby-firm-hired-eugene-scalia-of-gibson-dunn-to-sue-the-fed-for-jamie-dimon/)
++ [Postmaster General Louis DeJoy Made $561,051 in Compensation in 2024, as Mail Costs Spiked and Delivery Deteriorated](https://wallstreetonparade.com/2024/12/postmaster-general-louis-dejoy-made-561051-in-compensation-in-2024-as-mail-costs-spiked-and-delivery-deteriorated/)
++ [Fed Chair Jay Powell Sends a Bold Message to Trump and Tanks the Dow by 1123 Points](https://wallstreetonparade.com/2024/12/fed-chair-jay-powell-sends-a-bold-message-to-trump-and-tanks-the-dow-by-1123-points/)
++ [The Head of Fixed Income at T. Rowe Price Makes the Scary Case for the 10-Year Treasury to Spike to 6 Percent](https://wallstreetonparade.com/2024/12/the-head-of-fixed-income-at-t-rowe-price-makes-the-scary-case-for-the-10-year-treasury-to-spike-to-6-percent/)
++ [$663 Billion in Cash Assets Have Gone Poof at the Largest U.S. Banks](https://wallstreetonparade.com/2024/12/663-billion-in-cash-assets-have-gone-poof-at-the-largest-u-s-banks/)
++ [Donald Trump to Ring Bell at New York Stock Exchange Today as Hit List Posters Appear in Manhattan Targeting Wall Street CEOs](https://wallstreetonparade.com/2024/12/donald-trump-to-ring-bell-at-new-york-stock-exchange-today-as-hit-list-posters-appear-in-manhattan-targeting-wall-street-ceos/)
++ [Trump Has a Slush Fund to Prop Up the Dollar – Will He Use It to Prop Up Bitcoin Instead?](https://wallstreetonparade.com/2024/12/trump-has-a-slush-fund-to-prop-up-the-dollar-will-he-use-it-to-prop-up-bitcoin-instead/)
++ [A CEO Assassination; a Billionaire Heiress/NYPD Commissioner; a Secret Wall Street Spy Center – Here’s How They’re Connected](https://wallstreetonparade.com/2024/12/a-ceo-assassination-a-billionaire-heiress-nypd-commissioner-a-secret-wall-street-spy-center-heres-how-theyre-connected/)
++ [Despite More than 1600 Tech Scientists Signing a Letter Calling Crypto a Sham, Trump Names a Crypto Cheerleader for SEC Chair](https://wallstreetonparade.com/2024/12/despite-more-than-1600-tech-scientists-signing-a-letter-calling-crypto-a-sham-trump-names-a-crypto-cheerleader-for-sec-chair/)
++ [The Fed Rings a Warning Bell: Hedge Funds and Life Insurers Are Reporting Historic Leverage](https://wallstreetonparade.com/2024/12/the-fed-rings-a-warning-bell-hedge-funds-and-life-insurers-are-reporting-historic-leverage/)
++ [Trump’s Nominee for FBI Director, Kash Patel, Has Businesses Financially Intertwined with Trump](https://wallstreetonparade.com/2024/12/trumps-nominee-for-fbi-director-kash-patel-has-businesses-financially-intertwined-with-trump/)
++ [Donald Trump Is at Risk of Getting Named in a Fossil Fuels Conspiracy Lawsuit](https://wallstreetonparade.com/2024/11/donald-trump-is-at-risk-of-getting-named-in-a-fossil-fuels-conspiracy-lawsuit/)
+
+* ### receive free wall street on parade emailed news alerts once daily
+
+Leave This Blank:Leave This Blank Too:Do Not Change This:
+
+Your email:
+* **Important**:
+* To make certain that your email provider does not block emails from *Wall Street On Parade*, or place them in your spam folder, please put alerts@wallstreetonparade.com in your email contact list or address book before you subscribe.
+* [![](https://wallstreetonparade.com/wp-content/uploads/2024/09/Feds-Megabank-Bailouts-1.jpg)](https://wallstreetonparade.com/wp-content/uploads/2024/09/Feds-Megabank-Bailouts-1.jpg)
+* From December 2007 through July 2010, the Federal Reserve secretly funneled $16.1 trillion in emergency revolving loans to the megabanks on Wall Street and their foreign counterparts at below-market interest rates. The Fed took this action without a single vote in Congress. The Fed then battled in court for more than two years to keep these unprecedented giveaways a secret from the American people. It lost on its arguments for secrecy at both the U.S. District and Appellate Court level. The U.S. Supreme Court declined to hear a related case advocating secrecy that was brought by a megabank front group, the Clearing House Association.
+
+Instead of punishment for their corrupt actions that crashed the U.S. economy in 2008, the Wall Street megabanks were rewarded with secret bailouts.
+
+The Dodd-Frank financial reform legislation of 2010 was supposed to stop these trillion-dollar giveaways from the Fed to the one percent on Wall Street. But the trillion-dollar bailouts at the Fed started up again on September 17, 2019 in the form of emergency repo loans.
+
+The Fed’s emergency repo loan operations came months before the COVID-19 virus had emerged in China or anywhere else in the world. That strongly suggests to us that Wall Street megabanks had a serious problem independent of the virus outbreak.
+
+Mainstream media refused to cover the repo loan bailouts in any depth, and censored the details when the Fed was forced under law to reveal that it had, once again, funneled trillions of dollars in revolving loans to Wall Street in the fourth quarter of 2019 and beyond.
+
+The Fed’s multi-trillion-dollar emergency bailout programs from 2008 were reactivated again for the COVID-19 pandemic in 2020, marking the third massive bailout of Wall Street by the Fed in a dozen years. **This is unprecedented in the 111-year history of the Fed, meaning the financial system of the U.S. is dramatically on the wrong course.**
+
+*Wall Street On Parade* views these Fed bailouts as an integral part of an institutionalized wealth transfer system from the 99 percent to the 1 percent. [For our ongoing archive of articles on the Fed’s unprecedented bailouts, click on this text.](https://wallstreetonparade.com/9426-2/)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+[![web analytics](https://c.statcounter.com/7641395/0/ab261695/1/)](https://statcounter.com/ "web analytics")
+
+
+

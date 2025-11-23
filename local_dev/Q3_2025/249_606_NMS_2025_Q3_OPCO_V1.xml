@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Oppenheimer &amp; Co., Inc.</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-29T21:12:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>83.33</ndoMarketPct>
+      <ndoMarketableLimitPct>3.44</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>10.40</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.82</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>39.95</orderPct>
+          <marketPct>40.30</marketPct>
+          <marketableLimitPct>37.29</marketableLimitPct>
+          <nonMarketableLimitPct>38.69</nonMarketableLimitPct>
+          <otherPct>37.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3550.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>787.14</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>710.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>53.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.4627</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Virtu/NITE based on a rate per shares executed of 14 cents per 100 shares. Arrangements with NITE are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>39.65</orderPct>
+          <marketPct>38.28</marketPct>
+          <marketableLimitPct>44.79</marketableLimitPct>
+          <nonMarketableLimitPct>45.10</nonMarketableLimitPct>
+          <otherPct>53.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4427.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1526.41</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1296.13</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>87.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.7992</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per shares executed of 16 cents per 100 shares. Arrangements with CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>14.67</orderPct>
+          <marketPct>15.75</marketPct>
+          <marketableLimitPct>12.15</marketableLimitPct>
+          <nonMarketableLimitPct>9.69</nonMarketableLimitPct>
+          <otherPct>4.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2249.17</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>254.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>238.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>28.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from StoneX Financial, Inc./INTL based on a rate per shares executed of 16 cents per 100 shares. Arrangements with INTL are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>58.49</ndoMarketPct>
+      <ndoMarketableLimitPct>10.94</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>28.84</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.73</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>38.32</orderPct>
+          <marketPct>37.38</marketPct>
+          <marketableLimitPct>38.79</marketableLimitPct>
+          <nonMarketableLimitPct>39.50</nonMarketableLimitPct>
+          <otherPct>47.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>19344.48</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.2834</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>17981.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.1162</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10606.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.7155</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>312.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.8076</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per shares executed of 16 cents per 100 shares. Arrangements with CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>37.42</orderPct>
+          <marketPct>38.81</marketPct>
+          <marketableLimitPct>34.94</marketableLimitPct>
+          <nonMarketableLimitPct>35.35</nonMarketableLimitPct>
+          <otherPct>40.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>19348.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.3560</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>13763.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.9004</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8611.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.2409</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>245.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.1026</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Virtu/NITE based on a rate per shares executed of 14 cents per 100 shares. Arrangements with NITE are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>16.33</orderPct>
+          <marketPct>16.82</marketPct>
+          <marketableLimitPct>16.98</marketableLimitPct>
+          <nonMarketableLimitPct>15.90</nonMarketableLimitPct>
+          <otherPct>3.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9109.42</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.3868</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4813.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.7774</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3665.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.4140</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>71.37</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from StoneX Financial, Inc./INTL based on a rate per shares executed of 16 cents per 100 shares. Arrangements with INTL are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.37</ndoMarketPct>
+      <ndoMarketableLimitPct>7.28</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>41.08</ndoNonmarketableLimitPct>
+      <ndoOtherPct>43.27</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>29.42</orderPct>
+          <marketPct>52.05</marketPct>
+          <marketableLimitPct>37.98</marketableLimitPct>
+          <nonMarketableLimitPct>42.08</nonMarketableLimitPct>
+          <otherPct>11.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3475.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.0880</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>15478.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>44.9148</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>21155.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>45.4529</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>10881.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.3561</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per contracts executed. Arrangements with Citadel/CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.75 for options that quote in nickel increments; $0.70 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments. For executions of Index options, CDRG does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>20.52</orderPct>
+          <marketPct>28.33</marketPct>
+          <marketableLimitPct>31.65</marketableLimitPct>
+          <nonMarketableLimitPct>28.97</nonMarketableLimitPct>
+          <otherPct>9.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2431.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.0672</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>23324.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.6979</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>32941.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>37.2261</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>12228.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.9409</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Global Execution/GEBB based on a rate per contracts executed. Arrangements with GEBB are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.70 for options that quote in nickel increments; $0.75 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments.   For executions of Index options, GEBB does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>17.99</orderPct>
+          <marketPct>18.90</marketPct>
+          <marketableLimitPct>28.05</marketableLimitPct>
+          <nonMarketableLimitPct>23.18</nonMarketableLimitPct>
+          <otherPct>11.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1800.43</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>27.0986</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>17549.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>46.2798</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>21186.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.8333</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>80061.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.5651</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Wolverine/WEXX based on a rate per contracts executed. Arrangements with WEXX are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.70 for options that quote in nickel increments; $0.75 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments.   For executions of Index options, Wolverine does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>4.37</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.17</marketableLimitPct>
+          <nonMarketableLimitPct>2.62</nonMarketableLimitPct>
+          <otherPct>7.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-999.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-30.8287</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>36116.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.7431</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1089.07</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.8598</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>4.25</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.06</nonMarketableLimitPct>
+          <otherPct>9.74</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-157.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.3918</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-376.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.7876</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>68472.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.2490</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>3.62</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+          <otherPct>8.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-87.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.6735</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-176.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.6128</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1680.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-14.4767</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>3.27</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.11</nonMarketableLimitPct>
+          <otherPct>7.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-810.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-42.7440</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2744.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-45.8398</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5261.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.7376</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>2.96</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.19</nonMarketableLimitPct>
+          <otherPct>6.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-263.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.1986</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4593.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-26.0351</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-15883.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-29.0657</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>2.51</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.12</marketableLimitPct>
+          <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+          <otherPct>5.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-252.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.0105</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>75.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.0817</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>10358.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>53.4507</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>2.38</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>5.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3135.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-45.9840</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-6118.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-46.3732</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11836.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.9536</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>81.77</ndoMarketPct>
+      <ndoMarketableLimitPct>3.60</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>11.97</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.65</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>41.08</orderPct>
+          <marketPct>41.48</marketPct>
+          <marketableLimitPct>38.75</marketableLimitPct>
+          <nonMarketableLimitPct>40.24</nonMarketableLimitPct>
+          <otherPct>35.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3566.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>721.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>803.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>42.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.4757</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Virtu/NITE based on a rate per shares executed of 14 cents per 100 shares. Arrangements with NITE are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>40.44</orderPct>
+          <marketPct>39.49</marketPct>
+          <marketableLimitPct>41.69</marketableLimitPct>
+          <nonMarketableLimitPct>44.45</nonMarketableLimitPct>
+          <otherPct>50.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4234.71</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>563.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>847.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>114.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0867</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per shares executed of 16 cents per 100 shares. Arrangements with CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>13.20</orderPct>
+          <marketPct>14.27</marketPct>
+          <marketableLimitPct>11.91</marketableLimitPct>
+          <nonMarketableLimitPct>8.32</nonMarketableLimitPct>
+          <otherPct>4.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2284.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>306.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>269.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>41.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from StoneX Financial, Inc./INTL based on a rate per shares executed of 16 cents per 100 shares. Arrangements with INTL are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>58.37</ndoMarketPct>
+      <ndoMarketableLimitPct>10.64</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>29.36</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.63</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>39.00</orderPct>
+          <marketPct>38.72</marketPct>
+          <marketableLimitPct>38.71</marketableLimitPct>
+          <nonMarketableLimitPct>39.15</nonMarketableLimitPct>
+          <otherPct>48.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>22111.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.7328</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12032.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.3742</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10777.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.3769</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>396.66</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.5633</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per shares executed of 16 cents per 100 shares. Arrangements with CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>37.99</orderPct>
+          <marketPct>39.06</marketPct>
+          <marketableLimitPct>35.77</marketableLimitPct>
+          <nonMarketableLimitPct>36.67</nonMarketableLimitPct>
+          <otherPct>38.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>22966.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.7982</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12260.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.9169</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9558.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.9009</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>388.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.5761</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Virtu/NITE based on a rate per shares executed of 14 cents per 100 shares. Arrangements with NITE are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>15.19</orderPct>
+          <marketPct>15.50</marketPct>
+          <marketableLimitPct>15.96</marketableLimitPct>
+          <nonMarketableLimitPct>14.92</nonMarketableLimitPct>
+          <otherPct>3.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10208.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.6604</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4410.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.5994</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3968.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.8969</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>128.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from StoneX Financial, Inc./INTL based on a rate per shares executed of 16 cents per 100 shares. Arrangements with INTL are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.53</ndoMarketPct>
+      <ndoMarketableLimitPct>8.91</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>41.11</ndoNonmarketableLimitPct>
+      <ndoOtherPct>41.45</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>28.43</orderPct>
+          <marketPct>50.44</marketPct>
+          <marketableLimitPct>34.88</marketableLimitPct>
+          <nonMarketableLimitPct>42.97</nonMarketableLimitPct>
+          <otherPct>8.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4239.37</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.2057</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>21519.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>47.0069</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19089.94</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.2755</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4282.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.1555</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per contracts executed. Arrangements with Citadel/CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.75 for options that quote in nickel increments; $0.70 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments. For executions of Index options, CDRG does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>21.45</orderPct>
+          <marketPct>29.68</marketPct>
+          <marketableLimitPct>30.47</marketableLimitPct>
+          <nonMarketableLimitPct>31.01</nonMarketableLimitPct>
+          <otherPct>8.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3099.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.3358</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>50050.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>48.9607</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>44359.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.8606</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>12248.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.6192</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Global Execution/GEBB based on a rate per contracts executed. Arrangements with GEBB are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.70 for options that quote in nickel increments; $0.75 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments.   For executions of Index options, GEBB does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>14.98</orderPct>
+          <marketPct>19.24</marketPct>
+          <marketableLimitPct>23.44</marketableLimitPct>
+          <nonMarketableLimitPct>21.10</nonMarketableLimitPct>
+          <otherPct>6.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3149.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.6882</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>25568.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>46.4962</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19336.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.7220</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>41088.55</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.4370</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Wolverine/WEXX based on a rate per contracts executed. Arrangements with WEXX are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.70 for options that quote in nickel increments; $0.75 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments.   For executions of Index options, Wolverine does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>5.61</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.71</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>13.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1139.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.5751</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1.27</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0328</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>74498.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.1005</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>4.38</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.92</marketableLimitPct>
+          <nonMarketableLimitPct>2.80</nonMarketableLimitPct>
+          <otherPct>7.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6631.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-30.9509</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>31091.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.1167</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3773.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.5786</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>4.32</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.24</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>10.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-698.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.6480</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-9.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.6843</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1092.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.2895</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>3.75</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.48</marketableLimitPct>
+          <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+          <otherPct>8.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-5572.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-44.3744</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-37.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-35.5139</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7758.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.4737</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>3.14</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.31</marketableLimitPct>
+          <nonMarketableLimitPct>0.10</nonMarketableLimitPct>
+          <otherPct>7.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1534.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-15.8864</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3133.27</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-51.0221</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-13051.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-23.5211</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>2.49</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.54</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>5.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-207.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-1.7419</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>21.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.0456</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>8799.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>54.1370</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>2.44</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.44</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>5.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9701.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-47.6296</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-113.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-52.1480</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11457.55</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.3287</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>82.30</ndoMarketPct>
+      <ndoMarketableLimitPct>3.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>11.01</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.17</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>40.35</orderPct>
+          <marketPct>39.77</marketPct>
+          <marketableLimitPct>40.96</marketableLimitPct>
+          <nonMarketableLimitPct>44.58</nonMarketableLimitPct>
+          <otherPct>40.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4231.57</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1450.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>935.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>96.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.6788</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per shares executed of 16 cents per 100 shares. Arrangements with CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>39.98</orderPct>
+          <marketPct>39.51</marketPct>
+          <marketableLimitPct>42.09</marketableLimitPct>
+          <nonMarketableLimitPct>39.48</nonMarketableLimitPct>
+          <otherPct>51.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3547.54</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>469.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>660.43</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>38.40</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.6280</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Virtu/NITE based on a rate per shares executed of 14 cents per 100 shares. Arrangements with NITE are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>13.67</orderPct>
+          <marketPct>14.92</marketPct>
+          <marketableLimitPct>10.34</marketableLimitPct>
+          <nonMarketableLimitPct>8.29</nonMarketableLimitPct>
+          <otherPct>3.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2145.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>190.64</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>283.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>22.86</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from StoneX Financial, Inc./INTL based on a rate per shares executed of 16 cents per 100 shares. Arrangements with INTL are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>56.59</ndoMarketPct>
+      <ndoMarketableLimitPct>11.53</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>30.17</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.71</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>38.31</orderPct>
+          <marketPct>38.25</marketPct>
+          <marketableLimitPct>38.00</marketableLimitPct>
+          <nonMarketableLimitPct>38.29</nonMarketableLimitPct>
+          <otherPct>42.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>22009.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.7250</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20273.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.6709</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12115.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.6618</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>282.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.5229</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per shares executed of 16 cents per 100 shares. Arrangements with CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e., order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>37.26</orderPct>
+          <marketPct>37.86</marketPct>
+          <marketableLimitPct>36.07</marketableLimitPct>
+          <nonMarketableLimitPct>36.73</nonMarketableLimitPct>
+          <otherPct>34.61</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>21520.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.7017</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>16163.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.7207</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11672.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.1896</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>319.51</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.5811</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Virtu/NITE based on a rate per shares executed of 14 cents per 100 shares. Arrangements with NITE are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>15.74</orderPct>
+          <marketPct>16.34</marketPct>
+          <marketableLimitPct>16.13</marketableLimitPct>
+          <nonMarketableLimitPct>15.13</nonMarketableLimitPct>
+          <otherPct>3.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9162.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.8366</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5623.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.8378</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4601.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.9517</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>141.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from StoneX Financial, Inc./INTL based on a rate per shares executed of 16 cents per 100 shares. Arrangements with INTL are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer does not receive payment for odd lot orders or for stocks priced under $1.00.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.39</ndoMarketPct>
+      <ndoMarketableLimitPct>9.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>36.67</ndoNonmarketableLimitPct>
+      <ndoOtherPct>45.41</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>26.85</orderPct>
+          <marketPct>53.74</marketPct>
+          <marketableLimitPct>33.02</marketableLimitPct>
+          <nonMarketableLimitPct>41.59</nonMarketableLimitPct>
+          <otherPct>8.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4287.99</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.0101</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>31717.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>54.6030</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>16899.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.6323</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4579.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.7372</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Citadel/CDRG based on a rate per contracts executed. Arrangements with Citadel/CDRG are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.75 for options that quote in nickel increments; $0.70 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments. For executions of Index options, CDRG does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>18.70</orderPct>
+          <marketPct>26.96</marketPct>
+          <marketableLimitPct>31.27</marketableLimitPct>
+          <nonMarketableLimitPct>28.50</nonMarketableLimitPct>
+          <otherPct>6.61</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2669.57</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.2330</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>57237.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>54.9252</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>31631.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>39.1939</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11765.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.2722</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Global Execution/GEBB based on a rate per contracts executed. Arrangements with GEBB are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.70 for options that quote in nickel increments; $0.75 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments.   For executions of Index options, GEBB does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>15.40</orderPct>
+          <marketPct>19.09</marketPct>
+          <marketableLimitPct>26.37</marketableLimitPct>
+          <nonMarketableLimitPct>24.15</nonMarketableLimitPct>
+          <otherPct>5.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2966.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.7316</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>28613.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>53.2191</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>16266.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.7299</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>50245.53</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.4742</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer receives remuneration from Wolverine/WEXX based on a rate per contracts executed. Arrangements with WEXX are not based upon order flow, volume minimums / maximums, decreased execution quality for increased payment, or the characteristics and categories of the order flow (i.e. order types). In addition, such arrangements do not include incentive or disincentive benchmarks. Oppenheimer receives per contract: $0.70 for options that quote in nickel increments; $0.75 for complex orders that quote in nickel increments; $0.25 for options that quote in penny increments; and, $0.35 for complex orders that trade in penny increments.   For executions of Index options, Wolverine does not pay a fixed rate but will pass through any fess or rebates to Oppenheimer.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>6.13</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.51</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>13.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1461.64</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.1544</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-25.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-2.4363</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>106760.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.4721</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>4.76</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.27</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>10.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-675.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.4114</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-8.1880</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1303.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.3966</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>4.74</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.79</marketableLimitPct>
+          <nonMarketableLimitPct>3.50</nonMarketableLimitPct>
+          <otherPct>7.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-4605.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-21.1564</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>58713.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.9781</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-6754.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-15.6724</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>4.27</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.51</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>9.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7201.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-45.1005</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-148.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-44.6976</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5877.37</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.4186</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>3.41</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.33</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>7.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2846.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-14.3460</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2020.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-41.4450</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-10166.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-21.5522</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>3.09</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.54</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>6.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>380.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.2253</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-85.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-9.4341</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6438.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>51.3826</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq MRX, LLC</name>
+          <orderPct>2.61</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.45</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>5.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4951.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.8069</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-18.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-25.4228</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-190.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1.7399</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>2.59</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.39</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>5.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-13137.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-46.9007</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-186.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-37.7825</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>17928.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.0818</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Oppenheimer may route orders to Instinet LLC and/or DASH Financial, which will then route to exchanges of their choosing for possible execution.  Instinet LLC (INCA): Instinet charges Oppenheimer $0.015-0.045 per executed contract based on a volume-tiered pricing schedule (0-600,000 is $0.045; 600,001-900,000 is $0.025; &gt;900,001 is $0.015). Instinet will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. DASH Financial (DFIN): DASH charges Oppenheimer $0.03-0.05 per executed contract based on a volume-tiered pricing schedule (0-250,000 is $0.05; 250,001-500,000 is $0.04; &gt;500,001 is $0.03).  DASH will pass through to Oppenheimer, the Exchange base tier, net exchange fees or rebates from Oppenheimer’s orders. Additionally, Oppenheimer may route orders to DASH’s High Touch desk for manual execution, DASH charges Oppenheimer $0.15 per initiated executed contract; there is no volume-tiered base incentives. There are no disincentives for failing to meet an agreed upon minimum order flow threshold.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

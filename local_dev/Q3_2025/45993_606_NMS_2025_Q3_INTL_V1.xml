@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>StoneX Financial, Inc.</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-29T21:01:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>19.43</ndoMarketPct>
+      <ndoMarketableLimitPct>1.25</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>69.84</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.48</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>86.05</orderPct>
+          <marketPct>43.83</marketPct>
+          <marketableLimitPct>58.46</marketableLimitPct>
+          <nonMarketableLimitPct>96.85</nonMarketableLimitPct>
+          <otherPct>96.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI did not receive payment for order flow from this venue for this period.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>8.43</orderPct>
+          <marketPct>33.81</marketPct>
+          <marketableLimitPct>24.79</marketableLimitPct>
+          <nonMarketableLimitPct>1.96</nonMarketableLimitPct>
+          <otherPct>1.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>297.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>189.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9912</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>125.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from UBS Securities, LLC (“UBS”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through UBS during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with UBS with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While UBS may receive rebates or other compensation from exchanges in connection with SFI orders, UBS does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>5.52</orderPct>
+          <marketPct>22.36</marketPct>
+          <marketableLimitPct>16.75</marketableLimitPct>
+          <nonMarketableLimitPct>1.18</nonMarketableLimitPct>
+          <otherPct>1.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>468.32</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>29.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0030</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>41.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.7312</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.97</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.4787</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel Securities LLC (“Citadel”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with Citadel with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.84</ndoPct>
+      <ndoMarketPct>24.08</ndoMarketPct>
+      <ndoMarketableLimitPct>8.13</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>62.64</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.15</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>91.33</orderPct>
+          <marketPct>76.08</marketPct>
+          <marketableLimitPct>92.59</marketableLimitPct>
+          <nonMarketableLimitPct>97.05</nonMarketableLimitPct>
+          <otherPct>91.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI did not receive payment for order flow from this venue for this period.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>5.17</orderPct>
+          <marketPct>13.60</marketPct>
+          <marketableLimitPct>4.85</marketableLimitPct>
+          <nonMarketableLimitPct>1.88</nonMarketableLimitPct>
+          <otherPct>6.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3381.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.7373</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3261.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.4429</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2084.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.8859</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>367.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from UBS Securities, LLC (“UBS”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through UBS during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with UBS with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While UBS may receive rebates or other compensation from exchanges in connection with SFI orders, UBS does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.28</ndoMarketPct>
+      <ndoMarketableLimitPct>8.44</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>36.08</ndoNonmarketableLimitPct>
+      <ndoOtherPct>47.19</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>79.58</orderPct>
+          <marketPct>84.32</marketPct>
+          <marketableLimitPct>35.43</marketableLimitPct>
+          <nonMarketableLimitPct>66.96</nonMarketableLimitPct>
+          <otherPct>96.30</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1176.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0406</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>11357.89</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.8839</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>14498.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.9894</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>237033.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.0939</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI has paid fees to and/or has received payment from Matrix Executions, LLC (“Matrix”) in the amounts shown above for executable/marketable options orders (other than orders in index options) that were routed to and executed through or with Matrix during the month indicated. Such amounts were calculated (and SFI was paid) (1) at a rate of $0.12 per executed contact for executable/marketable orders in options that are quoted and trade in penny ($0.01) increments and at a rate of $0.25 per executed contract for executable/marketable orders in options that are quoted in non-penny increments and (2) based upon the amount Matrix receives from applicable options exchanges and shares with SFI (as described below) for crossing SFI options orders on such options exchanges, as described in greater detail below. 
+
+As indicated above, SFI receives all or a portion of the compensation Matrix receives from executing SFI options orders on applicable options exchanges and the amount of such compensation varies based upon the options exchange, whether the order was crossed on the exchange, whether the order was crossed electronically or on the applicable options exchange floor as part of a qualified contingent cross, and/or the professional/non-professional (that is, retail) nature of the counterparties to such cross. Specifically, SFI receives from Matrix: 
+
+· For SFI orders routed to options exchanges with complex order books, SFI receives 100% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders; 
+
+· For SFI orders routed to options exchanges as crosses (other than as indicated below), SFI received 100% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders; 
+
+· For qualified contingent crosses executed electronically on the BOX Exchange or MIAX Exchange, $0.10 per executed contracts for crosses with a counterparty characterized as a “Customer” or a “Professional Customer” and $0.15 per executed contracts for crosses with a counterparty not characterized as a “Customer.”
+
+· For qualified contingent crosses and solicitation agency orders executed electronically on the, EDGX options exchange, $0.10 per executed contracts for crosses with a counterparty characterized as a “Customer” or a “Professional Customer” and $0.15 per executed contracts for crosses with a counterparty not characterized as a “Customer.” 
+
+· For non-qualified contingent crosses executed natively, SFI receives 100% of the rebates that Matrix receives based on the total volume from the exchanges where execution occurred. 
+ 
+· For SFI orders submitted as an agency order, including an order with a designated give up, that crosses with a response order (also referred to as a break up order), SFI receives 50% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders.
+
+· For SFI orders in specific accounts mutually agreed upon by StoneX and Matrix that predominantly take liquidity, Matrix charges a commission of $0.035 per contract, and provides a $0.40 incentive per contract for orders that add liquidity.
+
+Matrix’s receipt of rebates from applicable options exchanges and the volume-based tiering payment schedules of those options exchanges potentially provides an incentive for Matrix to route orders to one options exchange over another so as potentially to maximize the benefit of such rebates or such volume-based tiering. Although SFI does not participate in Matrix’s routing decisions, SFI can benefit from any potential routing by Matrix as a result of SFI’s receipt of all or a portion of the compensation Matrix receives from such options exchanges. Other than the foregoing, SFI’s arrangement with Matrix is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. Finally, as indicated above, SFI’s receipt of rebates from Matrix for crosses executed on applicable options exchanges are subject to the volume-based tier applicable to SFI’s order flow notwithstanding that Matrix may receive a greater benefit from volume-based tiering as a result of aggregate order flow routed for SFI and other broker-dealers for which Matrix routes options orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.52</orderPct>
+          <marketPct>15.68</marketPct>
+          <marketableLimitPct>12.99</marketableLimitPct>
+          <nonMarketableLimitPct>18.00</nonMarketableLimitPct>
+          <otherPct>1.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>908.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.9596</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3722.64</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.7511</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3542.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.2441</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-512.18</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-37.0608</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel in the amounts shown above for executable/marketable options orders (other than orders in index options) that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.25 per executed contract for executable/marketable orders in options that are quoted and trade in penny ($0.01) increments and at a rate of $0.50 per executed contract for executable/marketable orders in options that are quoted and trade in nickel ($0.05) increments. 
+
+SFI’s arrangement with Citadel is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from options exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>2.91</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.78</marketableLimitPct>
+          <nonMarketableLimitPct>7.90</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>310.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>All options venues listed in the table above (except for Citadel Securities LLC, Matrix Executions, LLC / Simplex Trading, LLC) are attributed to StoneX Financial (SFI) routing non-directed options orders to BofA Securities, Inc (“BofA”). Details regarding BofA options order routing are outlined below. The figures in the table represent the net rebates and fees that SFI receives or pays in connection with the routing activities involving BofA.
+
+BofA Securities, Inc:
+SFI has paid fees to and/or has received payment from BofA Securities in the amounts shown above for executable/marketable options orders that were routed to and executed through BofA Securities during the month indicated. Such amounts were calculated (and SFI was paid) at a rate of $0.10 per executed non-index contract for orders in options. SFI pays BofA Securities at a rate of $0.50 per executed index contract for orders in options.
+
+SFI’s arrangement with BofA Securities is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. While BofA Securities may receive rebates or other compensation from options exchanges in connection with SFI orders, BofA Securities does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>27.54</ndoMarketPct>
+      <ndoMarketableLimitPct>2.66</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>61.24</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.57</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>75.12</orderPct>
+          <marketPct>28.54</marketPct>
+          <marketableLimitPct>61.70</marketableLimitPct>
+          <nonMarketableLimitPct>94.32</nonMarketableLimitPct>
+          <otherPct>91.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI did not receive payment for order flow from this venue for this period.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>15.26</orderPct>
+          <marketPct>43.14</marketPct>
+          <marketableLimitPct>24.05</marketableLimitPct>
+          <nonMarketableLimitPct>3.76</nonMarketableLimitPct>
+          <otherPct>5.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>476.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9988</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>551.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9998</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>157.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>41.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from UBS Securities, LLC (“UBS”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through UBS during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with UBS with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While UBS may receive rebates or other compensation from exchanges in connection with SFI orders, UBS does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.61</orderPct>
+          <marketPct>28.32</marketPct>
+          <marketableLimitPct>14.25</marketableLimitPct>
+          <nonMarketableLimitPct>1.91</nonMarketableLimitPct>
+          <otherPct>3.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>431.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>136.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9333</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>64.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.0106</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>9.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.6150</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel Securities LLC (“Citadel”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with Citadel with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.81</ndoPct>
+      <ndoMarketPct>28.81</ndoMarketPct>
+      <ndoMarketableLimitPct>9.58</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>57.27</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.34</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>83.61</orderPct>
+          <marketPct>61.95</marketPct>
+          <marketableLimitPct>87.96</marketableLimitPct>
+          <nonMarketableLimitPct>93.62</nonMarketableLimitPct>
+          <otherPct>85.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI did not receive payment for order flow from this venue for this period.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>10.05</orderPct>
+          <marketPct>22.55</marketPct>
+          <marketableLimitPct>7.71</marketableLimitPct>
+          <nonMarketableLimitPct>4.15</nonMarketableLimitPct>
+          <otherPct>10.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4070.78</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8455</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3733.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.1010</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2044.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.9471</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>120.81</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from UBS Securities, LLC (“UBS”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through UBS during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with UBS with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While UBS may receive rebates or other compensation from exchanges in connection with SFI orders, UBS does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>6.33</orderPct>
+          <marketPct>15.50</marketPct>
+          <marketableLimitPct>4.31</marketableLimitPct>
+          <nonMarketableLimitPct>2.22</nonMarketableLimitPct>
+          <otherPct>4.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3675.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.5680</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1451.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.7597</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1394.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.4545</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>252.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.7925</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel Securities LLC (“Citadel”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with Citadel with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>5.02</ndoMarketPct>
+      <ndoMarketableLimitPct>9.46</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>32.19</ndoNonmarketableLimitPct>
+      <ndoOtherPct>53.32</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>78.20</orderPct>
+          <marketPct>68.29</marketPct>
+          <marketableLimitPct>32.56</marketableLimitPct>
+          <nonMarketableLimitPct>64.01</nonMarketableLimitPct>
+          <otherPct>95.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>418.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.2961</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5880.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.6267</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19307.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.7999</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>254080.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.3079</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI has paid fees to and/or has received payment from Matrix Executions, LLC (“Matrix”) in the amounts shown above for executable/marketable options orders (other than orders in index options) that were routed to and executed through or with Matrix during the month indicated. Such amounts were calculated (and SFI was paid) (1) at a rate of $0.12 per executed contact for executable/marketable orders in options that are quoted and trade in penny ($0.01) increments and at a rate of $0.25 per executed contract for executable/marketable orders in options that are quoted in non-penny increments and (2) based upon the amount Matrix receives from applicable options exchanges and shares with SFI (as described below) for crossing SFI options orders on such options exchanges, as described in greater detail below. 
+
+As indicated above, SFI receives all or a portion of the compensation Matrix receives from executing SFI options orders on applicable options exchanges and the amount of such compensation varies based upon the options exchange, whether the order was crossed on the exchange, whether the order was crossed electronically or on the applicable options exchange floor as part of a qualified contingent cross, and/or the professional/non-professional (that is, retail) nature of the counterparties to such cross. Specifically, SFI receives from Matrix: 
+
+· For SFI orders routed to options exchanges with complex order books, SFI receives 100% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders; 
+
+· For SFI orders routed to options exchanges as crosses (other than as indicated below), SFI received 100% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders; 
+
+· For qualified contingent crosses executed electronically on the BOX Exchange or MIAX Exchange, $0.10 per executed contracts for crosses with a counterparty characterized as a “Customer” or a “Professional Customer” and $0.15 per executed contracts for crosses with a counterparty not characterized as a “Customer.”
+
+· For qualified contingent crosses and solicitation agency orders executed electronically on the, EDGX options exchange, $0.10 per executed contracts for crosses with a counterparty characterized as a “Customer” or a “Professional Customer” and $0.15 per executed contracts for crosses with a counterparty not characterized as a “Customer.” 
+
+· For non-qualified contingent crosses executed natively, SFI receives 100% of the rebates that Matrix receives based on the total volume from the exchanges where execution occurred. 
+ 
+· For SFI orders submitted as an agency order, including an order with a designated give up, that crosses with a response order (also referred to as a break up order), SFI receives 50% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders.
+
+· For SFI orders in specific accounts mutually agreed upon by StoneX and Matrix that predominantly take liquidity, Matrix charges a commission of $0.035 per contract, and provides a $0.40 incentive per contract for orders that add liquidity.
+
+Matrix’s receipt of rebates from applicable options exchanges and the volume-based tiering payment schedules of those options exchanges potentially provides an incentive for Matrix to route orders to one options exchange over another so as potentially to maximize the benefit of such rebates or such volume-based tiering. Although SFI does not participate in Matrix’s routing decisions, SFI can benefit from any potential routing by Matrix as a result of SFI’s receipt of all or a portion of the compensation Matrix receives from such options exchanges. Other than the foregoing, SFI’s arrangement with Matrix is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. Finally, as indicated above, SFI’s receipt of rebates from Matrix for crosses executed on applicable options exchanges are subject to the volume-based tier applicable to SFI’s order flow notwithstanding that Matrix may receive a greater benefit from volume-based tiering as a result of aggregate order flow routed for SFI and other broker-dealers for which Matrix routes options orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>8.68</orderPct>
+          <marketPct>31.71</marketPct>
+          <marketableLimitPct>14.24</marketableLimitPct>
+          <nonMarketableLimitPct>15.62</nonMarketableLimitPct>
+          <otherPct>1.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1207.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.9032</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3024.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.7506</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4773.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.8575</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-201.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-21.3418</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel in the amounts shown above for executable/marketable options orders (other than orders in index options) that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.25 per executed contract for executable/marketable orders in options that are quoted and trade in penny ($0.01) increments and at a rate of $0.50 per executed contract for executable/marketable orders in options that are quoted and trade in nickel ($0.05) increments. 
+
+SFI’s arrangement with Citadel is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from options exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>3.76</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.09</marketableLimitPct>
+          <nonMarketableLimitPct>11.36</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>13.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>385.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>All options venues listed in the table above (except for Citadel Securities LLC, Matrix Executions, LLC / Simplex Trading, LLC) are attributed to StoneX Financial (SFI) routing non-directed options orders to BofA Securities, Inc (“BofA”). Details regarding BofA options order routing are outlined below. The figures in the table represent the net rebates and fees that SFI receives or pays in connection with the routing activities involving BofA.
+
+BofA Securities, Inc:
+SFI has paid fees to and/or has received payment from BofA Securities in the amounts shown above for executable/marketable options orders that were routed to and executed through BofA Securities during the month indicated. Such amounts were calculated (and SFI was paid) at a rate of $0.10 per executed non-index contract for orders in options. SFI pays BofA Securities at a rate of $0.50 per executed index contract for orders in options.
+
+SFI’s arrangement with BofA Securities is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. While BofA Securities may receive rebates or other compensation from options exchanges in connection with SFI orders, BofA Securities does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>99.99</ndoPct>
+      <ndoMarketPct>60.36</ndoMarketPct>
+      <ndoMarketableLimitPct>8.74</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>26.97</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.92</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>39.15</orderPct>
+          <marketPct>28.57</marketPct>
+          <marketableLimitPct>50.31</marketableLimitPct>
+          <nonMarketableLimitPct>58.69</nonMarketableLimitPct>
+          <otherPct>42.63</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI did not receive payment for order flow from this venue for this period.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>30.47</orderPct>
+          <marketPct>38.52</marketPct>
+          <marketableLimitPct>16.30</marketableLimitPct>
+          <nonMarketableLimitPct>17.17</nonMarketableLimitPct>
+          <otherPct>29.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>594.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>40.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>112.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Jane Street Capital (“Jane Street”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Jane Street during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+ 
+SFI’s arrangement with Jane Street with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Jane Street may receive rebates or other compensation from exchanges in connection with SFI orders, Jane Street does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.39</orderPct>
+          <marketPct>21.79</marketPct>
+          <marketableLimitPct>27.80</marketableLimitPct>
+          <nonMarketableLimitPct>15.23</nonMarketableLimitPct>
+          <otherPct>17.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>270.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.2186</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20.77</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.2559</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>47.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.5926</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6.29</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.7174</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel Securities LLC (“Citadel”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with Citadel with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>9.94</orderPct>
+          <marketPct>11.12</marketPct>
+          <marketableLimitPct>5.59</marketableLimitPct>
+          <nonMarketableLimitPct>8.68</nonMarketableLimitPct>
+          <otherPct>10.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>124.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>149.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>57.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from UBS Securities, LLC (“UBS”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through UBS during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with UBS with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While UBS may receive rebates or other compensation from exchanges in connection with SFI orders, UBS does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.83</ndoPct>
+      <ndoMarketPct>37.83</ndoMarketPct>
+      <ndoMarketableLimitPct>15.54</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>43.77</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.87</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>57.04</orderPct>
+          <marketPct>49.95</marketPct>
+          <marketableLimitPct>59.30</marketableLimitPct>
+          <nonMarketableLimitPct>63.33</nonMarketableLimitPct>
+          <otherPct>42.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3363.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>3.9463</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1487.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>1.6734</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>927.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.2261</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>17.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.3966</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel Securities LLC (“Citadel”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+
+SFI’s arrangement with Citadel with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>24.31</orderPct>
+          <marketPct>17.51</marketPct>
+          <marketableLimitPct>31.68</marketableLimitPct>
+          <nonMarketableLimitPct>27.53</nonMarketableLimitPct>
+          <otherPct>25.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI did not receive payment for order flow from this venue for this period.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>13.91</orderPct>
+          <marketPct>25.17</marketPct>
+          <marketableLimitPct>6.43</marketableLimitPct>
+          <nonMarketableLimitPct>6.48</nonMarketableLimitPct>
+          <otherPct>19.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6256.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8432</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2007.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.5723</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1535.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.7792</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>328.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.7699</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Jane Street Capital (“Jane Street”) in the amounts shown above for orders in NMS Stocks priced greater than or equal to $1 per share that were routed to and executed through Jane Street during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.001 per share.  Rebates are only received for orders sent from SFI’s Correspondent Clearing Division.
+ 
+SFI’s arrangement with Jane Street with respect to orders and executions in such NMS stocks is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Jane Street may receive rebates or other compensation from exchanges in connection with SFI orders, Jane Street does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>5.04</ndoMarketPct>
+      <ndoMarketableLimitPct>11.19</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>27.71</ndoNonmarketableLimitPct>
+      <ndoOtherPct>56.06</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>72.75</orderPct>
+          <marketPct>62.25</marketPct>
+          <marketableLimitPct>26.01</marketableLimitPct>
+          <nonMarketableLimitPct>48.66</nonMarketableLimitPct>
+          <otherPct>94.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1668.04</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.3747</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5364.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.8696</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10849.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.4928</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>172644.87</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.8542</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI has paid fees to and/or has received payment from Matrix Executions, LLC (“Matrix”) in the amounts shown above for executable/marketable options orders (other than orders in index options) that were routed to and executed through or with Matrix during the month indicated. Such amounts were calculated (and SFI was paid) (1) at a rate of $0.12 per executed contact for executable/marketable orders in options that are quoted and trade in penny ($0.01) increments and at a rate of $0.25 per executed contract for executable/marketable orders in options that are quoted in non-penny increments and (2) based upon the amount Matrix receives from applicable options exchanges and shares with SFI (as described below) for crossing SFI options orders on such options exchanges, as described in greater detail below. 
+
+As indicated above, SFI receives all or a portion of the compensation Matrix receives from executing SFI options orders on applicable options exchanges and the amount of such compensation varies based upon the options exchange, whether the order was crossed on the exchange, whether the order was crossed electronically or on the applicable options exchange floor as part of a qualified contingent cross, and/or the professional/non-professional (that is, retail) nature of the counterparties to such cross. Specifically, SFI receives from Matrix: 
+
+· For SFI orders routed to options exchanges with complex order books, SFI receives 100% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders; 
+
+· For SFI orders routed to options exchanges as crosses (other than as indicated below), SFI received 100% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders; 
+
+· For qualified contingent crosses executed electronically on the BOX Exchange or MIAX Exchange, $0.10 per executed contracts for crosses with a counterparty characterized as a “Customer” or a “Professional Customer” and $0.15 per executed contracts for crosses with a counterparty not characterized as a “Customer.”
+
+· For qualified contingent crosses and solicitation agency orders executed electronically on the, EDGX options exchange, $0.10 per executed contracts for crosses with a counterparty characterized as a “Customer” or a “Professional Customer” and $0.15 per executed contracts for crosses with a counterparty not characterized as a “Customer.” 
+
+· For non-qualified contingent crosses executed natively, SFI receives 100% of the rebates that Matrix receives based on the total volume from the exchanges where execution occurred. 
+ 
+· For SFI orders submitted as an agency order, including an order with a designated give up, that crosses with a response order (also referred to as a break up order), SFI receives 50% of the rebates that Matrix receives with respect to those orders, calculated at the pricing tier applicable solely to SFI orders and not any more favorable pricing tier that Matrix may obtain as a result of aggregating SFI orders with other non-SFI orders.
+
+· For SFI orders in specific accounts mutually agreed upon by StoneX and Matrix that predominantly take liquidity, Matrix charges a commission of $0.035 per contract, and provides a $0.40 incentive per contract for orders that add liquidity.
+
+Matrix’s receipt of rebates from applicable options exchanges and the volume-based tiering payment schedules of those options exchanges potentially provides an incentive for Matrix to route orders to one options exchange over another so as potentially to maximize the benefit of such rebates or such volume-based tiering. Although SFI does not participate in Matrix’s routing decisions, SFI can benefit from any potential routing by Matrix as a result of SFI’s receipt of all or a portion of the compensation Matrix receives from such options exchanges. Other than the foregoing, SFI’s arrangement with Matrix is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. Finally, as indicated above, SFI’s receipt of rebates from Matrix for crosses executed on applicable options exchanges are subject to the volume-based tier applicable to SFI’s order flow notwithstanding that Matrix may receive a greater benefit from volume-based tiering as a result of aggregate order flow routed for SFI and other broker-dealers for which Matrix routes options orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>11.09</orderPct>
+          <marketPct>37.62</marketPct>
+          <marketableLimitPct>14.32</marketableLimitPct>
+          <nonMarketableLimitPct>23.90</nonMarketableLimitPct>
+          <otherPct>1.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1341.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>27.4724</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4775.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.7033</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3976.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.8285</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-207.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.2633</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SFI received payment from Citadel in the amounts shown above for executable/marketable options orders (other than orders in index options) that were routed to and executed through Citadel during the month indicated.  Such amounts were calculated (and SFI was paid) at a rate of $0.25 per executed contract for executable/marketable orders in options that are quoted and trade in penny ($0.01) increments and at a rate of $0.50 per executed contract for executable/marketable orders in options that are quoted and trade in nickel ($0.05) increments. 
+
+SFI’s arrangement with Citadel is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule.  While Citadel may receive rebates or other compensation from options exchanges in connection with SFI orders, Citadel does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>4.17</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.13</marketableLimitPct>
+          <nonMarketableLimitPct>14.57</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>11.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>443.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>All options venues listed in the table above (except for Citadel Securities LLC, Matrix Executions, LLC / Simplex Trading, LLC) are attributed to StoneX Financial (SFI) routing non-directed options orders to BofA Securities, Inc (“BofA”). Details regarding BofA options order routing are outlined below. The figures in the table represent the net rebates and fees that SFI receives or pays in connection with the routing activities involving BofA.
+
+BofA Securities, Inc:
+SFI has paid fees to and/or has received payment from BofA Securities in the amounts shown above for executable/marketable options orders that were routed to and executed through BofA Securities during the month indicated. Such amounts were calculated (and SFI was paid) at a rate of $0.10 per executed non-index contract for orders in options. SFI pays BofA Securities at a rate of $0.50 per executed index contract for orders in options.
+
+SFI’s arrangement with BofA Securities is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. While BofA Securities may receive rebates or other compensation from options exchanges in connection with SFI orders, BofA Securities does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>2.57</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>22.97</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>434.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>All options venues listed in the table above (except for Citadel Securities LLC, Matrix Executions, LLC / Simplex Trading, LLC) are attributed to StoneX Financial (SFI) routing non-directed options orders to BofA Securities, Inc (“BofA”). Details regarding BofA options order routing are outlined below. The figures in the table represent the net rebates and fees that SFI receives or pays in connection with the routing activities involving BofA.
+
+BofA Securities, Inc:
+SFI has paid fees to and/or has received payment from BofA Securities in the amounts shown above for executable/marketable options orders that were routed to and executed through BofA Securities during the month indicated. Such amounts were calculated (and SFI was paid) at a rate of $0.10 per executed non-index contract for orders in options. SFI pays BofA Securities at a rate of $0.50 per executed index contract for orders in options.
+
+SFI’s arrangement with BofA Securities is not subject to any volume thresholds, minimum order thresholds, or volume-based tiered payment schedule. While BofA Securities may receive rebates or other compensation from options exchanges in connection with SFI orders, BofA Securities does not share any such rebates or compensation with SFI.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

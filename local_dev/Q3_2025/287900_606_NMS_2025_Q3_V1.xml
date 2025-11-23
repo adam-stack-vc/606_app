@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Robinhood Securities, LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-28T13:39:12Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>42.00</ndoMarketPct>
+      <ndoMarketableLimitPct>13.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>35.08</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.40</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>53.29</orderPct>
+          <marketPct>43.77</marketPct>
+          <marketableLimitPct>70.75</marketableLimitPct>
+          <nonMarketableLimitPct>57.96</nonMarketableLimitPct>
+          <otherPct>53.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>592313.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>68.6689</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>302484.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>117.6105</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>310437.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>130.0921</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>754984.13</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>73.8683</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS (i) for orders executed between 4:00 a.m. and 8:00 p.m. ET, varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during the regular market hours of 9:30 a.m. to 4:00 p.m. ET and 9% of the spread during the extended hours of 4:00 a.m. to 9:30 a.m. ET and 4:00 p.m. to 8:00 p.m. ET) and (ii) for orders executed between 8:00 p.m. and 4:00 a.m. ET, is $0.0006/share executed. The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow during the regular market hours and extended hours referenced in (i) above. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>18.24</orderPct>
+          <marketPct>28.15</marketPct>
+          <marketableLimitPct>1.20</marketableLimitPct>
+          <nonMarketableLimitPct>12.30</nonMarketableLimitPct>
+          <otherPct>20.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>412517.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>76.4321</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7037.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>53.0655</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>38763.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>84.0623</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>19476.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>87.4051</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.56</orderPct>
+          <marketPct>12.51</marketPct>
+          <marketableLimitPct>18.35</marketableLimitPct>
+          <nonMarketableLimitPct>17.08</nonMarketableLimitPct>
+          <otherPct>8.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>301496.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>90.2391</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>128094.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>147.9669</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>143137.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>155.3582</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13921.49</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>92.8456</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>8.14</orderPct>
+          <marketPct>7.07</marketPct>
+          <marketableLimitPct>9.28</marketableLimitPct>
+          <nonMarketableLimitPct>8.89</nonMarketableLimitPct>
+          <otherPct>8.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>253317.02</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>35.4314</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>130670.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>63.0695</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>136252.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>72.2272</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>508966.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>62.4256</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.15</orderPct>
+          <marketPct>7.52</marketPct>
+          <marketableLimitPct>0.37</marketableLimitPct>
+          <nonMarketableLimitPct>3.35</nonMarketableLimitPct>
+          <otherPct>8.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>93516.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>60.3311</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2716.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.7065</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10737.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>77.2656</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5105.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>74.4249</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>38.55</ndoMarketPct>
+      <ndoMarketableLimitPct>15.96</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>40.05</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.43</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>39.05</orderPct>
+          <marketPct>34.89</marketPct>
+          <marketableLimitPct>45.02</marketableLimitPct>
+          <nonMarketableLimitPct>40.61</nonMarketableLimitPct>
+          <otherPct>39.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2808062.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.7333</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1178979.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.5468</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1248062.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.9792</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1995162.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.9343</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS (i) for orders executed between 4:00 a.m. and 8:00 p.m. ET, varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during the regular market hours of 9:30 a.m. to 4:00 p.m. ET and 9% of the spread during the extended hours of 4:00 a.m. to 9:30 a.m. ET and 4:00 p.m. to 8:00 p.m. ET) and (ii) for orders executed between 8:00 p.m. and 4:00 a.m. ET, is $0.0006/share executed. The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow during the regular market hours and extended hours referenced in (i) above. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>28.94</orderPct>
+          <marketPct>25.84</marketPct>
+          <marketableLimitPct>34.63</marketableLimitPct>
+          <nonMarketableLimitPct>30.92</nonMarketableLimitPct>
+          <otherPct>19.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3668497.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.0807</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1514948.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.3348</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1694840.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.0225</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>226815.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.6396</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>17.67</orderPct>
+          <marketPct>14.87</marketPct>
+          <marketableLimitPct>18.93</marketableLimitPct>
+          <nonMarketableLimitPct>19.53</nonMarketableLimitPct>
+          <otherPct>20.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3653655.89</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.6934</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1770932.49</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.2534</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1765231.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.9711</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2713483.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.2148</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.24</orderPct>
+          <marketPct>12.15</marketPct>
+          <marketableLimitPct>0.72</marketableLimitPct>
+          <nonMarketableLimitPct>4.54</nonMarketableLimitPct>
+          <otherPct>11.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1469764.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.5707</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>83578.56</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.4127</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>159545.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.1995</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>91522.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.1089</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>6.54</orderPct>
+          <marketPct>11.26</marketPct>
+          <marketableLimitPct>0.64</marketableLimitPct>
+          <nonMarketableLimitPct>4.06</nonMarketableLimitPct>
+          <otherPct>8.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>999659.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.1786</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>76704.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>24.6830</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>129555.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.0896</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>57553.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.1502</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.07</ndoMarketPct>
+      <ndoMarketableLimitPct>28.42</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.93</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.58</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>38.91</orderPct>
+          <marketPct>40.74</marketPct>
+          <marketableLimitPct>41.05</marketableLimitPct>
+          <nonMarketableLimitPct>37.97</nonMarketableLimitPct>
+          <otherPct>38.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>437918.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>44.3257</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>21267928.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>56.0727</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>18291792.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>68.4275</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4038766.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>55.6995</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>33.13</orderPct>
+          <marketPct>35.45</marketPct>
+          <marketableLimitPct>32.67</marketableLimitPct>
+          <nonMarketableLimitPct>33.07</nonMarketableLimitPct>
+          <otherPct>33.97</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>336465.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>43.9948</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>15969112.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>46.0704</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>14932781.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>63.3713</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3883464.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>54.1650</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.Dash utilizes relationships with multiple unaffiliated liquidity providers, including IMC Financial Markets, to facilitate liquidity provision and price improvement opportunities. Through these relationships, Dash routes RHS’ retail equity option orders to exchanges and preferences the liquidity providers consistent with the exchange sponsored programs referenced on the fee schedules of the exchanges. These liquidity providers provide Dash with remuneration in connection with RHS’ retail equity option orders, including reciprocal order flow arrangements and/or payment per contract. RHS receives revenue based on the per contract rates specified above for retail equity option orders executed by any such liquidity provider; RHS receives such amounts from DASH, which in turn receives those amounts from the liquidity provider.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>12.41</orderPct>
+          <marketPct>6.47</marketPct>
+          <marketableLimitPct>11.67</marketableLimitPct>
+          <nonMarketableLimitPct>13.28</nonMarketableLimitPct>
+          <otherPct>11.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>73522.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>73.3849</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6157980.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>56.5608</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5269143.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>73.1043</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1360232.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>55.6192</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>11.91</orderPct>
+          <marketPct>12.59</marketPct>
+          <marketableLimitPct>9.93</marketableLimitPct>
+          <nonMarketableLimitPct>11.49</nonMarketableLimitPct>
+          <otherPct>16.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>48084.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>27.6004</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3974183.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>38.1527</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3457042.27</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.9642</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1133224.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.0327</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>41.95</ndoMarketPct>
+      <ndoMarketableLimitPct>13.68</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>34.89</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.48</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>51.14</orderPct>
+          <marketPct>41.21</marketPct>
+          <marketableLimitPct>69.06</marketableLimitPct>
+          <nonMarketableLimitPct>56.30</nonMarketableLimitPct>
+          <otherPct>50.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>502593.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>69.5631</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>252532.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>112.8789</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>234981.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>120.5113</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>635385.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>70.7825</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS (i) for orders executed between 4:00 a.m. and 8:00 p.m. ET, varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during the regular market hours of 9:30 a.m. to 4:00 p.m. ET and 9% of the spread during the extended hours of 4:00 a.m. to 9:30 a.m. ET and 4:00 p.m. to 8:00 p.m. ET) and (ii) for orders executed between 8:00 p.m. and 4:00 a.m. ET, is $0.0006/share executed. The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow during the regular market hours and extended hours referenced in (i) above. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>17.32</orderPct>
+          <marketPct>27.01</marketPct>
+          <marketableLimitPct>1.10</marketableLimitPct>
+          <nonMarketableLimitPct>11.42</nonMarketableLimitPct>
+          <otherPct>19.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>367988.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>79.4643</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7186.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>61.7827</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>33410.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>102.5522</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>17796.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>91.8448</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.29</orderPct>
+          <marketPct>11.82</marketPct>
+          <marketableLimitPct>18.11</marketableLimitPct>
+          <nonMarketableLimitPct>17.30</nonMarketableLimitPct>
+          <otherPct>8.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>253460.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>90.5825</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>113150.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>133.3098</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>124686.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>145.4333</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11284.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>89.7463</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.54</orderPct>
+          <marketPct>8.46</marketPct>
+          <marketableLimitPct>11.19</marketableLimitPct>
+          <nonMarketableLimitPct>10.12</nonMarketableLimitPct>
+          <otherPct>9.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>342721.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>38.0907</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>147742.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>58.8929</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>161376.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>72.0449</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>502987.17</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>59.5196</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.34</orderPct>
+          <marketPct>7.82</marketPct>
+          <marketableLimitPct>0.38</marketableLimitPct>
+          <nonMarketableLimitPct>3.32</nonMarketableLimitPct>
+          <otherPct>8.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>95062.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>67.9157</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2904.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.0487</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8578.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>92.4453</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4609.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>74.3015</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>37.23</ndoMarketPct>
+      <ndoMarketableLimitPct>14.58</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>42.74</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.44</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>36.50</orderPct>
+          <marketPct>32.12</marketPct>
+          <marketableLimitPct>44.27</marketableLimitPct>
+          <nonMarketableLimitPct>37.73</nonMarketableLimitPct>
+          <otherPct>35.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2166346.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.9553</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>923386.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8610</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1019543.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.2077</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1907512.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.4065</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS (i) for orders executed between 4:00 a.m. and 8:00 p.m. ET, varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during the regular market hours of 9:30 a.m. to 4:00 p.m. ET and 9% of the spread during the extended hours of 4:00 a.m. to 9:30 a.m. ET and 4:00 p.m. to 8:00 p.m. ET) and (ii) for orders executed between 8:00 p.m. and 4:00 a.m. ET, is $0.0006/share executed. The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow during the regular market hours and extended hours referenced in (i) above. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>28.93</orderPct>
+          <marketPct>24.88</marketPct>
+          <marketableLimitPct>33.89</marketableLimitPct>
+          <nonMarketableLimitPct>31.93</nonMarketableLimitPct>
+          <otherPct>19.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3110542.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.5397</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1237965.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.7779</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1456147.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.1759</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>147418.86</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.1896</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>18.79</orderPct>
+          <marketPct>15.96</marketPct>
+          <marketableLimitPct>20.25</marketableLimitPct>
+          <nonMarketableLimitPct>20.40</nonMarketableLimitPct>
+          <otherPct>21.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3794642.32</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.5486</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1769780.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8480</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1825940.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.6709</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2377108.17</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.4703</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>7.28</orderPct>
+          <marketPct>12.88</marketPct>
+          <marketableLimitPct>0.72</marketableLimitPct>
+          <nonMarketableLimitPct>4.42</nonMarketableLimitPct>
+          <otherPct>9.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1078196.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.7061</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>77755.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.9673</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>114148.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.5659</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>52638.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.2345</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>6.56</orderPct>
+          <marketPct>10.75</marketPct>
+          <marketableLimitPct>0.65</marketableLimitPct>
+          <nonMarketableLimitPct>4.31</nonMarketableLimitPct>
+          <otherPct>11.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1126396.11</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.3719</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>84020.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.0076</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>115824.34</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.4144</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>71675.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.9265</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.13</ndoMarketPct>
+      <ndoMarketableLimitPct>28.39</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.77</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.70</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>38.77</orderPct>
+          <marketPct>41.99</marketPct>
+          <marketableLimitPct>40.61</marketableLimitPct>
+          <nonMarketableLimitPct>37.81</nonMarketableLimitPct>
+          <otherPct>38.51</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>412791.32</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.1260</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>17490357.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>51.6810</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>16149711.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>64.3920</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3954687.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>56.1170</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>29.39</orderPct>
+          <marketPct>34.45</marketPct>
+          <marketableLimitPct>29.88</marketableLimitPct>
+          <nonMarketableLimitPct>28.26</nonMarketableLimitPct>
+          <otherPct>31.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>321827.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>36.5697</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12643770.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>41.5709</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11762201.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>57.6845</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3767607.69</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>54.9531</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.Dash utilizes relationships with multiple unaffiliated liquidity providers, including IMC Financial Markets, to facilitate liquidity provision and price improvement opportunities. Through these relationships, Dash routes RHS’ retail equity option orders to exchanges and preferences the liquidity providers consistent with the exchange sponsored programs referenced on the fee schedules of the exchanges. These liquidity providers provide Dash with remuneration in connection with RHS’ retail equity option orders, including reciprocal order flow arrangements and/or payment per contract. RHS receives revenue based on the per contract rates specified above for retail equity option orders executed by any such liquidity provider; RHS receives such amounts from DASH, which in turn receives those amounts from the liquidity provider.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>12.41</orderPct>
+          <marketPct>5.72</marketPct>
+          <marketableLimitPct>10.96</marketableLimitPct>
+          <nonMarketableLimitPct>13.06</nonMarketableLimitPct>
+          <otherPct>13.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>62612.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>64.6640</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4619782.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>51.5468</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4485050.73</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>71.7099</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1278457.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>59.4882</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>10.68</orderPct>
+          <marketPct>10.34</marketPct>
+          <marketableLimitPct>8.29</marketableLimitPct>
+          <nonMarketableLimitPct>10.18</nonMarketableLimitPct>
+          <otherPct>16.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>32794.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.5729</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3085710.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.0981</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2818397.13</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.6783</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1234418.86</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>29.1562</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.75</orderPct>
+          <marketPct>7.49</marketPct>
+          <marketableLimitPct>10.27</marketableLimitPct>
+          <nonMarketableLimitPct>10.69</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>102790.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>49.4725</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6759748.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>50.9196</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5874125.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>67.8154</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>41.78</ndoMarketPct>
+      <ndoMarketableLimitPct>13.21</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>35.45</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.57</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>48.65</orderPct>
+          <marketPct>38.03</marketPct>
+          <marketableLimitPct>66.99</marketableLimitPct>
+          <nonMarketableLimitPct>54.78</nonMarketableLimitPct>
+          <otherPct>46.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>489033.91</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>69.0846</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>258354.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>108.0677</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>224533.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>111.9552</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>674353.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>68.9869</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS (i) for orders executed between 4:00 a.m. and 8:00 p.m. ET, varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during the regular market hours of 9:30 a.m. to 4:00 p.m. ET and 9% of the spread during the extended hours of 4:00 a.m. to 9:30 a.m. ET and 4:00 p.m. to 8:00 p.m. ET) and (ii) for orders executed between 8:00 p.m. and 4:00 a.m. ET, is $0.0006/share executed. The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow during the regular market hours and extended hours referenced in (i) above. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>17.14</orderPct>
+          <marketPct>26.87</marketPct>
+          <marketableLimitPct>1.18</marketableLimitPct>
+          <nonMarketableLimitPct>11.05</nonMarketableLimitPct>
+          <otherPct>19.30</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>384816.83</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>79.1674</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7029.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>47.1609</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>32500.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>83.0958</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>16714.67</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>84.6376</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.31</orderPct>
+          <marketPct>11.46</marketPct>
+          <marketableLimitPct>19.15</marketableLimitPct>
+          <nonMarketableLimitPct>17.37</nonMarketableLimitPct>
+          <otherPct>8.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>265858.03</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>89.5462</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>119701.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>131.8165</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>133775.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>131.0591</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11138.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>102.7489</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>10.06</orderPct>
+          <marketPct>8.93</marketPct>
+          <marketableLimitPct>11.93</marketableLimitPct>
+          <nonMarketableLimitPct>10.67</nonMarketableLimitPct>
+          <otherPct>10.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>430476.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.8692</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>175467.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>64.5123</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>168325.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>63.7513</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>602875.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>62.3165</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>6.73</orderPct>
+          <marketPct>9.83</marketPct>
+          <marketableLimitPct>0.50</marketableLimitPct>
+          <nonMarketableLimitPct>4.16</nonMarketableLimitPct>
+          <otherPct>11.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>112113.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>68.9740</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3569.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.9371</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9917.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>68.2746</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6792.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>79.8139</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>37.92</ndoMarketPct>
+      <ndoMarketableLimitPct>15.35</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>40.85</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.88</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>34.70</orderPct>
+          <marketPct>30.00</marketPct>
+          <marketableLimitPct>41.87</marketableLimitPct>
+          <nonMarketableLimitPct>36.47</nonMarketableLimitPct>
+          <otherPct>33.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2558944.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.9596</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1052855.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.5967</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1197150.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.1359</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2173223.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.8893</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS (i) for orders executed between 4:00 a.m. and 8:00 p.m. ET, varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during the regular market hours of 9:30 a.m. to 4:00 p.m. ET and 9% of the spread during the extended hours of 4:00 a.m. to 9:30 a.m. ET and 4:00 p.m. to 8:00 p.m. ET) and (ii) for orders executed between 8:00 p.m. and 4:00 a.m. ET, is $0.0006/share executed. The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow during the regular market hours and extended hours referenced in (i) above. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>28.71</orderPct>
+          <marketPct>24.42</marketPct>
+          <marketableLimitPct>34.72</marketableLimitPct>
+          <nonMarketableLimitPct>31.83</nonMarketableLimitPct>
+          <otherPct>18.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3558235.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.1207</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1464658.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9970</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1737278.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.6992</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>145627.69</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.4891</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.73</orderPct>
+          <marketPct>16.78</marketPct>
+          <marketableLimitPct>21.46</marketableLimitPct>
+          <nonMarketableLimitPct>21.50</nonMarketableLimitPct>
+          <otherPct>21.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5149597.47</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.5465</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2116727.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.1763</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2301572.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.9053</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2767155.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.1499</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.48</orderPct>
+          <marketPct>12.17</marketPct>
+          <marketableLimitPct>0.83</marketableLimitPct>
+          <nonMarketableLimitPct>4.79</nonMarketableLimitPct>
+          <otherPct>13.29</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1459456.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.6167</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>62263.69</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.3676</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>148445.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.9180</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>80695.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.1684</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>6.87</orderPct>
+          <marketPct>12.21</marketPct>
+          <marketableLimitPct>0.81</marketableLimitPct>
+          <nonMarketableLimitPct>3.90</nonMarketableLimitPct>
+          <otherPct>8.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1122986.69</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>21.2229</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>62873.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.2347</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>114996.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.9129</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>49110.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.1985</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. RHS does not receive payments from third-party market centers for routing orders on behalf of any introducing broker other than RHF. The amounts above represent payments received by RHS from this venue for routing equity order flow to it on behalf of RHF. The tables above include flow that resulted from orders for which customers granted their introducing broker discretion with respect to the price and time of execution. The payment received by RHS varies based upon a fixed percentage of the spread between the National Best Bid and National Best Offer for the security at the time of order execution (12.35% of the spread during regular market hours and 9% of the spread during extended hours). The fixed percentage is the same for all non-exchange third-party market centers to which RHS routes equity order flow. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.08</ndoMarketPct>
+      <ndoMarketableLimitPct>28.27</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>54.21</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.45</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>39.00</orderPct>
+          <marketPct>46.38</marketPct>
+          <marketableLimitPct>42.04</marketableLimitPct>
+          <nonMarketableLimitPct>37.14</nonMarketableLimitPct>
+          <otherPct>39.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>476064.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>38.4235</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>19985045.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>49.2189</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>16657509.99</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>59.8159</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4337746.23</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>54.5080</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>31.54</orderPct>
+          <marketPct>29.77</marketPct>
+          <marketableLimitPct>30.16</marketableLimitPct>
+          <nonMarketableLimitPct>31.06</nonMarketableLimitPct>
+          <otherPct>35.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>301027.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>43.6869</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>16323207.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>46.6183</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>15682874.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>64.2361</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5095795.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>61.4776</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.Dash utilizes relationships with multiple unaffiliated liquidity providers, including IMC Financial Markets, to facilitate liquidity provision and price improvement opportunities. Through these relationships, Dash routes RHS’ retail equity option orders to exchanges and preferences the liquidity providers consistent with the exchange sponsored programs referenced on the fee schedules of the exchanges. These liquidity providers provide Dash with remuneration in connection with RHS’ retail equity option orders, including reciprocal order flow arrangements and/or payment per contract. RHS receives revenue based on the per contract rates specified above for retail equity option orders executed by any such liquidity provider; RHS receives such amounts from DASH, which in turn receives those amounts from the liquidity provider.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>11.42</orderPct>
+          <marketPct>10.15</marketPct>
+          <marketableLimitPct>12.99</marketableLimitPct>
+          <nonMarketableLimitPct>14.09</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>116058.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>56.8380</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8483642.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>58.7416</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7658735.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>74.6465</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>92.6667</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>9.13</orderPct>
+          <marketPct>4.54</marketPct>
+          <marketableLimitPct>8.06</marketableLimitPct>
+          <nonMarketableLimitPct>9.50</nonMarketableLimitPct>
+          <otherPct>10.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>51198.20</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>65.4809</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4307311.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>49.9260</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3816869.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>70.5662</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1185062.51</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>56.8800</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>8.91</orderPct>
+          <marketPct>9.16</marketPct>
+          <marketableLimitPct>6.75</marketableLimitPct>
+          <nonMarketableLimitPct>8.21</nonMarketableLimitPct>
+          <otherPct>14.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>23797.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.6665</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2639751.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.9752</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2202324.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>33.7329</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1034823.29</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.9550</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Revenue that Robinhood Securities, LLC (“RHS”) receives from third-party market centers is shared with Robinhood Financial LLC (“RHF”) pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The venues each pay Robinhood based on the same schedule. For single leg and multi-leg orders, RHS receives a per contract rate that depends on the average spread for the symbol traded. For single leg orders, RHS received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.90 or $1.20 depending on the symbol’s average spread. For single leg orders, RHS received a per contract rate for orders of 101 contracts or greater of $0.15, $0.19, $0.28, $0.35, $0.45, or $0.60 depending on the symbol’s average spread. For multi-leg orders, RHS received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 depending on the symbol’s average spread. RHS does not receive payments for orders in index options. Differences in average payments among venues are due to the mix of symbols executed at each venue. RHS attests to the retail nature of the orders RHS routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. RHS believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with RHS' pursuit of best execution or the price improvement obtained on customer orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

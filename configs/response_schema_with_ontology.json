@@ -1,0 +1,120 @@
+{
+  "type": "object",
+  "properties": {
+    "filename": {
+      "type": "string",
+      "description": "The name of the file being analyzed"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The authors of the document"
+    },
+    "company": {
+      "type": "string",
+      "description": "The company or organization"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])-(\\d{2})$",
+      "description": "Date in mm-dd-yy format"
+    },
+    "function_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "private_funds",
+          "defi_protocols",
+          "stablecoin_regulation",
+          "tokenized_securities",
+          "cbdc_policy",
+          "digital_custodians",
+          "staking_services",
+          "broker_custody_rule_digital",
+          "market_data",
+          "crypto_execution_and_onramp"
+        ]
+      },
+      "description": "Array of function IDs from the crypto ontology"
+    },
+    "persons": {
+      "type": "string",
+      "description": "Names of people mentioned, pipe-separated (|)"
+    },
+    "cryptos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of cryptocurrency-related terms"
+    },
+    "companies_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of company names mentioned"
+    },
+    "crypto_persona": {
+      "type": "string",
+      "enum": ["TradFi", "Crypto Native", "NA"],
+      "description": "Company categorization: TradFi, Crypto Native, or NA"
+    },
+    "reg_belief_tokens": {
+      "type": "string",
+      "enum": ["less", "same", "more"],
+      "description": "Regulatory belief for tokenized securities: less/same/more regulation than traditional securities"
+    },
+    "reg_belief_evidence": {
+      "type": "string",
+      "description": "Passage or summary that reflects the regulatory belief about tokens"
+    },
+    "reg_belief_disclosure": {
+      "type": "string",
+      "description": "Specific disclosures mentioned about tokens in the content"
+    },
+    "reg_belief_disclosure_evidence": {
+      "type": "string",
+      "description": "Passage or summary that reflects the regulatory belief about disclosures"
+    },
+    "key_points": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 25
+      },
+      "maxItems": 5,
+      "description": "Up to 5 key points, each no more than 25 words"
+    },
+    "guiding_principles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["investor protection", "capital formation", "fair and orderly markets", "investor choice", "technology modernization", "lack of trust with intermediaries"]
+      },
+      "maxItems": 2,
+      "description": "Up to 2 overarching principles reflected in the content"
+    }
+  },
+  "required": [
+    "filename",
+    "authors",
+    "company",
+    "date",
+    "function_ids",
+    "persons",
+    "cryptos",
+    "companies_mentioned",
+    "crypto_persona",
+    "reg_belief_tokens",
+    "reg_belief_evidence",
+    "reg_belief_disclosure",
+    "reg_belief_disclosure_evidence",
+    "key_points",
+    "guiding_principles"
+  ],
+  "additionalProperties": false
+}

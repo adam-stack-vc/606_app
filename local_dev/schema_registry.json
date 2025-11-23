@@ -1,0 +1,61 @@
+{
+  "executing_bd_606": {
+    "description": "Form 606 executing broker level data keyed by broker, venue, year, month, stock_group.",
+    "columns": {
+      "executing_bd": "text",
+      "venue": "text",
+      "year": "integer",
+      "month": "integer",
+      "stock_group": "text",
+      "routedate": "date",
+      "netpmtpaidrecvmarketordersusd": "numeric",
+      "netpmtpaidrecvmarketablelimitordersusd": "numeric",
+      "netpmtpaidrecvnonmarketablelimitordersusd": "numeric",
+      "netpmtpaidrecvotherordersusd": "numeric",
+      "netpmtpaidrecvmarketorderscph": "numeric",
+      "netpmtpaidrecvmarketablelimitorderscph": "numeric",
+      "netpmtpaidrecvnonmarketablelimitorderscph": "numeric",
+      "netpmtpaidrecvotherorderscph": "numeric"
+    },
+    "primary_key": ["executing_bd", "venue", "year", "month", "stock_group"],
+    "indexes": [
+      ["executing_bd"],
+      ["venue"],
+      ["year", "month"],
+      ["stock_group"]
+    ]
+  },
+
+  "venue_stats": {
+    "description": "Monthly venue-level market volume and stats.",
+    "columns": {
+      "venue": "text",
+      "year": "integer",
+      "month": "integer",
+      "market_volume_shares": "numeric",
+      "market_volume_notional": "numeric"
+    },
+    "primary_key": ["venue", "year", "month"],
+    "indexes": [
+      ["venue"],
+      ["year", "month"]
+    ]
+  },
+
+  "finra_ats": {
+    "description": "FINRA ATS weekly or quarterly volume data.",
+    "columns": {
+      "ats_name": "text",
+      "symbol": "text",
+      "date": "date",
+      "shares": "numeric",
+      "notional": "numeric"
+    },
+    "primary_key": ["ats_name", "symbol", "date"],
+    "indexes": [
+      ["ats_name"],
+      ["symbol"],
+      ["date"]
+    ]
+  }
+}

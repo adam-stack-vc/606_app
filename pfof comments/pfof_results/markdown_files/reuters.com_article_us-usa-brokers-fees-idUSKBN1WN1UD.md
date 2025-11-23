@@ -1,0 +1,114 @@
+---
+                title: "("U.S. online brokers still profiting from 'dumb money'",)"
+                url: "https://reuters.com/article/us-usa-brokers-fees-idUSKBN1WN1UD"
+                date: ""
+                sentiment: "('Neutral, Negative',)"
+                topic: "pfof"
+                ---
+
+                
+[Skip to main content](#main-content)
+[Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv](/differentiator/)
+![Traders work on the floor at the NYSE in New York]()
+FILE PHOTO: Traders work on the floor at the New York Stock Exchange (NYSE) in New York, U.S., October 2, 2019. REUTERS/Brendan McDermid [Purchase Licensing Rights, opens new tab](https://www.reutersagency.com/en/licensereuterscontent/?utm_medium=rcom-article-media&utm_campaign=rcom-rcp-lead)
+NEW YORK (Reuters) - People who trade stocks online cheered last week when several large retail brokers slashed stock-trading commissions to zero, a move made possible, in part, by a controversial source of broker revenue that has drawn regulatory scrutiny.
+Charles Schwab Corp, TD Ameritrade Holding Corp and E\*Trade Financial Corp followed the lead of Interactive Brokers in eliminating stock and exchange-traded fund trading commissions, sending their share prices tumbling on the revenue they were giving up.
+Advertisement · Scroll to continue
+
+But the brokers have other ways of profiting from retail trading, including interest earned on customer cash balances and margin lending.
+There is also payment for order flow, in which wholesale market makers, like Citadel Securities or Virtu Financial pay for the first crack at executing a stock order. They then execute the transaction, either internally, in other off-exchange trading venues, or on an exchange.
+The practice has drawn scrutiny from regulators globally because it creates an incentive for brokers to send orders to whoever pays the most, rather than the place that might get the best outcome for customers.
+Advertisement · Scroll to continue
+
+Still, the practice is common among retail brokerages where "mom-and-pop" investors place their orders, making up around 20 percent of all U.S. trading activity. Very few of their stock orders ever go directly to an exchange like Intercontinental Exchange Inc's New York Stock Exchange or Nasdaq Inc.
+Canada has banned the practice. The United Kingdom recently put it under review and said in September that nearly all UK-based brokerages acting in an agency capacity had stopped accepting payment for order flow.
+For their part, market makers say they give, on average, a better price than the market is offering, usually a fraction of a penny per share. Retail brokers say they use the additional revenue to improve technology and lower customer costs.
+When market makers execute orders, they collect the spread between the bid and the offer, which they divide between payment for order flow for the broker, price improvement for the retail trader, and profit, said Richard Repetto, an analyst at Sandler O'Neill + Partners.
+
+Professional traders covet retail orders because unlike large institutional investors with large portfolios and orders that are big enough to move the market, retail investors tend to be less informed as to which way a stock is likely to be moving and their orders are generally smaller. In trading circles, this is known as "dumb money."
+Prior to launching its free trading service, IBKR Lite, last Monday, Interactive Brokers did not accept payment for order flow. Users of the company's IBKR Pro service will still pay to trade and their orders will routed to the market where they will get the best execution, instead of being sold.
+Thomas Peterffy, chairman of Greenwich, Connecticut-based Interactive Brokers, said he thought the conflict in payment for order flow is not so much between broker and customers as between the market makers who buy the order flow and the prices at which they execute the orders.
+
+"The better the execution price the less money the market maker earns," he said in an email. "But this has been the story forever on Wall Street. This is how the large investment banks make about $250 billion per year. They call it 'trading profits.'"
+Online brokers have U.S. Securities and Exchange Commission-mandated "best execution committees" to ensure that all of their trades are executed inside the national best bid and offer and that the market makers that provide the most price improvement get majority of the order flow, he added.
+
+Schwab and TD Ameritrade also said in statements that getting customers the best execution possible is a top priority.
+Virtu and Citadel Securities declined to comment.
+For its part, the SEC adopted rules last November that will force brokers to disclose more about any payment for order flow or profit-sharing relationships in quarterly public disclosures. But the SEC delayed the compliance date twice after brokers said they needed more time to make changes to their electronic order routing systems to track the orders. The disclosure rules are now set to take effect in 2020.
+Brett Redfearn, the SEC's director of trading and markets, said in March that enhanced disclosures would "enable greater transparency into any potential trade-offs being made between payment for order flow and execution quality."
+YEARS IN THE MAKING
+Payment for order flow is a growing revenue stream in an ultra-competitive industry in the middle of a price war. But it is not the biggest source of income for online brokers, and not all accept it. Fidelity, for one, does not.
+Schwab made $139 million from selling its customers' orders in 2018, up 22% from the previous year, according to a regulatory filing. TD Ameritrade was paid $458 million for customer orders in its last fiscal year, up from $320 million the year before, according to a filing.
+The move to zero commissions has been decades in the making. The online brokers' use of technology to place orders instead of relying on traders on a trading floor allowed them to cut costs while speeding up the process, making it easier for everyone to buy and sell stocks.
+But in more recent years, online brokers like Schwab and TD Ameritrade have come under mounting competition from startup fintech companies that have embraced payment for order flow as a way to cut out trading commissions entirely.
+Menlo Park, California-based brokerage Robinhood launched in late 2014 with the stated mission of democratizing access to the financial markets. By the end of last year, it said it had signed up 6 million user accounts.
+Other startups have followed suit and many, like Robinhood, offer things like free trading of cryptocurrencies, along with stocks and ETFs, to help attract younger investors.
+Now that the larger brokers have followed suit, analysts have said they expect more mergers and acquisitions as the erosion in commission revenues makes scale more important.
+
+Reporting by John McCrank; Editing by David Gregorio
+
+Our Standards: [The Thomson Reuters Trust Principles., opens new tab](https://www.thomsonreuters.com/en/about-us/trust-principles.html)
+
+* Suggested Topics:
+* [Business](/business/)
+Share
+
+* X
+* Facebook
+* Linkedin
+* Email
+* Link
+
+[Purchase Licensing Rights](https://www.reutersagency.com/en/licensereuterscontent/?utm_medium=rcom-article-media&utm_campaign=rcom-rcp-lead)
+
+
+
+
+Read Next
+---------
+
+
+* 5 mins ago[Healthcare & Pharmaceuticalscategory](/business/healthcare-pharmaceuticals/)[US Pfizer deal powers health stocks as drugmakers court Trump](/business/healthcare-pharmaceuticals/european-healthcare-stocks-surge-us-pfizer-deal-reduces-some-uncertainty-2025-10-01/)
+[![The Merck logo is seen at a gate to the Merck & Co campus in Rahway, New Jersey, New Jersey](https://www.reuters.com/resizer/v2/HFQWR67N3FIPBBPOLPY4HV3MEE.jpg?auth=077b119cf1ddbf7ff23662b59009fe7a6007a996924da77c4dd484c6adb876b9&width=1200&quality=80)](/business/healthcare-pharmaceuticals/european-healthcare-stocks-surge-us-pfizer-deal-reduces-some-uncertainty-2025-10-01/)
+* 7 mins ago[Autos & Transportationcategory](/business/autos-transportation/)[Musk becomes first person to hit net worth of $500 billion](/business/autos-transportation/musk-becomes-first-person-hit-net-worth-500-billion-2025-10-01/)
+[![Memorial service for slain conservative commentator Charlie Kirk, in Glendale](https://www.reuters.com/resizer/v2/FOATIADY5BK3HHVGXQXTPD7UZE.jpg?auth=9ff649425ac4b78351ed93a70161041dc322be89a7a5297c6d93cb389d36b8f8&width=1200&quality=80)](/business/autos-transportation/musk-becomes-first-person-hit-net-worth-500-billion-2025-10-01/)
+* 30 mins ago[US government shutdowns raise uncertainty but rarely have lasting effect on economy](/world/us/us-government-shutdowns-raise-uncertainty-rarely-have-lasting-effect-economy-2025-10-01/)
+[![US Capitol building illustrations in Washington](https://www.reuters.com/resizer/v2/5XF5MNOH65L6FH4Z3WYXN7YV5U.jpg?auth=4d9bb3d804812006c102cf6cfcdb365f38974d3c5c154365335ae0c6aad8f1a6&width=1200&quality=80)](/world/us/us-government-shutdowns-raise-uncertainty-rarely-have-lasting-effect-economy-2025-10-01/)
+* 1 hour ago[Energycategory](/business/energy/)[Exclusive: KKR explores $7 billion sale of stake in Canada's Pembina Gas Infrastructure, sources say](/business/energy/kkr-explores-7-billion-sale-stake-canadas-pembina-gas-infrastructure-sources-say-2025-10-01/)
+[![Trading information for KKR & Co is displayed on a screen on the floor of the NYSE in New York](https://www.reuters.com/resizer/v2/KS42NOZCRRPYRJJPWFGGDOGIRA.jpg?auth=80ba14aeebd7a6ea3e9c2d42b53b1284466dedbad37342ca53262c4606a6e618&width=1200&quality=80)](/business/energy/kkr-explores-7-billion-sale-stake-canadas-pembina-gas-infrastructure-sources-say-2025-10-01/)
+* 1 hour ago[Billionaire Asness' AQR's multi-strategy fund surges 15.6% so far in 2025, source says](/markets/europe/billionaire-asness-aqrs-multi-strategy-fund-surges-156-so-far-2025-source-says-2025-10-01/)
+[![File photo of Cliff Asness, Co-Founder, Managing Principal and Chief Investment Officer of AQR Capital Management, speaking at the Milken Institute Global Conference in Beverly Hills](https://www.reuters.com/resizer/v2/PSHPSFN7HNKA3IC7E5K3N7MXCI.jpg?auth=300fe27bb51f8cc5ea78d3d100332f147c610af7be1ee0526f910f5b400f0267&width=1200&quality=80)](/markets/europe/billionaire-asness-aqrs-multi-strategy-fund-surges-156-so-far-2025-source-says-2025-10-01/)
+* 1 hour ago[United Statescategory](/world/us/)[White House warns layoffs are imminent if shutdown drags on](/world/us/white-house-warns-layoffs-are-imminent-if-shutdown-drags-2025-10-01/)
+[![White House press briefing in Washington](https://www.reuters.com/resizer/v2/2B6OK5JS3FOXVFKFR3UMWWBKCI.jpg?auth=a37e6f5d1b9e11c97813896bc88cd6d72f89332dd11f02d4e1b8bdca2ee89c9c&width=1200&quality=80)](/world/us/white-house-warns-layoffs-are-imminent-if-shutdown-drags-2025-10-01/)
+
+
+
+[![LSEG Workspace](https://cloudfront-us-east-2.images.arcpublishing.com/reuters/AE6BNNRLSVAQTFG5XHTC4AV6YI.jpg)](https://www.lseg.com/en/data-analytics/products/workspace?utm_source=reuters.com&utm_medium=articlebanner&utm_campaign=Reuters_ProductPage_Links)
+
+
+
+[Business](/business/)
+----------------------
+
+* [![The Merck logo is seen at a gate to the Merck & Co campus in Rahway, New Jersey, New Jersey](https://www.reuters.com/resizer/v2/HFQWR67N3FIPBBPOLPY4HV3MEE.jpg?auth=077b119cf1ddbf7ff23662b59009fe7a6007a996924da77c4dd484c6adb876b9&width=1200&quality=80)](/business/healthcare-pharmaceuticals/european-healthcare-stocks-surge-us-pfizer-deal-reduces-some-uncertainty-2025-10-01/)
+### [US Pfizer deal powers health stocks as drugmakers court Trump](/business/healthcare-pharmaceuticals/european-healthcare-stocks-surge-us-pfizer-deal-reduces-some-uncertainty-2025-10-01/)
+
+[Healthcare & Pharmaceuticalscategory](/business/healthcare-pharmaceuticals/) · October 1, 2025 · 8:01 PM UTC · 5 mins ago
+
+European and U.S. healthcare stocks surged on Wednesday, propelled by a deal between Pfizer and President Donald Trump to lower prescription drug prices in the Medicaid programme in exchange for tariff relief.
+* [![A trader works on the floor at the New York Stock Exchange (NYSE) in New York City](https://www.reuters.com/resizer/v2/POJ6ILN2WFPE7BRKSXMPURQDXQ.jpg?auth=9ef968e834eb22f2cadde762f40cfddc27b587963df38a057fa4804f515bfbb5&width=960&quality=80)](/business/wall-street-futures-slip-government-shutdown-complicates-fed-rate-path-2025-10-01/)
+[Businesscategory](/business/)[Wall Street closes higher as investors shrug off jobs data, US shutdown](/business/wall-street-futures-slip-government-shutdown-complicates-fed-rate-path-2025-10-01/)8:00 PM UTC
+* [![Memorial service for slain conservative commentator Charlie Kirk, in Glendale](https://www.reuters.com/resizer/v2/FOATIADY5BK3HHVGXQXTPD7UZE.jpg?auth=9ff649425ac4b78351ed93a70161041dc322be89a7a5297c6d93cb389d36b8f8&width=960&quality=80)](/business/autos-transportation/musk-becomes-first-person-hit-net-worth-500-billion-2025-10-01/)
+[Autos & Transportationcategory](/business/autos-transportation/)[Musk becomes first person to hit net worth of $500 billion](/business/autos-transportation/musk-becomes-first-person-hit-net-worth-500-billion-2025-10-01/)7:59 PM UTC
+* [![Electric vehicle charging station shown in California](https://www.reuters.com/resizer/v2/AL6ROPVZYNLP7AZ2XYRYHZYRIU.jpg?auth=b1327a53dc471d513d4eb6a7b7d8ff652900b1c20bcfc435a5eede70a766a303&width=960&quality=80)](/business/autos-transportation/car-executives-fear-collapse-ev-sales-us-tax-subsidy-vanishes-2025-10-01/)
+[Autos & Transportationcategory](/business/autos-transportation/)[Car executives fear a collapse in EV sales as US tax subsidy vanishes](/business/autos-transportation/car-executives-fear-collapse-ev-sales-us-tax-subsidy-vanishes-2025-10-01/)7:40 PM UTC
+* [![First day of a partial government shutdown in Washington](https://www.reuters.com/resizer/v2/VDR3HMEJHFNHHBF4MWZNQ3MWE4.jpg?auth=3debc3509e6382c59e6a2eb50490b5186d036793cf509eb96cc9a80ee4057649&width=960&quality=80)](/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/)
+[Worldcategory](/world/)[White House freezes funds for Democratic states in shutdown slap](/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/)7:37 PM UTC
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+{
+  "filename": "row_200_investor_gov_extracted",
+  "url": "https://investor.gov/introduction-investing/investing-basics/how-stock-markets-work/executing-order",
+  "title": "Executing an Order",
+  "date": "",
+  "sentiment": "Neutral",
+  "text": "----------------------------------------\nWhen you place an order to buy or sell stock, you might not think about where or how your broker will execute the trade. But where and how your order is executed can impact the overall cost of the transaction, including the price you pay for the stock. Here's what you should know about trade execution:\nMany investors who trade through online brokerage accounts assume they have a direct connection to the securities markets, but they don't. When you push that enter key, your order is sent over the Internet to your broker -- who in turn decides which market to send it to for execution. A similar process occurs when you call your broker to place a trade.\nWhile trade execution is usually seamless and quick, it does take time. And prices can change quickly, especially in fast-moving markets. Because price quotes are only for a specific number of shares, investors may not always receive the price they saw on their screen or the price their broker quoted over the phone. By the time your order reaches the market, the price of the stock could be slightly -- or very -- different.\nSEC regulations do not require a trade to be executed within a set period of time. But if firms advertise their speed of execution, they must not exaggerate or fail to tell investors about the possibility of significant delays.\nYour Broker Has Options for Executing Your Trade\nJust as you have a choice of brokers, your broker generally has a choice of markets to execute your trade.\n• For a stock that is listed on an exchange, your broker may direct the order to that exchange, to another exchange, or to a firm called a \"market maker.\"\n• A \"market maker\" is a firm that stands ready to buy or sell a stock listed on an exchange at publicly quoted prices. As a way to attract orders from brokers, some market makers will pay your broker for routing your order to them -- perhaps a penny or more per share. This is called “payment for order flow.”\n• For a stock that trades in an over-the-counter (OTC) market, your broker may send the order to an “OTC market maker.” Many OTC market makers also pay brokers for order flow.\n• Your broker may route your order -- especially a limit order -- to an electronic communications network (ECN) that automatically matches buy and sell orders at specified prices.\n• Your broker may decide to send your order to another division of your broker's firm to be filled out of the firm's own inventory. This is called “internalization.” In this way, your broker's firm may make money on the \"spread\" -- which is the difference between the price the firm paid for the security and the price at which the firm sells it to you.\nYour Broker Has a Duty of “Best Execution”\nMany firms use automated systems to handle the orders they receive from their customers. In deciding how to execute orders, your broker has a duty to seek the best execution that is reasonably available for its customers' orders. That means your broker must evaluate the orders it receives from all customers in the aggregate and periodically assess which competing markets, market makers, or ECNs offer the most favorable terms of execution.\nThe opportunity for \"price improvement\" is an important factor a broker should consider in executing its customers' orders. \"Price improvement\" is the opportunity, but not the guarantee, for an order to be executed at a better price than the current quote.\nOf course, the additional time it takes some markets to execute orders may result in your getting a worse price than the current quote - especially in a fast-moving market. So, your broker is required to consider whether there is a trade-off between providing its customers' orders with the possibility, but not the guarantee, of better prices and the extra time it may take to do so.\nYou Have Options for Directing Trades\nIf for any reason you want to direct your trade to a particular exchange, market maker, or ECN, you may be able to call your broker and ask him or her to do this. But some brokers may charge for that service. Some brokers offer active traders the ability to direct orders to the market maker or ECN of their choice.",
+  "text_length": 4167,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.474787",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_200_investor_gov_extracted.txt"
+  },
+  "companies_mentioned": [
+    "SEC",
+    "ECN"
+  ],
+  "persons_mentioned": [],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "limit order book",
+          "market maker"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "exchange trading": [
+          "limit order book"
+        ],
+        "market making": [
+          "market maker"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "limit order book",
+        "market maker"
+      ]
+    },
+    "content_length": 4167,
+    "word_count": 732
+  }
+}

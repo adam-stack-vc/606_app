@@ -14,12 +14,13 @@ from langchain_experimental.sql import SQLDatabaseChain
 from langchain.utilities import SQLDatabase
 from langchain_openai import ChatOpenAI
 
-from context_direction import disambiguate_context
+from context_direction import disambiguate as disambiguate_context
 from query_intent import QueryIntent
 
 # ----------------------------------------------------------
 # Load restricted DB environment
 # ----------------------------------------------------------
+
 
 def load_db():
     return SQLDatabase.from_uri(

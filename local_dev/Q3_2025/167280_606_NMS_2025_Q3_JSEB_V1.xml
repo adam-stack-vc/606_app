@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Jane Street Execution Services</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-29T15:19:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.59</ndoMarketPct>
+      <ndoMarketableLimitPct>2.22</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.36</ndoNonmarketableLimitPct>
+      <ndoOtherPct>96.84</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>40.84</orderPct>
+          <marketPct>18.03</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>2.70</nonMarketableLimitPct>
+          <otherPct>42.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-4153.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6019.95</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.8125</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>22.53</orderPct>
+          <marketPct>29.51</marketPct>
+          <marketableLimitPct>40.26</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>22.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2448.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-21.7006</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-764.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-36.8178</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-24643.84</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.8110</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.15 to $0.25 per contract for Index options and $0.05 per contract for equity options.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.   Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://markets.cboe.com/us/options/membership/fee_schedule/xcbo/.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>13.37</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.87</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>13.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2.71</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-14.2632</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4109.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.9138</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/ise/rules/ise-options-7.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Boston Options Exchange</name>
+          <orderPct>5.07</orderPct>
+          <marketPct>36.07</marketPct>
+          <marketableLimitPct>22.51</marketableLimitPct>
+          <nonMarketableLimitPct>94.59</nonMarketableLimitPct>
+          <otherPct>4.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-926.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>77.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.6505</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-93.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-82.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.6791</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://boxoptions.com/regulatory/fee-schedule/.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>3.98</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>12.99</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.81</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-21.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract. Additionally, JSES may route customer
+orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service. Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee
+schedule. That fee schedule can be found at https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Options_Fee_Schedule_09122025.pdf. Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>3.92</orderPct>
+          <marketPct>6.56</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>2.70</nonMarketableLimitPct>
+          <otherPct>4.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1371.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-5.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2409.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-31.9047</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-options-7.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>3.25</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>698.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.8939</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract. Additionally, JSES may route customer
+orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service. Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee
+schedule. That fee schedule can be found at https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Fee_Schedule_09252025.pdf. Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.23</ndoMarketPct>
+      <ndoMarketableLimitPct>1.59</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>98.18</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>41.07</orderPct>
+          <marketPct>14.29</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>41.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1434.20</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>911.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.3368</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>18.71</orderPct>
+          <marketPct>35.71</marketPct>
+          <marketableLimitPct>42.86</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>18.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-4674.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-21.8853</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-591.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-32.5331</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-29.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-22203.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-6.1542</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.15 to $0.25 per contract for Index options and $0.05 per contract for equity options.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.   Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://markets.cboe.com/us/options/membership/fee_schedule/xcbo/.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>13.34</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>13.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20835.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.9725</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/ise/rules/ise-options-7.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>6.08</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-5.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-3563.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-42.5361</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-options-7.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Boston Options Exchange</name>
+          <orderPct>5.19</orderPct>
+          <marketPct>32.14</marketPct>
+          <marketableLimitPct>19.90</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>4.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1885.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>10.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.9954</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-220.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11838.07</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.3514</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://boxoptions.com/regulatory/fee-schedule/.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>3.78</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1315.95</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.3951</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract. Additionally, JSES may route customer
+orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service. Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee
+schedule. That fee schedule can be found at https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Fee_Schedule_09252025.pdf. Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>2.71</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>12.24</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-61.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract. Additionally, JSES may route customer
+orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service. Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee
+schedule. That fee schedule can be found at https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Options_Fee_Schedule_09122025.pdf. Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.35</ndoMarketPct>
+      <ndoMarketableLimitPct>1.85</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.17</ndoNonmarketableLimitPct>
+      <ndoOtherPct>97.63</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>41.74</orderPct>
+          <marketPct>7.89</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>42.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1069.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2777.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.5737</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>19.80</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.50</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>20.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-43.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1134.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.0438</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/ise/rules/ise-options-7.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>18.42</orderPct>
+          <marketPct>47.37</marketPct>
+          <marketableLimitPct>34.67</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>18.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-10094.85</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-8.9246</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-421.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-41.4427</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-29249.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.9380</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.15 to $0.25 per contract for Index options and $0.05 per contract for equity options.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.   Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://markets.cboe.com/us/options/membership/fee_schedule/xcbo/.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Boston Options Exchange</name>
+          <orderPct>4.10</orderPct>
+          <marketPct>34.21</marketPct>
+          <marketableLimitPct>24.12</marketableLimitPct>
+          <nonMarketableLimitPct>83.33</nonMarketableLimitPct>
+          <otherPct>3.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-999.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>21.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.5974</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-46.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>10012.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.5594</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://boxoptions.com/regulatory/fee-schedule/.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>3.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>848.88</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>49.3535</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract. Additionally, JSES may route customer
+orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service. Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee
+schedule. That fee schedule can be found at https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Fee_Schedule_09252025.pdf. Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>2.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>16.67</nonMarketableLimitPct>
+          <otherPct>2.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-32.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2735.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-36.1233</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract.  Additionally, JSES may route customer orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service.  Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee schedule.  That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-options-7.  Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq GEMX, LLC</name>
+          <orderPct>2.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.51</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-47.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-52.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-665.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-53.5197</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>JSES routes customer orders paired with offsetting orders received from its market-maker affiliate, Jane Street Options, LLC (JSO), to various floor brokers to be crossed on the options exchange and pays a fee for the service of $0.05 per contract. Additionally, JSES may route customer
+orders to the exchange via a Smart Order Router or Algo operated by Dash Financial and pays a commission of $0.04 per contract for this service. Dash Financial also passes through any exchange fees or rebates applicable to the trade according to the exchange’s published fee
+schedule. That fee schedule can be found at https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207. Details on the fees paid or rebates received each month from Dash passthroughs for each venue, product type, underlier type and liquidity code can be found at https://www.janestreet.com/execution-quality-reports/ included with the posted 606 documents for the relevant quarter.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

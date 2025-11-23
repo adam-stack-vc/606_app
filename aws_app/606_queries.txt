@@ -1,0 +1,108 @@
+# SEC Rule 606 Data - Useful SQL Queries  
+**Table:** `executing_bd_606`  
+
+---
+
+### 1. List of distinct executing_bd + month + year + stock_group
+```sql
+SELECT DISTINCT 
+    executing_bd,
+    month,
+    year,
+    stock_group
+FROM executing_bd_606
+WHERE executing_bd IS NOT NULL
+  AND month IS NOT NULL
+  AND year IS NOT NULL
+  AND stock_group IS NOT NULL
+ORDER BY year DESC, month, executing_bd, stock_group;
+```
+
+
+# 2. Number of distinct (executing_bd, month, year, stock_group) combinations
+```sql
+SELECT COUNT(*) AS distinct_executing_bd_month_year_stockgroup_count
+FROM (
+    SELECT DISTINCT executing_bd, month, year, stock_group
+    FROM executing_bd_606
+    WHERE executing_bd IS NOT NULL
+      AND month IS NOT NULL
+      AND year IS NOT NULL
+      AND stock_group IS NOT NULL
+) AS subquery;
+```
+# 3. Number of distinct (venue, month, year, stock_group) combinations
+```sql
+SELECT COUNT(*) AS distinct_venue_month_year_stockgroup_count
+FROM (
+    SELECT DISTINCT venue, month, year, stock_group
+    FROM executing_bd_606
+    WHERE venue IS NOT NULL
+      AND month IS NOT NULL
+      AND year IS NOT NULL
+      AND stock_group IS NOT NULL
+) AS subquery;
+```
+# 4. List of distinct venues + month + year + stock_group
+```sql
+SELECT DISTINCT 
+    venue,
+    month,
+    year,
+    stock_group
+FROM executing_bd_606
+WHERE venue IS NOT NULL
+  AND month IS NOT NULL
+  AND year IS NOT NULL
+  AND stock_group IS NOT NULL
+ORDER BY year DESC, month, venue, stock_group;
+```
+# 5. Executing BDs with total net payment < $1,000 per month/year
+# 5a. Aggregated across all stock groups
+```sql
+SELECT 
+    executing_bd,
+    month,
+    year,
+    SUM(
+        COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+        COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+        COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0)
+    ) AS total_net_payment_usd
+FROM executing_bd_606
+WHERE executing_bd IS NOT NULL
+  AND month IS NOT NULL
+  AND year IS NOT NULL
+GROUP BY executing_bd, month, year
+HAVING SUM(
+        COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+        COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+        COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0)
+    ) < 1000
+ORDER BY year DESC, month, executing_bd;
+```
+# 5b. Aggregated by executing_bd + month + year + stock_group
+```sql
+SELECT 
+    executing_bd,
+    month,
+    year,
+    stock_group,
+    SUM(
+        COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+        COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+        COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0)
+    ) AS total_net_payment_usd
+FROM executing_bd_606
+WHERE executing_bd IS NOT NULL
+  AND month IS NOT NULL
+  AND year IS NOT NULL
+  AND stock_group IS NOT NULL
+GROUP BY executing_bd, month, year, stock_group
+HAVING SUM(
+        COALESCE(netpmtpaidrecvmarketordersusd, 0) +
+        COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) +
+        COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0)
+    ) < 1000
+ORDER BY year DESC, month, executing_bd, stock_group;
+```

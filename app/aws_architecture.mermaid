@@ -1,0 +1,23 @@
+graph TB
+    User[User/Client] -->|HTTPS Request| AppRunner[AWS App Runner<br/>FastAPI Container]
+    
+    AppRunner -->|Queries| OpenAI[OpenAI API<br/>gpt-4]
+    AppRunner -->|Reads Secrets| Secrets[AWS Secrets Manager<br/>DB Credentials<br/>OpenAI API Key]
+    AppRunner -->|SQL Queries| RDS[(RDS PostgreSQL<br/>Private Subnet<br/>executing_bd_606)]
+    
+    subgraph "AWS Cloud"
+        subgraph "VPC"
+            subgraph "Private Subnet"
+                RDS
+            end
+            subgraph "Public Subnet"
+                AppRunner
+            end
+        end
+        Secrets
+    end
+    
+    style AppRunner fill:#FF9900
+    style RDS fill:#527FFF
+    style Secrets fill:#DD344C
+    style User fill:#232F3E

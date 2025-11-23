@@ -1,0 +1,101 @@
+{
+  "filename": "row_173_investopedia_com_extracted",
+  "url": "https://investopedia.com/articles/active-trading/042414/what-makertaker-fees-mean-you.asp",
+  "title": "What Maker-Taker Fees Mean for You",
+  "date": "",
+  "sentiment": "Neutral",
+  "text": "----------------------------------------\nExchanges and a few high-frequency traders are under scrutiny for a rebate pricing system regulators believe can distort pricing, diminish liquidity, and cost long-term investors.\nSo-called maker-taker fees offer a transaction rebate to those who provide liquidity (the market maker) while charging customers who take that liquidity. The chief aim of maker-taker fees is to stimulate trading activity within an exchange by extending to firms the incentive to post orders which encourages trading.\nMakers are typically high-frequency trading firms whose business models largely depend on specialized trading strategies designed to capture payments. Takers are usually either large investment firms looking to buy or sell big blocks of stocks or hedge funds making bets on short-term price movement.\nThe maker-taker model runs counter to the traditional “customer priority” design under which customer accounts are given order priority without having to pay exchange transaction fees. Under the customer priority model, exchanges charge market-makers fees for transactions and collect payment for order flow. Order flow payments are then funneled to brokerage firms to attract orders to a given exchange.\nWhen a limit order is placed on an exchange that is not immediately filled, the order adds liquidity to an order book for that security. Because an exchange is incentivized to attract traders and various orders to their platform, the exchange may award a maker fee lower than a taker fee to the market participant expanding the order book. The market maker may be charged a fee for placing an order but may also receive a transaction rebate for providing liquidity.\nA trade order gets the maker fee if the trade is not immediately matched against an open order. Investors can intentionally post limit orders different from a security's current price to ensure they receive the transaction from the maker's perspective. However, in exchange for a maker fee, the settlement of the transaction does not occur instantly.\nWhen a market order is placed, it is often executed right away. This type of order takes away part of the existing liquidity on an order book for a security. Because this is unfavorable for exchanges as the liquidity of the security has decreased, exchanges charge taker fees to deter trades from removing existing pending orders. The amount of the taker fee is usually greater than the amount of the maker fee.\nA trade order gets the taker fee if the fee is executed immediately and takes liquidity from the market. Traders may prefer immediate settlement of their order and are willing to pay higher fees. If this is the case, the trader will use a market order to execute immediately.\nThe maker-taker plan harks back to 1997 when Island Electronic Communications Network creator, Joshua Levine, designed a pricing model to give providers an incentive to trade in markets with narrow spreads. Under this scenario, makers would receive a $0.002 per share rebate, takers would pay a $0.003 per share fee, and the exchange would keep the difference. By the mid-2000s, rebate capture strategies had emerged as a staple of market incentive features, with payments ranging from 20 to 30 cents for every 100 shares traded.\nExchanges employing maker-taker pricing programs include the NYSE Euronext’s Arca Options platform and Nasdaq Inc.’s NOM platform as well as the U.S. options exchange launched by BATS Global Markets. International Securities Exchange Holdings, Inc. and the Cboe Options Exchange, owned by Cboe Holdings, Inc., both use the customer priority system.\nDetractors of the practice believe publicly-viewed bid/offer prices in the market are rendered inaccurate by the rebates and other discounts. Some opponents note high-frequency traders exploit rebates by buying and selling shares at the same price to profit from the spread between rebates which masks the true price discovery of assets. Others maintain maker-taker payments create false liquidity by attracting people only interested in the rebates and who do not substantially trade shares.\nOne study by University of Notre Dame finance professors Shane Corwin and Robert Battalio and Indiana University professor Robert Jennings identified stockbrokers that regularly channeled client orders to markets providing the best payments. Their research found that order execution quality suffered when stockbrokers routed trades to maximize rebate benefits.\nIn January 2014, Jeffrey Sprecher, CEO of Intercontinental Exchange (ICE) Group, Inc., which owns the New York Stock Exchange, called for regulators to look deeper into rebate pricing practices. In a letter to the Securities and Exchange Commission (SEC), The Royal Bank of Canada’s capital markets group claimed maker-taker arrangements fostered conflicts of interest and should possibly be banned. Following the outcry, Senator Charles Schumer (D.-N.Y.) requested the SEC study the issue.\nIn an October 2015 speech, former SEC Commissioner Luis Aguilar announced the SEC is contemplating a test initiative to curtail maker-taker rebates via a pilot program. This pilot program would jettison maker-taker fees in a select group of stocks for a probationary period to demonstrate how trading in those securities compares with commensurate stocks retaining the maker-taker payment system. However, in 2020, the U.S. Court of Appeals ruled that this study exceeded the authority of the SEC, and the pilot program was struck down.\nWhile maker-taker fee systems have seen an uptick in usage since their late 1990s inception, their future remains uncertain as academics, financial institutions, and politicians have called for regulatory scrutiny of the pricing model which could lead to significant changes in the practice.",
+  "text_length": 5802,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.497267",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_173_investopedia_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "Makers",
+    "Island Electronic Communications Network",
+    "Nasdaq Inc.’s",
+    "BATS Global Markets",
+    "International Securities Exchange Holdings, Inc.",
+    "the Cboe Options Exchange",
+    "Cboe Holdings, Inc.",
+    "University of Notre Dame",
+    "Indiana University",
+    "Intercontinental Exchange",
+    "Group, Inc.",
+    "the New York Stock Exchange",
+    "the Securities and Exchange Commission",
+    "SEC",
+    "The Royal Bank of Canada’s",
+    "D.-N.Y.",
+    "the U.S. Court of Appeals"
+  ],
+  "persons_mentioned": [
+    "Joshua Levine",
+    "Shane Corwin",
+    "Robert Battalio",
+    "Robert Jennings",
+    "Jeffrey Sprecher",
+    "Charles Schumer",
+    "Luis Aguilar"
+  ],
+  "value_chains": [
+    "invest",
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "invest": [
+          "hedge fund administration",
+          "hedge fund managed accounts"
+        ],
+        "trade": [
+          "client order",
+          "execution quality",
+          "limit order book",
+          "market maker",
+          "order book",
+          "order execution systems"
+        ]
+      },
+      "functions": {
+        "fund administration": [
+          "hedge fund administration"
+        ],
+        "hedge fund managed accounts": [
+          "hedge fund managed accounts"
+        ],
+        "equity trading": [
+          "client order"
+        ],
+        "institutional brokerage": [
+          "execution quality"
+        ],
+        "exchange trading": [
+          "limit order book",
+          "order book"
+        ],
+        "market making": [
+          "market maker"
+        ],
+        "trading infrastructure": [
+          "order execution systems"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "hedge fund administration",
+        "hedge fund managed accounts",
+        "client order",
+        "execution quality",
+        "limit order book",
+        "market maker",
+        "order book",
+        "order execution systems"
+      ]
+    },
+    "content_length": 5802,
+    "word_count": 891
+  }
+}

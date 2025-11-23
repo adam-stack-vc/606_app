@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Zoe Securities LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-24T17:25:18Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>100.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>68.69</orderPct>
+          <marketPct>68.69</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>11.88</orderPct>
+          <marketPct>11.88</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.78</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>9.52</orderPct>
+          <marketPct>9.52</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.32</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>100.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>72.06</orderPct>
+          <marketPct>72.06</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>59.47</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>10.27</orderPct>
+          <marketPct>10.27</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>46.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>8.45</orderPct>
+          <marketPct>8.45</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>35.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>100.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>69.61</orderPct>
+          <marketPct>69.61</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>9.34</orderPct>
+          <marketPct>9.34</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>8.69</orderPct>
+          <marketPct>8.69</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>6.49</orderPct>
+          <marketPct>6.49</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>100.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>72.40</orderPct>
+          <marketPct>72.40</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>19.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>8.81</orderPct>
+          <marketPct>8.81</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>27.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.13</orderPct>
+          <marketPct>8.13</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>16.13</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>5.55</orderPct>
+          <marketPct>5.55</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>100.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>69.04</orderPct>
+          <marketPct>69.04</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.74</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>9.07</orderPct>
+          <marketPct>9.07</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.37</orderPct>
+          <marketPct>8.37</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>7.30</orderPct>
+          <marketPct>7.30</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>100.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>70.58</orderPct>
+          <marketPct>70.58</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>32.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.49</orderPct>
+          <marketPct>8.49</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>28.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9993</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>8.28</orderPct>
+          <marketPct>8.28</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>24.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9992</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>6.70</orderPct>
+          <marketPct>6.70</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>23.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Zoe Securities LLC, Inc relies exclusively upon Apex Clearing Corporation (“Apex”) for order routing and routes non-directed orders from its website platform to Apex Clearing Corporation (“Apex”) who may receive payment for order flow as detailed in their report. Zoe Financial receives a portion of that payment (50%) from Apex. Payment varies based upon several factors including, but not limited to, whether an order is marketable at the time of order entry, the underlying price of the security, and any special handling instructions. These payments were not contingent upon volume-based tiered payment schedules, agreements regarding minimum order flow, incentives for exceeding order flow thresholds, or disincentives for failing to meet order flow threshold</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

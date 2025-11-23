@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>RBC Capital Markets Corporation</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-11-14T21:25:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>98.56</ndoPct>
+      <ndoMarketPct>97.08</ndoMarketPct>
+      <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.92</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Securities</name>
+          <orderPct>62.77</orderPct>
+          <marketPct>64.66</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Agency</name>
+          <orderPct>34.31</orderPct>
+          <marketPct>35.34</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Net payments for purposes of Rule 606(a)(1) solely include commissions charged by VIRTU AMERICAS LLC as Subscriber for executions in the ATS. For more information about Virtu MatchIt ATS’s fees, please see Virtu MatchIt ATS’s Form ATS-N, Item 19 available at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=013-00140&amp;owner=exclude&amp;count=40</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>0.73</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>25.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. XNAS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: http://www.nasdaqtrader.com/Trader.aspx?id=PriceListTrading2</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>0.73</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>25.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/
+Information refecting the BATS’s tiered pricing/payment schedule, as applicable to RBC</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Investors Exchange (IEXG)</name>
+          <orderPct>0.73</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>25.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.22</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://iextrading.com/trading/fees/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>0.73</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>25.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. ARCX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://www.nyse.com/markets/nyse-arca/trading-info</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.91</ndoPct>
+      <ndoMarketPct>40.09</ndoMarketPct>
+      <ndoMarketableLimitPct>32.34</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>27.52</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.05</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Agency</name>
+          <orderPct>55.41</orderPct>
+          <marketPct>49.65</marketPct>
+          <marketableLimitPct>62.70</marketableLimitPct>
+          <nonMarketableLimitPct>55.31</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>158.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8534</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>135.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.0739</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>116.43</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.5995</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC ATS</name>
+          <orderPct>15.78</orderPct>
+          <marketPct>14.12</marketPct>
+          <marketableLimitPct>23.53</marketableLimitPct>
+          <nonMarketableLimitPct>9.11</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities</name>
+          <orderPct>8.96</orderPct>
+          <marketPct>20.72</marketPct>
+          <marketableLimitPct>2.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>7.38</orderPct>
+          <marketPct>7.06</marketPct>
+          <marketableLimitPct>5.74</marketableLimitPct>
+          <nonMarketableLimitPct>9.78</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>3.62</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.14</marketableLimitPct>
+          <nonMarketableLimitPct>12.98</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MCAP LLC</name>
+          <orderPct>3.25</orderPct>
+          <marketPct>8.10</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>30.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.7683</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>1.48</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.87</marketableLimitPct>
+          <nonMarketableLimitPct>3.04</nonMarketableLimitPct>
+          <otherPct>100.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-206.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.3423</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.5472</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>37.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>1.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.86</marketableLimitPct>
+          <nonMarketableLimitPct>2.70</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>63.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.2825</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.3208</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>1.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.15</marketableLimitPct>
+          <nonMarketableLimitPct>2.36</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>76.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.6668</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-46.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-16.7053</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>0.88</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.57</marketableLimitPct>
+          <nonMarketableLimitPct>2.53</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>62.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>29.5772</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-47.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-12.4657</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>78.73</ndoMarketPct>
+      <ndoMarketableLimitPct>4.97</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>16.30</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>RBC Capital Markets Corporation</name>
+          <orderPct>98.11</orderPct>
+          <marketPct>100.00</marketPct>
+          <marketableLimitPct>86.21</marketableLimitPct>
+          <nonMarketableLimitPct>92.63</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>1.89</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>13.79</marketableLimitPct>
+          <nonMarketableLimitPct>7.37</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>94.44</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>14.12</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>85.88</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>UBS Securities, LLC ATS</name>
+          <orderPct>64.71</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>91.67</marketableLimitPct>
+          <nonMarketableLimitPct>60.27</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Net payments for purposes of Rule 606(a)(1) solely include commissions charged by UBS Securities LLC as Subscriber for executions in the ATS. For more information about UBS ATS’s fees, please see UBS ATS’s Form ATS-N, Item 19 available at: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=013-00069&amp;owner=exclude&amp;count=40.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>5.88</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>6.85</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.3218</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. ARCX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://www.nyse.com/markets/nyse-arca/trading-info</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>5.88</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.17</marketableLimitPct>
+          <nonMarketableLimitPct>6.16</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.9600</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0095</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>5.29</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.17</marketableLimitPct>
+          <nonMarketableLimitPct>5.48</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.45</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. XNAS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: http://www.nasdaqtrader.com/Trader.aspx?id=PriceListTrading2</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>4.71</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>5.48</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.0614</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/
+Information refecting the BATS’s tiered pricing/payment schedule, as applicable to RBC</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BYX Exchange, Inc.</name>
+          <orderPct>2.94</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>3.42</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-2.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. BATY has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:
+https://markets.cboe.com/us/equities/membership/fee_schedule/byx/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq BX, Inc.</name>
+          <orderPct>2.94</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>3.42</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. XBOS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: http://www.nasdaqtrader.com/Trader.aspx?id=bx_pricing</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>2.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>2.74</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. XASE has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://www.nyse.com/publicdocs/nyse/markets/nyse-american/NYSE_America_Equities_Price_List.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE NATIONAL, INC</name>
+          <orderPct>2.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>2.74</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. XCIS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://www.miaxglobal.com/markets/us-equities/pearl-equities/fees</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGA Exchange, Inc.</name>
+          <orderPct>2.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>2.74</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://markets.cboe.com/us/equities/membership/fee_schedule/edga/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.48</ndoPct>
+      <ndoMarketPct>35.53</ndoMarketPct>
+      <ndoMarketableLimitPct>16.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>47.55</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.40</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Securities</name>
+          <orderPct>31.06</orderPct>
+          <marketPct>14.13</marketPct>
+          <marketableLimitPct>42.40</marketableLimitPct>
+          <nonMarketableLimitPct>40.02</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Agency</name>
+          <orderPct>25.51</orderPct>
+          <marketPct>23.75</marketPct>
+          <marketableLimitPct>25.68</marketableLimitPct>
+          <nonMarketableLimitPct>26.98</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>92.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>3.4850</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>81.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.9192</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.7888</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC ATS</name>
+          <orderPct>19.86</orderPct>
+          <marketPct>32.30</marketPct>
+          <marketableLimitPct>10.94</marketableLimitPct>
+          <nonMarketableLimitPct>13.78</nonMarketableLimitPct>
+          <otherPct>6.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>15.32</orderPct>
+          <marketPct>16.75</marketPct>
+          <marketableLimitPct>6.23</marketableLimitPct>
+          <nonMarketableLimitPct>17.53</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MCAP LLC</name>
+          <orderPct>3.57</orderPct>
+          <marketPct>9.96</marketPct>
+          <marketableLimitPct>0.15</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>49.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.6510</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>100.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market LLC</name>
+          <orderPct>0.98</orderPct>
+          <marketPct>0.07</marketPct>
+          <marketableLimitPct>4.86</marketableLimitPct>
+          <nonMarketableLimitPct>0.32</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>52.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.4635</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.2989</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>0.70</orderPct>
+          <marketPct>1.98</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Investors Exchange (IEXG)</name>
+          <orderPct>0.58</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.34</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.1348</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>0.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.52</marketableLimitPct>
+          <nonMarketableLimitPct>0.21</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>0.30</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.22</marketableLimitPct>
+          <nonMarketableLimitPct>0.21</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>10.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>73.28</ndoMarketPct>
+      <ndoMarketableLimitPct>8.10</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>17.93</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.69</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>RBC Capital Markets Corporation</name>
+          <orderPct>93.79</orderPct>
+          <marketPct>100.00</marketPct>
+          <marketableLimitPct>82.98</marketableLimitPct>
+          <nonMarketableLimitPct>76.92</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>5.52</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>17.02</marketableLimitPct>
+          <nonMarketableLimitPct>23.08</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GELP</name>
+          <orderPct>0.69</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>100.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>98.13</ndoPct>
+      <ndoMarketPct>99.71</ndoMarketPct>
+      <ndoMarketableLimitPct>0.05</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>0.24</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Agency</name>
+          <orderPct>59.83</orderPct>
+          <marketPct>60.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>154.21</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>2.7772</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Net payments for purposes of Rule 606(a)(1) solely include commissions charged by VIRTU AMERICAS LLC as Subscriber for executions in the ATS. For more information about Virtu MatchIt ATS’s fees, please see Virtu MatchIt ATS’s Form ATS-N, Item 19 available at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=013-00140&amp;owner=exclude&amp;count=40</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC ATS</name>
+          <orderPct>24.04</orderPct>
+          <marketPct>24.06</marketPct>
+          <marketableLimitPct>100.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Net payments for purposes of Rule 606(a)(1) solely include commissions charged by UBS Securities LLC as Subscriber for executions in the ATS. For more information about UBS ATS’s fees, please see UBS ATS’s Form ATS-N, Item 19 available at: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=013-00069&amp;owner=exclude&amp;count=40.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities</name>
+          <orderPct>15.90</orderPct>
+          <marketPct>15.94</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NEW YORK STOCK EXCHANGE, INC.</name>
+          <orderPct>0.14</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>60.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-7.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-11.7196</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow.  XNYS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://www.nyse.com/markets/nyse/trading-info#trading-fees</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Investors Exchange (IEXG)</name>
+          <orderPct>0.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>20.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-9.1091</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://iextrading.com/trading/fees/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>0.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>20.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, RBCCM pays fees or receives credits in accordance with this market center's published fee schedule and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. The credits/rebates received by RBCCM may be in excess of fees charged for the venue and the receipt of net payments from a venue would constitute payment for order flow. XASE has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website: https://www.nyse.com/publicdocs/nyse/markets/nyse-american/NYSE_America_Equities_Price_List.pdf</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.44</ndoPct>
+      <ndoMarketPct>37.82</ndoMarketPct>
+      <ndoMarketableLimitPct>20.06</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>36.16</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.96</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Agency</name>
+          <orderPct>41.56</orderPct>
+          <marketPct>36.95</marketPct>
+          <marketableLimitPct>74.10</marketableLimitPct>
+          <nonMarketableLimitPct>35.20</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>100.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>2.0204</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.2490</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>23.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.9713</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities</name>
+          <orderPct>25.03</orderPct>
+          <marketPct>24.90</marketPct>
+          <marketableLimitPct>16.10</marketableLimitPct>
+          <nonMarketableLimitPct>34.23</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC ATS</name>
+          <orderPct>9.77</orderPct>
+          <marketPct>21.13</marketPct>
+          <marketableLimitPct>8.88</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BYX Exchange, Inc.</name>
+          <orderPct>6.75</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>11.10</nonMarketableLimitPct>
+          <otherPct>45.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>49.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.7626</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.8571</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>3.37</orderPct>
+          <marketPct>8.92</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>2.86</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.21</marketableLimitPct>
+          <nonMarketableLimitPct>3.89</nonMarketableLimitPct>
+          <otherPct>23.61</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-15.27</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-20.1584</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MCAP LLC</name>
+          <orderPct>2.67</orderPct>
+          <marketPct>7.01</marketPct>
+          <marketableLimitPct>0.10</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>88.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.9990</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE NATIONAL, INC</name>
+          <orderPct>2.15</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>4.12</nonMarketableLimitPct>
+          <otherPct>11.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>36.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0528</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.6522</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>1.70</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>2.80</nonMarketableLimitPct>
+          <otherPct>11.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-12.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-16.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>1.41</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>3.09</nonMarketableLimitPct>
+          <otherPct>4.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-16.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-20.2852</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>81.66</ndoMarketPct>
+      <ndoMarketableLimitPct>6.45</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>11.03</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.86</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>RBC Capital Markets Corporation</name>
+          <orderPct>95.85</orderPct>
+          <marketPct>98.95</marketPct>
+          <marketableLimitPct>80.00</marketableLimitPct>
+          <nonMarketableLimitPct>89.61</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>3.30</orderPct>
+          <marketPct>1.05</marketPct>
+          <marketableLimitPct>20.00</marketableLimitPct>
+          <nonMarketableLimitPct>10.39</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GELP</name>
+          <orderPct>0.86</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>100.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>RBCM routes orders to market centers, such as exchanges and alternative trading systems, that may provide rebates or charge execution fees depending on whether routed orders provide liquidity, or take liquidity from, such market center. In some cases, RBCM may receive rebates from a market center that exceed the amount of fees charged by such market center. Certain market centers may provide volume-based tiered pricing/payment schedules pursuant to which RBCM may receive incremental pricing benefits based upon the aggregate trading volume routed to the market center (including trading volume not associated with customer orders), in accordance with that market center’s published fee schedule.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

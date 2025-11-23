@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Lime Trading Corp</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-28T14:48:18Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>84.51</ndoPct>
+      <ndoMarketPct>19.56</ndoMarketPct>
+      <ndoMarketableLimitPct>11.45</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>54.98</ndoNonmarketableLimitPct>
+      <ndoOtherPct>14.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>39.98</orderPct>
+          <marketPct>0.04</marketPct>
+          <marketableLimitPct>35.83</marketableLimitPct>
+          <nonMarketableLimitPct>48.75</nonMarketableLimitPct>
+          <otherPct>64.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>18.56</orderPct>
+          <marketPct>32.35</marketPct>
+          <marketableLimitPct>21.95</marketableLimitPct>
+          <nonMarketableLimitPct>13.74</nonMarketableLimitPct>
+          <otherPct>15.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>432.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.1533</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>59.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.1810</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>295.93</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.1875</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>384.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.7529</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Canaccord by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0016/share executed to add liquidity, and received a fee of $0.0016 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>15.21</orderPct>
+          <marketPct>31.34</marketPct>
+          <marketableLimitPct>19.36</marketableLimitPct>
+          <nonMarketableLimitPct>12.48</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>563.29</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>103.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>913.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>13.59</orderPct>
+          <marketPct>20.80</marketPct>
+          <marketableLimitPct>12.63</marketableLimitPct>
+          <nonMarketableLimitPct>12.19</nonMarketableLimitPct>
+          <otherPct>9.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>242.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9971</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>67.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9562</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>307.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.9389</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>60.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.1369</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from VIRTU by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0025/share executed to add liquidity, and received a fee of $0.0015 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>11.50</orderPct>
+          <marketPct>15.30</marketPct>
+          <marketableLimitPct>10.15</marketableLimitPct>
+          <nonMarketableLimitPct>10.87</nonMarketableLimitPct>
+          <otherPct>9.76</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0009</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>278.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.9982</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13.97</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.9234</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Lampost by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0020/share executed to add liquidity, and received a fee of $0.0005 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>91.39</ndoPct>
+      <ndoMarketPct>16.76</ndoMarketPct>
+      <ndoMarketableLimitPct>27.98</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.80</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.45</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>21.33</orderPct>
+          <marketPct>19.74</marketPct>
+          <marketableLimitPct>28.20</marketableLimitPct>
+          <nonMarketableLimitPct>18.53</nonMarketableLimitPct>
+          <otherPct>16.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1150.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.8108</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>51463.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8630</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3135.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.4210</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>371.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.4966</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from VIRTU by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0025/share executed to add liquidity, and received a fee of $0.0015 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>20.44</orderPct>
+          <marketPct>15.85</marketPct>
+          <marketableLimitPct>30.48</marketableLimitPct>
+          <nonMarketableLimitPct>16.93</nonMarketableLimitPct>
+          <otherPct>14.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-38.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.5620</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-67.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.0153</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2362.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.6487</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>143.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.9038</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Lampost by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0020/share executed to add liquidity, and received a fee of $0.0005 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.33</orderPct>
+          <marketPct>33.81</marketPct>
+          <marketableLimitPct>14.88</marketableLimitPct>
+          <nonMarketableLimitPct>18.70</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2038.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.8131</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7437.23</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>23.8561</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4570.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.8696</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TThe net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>18.52</orderPct>
+          <marketPct>30.37</marketPct>
+          <marketableLimitPct>14.16</marketableLimitPct>
+          <nonMarketableLimitPct>16.78</nonMarketableLimitPct>
+          <otherPct>21.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1575.69</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.8272</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3620.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.7313</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1567.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.2510</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>174.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.7170</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Canaccord by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0016/share executed to add liquidity, and received a fee of $0.0016 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>18.22</orderPct>
+          <marketPct>0.23</marketPct>
+          <marketableLimitPct>12.14</marketableLimitPct>
+          <nonMarketableLimitPct>24.98</nonMarketableLimitPct>
+          <otherPct>46.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.09</ndoMarketPct>
+      <ndoMarketableLimitPct>21.18</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>68.73</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>37.76</orderPct>
+          <marketPct>34.58</marketPct>
+          <marketableLimitPct>42.17</marketableLimitPct>
+          <nonMarketableLimitPct>36.87</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>143.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>287.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>391.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from WEX by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>37.64</orderPct>
+          <marketPct>32.67</marketPct>
+          <marketableLimitPct>43.15</marketableLimitPct>
+          <nonMarketableLimitPct>36.68</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>378.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.8665</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>813.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>38.1148</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1226.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.2248</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Dash Financial by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.40/contract executed to add liquidity and received a fee of $0.40/contract to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>24.59</orderPct>
+          <marketPct>32.75</marketPct>
+          <marketableLimitPct>14.69</marketableLimitPct>
+          <nonMarketableLimitPct>26.45</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>144.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>264.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>348.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>88.25</ndoPct>
+      <ndoMarketPct>23.32</ndoMarketPct>
+      <ndoMarketableLimitPct>9.13</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.49</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.06</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>34.02</orderPct>
+          <marketPct>0.06</marketPct>
+          <marketableLimitPct>29.97</marketableLimitPct>
+          <nonMarketableLimitPct>42.34</nonMarketableLimitPct>
+          <otherPct>58.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>20.93</orderPct>
+          <marketPct>33.61</marketPct>
+          <marketableLimitPct>23.81</marketableLimitPct>
+          <nonMarketableLimitPct>15.79</nonMarketableLimitPct>
+          <otherPct>17.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>951.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.5293</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>79.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.7649</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>274.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.1702</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>366.97</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.6374</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Canaccord by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0016/share executed to add liquidity, and received a fee of $0.0016 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>16.84</orderPct>
+          <marketPct>30.94</marketPct>
+          <marketableLimitPct>21.72</marketableLimitPct>
+          <nonMarketableLimitPct>14.84</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>817.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>177.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>282.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>14.94</orderPct>
+          <marketPct>20.32</marketPct>
+          <marketableLimitPct>13.58</marketableLimitPct>
+          <nonMarketableLimitPct>13.62</nonMarketableLimitPct>
+          <otherPct>12.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>321.62</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.8751</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>40.56</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.4351</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>405.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.7551</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>140.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.1115</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from VIRTU by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0025/share executed to add liquidity, and received a fee of $0.0015 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>12.43</orderPct>
+          <marketPct>15.08</marketPct>
+          <marketableLimitPct>10.92</marketableLimitPct>
+          <nonMarketableLimitPct>11.85</nonMarketableLimitPct>
+          <otherPct>11.30</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0824</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>185.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.9949</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>366.67</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.3341</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Lampost by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0020/share executed to add liquidity, and received a fee of $0.0005 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>93.43</ndoPct>
+      <ndoMarketPct>15.82</ndoMarketPct>
+      <ndoMarketableLimitPct>27.53</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>52.41</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.25</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>21.04</orderPct>
+          <marketPct>19.53</marketPct>
+          <marketableLimitPct>27.57</marketableLimitPct>
+          <nonMarketableLimitPct>18.79</nonMarketableLimitPct>
+          <otherPct>12.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1553.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.2342</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>50529.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9568</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2072.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.6901</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>155.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.9723</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from VIRTU by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0025/share executed to add liquidity, and received a fee of $0.0015 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>20.01</orderPct>
+          <marketPct>16.71</marketPct>
+          <marketableLimitPct>28.28</marketableLimitPct>
+          <nonMarketableLimitPct>17.47</nonMarketableLimitPct>
+          <otherPct>10.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2.76</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.0363</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-54.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.0139</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2128.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.8585</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>33.65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.1645</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Lampost by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0020/share executed to add liquidity, and received a fee of $0.0005 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.26</orderPct>
+          <marketPct>32.66</marketPct>
+          <marketableLimitPct>15.60</marketableLimitPct>
+          <nonMarketableLimitPct>18.70</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1981.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8430</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5959.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>24.1649</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2950.99</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.3447</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TThe net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>18.80</orderPct>
+          <marketPct>30.94</marketPct>
+          <marketableLimitPct>14.79</marketableLimitPct>
+          <nonMarketableLimitPct>17.27</nonMarketableLimitPct>
+          <otherPct>18.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2062.99</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7043</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4241.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.6257</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1100.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.5988</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>161.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.4268</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Canaccord by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0016/share executed to add liquidity, and received a fee of $0.0016 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>18.71</orderPct>
+          <marketPct>0.17</marketPct>
+          <marketableLimitPct>13.68</marketableLimitPct>
+          <nonMarketableLimitPct>23.70</nonMarketableLimitPct>
+          <otherPct>58.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>14.29</ndoMarketPct>
+      <ndoMarketableLimitPct>18.68</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>67.03</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>37.27</orderPct>
+          <marketPct>33.86</marketPct>
+          <marketableLimitPct>43.84</marketableLimitPct>
+          <nonMarketableLimitPct>36.17</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>337.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>241.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>488.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from WEX by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>36.46</orderPct>
+          <marketPct>33.35</marketPct>
+          <marketableLimitPct>40.31</marketableLimitPct>
+          <nonMarketableLimitPct>36.04</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>904.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>36.2355</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>532.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.4702</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1535.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.6534</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Dash Financial by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.40/contract executed to add liquidity and received a fee of $0.40/contract to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>26.27</orderPct>
+          <marketPct>32.80</marketPct>
+          <marketableLimitPct>15.85</marketableLimitPct>
+          <nonMarketableLimitPct>27.78</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>325.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>206.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>377.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>88.91</ndoPct>
+      <ndoMarketPct>25.38</ndoMarketPct>
+      <ndoMarketableLimitPct>9.81</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.10</ndoNonmarketableLimitPct>
+      <ndoOtherPct>14.72</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>32.42</orderPct>
+          <marketPct>0.07</marketPct>
+          <marketableLimitPct>36.05</marketableLimitPct>
+          <nonMarketableLimitPct>40.40</nonMarketableLimitPct>
+          <otherPct>58.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>21.38</orderPct>
+          <marketPct>34.08</marketPct>
+          <marketableLimitPct>21.02</marketableLimitPct>
+          <nonMarketableLimitPct>15.89</nonMarketableLimitPct>
+          <otherPct>18.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>746.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.3649</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>91.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.2882</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>140.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.2170</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>208.26</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.3915</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Canaccord by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0016/share executed to add liquidity, and received a fee of $0.0016 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>16.99</orderPct>
+          <marketPct>29.69</marketPct>
+          <marketableLimitPct>19.90</marketableLimitPct>
+          <nonMarketableLimitPct>14.97</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>690.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>132.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>244.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>15.20</orderPct>
+          <marketPct>21.52</marketPct>
+          <marketableLimitPct>12.79</marketableLimitPct>
+          <nonMarketableLimitPct>13.55</nonMarketableLimitPct>
+          <otherPct>11.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>413.13</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.9433</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>74.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0327</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>117.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.8024</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>111.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.2783</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from VIRTU by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0025/share executed to add liquidity, and received a fee of $0.0015 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>10.40</orderPct>
+          <marketPct>11.97</marketPct>
+          <marketableLimitPct>7.72</marketableLimitPct>
+          <nonMarketableLimitPct>10.16</nonMarketableLimitPct>
+          <otherPct>10.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.0016</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>124.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.9804</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>24.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.1519</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Lampost by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0020/share executed to add liquidity, and received a fee of $0.0005 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>92.87</ndoPct>
+      <ndoMarketPct>15.40</ndoMarketPct>
+      <ndoMarketableLimitPct>30.07</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.22</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.31</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>21.02</orderPct>
+          <marketPct>21.05</marketPct>
+          <marketableLimitPct>25.54</marketableLimitPct>
+          <nonMarketableLimitPct>18.92</nonMarketableLimitPct>
+          <otherPct>12.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1432.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.5527</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>53031.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.2054</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3448.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.6603</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>178.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.3279</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from VIRTU by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0025/share executed to add liquidity, and received a fee of $0.0015 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.55</orderPct>
+          <marketPct>32.43</marketPct>
+          <marketableLimitPct>14.98</marketableLimitPct>
+          <nonMarketableLimitPct>19.63</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2919.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.6295</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8773.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.8522</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4403.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.4016</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TThe net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Canaccord Genuity Securities</name>
+          <orderPct>18.82</orderPct>
+          <marketPct>30.16</marketPct>
+          <marketableLimitPct>14.75</marketableLimitPct>
+          <nonMarketableLimitPct>17.89</nonMarketableLimitPct>
+          <otherPct>17.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2624.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7595</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4309.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.7364</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1809.53</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.5255</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>209.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0884</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Canaccord by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0016/share executed to add liquidity, and received a fee of $0.0016 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>17.35</orderPct>
+          <marketPct>0.28</marketPct>
+          <marketableLimitPct>15.29</marketableLimitPct>
+          <nonMarketableLimitPct>21.09</nonMarketableLimitPct>
+          <otherPct>57.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>15.65</orderPct>
+          <marketPct>12.10</marketPct>
+          <marketableLimitPct>21.72</marketableLimitPct>
+          <nonMarketableLimitPct>13.54</nonMarketableLimitPct>
+          <otherPct>9.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-5.21</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.0956</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-27.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.0077</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2327.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.3214</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>39.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.1344</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Lampost by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0020/share executed to add liquidity, and received a fee of $0.0005 to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>12.29</ndoMarketPct>
+      <ndoMarketableLimitPct>18.03</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>69.68</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>37.65</orderPct>
+          <marketPct>34.61</marketPct>
+          <marketableLimitPct>44.45</marketableLimitPct>
+          <nonMarketableLimitPct>36.43</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1375.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>38.8765</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>826.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.9223</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1381.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>37.4573</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from WEX by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>36.93</orderPct>
+          <marketPct>33.08</marketPct>
+          <marketableLimitPct>41.78</marketableLimitPct>
+          <nonMarketableLimitPct>36.35</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1292.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.6854</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>716.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>38.1867</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1408.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>39.5925</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Dash Financial by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.40/contract executed to add liquidity and received a fee of $0.40/contract to remove liquidity. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf. LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>25.42</orderPct>
+          <marketPct>32.32</marketPct>
+          <marketableLimitPct>13.78</marketableLimitPct>
+          <nonMarketableLimitPct>27.21</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>375.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>191.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>435.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>The net payments reflected above include transaction fees paid to and rebates received from Citadel by Lime Trading Corp. (LTC). At the end of September 2025, LTC received a fee of $0.0015 per share executed for market orders, $0.0027 per share executed for limit orders, $0.001 per share for executed market on close orders and limit on close orders and $0.40 per option contract executed. LTC does not base equities or options order routing decisions on the receipt of payment for order flow or any other order routing inducements. LTC effectively manages this potential conflict of interest by adhering to LTC’s duty to achieve best execution. In addition, LTC provides customer disclosures regarding its payment for order flow practices and makes order routing determinations wholly independently from any rebates or similar payments that LTC may receive. For further information regarding LTC’s best execution practices, please see LTC’s Best Execution Statement which can be found here https://cdn-lpbr.lime.co/lpbr-static/Best_Execution_Statement_1_8d0592d722.pdf.  LTC does not have in place any incentives for equaling or exceeding an agreed upon order flow volume threshold, such as additional payments or a higher rate of payment; nor does LTC have in place any disincentives for failing to meet an agreed upon minimum order flow threshold, such as lower payments or the requirement to pay a fee. LTC does not have in place a volume-based tiered payment schedules; nor does LTC have any agreements in place regarding the minimum amount of order flow that the LTC will send to a venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

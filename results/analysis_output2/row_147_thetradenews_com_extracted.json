@@ -1,0 +1,51 @@
+{
+  "filename": "row_147_thetradenews_com_extracted",
+  "url": "https://thetradenews.com/no-evidence-that-pfof-harms-price-execution-finds-new-research",
+  "title": "No evidence that PFOF harms price execution, finds new research",
+  "date": "",
+  "sentiment": "Neutral, Positive",
+  "text": "----------------------------------------\nAn academic paper published this week has concluded that payment for order flow (PFOF) has no apparent impact on price discovery – contrary to concerns expressed by regulators on both sides of the pond, who fear that a higher PFOF could result in a lower quality of execution.\nThe issue has been brought to the forefront of the regulatory agenda in part due to the proliferation of ‘commission-free trading’ in recent years by sites such as Robinhood, which contributed to the meme stock saga that culminated in the Gamestop chaos of March 2021.\nIn the US, the practice of PFOF is accepted by the SEC, which has required extensive additional disclosures for the brokers and market centres. These disclosures are designed to improve the ability of customers to determine the quality of broker-dealer services.\nHowever, new research indicates that the current disclosure regime is insufficient and provides limited information regarding the quality of price execution across brokers – largely due to the difficulty in comparing the actual retail price execution quality of different brokers.\n“Self-reporting is haphazard and inconsistent across brokers,” noted the paper. “All brokers claim to provide ‘price improvement’ over the National Best Bid Offer (NBBO) price, a benchmark that is easily beaten, albeit often narrowly.”\nConducted by researchers including Brad Barber, Gallagher Professor of Finance at the University of California, Davis and Terence Odean, Rudd Family Foundation Professor of Finance at the University of California, Berkeley, the study solved this challenge by running a controlled experiment to identify variation in price execution across five different brokers using six different accounts and generating a sample of 85,000 simultaneous market orders.\nThe findings suggest that commission levels and payment for order flow (PFOF) differ across each account, with execution prices varying significantly across brokers.\nThe mean account-level round-trip cost ranged from –0.07% to –0.45% excluding any commissions, while the average price improvement varied from $0.03 to $0.08 per share. According to the authors, the dispersion is due to off-exchange wholesalers systematically giving different execution prices for the same trades to different brokers.\n“Overall, however, there is no evidence that PFOF harms price execution,” stated the paper.\n“The size of PFOF payment, which ranges from $0.001 to $0.002 per share, is a tiny fraction of our observed variations in price improvement.”\nThe full study can be found here.",
+  "text_length": 2589,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.468284",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_147_thetradenews_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "SEC",
+    "the National Best Bid Offer",
+    "NBBO",
+    "the University of California",
+    "Rudd Family Foundation",
+    "the University of California, Berkeley"
+  ],
+  "persons_mentioned": [
+    "Gamestop",
+    "Brad Barber",
+    "Davis",
+    "Terence Odean"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "execution quality"
+        ]
+      },
+      "functions": {
+        "institutional brokerage": [
+          "execution quality"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "execution quality"
+      ]
+    },
+    "content_length": 2589,
+    "word_count": 389
+  }
+}

@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20190331.xsd">
+  <version>1.2</version>
+  <bd>Cetera Financial Specialists LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-29T13:12:17Z</timestamp>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>7</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>97.94</ndoMarketPct>
+        <ndoMarketableLimitPct>0.49</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.89</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.68</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>27.49</orderPct>
+              <marketPct>27.46</marketPct>
+              <marketableLimitPct>31.03</marketableLimitPct>
+              <nonMarketableLimitPct>28.85</nonMarketableLimitPct>
+              <otherPct>27.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>17.78</orderPct>
+              <marketPct>17.81</marketPct>
+              <marketableLimitPct>17.24</marketableLimitPct>
+              <nonMarketableLimitPct>17.31</nonMarketableLimitPct>
+              <otherPct>15.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.67</orderPct>
+              <marketPct>12.64</marketPct>
+              <marketableLimitPct>13.79</marketableLimitPct>
+              <nonMarketableLimitPct>11.54</nonMarketableLimitPct>
+              <otherPct>17.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>12.67</orderPct>
+              <marketPct>12.62</marketPct>
+              <marketableLimitPct>17.24</marketableLimitPct>
+              <nonMarketableLimitPct>13.46</nonMarketableLimitPct>
+              <otherPct>15.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.24</orderPct>
+              <marketPct>11.18</marketPct>
+              <marketableLimitPct>17.24</marketableLimitPct>
+              <nonMarketableLimitPct>13.46</nonMarketableLimitPct>
+              <otherPct>12.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.69</orderPct>
+              <marketPct>6.73</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>3.85</nonMarketableLimitPct>
+              <otherPct>10.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>5.71</orderPct>
+              <marketPct>5.79</marketPct>
+              <marketableLimitPct>3.45</marketableLimitPct>
+              <nonMarketableLimitPct>1.92</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.52</orderPct>
+              <marketPct>5.53</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>9.62</nonMarketableLimitPct>
+              <otherPct>2.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.22</orderPct>
+              <marketPct>0.23</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.02</orderPct>
+              <marketPct>0.02</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>99.17</ndoMarketPct>
+        <ndoMarketableLimitPct>0.23</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.45</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.15</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>25.63</orderPct>
+              <marketPct>25.70</marketPct>
+              <marketableLimitPct>15.38</marketableLimitPct>
+              <nonMarketableLimitPct>22.00</nonMarketableLimitPct>
+              <otherPct>5.88</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.59</orderPct>
+              <marketPct>18.54</marketPct>
+              <marketableLimitPct>19.23</marketableLimitPct>
+              <nonMarketableLimitPct>26.00</nonMarketableLimitPct>
+              <otherPct>29.41</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>16.42</orderPct>
+              <marketPct>16.43</marketPct>
+              <marketableLimitPct>19.23</marketableLimitPct>
+              <nonMarketableLimitPct>8.00</nonMarketableLimitPct>
+              <otherPct>29.41</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>12.03</orderPct>
+              <marketPct>12.11</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>6.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.30</orderPct>
+              <marketPct>11.31</marketPct>
+              <marketableLimitPct>19.23</marketableLimitPct>
+              <nonMarketableLimitPct>8.00</nonMarketableLimitPct>
+              <otherPct>5.88</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.94</orderPct>
+              <marketPct>5.92</marketPct>
+              <marketableLimitPct>7.69</marketableLimitPct>
+              <nonMarketableLimitPct>8.00</nonMarketableLimitPct>
+              <otherPct>11.76</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>5.51</orderPct>
+              <marketPct>5.45</marketPct>
+              <marketableLimitPct>11.54</marketableLimitPct>
+              <nonMarketableLimitPct>12.00</nonMarketableLimitPct>
+              <otherPct>17.65</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.96</orderPct>
+              <marketPct>3.97</marketPct>
+              <marketableLimitPct>7.69</marketableLimitPct>
+              <nonMarketableLimitPct>2.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.47</orderPct>
+              <marketPct>0.44</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>8.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.14</orderPct>
+              <marketPct>0.14</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>6.74</ndoMarketPct>
+        <ndoMarketableLimitPct>2.13</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>10.28</ndoNonmarketableLimitPct>
+        <ndoOtherPct>80.85</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>42.55</orderPct>
+              <marketPct>36.84</marketPct>
+              <marketableLimitPct>16.67</marketableLimitPct>
+              <nonMarketableLimitPct>41.38</nonMarketableLimitPct>
+              <otherPct>43.86</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>30.14</orderPct>
+              <marketPct>26.32</marketPct>
+              <marketableLimitPct>50.00</marketableLimitPct>
+              <nonMarketableLimitPct>24.14</nonMarketableLimitPct>
+              <otherPct>30.70</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>21.28</orderPct>
+              <marketPct>21.05</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>6.90</nonMarketableLimitPct>
+              <otherPct>23.68</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>6.03</orderPct>
+              <marketPct>15.79</marketPct>
+              <marketableLimitPct>33.33</marketableLimitPct>
+              <nonMarketableLimitPct>27.59</nonMarketableLimitPct>
+              <otherPct>1.75</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>8</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>98.32</ndoMarketPct>
+        <ndoMarketableLimitPct>0.35</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.94</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.39</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>26.91</orderPct>
+              <marketPct>26.84</marketPct>
+              <marketableLimitPct>18.18</marketableLimitPct>
+              <nonMarketableLimitPct>30.00</nonMarketableLimitPct>
+              <otherPct>44.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.42</orderPct>
+              <marketPct>18.35</marketPct>
+              <marketableLimitPct>31.82</marketableLimitPct>
+              <nonMarketableLimitPct>25.00</nonMarketableLimitPct>
+              <otherPct>8.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>13.13</orderPct>
+              <marketPct>13.05</marketPct>
+              <marketableLimitPct>18.18</marketableLimitPct>
+              <nonMarketableLimitPct>21.67</nonMarketableLimitPct>
+              <otherPct>8.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.16</orderPct>
+              <marketPct>12.29</marketPct>
+              <marketableLimitPct>4.55</marketableLimitPct>
+              <nonMarketableLimitPct>3.33</nonMarketableLimitPct>
+              <otherPct>8.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.45</orderPct>
+              <marketPct>11.49</marketPct>
+              <marketableLimitPct>9.09</marketableLimitPct>
+              <nonMarketableLimitPct>10.00</nonMarketableLimitPct>
+              <otherPct>8.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.81</orderPct>
+              <marketPct>6.75</marketPct>
+              <marketableLimitPct>9.09</marketableLimitPct>
+              <nonMarketableLimitPct>8.33</nonMarketableLimitPct>
+              <otherPct>16.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>5.88</orderPct>
+              <marketPct>5.94</marketPct>
+              <marketableLimitPct>9.09</marketableLimitPct>
+              <nonMarketableLimitPct>1.67</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.03</orderPct>
+              <marketPct>5.09</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>8.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.19</orderPct>
+              <marketPct>0.19</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.02</orderPct>
+              <marketPct>0.02</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>99.31</ndoMarketPct>
+        <ndoMarketableLimitPct>0.14</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.48</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.08</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>24.73</orderPct>
+              <marketPct>24.76</marketPct>
+              <marketableLimitPct>18.75</marketableLimitPct>
+              <nonMarketableLimitPct>19.30</nonMarketableLimitPct>
+              <otherPct>33.33</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>19.30</orderPct>
+              <marketPct>19.27</marketPct>
+              <marketableLimitPct>31.25</marketableLimitPct>
+              <nonMarketableLimitPct>22.81</nonMarketableLimitPct>
+              <otherPct>11.11</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>16.00</orderPct>
+              <marketPct>16.00</marketPct>
+              <marketableLimitPct>18.75</marketableLimitPct>
+              <nonMarketableLimitPct>14.04</nonMarketableLimitPct>
+              <otherPct>22.22</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>12.60</orderPct>
+              <marketPct>12.63</marketPct>
+              <marketableLimitPct>6.25</marketableLimitPct>
+              <nonMarketableLimitPct>10.53</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.34</orderPct>
+              <marketPct>11.34</marketPct>
+              <marketableLimitPct>12.50</marketableLimitPct>
+              <nonMarketableLimitPct>12.28</nonMarketableLimitPct>
+              <otherPct>11.11</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>6.19</orderPct>
+              <marketPct>6.23</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>1.75</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>5.72</orderPct>
+              <marketPct>5.68</marketPct>
+              <marketableLimitPct>12.50</marketableLimitPct>
+              <nonMarketableLimitPct>8.77</nonMarketableLimitPct>
+              <otherPct>22.22</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.75</orderPct>
+              <marketPct>3.74</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>7.02</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.25</orderPct>
+              <marketPct>0.24</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>3.51</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.13</orderPct>
+              <marketPct>0.13</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>4.14</ndoMarketPct>
+        <ndoMarketableLimitPct>2.26</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>24.44</ndoNonmarketableLimitPct>
+        <ndoOtherPct>69.17</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>46.62</orderPct>
+              <marketPct>63.64</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>41.54</nonMarketableLimitPct>
+              <otherPct>48.91</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>25.94</orderPct>
+              <marketPct>9.09</marketPct>
+              <marketableLimitPct>50.00</marketableLimitPct>
+              <nonMarketableLimitPct>26.15</nonMarketableLimitPct>
+              <otherPct>26.09</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>21.43</orderPct>
+              <marketPct>27.27</marketPct>
+              <marketableLimitPct>16.67</marketableLimitPct>
+              <nonMarketableLimitPct>13.85</nonMarketableLimitPct>
+              <otherPct>23.91</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>6.02</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>33.33</marketableLimitPct>
+              <nonMarketableLimitPct>18.46</nonMarketableLimitPct>
+              <otherPct>1.09</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>9</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>97.59</ndoMarketPct>
+        <ndoMarketableLimitPct>1.55</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.51</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.35</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>26.68</orderPct>
+              <marketPct>26.65</marketPct>
+              <marketableLimitPct>28.72</marketableLimitPct>
+              <nonMarketableLimitPct>25.81</nonMarketableLimitPct>
+              <otherPct>28.57</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.26</orderPct>
+              <marketPct>18.29</marketPct>
+              <marketableLimitPct>17.02</marketableLimitPct>
+              <nonMarketableLimitPct>9.68</nonMarketableLimitPct>
+              <otherPct>28.57</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>13.32</orderPct>
+              <marketPct>13.31</marketPct>
+              <marketableLimitPct>11.70</marketableLimitPct>
+              <nonMarketableLimitPct>22.58</nonMarketableLimitPct>
+              <otherPct>9.52</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.71</orderPct>
+              <marketPct>12.72</marketPct>
+              <marketableLimitPct>11.70</marketableLimitPct>
+              <nonMarketableLimitPct>12.90</nonMarketableLimitPct>
+              <otherPct>14.29</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>10.14</orderPct>
+              <marketPct>10.03</marketPct>
+              <marketableLimitPct>12.77</marketableLimitPct>
+              <nonMarketableLimitPct>22.58</nonMarketableLimitPct>
+              <otherPct>9.52</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>7.84</orderPct>
+              <marketPct>7.80</marketPct>
+              <marketableLimitPct>12.77</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>9.52</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.54</orderPct>
+              <marketPct>5.59</marketPct>
+              <marketableLimitPct>3.19</marketableLimitPct>
+              <nonMarketableLimitPct>6.45</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>5.37</orderPct>
+              <marketPct>5.47</marketPct>
+              <marketableLimitPct>2.13</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.15</orderPct>
+              <marketPct>0.15</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>98.41</ndoMarketPct>
+        <ndoMarketableLimitPct>0.25</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.96</ndoNonmarketableLimitPct>
+        <ndoOtherPct>0.38</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>25.87</orderPct>
+              <marketPct>25.84</marketPct>
+              <marketableLimitPct>13.79</marketableLimitPct>
+              <nonMarketableLimitPct>29.20</nonMarketableLimitPct>
+              <otherPct>33.33</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>18.93</orderPct>
+              <marketPct>18.90</marketPct>
+              <marketableLimitPct>13.79</marketableLimitPct>
+              <nonMarketableLimitPct>20.35</nonMarketableLimitPct>
+              <otherPct>24.44</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>17.21</orderPct>
+              <marketPct>17.18</marketPct>
+              <marketableLimitPct>10.34</marketableLimitPct>
+              <nonMarketableLimitPct>23.01</nonMarketableLimitPct>
+              <otherPct>15.56</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>11.27</orderPct>
+              <marketPct>11.35</marketPct>
+              <marketableLimitPct>20.69</marketableLimitPct>
+              <nonMarketableLimitPct>5.31</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>11.11</orderPct>
+              <marketPct>11.08</marketPct>
+              <marketableLimitPct>13.79</marketableLimitPct>
+              <nonMarketableLimitPct>8.85</nonMarketableLimitPct>
+              <otherPct>22.22</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>6.13</orderPct>
+              <marketPct>6.18</marketPct>
+              <marketableLimitPct>3.45</marketableLimitPct>
+              <nonMarketableLimitPct>4.42</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>5.31</orderPct>
+              <marketPct>5.32</marketPct>
+              <marketableLimitPct>3.45</marketableLimitPct>
+              <nonMarketableLimitPct>5.31</nonMarketableLimitPct>
+              <otherPct>4.44</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.45</orderPct>
+              <marketPct>3.45</marketPct>
+              <marketableLimitPct>6.90</marketableLimitPct>
+              <nonMarketableLimitPct>3.54</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.45</orderPct>
+              <marketPct>0.42</marketPct>
+              <marketableLimitPct>13.79</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.26</orderPct>
+              <marketPct>0.27</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>3.30</ndoMarketPct>
+        <ndoMarketableLimitPct>2.40</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>16.82</ndoNonmarketableLimitPct>
+        <ndoOtherPct>77.48</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>42.94</orderPct>
+              <marketPct>54.55</marketPct>
+              <marketableLimitPct>25.00</marketableLimitPct>
+              <nonMarketableLimitPct>23.21</nonMarketableLimitPct>
+              <otherPct>47.29</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>29.73</orderPct>
+              <marketPct>27.27</marketPct>
+              <marketableLimitPct>12.50</marketableLimitPct>
+              <nonMarketableLimitPct>30.36</nonMarketableLimitPct>
+              <otherPct>30.23</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>21.32</orderPct>
+              <marketPct>9.09</marketPct>
+              <marketableLimitPct>37.50</marketableLimitPct>
+              <nonMarketableLimitPct>16.07</nonMarketableLimitPct>
+              <otherPct>22.48</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>5.71</orderPct>
+              <marketPct>9.09</marketPct>
+              <marketableLimitPct>25.00</marketableLimitPct>
+              <nonMarketableLimitPct>28.57</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>0.30</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>1.79</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>Cetera Financial Specialists LLC Under Rule 606(a)(1)(iv), the SEC requires broker-dealers to disclose any material aspects of order flow routing relations with “Specified Venues” (e.g. market makers, securities exchanges, ECNs, etc.) that may influence the routing of equity and options orders by broker-dealers. The SEC advises that such aspects may create conflicts of interest that may compromise the interests of public customers and result in financial harm to the customers. Cetera Financial Specialists LLC (CFS) reports material aspects of its relationships with Specified Venues which includes but is not limited to the following:
+ 1.The routing of CFS’s order flow is managed exclusively by Pershing. Although CFS is ultimately responsible for Best Execution and supervision of its execution quality, the routing decision is made by Pershing. 
+ 2.CFS does not receive or solicit any payment for order flow from any venue.
+ 3.CFS does not receive any sort of consideration from any venue.
+ 4.CFS does not receive any services or technologies subsidized by venues.
+ 5.CFS does not receive any payment for order flow passed through by Pershing.     </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+</heldOrderRoutingPublicReport>

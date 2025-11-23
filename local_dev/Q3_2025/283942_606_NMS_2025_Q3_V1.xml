@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>MLCO.GBAM</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-30T00:21:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>24.03</ndoPct>
+      <ndoMarketPct>0.14</ndoMarketPct>
+      <ndoMarketableLimitPct>2.51</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>85.18</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.17</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>45.10</orderPct>
+          <marketPct>30.64</marketPct>
+          <marketableLimitPct>15.39</marketableLimitPct>
+          <nonMarketableLimitPct>52.33</nonMarketableLimitPct>
+          <otherPct>0.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>BofA Securities, Inc. (“BofAS”) did not receive any payment for order flow or any profit-sharing payment from Wolverine Execution Services, LLC during the calendar quarter. BofAS pays Wolverine Execution Services, LLC (“WEX”) a fixed fee-per-contract, as well as other fixed costs associated with using WEX for market access to the US listed options exchanges. WEX may pass through to BofAS certain marketing fees and/or rebates that WEX receives from market centers in accordance with their published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>26.11</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.49</marketableLimitPct>
+          <nonMarketableLimitPct>30.46</nonMarketableLimitPct>
+          <otherPct>0.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-11558.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-29.1862</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>132859.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>52.3442</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1024.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-48.5073</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing during this quarter. In Q3 2025, BofAS qualified for an additional $0.25 customer posting rebate in Penny Interval Program symbols, and an additional $0.25 customer posting rebate in non-Penny Interval Program symbols.  For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf. Information reflecting NYSE Arca’s (Options) fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>7.08</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.70</marketableLimitPct>
+          <nonMarketableLimitPct>5.32</nonMarketableLimitPct>
+          <otherPct>20.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-29457.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-45.9346</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4834.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>33.7306</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1090.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.2373</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/ctwo/.  Information reflecting Cboe C2 Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>7.06</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>9.65</marketableLimitPct>
+          <nonMarketableLimitPct>4.07</nonMarketableLimitPct>
+          <otherPct>27.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-14880.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.3237</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5949.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0776</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-28221.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-53.4168</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s SEC approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/cone/. Information reflecting Cboe Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>3.51</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.61</marketableLimitPct>
+          <nonMarketableLimitPct>0.13</nonMarketableLimitPct>
+          <otherPct>27.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>570.49</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.0043</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-118.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.2528</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-11518.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-39.2323</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207. Information reflecting Nasdaq PHLX’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>3.42</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.11</marketableLimitPct>
+          <nonMarketableLimitPct>3.98</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2220.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.2299</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-13546.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-65.2589</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.miaxglobal.com/markets/us-options/miax-options/fees.  BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Options. Information reflecting MIAX Options’ fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>2.64</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.55</marketableLimitPct>
+          <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+          <otherPct>20.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1241.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.9480</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-74.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-9.8471</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-89.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.7341</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://boxexchange.com/regulatory/fees/. Information reflecting BOX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report..</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>1.59</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.86</marketableLimitPct>
+          <nonMarketableLimitPct>1.66</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-25999.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-51.5312</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>32577.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>63.1625</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing benefits during this quarter. In Q3 2025, BofAS qualified for an additional $0.30 customer posting rebate in Penny Interval Program symbols and an additional $0.30 customer posting rebate in non-Penny Interval Program symbols. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207. Information reflecting The Nasdaq Options Market’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>0.83</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.82</marketableLimitPct>
+          <nonMarketableLimitPct>0.83</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-30722.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-54.8301</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7679.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.3164</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/. Information reflecting MEMX’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>0.57</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.18</marketableLimitPct>
+          <nonMarketableLimitPct>0.58</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-16730.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-48.9216</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1362.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.1115</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/bzx/. Information reflecting CBOE BZX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>18.00</ndoPct>
+      <ndoMarketPct>0.10</ndoMarketPct>
+      <ndoMarketableLimitPct>2.18</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>89.20</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.52</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>43.78</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.26</marketableLimitPct>
+          <nonMarketableLimitPct>48.95</nonMarketableLimitPct>
+          <otherPct>0.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-13849.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-38.2053</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>121640.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>52.2408</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1584.99</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-47.0184</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing during this quarter. In Q3 2025, BofAS qualified for an additional $0.25 customer posting rebate in Penny Interval Program symbols, and an additional $0.25 customer posting rebate in non-Penny Interval Program symbols.  For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf. Information reflecting NYSE Arca’s (Options) fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>28.10</orderPct>
+          <marketPct>34.97</marketPct>
+          <marketableLimitPct>12.64</marketableLimitPct>
+          <nonMarketableLimitPct>31.03</nonMarketableLimitPct>
+          <otherPct>1.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>BofA Securities, Inc. (“BofAS”) did not receive any payment for order flow or any profit-sharing payment from Wolverine Execution Services, LLC during the calendar quarter. BofAS pays Wolverine Execution Services, LLC (“WEX”) a fixed fee-per-contract, as well as other fixed costs associated with using WEX for market access to the US listed options exchanges. WEX may pass through to BofAS certain marketing fees and/or rebates that WEX receives from market centers in accordance with their published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>8.51</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.39</marketableLimitPct>
+          <nonMarketableLimitPct>5.71</nonMarketableLimitPct>
+          <otherPct>37.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-26289.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-34.6869</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-6582.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-9.2502</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-39716.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-55.4455</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s SEC approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/cone/. Information reflecting Cboe Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>6.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.44</marketableLimitPct>
+          <nonMarketableLimitPct>5.39</nonMarketableLimitPct>
+          <otherPct>17.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-31889.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-46.3897</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4757.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.2130</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-273.33</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.3998</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/ctwo/.  Information reflecting Cboe C2 Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>5.33</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.45</marketableLimitPct>
+          <nonMarketableLimitPct>5.93</nonMarketableLimitPct>
+          <otherPct>0.07</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2599.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.7401</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-13129.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-65.7044</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.miaxglobal.com/markets/us-options/miax-options/fees.  BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Options. Information reflecting MIAX Options’ fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>2.51</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.10</nonMarketableLimitPct>
+          <otherPct>27.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>651.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.9420</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-391.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-20.2993</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-10445.41</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-36.9592</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207. Information reflecting Nasdaq PHLX’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>1.46</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.70</marketableLimitPct>
+          <nonMarketableLimitPct>1.49</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-22496.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-51.4387</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>31140.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>68.8918</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing benefits during this quarter. In Q3 2025, BofAS qualified for an additional $0.30 customer posting rebate in Penny Interval Program symbols and an additional $0.30 customer posting rebate in non-Penny Interval Program symbols. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207. Information reflecting The Nasdaq Options Market’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>1.26</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.87</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>13.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2599.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.9375</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-109.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-22.2008</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.1953</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://boxexchange.com/regulatory/fees/. Information reflecting BOX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report..</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>0.52</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.23</marketableLimitPct>
+          <nonMarketableLimitPct>0.48</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-25002.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-53.9342</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8911.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>50.5724</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/. Information reflecting MEMX’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>0.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.93</marketableLimitPct>
+          <nonMarketableLimitPct>0.37</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-13345.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-49.1507</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>783.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.4745</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/bzx/. Information reflecting CBOE BZX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>8.45</ndoPct>
+      <ndoMarketPct>0.13</ndoMarketPct>
+      <ndoMarketableLimitPct>2.22</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>92.22</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.43</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>40.88</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.14</marketableLimitPct>
+          <nonMarketableLimitPct>44.20</nonMarketableLimitPct>
+          <otherPct>0.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8410.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.8040</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>124384.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.9432</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1250.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-33.4901</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing during this quarter. In Q3 2025, BofAS qualified for an additional $0.25 customer posting rebate in Penny Interval Program symbols, and an additional $0.25 customer posting rebate in non-Penny Interval Program symbols.  For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf. Information reflecting NYSE Arca’s (Options) fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>21.02</orderPct>
+          <marketPct>20.42</marketPct>
+          <marketableLimitPct>14.57</marketableLimitPct>
+          <nonMarketableLimitPct>22.31</nonMarketableLimitPct>
+          <otherPct>1.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>BofA Securities, Inc. (“BofAS”) did not receive any payment for order flow or any profit-sharing payment from Wolverine Execution Services, LLC during the calendar quarter. BofAS pays Wolverine Execution Services, LLC (“WEX”) a fixed fee-per-contract, as well as other fixed costs associated with using WEX for market access to the US listed options exchanges. WEX may pass through to BofAS certain marketing fees and/or rebates that WEX receives from market centers in accordance with their published fee schedule.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>15.99</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.61</marketableLimitPct>
+          <nonMarketableLimitPct>16.35</nonMarketableLimitPct>
+          <otherPct>15.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-33241.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-49.4635</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5265.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.9805</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-573.53</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-11.1821</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/ctwo/.  Information reflecting Cboe C2 Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>8.34</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>12.90</marketableLimitPct>
+          <nonMarketableLimitPct>6.46</nonMarketableLimitPct>
+          <otherPct>38.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-32490.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-36.7668</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-14103.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-16.5126</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-49799.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-52.6455</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s SEC approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/cone/. Information reflecting Cboe Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>4.20</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.55</marketableLimitPct>
+          <nonMarketableLimitPct>4.51</nonMarketableLimitPct>
+          <otherPct>0.09</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2581.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.9294</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-14914.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-65.7412</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.miaxglobal.com/markets/us-options/miax-options/fees.  BofAS or an affiliate also own an equity stake in Miami International Holdings, Inc., which is the parent company of the MIAX family of options exchanges, including MIAX Options. Information reflecting MIAX Options’ fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>3.87</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.18</marketableLimitPct>
+          <nonMarketableLimitPct>4.07</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-25572.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-50.0031</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>34624.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>62.2207</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS qualified for various tier pricing benefits during this quarter. In Q3 2025, BofAS qualified for an additional $0.30 customer posting rebate in Penny Interval Program symbols and an additional $0.30 customer posting rebate in non-Penny Interval Program symbols. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%20Options%207. Information reflecting The Nasdaq Options Market’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>1.73</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>3.99</marketableLimitPct>
+          <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+          <otherPct>28.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1618.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.7709</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-856.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-27.3094</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-15706.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-40.0578</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. In addition, BofAS participates in, and may receive a marketing fee credit under this exchange’s approved and administered Marketing Fee Program. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://listingcenter.nasdaq.com/rulebook/phlx/rules/Phlx%20Options%207. Information reflecting Nasdaq PHLX’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>1.09</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.87</marketableLimitPct>
+          <nonMarketableLimitPct>1.08</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-24849.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-55.6153</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6273.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.0824</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/. Information reflecting MEMX’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange LLC</name>
+          <orderPct>0.68</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.40</marketableLimitPct>
+          <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+          <otherPct>10.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1709.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.0097</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-464.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-51.8116</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-236.95</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-14.8558</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule available at: https://boxexchange.com/regulatory/fees/. Information reflecting BOX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report..</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>0.46</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.42</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-16593.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-57.9992</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1980.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.7188</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>When routing orders to this market center for execution, including client orders, BofA Securities, Inc. (“BofAS”) pays fees or receives credits in accordance with this market center’s published fee schedule, and may receive incremental pricing benefits if certain volume thresholds are met in accordance with such published fee schedule. In some cases, the credits offered by this market center to BofAS over a period of time may exceed the charges assessed. BofAS did not qualify for any preferred tier pricing during this quarter. For additional information regarding the pricing tiers offered by this market center, please refer the current fee schedule at: https://www.cboe.com/us/options/membership/fee_schedule/bzx/. Information reflecting CBOE BZX Exchange’s fee schedule for Q3 2025, as applicable to BofAS, can be found in the enclosed BofAS Tiered Rate Card 2025Q3 that accompanies this report.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

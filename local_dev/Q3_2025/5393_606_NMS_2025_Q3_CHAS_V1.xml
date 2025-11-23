@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Charles Schwab</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-24T22:18:42Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>99.99</ndoPct>
+      <ndoMarketPct>29.31</ndoMarketPct>
+      <ndoMarketableLimitPct>9.15</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.18</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.36</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>24.55</orderPct>
+          <marketPct>23.51</marketPct>
+          <marketableLimitPct>24.52</marketableLimitPct>
+          <nonMarketableLimitPct>27.81</nonMarketableLimitPct>
+          <otherPct>12.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>871807.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9944</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>135082.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.6879</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>917026.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.0912</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>260904.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0239</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>24.42</orderPct>
+          <marketPct>32.95</marketPct>
+          <marketableLimitPct>34.15</marketableLimitPct>
+          <nonMarketableLimitPct>19.84</nonMarketableLimitPct>
+          <otherPct>14.81</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1186970.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9947</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>302732.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.1768</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>397422.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.7224</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>291981.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.4336</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>17.68</orderPct>
+          <marketPct>4.93</marketPct>
+          <marketableLimitPct>12.55</marketableLimitPct>
+          <nonMarketableLimitPct>26.74</nonMarketableLimitPct>
+          <otherPct>14.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>193139.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0005</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>80672.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.4730</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>901660.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.0448</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>136170.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.7213</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>13.18</orderPct>
+          <marketPct>15.13</marketPct>
+          <marketableLimitPct>11.46</marketableLimitPct>
+          <nonMarketableLimitPct>12.11</nonMarketableLimitPct>
+          <otherPct>14.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>550711.26</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.0827</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>105713.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.1294</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>703966.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.4608</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>216273.64</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.9860</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>11.84</orderPct>
+          <marketPct>18.94</marketPct>
+          <marketableLimitPct>13.25</marketableLimitPct>
+          <nonMarketableLimitPct>4.64</nonMarketableLimitPct>
+          <otherPct>24.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>753522.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9949</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>144485.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9971</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>277280.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.8707</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>239945.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.7925</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.52</orderPct>
+          <marketPct>1.90</marketPct>
+          <marketableLimitPct>1.89</marketableLimitPct>
+          <nonMarketableLimitPct>5.89</nonMarketableLimitPct>
+          <otherPct>16.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>74079.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9950</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>17222.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0003</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>314324.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.5327</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>88675.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.2157</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.96</ndoPct>
+      <ndoMarketPct>24.21</ndoMarketPct>
+      <ndoMarketableLimitPct>14.15</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.46</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.18</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>25.47</orderPct>
+          <marketPct>31.91</marketPct>
+          <marketableLimitPct>37.45</marketableLimitPct>
+          <nonMarketableLimitPct>21.21</nonMarketableLimitPct>
+          <otherPct>13.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7760253.14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.9309</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4984390.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.0814</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2606035.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.3259</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1279510.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.6858</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>22.64</orderPct>
+          <marketPct>22.81</marketPct>
+          <marketableLimitPct>21.22</marketableLimitPct>
+          <nonMarketableLimitPct>24.75</nonMarketableLimitPct>
+          <otherPct>10.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6348455.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9963</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1912663.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.6575</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3938579.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.5770</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>863181.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.7194</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>19.78</orderPct>
+          <marketPct>5.17</marketPct>
+          <marketableLimitPct>15.50</marketableLimitPct>
+          <nonMarketableLimitPct>28.10</nonMarketableLimitPct>
+          <otherPct>15.99</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1299054.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.0288</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1495857.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.4565</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4142442.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.4025</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>452769.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.6327</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>13.01</orderPct>
+          <marketPct>15.79</marketPct>
+          <marketableLimitPct>10.32</marketableLimitPct>
+          <nonMarketableLimitPct>12.40</nonMarketableLimitPct>
+          <otherPct>13.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4011443.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.1082</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1490186.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.0813</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3317492.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.4244</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>816599.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.3856</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>10.97</orderPct>
+          <marketPct>19.74</marketPct>
+          <marketableLimitPct>12.00</marketableLimitPct>
+          <nonMarketableLimitPct>4.61</nonMarketableLimitPct>
+          <otherPct>24.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5012642.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.0315</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1883997.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.0326</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1064249.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.5522</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>999179.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.3885</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.40</orderPct>
+          <marketPct>2.01</marketPct>
+          <marketableLimitPct>1.67</marketableLimitPct>
+          <nonMarketableLimitPct>5.95</nonMarketableLimitPct>
+          <otherPct>18.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>495003.02</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9980</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>201971.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0010</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1318294.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.9556</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>362409.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.8318</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.89</ndoPct>
+      <ndoMarketPct>5.39</ndoMarketPct>
+      <ndoMarketableLimitPct>6.84</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.83</ndoNonmarketableLimitPct>
+      <ndoOtherPct>35.94</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>37.99</orderPct>
+          <marketPct>44.86</marketPct>
+          <marketableLimitPct>44.73</marketableLimitPct>
+          <nonMarketableLimitPct>34.12</nonMarketableLimitPct>
+          <otherPct>41.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4674067.38</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.8539</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8562732.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>38.0160</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11232135.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>49.3003</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5034454.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.6753</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>32.03</orderPct>
+          <marketPct>22.07</marketPct>
+          <marketableLimitPct>23.07</marketableLimitPct>
+          <nonMarketableLimitPct>44.67</nonMarketableLimitPct>
+          <otherPct>17.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2319793.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.0484</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4058652.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.1890</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13989421.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.1724</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1725013.69</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.5463</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>20.98</orderPct>
+          <marketPct>23.77</marketPct>
+          <marketableLimitPct>23.13</marketableLimitPct>
+          <nonMarketableLimitPct>8.99</nonMarketableLimitPct>
+          <otherPct>37.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2452811.27</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.1897</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4196763.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.4213</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2912350.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.5351</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4964460.35</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.8824</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>8.03</orderPct>
+          <marketPct>8.24</marketPct>
+          <marketableLimitPct>8.12</marketableLimitPct>
+          <nonMarketableLimitPct>11.19</nonMarketableLimitPct>
+          <otherPct>3.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>842314.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.9385</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1575091.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.8270</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3297289.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>45.8672</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>398938.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.3001</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>99.93</ndoPct>
+      <ndoMarketPct>29.29</ndoMarketPct>
+      <ndoMarketableLimitPct>8.66</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.61</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.44</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>27.38</orderPct>
+          <marketPct>35.93</marketPct>
+          <marketableLimitPct>37.00</marketableLimitPct>
+          <nonMarketableLimitPct>23.20</nonMarketableLimitPct>
+          <otherPct>16.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1064119.92</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9953</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>297353.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.0813</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>475898.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.8063</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>276732.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.6991</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>26.94</orderPct>
+          <marketPct>26.15</marketPct>
+          <marketableLimitPct>26.38</marketableLimitPct>
+          <nonMarketableLimitPct>30.21</nonMarketableLimitPct>
+          <otherPct>14.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>817771.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9946</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>189280.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2425</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>928824.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.9013</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>256225.46</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.4643</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.60</orderPct>
+          <marketPct>2.00</marketPct>
+          <marketableLimitPct>10.00</marketableLimitPct>
+          <nonMarketableLimitPct>23.17</nonMarketableLimitPct>
+          <otherPct>12.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>66855.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0009</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>56336.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.8244</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>695136.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.8320</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>100719.67</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.9953</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>13.79</orderPct>
+          <marketPct>14.46</marketPct>
+          <marketableLimitPct>11.10</marketableLimitPct>
+          <nonMarketableLimitPct>13.46</nonMarketableLimitPct>
+          <otherPct>15.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>479148.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8889</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>104254.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9953</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>809259.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.4914</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>220262.69</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.3996</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>10.46</orderPct>
+          <marketPct>18.25</marketPct>
+          <marketableLimitPct>12.63</marketableLimitPct>
+          <nonMarketableLimitPct>3.12</nonMarketableLimitPct>
+          <otherPct>21.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>600925.11</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9954</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>127243.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9968</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>167185.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.8063</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>197529.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.7151</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.75</ndoPct>
+      <ndoMarketPct>23.83</ndoMarketPct>
+      <ndoMarketableLimitPct>12.97</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>54.90</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.29</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>28.34</orderPct>
+          <marketPct>34.80</marketPct>
+          <marketableLimitPct>39.68</marketableLimitPct>
+          <nonMarketableLimitPct>24.82</nonMarketableLimitPct>
+          <otherPct>15.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6065672.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.5016</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4016924.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.5657</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3126698.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.4734</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>969395.88</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.3927</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>25.09</orderPct>
+          <marketPct>25.77</marketPct>
+          <marketableLimitPct>23.33</marketableLimitPct>
+          <nonMarketableLimitPct>27.09</nonMarketableLimitPct>
+          <otherPct>12.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4844821.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9998</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2166443.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2760</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3826650.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.2672</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>669722.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.0754</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>16.80</orderPct>
+          <marketPct>2.10</marketPct>
+          <marketableLimitPct>12.44</marketableLimitPct>
+          <nonMarketableLimitPct>24.60</nonMarketableLimitPct>
+          <otherPct>14.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>372978.73</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.5056</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>824745.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.2969</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3111488.94</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.0342</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>273073.24</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.1377</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>13.65</orderPct>
+          <marketPct>15.04</marketPct>
+          <marketableLimitPct>10.20</marketableLimitPct>
+          <nonMarketableLimitPct>13.67</nonMarketableLimitPct>
+          <otherPct>14.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2803187.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8769</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1171633.23</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.6504</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3396543.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.8956</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>640049.59</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.7502</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>9.43</orderPct>
+          <marketPct>18.90</marketPct>
+          <marketableLimitPct>11.68</marketableLimitPct>
+          <nonMarketableLimitPct>2.99</nonMarketableLimitPct>
+          <otherPct>21.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3541833.03</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8868</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1551126.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.8880</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>671113.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.9617</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>643570.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.3948</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.89</ndoPct>
+      <ndoMarketPct>5.50</ndoMarketPct>
+      <ndoMarketableLimitPct>6.71</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>49.54</ndoNonmarketableLimitPct>
+      <ndoOtherPct>38.25</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>36.74</orderPct>
+          <marketPct>45.03</marketPct>
+          <marketableLimitPct>44.65</marketableLimitPct>
+          <nonMarketableLimitPct>31.17</nonMarketableLimitPct>
+          <otherPct>41.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4685676.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.2999</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8069828.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.3345</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10308759.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.8853</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5415890.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.2151</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>31.46</orderPct>
+          <marketPct>21.99</marketPct>
+          <marketableLimitPct>23.07</marketableLimitPct>
+          <nonMarketableLimitPct>44.90</nonMarketableLimitPct>
+          <otherPct>16.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2326046.27</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.7555</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3853766.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.4295</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13686982.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>50.8255</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1969741.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.8652</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>21.82</orderPct>
+          <marketPct>22.83</marketPct>
+          <marketableLimitPct>22.37</marketableLimitPct>
+          <nonMarketableLimitPct>11.86</nonMarketableLimitPct>
+          <otherPct>34.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2377534.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.6414</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3862536.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.5939</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3682210.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.1122</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4589333.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.4254</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>8.54</orderPct>
+          <marketPct>9.13</marketPct>
+          <marketableLimitPct>8.94</marketableLimitPct>
+          <nonMarketableLimitPct>10.14</nonMarketableLimitPct>
+          <otherPct>6.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>932653.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.4725</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1622458.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.3732</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3079806.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.4800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>710934.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.6259</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>99.93</ndoPct>
+      <ndoMarketPct>28.56</ndoMarketPct>
+      <ndoMarketableLimitPct>8.29</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.71</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.45</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>29.37</orderPct>
+          <marketPct>39.09</marketPct>
+          <marketableLimitPct>38.77</marketableLimitPct>
+          <nonMarketableLimitPct>25.10</nonMarketableLimitPct>
+          <otherPct>17.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1260212.03</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9945</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>327627.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2530</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>620408.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.7334</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>329803.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.7337</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>25.33</orderPct>
+          <marketPct>23.29</marketPct>
+          <marketableLimitPct>25.51</marketableLimitPct>
+          <nonMarketableLimitPct>28.88</nonMarketableLimitPct>
+          <otherPct>14.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>785470.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9974</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>180986.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2326</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>910038.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.1954</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>244265.41</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0385</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>14.50</orderPct>
+          <marketPct>14.08</marketPct>
+          <marketableLimitPct>10.47</marketableLimitPct>
+          <nonMarketableLimitPct>14.87</nonMarketableLimitPct>
+          <otherPct>16.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>468922.74</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8842</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>98444.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9947</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>950329.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.5949</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>227228.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.4520</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.13</orderPct>
+          <marketPct>2.00</marketPct>
+          <marketableLimitPct>10.40</marketableLimitPct>
+          <nonMarketableLimitPct>22.07</nonMarketableLimitPct>
+          <otherPct>11.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>66855.02</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0049</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>54765.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.7083</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>679929.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.9522</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>88467.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.5631</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>8.94</orderPct>
+          <marketPct>18.04</marketPct>
+          <marketableLimitPct>11.73</marketableLimitPct>
+          <nonMarketableLimitPct>1.29</nonMarketableLimitPct>
+          <otherPct>18.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>606510.11</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9944</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>119847.69</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9962</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>89144.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.8638</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>191263.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.3423</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.32</orderPct>
+          <marketPct>2.00</marketPct>
+          <marketableLimitPct>1.81</marketableLimitPct>
+          <nonMarketableLimitPct>5.03</nonMarketableLimitPct>
+          <otherPct>17.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>67075.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9966</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>14801.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9994</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>271405.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.9106</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>94242.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.7710</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.69</ndoPct>
+      <ndoMarketPct>24.79</ndoMarketPct>
+      <ndoMarketableLimitPct>12.47</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>54.25</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.48</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>30.49</orderPct>
+          <marketPct>38.41</marketPct>
+          <marketableLimitPct>41.49</marketableLimitPct>
+          <nonMarketableLimitPct>26.67</nonMarketableLimitPct>
+          <otherPct>15.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7884689.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.5497</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4688497.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.6723</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4435706.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.9586</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1394941.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.1125</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>23.50</orderPct>
+          <marketPct>23.47</marketPct>
+          <marketableLimitPct>22.12</marketableLimitPct>
+          <nonMarketableLimitPct>25.57</nonMarketableLimitPct>
+          <otherPct>12.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5130508.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9997</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2270758.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2123</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4007898.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.9837</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>796876.22</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.8861</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>15.89</orderPct>
+          <marketPct>2.04</marketPct>
+          <marketableLimitPct>13.27</marketableLimitPct>
+          <nonMarketableLimitPct>23.34</nonMarketableLimitPct>
+          <otherPct>12.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>420419.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.4403</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>913139.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.1333</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3118596.34</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.3061</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>278356.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.9784</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less, and for extended hours orders the rate is $0.0006 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (HRT)</name>
+          <orderPct>14.38</orderPct>
+          <marketPct>14.30</marketPct>
+          <marketableLimitPct>9.50</marketableLimitPct>
+          <nonMarketableLimitPct>15.21</nonMarketableLimitPct>
+          <otherPct>16.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3101970.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8807</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1215878.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.5792</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4102723.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.6971</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>808265.29</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.5241</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>8.16</orderPct>
+          <marketPct>18.18</marketPct>
+          <marketableLimitPct>10.77</marketableLimitPct>
+          <nonMarketableLimitPct>1.26</nonMarketableLimitPct>
+          <otherPct>19.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4000882.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9187</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1616678.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.9203</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>326298.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.8324</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>736136.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.2143</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.12</orderPct>
+          <marketPct>2.04</marketPct>
+          <marketableLimitPct>1.61</marketableLimitPct>
+          <nonMarketableLimitPct>5.06</nonMarketableLimitPct>
+          <otherPct>19.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>438555.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9979</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>195799.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.0020</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1139030.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.8123</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>369105.81</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.6621</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for listed equity order flow routed to market makers. For marketable orders the payment rate is $0.001 per share or less, for non-marketable orders the rate is $0.0033 per share or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.90</ndoPct>
+      <ndoMarketPct>5.34</ndoMarketPct>
+      <ndoMarketableLimitPct>6.53</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.47</ndoNonmarketableLimitPct>
+      <ndoOtherPct>36.66</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>33.82</orderPct>
+          <marketPct>44.93</marketPct>
+          <marketableLimitPct>44.48</marketableLimitPct>
+          <nonMarketableLimitPct>28.16</nonMarketableLimitPct>
+          <otherPct>38.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5047570.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.0747</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8912660.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.9328</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10514334.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>49.1240</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5558108.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.6654</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>30.19</orderPct>
+          <marketPct>19.09</marketPct>
+          <marketableLimitPct>20.15</marketableLimitPct>
+          <nonMarketableLimitPct>42.00</nonMarketableLimitPct>
+          <otherPct>17.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2190121.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.3821</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3758775.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.2447</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13889298.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>50.8459</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1918628.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0298</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>23.68</orderPct>
+          <marketPct>20.10</marketPct>
+          <marketableLimitPct>19.87</marketableLimitPct>
+          <nonMarketableLimitPct>14.92</nonMarketableLimitPct>
+          <otherPct>37.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2283524.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.4458</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3830191.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.6227</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5125079.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.3481</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5318853.26</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.8743</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>9.04</orderPct>
+          <marketPct>12.04</marketPct>
+          <marketableLimitPct>11.72</marketableLimitPct>
+          <nonMarketableLimitPct>10.10</nonMarketableLimitPct>
+          <otherPct>6.63</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1346254.41</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.9039</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2380489.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.5234</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3448596.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.2089</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>851377.35</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.7275</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Schwab receives payment for multi-listed option order flow routed to market makers. For complex orders the payment rate is $0.60 per contract or less. For marketable orders the payment rate is $0.67 per contract or less. For non-marketable orders the payment rate is $0.61 per contract or less. All market makers pay the same rate to Schwab for any given order flow type. Schwab does not negotiate payment as a condition for sending more order flow to a market maker nor does Schwab negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

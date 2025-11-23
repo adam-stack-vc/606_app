@@ -1,0 +1,64 @@
+{
+  "filename": "row_095_tradersmagazine_com_extracted",
+  "url": "https://tradersmagazine.com/am/duty-of-best-execution-and-payment-for-order-flow-a-review-of-recent-civil-litigation",
+  "title": "Duty of Best Execution and Payment for Order Flow",
+  "date": "",
+  "sentiment": "Neutral",
+  "text": "----------------------------------------\nPayment for order flow (where market makers pay brokers to route orders for execution) and the duty of best execution (which requires a broker to seek the most favorable terms reasonably available for a transaction) were frequent regulatory topics in 2021. The SEC announced it would review payment for order flow in 2022, and FINRA issued guidance in July 2021 on both the duty of best execution and payment for order flow. Payment for order flow and best execution have co-existed for years, and regulatory focus has been on instances where payment for order flow allegedly takes priority over, and undermines, a broker’s duty of best execution. But outside the regulatory sphere, the interplay between these two concepts also played out prominently in civil litigation over the last year.\nFor example, last year investors brought class action lawsuits against brokers claiming, among other things, that a broker’s public statements about satisfying the duty of best execution, without adequately disclosing its payment for order flow arrangement, were misleading. And in another case, the investor alleged the broker violated the duty of best execution by routing orders to trading venues that paid the broker the highest for order flow, rather than to venues providing investors the “best outcome.” In these recent cases, the brokers prevailed, in large part because courts have recognized that determining a violation of the duty of best execution often requires, for each trade, a comparison between the executed prices and the prices available through alternative venues—which is an unwieldly exercise in class action cases potentially involving hundreds of millions of trades.\nOrder execution from a technological perspective has significantly evolved since 2001, but the federal appellate court decision in Newton from that year has stood the test of time, driving outcomes of recent best execution cases.1 In Newton, the investor claimed the broker breached the duty of best execution by failing to disclose the broker’s policy of executing trades at the NBBO price (i.e., the highest price a buyer was willing to pay and the lowest price a seller was willing to accept for a specific trade at a specific time), when more favorable prices may have been available from alternative trading systems.\nThe decision in Newton denied the investor’s motion to certify a class action. That outcome turned on the “economic loss” element of a securities fraud claim, namely that an investor must sustain an “economic loss” to allege a claim. Because the “execution of plaintiffs’ trades at the NBBO listed price did not necessarily injure each class member,” the investors were not entitled to a presumption of “economic injury” across the class. For example, the appellate court noted that, “[d]epending on the facts of each trade, the NBBO listed price may or may not have provided a class member with the best price.” The circumstances of the trade thus dictated whether automated execution of orders at the NBBO listed price harmed or benefited a particular investor.\nThe decision in Newton boils down to this observation: “[w]hether a class member suffered economic loss from a given securities transaction would require proof of the circumstances surrounding each trade, the available alternative prices, and the state of mind of each investor at the time the trade was requested.” Because the very nature of determining compliance with the duty of best execution can be fact-intensive, requiring consideration of the price, order size, execution speed, clearing costs, type of security, and other factors, the court found that it would not be feasible to proceed as a class action.\nMore recent best execution and payment for order flow cases\nNewton has proved to be highly instructive in a series of recent lawsuits involving best execution and payment for order flow.\nFirst, in Ford, the investor alleged that the broker violated the duty of best execution by “systematically sending customer orders to trading venues that pay the company the most money, rather than to venues that provide the best outcome for customers.”2 To establish economic loss due to the alleged routing practice, the investors had to calculate the difference between the price of their executed trades and the “better price allegedly available from an alternative trading source.” To make this showing, the investor’s expert purported to design an algorithm capable of determining, for each trade, whether a “better” price was available by comparing the “trade’s actual price with the National Best Bid and Offer” price. The issue with this methodology, the court noted, is that there are some transactions not executed at the NBBO price “through no fault of the broker.” These “exclusions,” as the Court put it, could not be accounted for in the algorithm and would require the expert to use “individual judgment” in evaluating each trade.\nThe Court also disagreed with the notion that “execution of other trades at prices inferior to the NBBO price necessarily results in economic loss.” This was so because “there are circumstances in which a trade legitimately might execute at a price inferior to the NBBO price, such as when the order size exceeds the number of shares available at the NBBO price at the time of the order.” In that case, the price inferior to NBBO is the best price available for that trade, exposing a flaw in the algorithm of the investor’s expert. The Court’s conclusion in denying class certification aptly summarized:\nThe duty [of best execution] regulates a broker’s process of routing orders for execution, but does not guarantee a specific outcome. [C]ompliance with the duty of best execution does not guarantee that the customer will get the best deal possible. Nor does a violation of the duty of best execution necessarily cause a customer economic loss.\nSecond, in Crago, investors alleged the broker stated on its website that it adhered to the duty of best execution yet did not disclose to investors that it had an arrangement to route orders to a specific market maker.3 Investors alleged that they received higher buy orders and lower sell orders than if there were no such arrangement, breaching the duty of best execution. The crux of the investors’ theory was that the broker affirmatively represented that it provided best execution and omitted disclosing its arrangement to route orders to the market maker.\nSimilar to Ford, the court in Crago denied the investors’ motion to certify the class. The court focused on the “reliance” element of the investors’ securities fraud claim, namely that each investor relied on the broker’s alleged misrepresentations and omissions when making a certain trade. The court recognized that the investors likely had different motivations for trading that had nothing to do with the broker’s representations about offering best execution, such as the “quality of its platform, lower commissions as compared to other brokers, and recommendations from family.” On this score, the Court concluded: “[g]iven the millions of trades at issue in this proposed class, the need to analyze individualized proof of reliance as to each proposed class member gives no cause to believe that all [the Plaintiffs’] claims can productively be litigated at once.”\nThird, and most recently, in the Robinhood Order Flow Litigation case, the court granted the broker’s motion to dismiss the complaint, providing the investors leave to file an amended complaint.4 In the court’s order dated February 18, 2022, it dismissed the investors’ complaint because “plaintiff either failed to point to an actionable omission or misrepresentation or failed to sufficiently allege that the misrepresentations or omissions were false or misleading.” While the Court’s order did not provide a detailed explanation, a review of the case suggests two major misrepresentations/omissions were likely at issue.\nAccording to the investors, the broker misrepresented the fact that it received payment for order flow. But it is important to note that the broker disclosed receipt of payment for order flow in its Rule 606 reports, on its website, and in the FAQ portion of its website. In fact, the Rule 606 reports allegedly disclosed the market maker that received the routed orders from the broker and the amounts the market maker paid the broker. Investors also claimed the broker failed to disclose that its receipt of payment for order flow could affect the “price improvement” that clients received (which occurs when an order receives a price higher than the best quoted market price). As the basis for the alleged misrepresentation, the investors highlighted the FAQ addressing “execution quality,” which referenced the broker’s “quality and speed,” along with the percentage of times its customers received orders at the NBBO price or higher. The broker successfully argued in response that there was no nexus between the alleged misrepresentation about price improvement and the statements made on its website.\nThe relationship between payment for order flow and the duty of best execution remains a critical issue—with potential regulatory and litigation risks if they fall out of balance. Recent litigation addressing these issues stresses the individualized, fact-specific considerations that can make treatment of these cases as class actions inappropriate. And from a disclosure perspective, the Robinhood Order Flow Litigation case provides brokers with guidance in disclosing their payment for order flow arrangements",
+  "text_length": 9595,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.513619",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_095_tradersmagazine_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "SEC",
+    "FINRA",
+    "NBBO",
+    "Ford",
+    "the National Best Bid",
+    "Court",
+    "FAQ"
+  ],
+  "persons_mentioned": [
+    "Offer"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "execution quality",
+          "market maker",
+          "order execution systems"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "institutional brokerage": [
+          "execution quality"
+        ],
+        "market making": [
+          "market maker"
+        ],
+        "trading infrastructure": [
+          "order execution systems"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "execution quality",
+        "market maker",
+        "order execution systems"
+      ]
+    },
+    "content_length": 9595,
+    "word_count": 1516
+  }
+}

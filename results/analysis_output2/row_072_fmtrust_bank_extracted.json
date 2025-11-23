@@ -1,0 +1,61 @@
+{
+  "filename": "row_072_fmtrust_bank_extracted",
+  "url": "https://fmtrust.bank/money-moves-article/investor-alert-robinhood-app-hit-with-hefty-fine-from-federal-regulators",
+  "title": "Investor Alert: Robinhood app hit with hefty fine from federal regulators",
+  "date": "2/23/21",
+  "sentiment": "Negative",
+  "text": "----------------------------------------\nThe Securities and Exchange Commission (SEC) recently charged Robinhood Financial LLC for failure to fully disclose the firm’s receipt of payments from trading firms for routing customer orders to them.\nThe firm was also charged with failing to satisfy its duty to seek the best reasonably available terms to execute customer orders. Robinhood agreed to pay $65 million to settle the charges.\nBased in California, Robinhood is an app that allows investors to trade stocks, options, exchange-traded funds and cryptocurrency without paying commissions or fees. Its account minimum is $0.\nAccording to the SEC, between 2015 and late 2018, Robinhood made misleading statements and omissions in customer communications, including FAQ pages on its website, about its largest revenue source when describing how it made money.\nIn reality, its primary revenue source was via payment for order flow, meaning the fees Robinhood received from sending its customers’ orders to other firms for execution. For instance, Citadel Securities, along with other firms, paid Robinhood almost $100 million in the first quarter of 2020. Also known as a “kickback,” payment for order flow is a common practice, but it’s also controversial.\nThe SEC also says that one of Robinhood’s selling points to customers was that trading was “commission free.” That, however, was due in large part to an unusually high payment for order flow rates. Robinhood customers’ orders were executed at prices that were inferior to other brokers’ prices.\nDespite this, according to the SEC’s order, Robinhood said in a website FAQ between October 2018 and June 2019 that its execution quality matched or beat that of its competitors. In fact, the order finds that Robinhood provided inferior trade prices that, in aggregate, deprived customers of $34.1 million, even after taking into account the savings from not paying a commission.\n“There are many new companies seeking to harness the power of technology to provide alternative ways for people to invest their money,” said Erin E. Schneider, director of the SEC’s San Francisco Regional Office. “But innovation does not negate responsibility under the federal securities laws.”\nWithout admitting or denying the SEC’s findings, Robinhood agreed to a cease-and-desist order prohibiting it from violating the antifraud provisions of the Securities Act of 1933 and the recordkeeping provisions of the Securities Exchange Act of 1934, censuring it and requiring it to pay the aforementioned $65 million civil penalty.\nRobinhood also agreed to retain an independent consultant to review its policies and procedures relating to customer communications, payment for order flow and best execution of customer orders, and to ensure that Robinhood is effectively following those policies and procedures.\nShelby White is the corporate communications officer at F&M Trust.",
+  "text_length": 2909,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.518763",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_072_fmtrust_bank_extracted.txt"
+  },
+  "companies_mentioned": [
+    "The Securities and Exchange Commission",
+    "SEC",
+    "FAQ",
+    "Citadel Securities",
+    "Robinhood",
+    "San Francisco Regional Office",
+    "the Securities Exchange Act",
+    "F&M Trust"
+  ],
+  "persons_mentioned": [
+    "Erin E. Schneider",
+    "Shelby White"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "best execution",
+          "execution quality",
+          "order execution systems"
+        ]
+      },
+      "functions": {
+        "amb igious": [
+          "best execution"
+        ],
+        "institutional brokerage": [
+          "execution quality"
+        ],
+        "trading infrastructure": [
+          "order execution systems"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "best execution",
+        "execution quality",
+        "order execution systems"
+      ]
+    },
+    "content_length": 2909,
+    "word_count": 443
+  }
+}

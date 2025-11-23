@@ -1,0 +1,454 @@
+---
+                title: "('Going once, going twice: SEC proposes package of equity market structure proposals',)"
+                url: "https://davispolk.com/insights/client-update/going-once-going-twice-sec-proposes-package-equity-market-structure"
+                date: ""
+                sentiment: "('Neutral',)"
+                topic: "pfof"
+                ---
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Skip to main content](#main-content)
+Top of page
+
+
+
+ 
+
+1. >Insights
+2. >[Client Update](/insights/client-updates)
+
+
+ Insights
+
+Going once, going twice: SEC proposes package of equity market structure proposals
+==================================================================================
+
+January 13, 2023
+
+
+Client Update
+31-minute read
+
+
+The SEC has proposed a package of reforms to equity market structure rules that would make significant changes, including to how stock orders are priced, executed and reported.
+
+
+
+The SEC recently proposed a set of sweeping equity market structure reforms across four rule proposals that would make highly significant changes to how national market system (NMS) stock orders are priced, executed and reported.  The proposals include:
+
+* a new requirement for certain retail orders to be subject to order-by-order competition, rather than being routed directly to market makers (the Order Competition Rule);
+* an SEC-level best execution rule (the Proposed Regulation Best Ex);
+* an adjustment to the tick sizes at which NMS stocks can be quoted or traded (the Tick Sizes Proposal); and
+* a proposal to expand the scope and manner of execution information that is reported under Regulation NMS Rule 605 (the Rule 605 Proposal).
+
+The public comment period for the Order Competition Rule and Tick Sizes Proposal is open until March 31, 2023. The public comment period for Proposed Regulation Best Ex and the Rule 605 Proposal is open until the later of March 31, 2023 and 60 days after the date of publication of the proposing release in the Federal Register, which has not yet occurred.
+
+Given the significance of the proposals and the impact they would have on existing business models—with some of the proposals explicitly targeting a small number of particular market participants—we expect that the proposals will be the subject of vigorous public comment and debate.
+
+**Order Competition Rule**
+--------------------------
+
+Of the four proposals, the proposed [Order Competition Rule](https://www.sec.gov/rules/proposed/2022/34-96495.pdf) is likely to be the most controversial and impactful. Today, most orders from retail investors are routed by their brokers to firms that operate as “wholesale market makers,” which often execute those orders as principal at a price better than the “national best bid” (NBB) (for a sell order) or “national best offer” (NBO) (for a buy order) displayed by exchanges (together, the NBBO).  The better prices compared to what is displayed at exchanges is known as “price improvement.”  Because market makers can earn spreads with less risk on retail orders—in light of the typically smaller size and less market information driving retail orders—these wholesalers typically do not charge retail brokers fees for this service, and in fact often pay the retail brokers for the opportunity to trade with these retail orders (called “payment for order flow” or PFOF). The SEC estimates that retail brokers currently route more than 90% of marketable orders (orders priced such that they might execute immediately) from individual investors to a small group of off-exchange wholesalers.  This structure, and PFOF in particular, has been controversial, with critics suggesting that the payments to the retail brokers might influence their routing decisions in a way that could disadvantage their customers.
+
+The proposed Order Competition Rule would require that, before most individual investors’ orders could be executed by a trading center that does not facilitate order-by-order competition (like wholesaler market makers), those orders must first be exposed to a qualifying order-by-order auction in which both market makers and institutional investors can participate.  While the SEC acknowledges that wholesalers typically provide price improvement, it posits that greater price improvement would result from order-by-order competition.  The SEC uses the term “competitive shortfall” to describe the difference between its predicted price improvement under the Order Competition Rule and the current price improvement from wholesale market makers—that is, how much better the SEC believes that retail participants would do under the Order Competition Rule.  The SEC estimates that there is a competitive shortfall of 1.08 basis points per dollar traded by wholesalers (*i.e.*, 1.08 cents for every $100 traded), or about $1.5 billion annually across the market.
+
+If adopted as proposed, the Order Competition Rule would make significant changes to retail order flow practices by effectively requiring a significant portion of those orders to first be subject to open auctions before being executed internally by a wholesaler.  While the proposed rule would not prohibit PFOF (as Chair Gensler has previously publicly floated), the Commission acknowledged that the Order Competition Rule “would likely lead to a reduction of PFOF” and/or increase retail brokers’ order handling costs—“which could ultimately be passed on to individual investors.”
+
+### **Order Competition Requirement**
+
+The key provision of the Order Competition Rule would require that a restricted competition trading center may not internally execute a segmented order for an NMS stock until after a broker-dealer has exposed such order to competition at a specified limit price in a qualified auction that is operated by an open competition trading center (the Order Competition Requirement), subject to a number of exceptions.
+
+* *Segmented order*:  An order for an NMS stock that is for an account: (1) of a natural person or an account held in legal form on behalf of a natural person or group of related family members; and (2) in which the average daily number of trades executed in NMS stocks was less than 40 in each of the six preceding calendar months.
+* *Open competition trading center*:  A national securities exchange or an ATS[1](#_ftn1--article-body-field) that meets specified automation, public display and daily share volume requirements. These requirements include that the trading center operate as an automated trading center and publicly displays automated quotations that are disseminated in consolidated market data pursuant to Regulation NMS Rule 603, and that during at least four of the preceding six calendar months, had an average daily share volume of 1% or more of the aggregate average daily share volume for NMS stocks as reported by an effective transaction reporting plan.  An open competition trading center would not be able to operate a system, other than a qualified auction, that is limited, in whole or in part, to the execution of segmented orders, unless such orders qualify for an exception from the Order Competition Requirement.
+* *Restricted competition trading center*:  Any trading center that is not an open competition trading center and is not a national securities exchange.
+* *Qualified auction*:  An auction operated by an open competition trading center that satisfies the requirements described below.
+* *Specified limit price:* This term is not defined in the proposed rule, and the proposal does not set any particular parameters for how the limit price is set.  Nonetheless, the SEC indicated that the price would need to be consistent with the best execution responsibilities of the broker-dealer and the terms of the order as set by the customer.  Importantly though, if the order is not executed in the auction, in whole or part, a restricted competition trading center would only be permitted to execute the segmented order internally at the specified limit price or better.
+
+Once a segmented order has been exposed to a qualified auction, the order or any unexecuted portion may then be executed by a restricted competition trading center.  If that restricted competition trading center declines to execute internally at the specified limit price or better, the process starts again: any unexecuted portion of the segmented order would continue to be subject to the Order Competition Requirement.  At that point, the order could, for example, (1) be returned to the originating retail broker or other broker-dealer for further handling, (2) be resubmitted to a qualified auction with a revised specified limit price; or (3) be routed directly to an open competition trading center.
+
+Because the proposed rule requires an auction only before a segmented order is executed by a restricted competition trading center, a broker-dealer can route a segmented order in other ways without an auction, such as directly to an exchange.  That said, the SEC notes that a broker-dealer’s best execution responsibilities would govern whether the broker-dealer could do so.  The SEC suggests that it expects qualifying auctions would result in better execution.
+
+### **Exceptions to the Order Competition Requirement**
+
+There would be five exceptions to the Order Competition Requirement:
+
+1. The segmented order is received and executed by the restricted competition trading center during a time period when no open competition trading center is operating a qualified auction for the segmented order.
+2. The market value of the segmented order is at least $200,000.
+3. The segmented order is executed by the restricted competition trading center at a price that is equal to or more favorable for the segmented order than the midpoint of the NBBO.
+4. The segmented order is a limit order, with a limit price selected by the customer that is equal to or more favorable for the segmented order than the midpoint of the NBBO.
+5. For customer orders that include fractional shares, the fractional share portion of the order, if no qualified auction accepts orders for fractional shares.
+
+Orders meeting an exception can be executed by a restricted competition trading center without first being exposed to a qualifying auction—but can still be routed to a qualifying auction if doing so is consistent with best execution.
+
+### **Qualified auctions**
+
+To satisfy the Order Competition Requirement, an open competition trading center would be required to conduct a “qualified auction” meeting the following requirements:
+
+1. *Auction messages*:  An auction message announcing the initiation of a qualified auction for a segmented order must be provided for dissemination in consolidated market data.[2](#_ftn2--article-body-field)  Each auction must include the identity of the open competition trading center and the symbol, side, size, limit price, and identity (if disclosed) of the originating broker for the segmented order.  For this purpose, the originating broker is the broker responsible for handling a customer account, or if more than one, the broker that approves the opening of the customer’s account.  
+ 
+   
+ 
+ The identity of the originating broker need not be disclosed in the auction message if (i) the originating broker certifies that it follows written policies and procedures reasonably designed to assure that its identity will not be disclosed to any person that potentially could participate in the qualified auction or otherwise trade with the segmented order, and (ii) the originating broker’s certification is communicated to the open competition trading center conducting the qualified auction. This would avoid some potential auction participants from having more information about the order than others.
+2. *Auction responses*:  An open competition trading center must accept auction responses for a period of between 100 and 300 milliseconds after an auction message is disseminated.  Auction responses must remain undisplayed during the auction period and not disseminated at any time.  Any market participant with the technological capability of responding to auctions measured in hundreds of milliseconds could participate in qualified auctions, including market makers and institutional investors through their broker-dealers’ smart order routers.
+3. *Pricing increments*:  Segmented orders and auction responses must be priced (i) in an increment of at least $0.001 for orders with prices of $1.00 or more per share, (ii) in an increment of at least $0.0001 for orders with prices of less than $1.00 per share, or (iii) at the midpoint of the NBBO.
+4. *Fees and rebates*:  No fee may be charged to the originating broker for submitting or executing a segmented order in a qualified auction.  No fee may be charged for submitting an auction response that is not executed.  The fee for execution of an auction response (i) may not exceed $0.0005 per share for auction responses priced at $1.00 per share or more, and (ii) may not exceed 0.05% of the auction response price per share for auction responses priced at less than $1.00 per share, but (iii) in any event, shall be the same rate for all auctions.  
+ 
+   
+ 
+ Qualified auctions may pay rebates to originating brokers, but those rebates are limited to the same amounts as the fee caps, and similarly must be uniform.
+5. *Execution priority of auction responses and resting orders.* Qualifying auctions must operate with the following rules of execution priority, also taking into account orders resting on the auction operator’s separate order book:
+ 1. The highest priced auction responses to buy and the lowest priced auction responses to sell have priority of execution.
+ 2. Where more than one auction response has the same price, auction responses for the account of a customer have priority over auction responses for the account of a broker-dealer.
+ 3. Time of receipt of a response cannot be considered, so long as the auction response is received within the prescribed time period.
+ 4. No priority may be given to the broker-dealer that routed the order to the auction, the originating broker, the auction operator, or any of their affiliates.
+ 5. Orders (displayed or undisplayed) resting on a continuous order book of the open competition trading center operating the qualified auction at the conclusion of an auction period have priority over auction responses at a less favorable price for the segmented order.
+ 6. Displayed orders resting at the same price on a continuous order book of the open competition trading center operating the qualified auction have priority over auction responses.
+ 7. Auction responses have priority over undisplayed orders resting at the same price on a continuous order book of the open competition trading center operating the qualified auction.
+
+In order to avoid a broker “gaming” the priority rules, the proposed rules would prohibit any broker-dealer with knowledge of where a segmented order is to be routed from submitting (or enabling another to submit) an order to the continuous order book of an open competition trading center that could have priority to trade with the segmented order.
+
+### **Originating brokers**
+
+Under the Order Competition Rule, originating brokers would be subject to following requirements:
+
+1. An originating broker must follow written policies and procedures reasonably designed to identify whether orders of customers are “segmented orders.”
+2. When routing a segmented order, an originating broker must identify the order as such to the routing destination.  This requirement would also apply to all broker-dealers, even if not originating brokers.
+3. Where the originating broker determines not to be disclosed in a qualified auction, it must establish, maintain, and enforce written policies and procedures reasonably designed to assure that its identity is not disclosed, directly or indirectly, to any person that potentially could participate in the qualified auction or otherwise trade with the segmented order.
+
+Where there are multiple originating brokers for a segmented order, for example, an introducing and clearing broker, originating broker responsibilities can be allocated between them by prior written agreement.
+
+Proposed Regulation Best Ex
+---------------------------
+
+[Proposed Regulation Best Ex](https://www.sec.gov/rules/proposed/2022/34-96496.pdf) creates a best execution standard for broker-dealers with requirements for firms to establish, maintain and enforce written policies and procedures reasonably designed to comply with the best execution standard.  Broker-dealers would be required to use reasonable diligence to execute customer orders in the market that provides the best price to the customer under current market conditions. Proposed Regulation Best Ex would apply to *all* securities (with the SEC even highlighting its applicability to “digital asset securities”), rather than just NMS stocks at issue with the other three proposals.
+
+### **Existing requirements for best execution**
+
+Of course, a broker-dealer duty of best execution obligation is not new.  However, this is the first time that the SEC has proposed to codify the obligation in its own rule.  The SEC currently relies on common law and anti-fraud obligations to establish the duty of best execution, while self-regulatory organizations (SROs), including the Financial Industry Regulatory Authority, Inc. (FINRA) and the Municipal Securities Rulemaking Board (MSRB), have rules and guidance directly addressing the duty of best execution.  Proposed Regulation Best Ex heavily borrows from existing FINRA Rule 5310 and MSRB Rule G-18.  The SEC does not propose to replace these rules, but to add its own comprehensive and detailed best execution requirements.  As a result, broker-dealers would be required to comply with Proposed Regulation Best Ex in addition to their existing obligations to comply with applicable SRO best execution rules.  While there is some overlap, broker-dealers would have to navigate the differences between the co-existing standards (such as differences in obligations for introducing brokers and responsibilities to sophisticated market professionals), applying the most stringent standard applicable.
+
+### **Best execution standard**
+
+The proposed rule would set forth the basic best execution standard, substantially identical to SRO rules, such that “in any transaction for or with a customer, or a customer of another broker-dealer, a broker-dealer, or a natural person who is an associated person of a broker-dealer,” the broker-dealer must “use reasonable diligence to ascertain the best market for the security, and buy or sell in such market so that the resultant price to the customer is as favorable as possible under prevailing market conditions.”  The standard would apply to both agency and principal trades for customers, or customers of another broker-dealer.
+
+There are certain exemptions from the best execution standard for a broker-dealer when:
+
+* another broker-dealer is executing a customer order against the broker-dealer’s quotation;
+* an institutional customer (which the SEC does not propose to define), exercising independent judgment, executes its order against the broker-dealer’s quotation; or
+* the broker-dealer receives an unsolicited instruction from a customer to route its order to a particular market for execution and the broker-dealer processes that customer’s order promptly and in accordance with the terms of the order.
+
+### **Policies and procedures**
+
+Broker-dealers would be required to establish, maintain, and enforce written policies and procedures reasonably designed to comply with the SEC’s best execution standard.  The policies and procedures would be required to reflect specified elements (e.g., best displayed prices, opportunities for price improvement including midpoint executions, attributes of particular customer orders, the trading characteristics of the security).
+
+A broker-dealer’s best execution policies and procedures would need to address how it will comply with the proposed best execution standard by:
+
+1. obtaining and assessing reasonably accessible information, including information about price, volume, and execution quality, concerning the markets trading the relevant securities;
+2. identifying markets that may be reasonably likely to provide material potential liquidity sources; and
+3. incorporating material potential liquidity sources into its order handling practices and ensuring that it can efficiently access each such material potential liquidity source.
+
+A broker-dealer’s best execution policies and procedures would need to address how it will determine the best market and make routing or execution decisions for customer orders that it receives by:
+
+1. assessing reasonably accessible and timely information with respect to the best displayed prices, opportunities for price improvement, including midpoint executions, and order exposure opportunities that may result in the most favorable price;
+2. assessing the attributes of customer orders and considering the trading characteristics of the security, the size of the order, the likelihood of execution, the accessibility of the market and any customer instructions in selecting the market most likely to provide the most favorable price; and
+3. in determining the number and sequencing of markets to be assessed, reasonably balancing the likelihood of obtaining better prices with the risk that delay could result in worse prices.
+
+#### Conflicted transactions
+
+One of the SEC’s primary concerns is retail customer transactions that it seems to believe present a conflict of interest, such as PFOF or broker-dealers themselves executing customer orders as principal, which could create incentives for a broker-dealer to select to execute a customer order in a market in a manner that prioritizes its interests over those of its customer. As a result, the SEC’s proposed rule would require even more robust policies and procedures, as well as documentation, to evidence best execution of conflicted transactions with retail customers.
+
+For purposes of the proposed rules, a “conflicted transaction” would be defined as “any transaction for or with a retail customer” where a broker-dealer:
+
+* executes an order as principal, including riskless principal;
+* routes an order to, or receives an order from, an affiliate for execution; or
+* provides or receives various forms of PFOF.
+
+Each broker-dealer would be required to have best execution policies and procedures, specific to conflicted transactions, that address how the broker-dealer will obtain and assess information “beyond” what is required for best execution of non-conflicted transactions and how the broker-dealer will identify and evaluate a “broader range” of liquidity sources, including markets that may be smaller or less accessible, than for non-conflicted transactions.  For conflicted transactions, a broker-dealer would also be required to document its compliance with the heightened best execution standard, including “all efforts” to enforce its best execution policies and procedures for conflicted transactions and the basis and information relied on for its determinations that such conflicted transactions would comply with the best execution standard.  Achieving these proposed standards, however, may be challenging, given their ambiguity.
+
+Broker-dealers would also be required to document any arrangement concerning PFOF, including the parties to the arrangement, all qualitative and quantitative terms concerning the arrangement, and the date and terms of any changes to the arrangement.
+
+#### Execution quality review
+
+Similar to “regular and rigorous” reviews required under existing SRO rules, Proposed Regulation Best Ex would require broker-dealers to review and document the execution quality of customer orders at least quarterly.  Such reviews would include comparisons of the execution quality with the execution quality the broker-dealer might have obtained from other markets.
+
+Broker-dealers would be required to compare the execution quality obtained via its current order routing and execution arrangements (including through the executing customer trades as principal or executing its order flow through another broker-dealer in a wholesaler or other arrangement) to the execution quality it might have obtained from other markets.  The broker-dealer would consider in its comparison the potential execution quality at trading venues that the broker-dealer does not currently use to execute customer orders, including new markets to the extent they become available, and whether it needs to access such markets in order to attain best execution for its customer orders.  Following these quarterly reviews, the broker-dealer would be required to revise its best execution policies, procedures, order handling and routing practices accordingly.
+
+#### Introducing brokers
+
+Under existing SRO rules, brokers that route all their order flow to another broker-dealer for further handling and execution of customer orders are not required to conduct their own best execution analysis, but instead may review the analysis that their executing broker performs.  Proposed Regulation Best Ex would include an introducing broker exemption, but greatly narrow which firms qualify as “introducing brokers” and subject even those firms to significant obligations.
+
+To qualify as an introducing broker for these purposes, a broker-dealer must:
+
+* not carry customer accounts or hold customer funds or securities;
+* have entered into an arrangement with an unaffiliated broker-dealer that has agreed to handle and execute all of the introducing broker’s customer orders on an agency basis (other than fractional share executions as principal, and fixed income executions as riskless principal); and
+* not accept any monetary payment, service, property or other benefit that results in remuneration, compensation or consideration from the executing broker in return for the routing of the introducing broker’s customer orders to the executing broker.
+
+The scope of firms that might qualify as introducing brokers for these purposes is thus quite limited—broker-dealers that receive any PFOF from an executing broker would not qualify.  For a broker-dealer that does qualify, the scope of its best execution obligations is only slightly more circumscribed.
+
+The introducing broker must:
+
+* establish, maintain and enforce policies and procedures that require it to regularly review the execution quality obtained from its executing brokers;
+* compare that execution quality with the execution quality they might have obtained from other executing brokers;
+* revise their order handling practices accordingly; and
+* document the results of the introducing broker’s review.
+
+In light of an introducing broker’s proposed obligation to review the execution performance of its executing broker and obtain underlying executing information from its executing broker to conduct the analysis, the benefit of this exemption, even when available, may be minimal.
+
+### Annual reviews
+
+In addition to (at least) quarterly reviews, the proposal would require that broker-dealers, at least annually, further review and assess their best execution policies and procedures, including their order handling practices.  Broker-dealers would be required to document these reviews and present written reports detailing the results of such review and assessment (including any deficiencies found) to their board of directors or equivalent governing bodies.
+
+**Minimum pricing increments, access fees, and transparency of better priced orders**
+-------------------------------------------------------------------------------------
+
+The [Tick Sizes Proposal](https://www.sec.gov/rules/proposed/2022/34-96494.pdf) is a package of amendments to existing Reg NMS rules to adjust minimum pricing increments (or “ticks”) for the quoting of stocks, apply the minimum increments to trading, lower access fee caps, and accelerate implementation of pending rules on odd lot price transparency.
+
+### **Minimum pricing increments: amendments to Rule 612**
+
+Under Rule 612, stock tick sizes are generally constrained to minimum pricing increments of $0.01 for stocks priced at or greater than $1.00 (or $0.0001 for stocks priced below $1.00). The rule imposes these constraints by prohibiting market participants, including national securities exchanges, ATSs, and broker-dealers facilitating OTC trading, from displaying, ranking or accepting quotes and orders in NMS stocks in increments smaller than the minimum pricing increments. Importantly, the rule does not prohibit *executing* trades at prices lower than the minimum pricing increments. Other than for midpoint executions (which can occur in sub-pennies), because trades on national securities exchanges and ATSs result from ranking of quotes, these trades are typically executed in penny increments.  However, OTC market makers receive orders and can execute them at prices they determine (so long as at or better than the NBBO) without displaying or ranking them, and as a result can frequently execute trades that provide price improvement in sub-penny increments.
+
+The SEC’s original policy rationale for constraining quoting (but not trading) to penny increments was to limit the ability of a market participant to gain priority over competing orders (“jump the queue”) by offering an economically trivial better price, which if unchecked, could discourage participants from displaying liquidity.[3](#_ftn3--article-body-field) This rationale did not require prohibiting *trading* in sub-pennies, because if those prices were not being accepted, ranked or displayed, they merely provided a better price to the counterparty without potentially undermining displayed quotes.
+
+Unlike when Regulation NMS was originally adopted, in light of advancements in technology and cost reductions, many stocks are now typically quoted at a penny spread.  The SEC is now concerned that trading in these stocks has become “tick constrained,” in that there is sufficient liquidity and competition that market forces would cause the spread to be less than a penny, but for Rule 612.  In addition, the SEC is concerned that the current rule permitting *trading* in sub-pennies, while prohibiting *displaying, ranking or accepting,* orders in sub-pennies, has caused competitive disparities unfairly favoring wholesale market makers over exchanges and ATSs.
+
+As a result, as part of the Tick Sizes Proposal the SEC seeks to amend Rule 612 to establish lower and variable ticks, depending on the liquidity profile of the stock.  The determination of the tick for each stock priced at $1.00 or greater would need to be calculated by the stock’s primary listing exchange, for each quarter, based on the Time Weighted Average Quoted Spread during the last month of the prior quarter (March, June, September, and December).  The Time Weighted Average Quoted Spread would be the average dollar value difference between the NBB and NBO during regular trading hours, where each instance of a unique NBB and NBO is weighted by the length of time that the quote prevailed as the NBB or NBO.
+
+As proposed to be amended, Rule 612 would apply the following tick sizes, based on the price per share, and the Time Weighted Average Quoted Spread:
+
+| **Minimum pricing increment** | **Price per share** | **Time weighted average quoted spread during evaluation period** |
+| --- | --- | --- |
+| **$0.01** | Equal to or greater than $1.00 | Greater than $0.04 |
+| **$0.005** | Equal to or greater than $1.00 | Greater than $0.016 but less than or equal to $0.04 |
+| **$0.002** | Equal to or greater than $1.00 | Greater than $0.008 but less than or equal to $0.016 |
+| **$0.001** | Equal to or greater than $1.00 | Equal to or less than $0.008 |
+| **$0.0001** | Less than $1.00 | N/A |
+
+Further, the Tick Sizes Proposal would amend Rule 612 to prohibit trades from being *executed* at prices smaller than the minimum pricing increments. This amendment will potentially eliminate a competitive disparity, but could also increase investor costs by prohibiting OTC market makers from providing price improvement in impermissible increments.
+
+### **Access fee caps: amendments to Rule 610**
+
+Regulation NMS generally prohibits “trade throughs,” where an order is executed on Exchange A, even though Exchange B was displaying a better price (a protected quote).  In order to avoid a situation where the better price on Exchange B is illusory in light of Exchange B having a much higher fee to access the quote than Exchange A, Rule 610 imposed an “access fee” cap, limiting exchange fees on accessing protected quotes to no more than 30 cents per 100 shares ($0.003/share, or 30 mils)—based on the prevailing fee structure in 2005.
+
+As with quoted spreads, technological and market developments have caused actual exchange fees to drop significantly. While many exchanges still charge a 30 mil access fee, much of that fee is actually rebated to the other side of the trade rather than retained by the exchange.
+
+Similar to the SEC’s proposed amendments to reduce and set variable tick sizes, in the Tick Sizes Proposal the SEC is proposing to reduce and set variable access fee caps based on the applicable minimum pricing increment. Under the proposal, the access fees would be capped based on the minimum pricing increment, and price per share, as shown below:
+
+| **Access fee cap** | **Minimum pricing increment** | **Price per share** |
+| --- | --- | --- |
+| **$0.001** | $0.01  $0.005  $0.002 | Equal to or greater than $1.00 |
+| **$0.005** | $0.001 | Equal to or greater than $1.00 |
+| **0.05% of Quote** | $0.0001 | Less than $1.00 |
+
+Finally, the proposal would further amend Rule 610 to prohibit exchanges from charging fees that are not determinable at the time of execution.  Many exchange fee structures offer volume-based fee or rebate tiers calculated at the end of each month based on that month’s volume.  As a result, at the time of execution, a member may not know what tier they qualify for, and thus what their fee will be.  The proposal would effectively require exchanges to modify their fee structures so that volume tiers would be backward-looking, (i.e., the fee tier for a specific time period would need to be a function of the volume in a previous period), allowing the fees to be determinable at the time of execution.
+
+### **Odd-lot price transparency: amendments to MDI Rules**
+
+In 2020, the SEC adopted the Market Data Infrastructure Rules (MDI Rules), amending Regulation NMS to expand the content of core market data that is made available to market participants and adopt a new model for collection, consolidation and dissemination of consolidated market data.[4](#_ftn4--article-body-field)  Despite being adopted, the MDI Rules have not yet been implemented because of various contingencies applicable to the implementation dates.
+
+The Tick Sizes Proposal amends the MDI Rules so that certain aspects of the MDI Rules will be implemented by the SROs within 90 days after the SEC adopts round lot and odd-lot information definitions requirements, the timing of which is not certain but which could occur in the next year or two.  The accelerated MDI Rules include (i) a new definition of “round lot” (to which various rules apply)[5](#_ftn5--article-body-field) to deem smaller share orders in higher priced stocks to be round lots rather than fixed at 100 shares and (ii) the addition of various information about odd lot executions and better-than NBBO-priced odd lot orders to the category of core market data that must be made widely available by SROs.
+
+**Disclosure of order execution information**
+---------------------------------------------
+
+The [Rule 605 Proposal](https://www.sec.gov/rules/proposed/2022/34-96493.pdf) would amend existing order execution disclosure rules under Regulation NMS Rule 605 to expand the scope of entities that are subject to the rule, change how orders are categorized for the purposes of the rule, and modify the information that must be reported under the rule, including new summary statistics. Rule 605, the substance of which was originally adopted in 2000, aims to allow market participants to compare execution quality across market centers based on standardized metrics.
+
+### **Expanding the scope of entities subject to Rule 605**
+
+Currently, only market centers (defined as any exchange market maker, OTC market maker, ATS, national securities exchange, or national securities association) are required to produce monthly execution quality reports under Rule 605. Under the Rule 605 Proposal, (1) broker-dealers that introduce or carry 100,000 or more customer accounts; (2) single-dealer platforms (SDPs); and (3) entities that would operate qualified auctions under the new Order Competition Rule (as described above) would be required to produce such monthly execution quality reports.
+
+Any broker-dealer that is also a market center would be required to produce separate reports pertaining to each function.  In addition, ATSs and SDPs would be required to prepare reports separately from their broker-dealer operators, and market centers that operate a qualified auction must prepare a separate report pertaining only to covered orders that the market center receives for execution in a qualified auction. The SEC believes that by requiring broker-dealers to report stock-by-stock order execution information in a uniform manner, separated by the function the broker-dealer is performing, would make it possible for market participants to make their own determinations about how to group stocks or orders when comparing execution quality.
+
+### **Expanding the definition of covered order**
+
+Reporting under Rule 605 is only required with regard to “covered orders,” which today generally mean market and limit orders received during regular trading hours when the NBBO is being disseminated, and if executed, the orders are executed during regular trading hours. The proposed changes would expand the definition of “covered order” to include (1) certain orders submitted outside regular trading hours if they become executable after the opening or reopening of trading during regular trading hours;[6](#_ftn6--article-body-field) (2) certain orders submitted with stop prices; and (3) non-exempt short sale orders.  Orders executed outside of regular trading hours would continue to be excluded.
+
+Stop orders would be reported as part of a Rule 605 report only if they become executable. The proposed rule would measure the execution quality of orders submitted with stop prices from the time their stop prices are reached (i.e., when such orders become executable).
+
+Non-exempt short sale orders would not be considered subject to special handling orders (and thus not a “covered order”) unless a price test restriction is in effect for the security (i.e., when a stock has triggered a circuit breaker by experiencing a price decline of at least ten percent in one day).
+
+### **Order categorization**
+
+The SEC is also proposing to modify the type of information to be disclosed under Rule 605, as well as the categorization of order information. Order size categories would be based on the new round lot adopted as part of the MDI Rules discussed above (rather than number of shares) and include additional order size categories for fractional shares, odd lots and orders with 5,000 or more shares. The proposed rule would also establish a new order type category for marketable immediate-or-cancel orders, and would eliminate the three current categories for non-marketable limit orders (inside-the-quote limit orders, at-the-quote limit orders, and near-the-quote limit orders) and replace them with non-marketable limit orders that become executable, beyond-the-midpoint limit orders and executable orders submitted with stop prices.
+
+The amended order size categories would be:  (1) less than one share; (2) odd lot; (3) one round lot to less than five round lots; (4) five round lots to less than 20 round lots; (5) 20 round lots to less than 50 round lots; (6) 50 round lots to less than 100 round lots; and (7) 100 round lots or greater. The new categories would also result in larger-sized orders (greater than 10,000), which are currently excluded pursuant to exemptive relief, being included in Rule 605 reports.
+
+The amended order type categories would be:  (1) market orders; (2) marketable limit orders; (3) marketable immediate-or-cancel orders; (4) beyond-the-midpoint limit orders; (5) executable non-marketable limit orders; and (6) executable orders submitted with stop prices.
+
+Under current Rule 605, inside-the-quote limit orders are a separate order type category.  Because they are not a marketable order type (i.e., they do not fully cross the spread), Rule 605 does not require price improvement statistics to be calculated for inside-the-quote limit orders.  The proposed rule would designate those limit orders priced more aggressively than the midpoint as “beyond-the-midpoint limit orders.”  A “beyond the midpoint limit order” is a non-marketable buy order with a limit price higher than the midpoint of the NBBO at the time of order receipt, or a non-marketable sell order with a limit price lower than the midpoint of the national best bid and national best offer at the time of order receipt.  If the NBBO is not being disseminated at the time of order receipt, the “beyond the midpoint” limit is based on the midpoint of the NBBO at the time it is first disseminated after the time of order receipt.
+
+### **Execution quality statistics**
+
+Rule 605 currently requires covered entities to prepare lengthy reports with detailed execution quality statistics, which are made available in a machine-readable format.  This results in Rule 605 reports that are not readily usable by market participants without specialized information processing software to conduct analysis on the large volume of information.  The proposal would require covered entities to produce monthly summary execution quality statistics for market and marketable limit orders (i.e., those most commonly used by retail investors), in addition to the full detail reports.
+
+The summary report would include two sections:  one for NMS stocks included in the S&P 500 Index as of the first day of the month, and one for all other NMS stocks.  Within each section, each symbol would be equally weighted based on share volume.  Each section would then include the following summary statistics for executed orders:  (i) the average order size; (ii) the percentage of shares executed at the quote or better; (iii) the percentage of shares that received price improvement; (iv) the average percentage price improvement per order; (v) the average percentage effective spread; (vi) the average effective over quoted spread, expressed as a percentage; and (vii) the average execution speed, in milliseconds.  The reports must be made available using both the SEC’s XML schema and in PDF form.
+
+The proposal would also make a number of changes to the more detailed execution quality statistics.  The following table summarizes the proposed execution quality statistics:
+
+| **All covered orders** | **Market orders, marketable limit orders, marketable IOCs, beyond-the-midpoint limit orders** | **Beyond-the-midpoint limit orders, executable NMLOs, executable orders with stop prices** |
+| --- | --- | --- |
+| Number of covered orders | Cumulative number of shares of covered orders executed with price improvement | Number of orders that received either a complete or partial fill |
+| Cumulative number of shares of covered orders | Share-weighted average amount per share that prices were improved | Cumulative number of shares executed regular way at prices that could have filled the order while the order was in force, as reported pursuant to an effective transaction reporting plan or effective national market system plan |
+| Cumulative number of shares of covered orders cancelled prior to execution | Share-weighted average period from the time of order receipt to the time of order execution (in the case of beyond-the-midpoint limit orders, from the time such orders first become executable to the time of order execution) | Share-weighted average period from the time of order receipt to the time of order execution (in the case of beyond-the-midpoint limit orders, from the time such orders first become executable to the time of order execution) |
+| Cumulative number of shares of covered orders executed at the receiving market center, broker, or dealer (excluding those shares executed on a riskless principal basis) | Share-weighted median period from the time of order receipt to the time of order execution | Share-weighted median period from the time of order receipt to the time of order execution |
+| Cumulative number of shares of covered orders executed at any other venue | Share-weighted 99th percentile period from the time of order receipt to the time of order execution | Share-weighted 99th percentile period from the time of order receipt to the time of order execution |
+| Cumulative number of shares of the full displayed size of the protected bid/offer at the time of execution, in the case of a market or limit order to sell/buy | Cumulative number of shares of covered orders executed at the quote |  |
+| Average realized spread as calculated 15 seconds after the time of execution | Cumulative number of shares of covered orders executed with price improvement relative to the best available displayed price |  |
+| Average percentage realized spread as calculated fifteen seconds after the time of execution | Share-weighted average amount per share that prices were improved as compared to the best available displayed price |  |
+| Average realized spread as calculated one minute after the time of execution | Cumulative number of shares of covered orders executed outside the quote |  |
+| Average percentage realized spread as calculated one minute after the time of execution | Cumulative number of shares of covered orders executed at the best available displayed price; |  |
+| Average effective spread | Cumulative number of shares of covered orders executed outside the best available displayed price; |  |
+| Average percentage effective spread | Share-weighted average amount per share that prices were outside the best available displayed price |  |
+| Average effective over quoted spread, expressed as a percentage |  |  |
+
+
+ 
+
+
+
+
+
+
+
+
+
+If you have any questions regarding the matters covered in this publication, please reach out to any of the lawyers listed below or your usual Davis Polk contact.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### [Robert A. Cohen](/lawyers/robert-cohen)
+
+[+1 202 962 7047](tel:%2B12029627047)
+
+[robert.cohen@davispolk.com](mailto:robert.cohen@davispolk.com)
+
+
+### [Mary Jane Dumankaya](/lawyers/mary-jane-dumankaya)
+
+[+1 212 450 3654](tel:%2B12124503654)
+
+[maryjane.dumankaya@davispolk.com](mailto:maryjane.dumankaya@davispolk.com)
+
+
+### [Gabe Rosenberg](/lawyers/gabe-rosenberg)
+
+[+1 212 450 4537](tel:%2B12124504537)
+
+[gabe.rosenberg@davispolk.com](mailto:gabe.rosenberg@davispolk.com)
+
+
+### [Tyler X. Senackerib](/lawyers/tyler-senackerib)
+
+[+1 212 450 3419](tel:%2B12124503419)
+
+[tyler.senackerib@davispolk.com](mailto:tyler.senackerib@davispolk.com)
+
+
+### [Zachary J. Zweihorn](/lawyers/zachary-zweihorn)
+
+[+1 202 962 7136](tel:%2B12029627136)
+
+[zachary.zweihorn@davispolk.com](mailto:zachary.zweihorn@davispolk.com)
+
+
+
+
+
+
+---
+
+
+This communication, which we believe may be of interest to our clients and friends of the firm, is for general information only. It is not a full analysis of the matters presented and should not be relied upon as legal advice. This may be considered attorney advertising in some jurisdictions. Please refer to the firm's [privacy notice](https://www.davispolk.com/privacy-notice) for further details.
+
+
+* [1](#_ftnref1--article-body-field) Notably, the ability of an ATS to operate an open competition trading center or qualified auction may be only theoretical, at least initially.  At present, no ATSs would satisfy the proposed requirements to be an open competition trading center (and thus could not operate a qualified auction) for a number of reasons.  For example, to qualify, an ATS would be required to display quotations through a self-regulatory organization display-only facility, and currently no ATSs do so.  In addition, no ATS currently appear to qualify based on the 1% average daily share volume threshold.
+* [2](#_ftnref2--article-body-field) If the requirement is adopted as proposed, the effective NMS plans for NMS stocks would need to be conformed to provide for the collection and dissemination of auction messages.
+* [3](#_ftnref3--article-body-field) *See* Exchange Act Release No. 51808 (June 9, 2005).
+* [4](#_ftnref4--article-body-field) Securities Exchange Act Release No. 90610 (Dec. 9, 2020) (MDI Adopting Release).
+* [5](#_ftnref5--article-body-field) The definition of “round lot” is important because various other SEC rules rely on the concept of round lots. A round lot is a standard unit of trading for stocks under SEC rules and establishes the minimum number of shares needed to set bid and offer prices in the market. For example, the definition of “bid” or “offer” under Reg NMS is the price at which parties are willing to pay to buy or sell one or more round lots of an NMS security. Changing the definition of a round lot will thus have an impact on the bids and offers represented in the market.
+* [6](#_ftnref6--article-body-field) This would include, for example, a non-marketable limit order received by a market center or broker-dealer outside of regular trading hours if it becomes executable after the opening or reopening of trading during regular trading hours.  This would not include, however, a limit order received outside of trading hours that is marketable based on the first disseminated NBBO during regular trading hours, or market orders and marketable limit orders submitted prior to open or during a trading halt.
+
+
+
+
+Copy link to share post
+
+
+
+[linkedin](https://www.linkedin.com/sharing/share-offsite?url=https%3A//www.davispolk.com/insights/client-update/going-once-going-twice-sec-proposes-package-equity-market-structure&title=Going%20once%2C%20going%20twice%3A%20SEC%20proposes%20package%20of%20equity%20market%20structure%20proposals)[X](https://x.com/intent/post?url=https%3A//www.davispolk.com/insights/client-update/going-once-going-twice-sec-proposes-package-equity-market-structure&text=Going%20once%2C%20going%20twice%3A%20SEC%20proposes%20package%20of%20equity%20market%20structure%20proposals)[email](mailto:?subject=Sharing%20content%20from%20Davis%20Polk&body=Going%20once%2C%20going%20twice%3A%20SEC%20proposes%20package%20of%20equity%20market%20structure%20proposals%3A%20https%3A//www.davispolk.com/insights/client-update/going-once-going-twice-sec-proposes-package-equity-market-structure)[pdf](/print/pdf/node/109979)
+
+Related capabilities
+--------------------
+
+[Capital Markets](/capital-markets)
+[Financial Institutions](/financial-institutions)
+[Public Company Advisory](/public-company-advisory) 
+
+Related capabilities
+--------------------
+
+Show related capabilities
+
+
+[Capital Markets](/capital-markets)
+[Financial Institutions](/financial-institutions)
+[Public Company Advisory](/public-company-advisory) 
+
+
+
+
+Related lawyers
+---------------
+
+[Robert A. Cohen](/lawyers/robert-cohen)
+[Mary Jane Dumankaya](/lawyers/mary-jane-dumankaya)
+[Gabe Rosenberg](/lawyers/gabe-rosenberg)
+[Tyler X. Senackerib](/lawyers/tyler-senackerib)
+[Zachary J. Zweihorn](/lawyers/zachary-zweihorn)
+
+Related lawyers
+---------------
+
+Show related lawyers
+
+
+[Robert A. Cohen](/lawyers/robert-cohen)
+[Mary Jane Dumankaya](/lawyers/mary-jane-dumankaya)
+[Gabe Rosenberg](/lawyers/gabe-rosenberg)
+[Tyler X. Senackerib](/lawyers/tyler-senackerib)
+[Zachary J. Zweihorn](/lawyers/zachary-zweihorn)
+
+
+
+
+
+
+
+
+
+[Back to top](#content-top)
+
+
+
+
+
+We (including our service providers and partners) use cookies for various purposes, including to operate our website and enhance your browsing experience. We won’t set non-essential cookies on your browser without your consent. By clicking “Accept,” you agree to the use of all cookies on our website. You can also reject all non-essential cookies by clicking “Decline.” For more details about our use of cookies and how to exercise your choices, please read our [Cookie Policy](https://www.davispolk.com/cookies).
+
+
+Accept
+Decline
+
+
+
+
+

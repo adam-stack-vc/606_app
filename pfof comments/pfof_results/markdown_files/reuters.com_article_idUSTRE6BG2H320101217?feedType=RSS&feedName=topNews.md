@@ -1,0 +1,129 @@
+---
+                title: "('Special Report: For Wall Street, dumb money pays',)"
+                url: "https://reuters.com/article/idUSTRE6BG2H320101217?feedType=RSS&feedName=topNews"
+                date: ""
+                sentiment: "('Neutral, Negative',)"
+                topic: "pfof"
+                ---
+
+                
+[Skip to main content](#main-content)
+[Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv](/differentiator/)
+By Jonathan Spicer
+NEW YORK (Reuters) - Yan Qin is a freelance consultant and do-it-yourself stock trader who works out of her apartment in Queens, New York. From the comfort of her living room, she keeps one eye on the business TV network CNBC, the other on a laptop computer, where her E\*Trade account shows the best prices down to the penny, flickering moment to moment.
+She presses a button and the trade is done in less than a second, costing her only $9.99 -- a mark of the easiest and cheapest era yet for individuals to participate in U.S. capital markets.
+Advertisement · Scroll to continue
+
+Qin, 40, who describes her strategy as "impulsive," said she recently purchased 300 shares of Bank of America. Though she didn't realize it at the time, the amateur trader likely got a tad better deal on the stock than even the most sophisticated Wall Street traders.
+How did she manage that? E\*Trade, rather than shipping her order directly to the New York Stock Exchange or Nasdaq, routed it to a large firm known as a market maker, which sold Qin the stock at a slightly cheaper price -- probably a 10th of a penny.
+The market maker also paid E\*Trade Financial Corp a small stipend, and in return got a chance to profit from what the industry considers "uninformed" trades -- or dumb money, to use the term of art.
+Advertisement · Scroll to continue
+
+This little-known circle of compensation, called "payment for order flow," has provided a steady source of income for a select few firms for decades, but lately has again come under scrutiny.
+A growing number of critics say that the arrangement segregates the public from the public marketplace. They also say it fuels anonymous and lightly supervised "dark" trading, and hamstrings the exchanges' ability to set prices that reflect an increasingly large spectrum of buyers and sellers.
+Of course, none of this is even remotely illegal. Some with a stake in the industry say the arrangement helpfully insulates amateurs from professionally-set share prices -- and the high-frequency trading firms that establish them. Others say it helps nonprofessional traders avoid what they call the punitive trading fees levied by exchanges.
+
+Still, the lack of transparency is a big reason critics are casting a wary eye. "The reason it smells bad is that you hire a broker as your agent to get you the best execution and best possible pricing, and he's on the take," said James Angel, associate professor of finance at Georgetown University's McDonough School of Business.
+FAB FIVE
+In particular, securities regulators are taking a closer look at the arrangement in which five large wholesalers -- trading firm Knight Capital Group Inc, hedge fund Citadel, banks UBS AG and Citigroup Inc, and E\*Trade's smaller market making division -- are on the other side of virtually all marketable U.S. stock trades by individuals.
+The five firms effectively have a first look at the vast majority of "buy now" and "sell now" orders that come from individuals' living rooms, basements and cell phones. According to several estimates, such trading translates into some 10 percent of overall U.S. cash equity volumes.
+
+The May "flash crash," in which mass confusion led big market makers to pull back at the worst possible time, undermined some of the faith that market makers help to insulate individual traders. And the crash, it turns out, came just as concerns over off-exchange trading grew.
+"I'd say major payment for order flow changes would be down the road," said Chris Nagy, managing director of order routing at brokerage TD Ameritrade Holding Corp, a big pay-for-flow player because it runs the top U.S. online trading platform. "It's a symptom of the market structure that we have today."
+
+In addition to regulatory changes, the industry is poised to become a lot more competitive as more firms seek to grab a piece of the action.
+Upstart trading companies and established Wall Street giants alike are trying to elbow into the payment business, according to industry participants. Striking relationships with online brokers would give them a safe and lucrative entry point into the ultra-competitive stock market.
+The renewed interest in market making comes as a lot more uninformed orders could soon be up for grabs: two key lockup agreements are set to expire, starting in January when Citadel will no longer claim 40 percent of E\*Trade's orders.
+Even the exchanges, long estranged from a big chunk of individual investors, want to reconnect with their orders -- be it through firesale prices or lobbying regulators.
+"It's gotten more competitive. You see that in execution quality, you see that in spreads, you see it in the people competing for business," said Martin Mannion, chief operating officer at Citadel Execution Services. "We see it getting more competitive, not less so."
+According to dozens of interviews with people familiar with the situation, change -- perhaps regulatory, definitely competitive -- is in the offing. This could shake up some of the biggest players in trading, redirect brokers' small but important revenue streams and affect Americans' everyday stock trades.
+VIRGIN OR TOXIC?
+Individuals, or "retailers" as they're called, are desirable trading counterparties for the pros because they're relatively small and, like Qin, often make longer-term trades based on headline news and a "feeling" about a stock.
+Unlike pension funds, they don't have millions or billions of investment dollars that could drastically move market prices and steamroll a market maker that gets in the way. Three hundred shares of Bank of America is barely a blip in a market that absorbs tens of thousands of orders a second.
+And in contrast to high-frequency traders, retailers don't have reams of algorithmic code and rapid-fire trading software that often shows where stocks are headed in the next few milliseconds.
+Here's how it works. A market maker's computer sifts through what the pros call "virgin" retail flow. They then dump the "exhaust" -- that is, unprofitable orders -- off to other market makers or trading venues. The cleverest of these exhaust orders end up at the NYSE and other public venues in a fraction of a second.
+The U.S. Securities and Exchange Commission has said it is concerned that about 33 percent of all trading now skips over the marketplace. In 2007, the figure was about 20 percent.
+Much of this so-called internalization is derived from retail orders and involves payment for order flow. The rest takes place in dark pools, where institutions and others anonymously trade larger blocks of stock to hide their intentions from the market.
+As a result of all this, only two-thirds of trading directly sets the price of public stocks -- the lowest level in the modern era of sharply fragmented markets, narrow bid-ask spreads and sub-second electronic trading.
+"The markets could get to a point where there's so much internalization of orders that the price formation mechanism is not accurate anymore," said Robert Colby, who was deputy director of the SEC's trading and markets unit from 1993 to 2009. Indeed, the agency had a worried eye on pay for flow for much of Colby's tenure, and even before.
+In 1983, Bernard Madoff Investment Securities was paying brokerages for their business, trading within that decade's far wider bid-ask spreads, and spearheading the growth of the "third market."
+In the past decade, so-called decimalization -- pricing stocks in pennies from fractions of a dollar -- and the automation of trading narrowed a broad field of retail market makers to the dominant five.
+Brokerages and market makers involved argue that the system benefits customers. The amount of time it takes to execute a trade has dropped to less than a second on average, from more than 18 seconds in 1999, according to TD Ameritrade.
+They also point out that half of all retail orders receive some level of "price improvement" from the best bid or offer in the country, a tenth of a penny per share on average. The biggest upside might be the opening of the traditionally clubby stock market to a far wider population.
+"Virtually every dimension of U.S. equity market quality is now better than ever," Angel and two other professors concluded in a study published in February, a few months before the flash crash.
+BALANCING PRIORITIES
+The protection of retailers is arguably the SEC's top priority, which helps explain why the government agency has allowed pay for flow to thrive. Yet the health of the overall market -- another key SEC mandate -- has sparked worries.
+An April study by Rutgers University finance professor Daniel Weaver found "strong" evidence that off-exchange trading reduces market quality, bringing wider bid-ask spreads and higher volatility to the displayed or "lit" marketplace.
+"If you have retail and institutions -- the long-term investors -- trading in the dark market, and the prices are derived from the lit market -- which may be dominated by the high-frequency traders and where there could be more volatility than perhaps is warranted -- that could be an area of concern," David Shillman, associate director of the SEC's trading and markets division, told Reuters.
+Then on May 6, the flash crash sharply amplified the existing debate over market fairness and stability.
+Regulators issued a report on September 30 that blamed a single automated trade for sparking the flash crash. But the subsequent freefall was based on the rapid-fire reaction of high-frequency traders offsetting positions between futures and stock markets, and on the crush of sell-at-any cost orders that flooded exchanges.
+Part of the problem was market makers stopped buying while retailers sold -- or they stopped trading altogether, "routing most, if not all, of these orders directly to the public exchanges where they competed with other orders for immediately available, but dwindling, liquidity," said the report by the SEC and the Commodity Futures Trading Commission.
+Internalized trading, of which payment for flow is a big part, dropped to 11 percent of overall volumes during the worst of the crash, down from as much as 30 percent just prior to it, the report said.
+This shows how market makers react when they do not "understand exactly what's happening and whether they're operating at an informational advantage or disadvantage," Richard Ketchum, head of the Financial Industry Regulatory Authority (FINRA), told a conference at Baruch College in October. "It would be good to take a look at the underlying expectations of how internalization is going to operate, and ask whether there are lessons from the past that ought to be included."
+Knight and Citadel, the top two retail market makers, were among those who had problems during the crash, due in part to erratic price data from the exchanges, according to sources familiar with the matter. The two firms did not comment directly on any technical problems during the 20-minute crash that afternoon.
+"We would love to have bought all day. But at the end of the day, if you've got billions of shares hitting the Street and they're all sell orders, it's not possible to be a buyer in all of them," said Jamil Nazarali, global head of electronic trading at Knight. "At some point you've got to send that to an exchange. That's just the reality of it," he said. "I would bet there's not a wholesaler out there that wasn't long a lot at the bottom of the crash. We were all long, and at our risk limits."
+Tom Matchett, who heads UBS's retail market making division, said: "It is a fact that the retail stop-loss order book really was the last domino that fell, and they generated the most egregious prices that took place that day. But it is incorrect to call the retail stop order book the cause of May 6 without looking further up the chain."
+The SEC and CFTC set up a special committee to make recommendations based on the flash crash report as soon as next month.
+MORE FLOW, MORE TAKERS
+Despite the cloudy regulatory outlook, firms are lining up to challenge the big five market makers, promising retail brokers faster trades, better prices and fees. "We think the opportunity is there to take on some of that market share -- and the marketplace must agree because we now have 42 clients that didn't exist for us a year ago," said Joseph Marinaro, chief business development and strategy officer at small market maker Surge Trading, a spinoff from the Madoff empire that launched last year.
+Surge is often mentioned alongside banks Credit Suisse Group AG and Goldman Sachs Group Inc, and algorithmic trading firms Two Sigma Investments and Getco, among others, as those likely to make inroads in payment for order flow in coming years.
+Those firms declined to comment for this article.
+Playing into newcomers' hands, more brokers like mutual fund giant Fidelity Investments started accepting payments in the last few years. And in coming years the river of order flow could swell.
+Just this month, E\*Trade announced it will not renew an order-routing deal with Citadel, its largest stakeholder. The three-year agreement expires December 31, after which E\*Trade will take full control of routing decisions. Heavyweight brokerage Charles Schwab Corp could do likewise when its eight-year routing deal with UBS ends in October 2012.
+UBS's $265-million purchase of Schwab's capital markets business, formerly called Mayer & Schweitzer, in 2004 gave the Swiss-based bank the vast majority of Schwab's client orders, which led to an average of 414,000 trades per day last month.
+Schwab has held discussions with other potential market makers about its plans once the UBS deal expires, according to sources who requested anonymity because the talks were private. The company said it was too early to comment on the matter.
+David Grove, a senior vice president at E\*Trade's market making division, said payment-for-order-flow rates have risen in the last three years. "We're all very competitive when it comes to attracting retail order flow and increasing volumes," he said, adding retailers are "getting the best pricing they've ever seen, and the fastest execution."
+The retail business, however, has very narrow profit margins, and has proven difficult for market makers to win in the face of brokers' persistent demands for quality.
+"I can guarantee that all of the market makers measure their profitability in tenths or hundredths of a cent per share," said Jeff Martin, president of Citigroup's Automated Trading Desk unit.
+Knight, the top retail market maker, is expected to pay as little as $35 million for flow this year, estimates Sandler O'Neill analyst Richard Repetto, down from the $72 million it reported last year. In general, market makers pay brokers roughly one tenth of a penny for each share sent their way, according to public reports.
+Small as they may appear, the payments help "discount" brokers offset their low client fees. That's why Qin pays less than $10 a trade whether on her E\*Trade or her TD Ameritrade account.
+SPLITTING PENNIES
+At a World Federation of Exchanges conference in Paris, Joseph Gawronski surprised the audience when he raised the mostly U.S.-centric issue, calling the payments "particularly offensive" and warning Europeans to be on guard against it taking hold there.
+Gawronski, the president of New York-based agency brokerage Rosenblatt Securities, said the significant chunk of U.S. trading dominated by Knight, Citadel, UBS and Citigroup "impedes price discovery, it discourages the display of lit orders, it's a negative."
+His argument -- that giving retailers a tenth of a penny per share does not justify segregating this very public group of investors from the public market -- has been met with sharp criticism from those in the business.
+Defenders point out that, in addition to that 0.1 of a penny discount they receive, retailers also avoid paying the fees that exchanges charge traders who remove standing orders from their books, about 0.2 or 0.3 of a penny per share.
+Nasdaq OMX, Direct Edge and others have responded by launching smaller exchanges that, contrary to the norm, actually pay for the so-called marketable orders that remove liquidity.
+Combined, these venues with "inverted pricing" have managed to capture about 7 percent of all volumes, but they sometimes operate at a loss. So the exchanges, which suffered as dark markets ate into their share of trading, often turn to regulators to step in.
+"The overwhelming majority of orders that are executed in dark pools today do not improve either the price or the size of the publicly-quoted market," NYSE Euronext CEO Duncan Niederauer told a Goldman Sachs-hosted conference this month.
+"And I think the SEC is starting to realize that that's not good public policy, and ultimately you may just hollow out the public market even further, and that's not what our ambition should be right now."
+THE QUESTION OF 'TRADE-AT'
+It is difficult to gauge the SEC's plan for internalization in general, and pay for flow in particular. More than a year ago, it proposed three rules that would tighten dark-pool oversight, but the agency has since been mum on those.
+In a comprehensive paper on market structure published in January, the SEC once again raised an old idea that probably sent chills down a few spines -- something called a "trade-at" rule.
+Such a rule would prohibit any trading center or market maker from executing an incoming order unless it was already publicly displaying the best U.S. bid or offer in that stock, or unless it improved the price by, in all likelihood, a full penny.
+In other words, trade-at would upend retail market making and very likely kill the familiar system of payment for order flow. "Trade-at would be terrible for customers," said Knight's Nazarali. "If you roll back the clock ten years, when 70 or 80 percent of the volume was traded on the NYSE and the Nasdaq, that's the world you'll go back to where people are paying high fees."
+Yet in the January paper, the SEC asked for public opinions on whether trade-at, among other things, would help promote public price discovery by returning "a significant volume of highly valuable marketable order flow" to the displayed markets.
+If it alarmed some readers, it pleased others. "There are no uninformed orders that are getting to the displayed markets anymore, which is discouraging anyone from participating in the displayed market," said Dennis Dick, one of about 300 proprietary traders at Las Vegas-headquartered Bright Trading. "If the SEC makes the wrong decision, if they don't curb these internalization practices, we will definitely, 100 percent, have another flash crash."
+Shillman, of the SEC, said it was too early to determine the agency's leanings one way or another on trade-at.
+A rough poll of market participants interviewed by Reuters suggests there is a small chance the SEC would propose a trade-at rule in order to gather more public comment, but very little chance the agency would ultimately adopt it.
+"A trade-at rule is a big twist of the dial. It's much more intrusive than the existing ... rule," said Colby, who is now a Washington-based counsel at law firm Davis Polk & Wardwell.
+"To truly address this issue, you have to limit internalization rather than just attacking payment for order flow," he said. "But you would have to be careful not to blow up the whole market."
+
+Reporting by Jonathan Spicer; Editing by Jim Impoco and Claudia Parsons
+
+Our Standards: [The Thomson Reuters Trust Principles., opens new tab](https://www.thomsonreuters.com/en/about-us/trust-principles.html)
+
+* Suggested Topics:
+Share
+
+* X
+* Facebook
+* Linkedin
+* Email
+* Link
+
+[Purchase Licensing Rights](https://www.reutersagency.com/en/licensereuterscontent/?utm_medium=rcom-article-media&utm_campaign=rcom-rcp-lead)
+
+
+
+[![LSEG Workspace](https://cloudfront-us-east-2.images.arcpublishing.com/reuters/AE6BNNRLSVAQTFG5XHTC4AV6YI.jpg)](https://www.lseg.com/en/data-analytics/products/workspace?utm_source=reuters.com&utm_medium=articlebanner&utm_campaign=Reuters_ProductPage_Links)
+
+
+
+
+
+
+
+
+
+
+

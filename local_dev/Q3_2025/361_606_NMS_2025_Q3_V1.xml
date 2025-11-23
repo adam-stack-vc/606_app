@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+    <version>1.2</version>
+    <bd>Goldman Sachs &amp; Co. LLC</bd>
+    <year>2025</year>
+    <qtr>3</qtr>
+    <timestamp>2025-10-30T14:11:05Z</timestamp>
+    <rMonthly>
+        <year>2025</year>
+        <mon>7</mon>
+        <rSP500>
+            <ndoPct>0.05</ndoPct>
+            <ndoMarketPct>1.04</ndoMarketPct>
+            <ndoMarketableLimitPct>13.66</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>80.95</ndoNonmarketableLimitPct>
+            <ndoOtherPct>4.33</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>New York Stock Exchange LLC.</name>
+                    <mic>XNYS</mic>
+                    <orderPct>49.95</orderPct>
+                    <marketPct>56.73</marketPct>
+                    <marketableLimitPct>11.56</marketableLimitPct>
+                    <nonMarketableLimitPct>58.18</nonMarketableLimitPct>
+                    <otherPct>15.54</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-8.23</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-3.0100</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-309.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-21.0900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>267.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>7.9300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>1.91</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.3600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Supplemental Liquidity Market Maker in equities on the NYSE. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange.  &#xD;
+&#xD;
+NYSE has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the NYSE’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>The Nasdaq Stock Market LLC.</name>
+                    <mic>XNAS</mic>
+                    <orderPct>30.24</orderPct>
+                    <marketPct>43.26</marketPct>
+                    <marketableLimitPct>37.46</marketableLimitPct>
+                    <nonMarketableLimitPct>28.34</nonMarketableLimitPct>
+                    <otherPct>39.90</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-2.75</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-3.7700</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-896.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-27.5900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>920.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>20.3400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-37.85</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-6.5000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Market Maker on XNAS in equities. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange. &#xD;
+&#xD;
+XNAS has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website: &#xD;
+https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7#section_10_membership_fees&#xD;
+&#xD;
+Information reflecting XNAS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ OMX PSX</name>
+                    <mic>XPSX</mic>
+                    <orderPct>10.06</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.99</marketableLimitPct>
+                    <nonMarketableLimitPct>12.23</nonMarketableLimitPct>
+                    <otherPct>0.38</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-48.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-16.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-4.41</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+PSX has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-equity-7&#xD;
+&#xD;
+Information reflecting PSX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Exchange</name>
+                    <mic>BATS</mic>
+                    <orderPct>5.61</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>28.25</marketableLimitPct>
+                    <nonMarketableLimitPct>0.53</nonMarketableLimitPct>
+                    <otherPct>30.60</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-729.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-142.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-69.28</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NYSE Arca, Inc.</name>
+                    <mic>ARCX</mic>
+                    <orderPct>1.48</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>7.91</marketableLimitPct>
+                    <nonMarketableLimitPct>0.25</nonMarketableLimitPct>
+                    <otherPct>4.55</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-313.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-78.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-26.67</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCA has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf &#xD;
+&#xD;
+Information reflecting ARCA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGX Exchange</name>
+                    <mic>EDGX</mic>
+                    <orderPct>0.69</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>3.57</marketableLimitPct>
+                    <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+                    <otherPct>2.47</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-234.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-61.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-14.59</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/&#xD;
+&#xD;
+Information reflecting the EDGX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MEMX</mic>
+                    <orderPct>0.55</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.76</marketableLimitPct>
+                    <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+                    <otherPct>2.66</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-149.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-33.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-14.32</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GSCO has a minority, non-controlling ownership interest in MEMX. MEMX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/&#xD;
+&#xD;
+Information refecting MEMX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Investors Exchange LLC.</name>
+                    <mic>IEXG</mic>
+                    <orderPct>0.38</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.15</marketableLimitPct>
+                    <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+                    <otherPct>0.76</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-64.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-13.4600</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-31.90</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-16.4800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-8.21</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-14.8500</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.iexexchange.io/resources/trading/fee-schedule#transaction-fees&#xD;
+&#xD;
+Information reflecting IEXG's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BYX Exchange</name>
+                    <mic>BATY</mic>
+                    <orderPct>0.26</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.46</marketableLimitPct>
+                    <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+                    <otherPct>0.74</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>4.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>1.8500</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.39</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>1.9400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.43</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>1.7500</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATY has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/byx/&#xD;
+&#xD;
+Information reflecting the BATY’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGA Exchange</name>
+                    <mic>EDGA</mic>
+                    <orderPct>0.20</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.12</marketableLimitPct>
+                    <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+                    <otherPct>0.45</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-80.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-19.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-8.20</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edga/&#xD;
+&#xD;
+Information reflecting the EDGA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rSP500>
+        <rOtherStocks>
+            <ndoPct>0.02</ndoPct>
+            <ndoMarketPct>2.55</ndoMarketPct>
+            <ndoMarketableLimitPct>16.28</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>73.62</ndoNonmarketableLimitPct>
+            <ndoOtherPct>7.53</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>NYSE Arca, Inc.</name>
+                    <mic>ARCX</mic>
+                    <orderPct>37.33</orderPct>
+                    <marketPct>19.86</marketPct>
+                    <marketableLimitPct>8.42</marketableLimitPct>
+                    <nonMarketableLimitPct>46.64</nonMarketableLimitPct>
+                    <otherPct>14.76</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-526.71</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-15.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1671.49</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.1300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-166.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-502.84</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-17.7600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCA has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf &#xD;
+&#xD;
+Information reflecting ARCA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>New York Stock Exchange LLC.</name>
+                    <mic>XNYS</mic>
+                    <orderPct>20.61</orderPct>
+                    <marketPct>45.82</marketPct>
+                    <marketableLimitPct>5.30</marketableLimitPct>
+                    <nonMarketableLimitPct>24.73</nonMarketableLimitPct>
+                    <otherPct>4.84</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-25.34</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-3.0100</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1425.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-25.2500</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>1267.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>7.4900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-116.58</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-6.5300</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Supplemental Liquidity Market Maker in equities on the NYSE. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange.  &#xD;
+&#xD;
+NYSE has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the NYSE’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>The Nasdaq Stock Market LLC.</name>
+                    <mic>XNAS</mic>
+                    <orderPct>19.45</orderPct>
+                    <marketPct>32.27</marketPct>
+                    <marketableLimitPct>23.10</marketableLimitPct>
+                    <nonMarketableLimitPct>18.09</nonMarketableLimitPct>
+                    <otherPct>20.42</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-68.77</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-7.4100</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-3378.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-23.6100</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>8845.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>25.2000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-336.64</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-13.9600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Market Maker on XNAS in equities. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange. &#xD;
+&#xD;
+XNAS has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website: &#xD;
+https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7#section_10_membership_fees&#xD;
+&#xD;
+Information reflecting XNAS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Exchange</name>
+                    <mic>BATS</mic>
+                    <orderPct>12.98</orderPct>
+                    <marketPct>1.35</marketPct>
+                    <marketableLimitPct>45.37</marketableLimitPct>
+                    <nonMarketableLimitPct>2.30</nonMarketableLimitPct>
+                    <otherPct>51.29</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-0.49</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-13.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-3954.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.5400</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-518.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-22.6700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-973.15</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-27.4000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ OMX PSX</name>
+                    <mic>XPSX</mic>
+                    <orderPct>5.40</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.88</marketableLimitPct>
+                    <nonMarketableLimitPct>7.12</nonMarketableLimitPct>
+                    <otherPct>0.25</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-124.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9200</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-30.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-20.91</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+PSX has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-equity-7&#xD;
+&#xD;
+Information reflecting PSX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGX Exchange</name>
+                    <mic>EDGX</mic>
+                    <orderPct>1.03</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>4.65</marketableLimitPct>
+                    <nonMarketableLimitPct>0.14</nonMarketableLimitPct>
+                    <otherPct>2.29</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1313.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.5200</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-346.13</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-28.4800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-176.25</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/&#xD;
+&#xD;
+Information reflecting the EDGX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MEMX</mic>
+                    <orderPct>0.79</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>3.33</marketableLimitPct>
+                    <nonMarketableLimitPct>0.11</nonMarketableLimitPct>
+                    <otherPct>2.14</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-845.49</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.2500</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-167.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-27.8800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-186.99</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GSCO has a minority, non-controlling ownership interest in MEMX. MEMX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/&#xD;
+&#xD;
+Information refecting MEMX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Investors Exchange LLC.</name>
+                    <mic>IEXG</mic>
+                    <orderPct>0.56</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.56</marketableLimitPct>
+                    <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+                    <otherPct>1.04</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-401.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-16.2100</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-58.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-11.3800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-52.11</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-13.9700</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.iexexchange.io/resources/trading/fee-schedule#transaction-fees&#xD;
+&#xD;
+Information reflecting IEXG's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NYSE American LLC</name>
+                    <mic>XASE</mic>
+                    <orderPct>0.37</orderPct>
+                    <marketPct>0.45</marketPct>
+                    <marketableLimitPct>0.14</marketableLimitPct>
+                    <nonMarketableLimitPct>0.45</nonMarketableLimitPct>
+                    <otherPct>0.04</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-0.11</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-92.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-28.4100</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>218.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>15.1000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-5.85</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+AMEX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-american/NYSE_America_Equities_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the AMEX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGA Exchange</name>
+                    <mic>EDGA</mic>
+                    <orderPct>0.31</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.33</marketableLimitPct>
+                    <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+                    <otherPct>0.65</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-314.19</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.5000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-113.79</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-26.6000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-55.40</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edga/&#xD;
+&#xD;
+Information reflecting the EDGA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rOtherStocks>
+        <rOptions>
+            <ndoPct>6.78</ndoPct>
+            <ndoMarketPct>0.00</ndoMarketPct>
+            <ndoMarketableLimitPct>2.39</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>93.84</ndoNonmarketableLimitPct>
+            <ndoOtherPct>3.75</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>NYSE Arca, Inc .</name>
+                    <mic>ARCO</mic>
+                    <orderPct>49.54</orderPct>
+                    <marketPct>16.23</marketPct>
+                    <marketableLimitPct>3.64</marketableLimitPct>
+                    <nonMarketableLimitPct>52.53</nonMarketableLimitPct>
+                    <otherPct>4.05</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf&#xD;
+&#xD;
+Information reflecting the ARCO’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE C2 Options Exchange, Inc.</name>
+                    <mic>C2OX</mic>
+                    <orderPct>14.45</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.96</marketableLimitPct>
+                    <nonMarketableLimitPct>15.37</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+C2OX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.cboe.com/us/options/membership/fee_schedule/ctwo/&#xD;
+&#xD;
+Information reflecting the C2OX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX PEARL LLC</name>
+                    <mic>MPRL</mic>
+                    <orderPct>13.27</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.12</marketableLimitPct>
+                    <nonMarketableLimitPct>14.09</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+MPRL has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.miaxglobal.com/markets/us-options/pearl-options/fees&#xD;
+&#xD;
+Information reflecting the MPRL's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MXOP</mic>
+                    <orderPct>13.08</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>11.69</marketableLimitPct>
+                    <nonMarketableLimitPct>13.63</nonMarketableLimitPct>
+                    <otherPct>0.19</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GS&amp;Co. has a minority, non-controlling ownership interest in MXOP.  We also participate in a MXOP program whereby the affiliate can earn warrants, which provide the right, but not the obligation, to purchase additional equity in MXOP contingent upon GS&amp;Co. achieving certain monthly executed contract thresholds through the end of April 2026. 
+MXOP has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/&#xD;
+&#xD;
+Information reflecting the MXOP's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE Options Exchange</name>
+                    <mic>XCBO</mic>
+                    <orderPct>3.21</orderPct>
+                    <marketPct>11.64</marketPct>
+                    <marketableLimitPct>28.98</marketableLimitPct>
+                    <nonMarketableLimitPct>0.77</nonMarketableLimitPct>
+                    <otherPct>47.46</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+Pursuant to an exchange-sponsored marketing fee program, registered market-makers may receive payments from the exchange as a result of their designation as a "preferenced" market-maker by an exchange member. With respect to such exchange program, the Firm may receive payments from "preferenced" registered market makers for options orders the Firm sends to the exchange.  &#xD;
+&#xD;
+XCBO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/options/membership/fee_schedule/xcbo/&#xD;
+&#xD;
+Information reflecting the XCBO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Options Exchange</name>
+                    <mic>BATO</mic>
+                    <orderPct>2.98</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>5.28</marketableLimitPct>
+                    <nonMarketableLimitPct>3.04</nonMarketableLimitPct>
+                    <otherPct>0.06</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.cboe.com/us/options/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>BOX Options Exchange</name>
+                    <mic>XBOX</mic>
+                    <orderPct>0.67</orderPct>
+                    <marketPct>11.93</marketPct>
+                    <marketableLimitPct>4.86</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>14.63</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+XBOX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://boxoptions.com/regulatory/fee-schedule/&#xD;
+&#xD;
+Information reflecting the XBOX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Nasdaq ISE, LLC.</name>
+                    <mic>XISX</mic>
+                    <orderPct>0.46</orderPct>
+                    <marketPct>13.78</marketPct>
+                    <marketableLimitPct>2.88</marketableLimitPct>
+                    <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+                    <otherPct>9.96</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+XISX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207&#xD;
+&#xD;
+Information reflecting the XISX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGO Exchange</name>
+                    <mic>EDGO</mic>
+                    <orderPct>0.44</orderPct>
+                    <marketPct>8.87</marketPct>
+                    <marketableLimitPct>1.10</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>10.77</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+Pursuant to an exchange-sponsored marketing fee program, registered market-makers may receive payments from the exchange as a result of their designation as a "preferenced" market-maker by an exchange member. With respect to such exchange program, the Firm may receive payments from "preferenced" registered market makers for options orders the Firm sends to the exchange.  &#xD;
+&#xD;
+EDGO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/options/membership/fee_schedule/edgo/&#xD;
+&#xD;
+Information reflecting the EDGO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ BX Options</name>
+                    <mic>XBXO</mic>
+                    <orderPct>0.35</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>5.15</marketableLimitPct>
+                    <nonMarketableLimitPct>0.24</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+NBXO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/bx/rules/bx-options-7&#xD;
+&#xD;
+Information reflecting the NBXO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202507.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rOptions>
+    </rMonthly>
+    <rMonthly>
+        <year>2025</year>
+        <mon>8</mon>
+        <rSP500>
+            <ndoPct>0.05</ndoPct>
+            <ndoMarketPct>1.58</ndoMarketPct>
+            <ndoMarketableLimitPct>11.24</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>80.91</ndoNonmarketableLimitPct>
+            <ndoOtherPct>6.25</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>New York Stock Exchange LLC.</name>
+                    <mic>XNYS</mic>
+                    <orderPct>50.89</orderPct>
+                    <marketPct>64.67</marketPct>
+                    <marketableLimitPct>9.92</marketableLimitPct>
+                    <nonMarketableLimitPct>59.33</nonMarketableLimitPct>
+                    <otherPct>11.89</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-8.49</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-3.6200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-430.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-28.9300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>519.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>11.1400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>34.81</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>5.2900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Supplemental Liquidity Market Maker in equities on the NYSE. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange.  &#xD;
+&#xD;
+NYSE has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the NYSE’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>The Nasdaq Stock Market LLC.</name>
+                    <mic>XNAS</mic>
+                    <orderPct>30.03</orderPct>
+                    <marketPct>35.32</marketPct>
+                    <marketableLimitPct>35.09</marketableLimitPct>
+                    <nonMarketableLimitPct>28.08</nonMarketableLimitPct>
+                    <otherPct>44.83</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-5.62</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-4.4700</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1224.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-26.6800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>2341.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>28.7200</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-90.62</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-20.9100</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Market Maker on XNAS in equities. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange. &#xD;
+&#xD;
+XNAS has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website: &#xD;
+https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7#section_10_membership_fees&#xD;
+&#xD;
+Information reflecting XNAS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ OMX PSX</name>
+                    <mic>XPSX</mic>
+                    <orderPct>10.10</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.32</marketableLimitPct>
+                    <nonMarketableLimitPct>12.29</nonMarketableLimitPct>
+                    <otherPct>0.17</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-57.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-2.66</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+PSX has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-equity-7&#xD;
+&#xD;
+Information reflecting PSX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Exchange</name>
+                    <mic>BATS</mic>
+                    <orderPct>4.85</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>25.95</marketableLimitPct>
+                    <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+                    <otherPct>29.63</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-730.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-10.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-90.35</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NYSE Arca, Inc.</name>
+                    <mic>ARCX</mic>
+                    <orderPct>1.50</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>9.62</marketableLimitPct>
+                    <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+                    <otherPct>6.20</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-503.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-8.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-27.99</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCA has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf &#xD;
+&#xD;
+Information reflecting ARCA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGX Exchange</name>
+                    <mic>EDGX</mic>
+                    <orderPct>0.70</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>4.29</marketableLimitPct>
+                    <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+                    <otherPct>2.99</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-334.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-6.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-21.94</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/&#xD;
+&#xD;
+Information reflecting the EDGX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Investors Exchange LLC.</name>
+                    <mic>IEXG</mic>
+                    <orderPct>0.42</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>3.29</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>0.56</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-238.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-18.4600</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-10.0600</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-3.54</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-12.5600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.iexexchange.io/resources/trading/fee-schedule#transaction-fees&#xD;
+&#xD;
+Information reflecting IEXG's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MEMX</mic>
+                    <orderPct>0.40</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.77</marketableLimitPct>
+                    <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+                    <otherPct>1.12</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-235.19</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-7.61</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GSCO has a minority, non-controlling ownership interest in MEMX. MEMX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/&#xD;
+&#xD;
+Information refecting MEMX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BYX Exchange</name>
+                    <mic>BATY</mic>
+                    <orderPct>0.26</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.01</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>0.52</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>4.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>1.2700</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>1.9700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.12</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>1.2100</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATY has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/byx/&#xD;
+&#xD;
+Information reflecting the BATY’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGA Exchange</name>
+                    <mic>EDGA</mic>
+                    <orderPct>0.21</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.36</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>0.77</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-87.23</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-5.03</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edga/&#xD;
+&#xD;
+Information reflecting the EDGA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rSP500>
+        <rOtherStocks>
+            <ndoPct>0.02</ndoPct>
+            <ndoMarketPct>2.20</ndoMarketPct>
+            <ndoMarketableLimitPct>19.60</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>71.38</ndoNonmarketableLimitPct>
+            <ndoOtherPct>6.80</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>NYSE Arca, Inc.</name>
+                    <mic>ARCX</mic>
+                    <orderPct>35.40</orderPct>
+                    <marketPct>27.87</marketPct>
+                    <marketableLimitPct>8.12</marketableLimitPct>
+                    <nonMarketableLimitPct>44.82</nonMarketableLimitPct>
+                    <otherPct>17.71</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-378.72</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-14.9900</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1867.33</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-28.8400</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-0.9600</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-253.43</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-21.3100</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCA has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf &#xD;
+&#xD;
+Information reflecting ARCA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>The Nasdaq Stock Market LLC.</name>
+                    <mic>XNAS</mic>
+                    <orderPct>22.00</orderPct>
+                    <marketPct>41.06</marketPct>
+                    <marketableLimitPct>23.71</marketableLimitPct>
+                    <nonMarketableLimitPct>21.04</nonMarketableLimitPct>
+                    <otherPct>20.95</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-32.49</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-4.8600</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-3790.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-26.4800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>7001.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>26.3700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-236.01</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-14.9000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Market Maker on XNAS in equities. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange. &#xD;
+&#xD;
+XNAS has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website: &#xD;
+https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7#section_10_membership_fees&#xD;
+&#xD;
+Information reflecting XNAS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>New York Stock Exchange LLC.</name>
+                    <mic>XNYS</mic>
+                    <orderPct>19.06</orderPct>
+                    <marketPct>28.14</marketPct>
+                    <marketableLimitPct>4.16</marketableLimitPct>
+                    <nonMarketableLimitPct>24.27</nonMarketableLimitPct>
+                    <otherPct>4.31</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-18.62</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-3.6200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1349.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-27.2900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>1589.66</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>11.3400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-100.99</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-20.1900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Supplemental Liquidity Market Maker in equities on the NYSE. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange.  &#xD;
+&#xD;
+NYSE has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the NYSE’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Exchange</name>
+                    <mic>BATS</mic>
+                    <orderPct>13.26</orderPct>
+                    <marketPct>1.59</marketPct>
+                    <marketableLimitPct>46.27</marketableLimitPct>
+                    <nonMarketableLimitPct>1.27</nonMarketableLimitPct>
+                    <otherPct>47.81</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-16.79</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-13.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-5042.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-28.4400</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-107.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-20.9600</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-898.44</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.5400</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ OMX PSX</name>
+                    <mic>XPSX</mic>
+                    <orderPct>5.84</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.78</marketableLimitPct>
+                    <nonMarketableLimitPct>7.94</nonMarketableLimitPct>
+                    <otherPct>0.28</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-151.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-11.61</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-14.01</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+PSX has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-equity-7&#xD;
+&#xD;
+Information reflecting PSX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGX Exchange</name>
+                    <mic>EDGX</mic>
+                    <orderPct>1.24</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>5.24</marketableLimitPct>
+                    <nonMarketableLimitPct>0.05</nonMarketableLimitPct>
+                    <otherPct>2.60</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1232.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.7800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-29.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-92.36</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/&#xD;
+&#xD;
+Information reflecting the EDGX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MEMX</mic>
+                    <orderPct>0.83</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>3.36</marketableLimitPct>
+                    <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+                    <otherPct>2.14</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-755.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.5000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-20.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-78.15</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GSCO has a minority, non-controlling ownership interest in MEMX. MEMX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/&#xD;
+&#xD;
+Information refecting MEMX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Investors Exchange LLC.</name>
+                    <mic>IEXG</mic>
+                    <orderPct>0.51</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.02</marketableLimitPct>
+                    <nonMarketableLimitPct>0.05</nonMarketableLimitPct>
+                    <otherPct>1.23</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-337.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-15.6100</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-12.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-10.6800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-36.42</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-16.9200</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.iexexchange.io/resources/trading/fee-schedule#transaction-fees&#xD;
+&#xD;
+Information reflecting IEXG's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGA Exchange</name>
+                    <mic>EDGA</mic>
+                    <orderPct>0.38</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.53</marketableLimitPct>
+                    <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+                    <otherPct>0.77</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-372.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.1000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-19.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-59.07</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edga/&#xD;
+&#xD;
+Information reflecting the EDGA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX PEARL EQUITIES</name>
+                    <mic>EPRL</mic>
+                    <orderPct>0.32</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.40</marketableLimitPct>
+                    <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+                    <otherPct>0.67</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-358.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.2400</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.5000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-44.76</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.5000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EPRL has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.miaxglobal.com/markets/us-equities/pearl-equities/fees&#xD;
+&#xD;
+Information reflecting EPRL's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rOtherStocks>
+        <rOptions>
+            <ndoPct>7.27</ndoPct>
+            <ndoMarketPct>0.00</ndoMarketPct>
+            <ndoMarketableLimitPct>2.78</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>94.11</ndoNonmarketableLimitPct>
+            <ndoOtherPct>3.10</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>NYSE Arca, Inc .</name>
+                    <mic>ARCO</mic>
+                    <orderPct>48.28</orderPct>
+                    <marketPct>18.20</marketPct>
+                    <marketableLimitPct>2.55</marketableLimitPct>
+                    <nonMarketableLimitPct>51.06</nonMarketableLimitPct>
+                    <otherPct>5.08</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-5582.80</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-30.5500</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-39916.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-31.5700</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>267209.53</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>40.1500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-72858.95</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.8800</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf&#xD;
+&#xD;
+Information reflecting the ARCO’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MXOP</mic>
+                    <orderPct>18.59</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>10.18</marketableLimitPct>
+                    <nonMarketableLimitPct>19.44</nonMarketableLimitPct>
+                    <otherPct>0.34</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-76363.77</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-33.2000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>84117.28</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>43.6300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>984.44</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>19.9100</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GS&amp;Co. has a minority, non-controlling ownership interest in MXOP.  We also participate in a MXOP program whereby the affiliate can earn warrants, which provide the right, but not the obligation, to purchase additional equity in MXOP contingent upon GS&amp;Co. achieving certain monthly executed contract thresholds through the end of April 2026. 
+MXOP has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/&#xD;
+&#xD;
+Information reflecting the MXOP's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE C2 Options Exchange, Inc.</name>
+                    <mic>C2OX</mic>
+                    <orderPct>13.76</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.88</marketableLimitPct>
+                    <nonMarketableLimitPct>14.60</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-73787.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-46.9300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>104332.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>30.8700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>75.25</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>8.4600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+C2OX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.cboe.com/us/options/membership/fee_schedule/ctwo/&#xD;
+&#xD;
+Information reflecting the C2OX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX PEARL LLC</name>
+                    <mic>MPRL</mic>
+                    <orderPct>12.42</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.63</marketableLimitPct>
+                    <nonMarketableLimitPct>13.15</nonMarketableLimitPct>
+                    <otherPct>0.01</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-43757.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-48.6500</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>23497.58</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>11.9300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-20.39</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-1.7500</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+MPRL has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.miaxglobal.com/markets/us-options/pearl-options/fees&#xD;
+&#xD;
+Information reflecting the MPRL's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE Options Exchange</name>
+                    <mic>XCBO</mic>
+                    <orderPct>3.43</orderPct>
+                    <marketPct>19.61</marketPct>
+                    <marketableLimitPct>40.27</marketableLimitPct>
+                    <nonMarketableLimitPct>1.09</nonMarketableLimitPct>
+                    <otherPct>41.14</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>27.01</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.2200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-74566.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-34.4600</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-16334.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-15.6500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-24545.16</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-23.2600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+Pursuant to an exchange-sponsored marketing fee program, registered market-makers may receive payments from the exchange as a result of their designation as a "preferenced" market-maker by an exchange member. With respect to such exchange program, the Firm may receive payments from "preferenced" registered market makers for options orders the Firm sends to the exchange.  &#xD;
+&#xD;
+XCBO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/options/membership/fee_schedule/xcbo/&#xD;
+&#xD;
+Information reflecting the XCBO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>BOX Options Exchange</name>
+                    <mic>XBOX</mic>
+                    <orderPct>0.75</orderPct>
+                    <marketPct>11.28</marketPct>
+                    <marketableLimitPct>3.74</marketableLimitPct>
+                    <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+                    <otherPct>20.23</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>1695.39</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>43.3200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-2805.05</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-2.2100</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>267.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.9400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>33804.33</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>45.3600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+XBOX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://boxoptions.com/regulatory/fee-schedule/&#xD;
+&#xD;
+Information reflecting the XBOX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Nasdaq ISE, LLC.</name>
+                    <mic>XISX</mic>
+                    <orderPct>0.49</orderPct>
+                    <marketPct>13.28</marketPct>
+                    <marketableLimitPct>2.35</marketableLimitPct>
+                    <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+                    <otherPct>13.21</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>495.84</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>6.0100</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-41125.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-42.6300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>7029.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>15.7700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>7307.75</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>9.8800</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+XISX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207&#xD;
+&#xD;
+Information reflecting the XISX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX SAPPHIRE, LLC.</name>
+                    <mic>SPHR</mic>
+                    <orderPct>0.31</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>10.07</marketableLimitPct>
+                    <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+                    <otherPct>0.06</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>52864.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>39.5700</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>9429.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>30.0100</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>2666.70</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>50.9700</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+SPHR has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.miaxglobal.com/markets/us-options/sapphire-options/fees&#xD;
+&#xD;
+Information refecting SPHR’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Options Exchange</name>
+                    <mic>BATO</mic>
+                    <orderPct>0.31</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>5.50</marketableLimitPct>
+                    <nonMarketableLimitPct>0.17</nonMarketableLimitPct>
+                    <otherPct>0.05</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-44566.69</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-44.6800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>14905.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>16.0300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>680.35</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>27.3300</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.cboe.com/us/options/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGO Exchange</name>
+                    <mic>EDGO</mic>
+                    <orderPct>0.30</orderPct>
+                    <marketPct>6.48</marketPct>
+                    <marketableLimitPct>1.28</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>8.10</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>953.94</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>42.6200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-5281.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-7.2300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>1728.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>8.5000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>9024.56</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>37.3900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+Pursuant to an exchange-sponsored marketing fee program, registered market-makers may receive payments from the exchange as a result of their designation as a "preferenced" market-maker by an exchange member. With respect to such exchange program, the Firm may receive payments from "preferenced" registered market makers for options orders the Firm sends to the exchange.  &#xD;
+&#xD;
+EDGO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/options/membership/fee_schedule/edgo/&#xD;
+&#xD;
+Information reflecting the EDGO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202508.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rOptions>
+    </rMonthly>
+    <rMonthly>
+        <year>2025</year>
+        <mon>9</mon>
+        <rSP500>
+            <ndoPct>0.04</ndoPct>
+            <ndoMarketPct>1.52</ndoMarketPct>
+            <ndoMarketableLimitPct>11.40</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>82.61</ndoNonmarketableLimitPct>
+            <ndoOtherPct>4.46</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>New York Stock Exchange LLC.</name>
+                    <mic>XNYS</mic>
+                    <orderPct>51.42</orderPct>
+                    <marketPct>55.16</marketPct>
+                    <marketableLimitPct>9.76</marketableLimitPct>
+                    <nonMarketableLimitPct>59.30</nonMarketableLimitPct>
+                    <otherPct>10.88</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-4.89</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-2.3500</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-322.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-27.3700</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>483.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>8.2400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-27.93</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-5.8800</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Supplemental Liquidity Market Maker in equities on the NYSE. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange.  &#xD;
+&#xD;
+NYSE has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the NYSE’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>The Nasdaq Stock Market LLC.</name>
+                    <mic>XNAS</mic>
+                    <orderPct>30.15</orderPct>
+                    <marketPct>44.83</marketPct>
+                    <marketableLimitPct>38.97</marketableLimitPct>
+                    <nonMarketableLimitPct>28.13</nonMarketableLimitPct>
+                    <otherPct>39.95</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-14.05</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-3.0900</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-771.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-17.3200</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>5275.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>29.9800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-164.01</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-26.1500</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Market Maker on XNAS in equities. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange. &#xD;
+&#xD;
+XNAS has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website: &#xD;
+https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7#section_10_membership_fees&#xD;
+&#xD;
+Information reflecting XNAS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ OMX PSX</name>
+                    <mic>XPSX</mic>
+                    <orderPct>10.16</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.21</marketableLimitPct>
+                    <nonMarketableLimitPct>12.12</nonMarketableLimitPct>
+                    <otherPct>0.09</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-45.71</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-8.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-0.39</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+PSX has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-equity-7&#xD;
+&#xD;
+Information reflecting PSX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Exchange</name>
+                    <mic>BATS</mic>
+                    <orderPct>4.48</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>25.77</marketableLimitPct>
+                    <nonMarketableLimitPct>0.13</nonMarketableLimitPct>
+                    <otherPct>32.16</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-523.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-75.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-103.77</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NYSE Arca, Inc.</name>
+                    <mic>ARCX</mic>
+                    <orderPct>1.39</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>8.47</marketableLimitPct>
+                    <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+                    <otherPct>8.32</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-294.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-85.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-38.16</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCA has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf &#xD;
+&#xD;
+Information reflecting ARCA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGX Exchange</name>
+                    <mic>EDGX</mic>
+                    <orderPct>0.65</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>4.32</marketableLimitPct>
+                    <nonMarketableLimitPct>0.05</nonMarketableLimitPct>
+                    <otherPct>2.65</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-251.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-41.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-29.96</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/&#xD;
+&#xD;
+Information reflecting the EDGX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MEMX</mic>
+                    <orderPct>0.42</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.74</marketableLimitPct>
+                    <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+                    <otherPct>1.74</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-161.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-42.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-13.67</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GSCO has a minority, non-controlling ownership interest in MEMX. MEMX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/&#xD;
+&#xD;
+Information refecting MEMX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Investors Exchange LLC.</name>
+                    <mic>IEXG</mic>
+                    <orderPct>0.39</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.79</marketableLimitPct>
+                    <nonMarketableLimitPct>0.05</nonMarketableLimitPct>
+                    <otherPct>0.79</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-83.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-14.1800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-14.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-11.7000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-19.47</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-18.4900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.iexexchange.io/resources/trading/fee-schedule#transaction-fees&#xD;
+&#xD;
+Information reflecting IEXG's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BYX Exchange</name>
+                    <mic>BATY</mic>
+                    <orderPct>0.20</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.46</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>0.55</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>5.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>1.9000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>1.8200</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.14</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>2.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATY has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/byx/&#xD;
+&#xD;
+Information reflecting the BATY’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGA Exchange</name>
+                    <mic>EDGA</mic>
+                    <orderPct>0.19</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.11</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>1.12</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-80.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-14.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-1.96</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edga/&#xD;
+&#xD;
+Information reflecting the EDGA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rSP500>
+        <rOtherStocks>
+            <ndoPct>0.02</ndoPct>
+            <ndoMarketPct>3.69</ndoMarketPct>
+            <ndoMarketableLimitPct>20.41</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>71.26</ndoNonmarketableLimitPct>
+            <ndoOtherPct>4.63</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>NYSE Arca, Inc.</name>
+                    <mic>ARCX</mic>
+                    <orderPct>31.90</orderPct>
+                    <marketPct>14.73</marketPct>
+                    <marketableLimitPct>8.14</marketableLimitPct>
+                    <nonMarketableLimitPct>40.70</nonMarketableLimitPct>
+                    <otherPct>15.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-470.69</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-15.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-2244.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-27.0700</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>54.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>3.1900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-143.68</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-17.0900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCA has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Marketplace_Fees.pdf &#xD;
+&#xD;
+Information reflecting ARCA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>New York Stock Exchange LLC.</name>
+                    <mic>XNYS</mic>
+                    <orderPct>22.84</orderPct>
+                    <marketPct>36.56</marketPct>
+                    <marketableLimitPct>5.45</marketableLimitPct>
+                    <nonMarketableLimitPct>28.02</nonMarketableLimitPct>
+                    <otherPct>8.83</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-25.71</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-2.3500</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1638.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-23.0600</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>1701.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>10.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-51.39</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-5.6300</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Supplemental Liquidity Market Maker in equities on the NYSE. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange.  &#xD;
+&#xD;
+NYSE has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Price_List.pdf&#xD;
+&#xD;
+Information reflecting the NYSE’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>The Nasdaq Stock Market LLC.</name>
+                    <mic>XNAS</mic>
+                    <orderPct>22.41</orderPct>
+                    <marketPct>47.68</marketPct>
+                    <marketableLimitPct>24.57</marketableLimitPct>
+                    <nonMarketableLimitPct>19.91</nonMarketableLimitPct>
+                    <otherPct>31.26</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-79.92</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-5.2600</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-4952.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-23.3600</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>14426.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>28.9000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-450.60</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-17.4800</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+The Firm is a Market Maker on XNAS in equities. Accordingly, the Firm may share directly in any profits generated from the execution of client orders by the Firm on the exchange, including those that are routed to the exchange. &#xD;
+&#xD;
+XNAS has a tiered pricing/payment schedule.  For detailed information, please see the exchange’s public website: &#xD;
+https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-equity-7#section_10_membership_fees&#xD;
+&#xD;
+Information reflecting XNAS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Exchange</name>
+                    <mic>BATS</mic>
+                    <orderPct>13.15</orderPct>
+                    <marketPct>0.57</marketPct>
+                    <marketableLimitPct>45.55</marketableLimitPct>
+                    <nonMarketableLimitPct>2.90</nonMarketableLimitPct>
+                    <otherPct>38.09</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-8.51</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-13.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-6578.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-890.28</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-19.0900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-571.05</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-28.6700</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATS has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATS’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>NASDAQ OMX PSX</name>
+                    <mic>XPSX</mic>
+                    <orderPct>5.63</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.77</marketableLimitPct>
+                    <nonMarketableLimitPct>7.66</nonMarketableLimitPct>
+                    <otherPct>0.24</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-186.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-35.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-5.66</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-29.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+PSX has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/phlx/rules/phlx-equity-7&#xD;
+&#xD;
+Information reflecting PSX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGX Exchange</name>
+                    <mic>EDGX</mic>
+                    <orderPct>1.03</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>4.41</marketableLimitPct>
+                    <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+                    <otherPct>1.71</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-1390.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-142.58</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-61.05</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edgx/&#xD;
+&#xD;
+Information reflecting the EDGX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MEMX</mic>
+                    <orderPct>0.65</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.70</marketableLimitPct>
+                    <nonMarketableLimitPct>0.06</nonMarketableLimitPct>
+                    <otherPct>1.24</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-940.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-97.93</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-35.97</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-26.2900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GSCO has a minority, non-controlling ownership interest in MEMX. MEMX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/&#xD;
+&#xD;
+Information refecting MEMX’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Investors Exchange LLC.</name>
+                    <mic>IEXG</mic>
+                    <orderPct>0.58</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>2.32</marketableLimitPct>
+                    <nonMarketableLimitPct>0.08</nonMarketableLimitPct>
+                    <otherPct>1.05</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-478.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-15.8100</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-76.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-13.2000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-16.10</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-14.0100</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+IEXG has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.iexexchange.io/resources/trading/fee-schedule#transaction-fees&#xD;
+&#xD;
+Information reflecting IEXG's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGA Exchange</name>
+                    <mic>EDGA</mic>
+                    <orderPct>0.34</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.33</marketableLimitPct>
+                    <nonMarketableLimitPct>0.05</nonMarketableLimitPct>
+                    <otherPct>0.74</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-466.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-58.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.9900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-26.41</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EDGA has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/equities/membership/fee_schedule/edga/&#xD;
+&#xD;
+Information reflecting the EDGA’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX PEARL EQUITIES</name>
+                    <mic>EPRL</mic>
+                    <orderPct>0.30</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.24</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>0.90</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-576.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-29.4900</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-16.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-29.5000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-23.24</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-28.9900</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+EPRL has a tiered pricing/payment schedule. For detailed information, please see the exchanges public website:&#xD;
+https://www.miaxglobal.com/markets/us-equities/pearl-equities/fees&#xD;
+&#xD;
+Information reflecting EPRL's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_equities_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rOtherStocks>
+        <rOptions>
+            <ndoPct>6.82</ndoPct>
+            <ndoMarketPct>0.00</ndoMarketPct>
+            <ndoMarketableLimitPct>3.88</ndoMarketableLimitPct>
+            <ndoNonmarketableLimitPct>94.71</ndoNonmarketableLimitPct>
+            <ndoOtherPct>1.40</ndoOtherPct>
+            <rVenues>
+                <rVenue>
+                    <name>NYSE Arca, Inc .</name>
+                    <mic>ARCO</mic>
+                    <orderPct>48.70</orderPct>
+                    <marketPct>12.60</marketPct>
+                    <marketableLimitPct>1.94</marketableLimitPct>
+                    <nonMarketableLimitPct>51.21</nonMarketableLimitPct>
+                    <otherPct>9.08</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-5216.82</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-33.3800</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-31679.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-28.6200</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>223508.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>38.5900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-53755.57</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-20.8000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+ARCO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf&#xD;
+&#xD;
+Information reflecting the ARCO’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Members Exchange</name>
+                    <mic>MXOP</mic>
+                    <orderPct>22.56</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>6.35</marketableLimitPct>
+                    <nonMarketableLimitPct>23.55</nonMarketableLimitPct>
+                    <otherPct>0.93</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-71890.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-32.5400</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>110908.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>47.0800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>1332.97</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>24.5600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+An investment entity affiliate of GS&amp;Co. has a minority, non-controlling ownership interest in MXOP.  We also participate in a MXOP program whereby the affiliate can earn warrants, which provide the right, but not the obligation, to purchase additional equity in MXOP contingent upon GS&amp;Co. achieving certain monthly executed contract thresholds through the end of April 2026. 
+MXOP has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/&#xD;
+&#xD;
+Information reflecting the MXOP's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE C2 Options Exchange, Inc.</name>
+                    <mic>C2OX</mic>
+                    <orderPct>11.26</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.78</marketableLimitPct>
+                    <nonMarketableLimitPct>11.85</nonMarketableLimitPct>
+                    <otherPct>0.03</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-59805.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-46.0300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>70688.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>27.9200</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-677.11</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-25.1300</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+C2OX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.cboe.com/us/options/membership/fee_schedule/ctwo/&#xD;
+&#xD;
+Information reflecting the C2OX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX PEARL LLC</name>
+                    <mic>MPRL</mic>
+                    <orderPct>10.33</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>1.25</marketableLimitPct>
+                    <nonMarketableLimitPct>10.86</nonMarketableLimitPct>
+                    <otherPct>0.03</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-46046.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-47.9300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>11160.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>7.1300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-275.89</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-18.1200</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+MPRL has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.miaxglobal.com/markets/us-options/pearl-options/fees&#xD;
+&#xD;
+Information reflecting the MPRL's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE Options Exchange</name>
+                    <mic>XCBO</mic>
+                    <orderPct>4.17</orderPct>
+                    <marketPct>25.21</marketPct>
+                    <marketableLimitPct>56.23</marketableLimitPct>
+                    <nonMarketableLimitPct>1.59</nonMarketableLimitPct>
+                    <otherPct>34.16</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>-461.07</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>-19.7200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-113456.01</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-38.4500</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-16063.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-15.4600</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-19893.49</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-19.7200</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+Pursuant to an exchange-sponsored marketing fee program, registered market-makers may receive payments from the exchange as a result of their designation as a "preferenced" market-maker by an exchange member. With respect to such exchange program, the Firm may receive payments from "preferenced" registered market makers for options orders the Firm sends to the exchange.  &#xD;
+&#xD;
+XCBO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/options/membership/fee_schedule/xcbo/&#xD;
+&#xD;
+Information reflecting the XCBO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE BZX Options Exchange</name>
+                    <mic>BATO</mic>
+                    <orderPct>0.74</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>3.99</marketableLimitPct>
+                    <nonMarketableLimitPct>0.61</nonMarketableLimitPct>
+                    <otherPct>0.11</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-39041.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-44.2800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>5397.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>5.9800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>-75.54</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>-3.6300</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+BATO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.cboe.com/us/options/membership/fee_schedule/bzx/&#xD;
+&#xD;
+Information reflecting the BATO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>BOX Options Exchange</name>
+                    <mic>XBOX</mic>
+                    <orderPct>0.38</orderPct>
+                    <marketPct>11.22</marketPct>
+                    <marketableLimitPct>2.93</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>18.07</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>1672.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>53.1100</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-3545.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-2.5500</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1181.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.6500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>36224.46</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>48.5800</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+XBOX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://boxoptions.com/regulatory/fee-schedule/&#xD;
+&#xD;
+Information reflecting the XBOX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>MIAX SAPPHIRE, LLC.</name>
+                    <mic>SPHR</mic>
+                    <orderPct>0.31</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>7.11</marketableLimitPct>
+                    <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+                    <otherPct>0.21</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>66121.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>41.6800</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>8474.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>21.6800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>3228.57</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>58.6600</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+SPHR has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://www.miaxglobal.com/markets/us-options/sapphire-options/fees&#xD;
+&#xD;
+Information refecting SPHR’s tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>Nasdaq ISE, LLC.</name>
+                    <mic>XISX</mic>
+                    <orderPct>0.24</orderPct>
+                    <marketPct>11.60</marketPct>
+                    <marketableLimitPct>2.09</marketableLimitPct>
+                    <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+                    <otherPct>10.25</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>163.90</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>5.4500</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-47303.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-43.7200</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>3023.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>6.1400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>567.26</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.5700</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+XISX has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207&#xD;
+&#xD;
+Information reflecting the XISX's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+                <rVenue>
+                    <name>CBOE EDGO Exchange</name>
+                    <mic>EDGO</mic>
+                    <orderPct>0.21</orderPct>
+                    <marketPct>7.11</marketPct>
+                    <marketableLimitPct>1.15</marketableLimitPct>
+                    <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+                    <otherPct>11.56</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>243.50</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>39.0200</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>-5029.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>-5.6300</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>2355.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>10.3200</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>9297.68</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>39.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>&#xD;
+Pursuant to an exchange-sponsored marketing fee program, registered market-makers may receive payments from the exchange as a result of their designation as a "preferenced" market-maker by an exchange member. With respect to such exchange program, the Firm may receive payments from "preferenced" registered market makers for options orders the Firm sends to the exchange.  &#xD;
+&#xD;
+EDGO has a tiered pricing/payment schedule. For detailed information, please see the exchange’s public website:&#xD;
+https://markets.cboe.com/us/options/membership/fee_schedule/edgo/&#xD;
+&#xD;
+Information reflecting the EDGO's tiered pricing/payment schedule, as applicable to GSCO, can be found at : https://www.goldmansachs.com/compliance-rule606/docs/us_options_rate_card_202509.xlsx</materialAspects>
+                </rVenue>
+            </rVenues>
+        </rOptions>
+    </rMonthly>
+</heldOrderRoutingPublicReport>

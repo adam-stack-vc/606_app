@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20190331.xsd">
+  <version>1.2</version>
+  <bd>PACT_606_ALL</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-28T13:18:56Z</timestamp>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>9</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>69.81</ndoMarketPct>
+        <ndoMarketableLimitPct>3.26</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>25.56</ndoNonmarketableLimitPct>
+        <ndoOtherPct>1.37</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>29.67</orderPct>
+              <marketPct>29.73</marketPct>
+              <marketableLimitPct>42.11</marketableLimitPct>
+              <nonMarketableLimitPct>29.53</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>14.41</orderPct>
+              <marketPct>14.25</marketPct>
+              <marketableLimitPct>5.26</marketableLimitPct>
+              <nonMarketableLimitPct>16.11</nonMarketableLimitPct>
+              <otherPct>12.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>13.72</orderPct>
+              <marketPct>14.25</marketPct>
+              <marketableLimitPct>5.26</marketableLimitPct>
+              <nonMarketableLimitPct>13.42</nonMarketableLimitPct>
+              <otherPct>12.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>12.86</orderPct>
+              <marketPct>12.04</marketPct>
+              <marketableLimitPct>10.53</marketableLimitPct>
+              <nonMarketableLimitPct>14.77</nonMarketableLimitPct>
+              <otherPct>25.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>9.09</orderPct>
+              <marketPct>9.83</marketPct>
+              <marketableLimitPct>26.32</marketableLimitPct>
+              <nonMarketableLimitPct>5.37</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>7.03</orderPct>
+              <marketPct>6.88</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>6.71</nonMarketableLimitPct>
+              <otherPct>37.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.86</orderPct>
+              <marketPct>6.63</marketPct>
+              <marketableLimitPct>5.26</marketableLimitPct>
+              <nonMarketableLimitPct>7.38</nonMarketableLimitPct>
+              <otherPct>12.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>6.35</orderPct>
+              <marketPct>6.39</marketPct>
+              <marketableLimitPct>5.26</marketableLimitPct>
+              <nonMarketableLimitPct>6.71</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>50.58</ndoMarketPct>
+        <ndoMarketableLimitPct>10.65</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>36.14</ndoNonmarketableLimitPct>
+        <ndoOtherPct>2.63</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>23.49</orderPct>
+              <marketPct>22.72</marketPct>
+              <marketableLimitPct>24.10</marketableLimitPct>
+              <nonMarketableLimitPct>24.51</nonMarketableLimitPct>
+              <otherPct>21.95</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>20.86</orderPct>
+              <marketPct>18.15</marketPct>
+              <marketableLimitPct>21.69</marketableLimitPct>
+              <nonMarketableLimitPct>23.62</nonMarketableLimitPct>
+              <otherPct>31.71</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>20.47</orderPct>
+              <marketPct>20.05</marketPct>
+              <marketableLimitPct>24.10</marketableLimitPct>
+              <nonMarketableLimitPct>20.78</nonMarketableLimitPct>
+              <otherPct>9.76</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>12.52</orderPct>
+              <marketPct>12.94</marketPct>
+              <marketableLimitPct>9.64</marketableLimitPct>
+              <nonMarketableLimitPct>12.79</nonMarketableLimitPct>
+              <otherPct>12.20</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>8.15</orderPct>
+              <marketPct>11.29</marketPct>
+              <marketableLimitPct>4.22</marketableLimitPct>
+              <nonMarketableLimitPct>4.97</nonMarketableLimitPct>
+              <otherPct>7.32</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.10</orderPct>
+              <marketPct>4.19</marketPct>
+              <marketableLimitPct>9.64</marketableLimitPct>
+              <nonMarketableLimitPct>7.64</nonMarketableLimitPct>
+              <otherPct>7.32</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>3.98</orderPct>
+              <marketPct>5.58</marketPct>
+              <marketableLimitPct>3.61</marketableLimitPct>
+              <nonMarketableLimitPct>2.13</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>3.66</orderPct>
+              <marketPct>3.81</marketPct>
+              <marketableLimitPct>2.41</marketableLimitPct>
+              <nonMarketableLimitPct>3.55</nonMarketableLimitPct>
+              <otherPct>7.32</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.77</orderPct>
+              <marketPct>1.27</marketPct>
+              <marketableLimitPct>0.60</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>2.44</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>3.80</ndoMarketPct>
+        <ndoMarketableLimitPct>3.00</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>17.30</ndoNonmarketableLimitPct>
+        <ndoOtherPct>75.90</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Matrix Executions, LLC (RSKY)</name>
+              <orderPct>72.70</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>95.78</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-126</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>-0.0850</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities LLC (CITL)</name>
+              <orderPct>10.45</orderPct>
+              <marketPct>42.11</marketPct>
+              <marketableLimitPct>31.67</marketableLimitPct>
+              <nonMarketableLimitPct>40.46</nonMarketableLimitPct>
+              <otherPct>1.19</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>7.05</orderPct>
+              <marketPct>19.74</marketPct>
+              <marketableLimitPct>26.67</marketableLimitPct>
+              <nonMarketableLimitPct>30.06</nonMarketableLimitPct>
+              <otherPct>0.40</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>4.85</orderPct>
+              <marketPct>17.11</marketPct>
+              <marketableLimitPct>31.67</marketableLimitPct>
+              <nonMarketableLimitPct>15.32</nonMarketableLimitPct>
+              <otherPct>0.79</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>4.05</orderPct>
+              <marketPct>21.05</marketPct>
+              <marketableLimitPct>10.00</marketableLimitPct>
+              <nonMarketableLimitPct>13.58</nonMarketableLimitPct>
+              <otherPct>0.79</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>0.30</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.40</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Cboe Global Markets, Inc. (CBOE)</name>
+              <orderPct>0.20</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.26</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>-0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>-525.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>International Securities Exchange (ISE)</name>
+              <orderPct>0.20</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.26</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>-0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>-500.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>JNOP (JNOP)</name>
+              <orderPct>0.10</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.58</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>TradeMas Inc (TRDM)</name>
+              <orderPct>0.10</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.13</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-70</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>7</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>66.17</ndoMarketPct>
+        <ndoMarketableLimitPct>4.71</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>23.55</ndoNonmarketableLimitPct>
+        <ndoOtherPct>5.57</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>26.12</orderPct>
+              <marketPct>24.27</marketPct>
+              <marketableLimitPct>27.27</marketableLimitPct>
+              <nonMarketableLimitPct>28.18</nonMarketableLimitPct>
+              <otherPct>38.46</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>17.34</orderPct>
+              <marketPct>17.15</marketPct>
+              <marketableLimitPct>22.73</marketableLimitPct>
+              <nonMarketableLimitPct>18.18</nonMarketableLimitPct>
+              <otherPct>11.54</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>14.78</orderPct>
+              <marketPct>12.94</marketPct>
+              <marketableLimitPct>22.73</marketableLimitPct>
+              <nonMarketableLimitPct>19.09</nonMarketableLimitPct>
+              <otherPct>11.54</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>12.21</orderPct>
+              <marketPct>12.62</marketPct>
+              <marketableLimitPct>4.55</marketableLimitPct>
+              <nonMarketableLimitPct>13.64</nonMarketableLimitPct>
+              <otherPct>7.69</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>10.92</orderPct>
+              <marketPct>12.94</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>7.27</nonMarketableLimitPct>
+              <otherPct>11.54</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>7.07</orderPct>
+              <marketPct>8.09</marketPct>
+              <marketableLimitPct>4.55</marketableLimitPct>
+              <nonMarketableLimitPct>5.45</nonMarketableLimitPct>
+              <otherPct>3.85</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.78</orderPct>
+              <marketPct>6.15</marketPct>
+              <marketableLimitPct>13.64</marketableLimitPct>
+              <nonMarketableLimitPct>4.55</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>5.57</orderPct>
+              <marketPct>5.50</marketPct>
+              <marketableLimitPct>4.55</marketableLimitPct>
+              <nonMarketableLimitPct>3.64</nonMarketableLimitPct>
+              <otherPct>15.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.21</orderPct>
+              <marketPct>0.32</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>44.02</ndoMarketPct>
+        <ndoMarketableLimitPct>13.71</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>36.33</ndoNonmarketableLimitPct>
+        <ndoOtherPct>5.94</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>23.31</orderPct>
+              <marketPct>21.28</marketPct>
+              <marketableLimitPct>18.33</marketableLimitPct>
+              <nonMarketableLimitPct>27.04</nonMarketableLimitPct>
+              <otherPct>26.92</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>19.65</orderPct>
+              <marketPct>16.61</marketPct>
+              <marketableLimitPct>28.33</marketableLimitPct>
+              <nonMarketableLimitPct>19.08</nonMarketableLimitPct>
+              <otherPct>25.64</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>16.68</orderPct>
+              <marketPct>17.65</marketPct>
+              <marketableLimitPct>13.89</marketableLimitPct>
+              <nonMarketableLimitPct>15.51</nonMarketableLimitPct>
+              <otherPct>23.08</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>12.26</orderPct>
+              <marketPct>12.11</marketPct>
+              <marketableLimitPct>12.78</marketableLimitPct>
+              <nonMarketableLimitPct>12.16</nonMarketableLimitPct>
+              <otherPct>12.82</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>10.13</orderPct>
+              <marketPct>13.67</marketPct>
+              <marketableLimitPct>7.22</marketableLimitPct>
+              <nonMarketableLimitPct>8.39</nonMarketableLimitPct>
+              <otherPct>1.28</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>7.62</orderPct>
+              <marketPct>5.54</marketPct>
+              <marketableLimitPct>10.00</marketableLimitPct>
+              <nonMarketableLimitPct>9.85</nonMarketableLimitPct>
+              <otherPct>3.85</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.03</orderPct>
+              <marketPct>6.23</marketPct>
+              <marketableLimitPct>1.67</marketableLimitPct>
+              <nonMarketableLimitPct>5.03</nonMarketableLimitPct>
+              <otherPct>3.85</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>4.34</orderPct>
+              <marketPct>5.88</marketPct>
+              <marketableLimitPct>6.11</marketableLimitPct>
+              <nonMarketableLimitPct>2.10</nonMarketableLimitPct>
+              <otherPct>2.56</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>0.99</orderPct>
+              <marketPct>1.04</marketPct>
+              <marketableLimitPct>1.67</marketableLimitPct>
+              <nonMarketableLimitPct>0.84</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>6.18</ndoMarketPct>
+        <ndoMarketableLimitPct>3.60</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>26.40</ndoNonmarketableLimitPct>
+        <ndoOtherPct>63.82</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Matrix Executions, LLC (RSKY)</name>
+              <orderPct>55.29</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>86.64</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-4531</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>20.00</orderPct>
+              <marketPct>41.67</marketPct>
+              <marketableLimitPct>46.94</marketableLimitPct>
+              <nonMarketableLimitPct>43.18</nonMarketableLimitPct>
+              <otherPct>6.80</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>10.81</orderPct>
+              <marketPct>26.19</marketPct>
+              <marketableLimitPct>24.49</marketableLimitPct>
+              <nonMarketableLimitPct>29.81</nonMarketableLimitPct>
+              <otherPct>0.69</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>7.21</orderPct>
+              <marketPct>17.86</marketPct>
+              <marketableLimitPct>12.24</marketableLimitPct>
+              <nonMarketableLimitPct>19.50</nonMarketableLimitPct>
+              <otherPct>0.81</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>5.22</orderPct>
+              <marketPct>14.29</marketPct>
+              <marketableLimitPct>16.33</marketableLimitPct>
+              <nonMarketableLimitPct>7.52</nonMarketableLimitPct>
+              <otherPct>2.76</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>0.88</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>1.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>TradeMas Inc (TRDM)</name>
+              <orderPct>0.51</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.81</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-200</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>BTG Pactual US Capital LLC (PACT)</name>
+              <orderPct>0.07</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.12</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>8</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>69.96</ndoMarketPct>
+        <ndoMarketableLimitPct>5.97</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>21.08</ndoNonmarketableLimitPct>
+        <ndoOtherPct>2.99</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>27.80</orderPct>
+              <marketPct>25.07</marketPct>
+              <marketableLimitPct>37.50</marketableLimitPct>
+              <nonMarketableLimitPct>32.74</nonMarketableLimitPct>
+              <otherPct>37.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>15.30</orderPct>
+              <marketPct>13.33</marketPct>
+              <marketableLimitPct>15.63</marketableLimitPct>
+              <nonMarketableLimitPct>23.01</nonMarketableLimitPct>
+              <otherPct>6.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>13.25</orderPct>
+              <marketPct>14.93</marketPct>
+              <marketableLimitPct>6.25</marketableLimitPct>
+              <nonMarketableLimitPct>7.08</nonMarketableLimitPct>
+              <otherPct>31.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>12.69</orderPct>
+              <marketPct>14.13</marketPct>
+              <marketableLimitPct>15.63</marketableLimitPct>
+              <nonMarketableLimitPct>8.85</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>11.38</orderPct>
+              <marketPct>13.33</marketPct>
+              <marketableLimitPct>6.25</marketableLimitPct>
+              <nonMarketableLimitPct>7.08</nonMarketableLimitPct>
+              <otherPct>6.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>8.21</orderPct>
+              <marketPct>8.27</marketPct>
+              <marketableLimitPct>6.25</marketableLimitPct>
+              <nonMarketableLimitPct>8.85</nonMarketableLimitPct>
+              <otherPct>6.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>5.60</orderPct>
+              <marketPct>5.07</marketPct>
+              <marketableLimitPct>6.25</marketableLimitPct>
+              <nonMarketableLimitPct>6.19</nonMarketableLimitPct>
+              <otherPct>12.50</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>5.22</orderPct>
+              <marketPct>5.07</marketPct>
+              <marketableLimitPct>6.25</marketableLimitPct>
+              <nonMarketableLimitPct>6.19</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTELLIGENT CROSS LLC (INCR)</name>
+              <orderPct>0.56</orderPct>
+              <marketPct>0.80</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>43.14</ndoMarketPct>
+        <ndoMarketableLimitPct>15.63</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>38.23</ndoNonmarketableLimitPct>
+        <ndoOtherPct>3.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>22.97</orderPct>
+              <marketPct>22.04</marketPct>
+              <marketableLimitPct>20.00</marketableLimitPct>
+              <nonMarketableLimitPct>25.04</nonMarketableLimitPct>
+              <otherPct>25.53</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>G1 Execution Services, LLC (ETMM)</name>
+              <orderPct>19.40</orderPct>
+              <marketPct>20.27</marketPct>
+              <marketableLimitPct>22.04</marketableLimitPct>
+              <nonMarketableLimitPct>16.36</nonMarketableLimitPct>
+              <otherPct>31.91</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Jane Street Capital, LLC (JNST)</name>
+              <orderPct>16.08</orderPct>
+              <marketPct>16.86</marketPct>
+              <marketableLimitPct>17.14</marketableLimitPct>
+              <nonMarketableLimitPct>15.36</nonMarketableLimitPct>
+              <otherPct>8.51</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Virtu Americas, LLC (NITE)</name>
+              <orderPct>15.19</orderPct>
+              <marketPct>11.24</marketPct>
+              <marketableLimitPct>14.29</marketableLimitPct>
+              <nonMarketableLimitPct>20.20</nonMarketableLimitPct>
+              <otherPct>12.77</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>HRT FINANCIAL LP (HRTF)</name>
+              <orderPct>8.93</orderPct>
+              <marketPct>11.83</marketPct>
+              <marketableLimitPct>6.53</marketableLimitPct>
+              <nonMarketableLimitPct>6.51</nonMarketableLimitPct>
+              <otherPct>10.64</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>UBS Securities LLC (UBSS)</name>
+              <orderPct>6.38</orderPct>
+              <marketPct>4.44</marketPct>
+              <marketableLimitPct>8.98</marketableLimitPct>
+              <nonMarketableLimitPct>7.51</nonMarketableLimitPct>
+              <otherPct>6.38</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Two Sigma Securities (SOHO)</name>
+              <orderPct>4.91</orderPct>
+              <marketPct>5.62</marketPct>
+              <marketableLimitPct>4.08</marketableLimitPct>
+              <nonMarketableLimitPct>4.51</nonMarketableLimitPct>
+              <otherPct>4.26</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>StoneX Financial Inc (INTL)</name>
+              <orderPct>4.53</orderPct>
+              <marketPct>6.21</marketPct>
+              <marketableLimitPct>4.90</marketableLimitPct>
+              <nonMarketableLimitPct>2.84</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>GTS Securities LLC (GTSM)</name>
+              <orderPct>1.60</orderPct>
+              <marketPct>1.48</marketPct>
+              <marketableLimitPct>2.04</marketableLimitPct>
+              <nonMarketableLimitPct>1.67</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>3.23</ndoMarketPct>
+        <ndoMarketableLimitPct>3.40</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>21.41</ndoNonmarketableLimitPct>
+        <ndoOtherPct>71.96</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Matrix Executions, LLC (RSKY)</name>
+              <orderPct>66.65</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>92.62</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-5386</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>-3.4340</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities LLC (CITL)</name>
+              <orderPct>14.08</orderPct>
+              <marketPct>51.79</marketPct>
+              <marketableLimitPct>50.85</marketableLimitPct>
+              <nonMarketableLimitPct>42.32</nonMarketableLimitPct>
+              <otherPct>2.25</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>7.21</orderPct>
+              <marketPct>7.14</marketPct>
+              <marketableLimitPct>25.42</marketableLimitPct>
+              <nonMarketableLimitPct>24.80</nonMarketableLimitPct>
+              <otherPct>1.12</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>5.48</orderPct>
+              <marketPct>28.57</marketPct>
+              <marketableLimitPct>15.25</marketableLimitPct>
+              <nonMarketableLimitPct>17.25</nonMarketableLimitPct>
+              <otherPct>0.48</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Option ATS (DASH)</name>
+              <orderPct>5.19</orderPct>
+              <marketPct>12.50</marketPct>
+              <marketableLimitPct>8.47</marketableLimitPct>
+              <nonMarketableLimitPct>15.63</nonMarketableLimitPct>
+              <otherPct>1.60</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities (CDRG)</name>
+              <orderPct>1.04</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>1.44</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>TradeMas Inc (TRDM)</name>
+              <orderPct>0.17</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.24</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-11</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>0.12</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.16</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>INTL FCSTONE FINANCIAL INC. (FCST)</name>
+              <orderPct>0.06</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.08</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>-95</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>-50.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BTG Pactual US Capital, LLC routes equity and options orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks ("ECN")) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. BTG Pactual US Capital, LLC may receive compensation in the form of monetary rebates per executed share/option for routing equity/options orders to dealers. These dealers include Citadel, Dash Financial, Drivewealth Institutional, StoneX, and Matrix Executions. Further details of these payments and fees are available upon written request.  </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+</heldOrderRoutingPublicReport>

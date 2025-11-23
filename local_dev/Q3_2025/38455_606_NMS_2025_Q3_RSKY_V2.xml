@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Matrix Executions, LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-30T18:12:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>93.89</ndoPct>
+      <ndoMarketPct>0.01</ndoMarketPct>
+      <ndoMarketableLimitPct>5.19</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>75.94</ndoNonmarketableLimitPct>
+      <ndoOtherPct>18.86</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>16.65</orderPct>
+          <marketPct>3.25</marketPct>
+          <marketableLimitPct>7.03</marketableLimitPct>
+          <nonMarketableLimitPct>21.44</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-26.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-46.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-33457.77</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-65.2949</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>60935.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.4235</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>PSE</name>
+          <orderPct>10.57</orderPct>
+          <marketPct>4.88</marketPct>
+          <marketableLimitPct>9.10</marketableLimitPct>
+          <nonMarketableLimitPct>10.28</nonMarketableLimitPct>
+          <otherPct>12.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-19.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-46.1919</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-26179.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-53.9373</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>53803.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.1336</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>846.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.5151</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>8.68</orderPct>
+          <marketPct>13.82</marketPct>
+          <marketableLimitPct>7.36</marketableLimitPct>
+          <nonMarketableLimitPct>10.16</nonMarketableLimitPct>
+          <otherPct>3.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>43.57</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.8818</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1254.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-2.9131</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2496.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.3929</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>658.33</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.3363</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC does preference Simplex Trading, LLC on NYSE American LLC (“NYSE American”). Due to this arrangement, Simplex Trading, LLC or NYSE American sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex does pay Matrix Executions, LLC $.03 for every contract that is executed on NYSE American. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.
+
+Matrix Executions, LLC does have an Affiliated Entity agreement in place between NYSE American and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>8.38</orderPct>
+          <marketPct>3.25</marketPct>
+          <marketableLimitPct>4.39</marketableLimitPct>
+          <nonMarketableLimitPct>3.63</nonMarketableLimitPct>
+          <otherPct>28.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-20.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-13.8000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6280.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-11.2560</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1109.17</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.6019</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>15195.65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>28.0642</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.cboe.com/us/options/membership/fee_schedule/edgx/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, an affiliate of Matrix, pays $.03 for every contract that is executed on CBOE C2 Exchange, Inc. (“C2”). The aforementioned payment is aggregated in the above calculations. Matrix Executions, LLC has an Affiliated Entity agreement in place between CBOE EDGX (“CBOE EDGX”) and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>7.82</orderPct>
+          <marketPct>11.38</marketPct>
+          <marketableLimitPct>10.80</marketableLimitPct>
+          <nonMarketableLimitPct>9.56</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-42.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-49.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-53476.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-58.5960</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1387.28</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.1055</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>7.01</orderPct>
+          <marketPct>6.50</marketPct>
+          <marketableLimitPct>7.56</marketableLimitPct>
+          <nonMarketableLimitPct>7.29</nonMarketableLimitPct>
+          <otherPct>5.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-10.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.8712</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>960.81</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.4756</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2153.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>55.7468</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1060.53</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>68.4213</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC has an Affiliated Entity agreement in place between MIAX Sapphire and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.
+
+Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https: https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Fee_Schedule_01142025.pdf
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, LLC, an affiliate of Matrix, pays Matrix $.03 for every contract that is executed on Sapphire (“MIAX Sapphire”). The aforementioned payment is aggregated in the above calculations</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Boston Options Exchange</name>
+          <orderPct>5.07</orderPct>
+          <marketPct>3.25</marketPct>
+          <marketableLimitPct>7.10</marketableLimitPct>
+          <nonMarketableLimitPct>2.05</nonMarketableLimitPct>
+          <otherPct>16.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>16.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.1569</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-375.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.6545</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1798.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.0820</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>28659.23</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.5886</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC ("Matrix") routes options orders to all U.S. options exchanges and receives payments from these venues pursuant to SEC-approved marketing fee programs and other exchange pricing mechanisms. These payments are made in accordance with the published rates and regulations of each respective exchange and apply to certain eligible order types or contracts. Matrix also receives credit payments from certain exchanges based on the specific fee and rebate structures published in each exchange’s fee schedule.
+
+As of the date of this publication, applicable exchange fee schedules can be accessed at: https://boxoptions.com/fee-schedule/. Please note that exchanges may amend their rate schedules or website links at their discretion and without prior notice.
+
+Please refer to the attached document titled Matrix Rate Card 2025 Q3, which outlines the tiered pricing structures, applicable fees, and rebates received by Matrix during the relevant reporting period.
+
+In addition, Matrix has an affiliated relationship with Simplex Trading, LLC, a registered market maker on BOX Options Exchange. Pursuant to an Affiliated Entity agreement, Simplex Trading pays Matrix $0.03 per contract executed on BOX. This payment arrangement is designed to qualify for certain pricing tiers under BOX’s published fee schedule and is included in the aggregated payment data disclosed above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>4.36</orderPct>
+          <marketPct>13.82</marketPct>
+          <marketableLimitPct>4.27</marketableLimitPct>
+          <nonMarketableLimitPct>3.68</nonMarketableLimitPct>
+          <otherPct>7.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-171.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-52.7885</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-13049.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-28.6715</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4376.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-11.3062</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-11689.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-33.5166</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://www.cboe.com/us/options/membership/fee_schedule/cone/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC does preference Simplex Trading, LLC on Chicago Board Options Exchange (“CBOE”). Due to this arrangement, Simplex Trading, LLC or CBOE sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex pays Matrix Executions, LLC $.03 for every contract that is executed on CBOE. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>4.36</orderPct>
+          <marketPct>3.25</marketPct>
+          <marketableLimitPct>6.32</marketableLimitPct>
+          <nonMarketableLimitPct>3.34</nonMarketableLimitPct>
+          <otherPct>7.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-14.04</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-39.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-30021.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-53.2342</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3595.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-9.7133</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>224.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.8218</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://listingcenter.nasdaq.com/rulebook/ise/rules/ise-options-7
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC.  preference Simplex Trading, LLC on Nasdaq ISE, LLC (“Nasdaq ISE”). Due to this arrangement, Simplex Trading, LLC or Nasdaq ISE sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex does pay Matrix Executions, LLC $.03 for every contract that is executed on Nasdaq ISE. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>4.25</orderPct>
+          <marketPct>1.63</marketPct>
+          <marketableLimitPct>4.35</marketableLimitPct>
+          <nonMarketableLimitPct>4.48</nonMarketableLimitPct>
+          <otherPct>3.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-8.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-40.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-24782.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-52.5326</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1867.67</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.7025</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>15.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.6478</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders on all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.cboe.com/us/options/membership/fee_schedule/ctwo/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, an affiliate of Matrix, pay Matrix Executions, LLC $.03 for every contract that is executed on CBOE C2 Exchange, Inc. (“C2”). The aforementioned payment is aggregated in the above calculations. Matrix Executions, LLC has an Affiliated Entity agreement in place between CBOE C2 Exchange, Inc. (“CBOE C2”) and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix (the order flow provider) are to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>81.82</ndoPct>
+      <ndoMarketPct>0.01</ndoMarketPct>
+      <ndoMarketableLimitPct>4.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>67.10</ndoNonmarketableLimitPct>
+      <ndoOtherPct>28.37</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>30.64</orderPct>
+          <marketPct>3.90</marketPct>
+          <marketableLimitPct>6.16</marketableLimitPct>
+          <nonMarketableLimitPct>45.24</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-75.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-85.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-24748.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-63.4362</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>80122.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.2802</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>12.27</orderPct>
+          <marketPct>13.64</marketPct>
+          <marketableLimitPct>10.23</marketableLimitPct>
+          <nonMarketableLimitPct>17.60</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-509.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-84.8800</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-48255.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-53.5110</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1228.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.3052</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>10.16</orderPct>
+          <marketPct>5.19</marketPct>
+          <marketableLimitPct>5.10</marketableLimitPct>
+          <nonMarketableLimitPct>1.61</nonMarketableLimitPct>
+          <otherPct>31.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>56.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>60.8387</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8703.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-16.9930</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>558.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.6149</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>34214.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.8549</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.cboe.com/us/options/membership/fee_schedule/edgx/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, an affiliate of Matrix, pays $.03 for every contract that is executed on CBOE C2 Exchange, Inc. (“C2”). The aforementioned payment is aggregated in the above calculations. Matrix Executions, LLC has an Affiliated Entity agreement in place between CBOE EDGX (“CBOE EDGX”) and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>PSE</name>
+          <orderPct>7.81</orderPct>
+          <marketPct>7.14</marketPct>
+          <marketableLimitPct>10.27</marketableLimitPct>
+          <nonMarketableLimitPct>8.44</nonMarketableLimitPct>
+          <otherPct>5.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-17.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-86.8000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-28930.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-55.5879</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>26985.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.6786</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>542.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>3.9732</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>5.02</orderPct>
+          <marketPct>11.04</marketPct>
+          <marketableLimitPct>8.07</marketableLimitPct>
+          <nonMarketableLimitPct>4.19</nonMarketableLimitPct>
+          <otherPct>6.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>79.91</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>47.5640</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1541.14</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.1971</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2409.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.2313</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1610.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.4621</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC does preference Simplex Trading, LLC on NYSE American LLC (“NYSE American”). Due to this arrangement, Simplex Trading, LLC or NYSE American sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex does pay Matrix Executions, LLC $.03 for every contract that is executed on NYSE American. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.
+
+Matrix Executions, LLC does have an Affiliated Entity agreement in place between NYSE American and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>5.02</orderPct>
+          <marketPct>5.19</marketPct>
+          <marketableLimitPct>6.35</marketableLimitPct>
+          <nonMarketableLimitPct>1.66</nonMarketableLimitPct>
+          <otherPct>12.75</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-24.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-48.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-38271.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-57.7141</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2022.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-10.6277</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2978.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.3789</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://listingcenter.nasdaq.com/rulebook/ise/rules/ise-options-7
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC.  preference Simplex Trading, LLC on Nasdaq ISE, LLC (“Nasdaq ISE”). Due to this arrangement, Simplex Trading, LLC or Nasdaq ISE sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex does pay Matrix Executions, LLC $.03 for every contract that is executed on Nasdaq ISE. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>4.97</orderPct>
+          <marketPct>1.95</marketPct>
+          <marketableLimitPct>3.92</marketableLimitPct>
+          <nonMarketableLimitPct>6.45</nonMarketableLimitPct>
+          <otherPct>1.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-20.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-85.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-25981.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-51.7466</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1953.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.7160</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>29.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.6893</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders on all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.cboe.com/us/options/membership/fee_schedule/ctwo/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, an affiliate of Matrix, pay Matrix Executions, LLC $.03 for every contract that is executed on CBOE C2 Exchange, Inc. (“C2”). The aforementioned payment is aggregated in the above calculations. Matrix Executions, LLC has an Affiliated Entity agreement in place between CBOE C2 Exchange, Inc. (“CBOE C2”) and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix (the order flow provider) are to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIO</name>
+          <orderPct>4.09</orderPct>
+          <marketPct>3.25</marketPct>
+          <marketableLimitPct>3.38</marketableLimitPct>
+          <nonMarketableLimitPct>0.33</nonMarketableLimitPct>
+          <otherPct>13.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>44.2857</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8505.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-38.8323</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>154.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.0559</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6797.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>31.8295</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC ("Matrix") routes options orders to all U.S. options exchanges and receives payments from these venues pursuant to SEC-approved marketing fee programs and other exchange pricing mechanisms. These payments are made in accordance with the published rates and regulations of each respective exchange and apply to certain eligible order types or contracts. Matrix also receives credit payments from certain exchanges based on the specific fee and rebate structures published in each exchange’s fee schedule.
+
+As of the date of this publication, applicable exchange fee schedules can be accessed at: https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Options_Fee_Schedule_04232024.pdf . Please note that exchanges may amend their rate schedules or website links at their discretion and without prior notice.
+
+Please refer to the attached document titled Matrix Rate Card 2025 Q3, which outlines the tiered pricing structures, applicable fees, and rebates received by Matrix during the relevant reporting period.
+
+In addition, Matrix has an affiliated relationship with Simplex Trading, LLC, a registered market maker on MIAX Options Exchange ("MIO"). Pursuant to an Affiliated Entity agreement, Simplex Trading pays Matrix $0.03 per contract executed on MIO. This payment arrangement is designed to qualify for certain pricing tiers under MIO published fee schedule and is included in the aggregated payment data disclosed above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>3.97</orderPct>
+          <marketPct>3.25</marketPct>
+          <marketableLimitPct>6.80</marketableLimitPct>
+          <nonMarketableLimitPct>1.03</nonMarketableLimitPct>
+          <otherPct>10.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>48.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>38.2146</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-13357.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-33.7729</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3771.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-17.0906</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-9606.55</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-37.8374</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://www.cboe.com/us/options/membership/fee_schedule/cone/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC does preference Simplex Trading, LLC on Chicago Board Options Exchange (“CBOE”). Due to this arrangement, Simplex Trading, LLC or CBOE sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex pays Matrix Executions, LLC $.03 for every contract that is executed on CBOE. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>3.42</orderPct>
+          <marketPct>8.44</marketPct>
+          <marketableLimitPct>3.95</marketableLimitPct>
+          <nonMarketableLimitPct>3.29</nonMarketableLimitPct>
+          <otherPct>3.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>21.32</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.6402</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-731.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.8664</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>81.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.5910</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>378.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>33.4677</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC has an Affiliated Entity agreement in place between MIAX Sapphire and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.
+
+Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https: https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Sapphire_Fee_Schedule_01142025.pdf
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, LLC, an affiliate of Matrix, pays Matrix $.03 for every contract that is executed on Sapphire (“MIAX Sapphire”). The aforementioned payment is aggregated in the above calculations</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>92.58</ndoPct>
+      <ndoMarketPct>0.14</ndoMarketPct>
+      <ndoMarketableLimitPct>3.77</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.03</ndoNonmarketableLimitPct>
+      <ndoOtherPct>43.06</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>32.48</orderPct>
+          <marketPct>0.04</marketPct>
+          <marketableLimitPct>20.65</marketableLimitPct>
+          <nonMarketableLimitPct>59.70</nonMarketableLimitPct>
+          <otherPct>0.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-32093.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-64.4153</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>94250.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.0544</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>21.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>117.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>13.67</orderPct>
+          <marketPct>36.36</marketPct>
+          <marketableLimitPct>4.22</marketableLimitPct>
+          <nonMarketableLimitPct>1.07</nonMarketableLimitPct>
+          <otherPct>29.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>218.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>38.3814</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7908.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-11.6166</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>73.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.2225</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>17838.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>33.6605</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.cboe.com/us/options/membership/fee_schedule/edgx/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, an affiliate of Matrix, pays $.03 for every contract that is executed on CBOE C2 Exchange, Inc. (“C2”). The aforementioned payment is aggregated in the above calculations. Matrix Executions, LLC has an Affiliated Entity agreement in place between CBOE EDGX (“CBOE EDGX”) and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>PSE</name>
+          <orderPct>7.93</orderPct>
+          <marketPct>2.63</marketPct>
+          <marketableLimitPct>7.74</marketableLimitPct>
+          <nonMarketableLimitPct>8.32</nonMarketableLimitPct>
+          <otherPct>7.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.6189</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-39248.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-52.7478</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>32935.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.4524</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1966.69</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.5739</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The Nasdaq Stock Market</name>
+          <orderPct>7.35</orderPct>
+          <marketPct>0.13</marketPct>
+          <marketableLimitPct>8.61</marketableLimitPct>
+          <nonMarketableLimitPct>13.23</nonMarketableLimitPct>
+          <otherPct>0.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-17.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-49.2857</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-55824.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-53.3483</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1858.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>73.9260</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-195.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-85.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects></materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>6.19</orderPct>
+          <marketPct>20.98</marketPct>
+          <marketableLimitPct>5.77</marketableLimitPct>
+          <nonMarketableLimitPct>1.29</nonMarketableLimitPct>
+          <otherPct>12.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>2.3421</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3873.57</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.2668</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1190.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.9132</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3385.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.1269</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://listingcenter.nasdaq.com/rulebook/ise/rules/ise-options-7
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC.  preference Simplex Trading, LLC on Nasdaq ISE, LLC (“Nasdaq ISE”). Due to this arrangement, Simplex Trading, LLC or Nasdaq ISE sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex does pay Matrix Executions, LLC $.03 for every contract that is executed on Nasdaq ISE. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>5.50</orderPct>
+          <marketPct>10.70</marketPct>
+          <marketableLimitPct>4.25</marketableLimitPct>
+          <nonMarketableLimitPct>0.87</nonMarketableLimitPct>
+          <otherPct>11.29</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-247.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-47.7590</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-19433.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-34.2113</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-12603.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-32.2904</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-14367.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-54.6162</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. https://www.cboe.com/us/options/membership/fee_schedule/cone/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC does preference Simplex Trading, LLC on Chicago Board Options Exchange (“CBOE”). Due to this arrangement, Simplex Trading, LLC or CBOE sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex pays Matrix Executions, LLC $.03 for every contract that is executed on CBOE. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIO</name>
+          <orderPct>5.26</orderPct>
+          <marketPct>4.72</marketPct>
+          <marketableLimitPct>3.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.29</nonMarketableLimitPct>
+          <otherPct>11.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-8.04</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.4000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-10600.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-34.7837</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-194.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-1.4950</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4475.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.5941</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC ("Matrix") routes options orders to all U.S. options exchanges and receives payments from these venues pursuant to SEC-approved marketing fee programs and other exchange pricing mechanisms. These payments are made in accordance with the published rates and regulations of each respective exchange and apply to certain eligible order types or contracts. Matrix also receives credit payments from certain exchanges based on the specific fee and rebate structures published in each exchange’s fee schedule.
+
+As of the date of this publication, applicable exchange fee schedules can be accessed at: https://www.miaxglobal.com/sites/default/files/fee_schedule-files/MIAX_Options_Fee_Schedule_04232024.pdf . Please note that exchanges may amend their rate schedules or website links at their discretion and without prior notice.
+
+Please refer to the attached document titled Matrix Rate Card 2025 Q3, which outlines the tiered pricing structures, applicable fees, and rebates received by Matrix during the relevant reporting period.
+
+In addition, Matrix has an affiliated relationship with Simplex Trading, LLC, a registered market maker on MIAX Options Exchange ("MIO"). Pursuant to an Affiliated Entity agreement, Simplex Trading pays Matrix $0.03 per contract executed on MIO. This payment arrangement is designed to qualify for certain pricing tiers under MIO published fee schedule and is included in the aggregated payment data disclosed above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>4.29</orderPct>
+          <marketPct>0.63</marketPct>
+          <marketableLimitPct>3.46</marketableLimitPct>
+          <nonMarketableLimitPct>4.71</nonMarketableLimitPct>
+          <otherPct>3.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1.20</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-20.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-38364.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-49.4812</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4032.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>36.6145</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-462.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-14.2792</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders on all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links.  https://www.cboe.com/us/options/membership/fee_schedule/ctwo/
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Simplex Trading, an affiliate of Matrix, pay Matrix Executions, LLC $.03 for every contract that is executed on CBOE C2 Exchange, Inc. (“C2”). The aforementioned payment is aggregated in the above calculations. Matrix Executions, LLC has an Affiliated Entity agreement in place between CBOE C2 Exchange, Inc. (“CBOE C2”) and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix (the order flow provider) are to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Boston Options Exchange</name>
+          <orderPct>3.91</orderPct>
+          <marketPct>6.31</marketPct>
+          <marketableLimitPct>4.93</marketableLimitPct>
+          <nonMarketableLimitPct>0.27</nonMarketableLimitPct>
+          <otherPct>8.29</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>35.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.8000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1774.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0831</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-35.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-0.1355</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>19348.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>55.1128</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC ("Matrix") routes options orders to all U.S. options exchanges and receives payments from these venues pursuant to SEC-approved marketing fee programs and other exchange pricing mechanisms. These payments are made in accordance with the published rates and regulations of each respective exchange and apply to certain eligible order types or contracts. Matrix also receives credit payments from certain exchanges based on the specific fee and rebate structures published in each exchange’s fee schedule.
+
+As of the date of this publication, applicable exchange fee schedules can be accessed at: https://boxoptions.com/fee-schedule/. Please note that exchanges may amend their rate schedules or website links at their discretion and without prior notice.
+
+Please refer to the attached document titled Matrix Rate Card 2025 Q3, which outlines the tiered pricing structures, applicable fees, and rebates received by Matrix during the relevant reporting period.
+
+In addition, Matrix has an affiliated relationship with Simplex Trading, LLC, a registered market maker on BOX Options Exchange. Pursuant to an Affiliated Entity agreement, Simplex Trading pays Matrix $0.03 per contract executed on BOX. This payment arrangement is designed to qualify for certain pricing tiers under BOX’s published fee schedule and is included in the aggregated payment data disclosed above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>3.31</orderPct>
+          <marketPct>4.35</marketPct>
+          <marketableLimitPct>3.59</marketableLimitPct>
+          <nonMarketableLimitPct>0.63</nonMarketableLimitPct>
+          <otherPct>6.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-22.02</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-25.6047</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-11710.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-42.2808</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-478.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-68.9942</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-22.51</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.3398</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC routes options orders to all U.S. Option Exchanges and collects payments from U.S. Option Exchanges via the SEC-Approved marketing fee programs mandated by those exchanges in accordance with exchange's published rates and regulations for certain eligible order types or contracts. Matrix Executions, LLC collects credit payments from certain exchanges based on the particular fees and rebates offered on the exchange’s fee schedule. At time of publication, Exchange rate schedules can be found at the following URL link. Please note that the exchanges reserve the right to change their rates without notice and may also change their URL links. http://www.nasdaqtrader.com/content/phlx/phlx_pricingschedule.pdf
+
+Please see the following attached Rate Card with information reflecting the tiered pricing / payment schedule and other applicable fees and rebates received from the exchanges that are applicable to Matrix (Matrix Rate Card 2025 Q3).
+
+Matrix Executions, LLC does preference Simplex Trading, LLC on Nasdaq OMX PHLX (“PHLX”). Due to this arrangement, Simplex Trading, LLC or PHLX sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule as it applies to Matrix. It should also be noted that Simplex does pay Matrix Executions, LLC $.03 for every contract that is executed on PHLX. The applicable exchange rates for preferencing and the aforementioned payment are aggregated in the above calculations. 
+
+Matrix Executions, LLC has an Affiliated Entity agreement in place between PHLX and Simplex Trading, LLC. The purposes of this relationship between Simplex Trading, LLC (the appointed market maker) and Matrix Executions, LLC (the order flow provider) is to qualify for certain pricing specified in the Pricing Schedule (see referenced fees schedule above). This relationship is reflected in the calculations above.
+
+Matrix Executions, LLC does preference Belvedere Trading, LLC on a subset of order flow on PHLX. Due to this agreement, Belvedere Trading, LLC or PHLX sends additional rebates for Matrix Executions, LLC order flow. Those additional rebates are referenced in the link above regarding the applicable fee schedule. The applicable exchange rates for preferencing are aggregated in the above calculations.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

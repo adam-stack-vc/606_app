@@ -1,0 +1,55 @@
+{
+  "filename": "row_168_investopedia_com_extracted",
+  "url": "https://investopedia.com/investing/free-stock-trading-whats-catch",
+  "title": "Is There a Catch to Free Stock Trading?",
+  "date": "",
+  "sentiment": "Neutral",
+  "text": "----------------------------------------\nInvestors can now trade stocks for free through most brokers. But how do brokerages make money if they’re waiving commissions? A deep dive into the commission-free trading movement reveals various business activities that build profits, sometimes to the disadvantage of clients. As a result, larger customers and frequent traders might want to consider paying for premium accounts.\nRobinhood pioneered commission-free trading, offering both cash and margin accounts. The broker-dealer used to advertise that it made money by earning interest on the uninvested portion of client funds.\nHowever, the return of near-zero interest rates in 2020 made that strategy far less profitable. Disclosure documents revealed other profit sources, including margin lending, monthly fees for upgraded services, and rehypothecation. Rehypothecation allowed the company to use client securities to support other financial activities.\nRehypothecation occurs in a margin account when the broker-dealer uses an asset—stock securities in this case—as collateral to fulfill their own obligations or interests. In other words, they can fund their own market bets or borrow money from a bank, using your stocks as collateral if things go haywire. This practice tends to work well in quiet times. On the other hand, it can have disastrous consequences when the financial system is under stress.\nRobinhood's new customers default to margin accounts, potentially exposing them to rehypothecation. However, customers can manually downgrade them to cash accounts.\nRobinhood also has some more conventional ways to make money. For example, the higher-tier Robinhood Gold charges a monthly fee, adding another profit source. Furthermore, they have fee schedules for all services not directly related to buying or selling stocks, such as wire transfers and overnight domestic check delivery. You’ll also pay for paper statements, transferring the account to another brokerage, and telephone assisted trades.\nPayment for order flow is a primary way that brokerages make money from commission-free trades. Payments for order flow may result in lower quality order execution, leading to slightly higher buy prices and marginally lower sell prices. This practice is by no means limited to Robinhood, and it was a growing source of revenue for brokerages in 2020. For example, TD Ameritrade received $526.59 million in payments for order flow in the second quarter of 2020.\nRobinhood itself made $271.2 million from payments for order flow during the second quarter of 2020. They told clients they're getting the best available execution price. However, Robinhood provides little detail on how they package those orders. As a result, in December 2020, the SEC charged Robinhood with violating federal securities laws, such as a lack of transparency on how the company earned revenue and failure to execute trades in the client's best interest. Robinhood had to pay $65 million in a civil penalty to the SEC.\nRobinhood is bound by Securities and Exchange Commission (SEC) Regulation NMS, which requires customers to receive the National Best Bid and Offer (NBBO). That promise may be harder to fulfill than it sounds, given the company’s terms and conditions.\nEven small delays in executing market orders can generate self-serving opportunities to adversely impact quality and build profits for the brokerage. They offer few frills and attract frequent customer service complaints, which are expected because ultrathin margins generate a natural conflict of interest between customer needs and the company's profitability. Even so, they've added features regularly in the last few years and have retained their enormous popularity. Many of these features come with price tags that add to profitability, including Robinhood Gold, which incurs monthly fees.\nMainstream brokerages, including Charles Schwab and E*Trade, also offer commission-free trading and have made substantial amounts from payment for order flow as well. Ultimately, customers of all of these brokerages must decide whether it is worth paying for better order execution.\nCommission-free stock trading evolved from a market niche dominated by Robinhood to a mainstream feature in just a few years. At the same time, adding premium and fee-based features made Robinhood more like the other brokers. However, high-volume traders still need to be careful about trade execution price and quality.",
+  "text_length": 4461,
+  "source": "html_extractor",
+  "processing_info": {
+    "converted_at": "2025-10-02T17:16:35.513937",
+    "source_file": "/Users/adamsussman/Documents/606_app/extracted_content/row_168_investopedia_com_extracted.txt"
+  },
+  "companies_mentioned": [
+    "TD Ameritrade",
+    "Robinhood",
+    "SEC",
+    "Securities and Exchange Commission",
+    "NMS",
+    "the National Best Bid and",
+    "NBBO"
+  ],
+  "persons_mentioned": [
+    "Offer",
+    "Charles Schwab"
+  ],
+  "value_chains": [
+    "trade"
+  ],
+  "analysis_metadata": {
+    "value_chain_coverage": {
+      "value_chains": {
+        "trade": [
+          "execution quality",
+          "order execution systems"
+        ]
+      },
+      "functions": {
+        "institutional brokerage": [
+          "execution quality"
+        ],
+        "trading infrastructure": [
+          "order execution systems"
+        ]
+      },
+      "function_ids": {},
+      "found_bigrams": [
+        "execution quality",
+        "order execution systems"
+      ]
+    },
+    "content_length": 4461,
+    "word_count": 670
+  }
+}

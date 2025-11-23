@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Robinhood Financial LLC</bd>
+  <year>2025</year>
+  <qtr>3</qtr>
+  <timestamp>2025-10-27T17:39:15Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>07</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>41.30</ndoMarketPct>
+      <ndoMarketableLimitPct>11.62</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>37.11</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.98</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>52.90</orderPct>
+          <marketPct>43.73</marketPct>
+          <marketableLimitPct>69.32</marketableLimitPct>
+          <nonMarketableLimitPct>57.85</nonMarketableLimitPct>
+          <otherPct>53.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>473850.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>56.3524</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>241987.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>102.2715</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>248349.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>106.5531</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>603987.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>59.7374</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>18.45</orderPct>
+          <marketPct>28.14</marketPct>
+          <marketableLimitPct>1.49</marketableLimitPct>
+          <nonMarketableLimitPct>12.37</nonMarketableLimitPct>
+          <otherPct>20.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>330013.99</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>62.8352</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5629.97</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.5284</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>31011.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>67.4066</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>15580.84</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>69.9782</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.60</orderPct>
+          <marketPct>12.57</marketPct>
+          <marketableLimitPct>18.85</marketableLimitPct>
+          <nonMarketableLimitPct>17.07</nonMarketableLimitPct>
+          <otherPct>8.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>241197.43</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>73.5891</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>102475.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>128.5328</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>114509.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>127.5576</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>11137.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>74.3086</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>8.24</orderPct>
+          <marketPct>7.14</marketPct>
+          <marketableLimitPct>9.83</marketableLimitPct>
+          <nonMarketableLimitPct>8.91</nonMarketableLimitPct>
+          <otherPct>8.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>202653.62</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>28.9382</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>104536.69</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>53.7679</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>109002.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>58.9460</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>407173.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>50.8333</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.19</orderPct>
+          <marketPct>7.44</marketPct>
+          <marketableLimitPct>0.45</marketableLimitPct>
+          <nonMarketableLimitPct>3.37</nonMarketableLimitPct>
+          <otherPct>8.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>74813.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>50.5239</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2173.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>18.1760</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8589.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>61.9265</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4084.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>59.6958</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>37.66</ndoMarketPct>
+      <ndoMarketableLimitPct>15.69</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>41.09</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.56</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>38.88</orderPct>
+          <marketPct>34.67</marketPct>
+          <marketableLimitPct>44.28</marketableLimitPct>
+          <nonMarketableLimitPct>40.59</nonMarketableLimitPct>
+          <otherPct>39.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2246449.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.7680</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>943183.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.2181</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>998449.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.2860</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1596130.33</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.2644</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>29.08</orderPct>
+          <marketPct>25.93</marketPct>
+          <marketableLimitPct>35.20</marketableLimitPct>
+          <nonMarketableLimitPct>30.92</nonMarketableLimitPct>
+          <otherPct>19.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2934798.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.9638</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1211958.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.5797</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1355872.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.9040</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>181452.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.1541</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>17.79</orderPct>
+          <marketPct>15.02</marketPct>
+          <marketableLimitPct>19.05</marketableLimitPct>
+          <nonMarketableLimitPct>19.54</nonMarketableLimitPct>
+          <otherPct>20.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2922924.71</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.6536</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1416745.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.3312</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1412184.90</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.8512</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2170787.01</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.0084</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.20</orderPct>
+          <marketPct>12.17</marketPct>
+          <marketableLimitPct>0.75</marketableLimitPct>
+          <nonMarketableLimitPct>4.54</nonMarketableLimitPct>
+          <otherPct>11.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1175811.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.4178</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>66862.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.7765</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>127636.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.5118</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>73218.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.6272</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>6.49</orderPct>
+          <marketPct>11.23</marketPct>
+          <marketableLimitPct>0.67</marketableLimitPct>
+          <nonMarketableLimitPct>4.06</nonMarketableLimitPct>
+          <otherPct>8.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>799727.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.9654</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>61363.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>19.8243</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>103644.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.3837</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>46043.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.5717</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.07</ndoMarketPct>
+      <ndoMarketableLimitPct>28.44</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.94</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.56</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>38.92</orderPct>
+          <marketPct>40.76</marketPct>
+          <marketableLimitPct>41.06</marketableLimitPct>
+          <nonMarketableLimitPct>37.97</nonMarketableLimitPct>
+          <otherPct>38.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>350335.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>35.4606</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>17014342.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>44.8582</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>14633433.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>54.7420</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3231012.84</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>44.5596</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>33.15</orderPct>
+          <marketPct>35.47</marketPct>
+          <marketableLimitPct>32.69</marketableLimitPct>
+          <nonMarketableLimitPct>33.09</nonMarketableLimitPct>
+          <otherPct>34.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>269172.69</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>35.1958</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12775289.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.8563</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11946224.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>50.6970</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3106771.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.3320</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>12.40</orderPct>
+          <marketPct>6.47</marketPct>
+          <marketableLimitPct>11.65</marketableLimitPct>
+          <nonMarketableLimitPct>13.27</nonMarketableLimitPct>
+          <otherPct>11.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>58817.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.7079</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4926384.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>45.2486</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4215314.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>58.4835</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1088186.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>44.4953</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>11.88</orderPct>
+          <marketPct>12.57</marketPct>
+          <marketableLimitPct>9.91</marketableLimitPct>
+          <nonMarketableLimitPct>11.47</nonMarketableLimitPct>
+          <otherPct>16.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>38467.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.0803</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3179346.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>30.5222</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2765633.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>37.5713</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>906579.78</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0261</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>08</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>41.94</ndoMarketPct>
+      <ndoMarketableLimitPct>11.71</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>36.43</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.91</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>50.61</orderPct>
+          <marketPct>41.14</marketPct>
+          <marketableLimitPct>67.49</marketableLimitPct>
+          <nonMarketableLimitPct>56.21</nonMarketableLimitPct>
+          <otherPct>50.22</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>402075.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>56.5930</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>202026.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>98.0565</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>187985.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>99.6678</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>508308.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>57.3239</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>17.60</orderPct>
+          <marketPct>26.98</marketPct>
+          <marketableLimitPct>1.34</marketableLimitPct>
+          <nonMarketableLimitPct>11.47</nonMarketableLimitPct>
+          <otherPct>19.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>294390.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>64.7113</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5749.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>49.5632</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>26728.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>82.2254</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>14236.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>73.6387</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.30</orderPct>
+          <marketPct>11.80</marketPct>
+          <marketableLimitPct>18.70</marketableLimitPct>
+          <nonMarketableLimitPct>17.31</nonMarketableLimitPct>
+          <otherPct>8.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>202768.29</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>73.5715</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>90520.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>114.1909</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>99749.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>119.0039</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>9027.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>71.8672</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>9.62</orderPct>
+          <marketPct>8.53</marketPct>
+          <marketableLimitPct>11.80</marketableLimitPct>
+          <nonMarketableLimitPct>10.13</nonMarketableLimitPct>
+          <otherPct>9.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>274177.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.8164</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>118193.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>50.0862</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>129101.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>59.4095</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>402389.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>48.2746</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>5.45</orderPct>
+          <marketPct>7.85</marketPct>
+          <marketableLimitPct>0.47</marketableLimitPct>
+          <nonMarketableLimitPct>3.34</nonMarketableLimitPct>
+          <otherPct>8.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>76050.29</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>55.5366</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2323.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.2479</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6862.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>74.1495</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3687.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>59.6066</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>36.46</ndoMarketPct>
+      <ndoMarketableLimitPct>14.31</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>43.69</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.55</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>36.33</orderPct>
+          <marketPct>31.90</marketPct>
+          <marketableLimitPct>43.56</marketableLimitPct>
+          <nonMarketableLimitPct>37.71</nonMarketableLimitPct>
+          <otherPct>35.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1733077.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.5428</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>738709.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0649</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>815634.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.8944</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1526010.24</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.2241</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>29.02</orderPct>
+          <marketPct>24.83</marketPct>
+          <marketableLimitPct>34.36</marketableLimitPct>
+          <nonMarketableLimitPct>31.93</nonMarketableLimitPct>
+          <otherPct>19.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2488434.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0205</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>990372.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.9972</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1164917.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.6679</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>117935.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.2167</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>18.93</orderPct>
+          <marketPct>16.19</marketPct>
+          <marketableLimitPct>20.43</marketableLimitPct>
+          <nonMarketableLimitPct>20.40</nonMarketableLimitPct>
+          <otherPct>21.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3035713.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>13.4073</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1415824.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0440</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1460752.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.4485</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1901686.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.2804</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>7.25</orderPct>
+          <marketPct>12.91</marketPct>
+          <marketableLimitPct>0.75</marketableLimitPct>
+          <nonMarketableLimitPct>4.43</nonMarketableLimitPct>
+          <otherPct>9.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>862556.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.3575</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>62204.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.6350</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>91318.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.9427</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>42110.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.4161</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>6.53</orderPct>
+          <marketPct>10.74</marketPct>
+          <marketableLimitPct>0.68</marketableLimitPct>
+          <nonMarketableLimitPct>4.31</nonMarketableLimitPct>
+          <otherPct>11.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>901116.89</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.5027</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>67216.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.5305</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>92659.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.2380</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>57340.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.2605</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.14</ndoMarketPct>
+      <ndoMarketableLimitPct>28.40</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.77</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.69</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>38.78</orderPct>
+          <marketPct>42.01</marketPct>
+          <marketableLimitPct>40.62</marketableLimitPct>
+          <nonMarketableLimitPct>37.81</nonMarketableLimitPct>
+          <otherPct>38.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>330233.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.1008</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>13992286.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>41.3448</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12919768.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.5136</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3163749.86</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>44.8936</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>29.42</orderPct>
+          <marketPct>34.47</marketPct>
+          <marketableLimitPct>29.90</marketableLimitPct>
+          <nonMarketableLimitPct>28.28</nonMarketableLimitPct>
+          <otherPct>31.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>257461.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>29.2557</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>10115016.62</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>33.2567</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9409760.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.1476</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3014086.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.9625</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>12.41</orderPct>
+          <marketPct>5.71</marketPct>
+          <marketableLimitPct>10.95</marketableLimitPct>
+          <nonMarketableLimitPct>13.06</nonMarketableLimitPct>
+          <otherPct>13.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>50089.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>51.7312</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3695825.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>41.2375</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3588040.58</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>57.3680</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1022765.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>47.5905</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>10.66</orderPct>
+          <marketPct>10.32</marketPct>
+          <marketableLimitPct>8.27</marketableLimitPct>
+          <nonMarketableLimitPct>10.16</nonMarketableLimitPct>
+          <otherPct>16.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>26235.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.0583</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2468568.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.4785</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2254717.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.9426</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>987535.09</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.3250</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>8.75</orderPct>
+          <marketPct>7.48</marketPct>
+          <marketableLimitPct>10.26</marketableLimitPct>
+          <nonMarketableLimitPct>10.69</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>82232.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.5780</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5407798.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>40.7357</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4699300.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>54.2523</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>09</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>42.68</ndoMarketPct>
+      <ndoMarketableLimitPct>11.28</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>36.25</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.79</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>48.04</orderPct>
+          <marketPct>38.01</marketPct>
+          <marketableLimitPct>65.60</marketableLimitPct>
+          <nonMarketableLimitPct>54.70</nonMarketableLimitPct>
+          <otherPct>46.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>391227.13</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>55.3875</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>206683.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>93.4531</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>179626.43</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>91.3059</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>539482.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>55.9795</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>17.55</orderPct>
+          <marketPct>26.90</marketPct>
+          <marketableLimitPct>1.42</marketableLimitPct>
+          <nonMarketableLimitPct>11.09</nonMarketableLimitPct>
+          <otherPct>19.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>307853.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>63.4456</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5623.97</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.8044</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>26000.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>66.6074</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13371.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>67.8166</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>14.26</orderPct>
+          <marketPct>11.45</marketPct>
+          <marketableLimitPct>19.63</marketableLimitPct>
+          <nonMarketableLimitPct>17.38</nonMarketableLimitPct>
+          <otherPct>8.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>212686.42</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>71.7280</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>95761.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>111.8776</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>107020.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>106.1729</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>8910.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>82.5107</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>10.07</orderPct>
+          <marketPct>8.90</marketPct>
+          <marketableLimitPct>12.46</marketableLimitPct>
+          <nonMarketableLimitPct>10.68</nonMarketableLimitPct>
+          <otherPct>10.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>344381.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.9317</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>140374.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>54.6545</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>134660.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.9628</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>482300.40</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>50.6114</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>6.89</orderPct>
+          <marketPct>9.84</marketPct>
+          <marketableLimitPct>0.61</marketableLimitPct>
+          <nonMarketableLimitPct>4.17</nonMarketableLimitPct>
+          <otherPct>11.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>89691.17</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>55.3336</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2855.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.7588</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7934.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>54.7226</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5433.96</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>64.0771</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>37.85</ndoMarketPct>
+      <ndoMarketableLimitPct>14.96</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>41.27</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.92</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>34.54</orderPct>
+          <marketPct>29.92</marketPct>
+          <marketableLimitPct>41.24</marketableLimitPct>
+          <nonMarketableLimitPct>36.44</nonMarketableLimitPct>
+          <otherPct>33.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2047155.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.4411</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>842284.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.6319</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>957720.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.8061</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1738578.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.9843</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>28.72</orderPct>
+          <marketPct>24.34</marketPct>
+          <marketableLimitPct>35.10</marketableLimitPct>
+          <nonMarketableLimitPct>31.84</nonMarketableLimitPct>
+          <otherPct>18.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2846588.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.5657</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1171727.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.1432</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1389822.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.2679</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>116502.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8527</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.81</orderPct>
+          <marketPct>16.91</marketPct>
+          <marketableLimitPct>21.63</marketableLimitPct>
+          <nonMarketableLimitPct>21.51</nonMarketableLimitPct>
+          <otherPct>21.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4119677.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9035</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1693381.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.0947</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1841257.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.4259</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2213724.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.2605</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Two Sigma Securities, LLC</name>
+          <orderPct>7.50</orderPct>
+          <marketPct>12.15</marketPct>
+          <marketableLimitPct>0.86</marketableLimitPct>
+          <nonMarketableLimitPct>4.80</nonMarketableLimitPct>
+          <otherPct>13.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1167565.42</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.3859</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>49810.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.9896</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>118756.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.9971</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>64556.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.8569</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>6.89</orderPct>
+          <marketPct>12.22</marketPct>
+          <marketableLimitPct>0.84</marketableLimitPct>
+          <nonMarketableLimitPct>3.91</nonMarketableLimitPct>
+          <otherPct>8.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>898389.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>17.0369</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>50298.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.8440</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>91997.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.5954</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>39288.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.0107</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. RHS may execute a share-based or dollar-based customer order for a quantity that includes a fraction of a share, or a portion of such an order, in a principal capacity (rather than an agency or riskless principal capacity); RHF does not receive payments or pay transaction fees for any portion of such an order executed in a principal capacity. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing equity order flow to it on behalf of RHF, including flow that resulted from orders for which customers granted RHF discretion with respect to the price and time of execution. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at https://robinhood.com/us/en/about/legal/. Note that RHF deems each of the following stock orders entered by or on behalf of a customer to be a “not held” order (i.e., an order with respect to which the customer has granted RHF discretion with respect to the price and time of execution), and such orders are therefore excluded from the summary statistics and routing percentages provided above: orders (i) entered by a customer for a share quantity that includes a fraction of a share (fractional share-based orders); (ii) entered by a customer for a dollar amount (dollar-based orders); (iii) entered by a customer to invest in a portfolio of exchange traded funds (ETFs) pursuant to a recommendation from RHF; (iv) entered for Robinhood 24 Hour Market trading; (v) to invest in a security pursuant to a customer instruction provided in connection with the customer’s participation in the Paycheck Recurring Investment (split-your-paycheck) program or the Robinhood Stock Round-ups (weekly roundups) program, both offered by Robinhood Money, LLC and certain of its affiliates; (vi) to invest in a security pursuant to customer instructions provided in connection with the customer’s participation in the Recurring Investment program or the Dividend Reinvestment Program, each offered by RHF, to the extent such orders are routed by RHF to an order batcher engine that is operated by RHS; or (vii) entered by Robinhood Asset Management, an SEC-registered investment advisor. RHS does not execute held orders in a principal capacity and therefore is excluded from the list of venues above.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.08</ndoMarketPct>
+      <ndoMarketableLimitPct>28.28</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>54.21</ndoNonmarketableLimitPct>
+      <ndoOtherPct>16.43</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>39.02</orderPct>
+          <marketPct>46.40</marketPct>
+          <marketableLimitPct>42.06</marketableLimitPct>
+          <nonMarketableLimitPct>37.15</nonMarketableLimitPct>
+          <otherPct>39.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>380851.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.7388</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>15988036.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>39.3751</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13326007.99</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.8527</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3470196.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.6064</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>31.56</orderPct>
+          <marketPct>29.78</marketPct>
+          <marketableLimitPct>30.18</marketableLimitPct>
+          <nonMarketableLimitPct>31.07</nonMarketableLimitPct>
+          <otherPct>35.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>240822.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.9496</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>13058566.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.2947</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12546299.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>51.3889</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4076636.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>49.1821</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>11.42</orderPct>
+          <marketPct>10.14</marketPct>
+          <marketableLimitPct>12.98</marketableLimitPct>
+          <nonMarketableLimitPct>14.08</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>92846.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>45.4704</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6786914.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>46.9932</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6126988.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>59.7172</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>74.1667</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers, LP</name>
+          <orderPct>9.13</orderPct>
+          <marketPct>4.53</marketPct>
+          <marketableLimitPct>8.05</marketableLimitPct>
+          <nonMarketableLimitPct>9.50</nonMarketableLimitPct>
+          <otherPct>10.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>40958.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>52.3847</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3445849.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>39.9408</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3053495.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>56.4529</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>948050.01</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>45.5040</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>8.88</orderPct>
+          <marketPct>9.15</marketPct>
+          <marketableLimitPct>6.73</marketableLimitPct>
+          <nonMarketableLimitPct>8.19</nonMarketableLimitPct>
+          <otherPct>14.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>19038.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9332</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2111801.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>21.5802</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1761859.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.9863</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>827858.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.7640</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Robinhood Financial LLC (“RHF”) routes customer orders to its affiliated clearing firm, Robinhood Securities, LLC (“RHS”), which routes to various third-party market centers. Revenue and costs that RHS receives and pays, including revenue from third-party market centers, are shared with RHF pursuant to a revenue and cost allocation agreement. RHS passes 80% of such revenue to RHF. The amounts above accordingly represent 80% of the payments received by RHS from this venue for routing options order flow to it on behalf of RHF. Additional information regarding payments made or received by RHS can be found on its quarterly Rule 606(a) report, available at http://robinhood.com/us/en/about/legal/.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>
