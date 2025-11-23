@@ -18,6 +18,16 @@ from sql_templates import (
 )
 from capability_registry import allowed_metric
 
+# Optional semantic-hints adapter (helps shape GROUP BY / ORDER BY / LIMIT only)
+try:
+    from semantic_sql_adapter import (  # type: ignore
+        get_sql_hint as _get_sql_hint,
+        build_intent_from_user_input as _build_intent,  # unused here but kept for parity
+    )
+    _ADAPTER_OK = True
+except Exception:
+    _ADAPTER_OK = False
+
 
 def _detect_table(tags: Dict) -> str:
     text = (tags.get("_text") or "").lower()
@@ -105,6 +115,42 @@ def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
         inferred = _infer_dimension_from_text(table, tags)
         if inferred and op != "list":
             intent.dimensions = [inferred]
+
+    # Optional semantic-hints: refine dimensions/order/limit from adapter hint SQL (no table/column invention)
+    try:
+        import os
+        use_hints = os.getenv("USE_SEMANTIC_HINTS", "false").lower() == "true"
+        if _ADAPTER_OK and use_hints:
+            hint_sql = _get_sql_hint(user_input, intent)
+            if hint_sql:
+                sql_lower = hint_sql.lower()
+                # GROUP BY
+                if "group by" in sql_lower and not intent.dimensions:
+                    # crude parse: take first identifier after group by
+                    try:
+                        group_part = sql_lower.split("group by", 1)[1].strip().split()[0].strip(",;")
+                        if group_part in ("executing_bd", "venues", "market_participant", "stock_group"):
+                            intent.dimensions = [group_part]
+                    except Exception:
+                        pass
+                # ORDER BY
+                if "order by" in sql_lower and not intent.order_by:
+                    try:
+                        order_part = sql_lower.split("order by", 1)[1].strip().split()[0].strip(",;")
+                        intent.order_by = order_part
+                        intent.order_desc = "desc" in sql_lower.split("order by", 1)[1][:20]
+                    except Exception:
+                        pass
+                # LIMIT
+                if "limit" in sql_lower and not intent.limit:
+                    try:
+                        lim = int(sql_lower.split("limit", 1)[1].strip().split()[0].strip(";"))
+                        intent.limit = lim
+                    except Exception:
+                        pass
+    except Exception:
+        # Never fail the planner on hints
+        pass
 
     # Simple “list distinct” handling
     if op == "list":
