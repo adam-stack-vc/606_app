@@ -37,6 +37,11 @@ def _detect_operation_and_dims(tags: Dict) -> Tuple[str, list]:
     # list/distinct
     if any(w in text for w in ["list", "show", "display"]) and any(w in text for w in ["unique", "distinct", "all"]):
         return "list", dims
+    # explicit grouping hints: 'each', 'per', 'by <entity>'
+    if any(w in text for w in ["each", "per"]) or any(text.count(f"by {w}") for w in ["broker", "venue", "participant"]):
+        # Do not force an operation here; let dims be added and use aggregate
+        # Dims will be inferred below in plan_single_sql
+        return "aggregate", dims
     # top N
     if any(w in text for w in ["top", "highest", "most", "largest"]):
         return "topN", dims
@@ -95,6 +100,11 @@ def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
     # Honor explicit dims if present; else derive
     if not intent.dimensions and auto_dims:
         intent.dimensions = auto_dims
+    # If still no dims and phrasing implies per-entity breakdown, infer one
+    if not intent.dimensions:
+        inferred = _infer_dimension_from_text(table, tags)
+        if inferred and op != "list":
+            intent.dimensions = [inferred]
 
     # Simple “list distinct” handling
     if op == "list":
