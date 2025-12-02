@@ -4,8 +4,11 @@ from __future__ import annotations
 planner.py
 Maps QueryIntent + tags to a single-shot SQL using templates.
 Default path for most questions; falls back to complex only when multi-part.
+
+Now supports LLM-based intent extraction (controlled by USE_LLM_INTENT env var).
 """
 
+import os
 import re
 from typing import Dict, Optional, Tuple
 
@@ -18,8 +21,17 @@ from sql_templates import (
     build_earliest_latest,
     build_string_length,
     build_cross_table_entity_list,
+    build_count,
+    build_per_entity_average,
 )
 from capability_registry import allowed_metric
+
+# Optional LLM-based intent extraction
+try:
+    from llm_intent_extractor import extract_intent_with_llm  # type: ignore
+    _LLM_EXTRACTOR_OK = True
+except Exception:
+    _LLM_EXTRACTOR_OK = False
 
 # Optional semantic-hints adapter (helps shape GROUP BY / ORDER BY / LIMIT only)
 try:
@@ -160,10 +172,114 @@ def _infer_dimension_from_text(table: str, tags: Dict) -> Optional[str]:
     return None
 
 
+def _build_sql_from_intent(intent: QueryIntent, table: str, user_input: str) -> Optional[str]:
+    """
+    Build SQL from a QueryIntent using templates.
+    This is the core SQL generation logic, used by both LLM and manual paths.
+    """
+    op = intent.operation
+
+    # Cross-table entity listing
+    if op == "cross_table_list":
+        text_lower = user_input.lower()
+        limit_match = re.search(r'\b(first|top)\s+(\d+)\b', text_lower)
+        limit = int(limit_match.group(2)) if limit_match else 30
+        return build_cross_table_entity_list(intent, limit)
+
+    # String Length (longest/shortest name)
+    if op == "string_length":
+        text_lower = user_input.lower()
+        column = None
+        if "broker" in text_lower or "executing" in text_lower:
+            column = "executing_bd" if table == "executing_bd_606" else None
+        elif "venue" in text_lower:
+            column = "venues" if table == "executing_bd_606" else None
+        elif "ats" in text_lower and table == "finra_ats":
+            column = "ats_name"
+        elif "market participant" in text_lower and table == "monthly_data":
+            column = "market_participant"
+
+        if not column:
+            if table == "executing_bd_606":
+                column = "executing_bd"
+            elif table == "monthly_data":
+                column = "market_participant"
+            elif table == "finra_ats":
+                column = "ats_name"
+
+        if column:
+            is_longest = "longest" in text_lower
+            return build_string_length(intent, table, column, is_longest)
+
+    # Simple "list distinct" handling
+    if op == "list":
+        if intent.dimensions and len(intent.dimensions) > 0:
+            return build_distinct(intent, table, intent.dimensions[0])
+        return None
+
+    # Count operation
+    if op == "count":
+        if intent.count_dimension:
+            return build_count(intent, table, intent.count_dimension)
+        return None
+
+    # Per-entity average
+    if op == "per_entity_average":
+        if intent.per_entity:
+            return build_per_entity_average(intent, table, intent.per_entity)
+        return None
+
+    # Earliest/Latest
+    if op in ("earliest", "latest"):
+        return build_earliest_latest(intent, table, earliest=(op == "earliest"))
+
+    # Top N
+    if op == "topN":
+        if not intent.limit and not intent.top_n:
+            intent.top_n = 1
+        return build_top_n(intent, table)
+
+    # Top per group
+    if op == "top_per_group":
+        partition_dim = intent.dimensions[0] if intent.dimensions else "stock_group"
+        return build_top_per_group(intent, table, partition_dim)
+
+    # Aggregate default (with or without dims)
+    if op == "aggregate":
+        if not allowed_metric(table, intent.metric):
+            return None
+        return build_aggregate(intent, table)
+
+    return None
+
+
 def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
     """
     Build a single-shot SQL if possible; returns None if indeterminate.
+
+    NEW: Tries LLM-based intent extraction first (if USE_LLM_INTENT=true),
+    then falls back to manual pattern detection.
     """
+    # Try LLM-based intent extraction first (if enabled)
+    use_llm = os.getenv("USE_LLM_INTENT", "false").lower() == "true"
+    if use_llm and _LLM_EXTRACTOR_OK:
+        try:
+            llm_intent = extract_intent_with_llm(user_input)
+            if llm_intent:
+                # LLM stores table name in topic field
+                table = llm_intent.topic or "executing_bd_606"
+                print(f"[LLM Intent] Table: {table}, Op: {llm_intent.operation}, Metric: {llm_intent.metric}, Dims: {llm_intent.dimensions}")
+
+                sql = _build_sql_from_intent(llm_intent, table, user_input)
+                if sql:
+                    print(f"[LLM Success] Generated SQL using LLM intent")
+                    return sql
+                else:
+                    print(f"[LLM Fallback] Intent extracted but SQL generation failed, trying manual detection")
+        except Exception as e:
+            print(f"[LLM Error] {e}, falling back to manual detection")
+
+    # Manual pattern detection (original logic)
     tags = dict(tags or {})
     tags["_text"] = user_input
     intent = QueryIntent.from_tags(tags)
@@ -228,7 +344,6 @@ def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
 
     # Optional semantic-hints: refine dimensions/order/limit from adapter hint SQL (no table/column invention)
     try:
-        import os
         use_hints = os.getenv("USE_SEMANTIC_HINTS", "false").lower() == "true"
         if _ADAPTER_OK and use_hints:
             hint_sql = _get_sql_hint(user_input, intent)

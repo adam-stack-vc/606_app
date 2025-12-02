@@ -503,3 +503,149 @@ def build_cross_table_entity_list(intent: QueryIntent, limit: int = 30) -> str:
     )
 
 
+# Load entity mappings from config file
+import json
+import os as _os
+from pathlib import Path as _Path
+
+_ENTITY_MAPPINGS = None
+
+def _load_entity_mappings():
+    """Load entity mappings from entity_mappings.json"""
+    global _ENTITY_MAPPINGS
+    if _ENTITY_MAPPINGS is None:
+        config_path = _Path(__file__).parent / "entity_mappings.json"
+        with open(config_path, "r") as f:
+            _ENTITY_MAPPINGS = json.load(f)
+    return _ENTITY_MAPPINGS
+
+
+def _map_entity_to_column(entity_type: str, table: str) -> Optional[str]:
+    """
+    Map generic entity types to table-specific column names.
+
+    Args:
+        entity_type: Generic entity name (e.g., "venue", "executing_broker", "market_participant", "ATS")
+        table: Table name
+
+    Returns:
+        Column name or None if not applicable for this table
+    """
+    entity_map = _load_entity_mappings()
+    return entity_map.get(table, {}).get(entity_type.lower())
+
+
+def build_count(intent: QueryIntent, table: str, count_dimension: str) -> str:
+    """
+    Build a COUNT(DISTINCT ...) query.
+
+    Example: "How many venues did Robinhood use?"
+    → SELECT COUNT(DISTINCT venues) AS venue_count FROM ...
+
+    Args:
+        intent: QueryIntent with filters and period
+        table: Table name
+        count_dimension: Generic entity type to count (e.g., "venue", "broker")
+
+    Returns:
+        SQL query string
+    """
+    # Map generic entity type to column name
+    column = _map_entity_to_column(count_dimension, table)
+    if not column:
+        raise ValueError(f"Cannot count {count_dimension} in table {table}")
+
+    # Build WHERE clause
+    where = _time_filters(table, intent)
+    where.append(f"{_safe_ident(column)} IS NOT NULL")
+    where.append(f"{_safe_ident(column)} != ''")
+
+    # Add entity filters (e.g., WHERE executing_bd = 'Robinhood')
+    for entity_key, entity_val in intent.entities.items():
+        entity_col = _map_entity_to_column(entity_key, table)
+        if entity_col and entity_val:
+            safe_val = entity_val.replace("'", "''")
+            where.append(f"{_safe_ident(entity_col)} = '{safe_val}'")
+
+    # Add filters from intent
+    for key, val in intent.filters.items():
+        safe_val = str(val).replace("'", "''")
+        where.append(f"{_safe_ident(key)} = '{safe_val}'")
+
+    where_clause = " AND ".join(where) if where else "TRUE"
+
+    count_alias = f"{count_dimension}_count"
+
+    return (
+        f"SELECT COUNT(DISTINCT {_safe_ident(column)}) AS {count_alias}\n"
+        f"FROM {table}\n"
+        f"WHERE {where_clause};"
+    )
+
+
+def build_per_entity_average(intent: QueryIntent, table: str, per_entity: str) -> str:
+    """
+    Build a per-entity average query: metric / COUNT(DISTINCT entity)
+
+    Example: "Average PFOF per venue for Robinhood"
+    → SELECT SUM(pfof) AS total_pfof, COUNT(DISTINCT venues) AS venue_count,
+             SUM(pfof) / COUNT(DISTINCT venues) AS pfof_per_venue
+
+    Args:
+        intent: QueryIntent with metric and filters
+        table: Table name
+        per_entity: Generic entity type for denominator (e.g., "venue", "broker")
+
+    Returns:
+        SQL query string
+    """
+    # Map generic entity type to column name
+    entity_column = _map_entity_to_column(per_entity, table)
+    if not entity_column:
+        raise ValueError(f"Cannot calculate per-{per_entity} average in table {table}")
+
+    # Get metric expression using existing helper
+    metric_select = _metric_select(table, intent)
+
+    # Extract expression and alias (e.g., "SUM(...) AS total_pfof")
+    # Split to get just the expression part for division
+    if " AS " in metric_select:
+        metric_expr_only = metric_select.split(" AS ")[0]
+        metric_alias = metric_select.split(" AS ")[1].split(",")[0].strip()
+    else:
+        metric_expr_only = metric_select
+        metric_alias = f"{intent.metric or 'metric'}_total"
+
+    # Build WHERE clause
+    where = _time_filters(table, intent)
+
+    # Add entity filters (e.g., WHERE executing_bd = 'Robinhood')
+    for entity_key, entity_val in intent.entities.items():
+        entity_col = _map_entity_to_column(entity_key, table)
+        if entity_col and entity_val:
+            safe_val = entity_val.replace("'", "''")
+            where.append(f"{_safe_ident(entity_col)} = '{safe_val}'")
+
+    # Add filters from intent
+    for key, val in intent.filters.items():
+        safe_val = str(val).replace("'", "''")
+        where.append(f"{_safe_ident(key)} = '{safe_val}'")
+
+    where.append(f"{_safe_ident(entity_column)} IS NOT NULL")
+    where.append(f"{_safe_ident(entity_column)} != ''")
+
+    where_clause = " AND ".join(where) if where else "TRUE"
+
+    count_alias = f"{per_entity}_count"
+    avg_alias = f"{intent.metric or 'metric'}_per_{per_entity}"
+
+    return (
+        f"SELECT\n"
+        f"  {metric_select},\n"
+        f"  COUNT(DISTINCT {_safe_ident(entity_column)}) AS {count_alias},\n"
+        f"  ({metric_expr_only}) / NULLIF(COUNT(DISTINCT {_safe_ident(entity_column)}), 0) AS {avg_alias}\n"
+        f"FROM {table}\n"
+        f"WHERE {where_clause};"
+    )
+
+

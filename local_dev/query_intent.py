@@ -27,12 +27,14 @@ class QueryIntent:
     dimensions: List[str] = field(default_factory=list)
     filters: Dict[str, str] = field(default_factory=dict)
     # SQL shaping
-    operation: Optional[str] = None          # list | aggregate | topN | top_per_group | earliest | latest | streak
+    operation: Optional[str] = None          # list | aggregate | topN | top_per_group | earliest | latest | count | per_entity_average
     aggregation: Optional[str] = None        # SUM | COUNT | AVG | MIN | MAX
     order_by: Optional[str] = None           # column/alias to order by
     order_desc: bool = True
     limit: Optional[int] = None
     top_n: Optional[int] = None              # alias for limit when using topN
+    count_dimension: Optional[str] = None    # for count operation: what to count (e.g., "venue", "broker")
+    per_entity: Optional[str] = None         # for per_entity_average: denominator entity type (e.g., "venue", "broker")
 
     @classmethod
     def from_tags(cls, tags: Dict) -> "QueryIntent":
