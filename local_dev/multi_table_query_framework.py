@@ -374,8 +374,17 @@ def classify_query_enhanced(user_input: str) -> Dict:
         "quarter": None,
         "executing_bd": None,
         "venue": None,
-        "stock_group": "SP500" if any(k in user_input.upper() for k in ["SP500", "S&P 500", "S&P500"]) else None,
+        "stock_group": None,
     }
+
+    # Detect stock_group from keywords
+    text_lower = user_input.lower()
+    if any(k in user_input.upper() for k in ["SP500", "S&P 500", "S&P500"]):
+        tags["stock_group"] = "SP500"
+    elif "option" in text_lower:
+        tags["stock_group"] = "Options"
+    elif "other stock" in text_lower or "otherstocks" in text_lower:
+        tags["stock_group"] = "OtherStocks"
 
     # Basic Regex Year Extraction (Fallback if NLP fails)
     match_year = re.search(r"\b(20[0-9]{2})\b", user_input)
@@ -394,6 +403,16 @@ def classify_query_enhanced(user_input: str) -> Dict:
         resolved_venue = resolve_venue(user_input)
         if resolved_venue:
             tags["venue"] = resolved_venue
+    except Exception:
+        pass
+
+    # Attempt to resolve executing_bd from broker aliases
+    try:
+        broker_aliases = load_broker_aliases()
+        if broker_aliases and "executing_bd_map" in broker_aliases:
+            resolved_broker = resolve_executing_bd(user_input, broker_aliases["executing_bd_map"])
+            if resolved_broker:
+                tags["executing_bd"] = resolved_broker
     except Exception:
         pass
 
@@ -717,9 +736,22 @@ def resolve_venue_from_db(user_input: str) -> Optional[str]:
     try:
         import psycopg2
         from dotenv import load_dotenv
-        
+
         load_dotenv()
-        
+
+        # Skip if query contains generic "each venue/venues" or similar phrases
+        text = user_input.lower()
+        if re.search(r'\beach\s+(venue|venues|exchange|market)\b|\b(venue|venues|exchange|market)s?\s+each\b|\bper\s+(venue|venues|exchange|market)\b|\bby\s+(venue|venues|exchange|market)\b', text):
+            return None
+
+        # Skip top-per-group queries like "top venue per broker"
+        if re.search(r'\btop\b.*\b(venue|venues)\b.*\bper\b', text):
+            return None
+
+        # Skip queries grouping by broker/executing (e.g., "PFOF by broker", "volume by executing bd")
+        if re.search(r'\bby\s+(broker|brokers?|executing)', text):
+            return None
+
         conn = psycopg2.connect(
             host=os.getenv("DB_HOST"),
             port=os.getenv("DB_PORT", 5432),
@@ -728,30 +760,55 @@ def resolve_venue_from_db(user_input: str) -> Optional[str]:
             password=os.getenv("DB_PASSWORD"),
         )
         cursor = conn.cursor()
-        
-        # Split user input into words and check for matches
-        words = user_input.lower().split()
-        
-        for word in words:
-            # Clean the word (remove punctuation)
-            clean_word = re.sub(r'[^\w]', '', word)
-            if len(clean_word) < 3:  # Skip very short words
+
+        # Fetch all venue aliases from database
+        cursor.execute(
+            "SELECT canonical_name, aliases FROM venue_mapping"
+        )
+        venue_mappings = cursor.fetchall()
+
+        text = user_input.lower()
+
+        # Skip generic words that shouldn't trigger venue matching
+        generic_words = {'each', 'broker', 'brokers', 'venue', 'venues', 'exchange',
+                        'market', 'volume', 'pfof', 'estimated', 'options', 'option',
+                        'stocks', 'stock', 'shares', 'share', 'tape', 'top', 'per',
+                        'highest', 'lowest', 'most', 'least', 'compare', 'and', 'by',
+                        'for', 'in', 'the', 'a', 'an', 'is', 'are', 'was', 'were',
+                        'total', 'sum', 'count', 'avg', 'average'}
+
+        # Try to match aliases using word boundaries (most specific first)
+        for canonical_name, aliases_json in venue_mappings:
+            try:
+                import json
+                aliases = json.loads(aliases_json) if aliases_json else []
+            except:
                 continue
-                
-            cursor.execute(
-                "SELECT canonical_name FROM venue_mapping WHERE alias ILIKE %s LIMIT 1",
-                (f"%{clean_word}%",)
-            )
-            result = cursor.fetchone()
-            if result:
-                cursor.close()
-                conn.close()
-                return result[0]
-        
+
+            for alias in aliases:
+                alias_lower = alias.lower().strip()
+
+                # Skip single-word aliases that are generic terms
+                if ' ' not in alias_lower and alias_lower in generic_words:
+                    continue
+
+                # Skip very short aliases (< 3 chars) to avoid false positives
+                if len(alias_lower) < 3:
+                    continue
+
+                # Use word boundaries for precise matching
+                # Match "citadel" but not "cit" in "citadel"
+                # Match "israel englander" as a phrase
+                pattern = r'\b' + re.escape(alias_lower) + r'\b'
+                if re.search(pattern, text):
+                    cursor.close()
+                    conn.close()
+                    return canonical_name
+
         cursor.close()
         conn.close()
         return None
-        
+
     except Exception as e:
         # print(f"Error resolving venue: {e}")
         return None
@@ -774,12 +831,21 @@ def load_broker_aliases(filename: str = "executing_bd_aliases.json") -> dict:
         return {}
 
 def resolve_executing_bd(user_input: str, alias_map: dict) -> Optional[str]:
-    """Resolve executing broker alias to canonical name"""
+    """Resolve executing broker alias to canonical name using word boundary matching"""
+    import re
     text = user_input.lower()
-    
+
+    # Skip if query contains generic "each broker/brokers" phrases
+    if re.search(r'\beach\s+brokers?\b|\bbrokers?\s+each\b|\bper\s+brokers?\b|\bby\s+brokers?\b', text):
+        return None
+
+    # Match aliases with word boundaries to avoid partial matches
     for canonical_name, aliases in alias_map.items():
         for alias in aliases:
-            if alias.lower() in text:
+            # Use word boundaries for more precise matching
+            # \b ensures we match whole words/phrases
+            pattern = r'\b' + re.escape(alias.lower()) + r'\b'
+            if re.search(pattern, text):
                 return canonical_name
     return None
 

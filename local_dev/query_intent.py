@@ -46,6 +46,15 @@ class QueryIntent:
             "month": tags.get("month"),
             "quarter": tags.get("quarter"),
         }
+
+        # Build filters dict from tags - include common filter fields
+        filters: Dict[str, str] = dict(tags.get("filters", {})) if isinstance(tags.get("filters", {}), dict) else {}
+
+        # Add stock_group, market_participant, ats_name, tier if present in tags
+        for filter_key in ("stock_group", "market_participant", "ats_name", "tier"):
+            if filter_key in tags and tags[filter_key]:
+                filters[filter_key] = tags[filter_key]
+
         return cls(
             topic=tags.get("topic"),
             metric=tags.get("metric"),
@@ -53,7 +62,7 @@ class QueryIntent:
             entities=entities,
             period=period,
             dimensions=list(tags.get("dimensions", [])) if isinstance(tags.get("dimensions", []), list) else [],
-            filters=dict(tags.get("filters", {})) if isinstance(tags.get("filters", {}), dict) else {},
+            filters=filters,
             operation=tags.get("operation"),
             aggregation=tags.get("aggregation"),
             order_by=tags.get("order_by"),

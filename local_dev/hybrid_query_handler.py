@@ -1519,6 +1519,83 @@ def is_complex_multi_table_query(query_tags: Dict) -> bool:
     # Complex if multiple patterns or specific complex patterns
     return pattern_count >= 3 or query_tags.get('mentions_trend')
 
+def _generate_narrative_response(user_input: str, results: List[Dict], query_tags: Dict) -> str:
+    """Generate a natural language narrative response from query results"""
+    from decimal import Decimal
+
+    # Check if narrative generation is disabled
+    import os
+    if os.getenv("DISABLE_NARRATIVE", "false").lower() == "true":
+        return ""
+
+    if not results:
+        return "No data found for the specified query."
+
+    # Convert Decimal objects to float for JSON serialization
+    def convert_decimals(obj):
+        if isinstance(obj, list):
+            return [convert_decimals(item) for item in obj]
+        elif isinstance(obj, dict):
+            return {key: convert_decimals(value) for key, value in obj.items()}
+        elif isinstance(obj, Decimal):
+            return float(obj)
+        return obj
+
+    results_serializable = convert_decimals(results)
+
+    # Build a concise summary of the results
+    result_summary = json.dumps(results_serializable[:10], indent=2)  # Limit to first 10 rows
+    if len(results) > 10:
+        result_summary += f"\n... and {len(results) - 10} more rows"
+
+    # Build narrative prompt
+    narrative_prompt = f"""Based on the following query and results, provide a clear, concise natural language answer.
+
+User Question: {user_input}
+
+Query Results:
+{result_summary}
+
+Instructions:
+- Provide a direct answer to the question in plain English, as if speaking to a business analyst
+- Include specific numbers and data points from the results
+- Format large currency values with $ and appropriate units (e.g., $72.3M for millions, $1.2B for billions)
+- Format large numbers with commas or abbreviations (e.g., 225.7 billion shares)
+- If results include multiple rows, mention the top entries or summarize key patterns
+- Keep the response to 2-3 sentences maximum
+- Be factual and precise
+- Do NOT use markdown formatting, technical jargon, or reference column names
+
+Answer:"""
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are a financial data analyst providing concise, accurate answers about market data."},
+                {"role": "user", "content": narrative_prompt}
+            ],
+            temperature=0.3,
+            max_tokens=200
+        )
+
+        return response.choices[0].message.content.strip()
+
+    except Exception as e:
+        # Fallback to simple text summary if OpenAI fails
+        if len(results) == 1 and len(results[0]) == 1:
+            # Single value result
+            key = list(results[0].keys())[0]
+            value = results[0][key]
+            if isinstance(value, (int, float)):
+                if "pfof" in key.lower() or "usd" in key.lower():
+                    return f"The result is ${value:,.2f}."
+                else:
+                    return f"The result is {value:,}."
+            return f"The result is {value}."
+        else:
+            return f"Found {len(results)} result(s)."
+
 def route_hybrid_query(user_input: str, query_tags: Dict) -> Dict:
     """Route query to appropriate handler based on complexity"""
     
@@ -1533,13 +1610,18 @@ def route_hybrid_query(user_input: str, query_tags: Dict) -> Dict:
                 rows = cursor.fetchall()
                 cols = [d[0] for d in cursor.description] if cursor.description else []
                 formatted = [dict(zip(cols, r)) for r in rows] if rows else []
+
+                # Generate narrative response
+                narrative = _generate_narrative_response(user_input, formatted, query_tags)
+
                 return {
                     "question": user_input,
                     "query_type": "direct_single",
                     "sql": planned_sql,
                     "results": formatted,
                     "row_count": len(formatted),
-                    "query_classification": query_tags
+                    "query_classification": query_tags,
+                    "response": narrative
                 }
             except Exception as e_pl:
                 try:

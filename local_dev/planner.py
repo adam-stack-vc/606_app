@@ -6,6 +6,7 @@ Maps QueryIntent + tags to a single-shot SQL using templates.
 Default path for most questions; falls back to complex only when multi-part.
 """
 
+import re
 from typing import Dict, Optional, Tuple
 
 from query_intent import QueryIntent
@@ -15,6 +16,8 @@ from sql_templates import (
     build_top_n,
     build_top_per_group,
     build_earliest_latest,
+    build_string_length,
+    build_cross_table_entity_list,
 )
 from capability_registry import allowed_metric
 
@@ -35,7 +38,7 @@ def _detect_table(tags: Dict) -> str:
     if any(k in text for k in ["ats", "alternative trading system", "dark pool"]):
         return "finra_ats"
     # Market/trades/notional questions
-    if any(k in text for k in ["market", "total shares", "notional", "trade count", "market participant"]):
+    if any(k in text for k in ["market", "total shares", "notional", "trade count", "market participant", "total trades", " trades ", " trade "]):
         return "monthly_data"
     # Default to 606 for broker/venue/PFOF/rate/volume-estimation
     return "executing_bd_606"
@@ -44,6 +47,13 @@ def _detect_table(tags: Dict) -> str:
 def _detect_operation_and_dims(tags: Dict) -> Tuple[str, list]:
     text = (tags.get("_text") or "").lower()
     dims = []
+    # Special: cross-table entity listing (e.g., "list all entities across the system")
+    if re.search(r'\b(entities|names|participants)\b.*\b(across|system|all tables)\b', text) or \
+       re.search(r'\b(across|system)\b.*\b(entities|names|participants)\b', text):
+        return "cross_table_list", dims
+    # Special: string length queries like "longest name" or "shortest name"
+    if re.search(r'\b(longest|shortest)\b.*\bname\b', text):
+        return "string_length", dims
     # list/distinct
     if any(w in text for w in ["list", "show", "display"]) and any(w in text for w in ["unique", "distinct", "all"]):
         return "list", dims
@@ -52,17 +62,43 @@ def _detect_operation_and_dims(tags: Dict) -> Tuple[str, list]:
         # Do not force an operation here; let dims be added and use aggregate
         # Dims will be inferred below in plan_single_sql
         return "aggregate", dims
-    # top N
-    if any(w in text for w in ["top", "highest", "most", "largest"]):
+    # "which month/quarter/year" with superlative (lowest/highest)
+    if ("which month" in text or "what month" in text) and any(w in text for w in ["lowest", "highest", "most", "largest", "smallest", "biggest"]):
+        return "topN", ["month"]
+    if ("which quarter" in text or "what quarter" in text) and any(w in text for w in ["lowest", "highest", "most", "largest", "smallest", "biggest"]):
+        return "topN", ["quarter"]
+    # top N / superlatives
+    if any(w in text for w in ["top", "highest", "most", "largest", "biggest"]):
+        return "topN", dims
+    if any(w in text for w in ["lowest", "smallest", "minimum", "least"]):
         return "topN", dims
     # earliest/latest
     if any(w in text for w in ["earliest", "first"]):
         return "earliest", dims
     if any(w in text for w in ["latest", "newest", "most recent"]):
         return "latest", dims
-    # top-per-group
+    # top-per-group patterns: "top X per Y", "for each Y", etc.
     if any(phrase in text for phrase in ["for each stock group", "per stock group", "by stock group"]):
         dims = ["stock_group", "executing_bd"]
+        return "top_per_group", dims
+    # "for each quarter/month/year, top..." or "top ... per quarter/month/year"
+    if re.search(r'\bfor each (quarter|month|year)\b', text) and any(w in text for w in ["top", "highest", "most", "largest", "biggest"]):
+        # Extract the partition dimension (quarter/month/year)
+        match = re.search(r'\bfor each (quarter|month|year)\b', text)
+        if match:
+            dims = [match.group(1)]
+            return "top_per_group", dims
+    if re.search(r'\btop\b.*\bper (quarter|month|year)\b', text):
+        match = re.search(r'\bper (quarter|month|year)\b', text)
+        if match:
+            dims = [match.group(1)]
+            return "top_per_group", dims
+    # "top venue per broker" or "for each broker, top venue"
+    if re.search(r'\btop\b.*\bper (broker|brokers?|executing.?bd)\b', text) or re.search(r'\bfor each (broker|brokers?|executing.?bd)\b.*\btop\b', text):
+        dims = ["executing_bd"]
+        return "top_per_group", dims
+    if re.search(r'\btop\b.*\bper (venue|venues)\b', text) or re.search(r'\bfor each (venue|venues)\b.*\btop\b', text):
+        dims = ["venues"]
         return "top_per_group", dims
     # fall back to aggregate
     if any(w in text for w in ["sum", "total", "aggregate", "across"]):
@@ -73,12 +109,24 @@ def _detect_operation_and_dims(tags: Dict) -> Tuple[str, list]:
 
 def _infer_dimension_from_text(table: str, tags: Dict) -> Optional[str]:
     text = (tags.get("_text") or "").lower()
-    if "executing broker" in text or "executing brokers" in text or "brokers" in text:
+
+    # Check for temporal dimensions first (most specific)
+    if re.search(r'\bquarters?\b', text):
+        return "quarter"
+    if re.search(r'\bmonths?\b', text):
+        return "month"
+    if re.search(r'\byears?\b', text):
+        return "year"
+
+    # Entity dimensions
+    if "executing broker" in text or "executing brokers" in text or "brokers" in text or "broker" in text:
         return "executing_bd" if table == "executing_bd_606" else None
     if "venues" in text or "venue" in text:
         return "venues" if table == "executing_bd_606" else None
     if "market participant" in text and table == "monthly_data":
         return "market_participant"
+    if "ats" in text and table == "finra_ats":
+        return "ats_name"
     return None
 
 
@@ -91,10 +139,42 @@ def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
     intent = QueryIntent.from_tags(tags)
     table = _detect_table(tags)
 
+    # Detect multi-metric queries (e.g., "compare PFOF and volume")
+    text_lower = user_input.lower()
+    is_multi_metric = False
+    if ("pfof" in text_lower and ("volume" in text_lower or "estimated" in text_lower)) or \
+       ("compare" in text_lower and "and" in text_lower):
+        # Check if this is a comparison query with multiple metrics from same table
+        if table == "executing_bd_606":
+            is_multi_metric = True
+
     # Metric defaults
     if not intent.metric:
-        if table == "executing_bd_606":
-            # Prefer PFOF for broker/venue questions
+        # Check for specific metric mentions
+        if is_multi_metric and table == "executing_bd_606":
+            # Multi-metric query: PFOF and volume
+            intent.metric = "pfof_and_volume"
+            intent.aggregation = "SUM"
+        elif "tape a" in text_lower:
+            intent.metric = "tape_a"
+            intent.aggregation = "SUM"
+        elif "tape b" in text_lower:
+            intent.metric = "tape_b"
+            intent.aggregation = "SUM"
+        elif "tape c" in text_lower:
+            intent.metric = "tape_c"
+            intent.aggregation = "SUM"
+        elif tags.get("mentions_tape") and table == "monthly_data":
+            intent.metric = "tape"  # All tapes
+            intent.aggregation = "SUM"
+        elif "trades" in text_lower or "trade count" in text_lower:
+            intent.metric = "trades"
+            intent.aggregation = "SUM"
+        elif tags.get("mentions_volume"):
+            intent.metric = "volume"
+            intent.aggregation = "SUM"
+        elif table == "executing_bd_606":
+            # Default to PFOF for broker/venue questions if no metric mentioned
             intent.metric = "pfof"
             intent.aggregation = "SUM"
         elif table == "monthly_data":
@@ -165,6 +245,41 @@ def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
                 continue
         return None
 
+    # Cross-table entity listing
+    if op == "cross_table_list":
+        text_lower = user_input.lower()
+        # Extract limit if specified (e.g., "first 10", "top 20")
+        limit_match = re.search(r'\b(first|top)\s+(\d+)\b', text_lower)
+        limit = int(limit_match.group(2)) if limit_match else 30
+        return build_cross_table_entity_list(intent, limit)
+
+    # String Length (longest/shortest name)
+    if op == "string_length":
+        text_lower = user_input.lower()
+        # Determine which column to measure
+        column = None
+        if "broker" in text_lower or "executing" in text_lower:
+            column = "executing_bd" if table == "executing_bd_606" else None
+        elif "venue" in text_lower:
+            column = "venues" if table == "executing_bd_606" else None
+        elif "ats" in text_lower and table == "finra_ats":
+            column = "ats_name"
+        elif "market participant" in text_lower and table == "monthly_data":
+            column = "market_participant"
+
+        if not column:
+            # Try to infer from table
+            if table == "executing_bd_606":
+                column = "executing_bd"
+            elif table == "monthly_data":
+                column = "market_participant"
+            elif table == "finra_ats":
+                column = "ats_name"
+
+        if column:
+            is_longest = "longest" in text_lower
+            return build_string_length(intent, table, column, is_longest)
+
     # Earliest/Latest
     if op in ("earliest", "latest"):
         return build_earliest_latest(intent, table, earliest=(op == "earliest"))
@@ -173,15 +288,52 @@ def plan_single_sql(user_input: str, tags: Dict) -> Optional[str]:
     if op == "topN":
         # If user said "top 3", try to infer n
         import re
-        m = re.search(r"top\\s+(\\d+)", user_input.lower())
+        m = re.search(r"top\s+(\d+)", user_input.lower())
         if m:
             intent.top_n = int(m.group(1))
-        intent.top_n = intent.top_n or 10
+        intent.top_n = intent.top_n or 1  # Default to 1 for "which month" queries
+
+        # Check if this is a "lowest/minimum" query (reverse sort)
+        text_lower = user_input.lower()
+        if any(w in text_lower for w in ["lowest", "smallest", "minimum", "least"]):
+            intent.order_desc = False
+
         return build_top_n(intent, table)
 
     # Top per group
     if op == "top_per_group":
-        partition_dim = "stock_group"
+        # Extract partition dimension from intent.dimensions (first dimension is the partition key)
+        if intent.dimensions and len(intent.dimensions) > 0:
+            partition_dim = intent.dimensions[0]
+        else:
+            # Fallback to stock_group for legacy queries
+            partition_dim = "stock_group"
+
+        # Infer the entity dimension being ranked (e.g., "market participant" in "top participant per quarter")
+        text_lower = user_input.lower()
+        if not intent.dimensions or len(intent.dimensions) < 2:
+            # Try to infer what entity is being ranked
+            if "market participant" in text_lower and table == "monthly_data":
+                if not intent.dimensions:
+                    intent.dimensions = [partition_dim, "market_participant"]
+                elif len(intent.dimensions) == 1:
+                    intent.dimensions.append("market_participant")
+            elif ("broker" in text_lower or "executing" in text_lower) and table == "executing_bd_606":
+                if not intent.dimensions:
+                    intent.dimensions = [partition_dim, "executing_bd"]
+                elif len(intent.dimensions) == 1:
+                    intent.dimensions.append("executing_bd")
+            elif "venue" in text_lower and table == "executing_bd_606":
+                if not intent.dimensions:
+                    intent.dimensions = [partition_dim, "venues"]
+                elif len(intent.dimensions) == 1:
+                    intent.dimensions.append("venues")
+            elif "ats" in text_lower and table == "finra_ats":
+                if not intent.dimensions:
+                    intent.dimensions = [partition_dim, "ats_name"]
+                elif len(intent.dimensions) == 1:
+                    intent.dimensions.append("ats_name")
+
         return build_top_per_group(intent, table, partition_dim)
 
     # Aggregate default (with or without dims)

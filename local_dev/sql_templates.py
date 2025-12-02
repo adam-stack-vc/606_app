@@ -39,8 +39,25 @@ def _time_filters(table: str, intent: QueryIntent) -> List[str]:
         where.append(f"{caps.time.year_col} = {int(y)}")
     if caps.time.month_col and m is not None:
         where.append(f"{caps.time.month_col} = '{int(m)}'")
-    if caps.time.quarter_col and q is not None:
-        where.append(f"{caps.time.quarter_col} = '{int(q)}'")
+
+    # Handle quarter filtering
+    if q is not None:
+        if caps.time.quarter_col:
+            # Table has explicit quarter column
+            where.append(f"{caps.time.quarter_col} = '{int(q)}'")
+        elif caps.time.month_col and not m:
+            # Table has month column but no quarter column - convert quarter to months
+            quarter_months = {
+                1: [1, 2, 3],
+                2: [4, 5, 6],
+                3: [7, 8, 9],
+                4: [10, 11, 12]
+            }
+            if q in quarter_months:
+                months_in_q = quarter_months[q]
+                # Use IN clause for quarter months
+                month_list = ','.join(f"'{m}'" for m in months_in_q)
+                where.append(f"{caps.time.month_col} IN ({month_list})")
 
     # monthly_data uses 'day' and requires EXTRACT
     if caps.time.day_col:
@@ -72,6 +89,22 @@ def _metric_select(table: str, intent: QueryIntent) -> str:
     agg = (intent.aggregation or "SUM").upper()
 
     if table == "executing_bd_606":
+        if metric == "pfof_and_volume":
+            # Multi-metric: both PFOF and estimated volume
+            pfof_expr = f"{agg}({_pfof_sum_expr(table)}) AS total_pfof_usd"
+            volume_expr = (
+                "CASE WHEN AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) + "
+                "COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) + "
+                "COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) + "
+                "COALESCE(netpmtpaidrecvotherorderscph, 0)) > 0 "
+                f"THEN ROUND(({_pfof_sum_expr(table)}::numeric / "
+                "AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) + "
+                "COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) + "
+                "COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) + "
+                "COALESCE(netpmtpaidrecvotherorderscph, 0))) * 100, 2) "
+                "ELSE 0 END AS estimated_volume"
+            )
+            return f"{pfof_expr}, {volume_expr}"
         if metric == "pfof":
             return f"{agg}({_pfof_sum_expr(table)}) AS total_pfof_usd"
         if metric == "rate":
@@ -99,12 +132,25 @@ def _metric_select(table: str, intent: QueryIntent) -> str:
     elif table == "monthly_data":
         if metric == "volume":
             return "SUM(total_shares) AS total_shares"
+        if metric == "trades":
+            return "SUM(total_trades) AS total_trades"
+        if metric == "tape_a" or metric == "tape a":
+            return "SUM(tape_a_shares) AS tape_a_shares"
+        if metric == "tape_b" or metric == "tape b":
+            return "SUM(tape_b_shares) AS tape_b_shares"
+        if metric == "tape_c" or metric == "tape c":
+            return "SUM(tape_c_shares) AS tape_c_shares"
+        if metric == "tape":
+            # Return all three tapes
+            return "SUM(tape_a_shares) AS tape_a_shares, SUM(tape_b_shares) AS tape_b_shares, SUM(tape_c_shares) AS tape_c_shares"
         if metric == "date":
             # For earliest/latest, selection handled in earliest_latest template
             return "1 AS _noop"
     elif table == "finra_ats":
         if metric == "volume":
             return "SUM(total_shares) AS total_shares"
+        if metric == "trades":
+            return "SUM(total_trades) AS total_trades"
     # Default noop
     return "1 AS _noop"
 
@@ -113,7 +159,45 @@ def build_distinct(intent: QueryIntent, table: str, column: str) -> str:
     caps = get_capabilities(table)
     if not caps:
         raise ValueError(f"Unknown table: {table}")
-    col = _safe_ident(column)
+
+    # Check if this is a temporal dimension (month/quarter/year) on a table with day column
+    is_temporal = column in ["month", "quarter", "year"]
+
+    if is_temporal and caps.time.day_col:
+        # Use EXTRACT for temporal dimensions
+        if column == "month":
+            select_expr = f"EXTRACT(MONTH FROM {caps.time.day_col}) AS month"
+            order_expr = "month"
+        elif column == "quarter":
+            select_expr = f"EXTRACT(QUARTER FROM {caps.time.day_col}) AS quarter"
+            order_expr = "quarter"
+        elif column == "year":
+            select_expr = f"EXTRACT(YEAR FROM {caps.time.day_col}) AS year"
+            order_expr = "year"
+
+        where = _time_filters(table, intent)
+        where_clause = " AND ".join(where) if where else "TRUE"
+
+        return (
+            f"SELECT DISTINCT {select_expr}\n"
+            f"FROM {table}\n"
+            f"WHERE {where_clause}\n"
+            f"ORDER BY {order_expr};"
+        )
+    elif is_temporal and (caps.time.quarter_col or caps.time.month_col or caps.time.year_col):
+        # Table has explicit temporal columns
+        if column == "quarter" and caps.time.quarter_col:
+            col = caps.time.quarter_col
+        elif column == "month" and caps.time.month_col:
+            col = caps.time.month_col
+        elif column == "year" and caps.time.year_col:
+            col = caps.time.year_col
+        else:
+            raise ValueError(f"Table {table} does not support temporal dimension: {column}")
+    else:
+        # Regular column
+        col = _safe_ident(column)
+
     where = _time_filters(table, intent)
     where.append(f"{col} IS NOT NULL")
     where.append(f"{col} != ''")
@@ -130,16 +214,75 @@ def build_aggregate(intent: QueryIntent, table: str) -> str:
     caps = get_capabilities(table)
     if not caps:
         raise ValueError(f"Unknown table: {table}")
-    dims = validate_dimensions(table, intent.dimensions or [])
+
+    # Handle temporal dimensions specially for tables with day columns
+    dims = []
+    temporal_dims = []
+    requested_dims = intent.dimensions or []
+
+    for dim in requested_dims:
+        if dim in caps.allowed_dimensions:
+            dims.append(dim)
+        elif dim in ["month", "quarter", "year"] and caps.time.day_col:
+            # Table uses day column, need EXTRACT for temporal dimensions
+            temporal_dims.append(dim)
+        elif dim not in ["month", "quarter", "year"]:
+            # Regular dimension but not allowed - validate will filter it
+            if dim in caps.allowed_dimensions:
+                dims.append(dim)
+
     selects: List[str] = []
+    group_by_cols: List[str] = []
+
+    # Add temporal dimensions with EXTRACT
+    if temporal_dims and caps.time.day_col:
+        for tdim in temporal_dims:
+            if tdim == "month":
+                selects.append(f"EXTRACT(MONTH FROM {caps.time.day_col}) AS month")
+                group_by_cols.append(f"EXTRACT(MONTH FROM {caps.time.day_col})")
+            elif tdim == "quarter":
+                selects.append(f"EXTRACT(QUARTER FROM {caps.time.day_col}) AS quarter")
+                group_by_cols.append(f"EXTRACT(QUARTER FROM {caps.time.day_col})")
+            elif tdim == "year":
+                selects.append(f"EXTRACT(YEAR FROM {caps.time.day_col}) AS year")
+                group_by_cols.append(f"EXTRACT(YEAR FROM {caps.time.day_col})")
+
+    # Add regular dimensions
     if dims:
         selects.extend(dims)
+        group_by_cols.extend(dims)
+
     selects.append(_metric_select(table, intent))
     where = _time_filters(table, intent)
     if table == "executing_bd_606" and (intent.metric or "").lower() == "pfof":
         where.append("data_type = 'venue'")
+
+    # Add entity filters (e.g., executing_bd, venue)
+    if intent.entities:
+        for entity_key, entity_value in intent.entities.items():
+            if entity_value:
+                # Map entity names to actual column names
+                # venue -> venues (plural in executing_bd_606 table)
+                column_name = "venues" if entity_key == "venue" else entity_key
+
+                if column_name in caps.allowed_dimensions:
+                    # Escape single quotes in value
+                    safe_value = entity_value.replace("'", "''")
+                    where.append(f"{column_name} = '{safe_value}'")
+
+    # Add additional filters from intent.filters
+    # Common filters: stock_group, market_participant, ats_name, tier
+    if intent.filters:
+        for filter_key, filter_value in intent.filters.items():
+            if filter_value:
+                # Check if this is a valid column for the table
+                if filter_key in caps.columns or filter_key in caps.allowed_dimensions:
+                    # Escape single quotes in value
+                    safe_value = str(filter_value).replace("'", "''")
+                    where.append(f"{filter_key} = '{safe_value}'")
+
     where_clause = " AND ".join(where) if where else "TRUE"
-    group_by = f"GROUP BY {', '.join(dims)}\n" if dims else ""
+    group_by = f"GROUP BY {', '.join(group_by_cols)}\n" if group_by_cols else ""
     order = ""
     if intent.order_by:
         order = f"ORDER BY {intent.order_by} {'DESC' if intent.order_desc else 'ASC'}\n"
@@ -160,12 +303,23 @@ def build_top_n(intent: QueryIntent, table: str) -> str:
         raise ValueError("topN requires intent.top_n")
     if not intent.order_by:
         # Default order_by for known metrics
-        if (intent.metric or "").lower() == "pfof":
+        metric_lower = (intent.metric or "").lower()
+        if metric_lower == "pfof":
             intent.order_by = "total_pfof_usd"
-        elif (intent.metric or "").lower() == "volume":
+        elif metric_lower == "volume":
             intent.order_by = "total_shares" if table != "executing_bd_606" else "estimated_volume"
+        elif metric_lower == "trades":
+            intent.order_by = "total_trades"
+        elif metric_lower in ["tape_a", "tape a"]:
+            intent.order_by = "tape_a_shares"
+        elif metric_lower in ["tape_b", "tape b"]:
+            intent.order_by = "tape_b_shares"
+        elif metric_lower in ["tape_c", "tape c"]:
+            intent.order_by = "tape_c_shares"
     intent.limit = intent.top_n
-    intent.order_desc = True
+    # Only override order_desc if not already set
+    if intent.order_desc is None:
+        intent.order_desc = True
     return build_aggregate(intent, table)
 
 
@@ -173,8 +327,25 @@ def build_top_per_group(intent: QueryIntent, table: str, partition_dim: str) -> 
     caps = get_capabilities(table)
     if not caps:
         raise ValueError(f"Unknown table: {table}")
-    if partition_dim not in caps.allowed_dimensions:
+
+    # Check if partition_dim is temporal (month/quarter/year) or regular dimension
+    is_temporal = partition_dim in ["month", "quarter", "year"]
+
+    if not is_temporal and partition_dim not in caps.allowed_dimensions:
         raise ValueError(f"Invalid partition dimension: {partition_dim}")
+
+    # For temporal dimensions on tables with day column, we need EXTRACT in PARTITION BY
+    if is_temporal and caps.time.day_col:
+        # Build the EXTRACT expression for the partition
+        if partition_dim == "month":
+            partition_expr = f"EXTRACT(MONTH FROM {caps.time.day_col})"
+        elif partition_dim == "quarter":
+            partition_expr = f"EXTRACT(QUARTER FROM {caps.time.day_col})"
+        elif partition_dim == "year":
+            partition_expr = f"EXTRACT(YEAR FROM {caps.time.day_col})"
+    else:
+        partition_expr = partition_dim
+
     # Build base aggregate by (partition_dim, maybe entity dim)
     dims = [partition_dim]
     # if caller pre-sets a second dim (e.g., executing_bd), keep it
@@ -191,17 +362,23 @@ def build_top_per_group(intent: QueryIntent, table: str, partition_dim: str) -> 
         filters=intent.filters.copy(),
         aggregation="SUM",
     )
-    measure_alias = "total_pfof_usd" if (intent.metric or "").lower() == "pfof" else "total_shares"
+    metric_lower = (intent.metric or "").lower()
+    if metric_lower == "pfof":
+        measure_alias = "total_pfof_usd"
+    elif metric_lower == "trades":
+        measure_alias = "total_trades"
+    else:
+        measure_alias = "total_shares"
     base_sql = build_aggregate(inner_intent, table).rstrip(";")
     # Use row_number per group
     return (
         f"WITH base AS (\n{base_sql}\n)\n"
         f", ranked AS (\n"
-        f"  SELECT *, ROW_NUMBER() OVER (PARTITION BY {partition_dim} ORDER BY {measure_alias} DESC NULLS LAST) AS rn\n"
+        f"  SELECT *, ROW_NUMBER() OVER (PARTITION BY {partition_expr} ORDER BY {measure_alias} DESC NULLS LAST) AS rn\n"
         f"  FROM base\n"
         f")\n"
         f"SELECT * FROM ranked WHERE rn = 1\n"
-        f"ORDER BY {partition_dim};"
+        f"ORDER BY {partition_expr};"
     )
 
 
@@ -258,5 +435,71 @@ def build_earliest_latest(intent: QueryIntent, table: str, earliest: bool = True
         )
     # Fallback
     return f"SELECT 1 AS _noop FROM {table} WHERE FALSE;"
+
+
+def build_string_length(intent: QueryIntent, table: str, column: str, longest: bool = True) -> str:
+    """Build SQL to find the row with the longest or shortest string in a column"""
+    caps = get_capabilities(table)
+    if not caps:
+        raise ValueError(f"Unknown table: {table}")
+
+    col = _safe_ident(column)
+    where = _time_filters(table, intent)
+
+    # Add additional filters if present
+    if intent.filters:
+        for filter_key, filter_value in intent.filters.items():
+            if filter_value:
+                if filter_key in caps.columns or filter_key in caps.allowed_dimensions:
+                    safe_value = str(filter_value).replace("'", "''")
+                    where.append(f"{filter_key} = '{safe_value}'")
+
+    where.append(f"{col} IS NOT NULL")
+    where.append(f"{col} != ''")
+    where_clause = " AND ".join(where) if where else "TRUE"
+
+    order_dir = "DESC" if longest else "ASC"
+
+    return (
+        f"SELECT {col}, LENGTH({col}) AS name_length\n"
+        f"FROM {table}\n"
+        f"WHERE {where_clause}\n"
+        f"ORDER BY LENGTH({col}) {order_dir}\n"
+        "LIMIT 1;"
+    )
+
+
+def build_cross_table_entity_list(intent: QueryIntent, limit: int = 30) -> str:
+    """Build SQL to list unique entity names across all three tables (executing_bd_606, monthly_data, finra_ats)"""
+    # Extract year filter if present
+    year_filter = ""
+    if intent.period.get("year"):
+        year_val = int(intent.period["year"])
+        year_filter = f" WHERE year = {year_val}"
+
+    return (
+        "WITH all_entities AS (\n"
+        "  SELECT DISTINCT executing_bd AS entity_name, 'Broker' AS entity_type\n"
+        "  FROM executing_bd_606\n"
+        f" {year_filter}\n"
+        "  UNION\n"
+        "  SELECT DISTINCT venues AS entity_name, 'Venue' AS entity_type\n"
+        "  FROM executing_bd_606\n"
+        f" {year_filter if year_filter else ''}\n"
+        "  UNION\n"
+        "  SELECT DISTINCT market_participant AS entity_name, 'Market Participant' AS entity_type\n"
+        "  FROM monthly_data\n"
+        f" {year_filter.replace('year', 'EXTRACT(YEAR FROM day)') if year_filter else ''}\n"
+        "  UNION\n"
+        "  SELECT DISTINCT ats_name AS entity_name, 'ATS' AS entity_type\n"
+        "  FROM finra_ats\n"
+        f" {year_filter if year_filter else ''}\n"
+        ")\n"
+        "SELECT entity_name, entity_type\n"
+        "FROM all_entities\n"
+        "WHERE entity_name IS NOT NULL AND entity_name != ''\n"
+        "ORDER BY entity_name ASC\n"
+        f"LIMIT {int(limit)};"
+    )
 
 
