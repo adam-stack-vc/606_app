@@ -54,6 +54,15 @@ def _detect_operation_and_dims(tags: Dict) -> Tuple[str, list]:
     # Special: string length queries like "longest name" or "shortest name"
     if re.search(r'\b(longest|shortest)\b.*\bname\b', text):
         return "string_length", dims
+    # Interrogative queries: "who", "what", "which" often ask for lists/breakdowns
+    # "who paid..." = list of payers (venues)
+    # "what brokers/venues..." = list of entities
+    if text.startswith("who ") or text.startswith("what ") or text.startswith("which "):
+        # Exclude "which [time]" with superlatives (those are topN)
+        if not (("which month" in text or "what month" in text or "which quarter" in text or "what quarter" in text or "which year" in text or "what year" in text) and
+                any(w in text for w in ["lowest", "highest", "most", "largest", "smallest", "biggest"])):
+            # This is likely asking for a list/breakdown by dimension
+            return "aggregate", dims  # Will infer dimension later
     # list/distinct
     if any(w in text for w in ["list", "show", "display"]) and any(w in text for w in ["unique", "distinct", "all"]):
         return "list", dims
@@ -117,6 +126,27 @@ def _infer_dimension_from_text(table: str, tags: Dict) -> Optional[str]:
         return "month"
     if re.search(r'\byears?\b', text):
         return "year"
+
+    # Interrogative patterns that indicate dimension
+    # "who paid [broker]" or "who received" in PFOF context = venues dimension
+    if text.startswith("who "):
+        if any(w in text for w in ["paid", "pay", "payment", "pfof", "received", "receive"]):
+            # If broker mentioned, user wants to know which venues
+            # If venue mentioned, user wants to know which brokers
+            if any(w in text for w in ["broker", "brokers", "executing"]):
+                return "venues" if table == "executing_bd_606" else None
+            elif any(w in text for w in ["venue", "venues", "exchange"]):
+                return "executing_bd" if table == "executing_bd_606" else None
+            # Default: if PFOF context, probably asking about venues
+            if table == "executing_bd_606":
+                return "venues"
+
+    # "what brokers/venues..." = list those entities
+    if text.startswith("what "):
+        if any(w in text for w in ["broker", "brokers", "executing"]):
+            return "executing_bd" if table == "executing_bd_606" else None
+        if any(w in text for w in ["venue", "venues", "exchange"]):
+            return "venues" if table == "executing_bd_606" else None
 
     # Entity dimensions
     if "executing broker" in text or "executing brokers" in text or "brokers" in text or "broker" in text:
