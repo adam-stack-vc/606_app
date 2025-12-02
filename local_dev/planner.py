@@ -214,7 +214,9 @@ def _build_sql_from_intent(intent: QueryIntent, table: str, user_input: str) -> 
     # Simple "list distinct" handling
     if op == "list":
         if intent.dimensions and len(intent.dimensions) > 0:
-            return build_distinct(intent, table, intent.dimensions[0])
+            # Pass single dimension or list of dimensions
+            dims = intent.dimensions if len(intent.dimensions) > 1 else intent.dimensions[0]
+            return build_distinct(intent, table, dims)
         return None
 
     # Count operation

@@ -156,7 +156,82 @@ def _metric_select(table: str, intent: QueryIntent) -> str:
     return "1 AS _noop"
 
 
-def build_distinct(intent: QueryIntent, table: str, column: str) -> str:
+def build_distinct(intent: QueryIntent, table: str, column: str | list[str]) -> str:
+    """
+    Build a SELECT DISTINCT query for one or more columns.
+
+    Args:
+        intent: QueryIntent with filters
+        table: Table name
+        column: Single column name or list of column names
+
+    Returns:
+        SQL query string
+    """
+    caps = get_capabilities(table)
+    if not caps:
+        raise ValueError(f"Unknown table: {table}")
+
+    # Handle multiple columns
+    if isinstance(column, list):
+        columns = column
+    else:
+        columns = [column]
+
+    # Build SELECT expressions for each column
+    select_exprs = []
+    order_exprs = []
+
+    for col in columns:
+        # Check if this is a temporal dimension (month/quarter/year) on a table with day column
+        is_temporal = col in ["month", "quarter", "year"]
+
+        if is_temporal and caps.time.day_col:
+            # Use EXTRACT for temporal dimensions
+            if col == "month":
+                select_exprs.append(f"EXTRACT(MONTH FROM {caps.time.day_col}) AS month")
+                order_exprs.append("month")
+            elif col == "quarter":
+                select_exprs.append(f"EXTRACT(QUARTER FROM {caps.time.day_col}) AS quarter")
+                order_exprs.append("quarter")
+            elif col == "year":
+                select_exprs.append(f"EXTRACT(YEAR FROM {caps.time.day_col}) AS year")
+                order_exprs.append("year")
+        elif is_temporal and (caps.time.quarter_col or caps.time.month_col or caps.time.year_col):
+            # Table has explicit temporal columns
+            if col == "quarter" and caps.time.quarter_col:
+                select_exprs.append(f"{caps.time.quarter_col}")
+                order_exprs.append(f"{caps.time.quarter_col}")
+            elif col == "month" and caps.time.month_col:
+                select_exprs.append(f"{caps.time.month_col}")
+                order_exprs.append(f"{caps.time.month_col}")
+            elif col == "year" and caps.time.year_col:
+                select_exprs.append(f"{caps.time.year_col}")
+                order_exprs.append(f"{caps.time.year_col}")
+        else:
+            # Regular column
+            select_exprs.append(f"{_safe_ident(col)}")
+            order_exprs.append(f"{_safe_ident(col)}")
+
+    where = _time_filters(table, intent)
+    # Add NOT NULL checks for all columns
+    for col in columns:
+        if col not in ["month", "quarter", "year"]:  # temporal columns handled separately
+            where.append(f"{_safe_ident(col)} IS NOT NULL")
+            where.append(f"{_safe_ident(col)} != ''")
+
+    where_clause = " AND ".join(where) if where else "TRUE"
+
+    return (
+        f"SELECT DISTINCT {', '.join(select_exprs)}\n"
+        f"FROM {table}\n"
+        f"WHERE {where_clause}\n"
+        f"ORDER BY {', '.join(order_exprs)};"
+    )
+
+
+def _build_distinct_single_column_legacy(intent: QueryIntent, table: str, column: str) -> str:
+    """Legacy single-column version - keeping for reference but not used"""
     caps = get_capabilities(table)
     if not caps:
         raise ValueError(f"Unknown table: {table}")

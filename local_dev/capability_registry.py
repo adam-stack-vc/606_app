@@ -49,7 +49,7 @@ REGISTRY: Dict[str, TableCapabilities] = {
             "data_type",
         },
         allowed_dimensions={"executing_bd", "venues", "stock_group"},
-        allowed_metrics={"pfof", "volume", "rate", "date"},
+        allowed_metrics={"pfof", "volume", "rate", "date", "pfof_and_volume"},
         time=TimeInfo(year_col="year", month_col="month", quarter_col=None, day_col=None),
         notes="Primary 606 table; time columns as discrete year/month strings; ensure data_type='venue' for PFOF."
     ),
@@ -66,7 +66,7 @@ REGISTRY: Dict[str, TableCapabilities] = {
             "tape_c_shares",
         },
         allowed_dimensions={"market_participant"},
-        allowed_metrics={"volume", "date"},
+        allowed_metrics={"volume", "date", "trades"},
         time=TimeInfo(year_col=None, month_col=None, quarter_col=None, day_col="day"),
         notes="Day is a date; must use EXTRACT for bucketing. Do not select raw 'day' with aggregates unless grouped."
     ),
@@ -74,7 +74,7 @@ REGISTRY: Dict[str, TableCapabilities] = {
         name="finra_ats",
         columns={"year", "quarter", "ats_name", "tier", "total_trades", "total_shares"},
         allowed_dimensions={"ats_name", "tier"},
-        allowed_metrics={"volume", "date"},
+        allowed_metrics={"volume", "date", "trades"},
         time=TimeInfo(year_col="year", month_col=None, quarter_col="quarter", day_col=None),
         notes="Quarterly data; use year/quarter for filters and grouping."
     ),
