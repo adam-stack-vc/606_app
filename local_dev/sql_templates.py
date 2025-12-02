@@ -19,6 +19,7 @@ from capability_registry import (
     requires_monthly_data_bucketing,
     allowed_metric,
 )
+from value_normalizer import normalize_value
 
 
 def _safe_ident(name: str) -> str:
@@ -277,8 +278,10 @@ def build_aggregate(intent: QueryIntent, table: str) -> str:
             if filter_value:
                 # Check if this is a valid column for the table
                 if filter_key in caps.columns or filter_key in caps.allowed_dimensions:
+                    # Normalize value (e.g., "S&P 500" → "SP500")
+                    normalized_value = normalize_value(filter_key, str(filter_value))
                     # Escape single quotes in value
-                    safe_value = str(filter_value).replace("'", "''")
+                    safe_value = normalized_value.replace("'", "''")
                     where.append(f"{filter_key} = '{safe_value}'")
 
     where_clause = " AND ".join(where) if where else "TRUE"
@@ -569,7 +572,9 @@ def build_count(intent: QueryIntent, table: str, count_dimension: str) -> str:
 
     # Add filters from intent
     for key, val in intent.filters.items():
-        safe_val = str(val).replace("'", "''")
+        # Normalize value (e.g., "S&P 500" → "SP500")
+        normalized_val = normalize_value(key, str(val))
+        safe_val = normalized_val.replace("'", "''")
         where.append(f"{_safe_ident(key)} = '{safe_val}'")
 
     where_clause = " AND ".join(where) if where else "TRUE"
@@ -628,7 +633,9 @@ def build_per_entity_average(intent: QueryIntent, table: str, per_entity: str) -
 
     # Add filters from intent
     for key, val in intent.filters.items():
-        safe_val = str(val).replace("'", "''")
+        # Normalize value (e.g., "S&P 500" → "SP500")
+        normalized_val = normalize_value(key, str(val))
+        safe_val = normalized_val.replace("'", "''")
         where.append(f"{_safe_ident(key)} = '{safe_val}'")
 
     where.append(f"{_safe_ident(entity_column)} IS NOT NULL")

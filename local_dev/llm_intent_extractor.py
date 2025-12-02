@@ -216,8 +216,10 @@ Your task is to analyze the user's question and return a JSON object representin
 - **volume**: Total shares/notional (monthly_data, finra_ats) or estimated volume from cents-per-hundred (executing_bd_606)
 - **trades**: Trade count (monthly_data, finra_ats)
 - **pfof_and_volume**: Both PFOF and estimated volume (executing_bd_606 only)
-- **tape_a**, **tape_b**, **tape_c**: Tape-specific volume (monthly_data)
-- **tape**: All tapes (monthly_data)
+- **tape_a**: NYSE-listed stocks volume (synonyms: NYSE, NYSE stocks, NYSE listed)
+- **tape_b**: NASDAQ-listed stocks volume (synonyms: NASDAQ, Nasdaq stocks, NASDAQ listed)
+- **tape_c**: Other listings including ETFs (synonyms: ETF, ETFs, ETF listings)
+- **tape**: All tapes combined (monthly_data)
 
 # Entity Recognition
 - Broker names → entities.executing_bd (e.g., "Robinhood", "Citadel", "Charles Schwab")
@@ -227,7 +229,7 @@ Your task is to analyze the user's question and return a JSON object representin
 
 # Filters
 - **data_type**: Always "venue" for PFOF queries on executing_bd_606
-- **stock_group**: Price group filter (executing_bd_606)
+- **stock_group**: Price group filter (executing_bd_606). Synonyms: category, stock type, security type. Values like "SP500" can be written as "S&P 500", "S&P", etc.
 - **tier**: ATS tier filter (finra_ats)
 
 # Interrogative Patterns

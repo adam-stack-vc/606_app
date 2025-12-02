@@ -1,0 +1,19 @@
+{
+  "stock_group": {
+    "s&p": "SP500",
+    "s&p 500": "SP500",
+    "s&p500": "SP500",
+    "sp 500": "SP500",
+    "sp500": "SP500",
+    "s and p": "SP500",
+    "s and p 500": "SP500"
+  },
+  "tier": {
+  },
+  "_tape_concepts": {
+    "comment": "Tape type mappings for reference - these map to column metrics (tape_a_shares, tape_b_shares, tape_c_shares), not filter values",
+    "tape_a": ["NYSE Listed", "NYSE listings", "NYSE stocks", "New York Stock Exchange", "NYSE"],
+    "tape_b": ["NASDAQ Listed", "Nasdaq stocks", "NASDAQ listings", "Nasdaq", "NASDAQ"],
+    "tape_c": ["ETF listing", "ETF listings", "ETFs", "Exchange Traded Funds", "other listings"]
+  }
+}
