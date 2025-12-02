@@ -141,3 +141,8 @@ ORDER BY venues, stock_group;
 
 Citigroup Global Markets Inc. (Retail)
 
+{"id": 3, "question": "For each broker total PFOF in July 2025", "table_hint": "executing_bd_606", "intent": {"metric": "pfof", "operation": "aggregate", "dimensions": ["executing_bd"], "period": {"year": 2025, "month": 7}, "filters": {"data_type": "venue"}}, "expected_sql_shape": {"selects": ["executing_bd", "total_pfof"], "group_by": ["executing_bd"], "order_by": null, "order_desc": null, "limit": null}, "expected_result_shape": {"columns": ["executing_bd", "total_pfof"]}, "notes": "total_pfof = SUM(mkt_usd + mkt_limit_usd + nonm_limit_usd + other_usd); use your final alias e.g. total_pfof_usd"}
+
+
+
+
