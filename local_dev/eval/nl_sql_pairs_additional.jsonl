@@ -30,3 +30,39 @@
 {"id":45,"question":"Correlation prep: PFOF by month vs market volume by month (2024)","table_hint":"multi","intent":{"metric":"pfof","operation":"multi","dimensions":[],"period":{"year":2024},"filters":{}},"subqueries":[{"name":"pfof_by_month","intent":{"metric":"pfof","operation":"aggregate","dimensions":["month"],"period":{"year":2024},"filters":{"data_type":"venue"}},"expected_sql_shape":{"selects":["month","total_pfof_usd"],"group_by":["month"],"order_by":"month","order_desc":false,"limit":null}},{"name":"market_volume_by_month","intent":{"metric":"volume","operation":"aggregate","dimensions":["month"],"period":{"year":2024},"filters":{}},"expected_sql_shape":{"selects":["month","total_shares"],"group_by":["month"],"order_by":"month","order_desc":false,"limit":null}}],"expected_result_shape":{"blocks":["pfof_by_month.*","market_volume_by_month.*"]},"notes":"Parallel monthly series for potential correlation"}
 
 
+{"id":33,"question":"PFOF for schwab in April 2024","table_hint":"executing_bd_606","notes":"Test lowercase alias 'schwab' resolves to 'Charles Schwab'"}
+{"id":34,"question":"PFOF for SCHWAB in April 2024","table_hint":"executing_bd_606","notes":"Test uppercase alias 'SCHWAB' - case sensitivity check"}
+{"id":35,"question":"PFOF for charles schwab in April 2024","table_hint":"executing_bd_606","notes":"Test full name alias 'charles schwab'"}
+{"id":36,"question":"PFOF for SCHW in April 2024","table_hint":"executing_bd_606","notes":"Test ticker-style alias 'SCHW'"}
+{"id":37,"question":"PFOF from citadel in April 2024","table_hint":"executing_bd_606","notes":"Test venue alias 'citadel' (lowercase) resolves to 'Citadel Securities LLC'"}
+{"id":38,"question":"PFOF from CITADEL in April 2024","table_hint":"executing_bd_606","notes":"Test venue alias 'CITADEL' (uppercase) - case sensitivity"}
+{"id":39,"question":"PFOF from Citadel Securities in April 2024","table_hint":"executing_bd_606","notes":"Test partial canonical name 'Citadel Securities'"}
+{"id":40,"question":"PFOF from citadel securities llc in April 2024","table_hint":"executing_bd_606","notes":"Test full canonical name (lowercase) 'citadel securities llc'"}
+{"id":41,"question":"PFOF for td ameritrade in April 2024","table_hint":"executing_bd_606","notes":"Test alias with conflict - 'td ameritrade' should resolve to 'TD Ameritrade Clearing, Inc.' (not 'TD Ameritrade, Inc.')"}
+{"id":42,"question":"PFOF for TD in April 2024","table_hint":"executing_bd_606","notes":"Test short alias 'TD' - should resolve to 'TD Ameritrade, Inc.'"}
+{"id":43,"question":"PFOF for webull in April 2024","table_hint":"executing_bd_606","notes":"Test alias 'webull' resolves to 'Webull Financial LLC'"}
+{"id":44,"question":"PFOF for webull financial in April 2024","table_hint":"executing_bd_606","notes":"Test longer alias 'webull financial'"}
+{"id":45,"question":"PFOF from virtu in April 2024","table_hint":"executing_bd_606","notes":"Test venue alias 'virtu' resolves to 'Virtu Americas LLC'"}
+{"id":46,"question":"PFOF from wolverine in April 2024","table_hint":"executing_bd_606","notes":"Test venue alias 'wolverine' resolves to 'Wolverine Execution Services, LLC'"}
+{"id":47,"question":"PFOF from two sigma in April 2024","table_hint":"executing_bd_606","notes":"Test multi-word venue alias 'two sigma'"}
+{"id":48,"question":"PFOF from jane street in April 2024","table_hint":"executing_bd_606","notes":"Test venue alias 'jane street' resolves to 'Jane Street Capital, LLC'"}
+{"id":49,"question":"PFOF for bofa in April 2024","table_hint":"executing_bd_606","notes":"Test abbreviation 'bofa' resolves to 'BofA Securities, Inc.'"}
+{"id":50,"question":"PFOF for bank of america in April 2024","table_hint":"executing_bd_606","notes":"Test full name 'bank of america' resolves correctly (potential conflict with venue)"}
+{"id":51,"question":"PFOF from baml in April 2024","table_hint":"executing_bd_606","notes":"Test alias 'baml' for Bank of America Merrill Lynch (venue side, potential conflict)"}
+{"id":52,"question":"PFOF for ubs in April 2024","table_hint":"executing_bd_606","notes":"Test 'ubs' resolves to broker 'UBS Securities, LLC'"}
+{"id":53,"question":"PFOF from ubs in April 2024","table_hint":"executing_bd_606","notes":"Test 'ubs' as venue - should resolve to 'UBS Financial Services, Inc.' (potential conflict)"}
+{"id":54,"question":"PFOF for public in April 2024","table_hint":"executing_bd_606","notes":"Test common word 'public' resolves to 'Open to the Public Investing, Inc.'"}
+{"id":55,"question":"PFOF for public.com in April 2024","table_hint":"executing_bd_606","notes":"Test domain-style alias 'public.com'"}
+{"id":56,"question":"PFOF for wlth in April 2024","table_hint":"executing_bd_606","notes":"Test abbreviated name 'wlth' resolves to 'WLTH'"}
+{"id":57,"question":"PFOF for drivewealth in April 2024","table_hint":"executing_bd_606","notes":"Test alternate alias 'drivewealth' for WLTH"}
+{"id":58,"question":"PFOF for rbc in April 2024","table_hint":"executing_bd_606","notes":"Test 'rbc' resolves to 'RBC Capital Markets Corporation' (both broker and venue alias)"}
+{"id":59,"question":"PFOF from dash in April 2024","table_hint":"executing_bd_606","notes":"Test venue 'dash' resolves to 'DASH Financial Option ATS' (many variations exist)"}
+{"id":60,"question":"PFOF from goldman sachs in April 2024","table_hint":"executing_bd_606","notes":"Test 'goldman sachs' resolves to 'Goldman Sachs & Co.'"}
+{"id":61,"question":"PFOF from jpmorgan in April 2024","table_hint":"executing_bd_606","notes":"Test 'jpmorgan' resolves to 'J.P. Morgan Securities LLC'"}
+{"id":62,"question":"PFOF from jp morgan in April 2024","table_hint":"executing_bd_606","notes":"Test 'jp morgan' (with space) resolves correctly"}
+{"id":63,"question":"PFOF from morgan stanley in April 2024","table_hint":"executing_bd_606","notes":"Test 'morgan stanley' resolves to 'Morgan Stanley & Co., LLC'"}
+{"id":64,"question":"PFOF for merrill lynch in April 2024","table_hint":"executing_bd_606","notes":"Test 'merrill lynch' on broker side resolves to 'MLCO_606' (also venue alias)"}
+{"id":65,"question":"PFOF from merrill lynch in April 2024","table_hint":"executing_bd_606","notes":"Test 'merrill lynch' on venue side resolves to 'Bank Of America - Merrill Lynch Instinct X Ats'"}
+{"id":66,"question":"PFOF for altruist in April 2024","table_hint":"executing_bd_606","notes":"Test 'altruist' resolves to 'Altruist Financial LLC'"}
+{"id":67,"question":"PFOF for citigroup in April 2024","table_hint":"executing_bd_606","notes":"Test 'citigroup' resolves correctly (multiple Citigroup entities exist)"}
+{"id":68,"question":"PFOF from citi in April 2024","table_hint":"executing_bd_606","notes":"Test 'citi' as venue resolves to 'Citigroup'"}
