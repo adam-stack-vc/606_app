@@ -342,8 +342,10 @@ def build_aggregate(intent: QueryIntent, table: str) -> str:
                 column_name = "venues" if entity_key == "venue" else entity_key
 
                 if column_name in caps.allowed_dimensions:
+                    # Normalize value (e.g., "robinhood" → "Robinhood Securities, LLC")
+                    normalized_value = normalize_value(column_name, str(entity_value))
                     # Escape single quotes in value
-                    safe_value = entity_value.replace("'", "''")
+                    safe_value = normalized_value.replace("'", "''")
                     where.append(f"{column_name} = '{safe_value}'")
 
     # Add additional filters from intent.filters
@@ -351,6 +353,9 @@ def build_aggregate(intent: QueryIntent, table: str) -> str:
     if intent.filters:
         for filter_key, filter_value in intent.filters.items():
             if filter_value:
+                # Skip data_type if it's already been added (for PFOF queries)
+                if filter_key == "data_type" and table == "executing_bd_606" and (intent.metric or "").lower() == "pfof":
+                    continue
                 # Check if this is a valid column for the table
                 if filter_key in caps.columns or filter_key in caps.allowed_dimensions:
                     # Normalize value (e.g., "S&P 500" → "SP500")
