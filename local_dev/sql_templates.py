@@ -647,7 +647,9 @@ def build_count(intent: QueryIntent, table: str, count_dimension: str) -> str:
     for entity_key, entity_val in intent.entities.items():
         entity_col = _map_entity_to_column(entity_key, table)
         if entity_col and entity_val:
-            safe_val = entity_val.replace("'", "''")
+            # Normalize value (e.g., "robinhood" → "Robinhood Securities, LLC")
+            normalized_val = normalize_value(entity_col, str(entity_val))
+            safe_val = normalized_val.replace("'", "''")
             where.append(f"{_safe_ident(entity_col)} = '{safe_val}'")
 
     # Add filters from intent
@@ -708,7 +710,9 @@ def build_per_entity_average(intent: QueryIntent, table: str, per_entity: str) -
     for entity_key, entity_val in intent.entities.items():
         entity_col = _map_entity_to_column(entity_key, table)
         if entity_col and entity_val:
-            safe_val = entity_val.replace("'", "''")
+            # Normalize value (e.g., "robinhood" → "Robinhood Securities, LLC")
+            normalized_val = normalize_value(entity_col, str(entity_val))
+            safe_val = normalized_val.replace("'", "''")
             where.append(f"{_safe_ident(entity_col)} = '{safe_val}'")
 
     # Add filters from intent
