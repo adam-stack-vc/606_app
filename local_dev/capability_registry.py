@@ -65,10 +65,10 @@ REGISTRY: Dict[str, TableCapabilities] = {
             "tape_b_shares",
             "tape_c_shares",
         },
-        allowed_dimensions={"market_participant"},
+        allowed_dimensions={"market_participant", "day"},
         allowed_metrics={"volume", "date", "trades"},
         time=TimeInfo(year_col=None, month_col=None, quarter_col=None, day_col="day"),
-        notes="Day is a date; must use EXTRACT for bucketing. Do not select raw 'day' with aggregates unless grouped."
+        notes="Day is a date column; can be used as dimension for daily aggregations or with EXTRACT for bucketing."
     ),
     "finra_ats": TableCapabilities(
         name="finra_ats",

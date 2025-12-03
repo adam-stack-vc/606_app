@@ -1425,19 +1425,19 @@ def generate_openai_synthesis(user_input: str, query_results: Dict, query_tags: 
     
     # Create synthesis prompt
     synthesis_prompt = f"""
-    You are a financial data analyst. Analyze the following query results and provide a comprehensive response to the user's question.
-    Do not make any suggestions or hypothesis about the causes of the data. 
+    You are a financial data analyst. Analyze the following query results and provide a concise, direct response to the user's question.
 
     User Question: "{user_input}"
 
     Query Results:
     {json.dumps(data_summary, indent=2)}
 
-    Please provide:
-    1. A direct answer to the user's question
-    2. Key insights from the data
-    3. Context and analysis
-    4. Any relevant trends or patterns
+    Instructions:
+    1. Provide a DIRECT answer to the user's question with specific numbers
+    2. Include only key data points and insights
+    3. Use a tabular format when presenting multiple related items (e.g., broker-venue pairs, top rankings)
+    4. DO NOT include general context, background analysis, or speculation about trends unless explicitly requested
+    5. Keep the response concise and factual
 
     Be specific with numbers and provide actionable insights.
     If there is an error, include the phrase "Error: {{error}}".
@@ -1561,10 +1561,11 @@ Instructions:
 - Include specific numbers and data points from the results
 - Format large currency values with $ and appropriate units (e.g., $72.3M for millions, $1.2B for billions)
 - Format large numbers with commas or abbreviations (e.g., 225.7 billion shares)
-- If results include multiple rows, mention the top entries or summarize key patterns
-- Keep the response to 2-3 sentences maximum
+- If results include multiple related items (broker-venue pairs, rankings), present them in a simple tabular or list format
+- Keep the response to 2-3 sentences maximum, unless tabular format is needed
 - Be factual and precise
-- Do NOT use markdown formatting, technical jargon, or reference column names
+- Do NOT include general context, background analysis, or speculation about trends
+- Do NOT use technical jargon or reference column names
 
 Answer:"""
 
