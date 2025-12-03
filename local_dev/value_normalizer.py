@@ -1,17 +1,26 @@
 """
-value_normalizer.py
-Normalizes filter values to canonical database values using value_mappings.json
+Enhanced value normalizer with fuzzy matching fallback
 
-Example:
-  User says "S&P 500" → normalized to "SP500" (database value)
-  User says "S&P" → normalized to "SP500"
+Handles typos and misspellings:
+- "citadell" → "Citadel Securities LLC"
+- "robinood" → "Robinhood Securities, LLC"
+- "shwab" → "Charles Schwab"
 """
 
 import json
 from pathlib import Path
-from typing import Optional, Dict
+from typing import Optional, Dict, Tuple
+
+# Try to import rapidfuzz (fast), fallback to difflib (stdlib)
+try:
+    from rapidfuzz import fuzz, process
+    FUZZY_AVAILABLE = True
+except ImportError:
+    import difflib
+    FUZZY_AVAILABLE = False
 
 _VALUE_MAPPINGS = None
+_FUZZY_THRESHOLD = 85  # Minimum similarity score (0-100)
 
 
 def _load_value_mappings():
@@ -24,66 +33,148 @@ def _load_value_mappings():
     return _VALUE_MAPPINGS
 
 
-def normalize_value(field_name: str, user_value: str) -> str:
+def _fuzzy_match_rapidfuzz(user_value: str, candidates: Dict[str, str], threshold: int) -> Optional[Tuple[str, str, int]]:
+    """Use rapidfuzz for fuzzy matching (fast)"""
+    if not candidates:
+        return None
+
+    # Extract just the keys for matching
+    keys = list(candidates.keys())
+
+    # Find best match
+    result = process.extractOne(
+        user_value.lower(),
+        keys,
+        scorer=fuzz.ratio,
+        score_cutoff=threshold
+    )
+
+    if result:
+        matched_key, score, _ = result
+        canonical_value = candidates[matched_key]
+        return (matched_key, canonical_value, score)
+
+    return None
+
+
+def _fuzzy_match_difflib(user_value: str, candidates: Dict[str, str], threshold: int) -> Optional[Tuple[str, str, int]]:
+    """Use difflib for fuzzy matching (stdlib fallback, slower)"""
+    if not candidates:
+        return None
+
+    user_lower = user_value.lower()
+    best_match = None
+    best_score = 0
+
+    for candidate_key in candidates.keys():
+        # Calculate similarity ratio (0.0 to 1.0)
+        ratio = difflib.SequenceMatcher(None, user_lower, candidate_key).ratio()
+        score = int(ratio * 100)
+
+        if score >= threshold and score > best_score:
+            best_score = score
+            best_match = candidate_key
+
+    if best_match:
+        return (best_match, candidates[best_match], best_score)
+
+    return None
+
+
+def normalize_value_fuzzy(field_name: str, user_value: str, enable_fuzzy: bool = True, threshold: int = _FUZZY_THRESHOLD) -> Tuple[str, Optional[str], int]:
     """
-    Normalize a user-provided value to its canonical database form.
+    Normalize a user-provided value to its canonical database form with fuzzy matching.
 
     Args:
-        field_name: The filter field name (e.g., "stock_group", "tier")
-        user_value: The value provided by the user (e.g., "S&P 500")
+        field_name: The filter field name (e.g., "executing_bd", "venues")
+        user_value: The value provided by the user (e.g., "citadell", "robinood")
+        enable_fuzzy: Enable fuzzy matching fallback
+        threshold: Minimum similarity score for fuzzy match (0-100)
 
     Returns:
-        Canonical database value (e.g., "SP500") or original value if no mapping exists
+        Tuple of (canonical_value, matched_alias, confidence_score)
+        - canonical_value: The normalized value to use in SQL
+        - matched_alias: The alias that matched (None if no match)
+        - confidence_score: 100 for exact match, 0-99 for fuzzy, 0 for no match
     """
     mappings = _load_value_mappings()
-
-    # Get mappings for this field
     field_mappings = mappings.get(field_name, {})
 
-    # Try exact match (case-insensitive)
+    if not field_mappings:
+        # No mappings for this field
+        return (user_value, None, 0)
+
     user_value_lower = user_value.lower().strip()
+
+    # Try exact match first (fast path)
     canonical_value = field_mappings.get(user_value_lower)
-
     if canonical_value:
-        return canonical_value
+        return (canonical_value, user_value_lower, 100)
 
-    # No mapping found, return original
-    return user_value
+    # No exact match - try fuzzy matching if enabled
+    if not enable_fuzzy:
+        return (user_value, None, 0)
+
+    # Use appropriate fuzzy matcher
+    if FUZZY_AVAILABLE:
+        match_result = _fuzzy_match_rapidfuzz(user_value_lower, field_mappings, threshold)
+    else:
+        match_result = _fuzzy_match_difflib(user_value_lower, field_mappings, threshold)
+
+    if match_result:
+        matched_key, canonical_value, score = match_result
+        return (canonical_value, matched_key, score)
+
+    # No fuzzy match found
+    return (user_value, None, 0)
 
 
-def normalize_filters(filters: Dict[str, str]) -> Dict[str, str]:
+def normalize_value(field_name: str, user_value: str) -> str:
     """
-    Normalize all filter values in a dictionary.
-
-    Args:
-        filters: Dictionary of filter_name -> user_value
-
-    Returns:
-        Dictionary with normalized values
+    Backward-compatible wrapper that returns just the canonical value.
+    Uses fuzzy matching by default.
     """
-    normalized = {}
-    for field_name, user_value in filters.items():
-        if isinstance(user_value, str):
-            normalized[field_name] = normalize_value(field_name, user_value)
-        else:
-            normalized[field_name] = user_value
-
-    return normalized
+    canonical, _, _ = normalize_value_fuzzy(field_name, user_value, enable_fuzzy=True)
+    return canonical
 
 
 if __name__ == "__main__":
-    # Test value normalization
+    # Test fuzzy matching
+    print("=" * 80)
+    print("FUZZY VALUE NORMALIZATION TEST")
+    print("=" * 80)
+    print(f"Fuzzy library: {'rapidfuzz' if FUZZY_AVAILABLE else 'difflib (stdlib)'}")
+    print(f"Threshold: {_FUZZY_THRESHOLD}%")
+    print()
+
     test_cases = [
-        ("stock_group", "S&P 500"),
-        ("stock_group", "s&p"),
-        ("stock_group", "SP500"),
-        ("stock_group", "S&P500"),
-        ("stock_group", "Other"),  # No mapping
+        # (field, user_input, description)
+        ("executing_bd", "robinhood", "Exact match"),
+        ("executing_bd", "robinood", "Typo: robinood"),
+        ("executing_bd", "robinhod", "Typo: robinhod"),
+        ("executing_bd", "schwab", "Exact match"),
+        ("executing_bd", "shwab", "Typo: shwab"),
+        ("executing_bd", "schwabb", "Typo: schwabb"),
+        ("venues", "citadel", "Exact match"),
+        ("venues", "citadell", "Typo: citadell"),
+        ("venues", "cita", "Too short - should not match"),
+        ("venues", "virtu", "Exact match"),
+        ("venues", "virtu amercias", "Partial typo"),
+        ("executing_bd", "xxx", "No match"),
     ]
 
-    print("Testing Value Normalization")
-    print("=" * 60)
-    for field, value in test_cases:
-        normalized = normalize_value(field, value)
-        status = "✓" if normalized != value else "→"
-        print(f"{status} {field}: '{value}' → '{normalized}'")
+    for field, value, description in test_cases:
+        canonical, matched_alias, score = normalize_value_fuzzy(field, value)
+
+        if score == 100:
+            status = "✅ EXACT"
+        elif score >= _FUZZY_THRESHOLD:
+            status = f"🔍 FUZZY ({score}%)"
+        else:
+            status = "❌ NO MATCH"
+
+        print(f"{status:20} {description:30}")
+        print(f"  Input: '{value}' → Output: '{canonical}'")
+        if matched_alias:
+            print(f"  Matched via: '{matched_alias}'")
+        print()

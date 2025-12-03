@@ -64,6 +64,19 @@ def _build_examples() -> str:
             }
         },
         {
+            "query": "PFOF from Citadel in April 2024",
+            "intent": {
+                "table": "executing_bd_606",
+                "operation": "aggregate",
+                "metric": "pfof",
+                "aggregation": "SUM",
+                "dimensions": [],
+                "entities": {"venue": "Citadel"},
+                "period": {"year": 2024, "month": 4},
+                "filters": {"data_type": "venue"}
+            }
+        },
+        {
             "query": "Top 5 brokers by PFOF in 2024",
             "intent": {
                 "table": "executing_bd_606",
@@ -221,11 +234,18 @@ Your task is to analyze the user's question and return a JSON object representin
 - **tape_c**: Other listings including ETFs (synonyms: ETF, ETFs, ETF listings)
 - **tape**: All tapes combined (monthly_data)
 
-# Entity Recognition
-- Broker names → entities.executing_bd (e.g., "Robinhood", "Citadel", "Charles Schwab")
-- Venue names → entities.venue (e.g., "Citadel Securities", "Virtu Americas")
-- Market participants → entities.market_participant (e.g., "JPMORGAN SECURITIES LLC")
-- ATS names → entities.ats_name (e.g., "SIGMA X2", "UBS ATS")
+# Entity Recognition and Preposition Rules
+**CRITICAL: Use prepositions to determine entity type:**
+- "PFOF **from** [entity]" → venue (wholesaler paying PFOF)
+  Example: "PFOF from Citadel" → entities.venue = "Citadel"
+- "PFOF **for** [entity]" → executing_bd (broker receiving PFOF)
+  Example: "PFOF for Robinhood" → entities.executing_bd = "Robinhood"
+
+**Entity Type Mappings:**
+- **Brokers (executing_bd)**: Robinhood, Charles Schwab, TD Ameritrade, Webull, E*TRADE
+- **Venues/Wholesalers (venue)**: Citadel, Virtu, Wolverine, Two Sigma, Jane Street, Goldman Sachs, Morgan Stanley
+- **Market participants**: Exchange names on monthly_data (e.g., "NYSE", "NASDAQ")
+- **ATS names**: Alternative trading systems on finra_ats (e.g., "SIGMA X2", "UBS ATS")
 
 # Filters
 - **data_type**: Always "venue" for PFOF queries on executing_bd_606
