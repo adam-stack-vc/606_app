@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Tastytrade Inc</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-24T16:41:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>14.29</ndoMarketPct>
+      <ndoMarketableLimitPct>27.93</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>46.85</ndoNonmarketableLimitPct>
+      <ndoOtherPct>10.93</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>23.95</orderPct>
+          <marketPct>20.40</marketPct>
+          <marketableLimitPct>23.54</marketableLimitPct>
+          <nonMarketableLimitPct>24.55</nonMarketableLimitPct>
+          <otherPct>27.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>324.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0001</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>763.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.4046</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1164.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.3621</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>472.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.0077</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>20.47</orderPct>
+          <marketPct>23.16</marketPct>
+          <marketableLimitPct>20.31</marketableLimitPct>
+          <nonMarketableLimitPct>19.67</nonMarketableLimitPct>
+          <otherPct>20.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>378.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8638</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>962.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9117</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1273.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.8802</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>434.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9522</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>19.60</orderPct>
+          <marketPct>22.44</marketPct>
+          <marketableLimitPct>20.31</marketableLimitPct>
+          <nonMarketableLimitPct>19.99</nonMarketableLimitPct>
+          <otherPct>12.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>373.93</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9908</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>964.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.6017</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1954.66</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.0692</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>247.19</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8015</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>19.59</orderPct>
+          <marketPct>19.51</marketPct>
+          <marketableLimitPct>19.50</marketableLimitPct>
+          <nonMarketableLimitPct>18.64</nonMarketableLimitPct>
+          <otherPct>23.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>298.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.6811</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>775.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.6729</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1040.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.7874</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>393.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9056</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>16.40</orderPct>
+          <marketPct>14.49</marketPct>
+          <marketableLimitPct>16.34</marketableLimitPct>
+          <nonMarketableLimitPct>17.15</nonMarketableLimitPct>
+          <otherPct>15.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>254.20</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9542</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>824.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9599</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1458.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9175</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>310.73</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9485</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>27.55</ndoMarketPct>
+      <ndoMarketableLimitPct>33.08</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>30.48</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.89</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>24.19</orderPct>
+          <marketPct>20.16</marketPct>
+          <marketableLimitPct>23.37</marketableLimitPct>
+          <nonMarketableLimitPct>26.58</nonMarketableLimitPct>
+          <otherPct>31.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7107.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8504</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>44356.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.1827</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6315.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.8146</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3783.78</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.0407</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>20.14</orderPct>
+          <marketPct>22.66</marketPct>
+          <marketableLimitPct>20.53</marketableLimitPct>
+          <nonMarketableLimitPct>18.00</nonMarketableLimitPct>
+          <otherPct>18.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8402.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9238</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>43482.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8594</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6123.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.4330</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3986.66</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9643</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>20.07</orderPct>
+          <marketPct>23.21</marketPct>
+          <marketableLimitPct>20.73</marketableLimitPct>
+          <nonMarketableLimitPct>19.39</nonMarketableLimitPct>
+          <otherPct>10.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8612.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7798</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>52349.86</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9194</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7080.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.4873</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2196.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9812</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>18.66</orderPct>
+          <marketPct>19.11</marketPct>
+          <marketableLimitPct>18.94</marketableLimitPct>
+          <nonMarketableLimitPct>17.83</nonMarketableLimitPct>
+          <otherPct>19.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6775.29</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7119</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>44748.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8478</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6926.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.5505</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3722.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8624</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>16.94</orderPct>
+          <marketPct>14.86</marketPct>
+          <marketableLimitPct>16.42</marketableLimitPct>
+          <nonMarketableLimitPct>18.19</nonMarketableLimitPct>
+          <otherPct>21.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5380.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8249</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>36110.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8981</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5525.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.4900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2686.26</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8956</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.73</ndoMarketPct>
+      <ndoMarketableLimitPct>5.61</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>8.71</ndoNonmarketableLimitPct>
+      <ndoOtherPct>83.95</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>32.79</orderPct>
+          <marketPct>30.40</marketPct>
+          <marketableLimitPct>30.70</marketableLimitPct>
+          <nonMarketableLimitPct>31.12</nonMarketableLimitPct>
+          <otherPct>33.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>141035.48</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>56.2073</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>483596.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>56.4495</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>284499.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.2152</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>539363.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.0260</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services</name>
+          <orderPct>25.11</orderPct>
+          <marketPct>2.96</marketPct>
+          <marketableLimitPct>3.51</marketableLimitPct>
+          <nonMarketableLimitPct>2.69</nonMarketableLimitPct>
+          <otherPct>29.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>12771.57</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>55.9494</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>51838.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>57.8986</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>27571.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.6262</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>457022.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.2265</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>22.48</orderPct>
+          <marketPct>32.19</marketPct>
+          <marketableLimitPct>31.92</marketableLimitPct>
+          <nonMarketableLimitPct>33.25</nonMarketableLimitPct>
+          <otherPct>20.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>162192.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.9713</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>497029.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>57.6081</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>329007.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>50.5903</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>321262.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>29.5882</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates. In connection with Dash Financial’s handling of tastytrade, Inc.’s listed option orders, Dash has arrangements with multiple unaffiliated liquidity providers, including IMC Financial Markets, designed to facilitate liquidity and price improvement opportunities. Pursuant to these arrangements, Dash routes listed option orders to exchanges and preferences the liquidity providers consistent with exchange sponsored programs. It is noted that these liquidity providers provide Dash with remuneration in connection with tastytrade, Inc.’s listed option orders, including reciprocal order flow consideration or payment per contract in return for tastytrade, Inc.’s listed option orders that Dash routes or directs.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>11.96</orderPct>
+          <marketPct>25.37</marketPct>
+          <marketableLimitPct>25.33</marketableLimitPct>
+          <nonMarketableLimitPct>24.68</nonMarketableLimitPct>
+          <otherPct>9.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>122783.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>57.8186</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>394617.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>56.7927</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>235396.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>49.5188</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>110851.65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.7316</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Morgan Stanley &amp; Co., LLC</name>
+          <orderPct>7.65</orderPct>
+          <marketPct>9.09</marketPct>
+          <marketableLimitPct>8.55</marketableLimitPct>
+          <nonMarketableLimitPct>8.26</nonMarketableLimitPct>
+          <otherPct>7.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>59728.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>63.8556</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>183581.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>61.1956</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>75422.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.4353</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>225014.23</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>44.3500</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>17.29</ndoMarketPct>
+      <ndoMarketableLimitPct>26.16</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>45.43</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.12</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>33.66</orderPct>
+          <marketPct>28.78</marketPct>
+          <marketableLimitPct>32.22</marketableLimitPct>
+          <nonMarketableLimitPct>34.37</nonMarketableLimitPct>
+          <otherPct>41.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>802.74</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>908.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0679</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1408.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.6688</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>543.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.7647</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>24.90</orderPct>
+          <marketPct>27.05</marketPct>
+          <marketableLimitPct>25.23</marketableLimitPct>
+          <nonMarketableLimitPct>23.38</nonMarketableLimitPct>
+          <otherPct>26.96</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>748.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9810</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1155.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9288</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1171.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9012</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>427.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9455</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>24.11</orderPct>
+          <marketPct>27.79</marketPct>
+          <marketableLimitPct>25.05</marketableLimitPct>
+          <nonMarketableLimitPct>24.63</nonMarketableLimitPct>
+          <otherPct>14.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>726.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9965</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>960.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9107</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1200.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9215</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>221.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8183</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>16.41</orderPct>
+          <marketPct>15.64</marketPct>
+          <marketableLimitPct>16.52</marketableLimitPct>
+          <nonMarketableLimitPct>16.64</nonMarketableLimitPct>
+          <otherPct>16.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>443.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9653</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>620.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9088</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>854.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.4457</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>266.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8534</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>29.90</ndoMarketPct>
+      <ndoMarketableLimitPct>33.87</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>28.11</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.11</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>32.79</orderPct>
+          <marketPct>28.06</marketPct>
+          <marketableLimitPct>32.13</marketableLimitPct>
+          <nonMarketableLimitPct>35.50</nonMarketableLimitPct>
+          <otherPct>43.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9927.41</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8424</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>68258.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.3391</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9842.17</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.2036</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5774.53</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.8367</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>24.99</orderPct>
+          <marketPct>28.03</marketPct>
+          <marketableLimitPct>25.50</marketableLimitPct>
+          <nonMarketableLimitPct>24.45</nonMarketableLimitPct>
+          <otherPct>13.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9843.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8344</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>69990.69</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8234</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9111.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.5243</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3288.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9824</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>24.76</orderPct>
+          <marketPct>27.71</marketPct>
+          <marketableLimitPct>24.74</marketableLimitPct>
+          <nonMarketableLimitPct>21.91</nonMarketableLimitPct>
+          <otherPct>23.77</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9916.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7016</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>53253.13</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8317</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7183.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.2982</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4515.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.7440</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>16.50</orderPct>
+          <marketPct>15.28</marketPct>
+          <marketableLimitPct>16.63</marketableLimitPct>
+          <nonMarketableLimitPct>17.16</nonMarketableLimitPct>
+          <otherPct>18.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5357.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7488</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>38855.54</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.7889</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5235.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.5398</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3161.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.7403</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.36</ndoMarketPct>
+      <ndoMarketableLimitPct>5.79</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>8.05</ndoNonmarketableLimitPct>
+      <ndoOtherPct>84.79</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>31.58</orderPct>
+          <marketPct>23.22</marketPct>
+          <marketableLimitPct>23.38</marketableLimitPct>
+          <nonMarketableLimitPct>24.13</nonMarketableLimitPct>
+          <otherPct>32.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>59798.37</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.6270</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>396721.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>61.1454</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>234832.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>54.8792</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>569128.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.8170</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services</name>
+          <orderPct>25.25</orderPct>
+          <marketPct>3.00</marketPct>
+          <marketableLimitPct>3.34</marketableLimitPct>
+          <nonMarketableLimitPct>2.62</nonMarketableLimitPct>
+          <otherPct>29.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7680.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>54.3208</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>51016.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>59.4282</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>29236.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.4653</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>458639.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.2919</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>22.56</orderPct>
+          <marketPct>32.04</marketPct>
+          <marketableLimitPct>32.25</marketableLimitPct>
+          <nonMarketableLimitPct>33.71</nonMarketableLimitPct>
+          <otherPct>20.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>90904.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>56.9606</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>538723.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>60.1592</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>338834.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>55.4094</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>319951.86</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>28.2516</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates. In connection with Dash Financial’s handling of tastytrade, Inc.’s listed option orders, Dash has arrangements with multiple unaffiliated liquidity providers, including IMC Financial Markets, designed to facilitate liquidity and price improvement opportunities. Pursuant to these arrangements, Dash routes listed option orders to exchanges and preferences the liquidity providers consistent with exchange sponsored programs. It is noted that these liquidity providers provide Dash with remuneration in connection with tastytrade, Inc.’s listed option orders, including reciprocal order flow consideration or payment per contract in return for tastytrade, Inc.’s listed option orders that Dash routes or directs.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>12.78</orderPct>
+          <marketPct>32.15</marketPct>
+          <marketableLimitPct>32.12</marketableLimitPct>
+          <nonMarketableLimitPct>31.08</nonMarketableLimitPct>
+          <otherPct>9.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>90831.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>54.7873</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>549570.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>59.3186</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>307421.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.8676</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>105427.51</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.3577</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Morgan Stanley &amp; Co., LLC</name>
+          <orderPct>7.82</orderPct>
+          <marketPct>9.59</marketPct>
+          <marketableLimitPct>8.92</marketableLimitPct>
+          <nonMarketableLimitPct>8.46</nonMarketableLimitPct>
+          <otherPct>7.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>31471.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>62.5787</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>190217.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>63.1194</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>83660.94</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>59.2370</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>240854.46</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>45.4184</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>18.95</ndoMarketPct>
+      <ndoMarketableLimitPct>24.60</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>43.65</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.80</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>30.74</orderPct>
+          <marketPct>31.53</marketPct>
+          <marketableLimitPct>29.82</marketableLimitPct>
+          <nonMarketableLimitPct>29.44</nonMarketableLimitPct>
+          <otherPct>35.76</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>780.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8822</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1108.56</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9445</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1355.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9619</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>694.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9765</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>30.45</orderPct>
+          <marketPct>27.70</marketPct>
+          <marketableLimitPct>30.42</marketableLimitPct>
+          <nonMarketableLimitPct>30.81</nonMarketableLimitPct>
+          <otherPct>33.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>692.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>982.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.3603</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1180.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.5050</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>625.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.9230</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>23.54</orderPct>
+          <marketPct>26.03</marketPct>
+          <marketableLimitPct>24.72</marketableLimitPct>
+          <nonMarketableLimitPct>24.34</nonMarketableLimitPct>
+          <otherPct>14.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>646.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8633</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>989.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9070</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1225.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9084</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>275.92</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9101</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>15.27</orderPct>
+          <marketPct>14.73</marketPct>
+          <marketableLimitPct>15.04</marketableLimitPct>
+          <nonMarketableLimitPct>15.42</nonMarketableLimitPct>
+          <otherPct>16.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>393.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9519</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>666.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9497</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>697.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9138</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>392.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9306</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>25.71</ndoMarketPct>
+      <ndoMarketableLimitPct>34.60</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>31.30</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.39</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>30.86</orderPct>
+          <marketPct>26.97</marketPct>
+          <marketableLimitPct>30.53</marketableLimitPct>
+          <nonMarketableLimitPct>32.49</nonMarketableLimitPct>
+          <otherPct>38.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9160.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.6891</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>60958.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.1321</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9222.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.7884</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5175.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.4449</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>29.24</orderPct>
+          <marketPct>30.99</marketPct>
+          <marketableLimitPct>28.79</marketableLimitPct>
+          <nonMarketableLimitPct>27.46</nonMarketableLimitPct>
+          <otherPct>32.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10623.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.6863</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>62598.63</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8018</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8289.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.5020</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5906.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.8065</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>23.79</orderPct>
+          <marketPct>26.91</marketPct>
+          <marketableLimitPct>24.33</marketableLimitPct>
+          <nonMarketableLimitPct>23.65</nonMarketableLimitPct>
+          <otherPct>12.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9054.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7716</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>60891.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8724</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8447.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.6806</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3241.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.9404</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>16.11</orderPct>
+          <marketPct>15.12</marketPct>
+          <marketableLimitPct>16.35</marketableLimitPct>
+          <nonMarketableLimitPct>16.40</nonMarketableLimitPct>
+          <otherPct>17.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>5090.53</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.7092</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>36124.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.8709</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4915.67</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.3210</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2810.18</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.7198</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed listed equity orders routed to market makers. The payment is $0.0015 per share for all order types. tastytrade, Inc. does not receive payment on orders for securities priced below $1. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing listed equity order flow to a market maker.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>1.23</ndoMarketPct>
+      <ndoMarketableLimitPct>5.42</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>7.81</ndoNonmarketableLimitPct>
+      <ndoOtherPct>85.54</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>35.52</orderPct>
+          <marketPct>29.77</marketPct>
+          <marketableLimitPct>29.54</marketableLimitPct>
+          <nonMarketableLimitPct>30.82</nonMarketableLimitPct>
+          <otherPct>36.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>82019.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.8326</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>497780.64</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>60.2925</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>296866.71</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>52.8369</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>536866.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.3679</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services</name>
+          <orderPct>27.38</orderPct>
+          <marketPct>2.95</marketPct>
+          <marketableLimitPct>3.44</marketableLimitPct>
+          <nonMarketableLimitPct>2.56</nonMarketableLimitPct>
+          <otherPct>31.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7611.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>56.5337</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>48415.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>57.5713</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>28678.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>52.3882</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>460440.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.5218</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>23.04</orderPct>
+          <marketPct>31.28</marketPct>
+          <marketableLimitPct>31.84</marketableLimitPct>
+          <nonMarketableLimitPct>33.11</nonMarketableLimitPct>
+          <otherPct>21.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>88696.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.5236</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>502775.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>58.0754</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>338587.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>54.2678</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>346539.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.3310</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates. In connection with Dash Financial’s handling of tastytrade, Inc.’s listed option orders, Dash has arrangements with multiple unaffiliated liquidity providers, including IMC Financial Markets, designed to facilitate liquidity and price improvement opportunities. Pursuant to these arrangements, Dash routes listed option orders to exchanges and preferences the liquidity providers consistent with exchange sponsored programs. It is noted that these liquidity providers provide Dash with remuneration in connection with tastytrade, Inc.’s listed option orders, including reciprocal order flow consideration or payment per contract in return for tastytrade, Inc.’s listed option orders that Dash routes or directs.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>10.97</orderPct>
+          <marketPct>31.92</marketPct>
+          <marketableLimitPct>31.63</marketableLimitPct>
+          <nonMarketableLimitPct>30.39</nonMarketableLimitPct>
+          <otherPct>7.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>88042.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>57.3345</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>491426.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>58.0339</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>293963.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.1166</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>72766.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.7600</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>tastytrade, Inc. receives payment for executed multi-listed option orders routed to market makers. tastytrade, Inc. does not receive payment for executed single-listed index option orders routed to market markers. Per contract payment is subject to change on a semi-monthly basis as a result of market conditions. When applicable, this occurs on the first trading day of the month and the first trading day after the 15th of the month. For single and complex option order flow, the payment received per contract was $0.52 then $0.75 in April. The rate was $0.66 in May. The rate was $0.66 in June. The payment received is the same for all symbols and order types. tastytrade, Inc. does not have arrangements for order flow type or negotiate payment as a condition for increasing option order flow to a market maker. All market makers pay the same per contract rates.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

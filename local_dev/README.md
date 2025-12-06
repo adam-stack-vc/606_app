@@ -1,200 +1,166 @@
-# 606 App - Local Development Environment
+# 606 PFOF Query System - Local Development
 
-This folder contains your complete local development environment for the 606_app project. It mirrors your AWS production setup but runs locally with your PostgreSQL database.
+Natural language to SQL query system for SEC Rule 606 Payment for Order Flow data.
 
-## 🚀 Quick Start
-
-### 1. Initial Setup
-```bash
-# Navigate to local development folder
-cd local_dev
-
-# Create environment configuration
-cp env.example .env
-
-# Edit .env with your local database credentials
-nano .env  # or use your preferred editor
-```
-
-### 2. Start Development Server
-```bash
-# Start local FastAPI server with hot reload
-./start_local.sh
-```
-
-### 3. Access Your Application
-- **API Server**: http://localhost:8000
-- **Interactive API Docs**: http://localhost:8000/docs
-- **Health Check**: http://localhost:8000/health
-- **Debug Info**: http://localhost:8000/debug
-
-## 📁 Project Structure
+## Directory Structure
 
 ```
 local_dev/
-├── .env                    # Local environment variables (create from env.example)
-├── .env.example            # Environment template
-├── start_local.sh          # Start local development server
-├── deploy_to_aws.sh        # Deploy to AWS (one-click)
-├── README.md               # This file
-├── main.py                 # FastAPI application entry point
-├── db.py                   # Database connection (auto-detects local vs AWS)
-├── aws_config.py           # Smart configuration management
-├── query.py                # Natural language query processing
-├── query_framework.py      # Query routing and execution
-├── auth.py                 # Authentication handling
-├── ask606.py               # Core question processing
-├── requirements.txt        # Python dependencies
-├── dockerfile              # Docker configuration (for AWS deployment)
-├── 606_schema.json         # Database schema definition
-├── prompt.txt              # AI prompt templates
-├── venue_aliases.json      # Venue name mappings
-├── executing_bd_aliases.json # Broker name mappings
-├── venue_categories.json   # Venue categorization
-├── broker_categories.json  # Broker categorization
-└── ...                     # Additional configuration files
+├── Core Query System (text-to-sql)
+│   ├── main.py                          # FastAPI entry point
+│   ├── ask606_hybrid.py                 # Hybrid query router
+│   ├── hybrid_query_handler.py          # Multi-table query handler
+│   ├── planner.py                       # Single-table query planner
+│   ├── sql_templates.py                 # SQL generation templates
+│   ├── multi_table_query_framework.py   # Query classification
+│   ├── llm_intent_extractor.py          # LLM-based intent extraction
+│   ├── query_intent.py                  # QueryIntent dataclass
+│   ├── capability_registry.py           # Table capabilities metadata
+│   ├── semantic_sql_adapter.py          # Legacy semantic SQL adapter
+│   ├── value_normalizer.py              # Entity value normalization
+│   └── db.py                            # Database connection
+│
+├── Configuration Files
+│   ├── .env                             # Environment variables
+│   ├── entity_mappings.json             # Entity synonym mappings
+│   ├── value_mappings.json              # Value normalization mappings
+│   ├── direction_map.json               # Query direction mappings
+│   ├── schema_registry.json             # Table schema registry
+│   └── test_suite.json                  # Test suite configuration
+│
+├── Streamlit App
+│   └── streamlit_app.py                 # Testing UI
+│
+├── Data & Schemas
+│   ├── schemas/                         # JSON table schemas
+│   ├── eval/                            # Test query JSONL files
+│   ├── data/                            # Data files
+│   ├── table_data/                      # Table data exports
+│   └── handlers/                        # Legacy handler code
+│
+├── scripts/                             # Utility scripts
+│   ├── test_*.py                        # Test scripts
+│   ├── load_*.py                        # Data loading scripts
+│   ├── deploy*.sh                       # Deployment scripts
+│   └── setup_database.sh                # Database setup
+│
+├── guides/                              # Documentation
+│   ├── README.md                        # Main README
+│   ├── SESSION_SUMMARY*.md              # Session summaries
+│   ├── TEMPORAL_DIMENSION*.md           # Temporal dimension docs
+│   ├── FIXES*.md                        # Fix documentation
+│   └── *_GUIDE.md                       # Various guides
+│
+└── archive/                             # Old/unused files
+    ├── Old implementations
+    ├── SQL setup files
+    ├── Backup files
+    └── Deployment artifacts
 ```
 
-## ⚙️ Environment Configuration
+## Core Text-to-SQL Flow
 
-### Local Development (.env file)
+### 1. Entry Point
+```
+User Query → main.py → ask606_hybrid.ask()
+```
+
+### 2. Query Classification
+```
+classify_query_enhanced() in multi_table_query_framework.py
+  ↓
+Extracts: year, month, entities, metric, direction, etc.
+```
+
+### 3. Query Routing (in hybrid_query_handler.py)
+```
+route_hybrid_query()
+  ├─→ plan_single_sql() → Single-table query (deterministic templates)
+  └─→ generate_complex_multi_table_query() → Multi-table (deterministic + LLM synthesis)
+```
+
+### 4. SQL Generation
+```
+Single-table: planner.py + sql_templates.py (deterministic)
+Multi-table: hybrid_query_handler.py (deterministic per-table queries)
+```
+
+### 5. Execution & Response
+```
+Database execution → Results → Narrative generation
+```
+
+## Key Features
+
+- **Deterministic SQL Generation**: Template-based, no SQL hallucination
+- **LLM Intent Extraction**: Optional (USE_LLM_INTENT env var)
+- **Semantic Hints**: Optional LangChain hints for complex patterns (USE_SEMANTIC_HINTS env var)
+- **Multi-Table Support**: Automatic routing and synthesis
+- **Entity Normalization**: Synonym mapping and fuzzy matching
+- **Temporal Dimensions**: Generic capability-driven approach
+- **Streamlit Testing UI**: Interactive query testing and feedback with semantic hints toggle
+
+## Environment Variables
+
+- `USE_LLM_INTENT=false` - Use deterministic classification (recommended)
+- `USE_SEMANTIC_HINTS=false` - Use LangChain semantic hints for complex patterns (optional)
+- `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD` - Database config
+- `OPENAI_API_KEY` - For narrative synthesis and semantic hints
+
+## Quick Start
+
+### Start FastAPI Server
 ```bash
-# Database Configuration (Local PostgreSQL)
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=your_local_db_name
-DB_USER=your_local_db_user
-DB_PASSWORD=your_local_db_password
-
-# OpenAI API Key
-OPENAI_API_KEY=your_openai_api_key
-
-# Development Mode
-ENVIRONMENT=local
-DEBUG=true
+uvicorn main:app --reload --port 8000
 ```
 
-### Smart Configuration Detection
-The `aws_config.py` automatically detects your environment:
-- **Local Development**: Uses `.env` file or environment variables
-- **AWS Production**: Uses AWS Secrets Manager
-- **No code changes needed** when switching between environments!
-
-## 🗄️ Database Requirements
-
-Your local PostgreSQL database should have the same schema as AWS Aurora:
-
-### Required Tables
-- `monthly_data` - Market volume data
-- `venue_mapping` - Venue name mappings
-- `entity_types` - Entity type definitions
-- `finra_ats` - FINRA ATS data (if applicable)
-
-### Schema Compatibility
-- Same table structures
-- Same data types
-- Same indexes
-- Same constraints
-
-This ensures seamless testing and deployment between local and AWS environments.
-
-## 🔧 Development Workflow
-
-### Daily Development
-1. **Start your day**: `./start_local.sh`
-2. **Make changes**: Edit code in this folder
-3. **Test locally**: FastAPI auto-reloads on changes
-4. **Debug**: Use `/debug` endpoint for diagnostics
-
-### Testing API Endpoints
+### Start Streamlit App
 ```bash
-# Health check
-curl http://localhost:8000/health
-
-# Ask a question
-curl -X POST http://localhost:8000/ask \
-  -H "Content-Type: application/json" \
-  -d '{"question": "What are the top venues by volume?"}'
-
-# Debug information
-curl http://localhost:8000/debug
+streamlit run streamlit_app.py
 ```
 
-### Database Testing
+### Run Tests
 ```bash
-# Test database connection
-python3 -c "from db import get_db_connection; conn = get_db_connection(); print('✅ Database connected successfully')"
+cd scripts
+USE_LLM_INTENT=false python test_query_fixes.py
 ```
 
-## 🐛 Troubleshooting
+## Recent Updates
 
-### Common Issues
+**December 5, 2025**
+- Fixed temporal dimension bug (GROUP BY month/quarter/year)
+- Enhanced entity detection ("for X" pattern, interrogatives)
+- Cleaned invalid entity filters in COUNT queries
+- Organized project structure (guides/, scripts/, archive/)
+- Added semantic hints feature with Streamlit toggle and CSV tracking
 
-**Port 8000 already in use:**
-```bash
-# Kill process using port 8000
-lsof -ti:8000 | xargs kill -9
-```
+See `guides/SESSION_SUMMARY_DEC3.md` for complete details.
 
-**Database connection failed:**
-- Check your `.env` file has correct database credentials
-- Ensure PostgreSQL is running: `brew services start postgresql`
-- Test connection: `psql -h localhost -U your_user -d your_db`
+## Documentation
 
-**Module import errors:**
-```bash
-# Reinstall dependencies
-source venv/bin/activate
-pip install -r requirements.txt
-```
+- **Query Planning**: `guides/NL2SQL_INTEGRATION_GUIDE_UPDATED.md`
+- **Temporal Dimensions**: `guides/TEMPORAL_DIMENSION_SOLUTION.md`
+- **Multi-Table**: `guides/MULTI_TABLE_MIGRATION_GUIDE.md`
+- **Semantic Hints**: `guides/SEMANTIC_HINTS_FEATURE.md`
+- **Fixes**: `guides/FIXES_IMPLEMENTED.md`
+- **Streamlit**: `guides/README_STREAMLIT.md`
 
-**Environment variables not loading:**
-- Ensure `.env` file exists in `local_dev/` folder
-- Check file permissions: `ls -la .env`
+## Architecture Decisions
 
-### Debug Endpoints
-- `/health` - Basic health check
-- `/debug` - Detailed system information
-- `/` - Root endpoint with environment info
+1. **Deterministic SQL Templates** - Prevents hallucination, enables debugging
+2. **Capability Registry** - Table metadata drives SQL generation
+3. **Hybrid Routing** - Single-table for simple, multi-table for complex
+4. **LLM Only for Synthesis** - SQL generation is deterministic, narratives use LLM
 
-## 📊 Features
+## Contributing
 
-### Core Functionality
-- **Natural Language Queries**: Ask questions in plain English
-- **Venue Analysis**: Analyze trading venues and market data
-- **Broker Analysis**: Analyze executing brokers and their relationships
-- **Volume Analysis**: Market volume trends and patterns
-- **Cross-Table Enrichment**: Complex queries across multiple tables
+When adding new features:
+1. Update capability_registry.py for new tables/columns
+2. Add SQL templates to sql_templates.py
+3. Update classification in multi_table_query_framework.py
+4. Add tests to scripts/test_*.py
+5. Document in guides/
 
-### AI Integration
-- **OpenAI GPT-4**: Natural language processing
-- **Smart Query Generation**: Converts questions to SQL
-- **Context-Aware Responses**: Understands financial terminology
-- **Error Handling**: Graceful fallbacks for complex queries
+## Support
 
-## 🔄 Hot Reload Development
-
-The development server automatically reloads when you make changes:
-- **Python files**: Instant reload on save
-- **Configuration files**: Reload on change
-- **Database schema**: No restart needed for schema changes
-
-## 📝 Logging
-
-Development server provides detailed logging:
-- **Request/Response**: All API calls logged
-- **Database queries**: SQL queries and execution times
-- **Error details**: Full stack traces for debugging
-- **Environment info**: Configuration and connection status
-
-## 🚀 Next Steps
-
-1. **Test the setup**: Run `./start_local.sh` and visit http://localhost:8000/docs
-2. **Configure database**: Update `.env` with your PostgreSQL credentials
-3. **Test queries**: Try some sample questions via the API
-4. **Develop features**: Make your changes in this folder
-5. **Deploy to AWS**: Use `./deploy_to_aws.sh` when ready
-
----
-
-**Need help?** Check the debug endpoint at http://localhost:8000/debug for system status and configuration details.
+For issues or questions, check the guides/ directory or create an issue with query examples and expected SQL.

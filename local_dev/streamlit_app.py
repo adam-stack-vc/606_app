@@ -4,6 +4,10 @@ import pandas as pd
 import json
 from datetime import datetime
 import os
+import csv as csv_module
+
+# IMPORTANT: Enable LLM intent extraction for Neuro-Symbolic engine
+os.environ["USE_LLM_INTENT"] = "true"
 
 # Page configuration
 st.set_page_config(
@@ -23,6 +27,8 @@ if 'genai_notes' not in st.session_state:
     st.session_state.genai_notes = ""
 if 'rating' not in st.session_state:
     st.session_state.rating = 3
+if 'use_semantic_hints' not in st.session_state:
+    st.session_state.use_semantic_hints = False
 
 # Configuration
 API_URL = os.getenv("API_URL", "http://localhost:8000/ask")
@@ -87,10 +93,14 @@ def load_jsonl_questions():
 
     return questions
 
-def call_api(question):
+def call_api(question, use_semantic_hints=False):
     """Call the FastAPI /ask endpoint"""
     try:
-        response = requests.post(API_URL, json={"question": question}, timeout=30)
+        response = requests.post(
+            API_URL,
+            json={"question": question, "use_semantic_hints": use_semantic_hints},
+            timeout=30
+        )
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
@@ -186,18 +196,59 @@ def save_feedback():
         'query_type': st.session_state.current_response.get('query_type', ''),
         'sql_results_count': len(st.session_state.current_response.get('results', [])),
         'genai_response': st.session_state.current_response.get('response', ''),
+        'semantic_hints': st.session_state.current_response.get('semantic_hints_used', False),
         'query_notes': st.session_state.query_notes,
         'genai_notes': st.session_state.genai_notes,
         'rating': st.session_state.rating
     }
 
-    # Append to CSV
-    df = pd.DataFrame([feedback_entry])
+    # Define column order
+    column_order = ['timestamp', 'question', 'sql_query', 'query_type', 'sql_results_count',
+                   'genai_response', 'semantic_hints', 'query_notes', 'genai_notes', 'rating']
 
-    if os.path.exists(FEEDBACK_CSV):
-        df.to_csv(FEEDBACK_CSV, mode='a', header=False, index=False)
-    else:
-        df.to_csv(FEEDBACK_CSV, mode='w', header=True, index=False)
+    # Check if file exists and has correct columns
+    file_exists = os.path.exists(FEEDBACK_CSV)
+    needs_migration = False
+
+    if file_exists:
+        try:
+            # Only read header to check columns
+            existing_df = pd.read_csv(FEEDBACK_CSV, nrows=0)
+            if 'semantic_hints' not in existing_df.columns:
+                needs_migration = True
+        except Exception as e:
+            # If we can't read the file at all, show error and don't try to save
+            st.error(f"Error reading existing CSV file: {e}")
+            st.error("Please run: python scripts/fix_csv.py")
+            return
+
+    # If migration needed, read old file and add semantic_hints column
+    if needs_migration:
+        try:
+            old_df = pd.read_csv(FEEDBACK_CSV)
+            old_df['semantic_hints'] = False
+            # Reorder columns to match new schema
+            old_df = old_df[column_order]
+            old_df.to_csv(FEEDBACK_CSV, mode='w', header=True, index=False, quoting=csv_module.QUOTE_ALL)
+            st.info("Migrated CSV to include semantic_hints column")
+        except Exception as e:
+            st.error(f"Error migrating CSV: {e}")
+            st.error("Please run: python scripts/fix_csv.py")
+            return
+
+    # Append new entry
+    df = pd.DataFrame([feedback_entry])
+    try:
+        if file_exists and not needs_migration:
+            df.to_csv(FEEDBACK_CSV, mode='a', header=False, index=False, quoting=csv_module.QUOTE_ALL)
+        elif not file_exists:
+            df.to_csv(FEEDBACK_CSV, mode='w', header=True, index=False, quoting=csv_module.QUOTE_ALL)
+        else:
+            # After migration, append new entry
+            df.to_csv(FEEDBACK_CSV, mode='a', header=False, index=False, quoting=csv_module.QUOTE_ALL)
+    except Exception as e:
+        st.error(f"Error saving feedback: {e}")
+        return
 
     st.success("Feedback saved successfully!")
 
@@ -248,14 +299,20 @@ else:
     else:
         st.warning(f"No test questions found in {JSONL_FILE}")
 
-col1, col2 = st.columns([1, 5])
+col1, col2, col3 = st.columns([1, 1, 4])
 with col1:
     submit_button = st.button("Generate Query", type="primary", use_container_width=True)
+# with col2:
+#     st.session_state.use_semantic_hints = st.checkbox(
+#         "Use Semantic Hints",
+#         value=st.session_state.use_semantic_hints,
+#         help="Enable LangChain semantic hints for complex query patterns"
+#     )
 
 # Process query
 if submit_button and question:
     with st.spinner("Processing query..."):
-        response = call_api(question)
+        response = call_api(question, st.session_state.use_semantic_hints)
 
         if response:
             st.session_state.current_response = response
@@ -269,7 +326,11 @@ if st.session_state.current_response:
     st.markdown("---")
 
     # Top section: LLM-Generated Query with tabs
-    st.subheader("📝 LLM-Generated Query")
+    col1, col2 = st.columns([5, 1])
+    with col1:
+        st.subheader("📝 Generated Query")
+    with col2:
+        st.info("Neuro-Symbolic")
 
     tab1, tab2 = st.tabs(["SQL Query", "Logic Details"])
 
@@ -353,8 +414,11 @@ if st.session_state.current_response:
 
     # Display saved feedback count
     if os.path.exists(FEEDBACK_CSV):
-        feedback_df = pd.read_csv(FEEDBACK_CSV)
-        st.info(f"Total feedback entries: {len(feedback_df)}")
+        try:
+            feedback_df = pd.read_csv(FEEDBACK_CSV)
+            st.info(f"Total feedback entries: {len(feedback_df)}")
+        except Exception as e:
+            st.error(f"Error reading feedback CSV: {e}")
 
 # Sidebar with information
 with st.sidebar:
@@ -380,21 +444,29 @@ with st.sidebar:
 
     st.header("📁 Feedback Data")
     if os.path.exists(FEEDBACK_CSV):
-        feedback_df = pd.read_csv(FEEDBACK_CSV)
-        st.metric("Total Entries", len(feedback_df))
+        try:
+            feedback_df = pd.read_csv(FEEDBACK_CSV)
+            st.metric("Total Entries", len(feedback_df))
 
-        if len(feedback_df) > 0:
-            avg_rating = feedback_df['rating'].mean()
-            st.metric("Average Rating", f"{avg_rating:.2f}")
+            if len(feedback_df) > 0:
+                # Check if rating column exists and has valid data
+                if 'rating' in feedback_df.columns and feedback_df['rating'].notna().any():
+                    avg_rating = feedback_df['rating'].mean()
+                    st.metric("Average Rating", f"{avg_rating:.2f}")
+                else:
+                    st.info("No ratings yet")
 
-            # Download all feedback
-            csv_data = feedback_df.to_csv(index=False)
-            st.download_button(
-                label="Download All Feedback",
-                data=csv_data,
-                file_name=f"all_feedback_{datetime.now().strftime('%Y%m%d')}.csv",
-                mime="text/csv"
-            )
+                # Download all feedback
+                csv_data = feedback_df.to_csv(index=False)
+                st.download_button(
+                    label="Download All Feedback",
+                    data=csv_data,
+                    file_name=f"all_feedback_{datetime.now().strftime('%Y%m%d')}.csv",
+                    mime="text/csv"
+                )
+        except Exception as e:
+            st.error(f"Error reading feedback CSV: {e}")
+            st.error("Try running: python scripts/fix_csv.py")
     else:
         st.info("No feedback data yet")
 

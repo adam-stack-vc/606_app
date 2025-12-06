@@ -1,0 +1,1992 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<heldOrderRoutingPublicReport>
+  <version>1.2</version>
+  <bd>Interactive Brokers</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-03T01:03:06Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>4</mon>
+    <rSP500>
+      <ndoPct>55.83</ndoPct>
+      <ndoMarketPct>0.20</ndoMarketPct>
+      <ndoMarketableLimitPct>29.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>68.80</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.00</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Nasdaq Stock Market</name>
+          <mic>XNAS</mic>
+          <orderPct>42.05</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>13.31</marketableLimitPct>
+          <nonMarketableLimitPct>54.55</nonMarketableLimitPct>
+          <otherPct>33.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-212949</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-22.7463</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1584591</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.7589</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-51667</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.0929</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE EDGX Exchange</name>
+          <mic>EDGX</mic>
+          <orderPct>14.92</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.38</marketableLimitPct>
+          <nonMarketableLimitPct>20.55</nonMarketableLimitPct>
+          <otherPct>19.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-57725</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-26.3701</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>20580</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.8260</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-51</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.0618</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>New York Stock Exchange</name>
+          <mic>XNYS</mic>
+          <orderPct>12.08</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.74</marketableLimitPct>
+          <nonMarketableLimitPct>12.88</nonMarketableLimitPct>
+          <otherPct>34.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-23710</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.6840</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>176973</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.8025</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-44589</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.0240</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IBKR ATS</name>
+          <mic>IATS</mic>
+          <orderPct>9.26</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>30.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.80</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR operates the IBKR ATS in accordance with SEC Regulation ATS. IBKR uses the IBKR ATS to execute IBKR client orders against each other or against one or more professional liquidity providers who quote into the IBKR ATS. Order executions on the IBKR ATS are faster, eliminate exchange fees, and may offer Price Improvement. Statistical information regarding the quality of executions for orders effected through the IBKR ATS (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>INTERACTIVE BROKERS CORP</name>
+          <mic>IBCO</mic>
+          <orderPct>2.91</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>10.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Interactive Brokers Corp. ('IB Corp') operates a Single Dealer Platform (SDP) that executes both whole-share and fractional-share portions of certain IBLLC stock orders. IBLLC uses the SDP to execute client orders against IB Corp principal liquidity.  IBLLC routes orders to the SDP only when it offers the best price, as determined by IBLLC's Smart Order Router, which implements IBLLC's best execution policy. Both IB Corp and IBLLC are subsidiaries of Interactive Brokers Group.  There are no compensation or profit sharing arrangements relating to the SDP, nor are there any requirements regarding the minimum amount of order flow that IBLLC will route to the SDP.  Statistical information regarding the quality of executions for orders effected through the SDP (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean ATS, LLC</name>
+          <mic>OCEA</mic>
+          <orderPct>2.76</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.76</marketableLimitPct>
+          <nonMarketableLimitPct>3.69</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-13125</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.5797</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3393</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.1664</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities "LITE"</name>
+          <mic>CDED</mic>
+          <orderPct>2.63</orderPct>
+          <marketPct>40.77</marketPct>
+          <marketableLimitPct>6.70</marketableLimitPct>
+          <nonMarketableLimitPct>0.87</nonMarketableLimitPct>
+          <otherPct>0.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>22445</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>86.0099</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20433</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>1.6339</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8061</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.8779</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca</name>
+          <mic>ARCX</mic>
+          <orderPct>2.37</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.01</marketableLimitPct>
+          <nonMarketableLimitPct>2.18</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-137054</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-27.1337</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19371</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.4077</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IEX</name>
+          <mic>IEXG</mic>
+          <orderPct>1.22</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.50</marketableLimitPct>
+          <nonMarketableLimitPct>0.55</nonMarketableLimitPct>
+          <otherPct>5.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-29287</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-15.1428</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1141</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.2839</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-15.2489</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>35.78</ndoPct>
+      <ndoMarketPct>0.27</ndoMarketPct>
+      <ndoMarketableLimitPct>26.95</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>70.56</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.22</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Nasdaq Stock Market</name>
+          <mic>XNAS</mic>
+          <orderPct>26.51</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>9.23</marketableLimitPct>
+          <nonMarketableLimitPct>33.13</nonMarketableLimitPct>
+          <otherPct>28.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-11</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.2312</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1284851</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-22.5820</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4261397</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.3884</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-108516</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5473</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca</name>
+          <mic>ARCX</mic>
+          <orderPct>19.94</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.07</marketableLimitPct>
+          <nonMarketableLimitPct>24.41</nonMarketableLimitPct>
+          <otherPct>24.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1249047</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.5133</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1993377</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0798</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-31251</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.0959</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE EDGX Exchange</name>
+          <mic>EDGX</mic>
+          <orderPct>14.18</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.89</marketableLimitPct>
+          <nonMarketableLimitPct>18.44</nonMarketableLimitPct>
+          <otherPct>17.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-540782</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.8198</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>122376</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.1820</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1047</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.6877</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>New York Stock Exchange</name>
+          <mic>XNYS</mic>
+          <orderPct>9.63</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.49</marketableLimitPct>
+          <nonMarketableLimitPct>10.55</nonMarketableLimitPct>
+          <otherPct>19.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-263787</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-21.6153</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>751524</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.6635</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-80983</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5760</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IBKR ATS</name>
+          <mic>IATS</mic>
+          <orderPct>4.73</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>16.65</marketableLimitPct>
+          <nonMarketableLimitPct>0.35</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR operates the IBKR ATS in accordance with SEC Regulation ATS. IBKR uses the IBKR ATS to execute IBKR client orders against each other or against one or more professional liquidity providers who quote into the IBKR ATS. Order executions on the IBKR ATS are faster, eliminate exchange fees, and may offer Price Improvement. Statistical information regarding the quality of executions for orders effected through the IBKR ATS (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean ATS, LLC</name>
+          <mic>OCEA</mic>
+          <orderPct>3.78</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.57</marketableLimitPct>
+          <nonMarketableLimitPct>5.14</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-34589</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.3845</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>16850</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.8619</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities "LITE"</name>
+          <mic>CDED</mic>
+          <orderPct>1.85</orderPct>
+          <marketPct>47.40</marketPct>
+          <marketableLimitPct>3.29</marketableLimitPct>
+          <nonMarketableLimitPct>1.17</nonMarketableLimitPct>
+          <otherPct>0.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>97642</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.3551</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>156764</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.1035</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>77496</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.9940</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IEX</name>
+          <mic>IEXD</mic>
+          <orderPct>1.71</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.93</marketableLimitPct>
+          <nonMarketableLimitPct>0.47</nonMarketableLimitPct>
+          <otherPct>2.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-196785</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-17.1237</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-6109</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.4527</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-174</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-14.2192</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>INTERACTIVE BROKERS CORP</name>
+          <mic>IBCO</mic>
+          <orderPct>1.51</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.59</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Interactive Brokers Corp. ('IB Corp') operates a Single Dealer Platform (SDP) that executes both whole-share and fractional-share portions of certain IBLLC stock orders. IBLLC uses the SDP to execute client orders against IB Corp principal liquidity.  IBLLC routes orders to the SDP only when it offers the best price, as determined by IBLLC's Smart Order Router, which implements IBLLC's best execution policy. Both IB Corp and IBLLC are subsidiaries of Interactive Brokers Group.  There are no compensation or profit sharing arrangements relating to the SDP, nor are there any requirements regarding the minimum amount of order flow that IBLLC will route to the SDP.  Statistical information regarding the quality of executions for orders effected through the SDP (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT Execution Services LLC</name>
+          <mic>HRTF</mic>
+          <orderPct>1.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE BZX Exchange</name>
+          <mic>BATS</mic>
+          <orderPct>1.27</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.36</marketableLimitPct>
+          <nonMarketableLimitPct>0.77</nonMarketableLimitPct>
+          <otherPct>3.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-278855</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-26.9013</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>68682</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.9158</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-7189</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.2648</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LeveL ATS</name>
+          <mic>EBXL</mic>
+          <orderPct>1.16</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.29</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Knight Link</name>
+          <mic>KNLI</mic>
+          <orderPct>1.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.85</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE BYX Exchange</name>
+          <mic>BATY</mic>
+          <orderPct>1.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.77</marketableLimitPct>
+          <nonMarketableLimitPct>1.12</nonMarketableLimitPct>
+          <otherPct>1.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2093</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.4322</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-7661</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.4055</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.8215</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital LLC "LITE"</name>
+          <mic>JNST</mic>
+          <orderPct>1.01</orderPct>
+          <marketPct>47.05</marketPct>
+          <marketableLimitPct>0.75</marketableLimitPct>
+          <nonMarketableLimitPct>0.96</nonMarketableLimitPct>
+          <otherPct>0.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>200795</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.9108</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>281877</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.3571</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>151123</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.5309</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1695</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.4321</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.64</ndoPct>
+      <ndoMarketPct>0.12</ndoMarketPct>
+      <ndoMarketableLimitPct>13.30</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>48.34</ndoNonmarketableLimitPct>
+      <ndoOtherPct>38.24</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Chicago Board Options Exchange</name>
+          <mic>XCBO</mic>
+          <orderPct>25.76</orderPct>
+          <marketPct>14.34</marketPct>
+          <marketableLimitPct>36.03</marketableLimitPct>
+          <nonMarketableLimitPct>17.68</nonMarketableLimitPct>
+          <otherPct>32.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2301</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-40.6995</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1231788</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>18.8548</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1941254</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-43.2207</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1358291</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.6710</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca Options</name>
+          <mic>ARCO</mic>
+          <orderPct>13.23</orderPct>
+          <marketPct>7.58</marketPct>
+          <marketableLimitPct>2.54</marketableLimitPct>
+          <nonMarketableLimitPct>21.85</nonMarketableLimitPct>
+          <otherPct>6.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-6470</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-52.5968</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-367908</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-49.7866</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1551812</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.2324</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>78098</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>3.3222</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Sapphire</name>
+          <mic>MIHI</mic>
+          <orderPct>10.89</orderPct>
+          <marketPct>6.82</marketPct>
+          <marketableLimitPct>5.98</marketableLimitPct>
+          <nonMarketableLimitPct>16.47</nonMarketableLimitPct>
+          <otherPct>5.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1565</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.2302</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>526818</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>27.8104</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2343811</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.5549</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>662951</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.8400</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE C2 Exchange</name>
+          <mic>C2OX</mic>
+          <orderPct>8.70</orderPct>
+          <marketPct>4.52</marketPct>
+          <marketableLimitPct>1.18</marketableLimitPct>
+          <nonMarketableLimitPct>4.43</nonMarketableLimitPct>
+          <otherPct>16.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1577</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>41.9192</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-459452</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-42.3323</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>474571</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.6833</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>757535</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.0464</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE</name>
+          <mic>XISX</mic>
+          <orderPct>6.65</orderPct>
+          <marketPct>50.83</marketPct>
+          <marketableLimitPct>2.77</marketableLimitPct>
+          <nonMarketableLimitPct>5.82</nonMarketableLimitPct>
+          <otherPct>8.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3566</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.5720</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-114373</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.8091</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1705700</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>108.7317</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>305441</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.5072</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Options Exchange</name>
+          <mic>EDGO</mic>
+          <orderPct>6.59</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.14</marketableLimitPct>
+          <nonMarketableLimitPct>4.47</nonMarketableLimitPct>
+          <otherPct>11.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1081572</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>190.2914</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>431080</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.7693</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1124934</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.6545</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX</name>
+          <mic>XPHL</mic>
+          <orderPct>5.69</orderPct>
+          <marketPct>1.28</marketPct>
+          <marketableLimitPct>12.05</marketableLimitPct>
+          <nonMarketableLimitPct>1.80</nonMarketableLimitPct>
+          <otherPct>8.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>57</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>3.8973</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3099795</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>56.7381</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>384263</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.0700</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>153350</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.1720</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq GEMX</name>
+          <mic>GMNI</mic>
+          <orderPct>3.92</orderPct>
+          <marketPct>9.10</marketPct>
+          <marketableLimitPct>1.19</marketableLimitPct>
+          <nonMarketableLimitPct>7.75</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6359</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>47.9999</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-157137</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-43.5139</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1113168</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.7695</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-180</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-46.6286</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq Options Market</name>
+          <mic>XNDQ</mic>
+          <orderPct>3.78</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.40</marketableLimitPct>
+          <nonMarketableLimitPct>7.43</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-404989</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-45.8088</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>220467</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>53.0859</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Emerald Exchange</name>
+          <mic>EMLD</mic>
+          <orderPct>3.13</orderPct>
+          <marketPct>0.82</marketPct>
+          <marketableLimitPct>0.50</marketableLimitPct>
+          <nonMarketableLimitPct>1.84</nonMarketableLimitPct>
+          <otherPct>5.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>271</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.9018</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-82562</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-38.2735</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>116365</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.5211</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>370699</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.8257</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange</name>
+          <mic>XBOX</mic>
+          <orderPct>3.10</orderPct>
+          <marketPct>0.18</marketPct>
+          <marketableLimitPct>13.77</marketableLimitPct>
+          <nonMarketableLimitPct>0.91</nonMarketableLimitPct>
+          <otherPct>2.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>187</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>18.1438</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1753709</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>26.8303</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>264732</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.1647</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>68253</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.9825</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>An affiliate under common control with IBKR has a substantial, minority investment in the Boston Options Exchange Group LLC, which operates the Boston Options Exchange. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>5</mon>
+    <rSP500>
+      <ndoPct>62.77</ndoPct>
+      <ndoMarketPct>0.19</ndoMarketPct>
+      <ndoMarketableLimitPct>24.79</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>72.96</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.05</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Nasdaq Stock Market</name>
+          <mic>XNAS</mic>
+          <orderPct>36.38</orderPct>
+          <marketPct>0.03</marketPct>
+          <marketableLimitPct>11.04</marketableLimitPct>
+          <nonMarketableLimitPct>45.19</nonMarketableLimitPct>
+          <otherPct>32.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.7153</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-163480</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.0886</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1157293</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.6297</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-50462</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.3159</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE EDGX Exchange</name>
+          <mic>EDGX</mic>
+          <orderPct>18.74</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.94</marketableLimitPct>
+          <nonMarketableLimitPct>24.29</nonMarketableLimitPct>
+          <otherPct>25.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-48271</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.2910</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19040</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.1595</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-318</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.9459</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>New York Stock Exchange</name>
+          <mic>XNYS</mic>
+          <orderPct>12.74</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>6.62</marketableLimitPct>
+          <nonMarketableLimitPct>14.23</nonMarketableLimitPct>
+          <otherPct>34.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-19860</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-20.5058</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>122891</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.6217</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-40895</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.9414</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IBKR ATS</name>
+          <mic>IATS</mic>
+          <orderPct>7.56</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>28.92</marketableLimitPct>
+          <nonMarketableLimitPct>0.54</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR operates the IBKR ATS in accordance with SEC Regulation ATS. IBKR uses the IBKR ATS to execute IBKR client orders against each other or against one or more professional liquidity providers who quote into the IBKR ATS. Order executions on the IBKR ATS are faster, eliminate exchange fees, and may offer Price Improvement. Statistical information regarding the quality of executions for orders effected through the IBKR ATS (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE CHX</name>
+          <mic>XCHI</mic>
+          <orderPct>5.21</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>7.13</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-324</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.9269</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4626</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.1412</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>INTERACTIVE BROKERS CORP</name>
+          <mic>IBCO</mic>
+          <orderPct>2.81</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.34</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Interactive Brokers Corp. ('IB Corp') operates a Single Dealer Platform (SDP) that executes both whole-share and fractional-share portions of certain IBLLC stock orders. IBLLC uses the SDP to execute client orders against IB Corp principal liquidity.  IBLLC routes orders to the SDP only when it offers the best price, as determined by IBLLC's Smart Order Router, which implements IBLLC's best execution policy. Both IB Corp and IBLLC are subsidiaries of Interactive Brokers Group.  There are no compensation or profit sharing arrangements relating to the SDP, nor are there any requirements regarding the minimum amount of order flow that IBLLC will route to the SDP.  Statistical information regarding the quality of executions for orders effected through the SDP (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities "LITE"</name>
+          <mic>CDED</mic>
+          <orderPct>2.79</orderPct>
+          <marketPct>39.02</marketPct>
+          <marketableLimitPct>8.46</marketableLimitPct>
+          <nonMarketableLimitPct>0.83</nonMarketableLimitPct>
+          <otherPct>0.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>16822</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>72.1647</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>22048</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>1.9278</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6287</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.2713</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca</name>
+          <mic>ARCX</mic>
+          <orderPct>2.63</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.86</marketableLimitPct>
+          <nonMarketableLimitPct>2.29</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-104173</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.6046</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>28095</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.2774</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean ATS, LLC</name>
+          <mic>OCEA</mic>
+          <orderPct>2.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.80</marketableLimitPct>
+          <nonMarketableLimitPct>2.53</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9447</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.1729</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2070</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.4955</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>43.01</ndoPct>
+      <ndoMarketPct>0.27</ndoMarketPct>
+      <ndoMarketableLimitPct>26.45</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>70.82</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.46</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Nasdaq Stock Market</name>
+          <mic>XNAS</mic>
+          <orderPct>27.63</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>9.37</marketableLimitPct>
+          <nonMarketableLimitPct>34.57</nonMarketableLimitPct>
+          <otherPct>27.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.1576</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1220571</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-22.2713</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4041421</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.6575</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-120169</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-6.9682</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE EDGX Exchange</name>
+          <mic>EDGX</mic>
+          <orderPct>17.24</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.41</marketableLimitPct>
+          <nonMarketableLimitPct>22.12</nonMarketableLimitPct>
+          <otherPct>27.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-533675</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-17.6403</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>140888</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.6517</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1339</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.9926</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca</name>
+          <mic>ARCX</mic>
+          <orderPct>16.32</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>7.77</marketableLimitPct>
+          <nonMarketableLimitPct>19.48</nonMarketableLimitPct>
+          <otherPct>19.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1208288</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-16.9572</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1135456</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>24.2067</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-36763</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-10.5088</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>New York Stock Exchange</name>
+          <mic>XNYS</mic>
+          <orderPct>10.91</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>7.34</marketableLimitPct>
+          <nonMarketableLimitPct>12.04</nonMarketableLimitPct>
+          <otherPct>18.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-239110</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-21.2914</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>762944</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.8329</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-82746</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5932</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IBKR ATS</name>
+          <mic>IATS</mic>
+          <orderPct>4.88</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>17.57</marketableLimitPct>
+          <nonMarketableLimitPct>0.33</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR operates the IBKR ATS in accordance with SEC Regulation ATS. IBKR uses the IBKR ATS to execute IBKR client orders against each other or against one or more professional liquidity providers who quote into the IBKR ATS. Order executions on the IBKR ATS are faster, eliminate exchange fees, and may offer Price Improvement. Statistical information regarding the quality of executions for orders effected through the IBKR ATS (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean ATS, LLC</name>
+          <mic>OCEA</mic>
+          <orderPct>2.68</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.55</marketableLimitPct>
+          <nonMarketableLimitPct>3.58</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-31298</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.7420</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11844</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.6484</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities "LITE"</name>
+          <mic>CDED</mic>
+          <orderPct>2.23</orderPct>
+          <marketPct>54.65</marketPct>
+          <marketableLimitPct>4.18</marketableLimitPct>
+          <nonMarketableLimitPct>1.37</nonMarketableLimitPct>
+          <otherPct>0.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>112647</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.2696</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>144027</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.7440</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>75215</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.4523</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>INTERACTIVE BROKERS CORP</name>
+          <mic>IBCO</mic>
+          <orderPct>1.49</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.65</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Interactive Brokers Corp. ('IB Corp') operates a Single Dealer Platform (SDP) that executes both whole-share and fractional-share portions of certain IBLLC stock orders. IBLLC uses the SDP to execute client orders against IB Corp principal liquidity.  IBLLC routes orders to the SDP only when it offers the best price, as determined by IBLLC's Smart Order Router, which implements IBLLC's best execution policy. Both IB Corp and IBLLC are subsidiaries of Interactive Brokers Group.  There are no compensation or profit sharing arrangements relating to the SDP, nor are there any requirements regarding the minimum amount of order flow that IBLLC will route to the SDP.  Statistical information regarding the quality of executions for orders effected through the SDP (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IEX</name>
+          <mic>IEXG</mic>
+          <orderPct>1.26</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.26</marketableLimitPct>
+          <nonMarketableLimitPct>0.16</nonMarketableLimitPct>
+          <otherPct>0.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-118384</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.0026</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2964</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.7670</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-179</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-15.6683</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT Execution Services LLC</name>
+          <mic>HRTF</mic>
+          <orderPct>1.19</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.50</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital LLC "LITE"</name>
+          <mic>JNST</mic>
+          <orderPct>1.18</orderPct>
+          <marketPct>39.01</marketPct>
+          <marketableLimitPct>0.78</marketableLimitPct>
+          <nonMarketableLimitPct>1.22</nonMarketableLimitPct>
+          <otherPct>0.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>177739</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>27.5573</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>201322</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.7380</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>156159</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.8189</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1263</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.9585</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LeveL ATS</name>
+          <mic>EBXL</mic>
+          <orderPct>1.08</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.09</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE BZX Exchange</name>
+          <mic>BATS</mic>
+          <orderPct>0.99</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.83</marketableLimitPct>
+          <nonMarketableLimitPct>0.55</nonMarketableLimitPct>
+          <otherPct>4.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-248839</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.4588</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>45343</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>17.0014</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-4872</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-12.5195</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE BYX Exchange</name>
+          <mic>BATY</mic>
+          <orderPct>0.97</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.70</marketableLimitPct>
+          <nonMarketableLimitPct>1.08</nonMarketableLimitPct>
+          <otherPct>0.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3472</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.8465</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-11326</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-11.4643</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1.0164</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.49</ndoPct>
+      <ndoMarketPct>0.12</ndoMarketPct>
+      <ndoMarketableLimitPct>13.80</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.70</ndoNonmarketableLimitPct>
+      <ndoOtherPct>35.38</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Chicago Board Options Exchange</name>
+          <mic>XCBO</mic>
+          <orderPct>23.25</orderPct>
+          <marketPct>16.36</marketPct>
+          <marketableLimitPct>30.48</marketableLimitPct>
+          <nonMarketableLimitPct>18.39</nonMarketableLimitPct>
+          <otherPct>27.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2404</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-41.5570</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>422166</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.7731</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1983446</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-47.2787</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1160461</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-11.7286</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca Options</name>
+          <mic>ARCO</mic>
+          <orderPct>16.73</orderPct>
+          <marketPct>10.98</marketPct>
+          <marketableLimitPct>3.37</marketableLimitPct>
+          <nonMarketableLimitPct>26.92</nonMarketableLimitPct>
+          <otherPct>7.36</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-3787</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-50.0954</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-425521</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-50.2308</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1464845</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.2454</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-310126</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-10.7862</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Sapphire</name>
+          <mic>MIHI</mic>
+          <orderPct>14.56</orderPct>
+          <marketPct>12.68</marketPct>
+          <marketableLimitPct>7.86</marketableLimitPct>
+          <nonMarketableLimitPct>21.97</nonMarketableLimitPct>
+          <otherPct>6.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1540</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.7148</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>594071</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.0938</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3137370</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.2022</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>639991</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.0177</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE C2 Exchange</name>
+          <mic>C2OX</mic>
+          <orderPct>7.84</orderPct>
+          <marketPct>1.69</marketPct>
+          <marketableLimitPct>1.89</marketableLimitPct>
+          <nonMarketableLimitPct>0.76</nonMarketableLimitPct>
+          <otherPct>20.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>44.9211</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-691981</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-42.4247</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>57468</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>40.9447</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>672481</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.1666</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE</name>
+          <mic>XISX</mic>
+          <orderPct>7.38</orderPct>
+          <marketPct>42.94</marketPct>
+          <marketableLimitPct>4.28</marketableLimitPct>
+          <nonMarketableLimitPct>8.27</nonMarketableLimitPct>
+          <otherPct>7.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>13079</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.3997</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-143081</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.5459</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2116412</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>104.7528</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>302949</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.9460</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX</name>
+          <mic>XPHL</mic>
+          <orderPct>5.15</orderPct>
+          <marketPct>1.02</marketPct>
+          <marketableLimitPct>11.34</marketableLimitPct>
+          <nonMarketableLimitPct>1.68</nonMarketableLimitPct>
+          <otherPct>7.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>26</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>3.5566</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2755291</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>60.3961</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>351687</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.4980</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>120481</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.5058</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Options Exchange</name>
+          <mic>EDGO</mic>
+          <orderPct>4.45</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.33</marketableLimitPct>
+          <nonMarketableLimitPct>1.20</nonMarketableLimitPct>
+          <otherPct>10.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>435636</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>74.3624</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>63306</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.7149</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>949611</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.7890</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq GEMX</name>
+          <mic>GMNI</mic>
+          <orderPct>3.74</orderPct>
+          <marketPct>9.64</marketPct>
+          <marketableLimitPct>1.49</marketableLimitPct>
+          <nonMarketableLimitPct>6.96</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3919</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>46.2752</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-180376</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-42.6052</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>744892</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>36.0851</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-46.5540</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq Options Market</name>
+          <mic>XNDQ</mic>
+          <orderPct>3.38</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.42</marketableLimitPct>
+          <nonMarketableLimitPct>6.29</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-440122</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-48.2886</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>189002</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.6346</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>BOX Exchange</name>
+          <mic>XBOX</mic>
+          <orderPct>2.95</orderPct>
+          <marketPct>0.10</marketPct>
+          <marketableLimitPct>11.76</marketableLimitPct>
+          <nonMarketableLimitPct>0.80</nonMarketableLimitPct>
+          <otherPct>2.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>14</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.0417</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1639852</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.3431</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>222759</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.5660</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>52953</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.7275</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>An affiliate under common control with IBKR has a substantial, minority investment in the Boston Options Exchange Group LLC, which operates the Boston Options Exchange. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq MRX</name>
+          <mic>MCRY</mic>
+          <orderPct>2.95</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>15.73</marketableLimitPct>
+          <nonMarketableLimitPct>0.54</nonMarketableLimitPct>
+          <otherPct>1.42</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2462781</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>33.0227</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>217795</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.9172</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>109026</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.0947</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>6</mon>
+    <rSP500>
+      <ndoPct>64.30</ndoPct>
+      <ndoMarketPct>0.19</ndoMarketPct>
+      <ndoMarketableLimitPct>22.72</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>74.84</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.26</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Nasdaq Stock Market</name>
+          <mic>XNAS</mic>
+          <orderPct>35.16</orderPct>
+          <marketPct>0.03</marketPct>
+          <marketableLimitPct>9.24</marketableLimitPct>
+          <nonMarketableLimitPct>43.22</nonMarketableLimitPct>
+          <otherPct>31.76</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-3</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-11.2705</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-135442</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.4041</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>949093</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.8849</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-41432</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.1458</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE EDGX Exchange</name>
+          <mic>EDGX</mic>
+          <orderPct>20.64</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.40</marketableLimitPct>
+          <nonMarketableLimitPct>26.33</nonMarketableLimitPct>
+          <otherPct>27.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-33166</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-24.6061</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>20709</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.6253</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-425</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5259</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>New York Stock Exchange</name>
+          <mic>XNYS</mic>
+          <orderPct>12.24</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.62</marketableLimitPct>
+          <nonMarketableLimitPct>13.99</nonMarketableLimitPct>
+          <otherPct>31.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-15210</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.2541</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>122274</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.9788</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-38829</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.1800</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IBKR ATS</name>
+          <mic>IATS</mic>
+          <orderPct>7.64</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>31.99</marketableLimitPct>
+          <nonMarketableLimitPct>0.50</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR operates the IBKR ATS in accordance with SEC Regulation ATS. IBKR uses the IBKR ATS to execute IBKR client orders against each other or against one or more professional liquidity providers who quote into the IBKR ATS. Order executions on the IBKR ATS are faster, eliminate exchange fees, and may offer Price Improvement. Statistical information regarding the quality of executions for orders effected through the IBKR ATS (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE CHX</name>
+          <mic>XCHI</mic>
+          <orderPct>4.18</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>5.58</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-307</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-28.5436</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6005</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.7453</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities "LITE"</name>
+          <mic>CDED</mic>
+          <orderPct>2.89</orderPct>
+          <marketPct>42.31</marketPct>
+          <marketableLimitPct>9.38</marketableLimitPct>
+          <nonMarketableLimitPct>0.89</nonMarketableLimitPct>
+          <otherPct>0.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>13705</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>58.5716</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20840</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>1.8358</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7151</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.3907</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>INTERACTIVE BROKERS CORP</name>
+          <mic>IBCO</mic>
+          <orderPct>2.60</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>11.42</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Interactive Brokers Corp. ('IB Corp') operates a Single Dealer Platform (SDP) that executes both whole-share and fractional-share portions of certain IBLLC stock orders. IBLLC uses the SDP to execute client orders against IB Corp principal liquidity.  IBLLC routes orders to the SDP only when it offers the best price, as determined by IBLLC's Smart Order Router, which implements IBLLC's best execution policy. Both IB Corp and IBLLC are subsidiaries of Interactive Brokers Group.  There are no compensation or profit sharing arrangements relating to the SDP, nor are there any requirements regarding the minimum amount of order flow that IBLLC will route to the SDP.  Statistical information regarding the quality of executions for orders effected through the SDP (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca</name>
+          <mic>ARCX</mic>
+          <orderPct>2.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.78</marketableLimitPct>
+          <nonMarketableLimitPct>2.35</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-79496</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-25.3450</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>29496</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.9733</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean ATS, LLC</name>
+          <mic>OCEA</mic>
+          <orderPct>2.12</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.79</marketableLimitPct>
+          <nonMarketableLimitPct>2.59</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7712</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.6868</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1699</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.5105</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NASDAQ Retail Liquidity Program</name>
+          <mic>NASD</mic>
+          <orderPct>1.43</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.39</marketableLimitPct>
+          <nonMarketableLimitPct>1.76</nonMarketableLimitPct>
+          <otherPct>0.99</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6849</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.8126</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>48654</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.8557</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-911</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5377</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>39.15</ndoPct>
+      <ndoMarketPct>0.29</ndoMarketPct>
+      <ndoMarketableLimitPct>26.11</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>71.23</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.36</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Nasdaq Stock Market</name>
+          <mic>XNAS</mic>
+          <orderPct>26.05</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>9.18</marketableLimitPct>
+          <nonMarketableLimitPct>32.32</nonMarketableLimitPct>
+          <otherPct>26.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-3</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-0.7002</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1138464</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-23.6039</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3886613</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>19.2884</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-121629</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.4687</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE EDGX Exchange</name>
+          <mic>EDGX</mic>
+          <orderPct>17.64</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.06</marketableLimitPct>
+          <nonMarketableLimitPct>22.72</nonMarketableLimitPct>
+          <otherPct>28.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-533688</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.8938</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>154896</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.7666</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1276</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.9624</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca</name>
+          <mic>ARCX</mic>
+          <orderPct>15.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>7.14</marketableLimitPct>
+          <nonMarketableLimitPct>17.81</nonMarketableLimitPct>
+          <otherPct>19.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1219988</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-18.5602</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1180606</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.2004</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-41987</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-11.3396</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>New York Stock Exchange</name>
+          <mic>XNYS</mic>
+          <orderPct>11.36</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.55</marketableLimitPct>
+          <nonMarketableLimitPct>13.35</nonMarketableLimitPct>
+          <otherPct>17.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-234879</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-20.3083</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>814804</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.8809</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-81263</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.9150</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IBKR ATS</name>
+          <mic>IATS</mic>
+          <orderPct>5.54</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>20.21</marketableLimitPct>
+          <nonMarketableLimitPct>0.37</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR operates the IBKR ATS in accordance with SEC Regulation ATS. IBKR uses the IBKR ATS to execute IBKR client orders against each other or against one or more professional liquidity providers who quote into the IBKR ATS. Order executions on the IBKR ATS are faster, eliminate exchange fees, and may offer Price Improvement. Statistical information regarding the quality of executions for orders effected through the IBKR ATS (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Blue Ocean ATS, LLC</name>
+          <mic>OCEA</mic>
+          <orderPct>2.34</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.47</marketableLimitPct>
+          <nonMarketableLimitPct>3.11</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-25366</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.6049</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9191</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.4124</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Citadel Securities "LITE"</name>
+          <mic>CDED</mic>
+          <orderPct>2.25</orderPct>
+          <marketPct>49.76</marketPct>
+          <marketableLimitPct>4.27</marketableLimitPct>
+          <nonMarketableLimitPct>1.38</nonMarketableLimitPct>
+          <otherPct>0.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>112446</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.0917</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>139592</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.6009</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>86074</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.6374</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NASDAQ Retail Liquidity Program</name>
+          <mic>NASD</mic>
+          <orderPct>1.35</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.60</marketableLimitPct>
+          <nonMarketableLimitPct>1.65</nonMarketableLimitPct>
+          <otherPct>0.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-35548</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-12.8742</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>162761</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.2540</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-3041</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-6.1226</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>INTERACTIVE BROKERS CORP</name>
+          <mic>IBCO</mic>
+          <orderPct>1.29</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.93</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Interactive Brokers Corp. ('IB Corp') operates a Single Dealer Platform (SDP) that executes both whole-share and fractional-share portions of certain IBLLC stock orders. IBLLC uses the SDP to execute client orders against IB Corp principal liquidity.  IBLLC routes orders to the SDP only when it offers the best price, as determined by IBLLC's Smart Order Router, which implements IBLLC's best execution policy. Both IB Corp and IBLLC are subsidiaries of Interactive Brokers Group.  There are no compensation or profit sharing arrangements relating to the SDP, nor are there any requirements regarding the minimum amount of order flow that IBLLC will route to the SDP.  Statistical information regarding the quality of executions for orders effected through the SDP (e.g., average execution speed, percentage of orders receiving Price Improvement, etc.) is available on the IBKR website at: https://ibkr.com/regulatoryreports</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>IEX</name>
+          <mic>IEXD</mic>
+          <orderPct>1.25</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.20</marketableLimitPct>
+          <nonMarketableLimitPct>0.18</nonMarketableLimitPct>
+          <otherPct>1.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-112558</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-19.4142</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>936</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.6427</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-176</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-13.2021</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>HRT Execution Services LLC</name>
+          <mic>HRTF</mic>
+          <orderPct>1.19</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.57</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital LLC "LITE"</name>
+          <mic>JNST</mic>
+          <orderPct>1.14</orderPct>
+          <marketPct>43.54</marketPct>
+          <marketableLimitPct>0.81</marketableLimitPct>
+          <nonMarketableLimitPct>1.11</nonMarketableLimitPct>
+          <otherPct>0.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>193241</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.5132</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>212556</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>17.5361</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>148137</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.6986</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>853</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.5104</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR-LITE clients are charged zero commission for NMS stock and ETF orders, except for certain order types, orders that execute at the open or close, and orders that execute outside of regular trading hours (“Outside-RTH”), if the volume of such On Open and On Close orders or Outside-RTH in any given month exceeds a certain percentage of the account's aggregate US stock trading volume in that same month. IBKR-LITE orders are normally routed to select over-the-counter market makers for handling. IBKR's agreements with the market makers provide Interactive Brokers payment for order flow from each market maker (subject to certain exclusions detailed below). For trades executed with respect to a marketable customer order, each market maker pays IBKR a rebate of 12% of the spread between the National Best Bid and Offer of the routed stock at the time the order was received by the market maker. For trades executed with respect to a non-marketable customer order, each market maker pays IBKR $0.27 per 100 shares for execution prices greater than or equal to $1.00 and $0.0027 per 100 shares for execution prices less than $1.00. A potential effect of these payments is reduced price improvement on executions received by IBKR-LITE clients, in proportion to the payment received by IBKR. For both marketable and non-marketable orders, IBKR receives no payments for executions outside of regular trading hours and executions resulting from On Open and On Close orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LeveL ATS</name>
+          <mic>EBXL</mic>
+          <orderPct>0.98</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.77</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>XTX Execution Services LLC</name>
+          <mic>XTXE</mic>
+          <orderPct>0.95</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.22</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE BYX Exchange</name>
+          <mic>BATY</mic>
+          <orderPct>0.94</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.59</marketableLimitPct>
+          <nonMarketableLimitPct>1.08</nonMarketableLimitPct>
+          <otherPct>0.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2498</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.7229</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-11132</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-10.1982</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1.7756</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas LLC "PRO"</name>
+          <mic>VIRT</mic>
+          <orderPct>0.91</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.50</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph></netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>IBKR has no payment for order flow, profit sharing, or fee or payment arrangement with this venue.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.19</ndoPct>
+      <ndoMarketPct>0.12</ndoMarketPct>
+      <ndoMarketableLimitPct>13.30</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.93</ndoNonmarketableLimitPct>
+      <ndoOtherPct>32.65</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Chicago Board Options Exchange</name>
+          <mic>XCBO</mic>
+          <orderPct>24.10</orderPct>
+          <marketPct>14.58</marketPct>
+          <marketableLimitPct>30.43</marketableLimitPct>
+          <nonMarketableLimitPct>18.74</nonMarketableLimitPct>
+          <otherPct>30.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2155</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-46.0398</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>362254</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.9981</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1922516</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-46.2891</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1884928</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-19.2255</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca Options</name>
+          <mic>ARCO</mic>
+          <orderPct>16.30</orderPct>
+          <marketPct>7.57</marketPct>
+          <marketableLimitPct>3.25</marketableLimitPct>
+          <nonMarketableLimitPct>25.32</nonMarketableLimitPct>
+          <otherPct>6.74</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-6371</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-59.6045</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-386784</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-50.6557</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1257537</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.4865</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-195436</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.8002</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Sapphire</name>
+          <mic>MIHI</mic>
+          <orderPct>13.53</orderPct>
+          <marketPct>10.61</marketPct>
+          <marketableLimitPct>8.35</marketableLimitPct>
+          <nonMarketableLimitPct>18.58</nonMarketableLimitPct>
+          <otherPct>7.32</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1442</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.9820</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>573869</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>28.4289</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2674254</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.4579</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>502441</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.2219</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CBOE C2 Exchange</name>
+          <mic>C2OX</mic>
+          <orderPct>9.36</orderPct>
+          <marketPct>4.60</marketPct>
+          <marketableLimitPct>1.81</marketableLimitPct>
+          <nonMarketableLimitPct>3.82</nonMarketableLimitPct>
+          <otherPct>21.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>426</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>39.6508</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-606270</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-42.4047</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>392067</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.2307</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>637846</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.3329</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE</name>
+          <mic>XISX</mic>
+          <orderPct>7.78</orderPct>
+          <marketPct>46.91</marketPct>
+          <marketableLimitPct>4.66</marketableLimitPct>
+          <nonMarketableLimitPct>9.14</nonMarketableLimitPct>
+          <otherPct>6.66</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8519</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>29.6272</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-120387</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.8460</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2056462</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>103.5014</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>271073</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.1767</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX</name>
+          <mic>XPHL</mic>
+          <orderPct>4.82</orderPct>
+          <marketPct>1.31</marketPct>
+          <marketableLimitPct>12.60</marketableLimitPct>
+          <nonMarketableLimitPct>1.79</nonMarketableLimitPct>
+          <otherPct>6.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.3259</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2761657</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>61.5507</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>353443</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.4953</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>89035</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.6404</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Options Exchange</name>
+          <mic>EDGO</mic>
+          <orderPct>4.36</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.28</marketableLimitPct>
+          <nonMarketableLimitPct>1.66</nonMarketableLimitPct>
+          <otherPct>10.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>370349</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>74.6812</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>55780</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.0998</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>807885</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.7935</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq GEMX</name>
+          <mic>GMNI</mic>
+          <orderPct>3.57</orderPct>
+          <marketPct>9.18</marketPct>
+          <marketableLimitPct>1.37</marketableLimitPct>
+          <nonMarketableLimitPct>6.26</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3807</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>42.7861</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-167657</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-43.3918</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>665099</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>36.7369</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-113</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-48.5216</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq Options Market</name>
+          <mic>XNDQ</mic>
+          <orderPct>3.18</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.23</marketableLimitPct>
+          <nonMarketableLimitPct>5.59</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-346471</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-47.9174</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>133444</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>56.8847</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Options Exchange</name>
+          <mic>BATS</mic>
+          <orderPct>3.11</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.07</marketableLimitPct>
+          <nonMarketableLimitPct>5.25</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph></netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-382027</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-46.7040</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>653923</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>68.3579</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph></netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>For stocks and options, Interactive Brokers' net payments paid to or received from exchange venues for purposes of Rule 606(a)(1) are based solely on the volume-based tiered payment schedules published by each exchange venue. To the extent that IBKR receives volume discounts, such discounts are not passed on to clients. Likewise, to the extent that IBKR receives enhanced rebate payments for exceeding volume thresholds on particular markets, it does not pass these enhanced rebate amounts directly to clients. Overall transaction fees and rebates for exchange venue transactions executed by IBKR vary from month-to-month depending on trading activity levels.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>
+

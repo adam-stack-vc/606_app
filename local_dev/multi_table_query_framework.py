@@ -265,6 +265,21 @@ def disambiguate_context(user_input: str, tags: dict, debug=False) -> dict:
     agent = None       # semantic sender
     recipient = None   # semantic receiver
 
+    # Special pattern: "For X, how many Y" - X is the entity filter
+    # Example: "For Robinhood, how many venues..."
+    if text.startswith("for ") and ", how many" in text:
+        # Find the entity after "for" and before the comma
+        for tok in doc:
+            if tok.head.text.lower() == "for" and tok.dep_ == "pobj":
+                # This is likely the entity we're filtering by
+                # Determine if it's a broker or venue based on context
+                if "broker" in text or "executing" in text:
+                    agent = tok.text
+                elif "venue" in text:
+                    # If asking "how many venues", the entity is the broker
+                    agent = tok.text
+                break
+
     for tok in doc:
         # Passive voice agent: "by Robinhood"
         if tok.dep_ == "agent":
@@ -272,8 +287,8 @@ def disambiguate_context(user_input: str, tags: dict, debug=False) -> dict:
                 if child.dep_ == "pobj":
                     agent = child.text
 
-        # Recipient via preposition: "to Citadel", "from Robinhood"
-        if tok.dep_ == "pobj" and tok.head.text.lower() in ["to", "from"]:
+        # Recipient via preposition: "to Citadel", "from Robinhood", "for Robinhood"
+        if tok.dep_ == "pobj" and tok.head.text.lower() in ["to", "from", "for"]:
             recipient = tok.text
 
         # Direct object for "send", "pay", etc.
@@ -305,6 +320,15 @@ def disambiguate_context(user_input: str, tags: dict, debug=False) -> dict:
             tags["direction"] = "venue_to_executing_bd"
         else:
             tags["direction"] = "executing_bd_to_venue"
+
+    # 5b. Entity assignment fallback - if entities were captured but direction wasn't set yet
+    if (agent or recipient) and not tags.get("executing_bd") and not tags.get("venue"):
+        if tags.get("direction") == "executing_bd_to_venue":
+            if agent: tags["executing_bd"] = agent
+            if recipient: tags["venue"] = recipient
+        elif tags.get("direction") == "venue_to_executing_bd":
+            if agent: tags["venue"] = agent
+            if recipient: tags["executing_bd"] = recipient
 
     # 6. Time extraction
     time_info = extract_time_period(user_input)

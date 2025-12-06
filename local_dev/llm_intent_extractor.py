@@ -3,16 +3,17 @@ from __future__ import annotations
 """
 llm_intent_extractor.py
 Uses LLM to extract structured intent from natural language queries.
-Replaces manual pattern detection while keeping deterministic SQL templates.
+Updated to return StructuredIntent Pydantic models for the Neuro-Symbolic engine.
 """
 
 import os
 import json
-from typing import Optional, Dict
+from typing import Optional
 from openai import OpenAI
 from dotenv import load_dotenv
 
-from query_intent import QueryIntent
+# Import the Pydantic models
+from query_models import StructuredIntent, Period, Filters
 from capability_registry import REGISTRY
 
 load_dotenv()
@@ -47,167 +48,9 @@ def _build_schema_context() -> str:
     return "\n".join(schema_lines)
 
 
-def _build_examples() -> str:
-    """Build example query → intent mappings for few-shot learning."""
-    examples = [
-        {
-            "query": "Who paid Robinhood PFOF in June 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "aggregate",
-                "metric": "pfof",
-                "aggregation": "SUM",
-                "dimensions": ["venues"],
-                "entities": {"executing_bd": "Robinhood"},
-                "period": {"year": 2024, "month": 6},
-                "filters": {"data_type": "venue"}
-            }
-        },
-        {
-            "query": "PFOF from Citadel in April 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "aggregate",
-                "metric": "pfof",
-                "aggregation": "SUM",
-                "dimensions": [],
-                "entities": {"venue": "Citadel"},
-                "period": {"year": 2024, "month": 4},
-                "filters": {"data_type": "venue"}
-            }
-        },
-        {
-            "query": "Top 5 brokers by PFOF in 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "topN",
-                "metric": "pfof",
-                "aggregation": "SUM",
-                "dimensions": ["executing_bd"],
-                "period": {"year": 2024},
-                "filters": {"data_type": "venue"},
-                "limit": 5,
-                "order_desc": True
-            }
-        },
-        {
-            "query": "For each quarter, top market participant by total shares in 2024",
-            "intent": {
-                "table": "monthly_data",
-                "operation": "top_per_group",
-                "metric": "volume",
-                "aggregation": "SUM",
-                "dimensions": ["quarter", "market_participant"],
-                "period": {"year": 2024},
-                "limit": 1,
-                "order_desc": True
-            }
-        },
-        {
-            "query": "List distinct quarters for 2024 ATS data",
-            "intent": {
-                "table": "finra_ats",
-                "operation": "list",
-                "dimensions": ["quarter"],
-                "period": {"year": 2024}
-            }
-        },
-        {
-            "query": "Compare PFOF and estimated volume by broker in 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "aggregate",
-                "metric": "pfof_and_volume",
-                "aggregation": "SUM",
-                "dimensions": ["executing_bd"],
-                "period": {"year": 2024},
-                "filters": {"data_type": "venue"}
-            }
-        },
-        {
-            "query": "What brokers traded in Q2 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "list",
-                "dimensions": ["executing_bd"],
-                "period": {"year": 2024, "quarter": 2}
-            }
-        },
-        {
-            "query": "Total trades for each ATS in 2024",
-            "intent": {
-                "table": "finra_ats",
-                "operation": "aggregate",
-                "metric": "trades",
-                "aggregation": "SUM",
-                "dimensions": ["ats_name"],
-                "period": {"year": 2024}
-            }
-        },
-        {
-            "query": "Which month had the lowest PFOF for Citadel in 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "topN",
-                "metric": "pfof",
-                "aggregation": "SUM",
-                "dimensions": ["month"],
-                "entities": {"executing_bd": "Citadel"},
-                "period": {"year": 2024},
-                "filters": {"data_type": "venue"},
-                "limit": 1,
-                "order_desc": False
-            }
-        },
-        {
-            "query": "Top venue per broker by PFOF in 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "top_per_group",
-                "metric": "pfof",
-                "aggregation": "SUM",
-                "dimensions": ["executing_bd", "venues"],
-                "period": {"year": 2024},
-                "filters": {"data_type": "venue"},
-                "limit": 1,
-                "order_desc": True
-            }
-        },
-        {
-            "query": "How many venues did Robinhood use in 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "count",
-                "count_dimension": "venue",
-                "entities": {"executing_broker": "Robinhood"},
-                "period": {"year": 2024},
-                "filters": {"data_type": "venue"}
-            }
-        },
-        {
-            "query": "Average PFOF per venue for Robinhood in 2024",
-            "intent": {
-                "table": "executing_bd_606",
-                "operation": "per_entity_average",
-                "metric": "pfof",
-                "aggregation": "SUM",
-                "per_entity": "venue",
-                "entities": {"executing_broker": "Robinhood"},
-                "period": {"year": 2024},
-                "filters": {"data_type": "venue"}
-            }
-        }
-    ]
-
-    return "\n\n".join([
-        f"Query: {ex['query']}\nIntent: {json.dumps(ex['intent'], indent=2)}"
-        for ex in examples
-    ])
-
-
 SYSTEM_PROMPT = """You are an expert at extracting structured intent from natural language database queries about SEC Rule 606 financial data.
 
-Your task is to analyze the user's question and return a JSON object representing the query intent. This intent will be used to generate deterministic SQL using templates.
+Your task is to analyze the user's question and return a JSON object representing the query intent. This intent will be used to generate deterministic SQL using a strict compiler.
 
 # Available Tables and Schema
 {schema_context}
@@ -229,17 +72,18 @@ Your task is to analyze the user's question and return a JSON object representin
 - **volume**: Total shares/notional (monthly_data, finra_ats) or estimated volume from cents-per-hundred (executing_bd_606)
 - **trades**: Trade count (monthly_data, finra_ats)
 - **pfof_and_volume**: Both PFOF and estimated volume (executing_bd_606 only)
-- **tape_a**: NYSE-listed stocks volume (synonyms: NYSE, NYSE stocks, NYSE listed)
-- **tape_b**: NASDAQ-listed stocks volume (synonyms: NASDAQ, Nasdaq stocks, NASDAQ listed)
-- **tape_c**: Other listings including ETFs (synonyms: ETF, ETFs, ETF listings)
+- **tape_a**: NYSE-listed stocks volume
+- **tape_b**: NASDAQ-listed stocks volume
+- **tape_c**: Other listings including ETFs
 - **tape**: All tapes combined (monthly_data)
+- **venues**: Used for counting venues
 
 # Entity Recognition and Preposition Rules
 **CRITICAL: Use prepositions to determine entity type:**
 - "PFOF **from** [entity]" → venue (wholesaler paying PFOF)
-  Example: "PFOF from Citadel" → entities.venue = "Citadel"
+  Example: "PFOF from Citadel" → filters.venues = "Citadel"
 - "PFOF **for** [entity]" → executing_bd (broker receiving PFOF)
-  Example: "PFOF for Robinhood" → entities.executing_bd = "Robinhood"
+  Example: "PFOF for Robinhood" → filters.executing_bd = "Robinhood"
 
 **Entity Type Mappings:**
 - **Brokers (executing_bd)**: Robinhood, Charles Schwab, TD Ameritrade, Webull, E*TRADE
@@ -247,67 +91,49 @@ Your task is to analyze the user's question and return a JSON object representin
 - **Market participants**: Exchange names on monthly_data (e.g., "NYSE", "NASDAQ")
 - **ATS names**: Alternative trading systems on finra_ats (e.g., "SIGMA X2", "UBS ATS")
 
-# Filters
-- **data_type**: Always "venue" for PFOF queries on executing_bd_606
-- **stock_group**: Price group filter (executing_bd_606). Synonyms: category, stock type, security type. Values like "SP500" can be written as "S&P 500", "S&P", etc.
-- **tier**: ATS tier filter (finra_ats)
-
-# Interrogative Patterns
-- "Who paid..." → aggregate with venues dimension
-- "What brokers..." → list or aggregate with executing_bd dimension
-- "Which month..." → topN with month dimension
-
-# Examples
-{examples}
-
 # Response Format
-Return ONLY a valid JSON object with these fields (omit null/empty fields):
+Return ONLY a valid JSON object matching this structure:
 {{
-  "table": "table_name",
-  "operation": "aggregate|topN|list|top_per_group|count|per_entity_average|earliest|latest",
   "metric": "pfof|volume|trades|...",
-  "aggregation": "SUM|COUNT|AVG|MIN|MAX",
+  "operation": "aggregate|topN|list|...",
   "dimensions": ["dimension1", "dimension2"],
-  "entities": {{"entity_type": "entity_name"}},
-  "period": {{"year": 2024, "month": 6, "quarter": 2}},
-  "filters": {{"filter_key": "filter_value"}},
-  "limit": 5,
+  "period": {{ "year": 2024, "month": 6, "quarter": 2 }},
+  "filters": {{
+    "data_type": "venue",
+    "executing_bd": "Robinhood",
+    "venues": "Citadel",
+    "stock_group": "SP500",
+    "ats_name": "UBS ATS",
+    "market_participant": "NASDAQ"
+  }},
+  "top_n": 5,
+  "order_by": "metric_name",
   "order_desc": true,
-  "count_dimension": "venue|executing_broker|market_participant|ATS",
-  "per_entity": "venue|executing_broker|market_participant|ATS"
+  "count_dimension": "venue", 
+  "per_entity": "venue",
+  "is_longest": true,
+  "entities": {{ "venue": "Citadel" }} 
 }}
 
 Rules:
-1. Infer table from context (brokers/venues → executing_bd_606, market participants → monthly_data, ATS → finra_ats)
-2. For PFOF queries, always include filters.data_type = "venue"
-3. For "who paid" queries, use aggregate operation with venues dimension
-4. For "top X per Y" queries, use top_per_group with dimensions [Y, X]
-5. For temporal grouping ("for each quarter"), include temporal dimension first
-6. For superlatives with temporal ("which month had lowest"), use topN with order_desc=false for "lowest"
-7. For "how many X" queries, use count operation with count_dimension
-8. For "average X per Y" queries, use per_entity_average operation with per_entity
-9. Entity types: use "venue", "executing_broker", "market_participant", or "ATS" (generic names that map to table columns)
+1. Infer table implicitly; do not output table name (the compiler handles this).
+2. For PFOF queries, ALWAYS set filters.data_type = "venue".
+3. For "top X per Y" queries, use operation="top_per_group" and dimensions=[Y, X].
+4. For "how many X" queries, use operation="count" and count_dimension="X".
+5. Map "Citadel" to filters.venues and "Robinhood" to filters.executing_bd unless context implies otherwise.
 """
 
 
-def extract_intent_with_llm(user_input: str, model: str = "gpt-4o-mini") -> Optional[QueryIntent]:
+def extract_intent_with_llm(user_input: str, model: str = "gpt-4o-mini") -> Optional[StructuredIntent]:
     """
     Use LLM to extract structured intent from natural language query.
-
-    Args:
-        user_input: Natural language query
-        model: OpenAI model to use (default: gpt-4o-mini for speed/cost)
-
-    Returns:
-        QueryIntent object or None if extraction fails
+    Returns a Pydantic StructuredIntent object.
     """
     try:
         schema_context = _build_schema_context()
-        examples = _build_examples()
-
+        
         system_prompt = SYSTEM_PROMPT.format(
-            schema_context=schema_context,
-            examples=examples
+            schema_context=schema_context
         )
 
         response = client.chat.completions.create(
@@ -317,68 +143,15 @@ def extract_intent_with_llm(user_input: str, model: str = "gpt-4o-mini") -> Opti
                 {"role": "user", "content": user_input}
             ],
             response_format={"type": "json_object"},
-            temperature=0.1,  # Low temperature for consistent extraction
+            temperature=0.0, 
             max_tokens=500
         )
 
         intent_json = json.loads(response.choices[0].message.content)
-
-        # Convert JSON to QueryIntent object
-        return _json_to_query_intent(intent_json)
+        
+        # Validate and parse with Pydantic
+        return StructuredIntent(**intent_json)
 
     except Exception as e:
         print(f"LLM intent extraction failed: {e}")
         return None
-
-
-def _json_to_query_intent(intent_json: Dict) -> QueryIntent:
-    """Convert LLM JSON response to QueryIntent object."""
-    # Extract table (store separately, not in QueryIntent)
-    table = intent_json.pop("table", None)
-
-    # Build QueryIntent from remaining fields
-    intent = QueryIntent(
-        operation=intent_json.get("operation"),
-        metric=intent_json.get("metric"),
-        aggregation=intent_json.get("aggregation"),
-        dimensions=intent_json.get("dimensions", []),
-        entities=intent_json.get("entities", {}),
-        period=intent_json.get("period", {}),
-        filters=intent_json.get("filters", {}),
-        limit=intent_json.get("limit"),
-        order_desc=intent_json.get("order_desc", True),
-        top_n=intent_json.get("top_n"),
-        count_dimension=intent_json.get("count_dimension"),
-        per_entity=intent_json.get("per_entity")
-    )
-
-    # Store table as a tag for planner to use
-    intent.topic = table  # Reuse topic field to store table name
-
-    return intent
-
-
-if __name__ == "__main__":
-    # Test queries
-    test_queries = [
-        "Who paid Robinhood PFOF in June 2024",
-        "Top 5 brokers by PFOF in 2024",
-        "For each quarter, top market participant by total shares in 2024",
-        "What brokers traded in Q2 2024",
-        "Compare PFOF and estimated volume by broker in 2024"
-    ]
-
-    print("Testing LLM Intent Extractor\n" + "="*50)
-    for query in test_queries:
-        print(f"\nQuery: {query}")
-        intent = extract_intent_with_llm(query)
-        if intent:
-            print(f"Table: {intent.topic}")
-            print(f"Operation: {intent.operation}")
-            print(f"Metric: {intent.metric}")
-            print(f"Dimensions: {intent.dimensions}")
-            print(f"Entities: {intent.entities}")
-            print(f"Period: {intent.period}")
-            print(f"Filters: {intent.filters}")
-        else:
-            print("Failed to extract intent")

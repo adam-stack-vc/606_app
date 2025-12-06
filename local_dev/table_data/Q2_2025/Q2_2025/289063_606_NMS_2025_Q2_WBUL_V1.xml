@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Webull Financial LLC</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-28T20:31:13Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.71</ndoMarketPct>
+      <ndoMarketableLimitPct>12.61</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>59.15</ndoNonmarketableLimitPct>
+      <ndoOtherPct>17.53</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>44.65</orderPct>
+          <marketPct>41.45</marketPct>
+          <marketableLimitPct>45.37</marketableLimitPct>
+          <nonMarketableLimitPct>47.51</nonMarketableLimitPct>
+          <otherPct>36.45</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>87370.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>52.3148</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>79668.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.9979</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>108398.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.4477</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>82809.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.8128</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from Citadel in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>21.90</orderPct>
+          <marketPct>20.61</marketPct>
+          <marketableLimitPct>25.60</marketableLimitPct>
+          <nonMarketableLimitPct>20.52</nonMarketableLimitPct>
+          <otherPct>24.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>49152.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>49.4285</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>51972.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.9280</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>72941.13</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9680</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>48964.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.2324</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from JNST in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>14.75</orderPct>
+          <marketPct>8.75</marketPct>
+          <marketableLimitPct>20.01</marketableLimitPct>
+          <nonMarketableLimitPct>13.40</nonMarketableLimitPct>
+          <otherPct>19.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>22502.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>51.0755</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20633.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.7281</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>26654.13</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>52716.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>32.5513</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Virtu Americas LLC (“NITE”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from NITE in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and Fractional and notional trade orders are routed to NITE via Apex Clearing. Webull does not receive payment for orders executed between 8:00 p.m. and 4:00 a.m. ET.
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>9.22</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.75</marketableLimitPct>
+          <nonMarketableLimitPct>14.12</nonMarketableLimitPct>
+          <otherPct>0.83</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-277.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.4966</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5994.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.6077</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Cboe EDGX Exchange, Inc (“EDGX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from EDGX up to $0.0032 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from EDGX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>9.22</orderPct>
+          <marketPct>29.19</marketPct>
+          <marketableLimitPct>2.75</marketableLimitPct>
+          <nonMarketableLimitPct>4.15</nonMarketableLimitPct>
+          <otherPct>18.78</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>101355.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>47.8594</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>11390.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>42.3083</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>15049.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9922</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>54218.97</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.6172</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Hudson River Trading (Hrt) (“HRTF”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from HRTF in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.68</ndoMarketPct>
+      <ndoMarketableLimitPct>20.85</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>58.27</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.21</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>40.07</orderPct>
+          <marketPct>39.45</marketPct>
+          <marketableLimitPct>39.53</marketableLimitPct>
+          <nonMarketableLimitPct>42.35</nonMarketableLimitPct>
+          <otherPct>30.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>351752.13</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.3464</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>682003.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.1957</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>732212.73</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.9507</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>137555.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0166</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from Citadel in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>20.60</orderPct>
+          <marketPct>20.11</marketPct>
+          <marketableLimitPct>25.66</marketableLimitPct>
+          <nonMarketableLimitPct>18.36</nonMarketableLimitPct>
+          <otherPct>23.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>194541.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.1631</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>550455.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.7770</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>473149.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.7934</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>77475.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.0133</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from JNST in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>14.96</orderPct>
+          <marketPct>8.95</marketPct>
+          <marketableLimitPct>20.98</marketableLimitPct>
+          <nonMarketableLimitPct>12.59</nonMarketableLimitPct>
+          <otherPct>20.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>99569.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.6036</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>186333.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.8575</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>189315.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.4125</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>456198.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.9037</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Virtu Americas LLC (“NITE”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from NITE in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and Fractional and notional trade orders are routed to NITE via Apex Clearing. Webull does not receive payment for orders executed between 8:00 p.m. and 4:00 a.m. ET.
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>10.36</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.18</marketableLimitPct>
+          <nonMarketableLimitPct>14.64</nonMarketableLimitPct>
+          <otherPct>1.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-24192.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-1.4157</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>57598.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.9801</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Cboe EDGX Exchange, Inc (“EDGX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from EDGX up to $0.0032 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from EDGX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>7.42</orderPct>
+          <marketPct>31.43</marketPct>
+          <marketableLimitPct>1.92</marketableLimitPct>
+          <nonMarketableLimitPct>3.57</nonMarketableLimitPct>
+          <otherPct>18.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>390953.93</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.9791</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>94084.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.1029</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>107433.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>33.1247</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>137941.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.3213</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Hudson River Trading (Hrt) (“HRTF”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from HRTF in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>6.25</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>3.06</marketableLimitPct>
+          <nonMarketableLimitPct>8.17</nonMarketableLimitPct>
+          <otherPct>6.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-285.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-8.2967</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-79972.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.1468</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>233245.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>1.9655</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.4054</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane MEMX LLC (“MEMX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from MEMX up to $0.0037 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from MEMX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.81</ndoMarketPct>
+      <ndoMarketableLimitPct>18.86</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>55.09</ndoNonmarketableLimitPct>
+      <ndoOtherPct>15.24</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>55.40</orderPct>
+          <marketPct>52.97</marketPct>
+          <marketableLimitPct>52.87</marketableLimitPct>
+          <nonMarketableLimitPct>53.24</nonMarketableLimitPct>
+          <otherPct>68.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1006095.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.0812</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2743415.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>31.3419</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2986965.75</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.9652</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>710201.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.4202</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Dash/IMC Financial Markets (“Dash/IMC”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to Dash/IMC at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract.
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>17.67</orderPct>
+          <marketPct>19.73</marketPct>
+          <marketableLimitPct>20.03</marketableLimitPct>
+          <nonMarketableLimitPct>19.82</nonMarketableLimitPct>
+          <otherPct>5.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>382226.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.1128</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1024554.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>31.1059</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1137882.87</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>43.2081</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>111169.97</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.4364</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to JNST at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract.
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>15.94</orderPct>
+          <marketPct>15.48</marketPct>
+          <marketableLimitPct>15.31</marketableLimitPct>
+          <nonMarketableLimitPct>15.50</nonMarketableLimitPct>
+          <otherPct>18.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>286897.94</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.1232</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>784239.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>31.6919</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>842290.43</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.6841</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>206209.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.6656</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to Citadel at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract. 
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>4.65</orderPct>
+          <marketPct>4.81</marketPct>
+          <marketableLimitPct>4.74</marketableLimitPct>
+          <nonMarketableLimitPct>4.44</nonMarketableLimitPct>
+          <otherPct>5.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>89371.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.1531</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>245868.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.7251</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>261107.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.3265</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>67201.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>37.0067</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to third-party market centers to facilitate liquidity provision and price improvement opportunities for its customers. The third-party market centers route and execute Webull customer orders. In exchange for such routing, Webull receives payments from the third-party market centers in the amounts outlined in the above Public Order Routing Report disclosures (i.e. payment for order flow). In order to avoid conflicts of interest for Webull’s routing decisions, the market center pays Webull based on the same schedule. 
+
+For single leg orders in certain symbols, Webull receives a per contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.80 or $1.00 for symbols assigned to one of six buckets. For single leg orders of 101 contracts or greater, Webull received a rate of $0.15, $0.19, $0.28, $0.35. $0.40, or $0.60 for symbols assigned to one of six buckets. For multi-leg orders and other symbols, Webull received a per contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 for symbols assigned to one of five buckets.  
+
+For single leg orders in other symbols, Webull receives a per contract rate that depends on the average weighted quoted spread for all other symbols, as a whole, based on the prior month. Webull received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.80 or $1.00 for other symbols assigned to one of six buckets. For single leg orders of 101 contracts or greater, Webull received a rate of $0.15, $0.19, $0.28, $0.35. $0.40, or $0.60 for symbols assigned to one of six buckets. For multi-leg orders and in certain symbols, Webull receives a per contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.30, $0.38, $0.56, $0.70, $0.90 for symbols assigned to one of five buckets.  
+
+Differences in average payments among venues are due to the mix of symbols executed at each venue. Webull attests to the retail nature of the orders Webull routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. Webull believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with Webull pursuit of best execution or the price improvement obtained on customer orders. </materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.64</ndoMarketPct>
+      <ndoMarketableLimitPct>11.53</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>59.67</ndoNonmarketableLimitPct>
+      <ndoOtherPct>18.16</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>34.78</orderPct>
+          <marketPct>28.68</marketPct>
+          <marketableLimitPct>33.77</marketableLimitPct>
+          <nonMarketableLimitPct>38.56</nonMarketableLimitPct>
+          <otherPct>26.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>53009.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>55.9034</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>52384.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.6465</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>81566.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>33.0652</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>46535.01</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.3211</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from Citadel in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>28.63</orderPct>
+          <marketPct>29.05</marketPct>
+          <marketableLimitPct>34.54</marketableLimitPct>
+          <nonMarketableLimitPct>26.35</nonMarketableLimitPct>
+          <otherPct>32.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>66189.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>52.3105</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>73505.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.6943</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>110550.73</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9765</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>60305.84</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.6202</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from JNST in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>15.44</orderPct>
+          <marketPct>10.38</marketPct>
+          <marketableLimitPct>21.16</marketableLimitPct>
+          <nonMarketableLimitPct>13.68</nonMarketableLimitPct>
+          <otherPct>20.56</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>20145.43</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>54.2646</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>18290.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>33.4327</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>28095.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>49068.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>31.7442</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Virtu Americas LLC (“NITE”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from NITE in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and Fractional and notional trade orders are routed to NITE via Apex Clearing. Webull does not receive payment for orders executed between 8:00 p.m. and 4:00 a.m. ET.
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>10.29</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.58</marketableLimitPct>
+          <nonMarketableLimitPct>15.95</nonMarketableLimitPct>
+          <otherPct>0.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-292.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.7716</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5901.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.9033</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Cboe EDGX Exchange, Inc (“EDGX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from EDGX up to $0.0032 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from EDGX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>10.24</orderPct>
+          <marketPct>31.88</marketPct>
+          <marketableLimitPct>3.42</marketableLimitPct>
+          <nonMarketableLimitPct>4.74</nonMarketableLimitPct>
+          <otherPct>19.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>97639.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>51.1899</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>10873.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.0964</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>21783.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9939</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>47412.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.2021</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Hudson River Trading (Hrt) (“HRTF”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from HRTF in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.54</ndoMarketPct>
+      <ndoMarketableLimitPct>21.64</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>57.48</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.34</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>31.00</orderPct>
+          <marketPct>26.57</marketPct>
+          <marketableLimitPct>30.14</marketableLimitPct>
+          <nonMarketableLimitPct>33.79</nonMarketableLimitPct>
+          <otherPct>22.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>249007.26</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.7879</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>558493.19</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.5445</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>562820.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.1800</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>91342.01</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.3854</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from Citadel in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>27.09</orderPct>
+          <marketPct>28.86</marketPct>
+          <marketableLimitPct>32.96</marketableLimitPct>
+          <nonMarketableLimitPct>24.26</nonMarketableLimitPct>
+          <otherPct>28.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>316322.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.2274</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>834443.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.8876</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>748341.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.3161</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>111648.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>18.0010</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from JNST in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>16.16</orderPct>
+          <marketPct>10.06</marketPct>
+          <marketableLimitPct>22.50</marketableLimitPct>
+          <nonMarketableLimitPct>13.52</nonMarketableLimitPct>
+          <otherPct>21.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>131906.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.9496</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>195593.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.3677</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>204776.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.4925</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>597792.65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.6144</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Virtu Americas LLC (“NITE”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from NITE in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and Fractional and notional trade orders are routed to NITE via Apex Clearing. Webull does not receive payment for orders executed between 8:00 p.m. and 4:00 a.m. ET.
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>10.48</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>7.94</marketableLimitPct>
+          <nonMarketableLimitPct>15.06</nonMarketableLimitPct>
+          <otherPct>0.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-37630.51</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-2.2967</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>62355.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.4889</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Cboe EDGX Exchange, Inc (“EDGX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from EDGX up to $0.0032 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from EDGX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>7.87</orderPct>
+          <marketPct>34.47</marketPct>
+          <marketableLimitPct>1.90</marketableLimitPct>
+          <nonMarketableLimitPct>3.69</nonMarketableLimitPct>
+          <otherPct>19.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>451193.86</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.0608</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>101442.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>13.3261</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>118651.17</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>33.1605</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>150139.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.5977</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Hudson River Trading (Hrt) (“HRTF”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from HRTF in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>7.08</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>4.08</marketableLimitPct>
+          <nonMarketableLimitPct>9.30</nonMarketableLimitPct>
+          <otherPct>6.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-256.22</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.6919</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-126253.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.2563</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>341267.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.3049</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>24.26</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.2672</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane MEMX LLC (“MEMX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from MEMX up to $0.0037 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from MEMX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.29</ndoMarketPct>
+      <ndoMarketableLimitPct>19.79</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>54.92</ndoNonmarketableLimitPct>
+      <ndoOtherPct>15.01</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>46.30</orderPct>
+          <marketPct>43.57</marketPct>
+          <marketableLimitPct>43.41</marketableLimitPct>
+          <nonMarketableLimitPct>44.07</nonMarketableLimitPct>
+          <otherPct>60.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>966228.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.2063</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2737025.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.7556</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2790124.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.6380</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>728388.27</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.9831</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Dash/IMC Financial Markets (“Dash/IMC”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to Dash/IMC at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract.
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>21.97</orderPct>
+          <marketPct>24.37</marketPct>
+          <marketableLimitPct>24.75</marketableLimitPct>
+          <nonMarketableLimitPct>24.56</nonMarketableLimitPct>
+          <otherPct>7.15</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>550574.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.0472</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1579803.51</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.8643</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1610837.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.6159</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>163230.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>58.9506</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to JNST at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract.
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>15.27</orderPct>
+          <marketPct>14.67</marketPct>
+          <marketableLimitPct>14.57</marketableLimitPct>
+          <nonMarketableLimitPct>14.67</nonMarketableLimitPct>
+          <otherPct>18.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>340521.03</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.0794</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>986300.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.7668</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>964057.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.9564</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>262731.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>43.4021</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to Citadel at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract. 
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>9.24</orderPct>
+          <marketPct>9.51</marketPct>
+          <marketableLimitPct>9.41</marketableLimitPct>
+          <nonMarketableLimitPct>8.77</nonMarketableLimitPct>
+          <otherPct>10.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>216787.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>32.8918</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>629396.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.9783</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>594760.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.4675</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>155560.73</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.2367</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to third-party market centers to facilitate liquidity provision and price improvement opportunities for its customers. The third-party market centers route and execute Webull customer orders. In exchange for such routing, Webull receives payments from the third-party market centers in the amounts outlined in the above Public Order Routing Report disclosures (i.e. payment for order flow). In order to avoid conflicts of interest for Webull’s routing decisions, the market center pays Webull based on the same schedule. 
+
+For single leg orders in certain symbols, Webull receives a per contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.80 or $1.00 for symbols assigned to one of six buckets. For single leg orders of 101 contracts or greater, Webull received a rate of $0.15, $0.19, $0.28, $0.35. $0.40, or $0.60 for symbols assigned to one of six buckets. For multi-leg orders and other symbols, Webull received a per contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 for symbols assigned to one of five buckets.  
+
+For single leg orders in other symbols, Webull receives a per contract rate that depends on the average weighted quoted spread for all other symbols, as a whole, based on the prior month. Webull received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.80 or $1.00 for other symbols assigned to one of six buckets. For single leg orders of 101 contracts or greater, Webull received a rate of $0.15, $0.19, $0.28, $0.35. $0.40, or $0.60 for symbols assigned to one of six buckets. For multi-leg orders and in certain symbols, Webull receives a per contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.30, $0.38, $0.56, $0.70, $0.90 for symbols assigned to one of five buckets.  
+
+Differences in average payments among venues are due to the mix of symbols executed at each venue. Webull attests to the retail nature of the orders Webull routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. Webull believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with Webull pursuit of best execution or the price improvement obtained on customer orders. </materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>14.36</ndoMarketPct>
+      <ndoMarketableLimitPct>11.07</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>56.63</ndoNonmarketableLimitPct>
+      <ndoOtherPct>17.93</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>35.63</orderPct>
+          <marketPct>27.72</marketPct>
+          <marketableLimitPct>43.96</marketableLimitPct>
+          <nonMarketableLimitPct>34.51</nonMarketableLimitPct>
+          <otherPct>40.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>69618.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>51.3936</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>71309.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.1213</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>104798.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9806</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>62326.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.4341</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from JNST in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>32.25</orderPct>
+          <marketPct>43.85</marketPct>
+          <marketableLimitPct>29.74</marketableLimitPct>
+          <nonMarketableLimitPct>32.89</nonMarketableLimitPct>
+          <otherPct>22.50</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>45886.17</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>51.8306</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>45799.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.5480</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>69774.19</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.7385</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>39748.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>40.4166</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from Citadel in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>11.16</orderPct>
+          <marketPct>26.25</marketPct>
+          <marketableLimitPct>5.40</marketableLimitPct>
+          <nonMarketableLimitPct>5.21</nonMarketableLimitPct>
+          <otherPct>21.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>98350.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>53.9579</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>12233.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.0261</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>17736.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>34.9997</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>49669.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.1470</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Hudson River Trading (Hrt) (“HRTF”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from HRTF in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>10.13</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.76</marketableLimitPct>
+          <nonMarketableLimitPct>16.93</nonMarketableLimitPct>
+          <otherPct>0.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-209.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.3396</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4673.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.9984</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Cboe EDGX Exchange, Inc (“EDGX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from EDGX up to $0.0032 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from EDGX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>8.84</orderPct>
+          <marketPct>2.18</marketPct>
+          <marketableLimitPct>11.82</marketableLimitPct>
+          <nonMarketableLimitPct>8.02</nonMarketableLimitPct>
+          <otherPct>14.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8882.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>48.8753</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8718.49</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.6187</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13635.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>30192.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>32.3279</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Virtu Americas LLC (“NITE”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from NITE in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and Fractional and notional trade orders are routed to NITE via Apex Clearing. Webull does not receive payment for orders executed between 8:00 p.m. and 4:00 a.m. ET.
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>9.14</ndoMarketPct>
+      <ndoMarketableLimitPct>22.01</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>57.14</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.71</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>33.08</orderPct>
+          <marketPct>32.57</marketPct>
+          <marketableLimitPct>38.24</marketableLimitPct>
+          <nonMarketableLimitPct>30.88</nonMarketableLimitPct>
+          <otherPct>34.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>422681.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8280</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1030210.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.1948</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>829120.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.8462</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>144540.17</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.6669</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from JNST in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>27.32</orderPct>
+          <marketPct>31.00</marketPct>
+          <marketableLimitPct>25.58</marketableLimitPct>
+          <nonMarketableLimitPct>29.05</nonMarketableLimitPct>
+          <otherPct>19.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>282402.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.5057</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>608140.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.0130</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>652397.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>21.6251</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>101094.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>17.5390</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from Citadel in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>12.64</orderPct>
+          <marketPct>3.55</marketPct>
+          <marketableLimitPct>19.30</marketableLimitPct>
+          <nonMarketableLimitPct>10.24</nonMarketableLimitPct>
+          <otherPct>18.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>67628.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.3061</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>114533.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2677</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>121826.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.9295</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>602172.20</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0882</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Virtu Americas LLC (“NITE”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from NITE in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and Fractional and notional trade orders are routed to NITE via Apex Clearing. Webull does not receive payment for orders executed between 8:00 p.m. and 4:00 a.m. ET.
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>10.63</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>7.16</marketableLimitPct>
+          <nonMarketableLimitPct>15.67</nonMarketableLimitPct>
+          <otherPct>0.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-35868.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.1601</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>74546.37</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.9925</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Cboe EDGX Exchange, Inc (“EDGX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from EDGX up to $0.0032 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from EDGX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hudson River Trading (Hrt)</name>
+          <orderPct>7.99</orderPct>
+          <marketPct>32.85</marketPct>
+          <marketableLimitPct>1.89</marketableLimitPct>
+          <nonMarketableLimitPct>3.96</nonMarketableLimitPct>
+          <otherPct>19.75</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>543237.67</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0074</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>123589.37</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.4069</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>153397.97</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>33.6344</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>156690.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.6237</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Hudson River Trading (Hrt) (“HRTF”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from HRTF in the rates outlined below:
+1. 13% of the spread between the National Best Bid and National Best offer of a given security at the time of order execution for non-directed, NMS equity market and marketable limit order executions during regular market hours; and
+2. Up to $0.0035 per share for non-directed, NMS equity non-marketable limit order executions priced at $1.00 per share or more; and
+3. Up to $0.0010 per notional dollar for non-directed, NMS equity non-marketable limit order executions priced at less than $1.00 per share; and
+4. Up to $0.0026 per share for non-directed, NMS equity market and marketable limit order executions priced at $1.00 per share or more during the extended hours; and
+5. Up to $0.0005 per notional dollar for non-directed, NMS equity market and marketable-limit order executions priced at less than $1.00 per share during the extended hours; and
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>7.58</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>6.86</marketableLimitPct>
+          <nonMarketableLimitPct>9.27</nonMarketableLimitPct>
+          <otherPct>6.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-180.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.8261</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-174756.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.2999</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>362405.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.6615</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>62.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.5502</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes NMS equity orders to Jane MEMX LLC (“MEMX”) for executing or facilitating the execution of Webull customer orders. Webull receives payments from MEMX up to $0.0037 per share, for Non-Marketable Limit orders that added liquidity and got executed. Webull is charged for removing liquidity from MEMX up to $0.0030 per share.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.16</ndoMarketPct>
+      <ndoMarketableLimitPct>19.70</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>55.18</ndoNonmarketableLimitPct>
+      <ndoOtherPct>14.97</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>31.26</orderPct>
+          <marketPct>29.08</marketPct>
+          <marketableLimitPct>29.15</marketableLimitPct>
+          <nonMarketableLimitPct>29.93</nonMarketableLimitPct>
+          <otherPct>40.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>576656.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>29.0215</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1580163.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>32.3568</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1554867.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>41.3550</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>389015.01</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>36.0984</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Dash/IMC Financial Markets (“Dash/IMC”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to Dash/IMC at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract.
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>23.57</orderPct>
+          <marketPct>22.61</marketPct>
+          <marketableLimitPct>22.60</marketableLimitPct>
+          <nonMarketableLimitPct>22.29</nonMarketableLimitPct>
+          <otherPct>30.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>519596.69</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>31.9317</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1426513.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>35.8987</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1342517.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.9085</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>362797.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.7142</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Citadel Securities LLC (“Citadel”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to Citadel at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract. 
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>22.73</orderPct>
+          <marketPct>24.99</marketPct>
+          <marketableLimitPct>25.03</marketableLimitPct>
+          <nonMarketableLimitPct>25.38</nonMarketableLimitPct>
+          <otherPct>8.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>511995.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.5852</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1399391.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>33.7637</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1402524.74</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.4498</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>142491.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>52.2695</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to Jane Street Capital (“JNST”) for executing or facilitating the execution of Webull customer orders. Webull received payments for executed orders routed to JNST at the following rates:
+1. For single leg orders, Webull receives a per-contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a rate for orders of 1 - 100 contracts of $0.23, $0.28, $0.30, $0.50, $0.75, $0.85 or $1.00 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 101 contracts or greater, Webull received a rate of $0.10, $0.13, $0.25, $0.35, $0.60 or $0.80 depending on the symbol’s average quoted spread from the prior month. For single leg orders of 500 contracts or greater in some symbols, Webull receives $0.05 per contract.
+2. For multi-leg orders Webull receives a per-contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.50, $0.65, $0.80 or $1.10 depending on the symbol’s average quoted spread from the prior month. 
+The same rate is applied for all market makers for each respective order flow type. Webull does not negotiate payment as a condition for sending more order flow to a market maker nor does Webull negotiate a tradeoff between payment and price improvement/execution quality.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>14.68</orderPct>
+          <marketPct>14.91</marketPct>
+          <marketableLimitPct>14.73</marketableLimitPct>
+          <nonMarketableLimitPct>13.72</nonMarketableLimitPct>
+          <otherPct>18.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>304045.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.4777</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>830950.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.3096</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>797826.34</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>44.0458</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>238369.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>38.5133</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Webull Financial LLC (“Webull”) routes U.S.-listed options orders to third-party market centers to facilitate liquidity provision and price improvement opportunities for its customers. The third-party market centers route and execute Webull customer orders. In exchange for such routing, Webull receives payments from the third-party market centers in the amounts outlined in the above Public Order Routing Report disclosures (i.e. payment for order flow). In order to avoid conflicts of interest for Webull’s routing decisions, the market center pays Webull based on the same schedule. 
+
+For single leg orders in certain symbols, Webull receives a per contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.80 or $1.00 for symbols assigned to one of six buckets. For single leg orders of 101 contracts or greater, Webull received a rate of $0.15, $0.19, $0.28, $0.35. $0.40, or $0.60 for symbols assigned to one of six buckets. For multi-leg orders and other symbols, Webull received a per contract rate that depends on the average quoted spread for the symbol based on the prior month. Webull received a per contract rate of $0.30, $0.38, $0.56, $0.70, or $0.90 for symbols assigned to one of five buckets.  
+
+For single leg orders in other symbols, Webull receives a per contract rate that depends on the average weighted quoted spread for all other symbols, as a whole, based on the prior month. Webull received a per contract rate for orders of 1 - 100 contracts of $0.30, $0.38, $0.56, $0.70, $0.80 or $1.00 for other symbols assigned to one of six buckets. For single leg orders of 101 contracts or greater, Webull received a rate of $0.15, $0.19, $0.28, $0.35. $0.40, or $0.60 for symbols assigned to one of six buckets. For multi-leg orders and in certain symbols, Webull receives a per contract rate that depends on the average quoted spread for the other symbols, as a whole, based on the prior month. Webull received a per contract rate of $0.30, $0.38, $0.56, $0.70, $0.90 for symbols assigned to one of five buckets.  
+
+Differences in average payments among venues are due to the mix of symbols executed at each venue. Webull attests to the retail nature of the orders Webull routes to third-party market centers upon their request. Non-exchange third party market centers compete for orders based on execution quality. The SEC Examination Staff has observed that there is a potential tradeoff between (i) payments received by brokers and (ii) price improvement and/or execution quality. Webull believes that the receipt of payment in the form of a portion of the spread earned by non-exchange third party market centers does not interfere with Webull pursuit of best execution or the price improvement obtained on customer orders. </materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

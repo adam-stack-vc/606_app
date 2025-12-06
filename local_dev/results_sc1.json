@@ -1,0 +1,445 @@
+[
+  {
+    "id": 16,
+    "question": "PFOF for Robinhood in April 2024",
+    "generated_sql": "SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND data_type = 'venue';",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 17,
+    "question": "For each venue, PFOF received by Robinhood in April 2024",
+    "generated_sql": "SELECT venues, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND data_type = 'venue'\nGROUP BY venues;",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: venues"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Top 5 brokers by PFOF in January 2024",
+    "generated_sql": "SELECT executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE data_type = 'venue'\nGROUP BY executing_bd\nORDER BY total_pfof_usd DESC\nLIMIT 5;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 19,
+    "question": "PFOF by stock group for Robinhood in 2024",
+    "generated_sql": "SELECT stock_group, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue'\nGROUP BY stock_group;",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: stock_group"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Earliest month with non-zero PFOF in 2025",
+    "generated_sql": "WITH by_month AS (\n  SELECT year, month,          COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0) AS total_pfof_usd\n  FROM executing_bd_606\n  WHERE data_type = 'venue'\n  GROUP BY year, month\n)\nSELECT year, month, total_pfof_usd\nFROM by_month\nWHERE total_pfof_usd > 0\nORDER BY year ASC, (NULLIF(month,'')::int) ASC\nLIMIT 1;",
+    "passed": false,
+    "score": 0.8,
+    "details": [
+      "Missing/Wrong ORDER BY: year, month::int"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Latest month with non-zero PFOF in 2024",
+    "generated_sql": "WITH by_month AS (\n  SELECT year, month,          COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0) AS total_pfof_usd\n  FROM executing_bd_606\n  WHERE data_type = 'venue'\n  GROUP BY year, month\n)\nSELECT year, month, total_pfof_usd\nFROM by_month\nWHERE total_pfof_usd > 0\nORDER BY year DESC, (NULLIF(month,'')::int) DESC\nLIMIT 1;",
+    "passed": false,
+    "score": 0.8,
+    "details": [
+      "Missing/Wrong ORDER BY: year, month::int"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "For each broker, estimated volume in Q2 2024",
+    "generated_sql": "SELECT executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd, CASE WHEN AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) + COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvotherorderscph, 0)) > 0 THEN ROUND((COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)::numeric / AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) + COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvotherorderscph, 0))) * 100, 2) ELSE 0 END AS estimated_volume\nFROM executing_bd_606\nWHERE year = 2024 AND month IN ('4','5','6') AND data_type = 'venue'\nGROUP BY executing_bd;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 23,
+    "question": "Compare PFOF and estimated volume by broker in 2024",
+    "generated_sql": "SELECT executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd, CASE WHEN AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) + COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvotherorderscph, 0)) > 0 THEN ROUND((COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)::numeric / AVG(COALESCE(netpmtpaidrecvmarketorderscph, 0) + COALESCE(netpmtpaidrecvmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitorderscph, 0) + COALESCE(netpmtpaidrecvotherorderscph, 0))) * 100, 2) ELSE 0 END AS estimated_volume\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue'\nGROUP BY executing_bd;",
+    "passed": false,
+    "score": 0.8,
+    "details": [
+      "Missing/Wrong ORDER BY: executing_bd"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Top venue per broker by PFOF in 2024",
+    "generated_sql": "WITH base AS (\nSELECT executing_bd, venues, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue'\nGROUP BY executing_bd, venues\n)\n, ranked AS (\n  SELECT *, ROW_NUMBER() OVER (PARTITION BY executing_bd ORDER BY total_pfof_usd DESC NULLS LAST) AS rn\n  FROM base\n)\nSELECT * FROM ranked WHERE rn = 1\nORDER BY executing_bd;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 25,
+    "question": "List all unique stock groups present in 2024",
+    "generated_sql": "SELECT DISTINCT stock_group\nFROM executing_bd_606\nWHERE year = 2024 AND stock_group IS NOT NULL AND stock_group != ''\nORDER BY stock_group;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 26,
+    "question": "For each month, top 3 brokers by PFOF in 2024",
+    "generated_sql": "WITH base AS (\nSELECT month, executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue'\nGROUP BY month, executing_bd\n)\n, ranked AS (\n  SELECT *, ROW_NUMBER() OVER (PARTITION BY month ORDER BY total_pfof_usd DESC NULLS LAST) AS rn\n  FROM base\n)\nSELECT * FROM ranked WHERE rn = 1\nORDER BY month;",
+    "passed": false,
+    "score": 0.8,
+    "details": [
+      "Missing/Wrong ORDER BY: month, total_pfof_usd"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "PFOF by month in 2024",
+    "generated_sql": "SELECT month, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue'\nGROUP BY month;",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: month"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "List unique market participants in 2024",
+    "generated_sql": "SELECT DISTINCT market_participant\nFROM monthly_data\nWHERE EXTRACT(YEAR FROM day) = 2024 AND market_participant IS NOT NULL AND market_participant != ''\nORDER BY market_participant;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 29,
+    "question": "Total shares by quarter in 2024",
+    "generated_sql": "SELECT EXTRACT(QUARTER FROM day) AS quarter, SUM(total_shares) AS total_shares\nFROM monthly_data\nWHERE EXTRACT(YEAR FROM day) = 2024\nGROUP BY EXTRACT(QUARTER FROM day);",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: quarter"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Top 10 market participants by total shares in 2024",
+    "generated_sql": "SELECT market_participant, SUM(total_shares) AS total_shares\nFROM monthly_data\nWHERE TRUE\nGROUP BY market_participant\nORDER BY total_shares DESC\nLIMIT 10;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 31,
+    "question": "For each market participant, total shares in Q3 2024",
+    "generated_sql": "SELECT market_participant, SUM(total_shares) AS total_shares\nFROM monthly_data\nWHERE EXTRACT(YEAR FROM day) = 2024 AND EXTRACT(QUARTER FROM day) = 3\nGROUP BY market_participant;",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: market_participant"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Which month had the lowest total shares in 2024?",
+    "generated_sql": "SELECT EXTRACT(MONTH FROM day) AS month, SUM(total_shares) AS total_shares\nFROM monthly_data\nWHERE TRUE\nGROUP BY EXTRACT(MONTH FROM day)\nORDER BY total_shares ASC\nLIMIT 1;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 33,
+    "question": "Average trade size by market participant in 2024",
+    "generated_sql": "SELECT\n  SUM(total_shares) AS total_shares,\n  COUNT(DISTINCT market_participant) AS market_participant_count,\n  (SUM(total_shares)) / NULLIF(COUNT(DISTINCT market_participant), 0) AS volume_per_market_participant\nFROM monthly_data\nWHERE EXTRACT(YEAR FROM day) = 2024 AND market_participant IS NOT NULL AND market_participant != '';",
+    "passed": false,
+    "score": 0.25,
+    "details": [
+      "Missing SELECT: average_trade_size",
+      "Missing GROUP BY clause",
+      "Missing/Wrong ORDER BY: market_participant"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Top 5 months by total trades in 2024",
+    "generated_sql": "SELECT EXTRACT(MONTH FROM day) AS month, SUM(total_trades) AS total_trades\nFROM monthly_data\nWHERE TRUE\nGROUP BY EXTRACT(MONTH FROM day)\nORDER BY total_trades DESC\nLIMIT 5;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 35,
+    "question": "For each quarter, top market participant by total shares in 2024",
+    "generated_sql": "WITH base AS (\nSELECT EXTRACT(QUARTER FROM day) AS quarter, market_participant, SUM(total_shares) AS total_shares\nFROM monthly_data\nWHERE EXTRACT(YEAR FROM day) = 2024\nGROUP BY EXTRACT(QUARTER FROM day), market_participant\n)\n, ranked AS (\n  SELECT *, ROW_NUMBER() OVER (PARTITION BY EXTRACT(QUARTER FROM day) ORDER BY total_shares DESC NULLS LAST) AS rn\n  FROM base\n)\nSELECT * FROM ranked WHERE rn = 1\nORDER BY EXTRACT(QUARTER FROM day);",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 36,
+    "question": "Earliest month with non-zero total shares in 2024",
+    "generated_sql": "WITH by_month AS (\n  SELECT EXTRACT(YEAR FROM day) AS year,\n         EXTRACT(MONTH FROM day) AS month,\n         SUM(total_shares) AS total_shares\n  FROM monthly_data\n  WHERE EXTRACT(YEAR FROM day) = 2024\n  GROUP BY EXTRACT(YEAR FROM day), EXTRACT(MONTH FROM day)\n)\nSELECT year, month, total_shares\nFROM by_month\nORDER BY year ASC, month ASC\nLIMIT 1;",
+    "passed": false,
+    "score": 0.8,
+    "details": [
+      "Missing/Wrong ORDER BY: year, month::int"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "List all unique ATS names",
+    "generated_sql": "SELECT DISTINCT ats_name\nFROM finra_ats\nWHERE ats_name IS NOT NULL AND ats_name != ''\nORDER BY ats_name;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 38,
+    "question": "Total shares by ATS in 2024",
+    "generated_sql": "SELECT ats_name, SUM(total_shares) AS total_shares\nFROM finra_ats\nWHERE year = 2024\nGROUP BY ats_name;",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: ats_name"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Top 3 ATS by total shares in 2024",
+    "generated_sql": "SELECT ats_name, SUM(total_shares) AS total_shares\nFROM finra_ats\nWHERE TRUE\nGROUP BY ats_name\nORDER BY total_shares DESC\nLIMIT 3;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 40,
+    "question": "For each quarter, total ATS shares in 2024",
+    "generated_sql": "SELECT quarter, ats_name, SUM(total_shares) AS total_shares\nFROM finra_ats\nWHERE year = 2024\nGROUP BY quarter, ats_name;",
+    "passed": false,
+    "score": 0.75,
+    "details": [
+      "Missing/Wrong ORDER BY: quarter"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Which quarter had the highest ATS volume in 2024?",
+    "generated_sql": "SELECT quarter, SUM(total_shares) AS total_shares\nFROM finra_ats\nWHERE TRUE\nGROUP BY quarter\nORDER BY total_shares DESC\nLIMIT 1;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 42,
+    "question": "List distinct quarters for 2024 (ATS)",
+    "generated_sql": "SELECT DISTINCT quarter\nFROM finra_ats\nWHERE year = 2024\nORDER BY quarter;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 43,
+    "question": "Compare: total PFOF by quarter vs market total shares by quarter (2024)",
+    "generated_sql": "SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue';",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 44,
+    "question": "Compare: top 3 brokers by PFOF and top 3 ATS by shares (2024)",
+    "generated_sql": "SELECT SUM(total_shares) AS total_shares\nFROM finra_ats\nWHERE TRUE\nORDER BY total_shares DESC\nLIMIT 3;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 45,
+    "question": "Correlation prep: PFOF by month vs market volume by month (2024)",
+    "generated_sql": "SELECT month, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND data_type = 'venue'\nGROUP BY month;",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 67,
+    "question": "PFOF for citigroup in April 2024",
+    "generated_sql": "SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND data_type = 'venue' AND executing_bd = 'Citigroup Global Markets Inc.';",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 68,
+    "question": "PFOF from citi in April 2024",
+    "generated_sql": "SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND data_type = 'venue' AND venues = 'Citigroup';",
+    "passed": true,
+    "score": 1.0,
+    "details": []
+  },
+  {
+    "id": 69,
+    "question": "On average, how many venues did a broker get PFOF from in April 2025",
+    "generated_sql": "SELECT\n  SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd,\n  COUNT(DISTINCT venues) AS venue_count,\n  (SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0))) / NULLIF(COUNT(DISTINCT venues), 0) AS pfof_per_venue\nFROM executing_bd_606\nWHERE year = 2025 AND month = '4' AND data_type = 'venue' AND venues IS NOT NULL AND venues != '';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "In April 2024, For each executing_bd count the number of distinct venue names where PFOF is greater than 0 or NOT NULL across all stock_groups.",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "In April 2024, each broker received PFOF from how many venues?",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "In April 2024, list every broker that received PFOF and the number of venues for each broker",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "In April 2024, list every executing_bd that received PFOF from a venue and the number of venues",
+    "generated_sql": "SELECT DISTINCT executing_bd\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND executing_bd IS NOT NULL AND executing_bd != ''\nORDER BY executing_bd;",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "How many venues did each broker use in Q2 2024?",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month IN ('4','5','6') AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "For each broker, count the venues in 2024",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Each broker in April 2024 routed to how many different venues?",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Number of venues per broker in April 2024",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Show me venue count by broker for April 2024",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Which brokers used more than 10 venues in April 2024?",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.3333333333333333,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Top 5 brokers by number of venues used in April 2024",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND venues IS NOT NULL AND venues != '';",
+    "passed": false,
+    "score": 0.2,
+    "details": [
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause",
+      "Missing/Wrong ORDER BY: venues_count",
+      "Missing/Wrong LIMIT: 5"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "For Robinhood, how many venues in each month of 2024?",
+    "generated_sql": "SELECT COUNT(DISTINCT venues) AS venue_count\nFROM executing_bd_606\nWHERE year = 2024 AND venues IS NOT NULL AND venues != '' AND executing_bd = 'Robinhood Securities, LLC';",
+    "passed": false,
+    "score": 0.0,
+    "details": [
+      "Missing SELECT: month",
+      "Missing SELECT: venues_count",
+      "Missing GROUP BY clause",
+      "Missing/Wrong ORDER BY: month"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "In April 2024, how many brokers used each venue?",
+    "generated_sql": "SELECT COUNT(DISTINCT executing_bd) AS executing_broker_count\nFROM executing_bd_606\nWHERE year = 2024 AND month = '4' AND executing_bd IS NOT NULL AND executing_bd != '' AND data_type = 'venue';",
+    "passed": false,
+    "score": 0.0,
+    "details": [
+      "Missing SELECT: venues",
+      "Missing SELECT: executing_bd_count",
+      "Missing GROUP BY clause"
+    ]
+  }
+]

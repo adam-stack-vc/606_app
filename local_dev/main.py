@@ -3,6 +3,9 @@ import os
 import sys
 import logging
 
+# IMPORTANT: Disable LLM intent extraction to use deterministic classification
+os.environ["USE_LLM_INTENT"] = "false"
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -96,19 +99,33 @@ try:
 
     class QuestionInput(BaseModel):
         question: str
+        use_semantic_hints: bool = False
 
     @app.post("/ask")
     async def ask_question(body: QuestionInput):
-        logger.info(f"Ask endpoint called with question: {body.question}")
+        logger.info(f"Ask endpoint called with question: {body.question}, use_semantic_hints: {body.use_semantic_hints}")
         if not body.question:
             raise HTTPException(status_code=400, detail="Missing question")
+
+        # Set environment variable for this request
+        original_value = os.getenv("USE_SEMANTIC_HINTS")
+        os.environ["USE_SEMANTIC_HINTS"] = "true" if body.use_semantic_hints else "false"
+
         try:
             result = ask(body.question)
         except Exception as e:
             logger.error(f"ask() failed: {e}", exc_info=True)
             raise HTTPException(status_code=500, detail=str(e))
+        finally:
+            # Restore original value
+            if original_value is not None:
+                os.environ["USE_SEMANTIC_HINTS"] = original_value
+            elif "USE_SEMANTIC_HINTS" in os.environ:
+                del os.environ["USE_SEMANTIC_HINTS"]
 
         if isinstance(result, dict):
+            # Add semantic_hints flag to response
+            result["semantic_hints_used"] = body.use_semantic_hints
             return result
         if isinstance(result, list):
             return {
@@ -116,10 +133,12 @@ try:
                 "results": result,
                 "enrichment": None,
                 "insights": [],
+                "semantic_hints_used": body.use_semantic_hints,
             }
         return {
             "sql": "",
             "error": str(result),
+            "semantic_hints_used": body.use_semantic_hints,
         }
 except Exception as e:
     logger.error(f"Could not load /ask endpoint: {e}", exc_info=True)

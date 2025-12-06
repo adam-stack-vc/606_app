@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/UA</submissionType>
+    <accessionNumber>0002038622-25-000004</accessionNumber>
+    <filing_date>2025-05-08</filing_date>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0001491895</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00200</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>OTC Link</txNMSStockATSName>
+      <rbOperatesPursuantToFormATS>Y</rbOperatesPursuantToFormATS>
+      <taStatementAboutAmendment>This filing is an updating amendment to a material amendment (SEC accession no. 0002038622-25-000004). The purpose of this amendment is to add functionality so that all orders received by MOON, including odd-lots, are displayable on the depth-of-book (i.e., Level 2) MOON market data feed. This functionality is applicable to all Subscribers and the Broker-Dealer Operator. The changes in this amendment are related to Part II, Item 7a as well as Part III, Items 8c, 11a, and 15. </taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>OTC LINK LLC</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="MOON ATS (&quot;MOON&quot; or the &quot;ATS&quot;)"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-68596</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000153944</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>FINRA</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>03/05/2012</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>MOON</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>https://www.otcmarkets.com/otc-link/otc-link-services</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>777 Central Blvd</ats:street1>
+        <ats:city>Carlstadt</ats:city>
+        <ats:zip>07072</ats:zip>
+        <ats:state>US-NJ</ats:state>
+      </part1Item7PrimarySite>
+      <part1Item7SecondarySiteRecords>
+        <secondarySiteI7>
+          <ats:street1>401 N Broad St</ats:street1>
+          <ats:city>Philadelphia</ats:city>
+          <ats:zip>19108</ats:zip>
+          <ats:state>US-PA</ats:state>
+        </secondarySiteI7>
+      </part1Item7SecondarySiteRecords>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <rbPart2Item1aArePermittedToEnterInterest>N</rbPart2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <rbPart2Item2aAreAfflPermittedToEnterInterest>N</rbPart2Item2aAreAfflPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfBD>N</rbPart2Item3aCanSubscrOptOutWithOATIOfBD>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>N</rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <rbPart2Item4aAreThereArrangementsBtwBDAndTC>N</rbPart2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>The BDO provides all MOON market data to only OTC Markets Group Inc. ("OTCM") - the parent company of the BDO. The BDO is solely responsible for the creation and organization of market data and provides that data to OTCM for real-time distribution.
+
+OTCM distributes two types of MOON market data feeds: top-of-book (i.e., "Level 1") and depth-of-book (i.e., "Level 2") (collectively "MOON Market Data Feeds"). Level 1 data includes the most aggressively priced aggregated bid and offer, and Level 2 includes when an order is added, replaced, canceled, and/or executed.
+
+Recipients of the MOON Market Data Feeds must subscribe by entering into a Market Data agreement with OTCM (collectively "MOON Market Data Subscribers"). MOON Market Data Subscribers include broker-dealers that also subscribe to MOON for the purpose of transacting in securities, as well as entities that subscribe solely for access to the data. It is not a requirement for a MOON Market Data Subscriber to be a broker-dealer. Each MOON Market Data Subscriber is subject to the same terms of use.
+
+OTCM disseminates the MOON Market Data Feeds to MOON Market Data Subscribers in one of two ways: directly from OTCM to the MOON Market Data Subscriber, or indirectly via third-party distributors. Third-party distributors include vendors or service providers that redistribute market data. MOON Market Data Subscribers receiving market data via third-party distributors may experience additional latency compared to those receiving data directly from OTCM. OTCM offers MOON Market Data Subscribers the option to receive market data either directly from OTCM or indirectly via third-party distributors. For further information regarding market data dissemination, please see Part III, Item 15. </taPart2Item5aProductsAndServices>
+        <rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>Y</rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <part2Item5cDoesAfflOfferProductsAndServices rbPart2Item5cDoesAfflOfferProductsAndServices="Y">
+        <taPart2Item5cAfflProvidedProductsAndServices>As discussed in Part II, Item 5a, MOON Market Data Subscribers must subscribe by entering into a Market Data agreement with OTCM.  MOON Market Data Subscribers include broker-dealers that also subscribe to MOON for the purpose of transacting in securities, as well as entities that subscribe solely for access to the data. It is not a requirement for a MOON Market Data Subscriber to be a broker-dealer. OTCM offers MOON Market Data Subscribers the option to receive market data either directly from OTCM or indirectly via third-party distributors. For further information regarding market data dissemination, please see Part III, Item 15. </taPart2Item5cAfflProvidedProductsAndServices>
+        <rbPart2Item5dAreTCOfSevicesSametoAll>Y</rbPart2Item5dAreTCOfSevicesSametoAll>
+      </part2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>Pursuant to a services agreement between OTCM and the BDO, OTCM provides certain services to MOON (e.g., human resources, administration, finance, and legal, collectively "Other (non-IT) Shared Employees"). OTCM and the BDO also have Shared Employees working in Information Technology ("IT") roles (e.g., application support, network operations and database administration, collectively "Authorized IT Personnel"). The BDO does not have any employees exclusively assigned to MOON; rather, BDO employees and Shared Employees support all aspects of the BDO's operations. The term "Shared Employees," as further described in Part II, Item 7, encompasses Authorized IT Personnel and Other (non-IT) Shared Employees. Authorized IT Personnel are subject to the written safeguards and written supervisory procedures described in Part II, Item 7. </taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>Fundamental Interactions, Inc. ("FI") is a technology and software developer that licenses matching engine software to the BDO for its use in operating MOON. The BDO also uses FI software in the creation of MOON Market Data Feeds (See Part II, Item 5 and Part III, Item 23) and for certain risk controls (e.g., order size limits and symbols eligible for trading (See Part III, Item 11).
+
+Apex Clearing Corporation ("Apex", NSCC #0158) provides clearance and settlement of transactions executed on MOON (as described in Part III, Item 22).
+
+The BDO utilizes a third-party service provider, OneMarketData, LLC ("OneMarketData"), to supply SIP (CTA/UTP) data, to be used as reference data on each trading day for each NMS stock that trades on MOON (See Part III, Item 23).
+
+11:11 Systems, Inc. is the data center provider that hosts the hardware on which the MOON matching engine runs (See Part III, Item 11). Subscribers may connect to MOON via an extranet connectivity provider, at the sole discretion of the Subscriber (See Part III, Item 6).  Any extranet connectivity provider utilized by the Subscriber (e.g., BT Radianz, TNS, Century Link, NYSE Technologies Connectivity Inc.) must also be connected to the BDO. </taPart2Item6bServiceProvider>
+        <part2Item6cDoesServiceProviderUseATSServices rbPart2Item6cDoesServiceProviderUseATSServices="Y">
+          <taPart2Item6cProviderAfflAndServicesUsed>Two service providers utilize MOON for purposes of transacting in securities: (i) Fundamental Interactions Neutron Direct LLC, the broker-dealer subsidiary of FI, and (ii) Apex.</taPart2Item6cProviderAfflAndServicesUsed>
+          <rbPart2Item6dAreATSSevicesSametoAll>Y</rbPart2Item6dAreATSSevicesSametoAll>
+        </part2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>Scope of CTI:
+Consistent with Rule 301(b)(10) of Regulation ATS, the BDO has implemented adequate and reasonable written safeguards and written supervisory procedures ("WSP") to protect MOON Subscribers' confidential trading information ("CTI"). The BDO considers (1) order information before it is published by OTCM on the MOON Market Data Feeds (e.g., symbol, quantity, price and order type) and (2) certain undisclosed live order and execution information to be CTI, as discussed below. CTI originates from MOON, where orders are received and processed almost instantaneously by the BDO before being immediately made available to OTCM as market data.  OTCM disseminates the order information via a multicast feed within milliseconds following the submission of an order.  As a result, the window during which this data qualifies as "confidential" is so brief that the opportunity for CTI misuse is de minimus.
+
+Undisclosed live order and execution information includes optional anonymous flags (See Part III, Item 15), and reserved quantity (See Part III, Item 7). This information is excluded from the publicly disseminated MOON Market Data Feeds and is classified as CTI. Each of these circumstances is described in greater detail below.
+
+Regarding the anonymous flag, MOON Subscribers may flag their orders as "anonymous," which conceals the Subscriber's identity from the counterparty. When the anonymous flag is applied, certain relevant personnel (refer to "MOON Access Supervision" section and Part II, Item 7d below for further details) may have access to the identity of the Subscriber that submitted the anonymous order.
+
+In cases where an order contains a reserved quantity, the full order size is sent to MOON, but only the displayed portion is disseminated.
+
+In each of the above scenarios, the BDO has implemented various protective measures, as described below, to ensure only proper personnel with a legitimate need-to-know basis can access CTI.
+
+Furthermore, the BDO only routes orders externally based on applicable Subscriber execution instruction. External routing does not expose CTI within the BDO before being routed to external market operators. Additionally, neither MOON nor the BDO engages in any principal or agency trading or market making activity, which reduces the opportunity to misuse CTI.
+
+MOON Access Supervision:
+The BDO has adopted WSPs that limit access to CTI of MOON Subscribers to those employees who, in the ordinary course of their job functions, are operating the system or are responsible for MOON's compliance with applicable rules (collectively, "Authorized Personnel") (See Part II, Item 7d for more information). For example, the BDO permits access to the CTI of MOON Subscribers when access is necessary to review certain trades. For purposes of reviewing a trade for compliance purposes, the information reviewed would only involve previous activity on MOON.
+
+The BDO only grants its employees access to CTI of MOON Subscribers on a need-to-know basis and to the minimal extent necessary to carry out his or her responsibilities. All access requests are subject to approval by the BDO Chief Compliance Officer ("CCO") and are subsequently executed by the Chief Information Security Officer ("CISO") or CISO designee.
+
+The CCO requires an annual training for Authorized Personnel to understand the uses of CTI and escalation procedures for unauthorized CTI disclosures. At the completion of this training, Authorized Personnel evidence their understanding by attesting in writing that they have reviewed and understood MOON's WSPs. Additionally, the CCO annually self-audits the WSPs to monitor the effectiveness of the procedures and to implement any changes that may result from the annual training.
+
+The BDO prevents unauthorized persons from accessing CTI of MOON Subscribers through the following measures: 1) CCO performing quarterly access audits to ensure that the rationale for granting access is still relevant, 2) requiring the use of multi-factor authentication and password-protected logins, 3) employing access control methods, and 4) disabling write capabilities of USB drives on company-managed PCs and laptops so that CTI may not be copied onto portable storage devices.
+
+Separation of Systems and Data:
+MOON maintains policies and procedures designed to control access to its servers, database, and associated applications. MOON infrastructure operates on a combination of dedicated virtual instances and on dedicated hardware (i.e., servers). The hardware for MOON is housed in the same data center as other BDO ATSs. System access to MOON servers is regulated by secure logins and monitored by Authorized IT Personnel (refer to Part II, Item 7d).
+
+MOON database information is maintained separately from other BDO data, with access governed by proper control methods. These control methods include network firewalls to restrict MOON database access, along with authentication and authorization protocols to ensure only provisioned accounts can gain access. Backup data is stored in a separate, secure location outside the primary database environment to ensure recovery capabilities.
+
+Third Party Access Protections:
+Compliance performs risk-based reviews of MOON third-party vendors at the time of engagement and on an annual basis. For both initial and annual reviews, Compliance and Shared Employees evaluate the vendors' cybersecurity, confidentiality, and data loss prevention controls. The results of these reviews are recorded and approved by BDO Management (See definition in Part II, Item 7d). Contracts with elevated risk and/or critical third-party vendors may require additional firm diligence. Additional firm diligence may involve identifying vendor operational risks (e.g., a potential bankruptcy or business cessation) or evaluating contractual terms to prepare for contingencies should the vendor's services become unavailable. Compliance summarizes the findings of the additional firm diligence and escalates, if necessary, to BDO Management for further discussion (e.g., renegotiate contract terms).
+
+The BDO may, for diagnostic and analytical purposes, provide CTI of MOON Subscribers to third party vendors who provide services to MOON and are subject to non-disclosure contractual obligations. For example, FI licenses matching engine software to the BDO and may be exposed to CTI of MOON Subscribers in the course of diagnosing system issues. The BDO has an agreement with FI that contains standard confidentiality and data protection provisions that protect CTI from potential misuse. As an additional example, OneMarketData's systems or personnel do not possess or interact with MOON CTI in any capacity.
+
+With respect to clearing services, Apex receives execution data. To effectively manage this risk, Apex is obligated to protect CTI of MOON Subscribers, including data and information related to Subscribers. Further, Apex is an SEC and FINRA-registered broker-dealer, and subject to applicable laws, rules, and regulations concerning information security standards and obligations.
+
+Network Security:
+MOON's environment utilizes a defense in depth security methodology with an emphasis on security event detection and incident response. Authorized Personnel access the MOON ATS through secure remote connections and jump servers. In addition, MOON employs firewalls to isolate the MOON systems from the Internet.
+
+The BDO conducts security assessments (e.g., penetration tests) in the production environment. A vulnerability scanner assesses the system to determine security vulnerabilities and threats as part of the BDO's efforts to safeguard CTI on MOON. Further, the BDO maintains a patch management process that helps to consistently mitigate vulnerabilities and threats in its operating environment. When needed, Authorized IT Personnel resolve software systems and hardware issues that may require access to the MOON network infrastructure and CTI, subject to the supervision of the CCO.
+
+Employee Personal Trading:
+Authorized Personnel are required to disclose all outside brokerage accounts, and duplicate trade confirmations and account statements are required to be sent to the CCO. Authorized Personnel are not permitted to trade any NMS securities, on MOON or any other trading venue, during any overnight trading session. Authorized Personnel are required to attest in writing to their understanding of this trading prohibition.
+
+On a monthly basis, the CCO receives and reviews duplicate copies of all brokerage statements of Authorized Personnel. Additionally, the CCO reviews trade confirmations when activity is generated, conducting reviews as the activity is received.
+
+
+</taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <rbPart2Item7bCanSubscriberConsentToDisclosure>N</rbPart2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>Third party vendors with access to CTI are described in Part II, Item 7a, above. Authorized Personnel access CTI of MOON Subscribers, as described further below, to support the operation of MOON or its compliance with applicable rules. Other (non-IT) Shared Employees are not considered Authorized Personnel, as they do not have access to CTI.
+
+All personnel in the following departments are classified as Authorized Personnel:
+
+BDO Management is comprised of the President and Chief Compliance Officer, with advice from OTCM's Chief Information Security Officer and General Counsel. BDO Management may require access to all CTI to oversee operations, address any security concerns and ensure regulatory compliance.
+
+Trading Services is primarily responsible for the day-to-day operation of the BDO.  These Authorized Personnel may require access to all CTI to monitor MOON applications during daily operational and period compliance reviews.  This team may also require access to CTI when responding to Subscriber inquiries.
+
+Compliance supports MOON and may require access to all CTI when responding to regulatory inquiries and Subscriber inquiries, when conducting periodic compliance reviews in accordance with the BDO's WSPs, and when addressing any specific compliance issues or concerns that may arise.
+
+Authorized IT Personnel includes certain Shared Employees with OTCM (as described in Part II, Item 6a). Authorized IT personnel may require access to all CTI to maintain network security, investigate any technical issues, provide software development and support, and manage the database infrastructure to ensure system integrity and uptime. </taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Principal Trading Firms</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Market Makers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <rbPart3Item2aRegisteredBD>Y</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>The ATS accepts Subscriber applicants that meet the following requirements:
+1. Be a U.S. Securities and Commission ("SEC") and FINRA registered broker-dealer in good standing.
+2. Have clearing and settlement systems in place to support participation on the ATS.
+3. Execute a Subscriber agreement. Following receipt of an executed Subscriber agreement, there is a default cap initially set at $1,000,000 notional per order. For requests to increase the default cap, Broker-Dealer Operator management reviews Subscriber's financial records (See Part III, Item 8).
+4. Execute an appropriate "give-up" agreement with the BDO (e.g., an executed Uniform Trade Reporting Facility Service Bureau/Executing Broker Agreement or NASDAQ AGU/Attachment 2 Agreement). A give-up agreement is required when a FINRA member firm reports transactions to a FINRA Trade Reporting Facility ("TRF") on behalf of another FINRA member firm.  This requirement allows MOON to fulfill its trade reporting obligations.
+5. Satisfy MOON's onboarding process (e.g., KYC/AML review, OFAC checks, disciplinary review).
+6. Satisfy any technical or system requirements that MOON may prescribe (i.e., connectivity certification, certification of applicable order and trade functionality, ability to receive trades/cancellations, rejects and trade breaks from the ATS).</taPart3Item2bSummaryOfCndtns>
+        <rbPart3Item2cIsConditionsSameForAll>Y</rbPart3Item2cIsConditionsSameForAll>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>Y</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>A Subscriber can be excluded from the ATS if the Subscriber no longer satisfies the eligibility requirements outlined in Part III, Item 2 above.
+
+MOON may also exclude a Subscriber from trading on the ATS if, in the sole discretion of MOON, the Subscriber causes a breach of the Subscriber agreement or if such exclusion is necessary to comply with applicable law (e.g., Subscriber's FINRA broker-dealer registration revoked, Subscriber is delinquent on payment for services).
+</taPart3Item3aExcludngSumryDtls>
+        <rbPart3Item3bIsCondtnsSameForAll>Y</rbPart3Item3bIsCondtnsSameForAll>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>MOON operating hours are from 7:30 P.M. to 4:00 A.M. E.T.: Sunday to Thursday (ending Friday at 4 A.M. E.T.). MOON observes the New York Stock Exchange's holiday schedule, excluding the early close holiday schedule, which is not applicable to MOON operating hours. For example, there is no overnight trading session on Christmas Eve (December 24) since the TRF is not open on Christmas Day (December 25). However, MOON may operate in its overnight trading session beginning on Christmas night (i.e., at 7:30 P.M. E.T. on December 25) assuming the TRF is open and available for trade reporting the following day on December 26. Orders eligible for the overnight trading session can be entered beginning at 7:30 P.M. E.T., however orders are only executable from 8:00 P.M. to 4:00 A.M. E.T. (from Sunday to Thursday; ending Friday at 4 A.M. E.T.) and report to the NASDAQ TRF when the TRF accepts trade reports beginning at 8:00 A.M. E.T. the next trading day. All orders received outside of the applicable operating hours are rejected. Open orders in the overnight trading session remaining at 4:00 A.M. E.T. expire at that time and do not carry over to the following overnight session.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <part3Item5aProtocolDetails rbPart3Item5aIsPermitOrdrTradng="Y">
+        <taPart3Item5aProtocolused>Subscribers access MOON via a FIX connection. Such access is available to Subscribers through an Internet protocol address via communications that are compliant with the FIX API provided by the ATS. The ATS supports FIX 4.2. MOON only accepts orders via FIX. It does not accept orders via telephone, email, instant message, or other form of communication.</taPart3Item5aProtocolused>
+        <rbPart3Item5bIsProtclsameForAll>Y</rbPart3Item5bIsProtclsameForAll>
+      </part3Item5aProtocolDetails>
+      <rbPart3Item5cIsAnyOtherMeans>N</rbPart3Item5cIsAnyOtherMeans>
+      <part3Item6aProtocolDetails rbPart3Item6aIsCoLocRltdSrvcsOfrd="Y">
+        <taPart3Item6aCoLocRltdSrvcsDtls>MOON does not offer co-location services.
+In addition to directly connecting to the MOON matching engine located at the BDO's data center in Carlstadt, NJ, the BDO also offers Subscribers the option to connect through extranet connectivity providers and cross-connects (via fiber) at Equinix NY4, utilizing the BDO's point-of-presence. Any extranet connectivity provider (e.g., BT Radianz, TNS, Century Link, NYSE Technologies Connectivity Inc.) utilized by Subscriber must also be connected to the BDO. </taPart3Item6aCoLocRltdSrvcsDtls>
+        <rbPart3Item6bIsTNCsameForAll>Y</rbPart3Item6bIsTNCsameForAll>
+      </part3Item6aProtocolDetails>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>MOON only supports limit orders. These orders may be entered with (i) reserve quantity instructions and (ii) Time-in-Force ("TIF") instructions such as Immediate or Cancel ("IOC"), Good Until Expiration ("GTX"), or Good to Cancel ("GTC"). Orders are executed in price/time priority at the posted order's displayed price.
+
+For reserve orders, GTX and GTC orders may be entered with a display size, smaller than the full order size.  Upon an execution at the displayed size, the order is subsequently refreshed from the reserve quantity (undisplayed quantity) until exhausted. These orders lose time priority, meaning each 'refresh' from the reserve quantity receives a new timestamp.
+
+IOC orders can remove liquidity on entry.  Any remaining quantity after the execution will be canceled. GTX and GTC orders can remove liquidity on entry, if there is a matching order already on the book.  If there is no execution upon entry, or if there is a remaining quantity after the initial execution, GTX and GTC orders will subsequently post. GTX and GTC orders function identically except for how the remaining unexecuted quantity closes out and is communicated back to the Subscriber. For GTX orders, any remaining unexecuted quantity will expire at the close of the overnight trading session, with notice of the expiration sent to the Subscriber. For GTC orders, any remaining unexecuted quantity will be automatically cancelled back to the Subscriber at the close of the overnight trading session.
+
+Any IOC, GTX, or GTC orders received outside the MOON operating hours are rejected. IOC orders entered between 7:30 P.M. to 8:00 P.M. E.T. are rejected. GTX and GTC orders entered between 7:30 P.M. and 8:00 P.M. E.T. are inactive until 8:00 P.M. E.T. Trading begins at 8:00 P.M. E.T.
+
+Because there is no NBBO during the overnight session, the ATS calculates a consolidated best bid and offer ("CBBO"). The CBBO consists of MOON top of book data and top of book data from any external market center from which MOON receives market data.  The CBBO serves as the best available bid and ask prices for matching and routing orders on the ATS. The ATS will match a subscriber's order with the best priced order on MOON or improve upon the Subscriber's order price. Alternatively, OTC Link will route a subscriber's order to an external market center displaying a better price than MOON.
+
+Actual trade prices executed during overnight sessions are based on the CBBO at the time of the trade based on price/time priority. See Part III, Item 16 for more information on routing.
+
+MOON does not accept amendments/modifications to orders. Instead, orders can be cancelled/replaced, generating a new order ID and timestamp. GTX and GTC orders can be canceled/replaced by the Subscriber for price, size, and/or display size. Cancelled/Replaced orders receive a new order ID and new timestamp (i.e., order loses its original priority in the order book).
+
+Orders may also include three optional execution instructions: 1) Post Only, 2) IOC after Cancel/Replace or 3) Self-Trade Prevention.
+
+1) Post-Only orders are only possible with GTX and GTC TIFs. Post-Only GTX and GTC orders can only post (i.e., add liquidity) and cannot remove liquidity on entry. If the order is marketable on entry, it is rejected.
+
+2) If a GTX or GTC order with the 'IOC after Cancel/Replace' execution instruction is cancelled/replaced, the GTX or GTC order would then cancel if not immediately executed after being replaced.
+
+3) MOON offers self-trade prevention (a.k.a. anti-internalization) that can be enabled at the Subscriber's discretion in three ways (as referenced in Part III, Item 14). When enabled, the following cancel/reduce method will be used: 1) If the size of the incoming order is less than the resting order, the incoming order will be canceled, and the resting order will be reduced by the size of the canceled incoming order; 2) If the size of the incoming order is greater than the resting order, the resting order will be canceled, and the incoming order will be reduced by the size of the canceled resting order; 3) If the size of the incoming order is the same as the resting order, both the incoming order and the resting order will be canceled.
+
+Orders are rejected if they contain instructions or order attributes that are not supported by MOON (e.g., invalid stock symbol, invalid TIF, post-only that locks or crosses). Orders can be canceled either by the Subscriber upon request, or automatically by the system (in the circumstances described below). There are three ways an order can be automatically canceled by the system: 1) the symbol is halted (all open orders in that symbol from all Subscribers are canceled), 2) the Subscriber's FIX session, if enabled for "cancel on disconnect," disconnects (all open orders entered via the disconnected FIX session are canceled), and 3) for open GTX and GTC orders, any remaining unexecuted quantity either expires or is automatically canceled back to the Subscriber, respectively, at the close of the overnight session.
+
+All Subscribers have access to all order types regardless of connectivity.
+
+
+
+
+
+
+</taPart3Item7AOrdrTypExplain>
+      <rbPart3Item7bIsTnCSameForAll>Y</rbPart3Item7bIsTnCSameForAll>
+      <part3Item8aSizeReqrmnts rbPart3Item8aIsMinOrMaxSizeReqd="Y">
+        <taPart3Item8aOtiSizeReqrmns>Each Subscriber is subject to a minimum/maximum quantity per order and a maximum notional value per order. MOON rejects any order in excess of 99,999,999 shares. The minimum order size is one (1) share. Additionally, MOON rejects any order with a notional value greater than $1,000,000 (or any higher cap authorized by the BDO). BDO Management may authorize a notional cap higher than $1,000,000 after reviewing the Subscriber's audited financials and conducting a credit risk assessment. This review determines the Subscriber's eligibility for a notional limit higher than $1,000,000.
+
+Additionally, MOON monitors whether Subscribers are sending a single order with notional value greater than $1,000,000 or any other applicable cap. </taPart3Item8aOtiSizeReqrmns>
+        <rbPart3Item8bIsReqProcSameForAll>Y</rbPart3Item8bIsReqProcSameForAll>
+      </part3Item8aSizeReqrmnts>
+      <part3Item8cOddltOrdrReqs rbPart3Item8cIsOddLotsAcptdExecutd="Y">
+        <taPart3Item8cOddLtOrdrReqsnProcdurs>Odd lot orders are treated the same as round lot orders and have the same priority treatment. </taPart3Item8cOddLtOrdrReqsnProcdurs>
+        <rbPart3Item8dIsReqsProcdurSameForAll>Y</rbPart3Item8dIsReqsProcdurSameForAll>
+      </part3Item8cOddltOrdrReqs>
+      <part3Item8eMixltOrdrDetails rbPart3Item8eIsMixLotOrdrsAcptdExecutd="Y">
+        <taPart3Item8eMixltOrdrReqsProcDtls>Mixed lot orders are treated the same as round lot orders and have the same priority treatment.</taPart3Item8eMixltOrdrReqsProcDtls>
+        <rbPart3Item8fIsRecProcSameForAll>Y</rbPart3Item8fIsRecProcSameForAll>
+      </part3Item8eMixltOrdrDetails>
+      <rbPart3Item9aIsAnyMsgToIndicTI>N</rbPart3Item9aIsAnyMsgToIndicTI>
+      <taPart3Item10aOpenReOpenDtls>MOON Subscribers may enter orders beginning at 7:30 P.M. E.T. on days that the ATS is open. All IOC, GTX, or GTC orders received prior to this session are rejected. MOON begins matching orders based on the terms of the order in its order book at 8:00 P.M. E.T, as further described below.
+
+GTX and GTC orders entered between 7:30 P.M. E.T. and 8:00 P.M. E.T. are ranked based on the price/time priority rules of MOON. IOC orders entered between 7:30 P.M. to 8:00 P.M. E.T. are rejected. GTX and GTC orders entered between 7:30 P.M. and 8:00 P.M. E.T. are inactive (i.e., resting in price/time priority). At 8:00 P.M. E.T., inactive orders become active and match based on price/time priority. Any unexecuted orders are posted and interact with new orders entered after 8:00 P.M. E.T. in price/time priority.
+
+If trading in an NMS stock is halted by an exchange during the regular day session, that stock is not eligible for trading during the subsequent overnight session. This information is communicated to Subscribers through the MOON Market Data Feeds.
+
+In the event an NMS stock is halted by an exchange during an overnight trading session, the ATS cancels all orders for the effected NMS stock on the ATS's order book at the time of the trading halt. Such orders are automatically cancelled and new orders are rejected. In the event that the halt is lifted, orders are accepted in the impacted security. Any such halt is communicated to Subscribers through the MOON Market Data Feeds.</taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>Orders do not carry over into the overnight trading session. MOON operates one trading session. See Part III, Item 10a, for more detail regarding order handling at the opening and re-opening of the MOON trading session.</taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>N</rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>
+      <taPart3Item11aStrucOfNmsStk>MOON operates a fully automated electronic limit order book that continuously matches and facilitates the execution of Subscriber buy and sell orders on an agency basis. MOON does not act in any other capacity (i.e., principal, riskless principal). MOON makes all eligible NMS stocks available for trading. The ATS only allows Subscribers to connect via FIX to enter limit orders that match in a matching engine. All Subscribers are FINRA registered broker-dealers. The ATS will begin trading on November 18th, pursuant to the roll-out schedule set forth at: https://www.otcmarkets.com/otc-link/moon-overnight.
+
+Posted orders are published on a Depth of Book feed and attributed to the posting Subscriber. The best priced buy and sell orders are aggregated and published on a Top of Book feed. As such, the Top of Book feed is not attributable to specific Subscribers. All orders submitted to the ATS are firm, and are eligible for automatic execution by the system, consistent with the operations of the system as described herein.</taPart3Item11aStrucOfNmsStk>
+      <rbPart3Item11bIsMeansFeciltsSameForAll>Y</rbPart3Item11bIsMeansFeciltsSameForAll>
+      <taPart3Item11cRulsProcsOfNmsStk>The ATS only accepts orders from Subscribers. MOON does not have any discretion to change the terms of an order that a Subscriber enters. The ATS matches orders solely in accordance with the instructions of those orders and the system's price-time priority (as described in Part III, Item 7).  Orders retain their priority after partial fills at their reduced size (as described in Part III, Item 7).
+
+MOON's best bid and offer reflects the highest bid price and the lowest offer price available within MOON's order book. The pricing methodology is determined by the limit prices submitted by Subscribers, with execution allocated to the best available prices within MOON's order book. MOON does not offer price improvement functionality. Because there is no NBBO during the overnight session, the ATS calculates a consolidated best bid and offer ("CBBO"). The CBBO consists of MOON top of book data and top of book data from any external market center from which MOON receives market data. The CBBO serves as the best available bid and ask prices for matching and routing orders on the ATS. The ATS will match a subscriber's order with the best priced order on MOON or improve upon the Subscriber's order price. Alternatively, OTC Link will route a subscriber's order to an external market center displaying a better price than MOON.
+
+A Subscriber may route to an external market center if applicable FIX instructions are included. When an order is routed to an external market center, it will not display on the ATS's book, and the BDO prevents the order from matching on the ATS. To the extent the full size of an order is not executed at the external market center, the remaining quantity is processed like any other order as described in Part III, Item 7. The quantity remaining on the ATS is not treated as a new order. It retains the timestamp from when the order was initially posted on the ATS before being routed, ensuring the preservation of price/time priority.
+
+Orders submitted to the ATS are time-stamped to the millisecond upon receipt for prioritization purposes and for CAT reporting purposes. The BDO reviews any anomalies in the activities of the ATS using end-of-day reports. These reports include T+1 clearing breaks and same entity crosses. If a trade error is related to an internal system issue but does not impact a Subscriber, the error is resolved internally by the BDO. If a trade error is identified that impacts a Subscriber, the BDO communicates with the affected Subscriber(s) regarding whether the error is eligible to be adjusted or broken. Bona fide errors are booked to the BDO's error account and resolved (if necessary) by a Series 24 firm principal, who verbally executes with a contra-party outside of the ATS that is making a market in the relevant security. The verbal execution is then reported to the NASDAQ's TRF.
+
+Any IOC, GTX, or GTC orders received outside the MOON operating hours are rejected. IOC orders entered between 7:30 P.M. to 8:00 P.M. E.T. are rejected. GTX and GTC orders entered between 7:30 P.M. and 8:00 P.M. E.T. are inactive until 8:00 P.M. E.T. Trading begins at 8:00 P.M. E.T.
+
+MOON institutes a risk control that rejects any order deviating more than a specified percentage ("threshold percentage") from an eligible security's reference price. The reference price is the last sale price of the security from the prior Regular Day's session as reported by the SIP feeds (CTA and UTP) and is used solely for risk control purposes. The threshold percentage is twenty percent (20%) for all eligible securities and stays static throughout each overnight session. In limited circumstances, MOON updates the reference price to reflect market news, corporate actions, and significant price movements subsequent to the prior Regular Day's session and prior to the beginning of the overnight session.
+
+All orders must be marked "Buy", "Sell", or "Short Sale." In the event a short sale circuit breaker pursuant to Rule 201 of Regulation SHO is triggered during regular trading hours, MOON still accepts and processes short sales because the NBBO is not available during MOON operating hours. MOON is not responsible for the compliance of Subscribers' trades with all short sale locate and delivery rules and obligations. The ATS does not effect transactions during locked or crossed markets.</taPart3Item11cRulsProcsOfNmsStk>
+      <rbPart3Item11dIsProcsRulsSameForAll>Y</rbPart3Item11dIsProcsRulsSameForAll>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <rbPart3Item13aIsOrdrTiSegmntd>N</rbPart3Item13aIsOrdrTiSegmntd>
+      <rbPart3Item13cIsCustmrOrdr>N</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>Subscribers cannot select their counterparties. MOON offers self-trade prevention (a.k.a. anti-internalization) that can be enabled at the Subscriber's discretion in three ways: (i) on an order-by-order basis (ii) for all orders or (iii) for all orders during a given session. When enabled, the following cancel/reduce method will be used: 1) If the size of the incoming order is less than the resting order, the incoming order will be canceled, and the resting order will be reduced by the size of the canceled incoming order; 2) If the size of the incoming order is greater than the resting order, the resting order will be canceled, and the incoming order will be reduced by the size of the canceled resting order; 3) If the size of the incoming order is the same as the resting order, both the incoming order and the resting order will be canceled.
+</taPart3Item14aCntrPrtyDtls>
+        <rbPart3Item14bIsSelectnSameForAll>Y</rbPart3Item14bIsSelectnSameForAll>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>Y</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>MOON only supports limit orders. OTCM provides real-time distribution of two types of MOON market data: top-of-book (i.e., "Level 1") and depth-of-book (i.e., "Level 2"). Level 1 data includes the most aggressively priced aggregated bid and offer, and Level 2 includes when an order is added, replaced, canceled, and/or executed.
+
+Orders are displayed until canceled, cancel/replaced, executed, or expired. Odd lot orders are disseminated in the depth-of-book feed and may be aggregated and displayed in the top-of-book feed, as applicable. Information on orders displayed includes: 1) Time, 2) Order Id, 3) Side Indicator, 4) Quantity, 5) Symbol, 6) Price, 7) Firm Id (or MOON if the order is anonymous). Firm Id corresponds to the Subscriber's MPID. OTCM does not have visibility into the MPID for anonymous orders, see Part III, Item 11(a) and Part II, Item 7 above for more information.
+
+GTX and GTC orders are displayed with the MPID of the entering firm. A Subscriber can place an optional flag to be added to the order to have it display anonymously with the MOON MPID as referenced in Part II, Item 7.
+
+The MOON Market Data Feeds disseminate security information prior to accepting orders at 7:30 P.M. E.T. (the "Opening Message"), which indicates all securities eligible to trade during that session. Following the Opening Message until 8:00 P.M. E.T., the MOON Market Data Feeds only send updates to the eligible security list, if any. From 8:00 P.M. - 4:00 A.M. E.T., OTCM sends the MOON Market Data Feeds that include the order information described above as well as execution information indicating that an order previously displayed has been executed. The counterparties for executions are not displayed.
+
+MOON Market Data Subscribers include MOON broker-dealer subscribers that subscribe to MOON for the purpose of transacting in securities, as well as entities that subscribe solely for access to the data. It is not a requirement for a MOON Market Data Subscriber to be a broker-dealer. Each MOON Market Data Subscriber is subject to the same terms of use. MOON Market Data Subscribers must subscribe by entering into a Market Data agreement with OTCM. OTCM disseminates the MOON Market Data Feeds to MOON Market Data Subscribers in one of two ways: directly from OTCM to the MOON Market Data Subscriber, or indirectly via third-party distributors. Third-party distributors include vendors or service providers that redistribute market data. MOON Market Data Subscribers receiving market data via third-party distributors may experience additional latency compared to those receiving data directly from OTCM. OTCM offers MOON Market Data Subscribers the option to receive market data either directly from OTCM or indirectly via third-party distributors. For further information regarding market data dissemination, please see Part III, Item 15.
+</taPart3Item15bSubscrBndDtls>
+        <rbPart3Item15cIsDsplyProcSameForAll>Y</rbPart3Item15cIsDsplyProcSameForAll>
+      </part3Item15bSubSctbDtls>
+      <part3Item16aAffirInstrDtls rbPart3Item16aIsInstRoutd="Y">
+        <part3Item16bAffirmInstrDtls rbPart3Item16bIsRoutdBefrInstr="Y">
+          <taPart3Item16bAffirmInstrDiffDtls>On an order-by-order basis, a Subscriber may include a FIX protocol execution instruction to indicate that the order is routable. If such instruction is included, the BDO first checks the ATS's internal book for a resting order that exists at a price that is equal to or better than the incoming order. If there is a match, the ATS executes the trade internally. However, if a superior price is available on an external market center, the order is routed to that venue in order to obtain the best available execution price. If no execution instruction is provided, the order is not routed to an external market center.
+</taPart3Item16bAffirmInstrDiffDtls>
+        </part3Item16bAffirmInstrDtls>
+      </part3Item16aAffirInstrDtls>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <rbPart3Item18aIsOutsdeTrdingHrs>N</rbPart3Item18aIsOutsdeTrdingHrs>
+      <taPart3Item19aSrvcUsgFees>All Subscribers are FINRA member broker-dealers. MOON charges Subscribers that remove liquidity on a per- executed-share-fee for trades executed on the ATS. For trades in securities greater than or equal to $1.00, the fee does not exceed $0.003 per executed share. For trades in securities less than $1.00, the fee does not exceed 0.3% of the transaction's notional value. All Subscribers are charged applicable pass-through fees, such as CAT and regulatory fees, which are tied to the media side of each transaction. As the executing party for all trades on MOON, the BDO reports a cross trade as the buyer and seller for trade reporting purposes (i.e., "Alternative #1" method under FINRA guidance). Because CAT fees apply only to the media side of the trade, MOON incurs charges on both sides of the cross. For each media trade reported to the TRF involving MOON, the BDO passes the allocated regulatory fees back to the Subscriber on the non-media side of the transaction. As previously referenced, the applicable fees are a pass through of the fees charged to the BDO, with no markup applied to Subscribers.
+
+For top-of-book (i.e., Level 1) market data, OTCM charges a monthly fee between $2,000 for non-display license to $10,000 for a display and non-display license. For depth-of-book (i.e., Level 2) market data, OTCM charges a monthly fee between $5,000 for a non-display license to $20,000 for a display and non-display license. A display license permits for market data to be displayed on a screen or terminal, while a non-display license permits data to be used by systems or devices, but not displayed to end-users. All MOON Market Data Subscribers are eligible for potential discounts for those consuming a higher number of MOON or non-MOON-related market data products from OTCM. </taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>Not Applicable.</taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>MOON has a tiered rebate structure based on added executed liquidity on a monthly basis, meaning the rebates offered to Subscribers are based on the amount of liquidity added that result in executed trades each month. For trades in securities greater than or equal to $1.00, the rebate will not exceed $0.003 per share. For trades in securities less than $1.00, the rebate will not exceed 0.3% of the transaction's notional value. </taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>The reasons a security is suspended or becomes ineligible for trading on the ATS include a regulatory halt, an internal system issue, force majeure, technology or operational issues from a third-party service provider, or suspension by the listing exchange or the SEC. If any of the following scenarios occur, MOON cancels all posted orders for the effected security pending on the ATS's order book. The halt is communicated to Subscribers through the MOON Market Data Feeds from OTCM, as referenced in Part III, Item 15. Any new orders are rejected. If trading in a particular NMS stock is halted on an exchange during the exchange's regular trading day and such halt remains in force at the market close, or if trading is suspended outside of an exchange's regular market hours, the ATS does not trade that NMS stock during its immediately following overnight trading session until the halt is lifted. See Part III, Item 10(a) for additional discussion. </taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>MOON maintains daily summaries of trading and time-sequenced records of order information, including the date and time the order was received, the date, time, and price at which the order was executed, and the identity of the parties to the transaction. Trades executed during that session are reported to the TRF after the TRF accepts trade reports beginning at 8:00 A.M. E.T. on the next trading day. ATS trades in NMS stocks are reported to the NASDAQ TRF and printed with MOON's Market Participant Identifier (MOON) as executing broker. Subscribers enter into a trade reporting agreement with MOON to allow MOON to trade report on their behalf.</taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>MOON executes trades solely in an agency capacity, becomes a counterparty to all trades and submits these trades to a registered clearing agency. MOON's clearing firm is Apex Clearing Corporation (NSCC # 0158) ("Apex"). MOON provides trade information to Apex in real time as executions take place. Apex facilitates clearing for all transactions for MOON. Subscribers are not required to enter into an arrangement with Apex; however, MOON requires every Subscriber to either self-clear or have its own clearing arrangement with a registered clearing agency.</taPart3Item22aMtrlArngmntDtls>
+      <rbPart3Item22bIsMtrlArngmtSameFrAll>Y</rbPart3Item22bIsMtrlArngmtSameFrAll>
+      <taPart3Item23aMrktDatSrc>MOON uses the Securities Information Processor (SIP) last sale reference prices. The BDO utilizes OneMarketData to supply SIP (CTA/UTP) data to be used as reference data on each trading day for each NMS stock that trades on MOON. These reference prices serve as a risk control measure, allowing MOON to reject any order that deviates more than 20% from a security's reference price as described in Part III, Item 7. For purposes of determining whether a security is eligible to trade on MOON, MOON also receives halt and corporate action information from the New York Stock Exchange and NASDAQ as applicable. Additionally, to determine the CBBO for order routing purposes, MOON utilizes Level 1 data from Blue Ocean ATS, LLC (See Part III, Items 7, 11 and 16). </taPart3Item23aMrktDatSrc>
+      <rbPart3Item23bIsSrcSameFrAll>Y</rbPart3Item23bIsSrcSameFrAll>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <rbPart3Item26IsOrdrFloExecStatsPublshd>N</rbPart3Item26IsOrdrFloExecStatsPublshd>
+    </partThree>
+  </formData>
+</edgarSubmission>

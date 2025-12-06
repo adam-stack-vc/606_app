@@ -1,0 +1,465 @@
+{
+  "stock_group": {
+    "s&p": "SP500",
+    "s&p 500": "SP500",
+    "s&p500": "SP500",
+    "sp 500": "SP500",
+    "sp500": "SP500",
+    "s and p": "SP500",
+    "s and p 500": "SP500",
+    "Other Stocks": "OtherStocks",
+    "ex S&P 500": "OtherStocks",
+    "non SP500": "OtherStocks",
+    "tier 2 stocks": "OtherStocks",
+    "non-s&p500": "OtherStocks",
+    "not sp500": "OtherStocks",
+    "tier2 stocks": "OtherStocks",
+    "Options": "Options",
+    "equities options": "Options",
+    "equity options": "Options"
+  },
+  "executing_bd": {
+    "robinhood": "Robinhood Securities, LLC",
+    "schwab": "Charles Schwab",
+    "td ameritrade": "TD Ameritrade Clearing, Inc.",
+    "webull": "Webull Financial LLC",
+    "etrade": "E*TRADE Securities LLC",
+    "webull financial": "Webull Financial LLC",
+    "open to the public": "Open to the Public Investing, Inc.",
+    "public": "Open to the Public Investing, Inc.",
+    "public.com": "Open to the Public Investing, Inc.",
+    "robinhood brokerage": "Robinhood Securities, LLC",
+    "wlth": "WLTH",
+    "drivewealth": "WLTH",
+    "dough": "DOUGH, LLC",
+    "dough app": "DOUGH, LLC",
+    "citigroup institutional": "Citigroup Global Markets Inc. (Institutional)",
+    "citi institutional": "Citigroup Global Markets Inc. (Institutional)",
+    "citi global markets": "Citigroup Global Markets Inc. (Institutional)",
+    "wall street access": "WALL STREET ACCESS",
+    "wallstreetaccess": "WALL STREET ACCESS",
+    "ubs": "UBS Securities, LLC",
+    "ubs securities": "UBS Securities, LLC",
+    "wedbush": "Wedbush Securities, Inc.",
+    "wedbush inc": "Wedbush Securities, Inc.",
+    "citigroup wealth": "Citigroup Global Markets Inc. (Citigroup Wealth Management)",
+    "citi wealth": "Citigroup Global Markets Inc. (Citigroup Wealth Management)",
+    "robinhood legacy": "Robinhood Securities",
+    "robinhood securities old": "Robinhood Securities",
+    "merrill lynch": "MLCO_606",
+    "merril": "MLCO_606",
+    "altruist": "Altruist Financial LLC",
+    "altruist financial": "Altruist Financial LLC",
+    "charles schwab": "Charles Schwab",
+    "schw": "Charles Schwab",
+    "bofa": "BofA Securities, Inc.",
+    "bofa securities": "BofA Securities, Inc.",
+    "bank of america": "BofA Securities, Inc.",
+    "baml": "BofA Securities, Inc.",
+    "citigroup": "Citigroup Global Markets Inc.",
+    "c": "Citigroup Global Markets Inc.",
+    "citigroup icg": "Citigroup Global Markets Inc. (ICG Markets)",
+    "citi icg markets": "Citigroup Global Markets Inc. (ICG Markets)",
+    "rbc": "RBC Capital Markets Corporation",
+    "rbc capital": "RBC Capital Markets Corporation",
+    "td": "TD Ameritrade, Inc.",
+    "gpc": "GPC",
+    "gpc trading": "GPC"
+  },
+  "venues": {
+    "citadel": "Citadel Securities LLC",
+    "virtu": "Virtu Americas LLC",
+    "two sigma": "Two Sigma Securities, LLC",
+    "wolverine": "Wolverine Execution Services, LLC",
+    "jane street": "Jane Street Capital, LLC",
+    "apex": "Apex Clearing Corporation",
+    "apex clearing": "Apex Clearing Corporation",
+    "baml": "Bank Of America - Merrill Lynch Instinct X Ats",
+    "merrill lynch": "Bank Of America - Merrill Lynch Instinct X Ats",
+    "bank of america": "Bank Of America - Merrill Lynch Instinct X Ats",
+    "barclays": "Barclays ATS",
+    "cboe": "BATS BZX Exchange, LLC",
+    "bats": "BATS BZX Exchange, LLC",
+    "bzx": "BATS BZX Exchange, LLC",
+    "bats trading": "Bats Trading Inc.",
+    "bats y": "BATS Y Exchange",
+    "bids trading": "BIDS TRADING L.P.",
+    "bloomberg": "Bloomberg Tradebook LLC",
+    "tradebook": "Bloomberg Tradebook LLC",
+    "bofa": "BofA Securities, Inc.",
+    "bofa securities": "BofA Securities, Inc.",
+    "box": "Boston Options Exchange",
+    "boston options": "Boston Options Exchange",
+    "box exchange": "BOX Exchange LLC",
+    "box options": "Box Options Exchange",
+    "c2": "C2 OPTIONS EXCHANGE INC.",
+    "c2 options": "C2 OPTIONS EXCHANGE INC.",
+    "canaccord": "Canaccord Capital Corporation",
+    "canaccord genuity": "Canaccord Genuity Securities",
+    "casey securities": "Casey Securities LLC",
+    "byx": "Cboe BYX Exchange, Inc.",
+    "bzx options": "CBOE BZX OPTIONS EXCHANGE",
+    "edga": "Cboe EDGA Exchange, Inc.",
+    "edgx": "Cboe EDGX Exchange, Inc.",
+    "edgx options": "CBOE EDGX OPTIONS EXCHANGE",
+    "cboe global": "CBOE Global Markets Inc.",
+    "cheevers": "Cheevers & Company Inc.",
+    "chicago board options": "Chicago Board Options Exchange",
+    "citadel securities": "CITADEL SECURITIES LLC",
+    "citadel securities llc": "CITADEL SECURITIES LLC",
+    "citi": "Citigroup",
+    "citigroup": "Citigroup",
+    "clearpool": "Clearpool Execution Services, LLC",
+    "coda markets": "CODA MARKETS INC",
+    "cowen": "Cowen and Company, LLC",
+    "credit suisse": "Credit Suisse Crossfinder",
+    "d&d securities": "D & D Securities, Inc.",
+    "dash": "DASH Financial Option ATS",
+    "deutsche bank": "Deutche Bank ATS",
+    "dot": "DOT",
+    "eanj": "EANJ",
+    "ebx": "EBX LLC",
+    "fidelity": "Fidelity Crossstream ATS",
+    "fidessa": "Fidessa",
+    "fox river": "Fox River Execution Tehnology, LLC",
+    "knight capital": "G-KNIGHTCAPTMK",
+    "g1 execution": "G1 Execution Services, LLC",
+    "g1x execution": "G1X Execution Services, LLC",
+    "gelp": "GELP",
+    "global execution brokers": "Global Execution Brokers LP",
+    "global liquidity": "Global Liquidity Partners",
+    "goldman sachs": "Goldman Sachs & Co.",
+    "gts securities": "GTS SECURITIES LLC",
+    "hudson river": "HRT EXECUTION SERVICES LLC",
+    "hrt": "HRT EXECUTION SERVICES LLC",
+    "iex": "IEX Services, LLC",
+    "instinet": "Instinet, LLC",
+    "intelligentcross": "Intelligentcross",
+    "nasdaq": "International Securities Exchange",
+    "ise": "International Securities Exchange",
+    "ise gemini": "ISE GEMINI EXCHANGE",
+    "ise mercury": "ISE MERCURY, LLC",
+    "israel englander": "Israel A. Englander & Co., Inc.",
+    "itg": "ITG Inc.",
+    "jpmorgan": "J.P. Morgan Securities LLC",
+    "jp morgan": "J.P. Morgan Securities LLC",
+    "jleq": "JLEQ",
+    "kansas city board": "Kansas City Board Of Trade",
+    "lampost capital": "Lampost Capital, L.C.",
+    "matrix": "Matrix Executions, LLC",
+    "mcap": "MCAP LLC",
+    "memx": "Members Exchange (MEMX)",
+    "miax": "MIAMI INTERNATIONAL SECURITIES EXCHANGE",
+    "emerald": "MIAX EMERALD, LLC",
+    "pearl": "MIAX Pearl Equities",
+    "sapphire": "MIAX SAPPHIRE LLC",
+    "morgan stanley": "Morgan Stanley & Co., LLC",
+    "bx": "Nasdaq BX, Inc.",
+    "gemx": "NASDAQ GEMX LLC",
+    "mrx": "Nasdaq MRX, LLC",
+    "bx options": "NASDAQ OMX BX OPTIONS",
+    "phlx": "NASDAQ OMX PHLX",
+    "nyse": "National Stock Exchange",
+    "nse": "National Stock Exchange",
+    "amex": "NYSE American LLC",
+    "amex options": "NYSE AMEX OPTIONS",
+    "arca options": "NYSE Arca Options",
+    "arca": "NYSE ARCA, Inc (ARCX)",
+    "chicago": "NYSE Chicago, Inc.",
+    "mkt": "NYSE MKT LLC",
+    "national": "NYSE NATIONAL, INC",
+    "onechronos": "OneChronos Markets LLC",
+    "pdq": "PDQ",
+    "bny": "Pershing",
+    "pershing": "Pershing",
+    "ptr": "PTR",
+    "rbc": "RBC Capital Markets Corporation",
+    "sped": "SPED",
+    "srt securities": "SRT SECURITIES LLC.",
+    "stonex": "StoneX Financial, Inc.",
+    "student options": "Student Options LLC",
+    "tjm investments": "TJM Investments, LLC",
+    "tzer": "TZER",
+    "ubs": "UBS Financial Services, Inc.",
+    "vandham": "Vandham Securities Corp.",
+    "vcty": "VCTY",
+    "volant": "Volant Execution",
+    "wall street access": "Wall Street Access",
+    "watershed": "WATERSHED",
+    "xfas": "XFAS"
+  },
+  "tier": {},
+  "_tape_concepts": {
+    "comment": "Tape type mappings for reference - these map to column metrics (tape_a_shares, tape_b_shares, tape_c_shares), not filter values",
+    "tape_a": [
+      "NYSE Listed",
+      "NYSE listings",
+      "NYSE stocks",
+      "New York Stock Exchange",
+      "NYSE"
+    ],
+    "tape_b": [
+      "NASDAQ Listed",
+      "Nasdaq stocks",
+      "NASDAQ listings",
+      "Nasdaq",
+      "NASDAQ"
+    ],
+    "tape_c": [
+      "ETF listing",
+      "ETF listings",
+      "ETFs",
+      "Exchange Traded Funds",
+      "other listings"
+    ]
+  },
+  "_venue_metadata": {
+    "comment": "Categories for venues - exchanges, wholesalers, market_makers, ats, global_investment_banks",
+    "categories": {
+      "BATS BZX Exchange, LLC": [
+        "exchanges"
+      ],
+      "BATS Y Exchange": [
+        "exchanges"
+      ],
+      "BOX Exchange LLC": [
+        "exchanges"
+      ],
+      "Boston Options Exchange": [
+        "exchanges"
+      ],
+      "Box Options Exchange": [
+        "exchanges"
+      ],
+      "C2 OPTIONS EXCHANGE INC.": [
+        "exchanges"
+      ],
+      "C2 Options Exchange, Inc.": [
+        "exchanges"
+      ],
+      "CBOE BZX Exchange": [
+        "exchanges"
+      ],
+      "CBOE BZX OPTIONS EXCHANGE": [
+        "exchanges"
+      ],
+      "CBOE EDGA US Equities Exchange": [
+        "exchanges"
+      ],
+      "CBOE EDGX OPTIONS EXCHANGE": [
+        "exchanges"
+      ],
+      "Cboe BYX Exchange, Inc.": [
+        "exchanges"
+      ],
+      "Cboe BZX Exchange, Inc.": [
+        "exchanges"
+      ],
+      "Cboe C2 Exchange, Inc.": [
+        "exchanges"
+      ],
+      "Cboe EDGA Exchange, Inc.": [
+        "exchanges"
+      ],
+      "Cboe EDGX Exchange, Inc.": [
+        "exchanges"
+      ],
+      "Cboe Exchange, Inc.": [
+        "exchanges"
+      ],
+      "Chicago Board Options Exchange": [
+        "exchanges"
+      ],
+      "INTERNATIONAL SECURITIES EXCHANGE, LLC": [
+        "exchanges"
+      ],
+      "INVESTORS EXCHANGE": [
+        "exchanges"
+      ],
+      "ISE GEMINI EXCHANGE": [
+        "exchanges"
+      ],
+      "International Securities Exchange": [
+        "exchanges"
+      ],
+      "Investors Exchange (IEXG)": [
+        "exchanges"
+      ],
+      "Investors Exchange LLC": [
+        "exchanges"
+      ],
+      "MIAMI INTERNATIONAL SECURITIES EXCHANGE": [
+        "exchanges"
+      ],
+      "MIAX Options Exchange": [
+        "exchanges"
+      ],
+      "MEMX LLC": [
+        "exchanges"
+      ],
+      "Members Exchange (MEMX)": [
+        "exchanges"
+      ],
+      "Miami International Securities Exchange, LLC": [
+        "exchanges"
+      ],
+      "NEW YORK STOCK EXCHANGE, INC.": [
+        "exchanges"
+      ],
+      "Nasdaq Stock Exchange (INET)": [
+        "exchanges"
+      ],
+      "National Stock Exchange": [
+        "exchanges"
+      ],
+      "New York Stock Exchange": [
+        "exchanges"
+      ],
+      "New York Stock Exchange LLC": [
+        "exchanges"
+      ],
+      "PHILADELPHIA OPTIONS EXCHANGE": [
+        "exchanges"
+      ],
+      "Bank Of America - Merrill Lynch Instinct X Ats": [
+        "global_investment_banks",
+        "ats"
+      ],
+      "Citigroup": [
+        "global_investment_banks"
+      ],
+      "Citigroup Global Markets Inc.": [
+        "global_investment_banks"
+      ],
+      "Credit Suisse Crossfinder": [
+        "global_investment_banks"
+      ],
+      "Credit Suisse First Boston": [
+        "global_investment_banks"
+      ],
+      "Credit Suisse Securities LLC": [
+        "global_investment_banks"
+      ],
+      "Deutche Bank ATS": [
+        "global_investment_banks",
+        "ats"
+      ],
+      "Goldman Sachs & Co.": [
+        "global_investment_banks"
+      ],
+      "Goldman Sachs & Co. LLC SIGMA X2": [
+        "global_investment_banks"
+      ],
+      "J.P. Morgan Securities LLC": [
+        "global_investment_banks"
+      ],
+      "JP Morgan Securities, LLC": [
+        "global_investment_banks"
+      ],
+      "Morgan Stanley & Co., LLC": [
+        "global_investment_banks"
+      ],
+      "UBS Financial Services, Inc.": [
+        "global_investment_banks"
+      ],
+      "UBS Securities, LLC": [
+        "global_investment_banks"
+      ],
+      "UBS Securities, LLC ATS": [
+        "global_investment_banks",
+        "ats"
+      ],
+      "CITADEL SECURITIES LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Citadel Execution Services": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Citadel Securities": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Citadel Securities, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "G1 Execution Services, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "G1X Execution Services, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "HRT EXECUTION SERVICES LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Hudson River Trading (Hrt)": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Jane Street Capital": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Jane Street Capital, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Jane Street Markets, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Two Sigma Securities, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Virtu Agency": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Virtu Americas, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Virtu POSIT ATS": [
+        "wholesalers",
+        "market_makers",
+        "ats"
+      ],
+      "Wolverine Execution Services": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Wolverine Execution Services, LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Wolverine Securities LLC": [
+        "wholesalers",
+        "market_makers"
+      ],
+      "Barclays ATS": [
+        "ats"
+      ],
+      "DASH Financial Option ATS": [
+        "ats"
+      ],
+      "Fidelity Crossstream ATS": [
+        "ats"
+      ],
+      "Intelligentcross": [
+        "ats"
+      ],
+      "OneChronos Markets LLC": [
+        "ats"
+      ],
+      "TZER": [
+        "ats"
+      ]
+    }
+  }
+}

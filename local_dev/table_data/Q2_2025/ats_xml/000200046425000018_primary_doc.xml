@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/UA</submissionType>
+    <accessionNumber>0002000464-25-000015</accessionNumber>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0002000464</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00202</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>AlphaX US</txNMSStockATSName>
+      <taStatementAboutAmendment>TSX Alpha U.S., Inc. is filing this Updating Amendment to:
+
+Amend  Part II, Items 6b and 7d to remove Regulatory Ridge, LLC as a consultant of the Firm.
+
+This Updating Amendment only applies to the broker-dealer operator.
+</taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>TSX ALPHA U.S., INC.</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="AlphaX US"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-71182</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000329008</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>Financial Industry Regulatory Authority, Inc.</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>05/31/2024</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>ALPX</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>https://www.tmxalphaus.com/</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>Equinix NY5 Data Center</ats:street1>
+        <ats:street2>800 Secaucus Road</ats:street2>
+        <ats:city>Secaucus</ats:city>
+        <ats:zip>07094</ats:zip>
+        <ats:state>US-NJ</ats:state>
+      </part1Item7PrimarySite>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <rbPart2Item1aArePermittedToEnterInterest>N</rbPart2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <rbPart2Item2aAreAfflPermittedToEnterInterest>N</rbPart2Item2aAreAfflPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfBD>N</rbPart2Item3aCanSubscrOptOutWithOATIOfBD>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>N</rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <rbPart2Item4aAreThereArrangementsBtwBDAndTC>N</rbPart2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>AlphaX Hub
+
+TSX Alpha U.S., Inc. offers an optional interface through the internet called AlphaX Hub to its Participants.  In this regard, AlphaX US considers the term "Participant" to be synonymous with "Subscriber".  Participants, through their authorized users, may use AlphaX Hub to request Participant Parameters ("PP") (i.e., counterparty selection and minimum execution quantity, as described in Part II, Item 7.a).  Within the AlphaX Hub, Participants can also choose the length of time they want PP to apply to their orders.  Although authorized users of a Participant may use the AlphaX Hub to modify and/or request PP during the trading day, requested modifications will not take effect until at least the next trading day.  Authorized users of the Participant will choose a date for PP updates to be implemented any time on or after the next trading day.
+
+If a Participant chooses to use the AlphaX Hub, each authorized user of the Participant will receive password-protected access giving the authorized user access to the Participant's information.  Once PP are selected, the PP are identified through a tag sent via Financial Information eXchange ("FIX") 4.2 or Binary ("BIN") protocol.
+
+There is no fee associated with utilizing the AlphaX Hub, and there is no trading data or other information sent from the AlphaX Hub to a Participant's authorized users.  The authorized users of a Participant will receive an email confirmation from AlphaX US when a request has been received via the AlphaX Hub.
+
+AlphaX Hub contains no Confidential Trading Information, but is nevertheless supported by the Intercompany Services Agreement TSX Alpha U.S., Inc. has in place with TSX Inc. and a Software License Agreement with Montreal Exchange, Inc., both of which contain confidentiality provisions as described in Part II, Item 6.  All Shared Employees (as defined in Part II, Item 6.a) with access to information in, or transmitted through, the AlphaX Hub are bound to the confidentiality provisions set out below in Part II, Item 7, a.
+
+If a Participant would like to set up PP, but does not wish to access AlphaX Hub, AlphaX US can set and/or modify PP at the request of an authorized user of the Participant.  The authorized users of a Participant will receive an email confirmation when a direct request has been received by the AlphaX US team.  AlphaX US will never set PP on behalf of a Participant unless an authorized user of the Participant has requested the PP through the AlphaX Hub, or directly through the AlphaX US team.</taPart2Item5aProductsAndServices>
+        <rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>Y</rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <rbPart2Item5cDoesAfflOfferProductsAndServices>N</rbPart2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>TMX Group Limited is the ultimate parent company of TSX Alpha U.S., Inc.  TMX Group Limited operates the premier stock exchanges in Canada, including the Toronto Stock Exchange and Montreal Exchange.  TSX Alpha U.S., Inc. has a Managing Director and Chief Compliance Officer ("CCO") who are also both employees of TSX, Inc., which is a subsidiary of TMX Group Limited.  The Managing Director's roles at both TMX Group Limited and TSX Alpha U.S., Inc. focus on market structure analysis and product design.  The CCO's role at TMX Group Limited is focused on legal and regulatory compliance in regards to the Canadian stock exchanges.  The CCO's responsibilities with TSX Alpha U.S., Inc. entail ensuring the ATS's adherence to regulatory requirements, mitigating compliance risks, and overseeing compliance programs.  Additionally, TSX Alpha U.S., Inc.'s Chief Financial Officer ("CFO") and Financial Operations Principal ("FinOP") is the CFO of VettaFi LLC, an affiliate of TSX Alpha U.S., Inc.  As CFO, she is responsible for providing leadership to TSX Alpha U.S., Inc. and VettaFi LLC, as well as overseeing their financial operations.  TSX Alpha U.S., Inc.'s aforementioned Managing Director, CCO, and CFO each have access to Confidential Trading Information (as that term is defined in Part II, Item 7.a, and discussed further in Part II, Item 7.d).
+
+TSX US Inc., TSX Inc., VettaFi LLC, and Montreal Exchange, Inc., are affiliates of TSX Alpha U.S., Inc. (collectively, the "Affiliates"). TSX Alpha U.S., Inc. has entered into Intercompany Services Agreements with TSX US Inc., TSX Inc., and VettaFi LLC, whereby certain employees of these Affiliates (collectively, "Shared Employees") provide services to TSX Alpha U.S., Inc. TSX Alpha U.S., Inc. has also entered into a Software License Agreement with Montreal Exchange, Inc., in which TSX Alpha U.S., Inc. licenses the trading technology software utilized by AlphaX US.
+
+The services provided to TSX Alpha U.S., Inc. by TSX US Inc. involve use of certain Shared Employees, and contribution to their salaries. The Shared Employees provided by TSX US Inc. to TSX Alpha U.S., Inc. dedicate 100% of their time to TSX Alpha U.S. Inc. The services provided by Shared Employees of TSX Inc. include human resources, finance, internal audit, legal, compliance, facilities, corporate communications, governance information technology, enterprise risk management, integrated operations, and project-based assistance. The services provided by Shared Employees of VettaFi, LLC involve providing accounting and finance support services and services of TSX Alpha U.S., Inc.'s FinOP. The services provided by Shared Employees of Montreal Exchange, Inc. include licensing to TSX Alpha U.S., Inc. the trading technology software utilized by AlphaX US. Please refer to Part II, Item 7.d for additional information regarding the roles and responsibilities of Shared Employees.
+
+As a result of the Affiliate agreements, some of the Shared Employees will have access to Confidential Trading Information on AlphaX US. However, such Shared Employees only have access to the Confidential Trading Information created or maintained by AlphaX US necessary for them to provide services to TSX Alpha U.S., Inc. In such instances, the Shared Employees operate strictly in accordance with the services provided by their applicable agreements with TSX Alpha U.S., Inc., and otherwise in accordance with applicable regulatory considerations.
+
+Other than in connection with the provision of services under each applicable Intercompany Services Agreement or the Software Licensing Agreement, no Affiliate of TSX Alpha U.S., Inc., and no systems operated by Affiliates of TSX Alpha U.S., Inc. that are not for the benefit of TSX Alpha U.S., Inc., have direct or indirect access to AlphaX US or the Confidential Trading Information available therein. </taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>As noted in Part II, Item 6.a, TSX Alpha U.S., Inc. has entered into agreements with certain of its Affiliates. Specifically, TSX Alpha U.S., Inc. has entered into Intercompany Services Agreements with TSX US Inc., TSX Inc., and VettaFi LLC to access various services from Shared Employees. As described further in Part III, Item 7.a., the technology support for AlphaX US's matching engine is provided pursuant to the Intercompany Services Agreement between TSX Alpha U.S., Inc. and TSX Inc. TSX Alpha U.S., Inc. has also entered into a Software License Agreement with Montreal Exchange, Inc., whereby that Affiliate provides the AlphaX US trading technology software detailed in Part III, Item 11. Pursuant to each of these agreements, the Affiliates support the services and functionalities of AlphaX US.
+
+
+In addition to the foregoing, TSX Alpha U.S., Inc. has entered into agreements with the following technology vendors who each support the services and functionalities of AlphaX US:
+
+TSX Alpha U.S., Inc. has entered into an agreement with Instinet, LLC ("Instinet") to provide the clearance and settlement services described in Part III, Item 22.
+
+As described in Part III, Item 7.a, the data center used by AlphaX US is provided by Equinix, Inc. ("Equinix"). Specifically, Equinix operates the NY5 Data Center ("NY5") in Secaucus, N.J., where the AlphaX US matching engine is located. Participant broker-dealers connect to AlphaX US via the cross-connects managed by Equinix.
+
+AlphaX US leases servers from Amazon Web Services, Inc. (AWS), which host the matching engine. Please refer to Part III, Item 11 for additional details regarding the matching engine.
+
+TSX Alpha U.S., Inc. has entered into an agreement with S3 Matching Technologies LP ("S3") to provide the Consolidated Audit Trail ("CAT") reporting and surveillance services described in Part II, Item 7.d.
+
+As further described in Part III, Item 21, TSX Alpha U.S., Inc. has engaged Nasdaq, Inc. ("NASDAQ") as its trade reporting facility ("TRF").
+
+TSX Alpha U.S., Inc. has entered into an agreement with Exchange Data International Limited ("EDI") to provide US equity security reference data files, as described in Part III, Item 23.a.
+
+TSX Alpha U.S., Inc. performs risk-based reviews of its third-party vendor relationships at the time of engagement, and periodically thereafter. The initial reviews include consideration of the service levels to be performed, potential strategic risk, and the security and confidentiality controls of the vendors. During periodic reviews, Registered Principals of TSX Alpha U.S., Inc. review the security and confidentiality controls of TSX Alpha U.S., Inc.'s critical vendors.</taPart2Item6bServiceProvider>
+        <part2Item6cDoesServiceProviderUseATSServices rbPart2Item6cDoesServiceProviderUseATSServices="Y">
+          <taPart2Item6cProviderAfflAndServicesUsed>Instinet provides clearing and settlement services to AlphaX US and is also a Participant.</taPart2Item6cProviderAfflAndServicesUsed>
+          <rbPart2Item6dAreATSSevicesSametoAll>Y</rbPart2Item6dAreATSSevicesSametoAll>
+        </part2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>Only FINRA registered broker-dealers are Participants to AlphaX US. The Confidential Trading Information of all Participants is maintained in electronic form and protected by password entry.
+
+Confidential Trading information
+
+"Confidential Trading Information" means (1) any real-time information regarding a Participant's orders, executions, and/or routing preferences; and (2) a Participant's post-trade order and execution metrics or statistics, and/or routing preferences.
+
+Confidential Trading Information may be available in real-time (via the AlphaX US system directly) or post-trade (via other systems/tools or stored data) or both.
+
+Pursuant to Affiliate Intercompany Services Agreements, Shared Employees are authorized to access real-time and post-trade Confidential Trading Information when it is necessary to support AlphaX US, including in the following instances:
+
+1)	Market operations;
+2)	Platform metrics and analytics;
+3)	Business and technological development and support;
+4)	System testing; and
+5)	Regulatory reviews, testing, investigations, surveillances, and reporting.
+
+TSX Alpha U.S., Inc. strictly limits access to live AlphaX US production networks, databases, servers, applications, and data to those employees and Shared Employees who must have such access to perform their jobs, and further limits access only to the items necessary for their function. Secured access is maintained both physically and non-physically, as described below.
+
+Physical Access Restrictions to Confidential Trading Information
+
+Shared Employees responsible for the daily operation of AlphaX US, and who have access to the AlphaX US order book, are largely in separate physical locations from TSX Alpha U.S., Inc. employees. There are also physical information barriers in place to separate AlphaX US from Affiliate systems.
+
+Servers and related infrastructure are located at Equinix NY5, and physical access to NY5 is limited to key personnel. Access to the building is granted to individuals with valid government issued photo identification. NY5 is subject to high security standards, including video surveillance and 24x7 security. In addition, access to the cages where the servers and related infrastructure operated by TSX Alpha U.S., Inc. are located can only be accessed by keycard and palm print authorization. Physical access to the TSX Alpha U.S., Inc. offices is also restricted by keycard access.
+
+Non-Physical Access Restrictions to Confidential Trading Information
+
+Non-physical access to servers / desktops / laptops requires multi-factor authentication including passwords and authentication applications. All passwords must be actively maintained, and must follow password complexity and password aging rules. Failure to maintain an active password results in an inability to access the servers and related infrastructure via non-physical access. In addition to the use of multi-factor authentication, the servers and files accessible by Shared Employees are further restricted by each Shared Employee's credentials, and access is granted only to information needed to perform their specific services pursuant to the applicable Affiliate agreement.
+
+TSX Alpha U.S., Inc. utilizes electronic file storage systems for business records, documents, and Confidential Trading Information. Based upon the use case, the storage system may be cloud based, local, or a hybrid. Access to the files is limited to employees and Shared Employees who are authorized to view the Confidential Trading Information, and only to the extent that such access is necessary to the provision of services.
+
+TSX Alpha U.S., Inc. provides post-trade Confidential Trading Information to certain third-party vendors to aid it in the operation of its business, including in respect of clearing and settlement, trade surveillance, and trade reporting. All third-party vendors with access to Confidential Trading Information are subject to a risk due diligence process. Please refer to Part II, Item 7.a for additional information on third-party vendors.
+
+Personal Trading Accounts
+
+Employees are required to provide notification of outside brokerage accounts within 30 days of employment. Employees are also required to provide their account statements and trade notifications periodically. TSX Alpha U.S., Inc.'s Written Supervisory Procedures ("WSPs") set out policies and procedures regarding the required approvals related to employee trading accounts, as well as the prohibition from trading with material non-public information. The CCO conducts periodic reviews of employee accounts to ensure compliance with the WSPs regarding personal securities transactions. Annual certifications are also required as a reminder of, and to reinforce, these WSPs.
+
+Periodic Training
+
+All employees of TSX Alpha U.S., Inc. and all Shared Employees must complete training, on an annual basis, related to cybersecurity awareness, conflicts of interest, and confidentiality. In addition, TMX Group Limited, the ultimate parent company of TSX Alpha U.S., Inc., also operates a continuous, organization-wide security awareness program that includes regular testing related to phishing and social engineering.
+
+Periodic Review of Access
+
+Only those persons who are so authorized may have access to records that contain sensitive data, or could compromise the confidentiality of a Participant. Any individual added or removed from access to Confidential Trading Information must be approved by a Registered Principal of TSX Alpha U.S., Inc. A review of individuals with access will then be performed by a Registered Principal at least every six months and adjusted as necessary. Passwords are required to be changed periodically, and are disabled for terminated individuals and those no longer requiring access to AlphaX US.
+
+Computer systems for TSX Alpha U.S., Inc. are protected by endpoint detection and response and anti-virus software, and laptop hard drives and USB drives are encrypted.
+
+Third-Party Vendor Agreements
+
+As noted in Part II, Item 6.a, TSX Alpha U.S., Inc. has Intercompany Services Agreements in place with TSX US Inc., TSX Inc., and VettaFi LLC, and a Software License Agreement with Montreal Exchange, Inc. As noted in Part II, Item 6.a., TSX Alpha U.S., Inc. also has agreements in place with third-party vendors offering services to AlphaX US. All of these agreements include confidentiality provisions that protect Confidential Trading Information from potential misuse by Shared Employees and third-party vendors. Furthermore, Confidential Trading Information is not accessible by other systems except for the legitimate business purposes related to AlphaX US. Shared Employees and third-party vendors may only access AlphaX US and Confidential Trading Information when strictly necessary to fulfill the terms of their applicable Affiliate and vendor agreements.</taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <part2Item7bCanSubscriberConsentToDisclosure rbPart2Item7bCanSubscriberConsentToDisclosure="Y">
+        <taPart2Item7bExplainHowAndConditions>Some Participants may have broker-dealer clients (a/k/a end clients) route through them to access AlphaX US.  A Participant's end client may request to discuss such end client's trading interest within AlphaX US directly with the AlphaX US team.  In these circumstances, the Participant must inform a Registered Representative of TSX Alpha U.S., Inc. in writing that (s)he can discuss with the end client the Participant's trading on AlphaX US related to that end user's order flow from the Participant.  AlphaX US will disclose Confidential Trading Information to such end client of the Participant in this context only, and only with respect to the end client's specific order flow.</taPart2Item7bExplainHowAndConditions>
+        <part2Item7cCanSubscriberWithdrawConsent rbPart2Item7cCanSubscriberWithdrawConsent="Y">
+          <taPart2Item7cExplainHowAndConditions>If a Participant has consented to the sharing of Confidential Trading Information with an end client as described in Part II, Item 7.b, it can withdraw that consent at any time by submitting a request in writing to a Registered Representative of TSX Alpha U.S., Inc.</taPart2Item7cExplainHowAndConditions>
+        </part2Item7cCanSubscriberWithdrawConsent>
+      </part2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>The TSX Alpha U.S., Inc.'s Management Team, comprised of the President, CCO, and CFO, have oversight responsibilities that require access to both real-time and post-trade Confidential Trading Information.
+
+TSX Alpha U.S., Inc.'s President and Sales, Product, and Operations Departments require access to both real-time and post-trade Confidential Trading Information for trade support, customization, Participant education, and market oversight.  These employees are the first point of contact for intraday Participant and trade support.  Their access to both real-time and post-trade Confidential Trading Information is essential to providing Participants with fast and efficient support while resolving any issues.  The operation of AlphaX US is monitored in real-time by the Market Operations Team to ensure the functioning of the trading system is in line with the AlphaX US operating procedures and securities trading rules and regulations.
+
+Authorized Market Operations personnel monitor trading system status, latencies, data outputs, potential quote issues, as well as system load and capacity metrics.
+
+As described in Part II, Item 6.a above, TSX Alpha U.S., Inc.'s Affiliates provide the services of Shared Employees pursuant to applicable Intercompany Services Agreements.  The Shared Employees who have access to certain Confidential Trading Information necessary to perform their services under applicable Affiliate agreements include individuals involved in the following roles and responsibilities:
+
+1. Legal (who provide legal advice, and may need and have access to all forms of Confidential Trading Information in order to perform their legal advisory duties), provided by TSX Inc.;
+2. Finance, Accounting, and Internal Audit (who provide support for invoicing, accounts payable, financial reconciliation, and audits, and may need post-trade Confidential Trading Information), provided by Vettafi, LLC and TSX Inc.;
+3. Information Technology (who provide technical, testing, and development support, and may need and have access to all forms of Confidential Trading Information in order to perform their duties), provided by Montreal Exchange, Inc.;
+4. Enterprise Risk Management (who provide and develop methods and processes to manage risk, and may need and have access to all forms of Confidential Trading Information in order to perform their duties), provided by TSX Inc.; and
+5. Market Operations and Business Intelligence (who provide AlphaX US support and platform analytics, and may need and have access to all forms of Confidential Trading Information in order to perform their duties), provided by TSX Inc.
+6. Compliance (who is responsible for the broker-dealer operator's compliance program, and has access to all forms of Confidential Trading Information for purposes of Participant onboarding and trade surveillance, as well as when assisting with regulatory inquiries and examinations), provided by TSX Inc.
+
+Each of the Shared Employees are subject to, and bound by, internal policies regarding confidentiality as well as the confidentiality provisions in the applicable Intercompany Services Agreements.
+
+TSX Alpha U.S., Inc. has contracted the following third-party vendors who have access to Confidential Trading Information:
+
+1. Instinet provides clearance and settlement services, and needs and has access to Confidential Trading Information related to real-time order executions, in order to perform clearing and settlement services;
+2. S3 provides CAT reporting and surveillance services, and has access to all forms of Confidential Trading Information, for the purposes of CAT reporting and trade surveillance services; and
+3. NASDAQ who will act as AlphaX US's TRF, will have access to all forms of Confidential Trading Information in order to perform its duties).
+
+Each of the above third-party vendors is bound by the confidentiality provisions in its applicable agreement with TSX Alpha U.S., Inc.
+</taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <rbPart3Item2aRegisteredBD>Y</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>AlphaX US allows as Participants those applicants who satisfy certain eligibility requirements. Specifically, Participants must meet the following requirements:
+
+1. Be registered with the U.S. Securities and Exchange Commission (the "SEC") as a broker or dealer, and a member of at least one self-regulatory organization ("SRO").
+2. Pass a disciplinary/regulatory review, which includes reviewing public information to determine if the potential Participant has a disciplinary history that would preclude trading on AlphaX US.
+3. Pass Office of Foreign Asset Control (OFAC) checks.
+4. Pass technology certification with the TSX Alpha U.S., Inc. team, to ensure connectivity and messaging work effectively.
+5. Establish the necessary Qualified Service Representative ("QSR") service relationship with TSX Alpha U.S., Inc.'s chosen clearing provider, Instinet.
+6. Execute the Participant Agreement.
+
+After completing the process for reviewing Participant eligibility, AlphaX US will approve, deny, or approve with restrictions applications for participation.  All Participants will be treated equally as it relates to this process, and will be approved to access AlphaX US if they meet all of the requirements enumerated above.  Each approval, denial, or approval with restrictions must be authorized by TSX Alpha U.S., Inc.'s President.  A Registered Representative of TSX Alpha U.S., Inc. will then promptly notify the Participant of the decision.</taPart3Item2bSummaryOfCndtns>
+        <rbPart3Item2cIsConditionsSameForAll>Y</rbPart3Item2cIsConditionsSameForAll>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>Y</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>A Participant can be excluded from AlphaX US's services if the Participant no longer satisfies the eligibility requirements for acceptance as a Participant.  Additionally, AlphaX US may exclude Participants if their trading activities could negatively affect the trading system's capacity or ability to function.  Examples include a Participant sending too many orders in a short window of time and flooding the trading system, or a Participant sending and cancelling orders in rapid repetition with no opportunity to execute.  AlphaX US also uses a series of post-trade reports and tools to monitor for any problematic behavior within the trading system, and may exclude a Participant if, in the sole judgment of AlphaX US, such Participant is engaging or has engaged in behavior that potentially violates the policies of AlphaX US, applicable federal securities laws, regulations, and/or rules, or applicable FINRA rules.
+
+For all conditional orders, AlphaX US will monitor firm-up rates and cancellation rates after a firm-up order is sent but prior to execution.  If a Participant engages in a pattern of not responding to firm-up requests or the Participant cancels firm-up orders prior to execution, AlphaX US will take appropriate action at its discretion, which could range from contacting the Participant to bring about a change in the Participant's behavior, suspending the Participant from utilizing the conditional order type in AlphaX US, or suspending a Participant from utilizing AlphaX US entirely. </taPart3Item3aExcludngSumryDtls>
+        <rbPart3Item3bIsCondtnsSameForAll>Y</rbPart3Item3bIsCondtnsSameForAll>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>AlphaX US is open for the transaction of business on all business days during which the registered national securities exchanges that are the primary listing markets for NMS securities are open for business.  AlphaX US matches trades during regular U.S. market hours, generally 9:30:00 am to 4:00:00 pm Eastern Time (the "Regular Trading Hours").  AlphaX US allows order entry starting 60 minutes prior to the open of trading, beginning at 8:30:00 am Eastern Time ("Pre-Market Order Acceptance Period"), and continuing throughout the trading day, which ends at 4:00:00 pm Eastern Time.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <part3Item5aProtocolDetails rbPart3Item5aIsPermitOrdrTradng="Y">
+        <taPart3Item5aProtocolused>TSX Alpha U.S., Inc. permits orders and trading interest to be entered directly into AlphaX US.  All such orders and trading interest must be sent via FIX 4.2 or BIN protocol.  FIX access is available to all Participants through an internet protocol address via communications that are compliant with the FIX API provided by AlphaX US.
+
+There is no default connection set by AlphaX US. Rather, Participants must choose whether they wish to connect via FIX 4.2 or BIN protocol. AlphaX US does not accept orders via any other forms of communication (e.g., telephone, email, instant message).</taPart3Item5aProtocolused>
+        <rbPart3Item5bIsProtclsameForAll>Y</rbPart3Item5bIsProtclsameForAll>
+      </part3Item5aProtocolDetails>
+      <rbPart3Item5cIsAnyOtherMeans>N</rbPart3Item5cIsAnyOtherMeans>
+      <part3Item6aProtocolDetails rbPart3Item6aIsCoLocRltdSrvcsOfrd="Y">
+        <taPart3Item6aCoLocRltdSrvcsDtls>AlphaX US does not provide co-location.  However, AlphaX US's matching engine is located in Equinix's NY5 Data Center, in Secaucus, N.J., and Participants must have cross-connections ("cross-connects") from their own servers in NY5 or NY4 to establish a direct link to the AlphaX US servers, or connect through other providers with servers at NY5.  Cross-connects are provided via 10 gigabit single-mode optical fiber (SMF), through agreements directly between Participants and Equinix.  Equinix charges fees for these connections directly to the Participants.  AlphaX US is not involved in the physical installation of such cross-connects, nor does it charge related fees.
+
+In addition to the establishment of cross-connects, only applicants approved as Participants by TSX Alpha U.S., Inc. can access AlphaX US. Please see Part III, Item 2 for details on the onboarding process for Participants.</taPart3Item6aCoLocRltdSrvcsDtls>
+        <rbPart3Item6bIsTNCsameForAll>Y</rbPart3Item6bIsTNCsameForAll>
+      </part3Item6aProtocolDetails>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>AlphaX US offers trading in all Regulation NMS common stock, exchange-traded products ("ETPs") and American depository receipts ("ADRs"), all of which are Regulation NMS securities.
+
+AlphaX US allows Participants to place firm orders.  In addition to firm orders, AlphaX US allows Participants to submit conditional orders.  AlphaX US executes the orders according to Participant specifications and order priority rules.
+
+Order Types
+
+AlphaX US maintains a dark batch auction order book, which has the following order types:
+
+Market Orders: Market Orders are orders to buy or sell a stated amount of a security that is to be executed at or in between the National Best Bid and Offer (the "NBBO") in the matching process (the "Match Event").
+
+Limit Orders: Limit Orders are orders to buy or sell a stated amount of a security at a specified price or better that are to be executed in the Match Event.
+
+Peg Orders: Peg order prices change dynamically with the market until their specified durations are met, the orders are filled, or their limit prices are reached.
+
+1. Midpoint Peg Orders: Midpoint Peg Orders are orders to buy or sell a stated amount of a security that are to be executed only at the midpoint price of the NBBO or better in the Match Event.  AlphaX US accepts Midpoint Peg Orders with or without a limit price, and Midpoint Peg Orders are eligible to match with all order types, in order to provide the opportunity for price improvement.
+2.Primary Peg Orders: Primary Peg Orders are orders to buy at the NBB, or sell at the NBO, a stated amount of a security that is to be executed only at the primary peg in the Match Event.  Orders may be submitted with or without a limit price.  Participants also have the option to implement an offset to the primary price for this order type.
+3. Marketable Peg Orders: Marketable Peg Orders are orders to buy at or below the NBO, or sell at or above the NBB, a stated amount of a security that is to be executed in the Match Event.  Orders may be submitted with or without a limit price. Participants also have the option to implement an offset to the NBBO for this order type.
+
+AlphaX US does not offer post-only orders or price sliding orders.
+
+Conditional Orders
+
+Conditional orders are instructions to AlphaX US that Participants want to interact with the order book on a conditional basis.  Conditional orders never execute.  Instead, when conditional orders would otherwise match with contra party orders, the conditional orders are canceled by AlphaX US, and invitations are sent to the originating Participants, inviting them to send firm-up response orders.
+
+Participants who send firm orders can choose not to interact with conditional orders on an order-by-order basis through their FIX or BIN connection.  The default setting is for firm orders to interact with conditional orders. Please refer to Part III, Item 9.a for more details on the handling of conditional orders.
+
+Order Instructions
+
+AlphaX US accepts orders with time-in-force ("TIF") instructions of Day or Immediate or Cancel ("IOC").  An IOC is automatically converted to an Auction or Cancel ("AOC") TIF upon receipt by AlphaX US.  Further details are as follows:
+
+1. Day is the default TIF instruction.  Day orders are held by AlphaX US on its order book from the time of receipt until the end of Regular Trading Hours or such time that a "cancel" instruction is sent by the Participant, whichever comes first.  If unfulfilled by the end of Regular Trading Hours, Day orders are automatically canceled, and any Participant who submitted a Day order is notified through the system.
+2.AOC orders (i.e., orders sent with the IOC tag) are held until the completion of the next Match Event, and if unexecuted, are automatically canceled.  AOC orders may be submitted with or without a limit price.  AOC orders are only eligible for firm orders and cannot be used for conditional orders.
+
+Minimum Execution Quantity
+
+AlphaX US offers a minimum quantity modifier for order execution.  The minimum quantity modifier allows a Participant to request a minimum share amount on an order execution, such that if the available liquidity is below the minimum quantity amount, the order will not execute.  AlphaX US does not combine contra-orders to meet a minimum execution quantity.
+
+Routing
+
+AlphaX US does not support the routing of orders to any other venue.
+
+Message Priority
+
+Incoming orders and related messages are processed in the order in which they are received by AlphaX US.
+
+Match Priority
+
+An order's match priority is based on price and the time at which such order is received relative to other orders.  Each order receives a sequence number on arrival, based on order of arrival into AlphaX US, which is used to determine time priority. Matching priority is constrained by PP (which are counterparty selection and minimum execution quantity).
+
+Matching instructions are specified in accordance with the FIX and BIN protocols described above in Part III, Item 5.a, and defined by industry standard FIX tags and agreed upon BIN tags defined for these matching instructions.  Orders received by AlphaX US during the Pre-Market Order Acceptance Period are given a sequence number on arrival and will sit in the order book until Regular Trading Hours and then are matched pursuant to the matching priority of price/time, constrained by PP (as described in the paragraph above). The time priority is determined by the sequence number assigned to an order at the time of its receipt by AlphaX US.
+
+Orders submitted to AlphaX US outside the Regular Trading Hours and the Pre-Market Order Acceptance Period are not accepted.  For all eligible securities, AlphaX US only executes if Limit-Up-Limit-Down ("LULD") bands are present, and the effective price of a potential match is not constrained by a LULD band.
+
+Order Amendment
+
+An open order may be amended by a Participant as long as the amendment is received by AlphaX US before a Match Event occurs.  If an order amendment is received during a Match Event and there is still an open order at the conclusion of the Match Event, the amendment will be processed at the conclusion of the Match Event. If the order has been filled during the Match Event and no open order remains, the amendment will be rejected at the end of the Match Event.  Order amendments are processed in the order in which they are received by AlphaX US and assigned a sequence number.  Amendments of existing order size only keep their original sequence number for purposes of time priority if the change is a decrease in the order size.  If the order size is increased, the price is altered in any way, or any other change is made, the sequence number is updated to the next sequence number for a new order, and the new sequence number is used for ranking priority.
+
+Order Cancellation
+
+An open order may be canceled by a Participant to the extent the cancellation order is received and processed by AlphaX US before a Match Event occurs.  If an order cancellation is received during a Match Event and there is still an open order at the conclusion of the Match Event, the cancellation will be processed at the conclusion of the Match Event.  If the order has been filled during the Match Event and no open order remains, the cancellation will be rejected at the end of the Match Event.  A cancellation order cancels all remaining open quantities on the open order.
+ Cancellation orders are processed in the order in which they are received by AlphaX US. </taPart3Item7AOrdrTypExplain>
+      <rbPart3Item7bIsTnCSameForAll>Y</rbPart3Item7bIsTnCSameForAll>
+      <part3Item8aSizeReqrmnts rbPart3Item8aIsMinOrMaxSizeReqd="Y">
+        <taPart3Item8aOtiSizeReqrmns>The minimum unit of trading for NMS securities traded on AlphaX US is one share.  The maximum order side will vary by Participant and will be determined by the Participant's "Risk Limit Bands," as described in Part III, Item 11.c.</taPart3Item8aOtiSizeReqrmns>
+        <rbPart3Item8bIsReqProcSameForAll>Y</rbPart3Item8bIsReqProcSameForAll>
+      </part3Item8aSizeReqrmnts>
+      <part3Item8cOddltOrdrReqs rbPart3Item8cIsOddLotsAcptdExecutd="Y">
+        <taPart3Item8cOddLtOrdrReqsnProcdurs>Odd Lot orders are handled in the same manner as round lot orders, and are treated the same way for match priority purposes.</taPart3Item8cOddLtOrdrReqsnProcdurs>
+        <rbPart3Item8dIsReqsProcdurSameForAll>Y</rbPart3Item8dIsReqsProcdurSameForAll>
+      </part3Item8cOddltOrdrReqs>
+      <part3Item8eMixltOrdrDetails rbPart3Item8eIsMixLotOrdrsAcptdExecutd="Y">
+        <taPart3Item8eMixltOrdrReqsProcDtls>Mixed lot orders are handled in the same manner as round lot orders, and are treated the same for match priority purposes.</taPart3Item8eMixltOrdrReqsProcDtls>
+        <rbPart3Item8fIsRecProcSameForAll>Y</rbPart3Item8fIsRecProcSameForAll>
+      </part3Item8eMixltOrdrDetails>
+      <part3Item9aMsgDtls rbPart3Item9aIsAnyMsgToIndicTI="Y">
+        <taPart3Item9aMsgUsgDtls>As noted in Part III, Item 7.a, conditional orders are instructions to AlphaX US that Participants want to interact with the order book on a conditional basis.  Conditional orders never execute, and are never routed away to another trading venue.
+
+AlphaX US accepts conditional orders sent over either the FIX or BIN protocol.  A conditional order must be sent with the TIF of "Day" and, requires the same information as a firm order (i.e., symbol, order type, quantity, price if applicable, and side).  There are no additional restrictions on conditional orders.  Participants may also select to use PP on conditional orders (counterparty selection and/or minimum execution quantity).  A conditional order sits on the order book until a contra-order is received.  Contra-orders can be either conditional or firm orders.
+
+Conditional orders allow liquidity seekers to express interest with symbol, order type, quantity, price if applicable, and side.  Price is required for limit orders, but is not required for Market or Peg order types.  Conditional orders reside in the AlphaX US order book.  If AlphaX US receives a contra-order that fulfills the characteristics of a conditional order (i.e., price and PP), the Participant who sent the conditional order will receive a firm-up request from AlphaX US to "firm-up" the conditional order with a firm-up order.  The Participant will also receive a cancel on the original conditional order.  Specifically, AlphaX US will determine whether there is an eligible contra-order during a Match Event, and generate the firm-up request and conditional order cancel immediately following the Match Event.  Firm-up requests and resulting firm-up orders all expire 150 milliseconds from the time AlphaX US sends the firm-up requests to the Participant.
+
+Once conditional orders firm-up, they follow the same order requirements and matching methodology as firm orders, as described in Part III, Item 7, and have no additional requirements.  Specifically, AlphaX US will first look to price and then to time, and considers PP before it matches orders in a Match Event.  Therefore, even if Participant A's order is offering the best price for Participant B's order, the orders will not match if either Participant has chosen not to trade with the other.  At the start of the Match Event, price will be the first factor in ranking orders for matching.  PP will then be considered, and may restrict some orders from interacting.  When multiple orders have the same price and there are no disqualifying PP, time is the ultimate tie breaker.  Time is determined by the sequence number assigned to an order at the time AlphaX US sends the firm-up request.
+
+To illustrate, when a contra-order is identified in a Match Event that fits the criteria of the conditional order (i.e., the order is able to match based on price priority and without PP constraints), at the conclusion of the Match Event, AlphaX US sends the Participant who placed the conditional order a firm-up request that discloses the counterparty trading interest (i.e., symbol and side) as well as a cancel on the conditional order at the same time.  If there is more than one conditional order eligible to receive a firm-up request, the firm-up requests will be sent based on the Match Event priority methodology of price/time, constrained by PP (counterparty selection and minimum execution quantity).  The firm-up request is assigned a new sequence number at the time of creation and that sequence number is used on the firm-up order for the purpose of matching priority if a firm-up order is received.  In the case where more than one firm-up request is sent in response to a contra-order, AlphaX US will send the firm-up requests in the same sequence in which the original conditional orders arrived, so the firm-up requests and any resulting firm-up orders will maintain their time priority within their newly assigned sequence numbers.  If a Participant firms up its conditional order and there is only one contra-order that is still available, the orders will match in the next Match Event.
+
+If there are multiple contra-order firm-up requests sent, AlphaX US will wait for all responses or 150 milliseconds, whichever comes first, and then match orders in the next Match Event following the receipt of all firm-up orders.  If a conditional order does not firm up, the firm-up request expires after 150 milliseconds.  If a conditional order has firmed up but the contra-order is no longer available (i.e., if the contra-order is also a conditional order that has not firmed up), AlphaX US will make an attempt to match in the last available Match Event before the firm-up order expires at the conclusion of the 150 millisecond holding period from the time AlphaX US sent the firm-up request to the Participant.  If the firm-up order does not match during this final attempt, it will be canceled.  Regardless of whether there are multiple or single firm-up requests, the firm-up requests all expire after 150 milliseconds.  If a Participant attempts to send a firm-up order after the firm-up request has expired, AlphaX US will send a reject message informing that Participant the firm-up ID is invalid/expired.
+
+As noted in Part III, Item 15, Participants may decline or ignore firm-up requests.  However, if a Participant decides to submit a firm order in response to a firm-up request, that Participant may change the order price or quantity originally noted in the conditional order.  Conditional orders follow the same cancel and amend policies as firm orders, as described above in Part III, Item 7.  So, if the order size is increased, the price is altered in any way, or any other change is made, the sequence number is updated to the next sequence number for a new order, and the new sequence number is used for ranking priority.
+
+AlphaX US will monitor rates on both firm-up response and cancellation after a firm-up order is sent but prior to execution.  AlphaX US may restrict a Participant's utilization of conditional orders based on this information.
+
+AlphaX US does not wait to execute a firm order if it is able to execute the firm order in a Match Event prior to a firm-up on a contra conditional order.   Firm orders can opt out of interacting with conditional orders on an order-by-order basis.
+
+Conditional Order Examples
+
+(All examples below are listed in the order in which the actions occur.)
+
+1. Example of a Conditional Firm-Up Request with One Conditional Contra-Order:
+a. AlphaX US receives a conditional order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79 and no PP attached to the order
+b. AlphaX US receives a conditional order from Participant XYZ to sell 10,000 shares of ZVZZT with a limit of 153.77 and no PP attached to the order
+c. During the next Match Event, AlphaX US identifies the potential match between these two orders and sends a firm-up request to both Participant ABC and Participant XYZ, as well as a cancel on both conditional orders at the conclusion of the Match Event
+d. 50 milliseconds later, AlphaX US receives a firm-up order from Participant XYZ to sell 10,000 shares of ZVZZT with a limit of 153.77
+e. AlphaX US continues to conduct Match Events in ZVZZT at its scheduled Match Event Intervals
+f. After an additional 30 milliseconds, AlphaX US receives a firm-up order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79
+g. Both of the firm-up orders are entered into the order book and will participate in the next scheduled Match Event.  The Match Event will follow its price/time priority. Assuming there are no other orders with a more aggressive price or time priority, these two orders will match in this Match Event
+h. 10,000 shares are traded at 153.78
+
+2. Example of a Conditional Firm-Up Request with Multiple Conditional Contra-Orders:
+a. AlphaX US receives a conditional order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79 and no PP attached to the order
+b. AlphaX US receives a conditional order from Participant XYZ to sell 5,000 shares of ZVZZT with a limit of 153.77 and no PP attached to the order
+c. AlphaX US receives a conditional order from Participant DEF to sell 5,000 shares at a limit of 153.77 and no PP attached to the order
+d. During the next Match Event, AlphaX US identifies the potential match between the buy side order and both of the sell side orders, and at the conclusion of the Match Event sends a firm-up request to all three brokers, as well as a cancel on all three conditional orders
+e. 50 milliseconds later, AlphaX US receives a firm-up order from Participant XYZ to sell 5,000 shares of ZVZZT with a limit of 153.77
+f. AlphaX US continues to conduct Match Events in ZVZZT at its scheduled Match Event Intervals without including the firm-up order from Participant XYZ in the Match Events
+g. After an additional 30 milliseconds, AlphaX US receives a firm-up order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79
+h. AlphaX US will hold both firm-up orders on the order book without participating in any Match Events, so the third order has an opportunity to firm-up
+i. After an additional 20 milliseconds, AlphaX US receives a firm-up order from Participant DEF to sell 5,000 shares of ZVZZT with a limit of 153.77
+j. All three of the firm-up orders are entered into the order book and will participate in the next scheduled Match Event.  The Match Event will follow its price/time priority, and assuming there are no other orders in the Match Event with a more aggressive price or time priority, the buy order will match against both sell side orders
+k. 5,000 shares are traded at 153.78 between Participant ABC and Participant XYZ, and an additional 5,000 shares are traded at 153.78 between Participant ABC and Participant DEF
+
+3. Example of a Conditional Firm-Up Request with a Conditional Contra-Order that Does Not Firm-Up:
+
+a. AlphaX US receives a conditional order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79 and no PP attached to the order
+b. AlphaX US receives a conditional order from Participant XYZ to sell 5,000 shares of ZVZZT with a limit of 153.77 and no PP attached to the order
+c. During the next Match Event, AlphaX US identifies the potential match between these two orders and sends a firm-up request to both Participant ABC and Participant XYZ, as well as a cancel on both conditional orders
+d. 50 milliseconds later, AlphaX US receives a firm-up order from Participant XYZ to sell 10,000 shares of ZVZZT with a limit of 153.77
+e. AlphaX US continues to conduct Match Events in ZVZZT at its scheduled Match Event Intervals without including the firm-up order from Participant XYZ
+f. In the last available Match Event before the firm-up order expires (150 milliseconds since the firm-up request was sent), there has still been no firm-up order from Participant ABC.  AlphaX US includes the firm-up order from Participant XYZ in this Match Event to see if there are any other potential matches.  At the end of that Match Event, any remaining open shares on the firm-up order from Participant XYZ are canceled back
+g. It is now 150 milliseconds since the firm-up request was sent by AlphaX US to Participant ABC and no firm-up order has been sent by Participant ABC to AlphaX US, the firm-up request for Participant ABC has now expired, and AlphaX US will reject any firm-up order sent from Participant ABC after this time
+
+4. Example of a Conditional Firm-Up Request with a Firm Contra-Order:
+a. AlphaX US receives a conditional order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79 and no PP attached to the order
+b. AlphaX US receives a firm order from Participant XYZ to sell 10,000 shares of ZVZZT with a limit of 153.77 and no PP attached to the order
+c. During the next Match Event, AlphaX US identifies the potential match between these two orders and at the conclusion of the Match Event sends a firm-up request to Participant ABC and a cancel on their conditional order
+d. AlphaX US continues to conduct Match Events at its scheduled Match Event Intervals for ZVZZT, and the firm order from Participant XYZ is on the order book available to trade in every Match Event
+e. After 100 milliseconds, AlphaX US receives a firm-up order from Participant ABC to buy 10,000 shares of ZVZZT with a limit of 153.79
+f. AlphaX US includes the firm-up order from Participant ABC in the order book, which will participate in the next scheduled Match Event.  The firm-up order is eligible to participate with the original firm order from Participant XYZ (if it is still available) or any other order in the book, based on price/time priority (constrained by PP)
+g. If there is still a contra-order available, a trade will occur in that Match Event.  If there is no longer a contra-order available, AlphaX US will send a cancellation on that firm-up order to Participant XYZ at the conclusion of the Match Event.
+</taPart3Item9aMsgUsgDtls>
+      </part3Item9aMsgDtls>
+      <rbPart3Item9bIsIndIntrstSameForAll>Y</rbPart3Item9bIsIndIntrstSameForAll>
+      <taPart3Item10aOpenReOpenDtls>AlphaX US opens for trading in a given security when:
+
+1. There is at least one publicly-displayed Limit Buy Order and one publicly-displayed Limit Sell Order for the security on the primary listing exchange;
+2. Regular Trading Hours have begun; and
+3. Valid LULD bands for the security have been publicly disseminated.
+
+If an NMS Stock is halted for trading by the primary listing exchange pursuant to a regulatory halt, AlphaX US resumes matching when:
+
+1. It receives a message from the securities information processor ("SIP") indicating that trading has resumed in the security; and
+2. Valid LULD bands are present. </taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>All orders received by AlphaX US during the Pre-Market Order Acceptance Period are given a sequence number upon arrival and sit in the order book until the beginning of Regular Trading Hours and then are eligible to be matched at the first Match Event for that security.  In each Match Event (as defined in Part III, Item 11.b), each order's priority is based on book price and the time of its receipt by AlphaX US, as denoted by the sequence number assigned to the order, and constrained by PP.  Orders received outside these periods are not accepted.  In the event of a halt in trading during Regular Trading Hours, AlphaX US holds any unfilled orders already resting on its order book and will accept new orders.  Participants can cancel or modify orders during a trading halt, subject to AlphaX US procedures pertaining to cancellations and amendments of orders.  When AlphaX US resumes matching, any unfilled orders are eligible to execute at the next Match Event.  Trading resumes under the Match Event guidelines with no changes.  Any unfilled orders that remain open at the end of Regular Trading Hours are automatically canceled.  Please refer to Part III, Item 20 for additional information regarding trading halts.</taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>N</rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>
+      <taPart3Item11aStrucOfNmsStk>AlphaX US is a non-displayed trading venue limited to broker-dealer Participants, and makes available for trading all Regulation NMS common stock, ETPs and ADRs.  AlphaX US operates periodic batch auctions at designated time intervals of 10 milliseconds +/- a randomized increment up to 10%.  Matching priority is determined on a price/time basis, constrained by Participant Parameters, which are counterparty selection and minimum execution quantity.</taPart3Item11aStrucOfNmsStk>
+      <rbPart3Item11bIsMeansFeciltsSameForAll>Y</rbPart3Item11bIsMeansFeciltsSameForAll>
+      <taPart3Item11cRulsProcsOfNmsStk>Periodic Auctions
+
+Upon receipt, a firm order is placed in AlphaX US's order book and will be included in all Match Events for the life of the order, as long as the order is marketable at the time of the Match Event.  The Match Events (i.e., auctions) in each security are automatic, and occur at scheduled times as determined by AlphaX US's matching algorithm throughout the day and are calibrated separately by each Match Event.
+ Each Match Event acts independently of each other.  The description below sets out how AlphaX US determines the time between Match Events, and how AlphaX US calibrates this time for each Match Event.
+
+Match Event Intervals and Match Event Process: AlphaX US randomizes the time between Match Events within a time range of a base of 10 milliseconds and a randomized increment up to 10% on either side ("Match Event Intervals").  There is no human intervention or discretion involved in the timing of these Match Event Intervals.  Match Event Intervals are calibrated on a security-by-security basis.  Each security enters its first Match Event upon the primary market opening and a quote and LULD bands being available in the security.  The Match Event Interval (i.e., the duration of time until the next Match Event) is randomized to avoid a pattern that other Participants could detect.  Once a Match Event concludes, the new Match Event Interval commences immediately.
+
+There is no defined time for a Match Event; however, a Match Event will not exceed five microseconds.  At the start of a Match Event, all marketable orders in the order book for a given security will be ranked, based on price/time priority.  Once a Match Event begins, any new orders will be queued and will not be eligible to trade until the next Match Event.  Prices are locked for the order book at the start of the Match Event.  The matching engine identifies any imbalance in marketable order quantity on the order book at that time.  Whichever side holds the lesser of an imbalance (i.e., the lower number of marketable shares on the order book) determines the matching order.  If there is no imbalance (i.e., there is an equal number of marketable shares on both sides of the order book), AlphaX US will begin the matching process using the side of the order book that has time priority (i.e., whichever side of the order book that has the marketable order with the lowest order sequence number).  Price, capped by NBBO to the second decimal point (with the exception of sub-dollar priced stocks, which are capped to the fourth decimal point), is the leading factor in priority of orders matched; however, this is constrained by any PP on the order that may limit availability on the other side.
+
+As an example, if the match begins on the buy side and the order with the most aggressive price is identified, AlphaX US will move to the sell side.  If the most aggressive price on the sell side is an order for 300 shares and the buy side order AlphaX US is matching has a minimum execution quantity of 500 shares, AlphaX US cannot match these orders, and will move to the next most aggressively priced order on the sell side.  In the event of two orders with the same price and no eliminating factors due to PP, the time of order receipt, as denoted by the sequence number assigned to the order, is the tie breaker, and becomes the deciding factor.  There may be multiple matches at the end of a Match Event, as the matching engine logic matches as many shares as possible, given price levels and PP.  At the conclusion of a Match Event, all AOC orders that were not fully filled are canceled, and all Day orders (including conditional orders) that were not fully filled remain live in the AlphaX US order book for the next Match Event.
+
+Self-Trade Prevention
+
+AlphaX US provides a self-trade prevention ("STP") setting for its Participants.  This setting is not enabled by default, but can be enabled upon request.
+
+Short Sales and Regulation SHO
+
+AlphaX US's Participants are limited to U.S. registered broker-dealers that are obligated to comply with Regulation SHO Rule 203(b)(1), and pursuant to this rule, each short sale order must specify that a locate has been obtained.  For short sale orders subject to Rule 201 under Regulation SHO, the AlphaX US matching engine will prevent any orders from executing at the SIP NBB.
+
+Locked or Crossed Market &amp; Limit Up / Limit Down
+
+AlphaX US uses SIP data for pricing information and does not match orders if the inside market for a stock is crossed (i.e., the market's best bid price exceeds the market's best ask price) or locked (i.e., the market's best bid price equals the market's best ask price).  For all eligible securities, AlphaX US only executes if the LULD bands are present, and the effective price of a potential match is not constrained by a LULD band.
+
+Pricing Methodology
+
+Orders are matched at the midpoints of the buyers' and sellers' order book prices at the time of the Match Event, which are capped at the NBBO, as obtained from the SIP.
+ This results in an opportunity for price improvement for the Participants.  All such price improvement is split on a 50/50 basis between buyers and sellers (based on the book prices of the orders.  The only exception to price improvement is when Midpoint Peg orders match against other Midpoint Peg orders, and execute at the NBBO midpoint price at time of the Match Event.  A single Match Event can result in multiple executions at different prices.
+
+Execution Errors
+
+AlphaX US reviews trade exceptions, and in accordance with the Participant Agreement, maintains the right to adjust or cancel clearly erroneous trades.  In the event of a bona fide erroneous trade (as defined by FINRA Rule 11891 - Clearly Erroneous Transactions in Exchange Listed Securities), or in the event of an error by AlphaX US or a Participant, a Registered Principal of AlphaX US determines the best course of action, given the circumstances of the trade, and determines whether to cancel both sides of the trade, adjust price, or let the trade stand.  Such decision is determined using relevant rules, and the AlphaX US internal trading policies.  In the event a clearly erroneous trade needs to be adjusted or canceled, AlphaX US will contact the Participants involved, to inform them of the ruling.
+
+Trade Examples
+
+1. Example of pricing methodology:
+a. NBBO of ZVZZT is 153.74 at 153.85
+b. Buy order in the order book at time of Match Event:
+i. 100 Shares of ZVZZT at 153.79
+c. Sell order in the order book at time of Match Event:
+i. 100 Shares of ZVZZT at 153.77
+d. The execution occurs at the midpoint of the buyer and seller limit prices, and 100 shares prints at 153.78.
+
+2. Example 2 of pricing methodology:
+a. NBBO of ZVZZT is 153.74 at 153.85
+b. Buy order in the order book at time of Match Event:
+i. 100 Shares of ZVZZT at 153.79
+c. Sell order in the order book at time of Match Event:
+i. 100 shares of ZVZZT at 153.70
+d. Since the limit price of the sell order is outside the NBBO, we cap the limit of the sell order at the NBB of 153.74, and the Book Price for the sell order in the Match Event is 153.74
+e. The execution occurs at the midpoint of the buyer and seller Book Prices, and 100 shares prints at 153.765.
+
+3. Example 1 of Price/Time Priority:
+a. NBBO of ZVZZT is 153.74 at 153.85
+b. Buy orders in the order book at time of Match Event:
+i. 500 shares at a limit of 153.79; arrived at 9:33:001, no PP attached to the order
+ii. 700 shares at a limit of 153.78; arrived at 9:33:30, no PP attached to the order
+iii. 600 shares at a limit of 153.74; arrived at 9:33:301, no PP attached to the order
+c. Sell order in the order book at time of Match Event:
+i. 2,800 shares at a limit of 153.75; arrived at 9:33:005, no PP attached to the order
+d. Once a Match Event begins, any new orders will be queued and will not be eligible to trade until the next Match Event.  Prices are locked for the order book at the start of the Match Event - i.e., a "Midpoint Peg" order will be translated to the current midpoint price at the start of the Match Event.
+e. The Match Event begins with the smaller side of the imbalance, which in this case is the buy side (total order size in the order book is 1,800 shares on the buy side versus 2,800 on the sell side).  First priority is price and the buy order with the most aggressive price is Order #1 with a price of 153.79.  This trade will match at 153.77, the midpoint of the buyer and seller book prices.  There are still shares on the sell side available, so AlphaX US will move to the next best price on the buy side, which is Order #2 at 153.78.  These two orders will match and 700 shares print at 153.765, the midpoint of the buyer and seller book prices for these two orders.  AlphaX US goes to the next buyer with a limit of 153.74.  This buyer cannot match with the available seller due to its price limits.  AlphaX US has matched all possible orders in this Match Event, so two sets of matched orders are executed, and the Match Event Interval begins for the next Match Event.
+f. The orders with an open quantity at the conclusion of the Match Event will remain on the order book and be available for subsequent Match Events.
+
+4. Example 2 of Price/Time Priority, Constrained by PP:
+a. NBBO of ZVZZT is 153.74 at 153.85
+b. Buy orders in the order book at time of Matching Event:
+i. 500 shares at 153.84; restricts participation to a specific counterparty (BDABC); arrived at 9:33:01
+c. Sell orders in the order book at time of Matching Event:
+i. 500 shares at 153.82; arrived at 9:33:015, no PP attached to the order
+ii. 500 shares at 153.83; Order is from BDABC; arrived at 9:33:02
+d. The Match Event begins with the smaller side of the imbalance, which in this case is the buy side (total order size in the order book is 500 shares on the buy side versus 1,000 on the sell side).  There is only one buy order, so AlphaX US starts with that order for matching.  First priority is price, so Order #1 on the sell side is the more aggressive price.  However, there are PP that prevent this match.  The buyer has specified the counterparty it wants to interact with and Order #1 on the sell side is from a different Participant.  AlphaX US moves to the next sell order, which is from BDABC, the same counterparty the buy order has requested to trade with.  AlphaX US is able to match Order #1 on the buy side with Order #2 on the sell side, and print 500 shares at 153.835 (the midpoint between the buyer and seller book prices).  AlphaX US has matched all possible orders in this Match Event, so the trade is executed, and the Match Event Interval begins for the next Match Event.
+e. The order with an open quantity at the conclusion of the Match Event will remain on the order book and be available for subsequent Match Events.
+
+5. Example 3 of Price/Time Priority:
+a. NBBO of ZVZZT is 153.74 at 153.85
+b. Buy orders in the order book at time of Match Event:
+i. 500 shares at 153.84; arrived at 9:33:01, no PP attached to the order
+ii. 700 shares at 153.84; arrived at 9:33:05, no PP attached to the order
+c. Sell orders in the order book at time of Match Event:
+i. 500 shares at 153.82; arrived at 9:33:015, no PP attached to the order
+ii. 500 shares at 153.83; arrived at 9:33:02, no PP attached to the order
+d. The Match Event begins with the smaller side of the imbalance, which in this case is the sell side (total order size in the order book is 1,200 shares on the buy side versus 1,000 on the sell side).  First priority is price, and the more aggressive seller is Order #1 on the sell side, so AlphaX US starts the match with 500 shares to sell at 153.82.  Moving to the buy side, there are two orders with the same price.  Order #1 on the buy side arrived first, so AlphaX US matches 500 shares at 153.83 (the midpoint of the buyer and seller book prices).  AlphaX US then moves to the next sell order and tries to match that.  AlphaX US can in fact make a second match, so Seller #2 matches with Buyer #2 at 153.835 (the midpoint of those two orders).  AlphaX US has matched all possible orders in this Match Event, so two sets of matched orders are executed, and the Match Event Interval begins for the next Match Event
+e. The order with an open quantity at the conclusion of the Match Event will remain on the order book and be available for subsequent Match Events.
+
+Procedures for Midpoint Peg Order Ranking and Execution:
+
+a. AlphaX US accepts midpoint and non-midpoint order types.  Midpoint Peg orders are eligible to match with other Midpoint Peg orders, as well as non-Midpoint Peg orders in a Match Event.
+b. At the start of a Match Event, AlphaX snaps the NBBO for use in that Match Event.
+c. If an order is sent with both a Midpoint Peg order instruction and an explicit limit, AlphaX US will use the more conservative price for the Match Event.  If the limit price is more conservative than the implicit snapped NBBO price, then AlphaX US uses the limit price as the book price for the Match Event.  If the implicit snapped NBBO midpoint price is more conservative than the limit price, AlphaX US will use the Midpoint Peg order ranking procedures for the Match Event.
+d. If, at the start of a Match Event, the snapped NBBO midpoint is a valid tick (i.e., it is not a sub-tick increment), the Match Event proceeds as described in examples above, and the book price of Midpoint Peg orders will be the midpoint of the snapped NBBO for this Match Event. If, at the start of a Match Event, the snapped NBBO midpoint is not a valid tick (i.e., it is a sub-tick increment), the book price assigned to Midpoint Peg orders will be calculated by rounding the midpoint of the snapped NBBO passively (i.e., buy orders are rounded down, sell orders are rounded up).
+e. Matching then proceeds as described in Part III, Item 7a., as well as above in this Part III, Item 11.c.  Specifically, all Midpoint Peg orders have the opportunity to obtain price improvement by matching with a non-Midpoint Peg order if one is available.  The Match Event follows price/time priority, and if a Midpoint Peg order matches with a non-Midpoint Peg order, the orders will split price improvement equally, and the trade will be executed at the midpoint of the buyer and seller book prices.
+f. Once all matches have been identified through ranking at the assigned book price, any eligible Midpoint Peg orders remaining in the order book will match with one another, at the snapped NBBO midpoint in use for this Match Event.  Any PP constraints (counterparty selection and minimum execution quantity) will be taken into account, and in a case where there are multiple orders that could match, time will determine the priority of order matching.
+g. A Midpoint Peg order that matches in AlphaX US will never execute at a price worse than the snapped midpoint of the NBBO for the Match Event. An example of Midpoint Peg matching follows.
+
+6. Example of Midpoint Peg Order Ranking and Execution:
+a. At the start of a Match Event, the NBBO is snapped and will be used for the entirety of the Match Event. NBBO of ZVZZT is snapped at 153.80 at 153.85
+b. Buy order in the order book at time of Match Event:
+i. 1,200 shares with a Midpoint Peg instruction and no additional price limit; arrived at 9:33:01, no PP attached to the order (Order #1)
+c. Sell orders in the order book at time of Match Event:
+i. 800 shares of a non-Midpoint Peg order with a limit price of 153.80; arrived at 9:33:015, no PP attached to the order (Order #2)
+ii. 500 shares with a Midpoint Peg instruction and no additional price limit; arrived at 9:33:02, no PP attached to the order (Order 3)
+d. Since the snapped NBBO midpoint for this Match Event is a sub-tick price of 153.825, AlphaX US passively rounds each Midpoint Peg order to obtain its book price for ranking.  The buy order (Order #1) now has an order book price of 153.82, and the sell order (Order #3) now has an order book price of 153.83
+e. The Match Event begins with the smaller side of the imbalance, which in this case is the buy side (total order size in the order book is 1,200 shares on the buy side versus 1,300 on the sell side). First priority is price, and the more aggressively priced order and only buyer is Order #1, so AlphaX US starts the match with 1,200 shares to buy at 153.82.  Moving to the sell side, the most aggressively priced order on the sell side is Order #2, 800 shares at 153.80, so AlphaX US matches 800 shares of Order #1 against 800 shares of Order #2 at 153.81 (the midpoint of the buyer and seller book prices)
+f. There are no more eligible orders priced more aggressively than the snapped NBBO midpoint price, so AlphaX US will now match any eligible Midpoint Peg orders at the implicit price of the snapped NBBO midpoint of 153.825
+g. The remaining 400 shares of the buy order (Order #1) will now match against the remaining shares of the sell order (Order #3) at 153.825 in the same Match Event.
+h. AlphaX US has matched all possible orders in this Match Event, so two sets of matched orders are executed, and the Match Event Interval begins for the next Match Event
+i. The order with an open quantity at the conclusion of the Match Event will remain on the order book and be available for subsequent Match Events
+</taPart3Item11cRulsProcsOfNmsStk>
+      <part3Item11dDiffDtls rbPart3Item11dIsProcsRulsSameForAll="N">
+        <taPart3Item11dDiffDtls>AlphaX US has certain pre-defined thresholds that prevent orders with prices or quantities outside of defined bounds set by AlphaX US from matching on the system (i.e., the Risk Limit Bands).  Only orders that are within the Risk Limit Bands set for individual Participants are eligible for trading on AlphaX US.  The Risk Limit Bands are designed to protect both the Participants and AlphaX US, and to help provide a fair and orderly trading environment.  AlphaX US works with Participants and sets customized Risk Limit Bands in this regard, including the appropriate number of shares per order and price limit checks, based on the Participants' expected venue utilization.  AlphaX US will reduce price and quantity thresholds upon a Participant's request, and will consider a request for an increase to price or quantity thresholds.  The decision on whether to increase those thresholds will be based on the Participant's expected venue utilization.</taPart3Item11dDiffDtls>
+      </part3Item11dDiffDtls>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <rbPart3Item13aIsOrdrTiSegmntd>N</rbPart3Item13aIsOrdrTiSegmntd>
+      <rbPart3Item13cIsCustmrOrdr>N</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>As noted in Part III, Item 11.b, AlphaX US provides an STP setting to its Participants. This setting is not enabled by default, but can be enabled upon request.  The STP setting prevents the self-trading of orders from the same Participant.
+
+Apart from the STP setting, Participants can implement two other forms of counterparty selection on an order-by-order basis.  The first form of counterparty selection allows a Participant to choose to interact with order flow sent by itself.  The second form of counterparty selection allows a Participant to interact with directed order flow from another designated Participant or Participants.  For any given order, a Participant can choose more than one form of counterparty selection.  All Participants must indicate a request to interact with each other on their order flow for this to occur.  If order flow is sent by one Participant with a designation to interact, but there is no available order flow from the other Participant, the order will remain open on the order book until there is eligible order flow to trade against in a Match Event or the order is cancelled by the Participant.  These are the only forms of counterparty selection, and they are always at the full discretion of the Participant.  AlphaX US will never make any counterparty selection decisions on behalf of a Participant.  Even if a Participant designates who it wants to interact with, all trades in AlphaX US are still matched through the regular Match Event process and follow price/time priority, constrained by PP.  For example, a Participant may choose to interact only with orders sent from three different directed counterparties.  In order for any matches to occur, the contra-parties must also have orders that are available to interact with the other party.  Even though this is being "directed" to specific counterparts, the matching would still take place in a scheduled Match Event and would be matched based on price/time priority.  The selection of a counterparty (or in this case counterparties) is a PP that the Participant has placed on an order and would simply constrain who they would match against in the Match Event.  The trades of the matched orders would price based on the AlphaX US pricing model of the midpoint of the buyer and seller book prices.  Orders can only match between two counterparties when neither Participant has excluded the other from their executions through PP.  AlphaX US will never make a decision to add PP for any Participant, and all PP decisions, including those around counterparty selection, are made solely by the Participants.  AlphaX US will also never decline or modify PP from a Participant.</taPart3Item14aCntrPrtyDtls>
+        <rbPart3Item14bIsSelectnSameForAll>Y</rbPart3Item14bIsSelectnSameForAll>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>N</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>AlphaX US does not display orders; however, it sends "firm-up" request messages to Participants who have submitted conditional orders.  These messages are sent when a Participant has already indicated their interest to trade through a conditional order and notifies them a potential contra-order is in the book based on their conditional order parameters.  The system does not guarantee a match for a specific price or quantity.
+
+As outlined in Part III, Item 9.a, if a potential match is found for a conditional order sent by a Participant, AlphaX US sends a firm-up request inviting the Participant to trade.  As it relates to matches, firm-up requests are only sent if a Participant's minimum execution quantity has been met.
+
+Firm-up requests contain the original conditional order IDs, cancel messages on the conditional orders, and unique firm-up IDs.  Other than the indication a contra-order is present resulting in firm-up requests, no details of the contra-side orders are submitted on the firm-up requests, such as quantity or price.
+
+Participants may decline or ignore firm-up requests.  However, if a Participant decides to submit a firm order in response to a firm-up request, the Participant may change the order price or quantity originally noted in the conditional order.</taPart3Item15bSubscrBndDtls>
+        <rbPart3Item15cIsDsplyProcSameForAll>Y</rbPart3Item15cIsDsplyProcSameForAll>
+      </part3Item15bSubSctbDtls>
+      <rbPart3Item16aIsInstRoutd>N</rbPart3Item16aIsInstRoutd>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <rbPart3Item18aIsOutsdeTrdingHrs>N</rbPart3Item18aIsOutsdeTrdingHrs>
+      <taPart3Item19aSrvcUsgFees>AlphaX US charges transaction fees between $0.00 to $0.01 per share traded.  Transaction fees charged to Participants are negotiated during the onboarding process, and may be impacted by each Participant's expected trading volume on AlphaX US.  Rates can be renegotiated as warranted, based on changes or expected changes in Participant trading volume.
+
+Since the ATS functions as an execution venue, CAT LLC will assess CAT Fees to the ATS for each transaction in Eligible Securities executed on the ATS.  These fees apply to transactions reported by the ATS to the TRF as a cross during the prior month.  AlphaX US will be identified as the CAT Executing Broker for both the buyer and seller in each cross executed on the ATS.  TSX Alpha U.S., Inc. will be solely responsible for paying these transaction fees, and will not pass them through to Participants, in whole or in part.  Capitalized terms in this paragraph are defined in the CAT NMS Plan.</taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>There are no fees or charges for use of AlphaX US's services that are bundled with any Participant's use of non-ATS services or products offered by TSX Alpha U.S., Inc.</taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>TSX Alpha U.S., Inc. uses Participant activity, or expected activity, to negotiate transaction fees.  As activity grows, AlphaX US may renegotiate fee agreements with Participants (i.e., increase or decrease fees).  TSX Alpha U.S., Inc. does not offer rebates.</taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>As discussed in Part III, Item 11.c, AlphaX US is programmed to react to "halt" messages it receives from the SIP from all U.S. equities exchanges.  It will not execute transactions in a security during periods in which trading in the security is halted on the primary listing exchange (e.g., subject to a LULD trading halt, single stock circuit breaker, or regulatory halt).  AlphaX US will also halt trading if AlphaX US is experiencing system issues that require such action.  For example, AlphaX US will halt trading if it is not receiving accurate market data for the pricing of trades, or has lost connection to the TRF provider or clearing broker for proper trade reporting and settlement.  Participants may cancel or modify their orders during a halt.
+
+AlphaX US will cease to trade stocks during any halt or suspension of trading in said security on the primary listing exchange, including LULD and regulatory halts.  During halts, AlphaX US will continue to accept new orders, cancels, and order changes.  After a halt, once a security is unhalted by the primary listing exchange, it will be treated no differently than through the course of regular trading.  All matching rules and Match Event methodology remain consistent.
+
+AlphaX US can suspend trading at any time, including the suspension of trading in individual NMS stocks, ETPs and/or ADRs for reasons such as approaching Regulation ATS Fair Access volume thresholds or Regulation SCI volume thresholds.  By default, if trading is suspended in a security during Regular Trading Hours, open orders and trading interests in AlphaX US will be canceled.  Any new orders received by AlphaX US while a security is disabled will be rejected. </taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>When an execution occurs, AlphaX US delivers execution reports to the Participants involved in the execution, and to the NASDAQ Carteret TRF in accordance with FINRA trade reporting requirements.    </taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>TSX Alpha U.S., Inc. has a vendor agreement with Instinet to act on behalf of AlphaX US to clear and settle all transactions executed on AlphaX US.  Instinet submits all executions on behalf of AlphaX US to the National Securities Clearing Corporation ("NSCC") for clearing and to the Depository Trust Company ("DTC") for settling.  All Participants must thus have clearing brokers that are NSCC/DTC members, or be members themselves for self-clearing, and must also have a QSR relationship established with Instinet.  AlphaX US is a counterparty to all trades executed.</taPart3Item22aMtrlArngmntDtls>
+      <rbPart3Item22bIsMtrlArngmtSameFrAll>Y</rbPart3Item22bIsMtrlArngmtSameFrAll>
+      <taPart3Item23aMrktDatSrc>AlphaX US uses SIP data feeds to determine the NBBO, LULD bands, trade halts, and pegged order prices, and to price executions.
+
+AlphaX US uses the U.S. equity reference data files from EDI to obtain reference information (e.g., ISIN/CUSIP, security type, instrument type, market symbol or ticker, and issuer) in regards to the NMS securities trading on AlphaX US.</taPart3Item23aMrktDatSrc>
+      <rbPart3Item23bIsSrcSameFrAll>Y</rbPart3Item23bIsSrcSameFrAll>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <part3Item26PlatFrmData rbPart3Item26IsOrdrFloExecStatsPublshd="Y">
+        <cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>true</cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>
+        <cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>true</cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>
+      </part3Item26PlatFrmData>
+    </partThree>
+  </formData>
+</edgarSubmission>

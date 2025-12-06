@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>TradeZero</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-09-05T19:25:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct>99.95</ndoPct>
+      <ndoMarketPct>24.98</ndoMarketPct>
+      <ndoMarketableLimitPct>9.36</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>26.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>39.66</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>29.74</orderPct>
+          <marketPct>30.13</marketPct>
+          <marketableLimitPct>30.51</marketableLimitPct>
+          <nonMarketableLimitPct>30.04</nonMarketableLimitPct>
+          <otherPct>29.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>874.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.7771</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>223.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.5824</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>317.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.0038</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>825.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.4095</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Virtu Americas, LLC (Virtu) for execution. Virtu pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Virtu pays TZA $0.0018 per share for marketable and non-marketable executions priced &gt;=$1 per share during regular market hours. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for sub-dollar order executions. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for executions outside of regular market hours.  The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu for execution is made by Apex. TZA does not have a direct relationship with Virtu on this order flow and is not paid by Virtu for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>27.89</orderPct>
+          <marketPct>25.92</marketPct>
+          <marketableLimitPct>28.03</marketableLimitPct>
+          <nonMarketableLimitPct>34.02</nonMarketableLimitPct>
+          <otherPct>25.07</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>439.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0342</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>106.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.5292</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>520.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>23.2777</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>567.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.4560</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to CITADEL SECURITIES LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA a rebate of $0.001 for marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.003 per share for non-marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.001 for stop order executions priced &gt;=$1. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for sub-dollar order executions. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for executions outside of regular market hours. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>20.14</orderPct>
+          <marketPct>25.34</marketPct>
+          <marketableLimitPct>20.90</marketableLimitPct>
+          <nonMarketableLimitPct>22.63</nonMarketableLimitPct>
+          <otherPct>15.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>365.93</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.2696</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>109.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.2696</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>76.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.2696</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. For executions priced &gt;=$1 per share: TZA pays Lamp, $0.003 per share for marketable executions before 7am ET, $0.0005 per share for marketable executions outside of regular market hours (after 7am ET). Lamp pays TZA, $0.0011 per share for marketable executions during regular market hours, $0.003 per share for non-marketable executions during all trading hours. For executions priced &lt;$1 per share: TZA pays Lamp $0.003 per share for marketable executions before 7am ET, $0.0005 per share for non-marketable executions before 7am ET, $0.0005 per share for marketable executions after 7am ET, $0.00 per share for non-marketable executions after 7am ET. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>8.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>9.84</marketableLimitPct>
+          <nonMarketableLimitPct>13.17</nonMarketableLimitPct>
+          <otherPct>10.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.0729</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>207.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.3444</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>112.43</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.9586</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to ARCA for execution through Apex Clearing Corporation (Apex), an order routing vehicle. Apex charges TZA a $0.0002 per share execution fee as an order routing vehicle to ARCA. Apex passes all rebates and fees from ARCA, the executing venue, to TZA. TZA provides Apex a retail attestation, as required by ARCA, to receive ARCA Retail Order Step-Up Tiers. TZA receives retail adjusted rebates from ARCA for executions that add liquidity and pays fees to ARCA for executions that take liquidity, via Apex pass through. ARCA rebates and fees are publicly available at: https://www.nyse.com/markets/nyse-arca/trading-info#trading-fees. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/
+
+Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to ARCA for execution is made by Instinet. TZA does not have a direct relationship with ARCA on this order flow and is not paid by ARCA for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu VEQ</name>
+          <orderPct>7.76</orderPct>
+          <marketPct>4.96</marketPct>
+          <marketableLimitPct>2.81</marketableLimitPct>
+          <nonMarketableLimitPct>0.10</nonMarketableLimitPct>
+          <otherPct>15.72</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu VEQ (VEQ) for execution is made by Instinet. TZA does not have a direct relationship with VEQ on this order flow and is not paid by VEQ for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.90</ndoPct>
+      <ndoMarketPct>9.69</ndoMarketPct>
+      <ndoMarketableLimitPct>18.02</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>26.37</ndoNonmarketableLimitPct>
+      <ndoOtherPct>45.92</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>31.09</orderPct>
+          <marketPct>29.26</marketPct>
+          <marketableLimitPct>34.30</marketableLimitPct>
+          <nonMarketableLimitPct>29.61</nonMarketableLimitPct>
+          <otherPct>31.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>13601.41</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.9719</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>43134.45</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.2635</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6467.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.5074</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>20970.53</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.8861</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Virtu Americas, LLC (Virtu) for execution. Virtu pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Virtu pays TZA $0.0018 per share for marketable and non-marketable executions priced &gt;=$1 per share during regular market hours. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for sub-dollar order executions. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for executions outside of regular market hours.  The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu for execution is made by Apex. TZA does not have a direct relationship with Virtu on this order flow and is not paid by Virtu for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>28.38</orderPct>
+          <marketPct>24.95</marketPct>
+          <marketableLimitPct>33.06</marketableLimitPct>
+          <nonMarketableLimitPct>31.33</nonMarketableLimitPct>
+          <otherPct>25.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7329.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.5246</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>27587.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.0413</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12353.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>16.2958</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13997.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.6953</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to CITADEL SECURITIES LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA a rebate of $0.001 for marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.003 per share for non-marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.001 for stop order executions priced &gt;=$1. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for sub-dollar order executions. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for executions outside of regular market hours. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>20.24</orderPct>
+          <marketPct>21.87</marketPct>
+          <marketableLimitPct>18.45</marketableLimitPct>
+          <nonMarketableLimitPct>22.34</nonMarketableLimitPct>
+          <otherPct>19.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11123.42</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.2696</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>21160.60</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.2696</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9929.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.2696</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. For executions priced &gt;=$1 per share: TZA pays Lamp, $0.003 per share for marketable executions before 7am ET, $0.0005 per share for marketable executions outside of regular market hours (after 7am ET). Lamp pays TZA, $0.0011 per share for marketable executions during regular market hours, $0.003 per share for non-marketable executions during all trading hours. For executions priced &lt;$1 per share: TZA pays Lamp $0.003 per share for marketable executions before 7am ET, $0.0005 per share for non-marketable executions before 7am ET, $0.0005 per share for marketable executions after 7am ET, $0.00 per share for non-marketable executions after 7am ET. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>10.17</orderPct>
+          <marketPct>0.16</marketPct>
+          <marketableLimitPct>5.00</marketableLimitPct>
+          <nonMarketableLimitPct>16.21</nonMarketableLimitPct>
+          <otherPct>10.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-61.06</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-25.0583</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1842.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.2235</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13071.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.1021</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7304.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.8786</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to ARCA for execution through Apex Clearing Corporation (Apex), an order routing vehicle. Apex charges TZA a $0.0002 per share execution fee as an order routing vehicle to ARCA. Apex passes all rebates and fees from ARCA, the executing venue, to TZA. TZA provides Apex a retail attestation, as required by ARCA, to receive ARCA Retail Order Step-Up Tiers. TZA receives retail adjusted rebates from ARCA for executions that add liquidity and pays fees to ARCA for executions that take liquidity, via Apex pass through. ARCA rebates and fees are publicly available at: https://www.nyse.com/markets/nyse-arca/trading-info#trading-fees. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/
+
+Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to ARCA for execution is made by Instinet. TZA does not have a direct relationship with ARCA on this order flow and is not paid by ARCA for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu VEQ</name>
+          <orderPct>4.75</orderPct>
+          <marketPct>10.74</marketPct>
+          <marketableLimitPct>4.14</marketableLimitPct>
+          <nonMarketableLimitPct>0.11</nonMarketableLimitPct>
+          <otherPct>6.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.0029</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu VEQ (VEQ) for execution is made by Instinet. TZA does not have a direct relationship with VEQ on this order flow and is not paid by VEQ for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>16.33</ndoMarketPct>
+      <ndoMarketableLimitPct>28.67</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.56</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.44</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>40.83</orderPct>
+          <marketPct>39.35</marketPct>
+          <marketableLimitPct>38.21</marketableLimitPct>
+          <nonMarketableLimitPct>43.79</nonMarketableLimitPct>
+          <otherPct>29.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>488.04</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.1126</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1350.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>24.2759</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1402.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.1754</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>139.56</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.5595</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail options order flow to Citadel Securities, LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA $0.25 per single-leg option contract execution for the underlying symbol SPY and $0.30 per single-leg option contract execution for all other underlying symbols. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>34.46</orderPct>
+          <marketPct>31.32</marketPct>
+          <marketableLimitPct>34.09</marketableLimitPct>
+          <nonMarketableLimitPct>38.32</nonMarketableLimitPct>
+          <otherPct>4.39</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>234.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.3066</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>667.14</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.3066</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>581.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.3066</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.98</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.3066</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail options order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Lamp pays TZA $0.12 per single-leg penny wide option contract execution and $0.45 per single-leg nickel wide option contract execution. TZA pays Lamp $0.55 per index option contract execution and $0.70 per SPX contract execution. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>6.59</orderPct>
+          <marketPct>9.30</marketPct>
+          <marketableLimitPct>7.70</marketableLimitPct>
+          <nonMarketableLimitPct>5.62</nonMarketableLimitPct>
+          <otherPct>0.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>47.25</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.2500</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>118.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.8621</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>118.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.5132</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>10.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Global Execution Brokers LP (GEB) for execution is made by Apex. TZA does not have a direct relationship with GEB on this order flow and is not paid by GEB for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>6.44</orderPct>
+          <marketPct>7.31</marketPct>
+          <marketableLimitPct>8.37</marketableLimitPct>
+          <nonMarketableLimitPct>4.31</nonMarketableLimitPct>
+          <otherPct>14.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>53.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.7460</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>131.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.3559</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>121.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.7299</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>53.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.6193</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Jane Street Capital for execution is made by Apex. TZA does not have a direct relationship with Jane Street on this order flow and is not paid by Jane Street for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash Financial Technologies</name>
+          <orderPct>5.44</orderPct>
+          <marketPct>6.68</marketPct>
+          <marketableLimitPct>6.34</marketableLimitPct>
+          <nonMarketableLimitPct>3.47</nonMarketableLimitPct>
+          <otherPct>17.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>48.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.5870</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>95.44</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.5110</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>93.52</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.7624</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>126.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.3397</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Dash Financial Technologies (Dash) for execution is made by Apex. TZA does not have a direct relationship with Dash on this order flow and is not paid by Dash for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct>99.95</ndoPct>
+      <ndoMarketPct>23.17</ndoMarketPct>
+      <ndoMarketableLimitPct>10.66</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>28.08</ndoNonmarketableLimitPct>
+      <ndoOtherPct>38.09</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>29.08</orderPct>
+          <marketPct>26.44</marketPct>
+          <marketableLimitPct>31.02</marketableLimitPct>
+          <nonMarketableLimitPct>33.26</nonMarketableLimitPct>
+          <otherPct>27.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>203.61</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0986</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>132.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.4024</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>504.17</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.8773</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>333.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.5672</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to CITADEL SECURITIES LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA a rebate of $0.001 for marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.003 per share for non-marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.001 for stop order executions priced &gt;=$1. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for sub-dollar order executions. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for executions outside of regular market hours. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>27.05</orderPct>
+          <marketPct>28.94</marketPct>
+          <marketableLimitPct>28.92</marketableLimitPct>
+          <nonMarketableLimitPct>25.46</nonMarketableLimitPct>
+          <otherPct>26.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>378.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.4529</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>254.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.9321</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>264.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.0031</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>424.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.9756</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Virtu Americas, LLC (Virtu) for execution. Virtu pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Virtu pays TZA $0.0018 per share for marketable and non-marketable executions priced &gt;=$1 per share during regular market hours. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for sub-dollar order executions. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for executions outside of regular market hours.  The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu for execution is made by Apex. TZA does not have a direct relationship with Virtu on this order flow and is not paid by Virtu for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>20.63</orderPct>
+          <marketPct>24.37</marketPct>
+          <marketableLimitPct>21.61</marketableLimitPct>
+          <nonMarketableLimitPct>25.91</nonMarketableLimitPct>
+          <otherPct>14.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>54.43</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.4790</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>49.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.4790</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>56.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.4790</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. For executions priced &gt;=$1 per share: TZA pays Lamp, $0.003 per share for marketable executions before 7am ET, $0.0005 per share for marketable executions outside of regular market hours (after 7am ET). Lamp pays TZA, $0.0011 per share for marketable executions during regular market hours, $0.003 per share for non-marketable executions during all trading hours. For executions priced &lt;$1 per share: TZA pays Lamp $0.003 per share for marketable executions before 7am ET, $0.0005 per share for non-marketable executions before 7am ET, $0.0005 per share for marketable executions after 7am ET, $0.00 per share for non-marketable executions after 7am ET. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>8.95</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.45</marketableLimitPct>
+          <nonMarketableLimitPct>15.12</nonMarketableLimitPct>
+          <otherPct>11.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7.19</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-20.0796</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>269.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>29.3365</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>103.77</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.6487</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to ARCA for execution through Apex Clearing Corporation (Apex), an order routing vehicle. Apex charges TZA a $0.0002 per share execution fee as an order routing vehicle to ARCA. Apex passes all rebates and fees from ARCA, the executing venue, to TZA. TZA provides Apex a retail attestation, as required by ARCA, to receive ARCA Retail Order Step-Up Tiers. TZA receives retail adjusted rebates from ARCA for executions that add liquidity and pays fees to ARCA for executions that take liquidity, via Apex pass through. ARCA rebates and fees are publicly available at: https://www.nyse.com/markets/nyse-arca/trading-info#trading-fees. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/
+
+Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to ARCA for execution is made by Instinet. TZA does not have a direct relationship with ARCA on this order flow and is not paid by ARCA for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu VEQ</name>
+          <orderPct>7.70</orderPct>
+          <marketPct>4.06</marketPct>
+          <marketableLimitPct>3.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.25</nonMarketableLimitPct>
+          <otherPct>16.70</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu VEQ (VEQ) for execution is made by Instinet. TZA does not have a direct relationship with VEQ on this order flow and is not paid by VEQ for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.97</ndoPct>
+      <ndoMarketPct>8.53</ndoMarketPct>
+      <ndoMarketableLimitPct>19.23</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>26.00</ndoNonmarketableLimitPct>
+      <ndoOtherPct>46.24</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>31.56</orderPct>
+          <marketPct>27.11</marketPct>
+          <marketableLimitPct>33.30</marketableLimitPct>
+          <nonMarketableLimitPct>29.43</nonMarketableLimitPct>
+          <otherPct>32.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11352.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.7822</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>42409.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.9302</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5905.01</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.8964</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>22405.13</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>6.5582</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Virtu Americas, LLC (Virtu) for execution. Virtu pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Virtu pays TZA $0.0018 per share for marketable and non-marketable executions priced &gt;=$1 per share during regular market hours. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for sub-dollar order executions. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for executions outside of regular market hours.  The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu for execution is made by Apex. TZA does not have a direct relationship with Virtu on this order flow and is not paid by Virtu for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>30.68</orderPct>
+          <marketPct>24.56</marketPct>
+          <marketableLimitPct>35.33</marketableLimitPct>
+          <nonMarketableLimitPct>33.34</nonMarketableLimitPct>
+          <otherPct>28.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6274.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.9784</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>28520.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.5349</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13149.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.0231</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>15148.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.0165</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to CITADEL SECURITIES LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA a rebate of $0.001 for marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.003 per share for non-marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.001 for stop order executions priced &gt;=$1. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for sub-dollar order executions. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for executions outside of regular market hours. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>19.18</orderPct>
+          <marketPct>20.25</marketPct>
+          <marketableLimitPct>17.30</marketableLimitPct>
+          <nonMarketableLimitPct>22.06</nonMarketableLimitPct>
+          <otherPct>18.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9466.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.4790</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>21615.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.4790</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9809.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.4790</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. For executions priced &gt;=$1 per share: TZA pays Lamp, $0.003 per share for marketable executions before 7am ET, $0.0005 per share for marketable executions outside of regular market hours (after 7am ET). Lamp pays TZA, $0.0011 per share for marketable executions during regular market hours, $0.003 per share for non-marketable executions during all trading hours. For executions priced &lt;$1 per share: TZA pays Lamp $0.003 per share for marketable executions before 7am ET, $0.0005 per share for non-marketable executions before 7am ET, $0.0005 per share for marketable executions after 7am ET, $0.00 per share for non-marketable executions after 7am ET. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>9.01</orderPct>
+          <marketPct>0.11</marketPct>
+          <marketableLimitPct>4.38</marketableLimitPct>
+          <nonMarketableLimitPct>14.61</nonMarketableLimitPct>
+          <otherPct>9.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-33.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-21.4880</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1968.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.2160</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11228.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.1798</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5692.43</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>28.4879</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to ARCA for execution through Apex Clearing Corporation (Apex), an order routing vehicle. Apex charges TZA a $0.0002 per share execution fee as an order routing vehicle to ARCA. Apex passes all rebates and fees from ARCA, the executing venue, to TZA. TZA provides Apex a retail attestation, as required by ARCA, to receive ARCA Retail Order Step-Up Tiers. TZA receives retail adjusted rebates from ARCA for executions that add liquidity and pays fees to ARCA for executions that take liquidity, via Apex pass through. ARCA rebates and fees are publicly available at: https://www.nyse.com/markets/nyse-arca/trading-info#trading-fees. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/
+
+Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to ARCA for execution is made by Instinet. TZA does not have a direct relationship with ARCA on this order flow and is not paid by ARCA for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.77</ndoPct>
+      <ndoMarketPct>7.99</ndoMarketPct>
+      <ndoMarketableLimitPct>32.47</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.92</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.62</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>41.11</orderPct>
+          <marketPct>40.61</marketPct>
+          <marketableLimitPct>38.38</marketableLimitPct>
+          <nonMarketableLimitPct>44.51</nonMarketableLimitPct>
+          <otherPct>25.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>407.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>24.5181</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>5081.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.7876</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2719.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.6132</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>123.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.1444</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail options order flow to Citadel Securities, LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA $0.25 per single-leg option contract execution for the underlying symbol SPY and $0.30 per single-leg option contract execution for all other underlying symbols. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>34.76</orderPct>
+          <marketPct>32.85</marketPct>
+          <marketableLimitPct>34.55</marketableLimitPct>
+          <nonMarketableLimitPct>38.35</nonMarketableLimitPct>
+          <otherPct>4.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>140.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.6398</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2046.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.6398</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1066.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.6398</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>6.57</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.6398</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail options order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Lamp pays TZA $0.12 per single-leg penny wide option contract execution and $0.45 per single-leg nickel wide option contract execution. TZA pays Lamp $0.55 per index option contract execution and $0.70 per SPX contract execution. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Jane Street Capital</name>
+          <orderPct>6.13</orderPct>
+          <marketPct>7.28</marketPct>
+          <marketableLimitPct>7.29</marketableLimitPct>
+          <nonMarketableLimitPct>4.03</nonMarketableLimitPct>
+          <otherPct>17.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>26.93</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.7720</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>409.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.8454</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>187.93</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.3007</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>88.37</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.9912</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Jane Street Capital for execution is made by Apex. TZA does not have a direct relationship with Jane Street on this order flow and is not paid by Jane Street for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash Financial Technologies</name>
+          <orderPct>5.79</orderPct>
+          <marketPct>6.31</marketPct>
+          <marketableLimitPct>6.49</marketableLimitPct>
+          <nonMarketableLimitPct>3.57</nonMarketableLimitPct>
+          <otherPct>22.30</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>30.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.5550</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>433.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.5850</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>159.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.7902</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>56.47</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.5520</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Dash Financial Technologies (Dash) for execution is made by Apex. TZA does not have a direct relationship with Dash on this order flow and is not paid by Dash for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>5.04</orderPct>
+          <marketPct>6.63</marketPct>
+          <marketableLimitPct>6.65</marketableLimitPct>
+          <nonMarketableLimitPct>4.34</nonMarketableLimitPct>
+          <otherPct>0.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>28.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.2294</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>275.88</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.8745</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>125.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.9917</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Global Execution Brokers LP (GEB) for execution is made by Apex. TZA does not have a direct relationship with GEB on this order flow and is not paid by GEB for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct>99.93</ndoPct>
+      <ndoMarketPct>29.43</ndoMarketPct>
+      <ndoMarketableLimitPct>9.41</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>26.51</ndoNonmarketableLimitPct>
+      <ndoOtherPct>34.66</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>30.68</orderPct>
+          <marketPct>31.54</marketPct>
+          <marketableLimitPct>38.73</marketableLimitPct>
+          <nonMarketableLimitPct>29.73</nonMarketableLimitPct>
+          <otherPct>28.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>292.78</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>16.6334</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>140.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>16.7732</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>156.26</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>18.0005</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>220.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.4460</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Virtu Americas, LLC (Virtu) for execution. Virtu pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Virtu pays TZA $0.0018 per share for marketable and non-marketable executions priced &gt;=$1 per share during regular market hours. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for sub-dollar order executions. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for executions outside of regular market hours.  The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu for execution is made by Apex. TZA does not have a direct relationship with Virtu on this order flow and is not paid by Virtu for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>25.90</orderPct>
+          <marketPct>24.38</marketPct>
+          <marketableLimitPct>27.49</marketableLimitPct>
+          <nonMarketableLimitPct>28.32</nonMarketableLimitPct>
+          <otherPct>24.90</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>136.19</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.0451</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>68.89</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.8376</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>209.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.5244</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>164.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.5837</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to CITADEL SECURITIES LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA a rebate of $0.001 for marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.003 per share for non-marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.001 for stop order executions priced &gt;=$1. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for sub-dollar order executions. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for executions outside of regular market hours. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>19.03</orderPct>
+          <marketPct>24.35</marketPct>
+          <marketableLimitPct>18.16</marketableLimitPct>
+          <nonMarketableLimitPct>20.29</nonMarketableLimitPct>
+          <otherPct>13.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>44.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.9452</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>64.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.9452</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>42.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.9452</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. For executions priced &gt;=$1 per share: TZA pays Lamp, $0.003 per share for marketable executions before 7am ET, $0.0005 per share for marketable executions outside of regular market hours (after 7am ET). Lamp pays TZA, $0.0011 per share for marketable executions during regular market hours, $0.003 per share for non-marketable executions during all trading hours. For executions priced &lt;$1 per share: TZA pays Lamp $0.003 per share for marketable executions before 7am ET, $0.0005 per share for non-marketable executions before 7am ET, $0.0005 per share for marketable executions after 7am ET, $0.00 per share for non-marketable executions after 7am ET. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>8.80</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.31</marketableLimitPct>
+          <nonMarketableLimitPct>21.55</nonMarketableLimitPct>
+          <otherPct>8.28</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.0482</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>119.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.3944</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>35.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.6614</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to ARCA for execution through Apex Clearing Corporation (Apex), an order routing vehicle. Apex charges TZA a $0.0002 per share execution fee as an order routing vehicle to ARCA. Apex passes all rebates and fees from ARCA, the executing venue, to TZA. TZA provides Apex a retail attestation, as required by ARCA, to receive ARCA Retail Order Step-Up Tiers. TZA receives retail adjusted rebates from ARCA for executions that add liquidity and pays fees to ARCA for executions that take liquidity, via Apex pass through. ARCA rebates and fees are publicly available at: https://www.nyse.com/markets/nyse-arca/trading-info#trading-fees. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/
+
+Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to ARCA for execution is made by Instinet. TZA does not have a direct relationship with ARCA on this order flow and is not paid by ARCA for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu VEQ</name>
+          <orderPct>8.32</orderPct>
+          <marketPct>3.62</marketPct>
+          <marketableLimitPct>4.32</marketableLimitPct>
+          <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+          <otherPct>19.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu VEQ (VEQ) for execution is made by Instinet. TZA does not have a direct relationship with VEQ on this order flow and is not paid by VEQ for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.94</ndoPct>
+      <ndoMarketPct>8.73</ndoMarketPct>
+      <ndoMarketableLimitPct>19.63</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>24.79</ndoNonmarketableLimitPct>
+      <ndoOtherPct>46.85</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>32.22</orderPct>
+          <marketPct>28.45</marketPct>
+          <marketableLimitPct>35.39</marketableLimitPct>
+          <nonMarketableLimitPct>30.93</nonMarketableLimitPct>
+          <otherPct>32.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9989.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0074</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>43250.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.4829</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5557.53</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9073</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>17188.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.6102</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Virtu Americas, LLC (Virtu) for execution. Virtu pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Virtu pays TZA $0.0018 per share for marketable and non-marketable executions priced &gt;=$1 per share during regular market hours. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for sub-dollar order executions. Virtu does not charge TZA a fee nor does Virtu pay TZA a rebate for executions outside of regular market hours.  The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Virtu for execution is made by Apex. TZA does not have a direct relationship with Virtu on this order flow and is not paid by Virtu for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>29.38</orderPct>
+          <marketPct>23.30</marketPct>
+          <marketableLimitPct>33.98</marketableLimitPct>
+          <nonMarketableLimitPct>32.65</nonMarketableLimitPct>
+          <otherPct>26.85</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6285.37</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>7.3728</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>25053.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.5482</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10906.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>13.7826</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>13127.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.8240</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to CITADEL SECURITIES LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA a rebate of $0.001 for marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.003 per share for non-marketable executions priced &gt;=$1 per share during regular market hours. Citadel pays TZA a rebate of $0.001 for stop order executions priced &gt;=$1. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for sub-dollar order executions. Citadel does not charge TZA a fee nor does Citadel pay TZA a rebate for executions outside of regular market hours. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 75/25 profit sharing agreement with Apex as an order routing vehicle on only non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>19.43</orderPct>
+          <marketPct>20.76</marketPct>
+          <marketableLimitPct>17.59</marketableLimitPct>
+          <nonMarketableLimitPct>21.83</nonMarketableLimitPct>
+          <otherPct>18.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8325.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.9452</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20777.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.9452</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8984.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>10.9452</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. For executions priced &gt;=$1 per share: TZA pays Lamp, $0.003 per share for marketable executions before 7am ET, $0.0005 per share for marketable executions outside of regular market hours (after 7am ET). Lamp pays TZA, $0.0011 per share for marketable executions during regular market hours, $0.003 per share for non-marketable executions during all trading hours. For executions priced &lt;$1 per share: TZA pays Lamp $0.003 per share for marketable executions before 7am ET, $0.0005 per share for non-marketable executions before 7am ET, $0.0005 per share for marketable executions after 7am ET, $0.00 per share for non-marketable executions after 7am ET. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE Arca, Inc.</name>
+          <orderPct>9.35</orderPct>
+          <marketPct>0.16</marketPct>
+          <marketableLimitPct>5.03</marketableLimitPct>
+          <nonMarketableLimitPct>14.06</nonMarketableLimitPct>
+          <otherPct>10.37</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-61.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-25.0359</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1824.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-9.8409</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12205.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.6022</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4043.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>26.8586</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail equity order flow to ARCA for execution through Apex Clearing Corporation (Apex), an order routing vehicle. Apex charges TZA a $0.0002 per share execution fee as an order routing vehicle to ARCA. Apex passes all rebates and fees from ARCA, the executing venue, to TZA. TZA provides Apex a retail attestation, as required by ARCA, to receive ARCA Retail Order Step-Up Tiers. TZA receives retail adjusted rebates from ARCA for executions that add liquidity and pays fees to ARCA for executions that take liquidity, via Apex pass through. ARCA rebates and fees are publicly available at: https://www.nyse.com/markets/nyse-arca/trading-info#trading-fees. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/
+
+Instinet, LLC (Instinet) is an order routing vehicle, routing only retail equity orders on behalf of TZA to executing venues. The decision to route this order flow to ARCA for execution is made by Instinet. TZA does not have a direct relationship with ARCA on this order flow and is not paid by ARCA for the execution. Instinet pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only retail executions, in each month. TZA receives $0.001 per share for marketable executions and $0.003 per share for non-marketable executions from Instinet, as an order routing vehicle on non-directed retail order flow. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Instinet’s routing arrangements, please visit https://www.instinet.com/order-disclosures</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>99.91</ndoPct>
+      <ndoMarketPct>17.10</ndoMarketPct>
+      <ndoMarketableLimitPct>23.17</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>57.47</ndoNonmarketableLimitPct>
+      <ndoOtherPct>2.27</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>35.80</orderPct>
+          <marketPct>37.09</marketPct>
+          <marketableLimitPct>33.04</marketableLimitPct>
+          <nonMarketableLimitPct>36.28</nonMarketableLimitPct>
+          <otherPct>42.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>708.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>26.1350</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1791.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.3077</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1302.72</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.3842</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>129.61</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.8187</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail options order flow to Citadel Securities, LLC (Citadel) for execution. Citadel pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Citadel pays TZA $0.25 per single-leg option contract execution for the underlying symbol SPY and $0.30 per single-leg option contract execution for all other underlying symbols. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.
+
+Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Citadel for execution is made by Apex. TZA does not have a direct relationship with Citadel on this order flow and is not paid by Citadel for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Lampost Capital, L.C.</name>
+          <orderPct>31.11</orderPct>
+          <marketPct>27.42</marketPct>
+          <marketableLimitPct>28.62</marketableLimitPct>
+          <nonMarketableLimitPct>32.99</nonMarketableLimitPct>
+          <otherPct>36.84</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>270.97</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.8788</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>910.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.8788</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>482.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.8788</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>14.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.8788</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (TZA) routes only retail options order flow to Lampost Capital L.C. (Lamp) for execution. Lamp pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. Lamp pays TZA $0.12 per single-leg penny wide option contract execution and $0.45 per single-leg nickel wide option contract execution. TZA pays Lamp $0.55 per index option contract execution and $0.70 per SPX contract execution. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>RQD CLEARING, LLC</name>
+          <orderPct>14.80</orderPct>
+          <marketPct>12.96</marketPct>
+          <marketableLimitPct>14.94</marketableLimitPct>
+          <nonMarketableLimitPct>15.87</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>TradeZero America, Inc. (“TZA”) routes only retail options order flow to RQD Clearing, LLC (“RQD") for execution. RQD pays TZA a rebate or charges TZA a fee based on a fixed rate card that applies to only executions, in each month. RQD pays TZA $0.25 per single-leg option contract execution for the underlying symbol SPY and $0.35 per single-leg penny wide option contract execution. RQD pays TZA $0.50 per single-leg nickel wide option contract execution. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash Financial Technologies</name>
+          <orderPct>5.01</orderPct>
+          <marketPct>6.08</marketPct>
+          <marketableLimitPct>6.70</marketableLimitPct>
+          <nonMarketableLimitPct>3.98</nonMarketableLimitPct>
+          <otherPct>6.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>61.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.7238</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>245.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.7948</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>60.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.0696</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>24.62</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>14.4853</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Dash Financial Technologies (Dash) for execution is made by Apex. TZA does not have a direct relationship with Dash on this order flow and is not paid by Dash for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>4.93</orderPct>
+          <marketPct>7.98</marketPct>
+          <marketableLimitPct>5.59</marketableLimitPct>
+          <nonMarketableLimitPct>3.86</nonMarketableLimitPct>
+          <otherPct>2.26</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>63.75</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.6332</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>134.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>10.9258</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>112.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0319</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.3276</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Apex Clearing Corporation (Apex) is an order routing vehicle, routing only retail option orders on behalf of TZA to executing venues. The decision to route this order flow to Global Execution Brokers LP (GEB) for execution is made by Apex. TZA does not have a direct relationship with GEB on this order flow and is not paid by GEB for the execution. TZA has a fixed monthly 50/50 profit sharing agreement with Apex as an order routing vehicle on non-directed retail order flow. TZA is responsible for paying all execution fees, cancellation fees, taker fees, exchange fees, third party fees, or any fees creditable to TZA. The arrangements are not contingent on any volume or order-based threshold being reached or exceeded. For further information regarding Apex’s routing arrangements, please visit https://apexfintechsolutions.com/legal/disclosures/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

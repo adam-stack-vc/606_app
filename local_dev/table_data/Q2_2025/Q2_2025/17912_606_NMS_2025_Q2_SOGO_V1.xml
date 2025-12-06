@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>SOGO</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-28T16:59:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.11</ndoMarketPct>
+      <ndoMarketableLimitPct>11.58</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>67.83</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.49</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>45.08</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>17.97</marketableLimitPct>
+          <nonMarketableLimitPct>53.67</nonMarketableLimitPct>
+          <otherPct>52.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.2388</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3746.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>30.4535</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2.07</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Cboe EDGX for directing listed equity order flow to this venue. When adding liquidity SogoTrade receives a base retail rate of $0.0032 per share for securities priced at or above $1.00 or a rate of $0.00003 per share for securities priced below $1.00. The rate SogoTrade receives is affected by the following tiers: (1) a rate of $0.0034 per share for an average daily volume (“ADV”) equal or greater than 0.25% of the total consolidated volume (“TCV”) and an average daily added volume (“ADAV”) equal or greater to 5,000,000; or (2) a rate of $0.0037 per share for an ADV equal or greater than 0.40% of the TCV. 
+ 
+SogoTrade pays a rate of $0.003 per share when removing liquidity for securities priced at or above $1.00 or 0.3% of the dollar value for securities priced below $1.00. SogoTrade does not pay a fee for Day Regular Hours Only or Good to Day orders that remove liquidity on arrival.  
+ 
+The above rate is based upon the fee schedule effective at the end of the relevant quarter. Cboe’s fee schedule is subject to change. The most current schedule can be seen at https://www.cboe.com/us/equities/membership/fee_schedule/edgx/. SogoTrade uses the ZA, ZM, ZO, and ZR fee codes.  
+ 
+The net payment varies based on the size and type of security at the time of order execution. Fees are paid based on the size and type of security at the time of order execution. SogoTrade’s arrangement with Cboe EDGX is not based on a minimum order flow. SogoTrade receives remuneration in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>28.83</orderPct>
+          <marketPct>55.81</marketPct>
+          <marketableLimitPct>42.51</marketableLimitPct>
+          <nonMarketableLimitPct>23.96</nonMarketableLimitPct>
+          <otherPct>25.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>194.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>494.91</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>26.49</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Virtu Americas for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share executed at Virtu Americas. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Virtu Americas is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Virtu Americas in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some equity orders to Apex Clearing Corporation. Apex may then route these orders to Virtu Americas, among other venues. SogoTrade receives payment from Apex for directing equity order flow under a fully disclosed clearing agreement.  Depending on Apex’s internal routing system, the following tiers apply: (1) for monthly shares between 1 and 10,000,000, SogoTrade pays Apex an amount of $0.0003 per share and receive a payment of 60% of the payment for order flow; (2) for monthly shares between 10,000,001 and 20,000,000, SogoTrade pays Apex an amount of $0.0002 per share and receive a payment of 70% of the payment for order flow; and (3) for monthly shares exceeding 20,000,000, SogoTrade pays Apex an amount of $0.0001 per share and receive a payment from Apex of 80% of the payment for order flow. On other orders, as determined by Apex’s internal routing system, SogoTrade pays Apex a flat amount of $0.0025 per share without receiving any corresponding payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>23.32</orderPct>
+          <marketPct>44.19</marketPct>
+          <marketableLimitPct>33.55</marketableLimitPct>
+          <nonMarketableLimitPct>19.58</nonMarketableLimitPct>
+          <otherPct>20.63</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>142.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9678</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>266.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.8899</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>90.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.4421</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>30.55</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.3830</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel Securities for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share for marketable orders and $0.0032 for non-marketable orders executed at Citadel Securities. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Citadel Securities is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel Securities and is outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>7.02</ndoMarketPct>
+      <ndoMarketableLimitPct>15.18</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>65.64</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.16</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>33.98</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>9.43</marketableLimitPct>
+          <nonMarketableLimitPct>42.75</nonMarketableLimitPct>
+          <otherPct>36.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>42.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.3308</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>13264.39</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.1238</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Cboe EDGX for directing listed equity order flow to this venue. When adding liquidity SogoTrade receives a base retail rate of $0.0032 per share for securities priced at or above $1.00 or a rate of $0.00003 per share for securities priced below $1.00. The rate SogoTrade receives is affected by the following tiers: (1) a rate of $0.0034 per share for an average daily volume (“ADV”) equal or greater than 0.30% of the total consolidated volume (“TCV”) and an average daily added volume (“ADAV”) equal or greater to 20,000,000; or (2) a rate of $0.0037 per share for an ADV equal or greater than 0.40% of the TCV. 
+ 
+SogoTrade pays a rate of $0.003 per share when removing liquidity for securities priced at or above $1.00 or 0.3% of the dollar value for securities priced below $1.00. SogoTrade does not pay a fee for Day Regular Hours Only or Good to Day orders that remove liquidity on arrival.  
+ 
+The above rate is based upon the fee schedule effective at the end of the relevant quarter. Cboe’s fee schedule is subject to change. The most current schedule can be seen at https://www.cboe.com/us/equities/membership/fee_schedule/edgx/. SogoTrade uses the ZA, ZM, ZO, and ZR fee codes.  
+ 
+The net payment varies based on the size and type of security at the time of order execution. Fees are paid based on the size and type of security at the time of order execution. SogoTrade’s arrangement with Cboe EDGX is not based on a minimum order flow. SogoTrade receives remuneration in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>33.14</orderPct>
+          <marketPct>52.88</marketPct>
+          <marketableLimitPct>42.50</marketableLimitPct>
+          <nonMarketableLimitPct>28.83</nonMarketableLimitPct>
+          <otherPct>33.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1427.76</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>11.9434</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8711.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.9622</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>202.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>11.2351</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>189.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.6055</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Virtu Americas for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share executed at Virtu Americas. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Virtu Americas is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Virtu Americas in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some equity orders to Apex Clearing Corporation. Apex may then route these orders to Virtu Americas, among other venues. SogoTrade receives payment from Apex for directing equity order flow under a fully disclosed clearing agreement.  Depending on Apex’s internal routing system, the following tiers apply: (1) for monthly shares between 1 and 10,000,000, SogoTrade pays Apex an amount of $0.0003 per share and receive a payment of 60% of the payment for order flow; (2) for monthly shares between 10,000,001 and 20,000,000, SogoTrade pays Apex an amount of $0.0002 per share and receive a payment of 70% of the payment for order flow; and (3) for monthly shares exceeding 20,000,000, SogoTrade pays Apex an amount of $0.0001 per share and receive a payment from Apex of 80% of the payment for order flow. On other orders, as determined by Apex’s internal routing system, SogoTrade pays Apex a flat amount of $0.0025 per share without receiving any corresponding payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>30.12</orderPct>
+          <marketPct>47.12</marketPct>
+          <marketableLimitPct>42.39</marketableLimitPct>
+          <nonMarketableLimitPct>25.63</nonMarketableLimitPct>
+          <otherPct>29.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>947.85</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.3959</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7427.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2207</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>945.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.5025</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>135.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.9640</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel Securities for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share for marketable limit orders and $0.0032 per share for non-marketable limit orders executed at Citadel Securities. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Citadel Securities is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel Securities in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>54.10</ndoMarketPct>
+      <ndoMarketableLimitPct>5.21</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>30.96</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.73</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>62.83</orderPct>
+          <marketPct>56.39</marketPct>
+          <marketableLimitPct>57.84</marketableLimitPct>
+          <nonMarketableLimitPct>75.66</nonMarketableLimitPct>
+          <otherPct>60.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4350.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.3551</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1512.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>31.7720</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1664.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.5849</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1079.95</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.1999</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel for directing listed option order flow to this venue. SogoTrade receives a payment of $0.30 per contract with a penny spread and $0.80 per contract with a nickel spread. SogoTrade routes U.S.-listed option orders to Citadel to facilitate liquidity provision and price improvement opportunities for its customers. Citadel generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Citadel is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some option orders to Apex Clearing Corporation. Apex may then route these orders to Citadel, among other venues. SogoTrade receives payment from Apex for directing option order flow under a fully disclosed clearing agreement. The following tiers apply: (1) for monthly contracts between 1 and 25,000, SogoTrade pays Apex an amount of $0.03 per contract and receive a payment of 50% of the payment for order flow; and (2) for monthly contracts exceeding 25,000, SogoTrade pays Apex an amount of $0.03 per contract and receive 70% of the payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>31.61</orderPct>
+          <marketPct>35.44</marketPct>
+          <marketableLimitPct>33.79</marketableLimitPct>
+          <nonMarketableLimitPct>22.65</nonMarketableLimitPct>
+          <otherPct>37.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2715.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.4596</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1099.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>44.1737</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1312.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.0837</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1267.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>35.1623</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Wolverine for directing listed option order flow to this venue. SogoTrade receives a payment of $0.30 per contract with a penny spread and $0.80 per contract with a nickel spread. SogoTrade routes U.S.-listed options orders to Wolverine to facilitate liquidity provision and price improvement opportunities for its customers. Wolverine generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Wolverine is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Wolverine in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GEBSR</name>
+          <orderPct>5.09</orderPct>
+          <marketPct>7.45</marketPct>
+          <marketableLimitPct>7.53</marketableLimitPct>
+          <nonMarketableLimitPct>1.59</nonMarketableLimitPct>
+          <otherPct>1.74</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>499.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>23.8443</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>177.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.4369</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>255.90</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>36.0423</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Global Execution Brokers for directing listed option order flow to this venue. SogoTrade receives a payment of $0.35 per contract with a penny spread and $0.65 per contract with a nickel spread. SogoTrade routes U.S.-listed options orders to Global Execution Brokers to facilitate liquidity provision and price improvement opportunities for its customers. Global Execution Brokers generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Global Execution Brokers is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Global Execution Brokers in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.06</ndoMarketPct>
+      <ndoMarketableLimitPct>10.50</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>70.53</ndoNonmarketableLimitPct>
+      <ndoOtherPct>10.91</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>52.42</orderPct>
+          <marketPct>44.70</marketPct>
+          <marketableLimitPct>35.36</marketableLimitPct>
+          <nonMarketableLimitPct>55.06</nonMarketableLimitPct>
+          <otherPct>57.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>124.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.9258</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>219.96</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.7763</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>204.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.1693</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>39.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>16.7541</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel Securities for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share for marketable orders and $0.0032 for non-marketable orders executed at Citadel Securities. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Citadel Securities is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel Securities and is outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>33.24</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>17.61</marketableLimitPct>
+          <nonMarketableLimitPct>40.46</nonMarketableLimitPct>
+          <otherPct>26.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-2.1967</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2320.13</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.3288</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.59</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Cboe EDGX for directing listed equity order flow to this venue. When adding liquidity SogoTrade receives a base retail rate of $0.0032 per share for securities priced at or above $1.00 or a rate of $0.00003 per share for securities priced below $1.00. The rate SogoTrade receives is affected by the following tiers: (1) a rate of $0.0034 per share for an average daily volume (“ADV”) equal or greater than 0.25% of the total consolidated volume (“TCV”) and an average daily added volume (“ADAV”) equal or greater to 5,000,000; or (2) a rate of $0.0037 per share for an ADV equal or greater than 0.40% of the TCV. 
+ 
+SogoTrade pays a rate of $0.003 per share when removing liquidity for securities priced at or above $1.00 or 0.3% of the dollar value for securities priced below $1.00. SogoTrade does not pay a fee for Day Regular Hours Only or Good to Day orders that remove liquidity on arrival.  
+ 
+The above rate is based upon the fee schedule effective at the end of the relevant quarter. Cboe’s fee schedule is subject to change. The most current schedule can be seen at https://www.cboe.com/us/equities/membership/fee_schedule/edgx/. SogoTrade uses the ZA, ZM, ZO, and ZR fee codes.  
+ 
+The net payment varies based on the size and type of security at the time of order execution. Fees are paid based on the size and type of security at the time of order execution. SogoTrade’s arrangement with Cboe EDGX is not based on a minimum order flow. SogoTrade receives remuneration in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>11.67</orderPct>
+          <marketPct>55.30</marketPct>
+          <marketableLimitPct>39.47</marketableLimitPct>
+          <nonMarketableLimitPct>1.99</nonMarketableLimitPct>
+          <otherPct>15.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>226.38</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>398.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.2770</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>38.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>28.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>11.9973</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Virtu Americas for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share executed at Virtu Americas. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Virtu Americas is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Virtu Americas in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some equity orders to Apex Clearing Corporation. Apex may then route these orders to Virtu Americas, among other venues. SogoTrade receives payment from Apex for directing equity order flow under a fully disclosed clearing agreement.  Depending on Apex’s internal routing system, the following tiers apply: (1) for monthly shares between 1 and 10,000,000, SogoTrade pays Apex an amount of $0.0003 per share and receive a payment of 60% of the payment for order flow; (2) for monthly shares between 10,000,001 and 20,000,000, SogoTrade pays Apex an amount of $0.0002 per share and receive a payment of 70% of the payment for order flow; and (3) for monthly shares exceeding 20,000,000, SogoTrade pays Apex an amount of $0.0001 per share and receive a payment from Apex of 80% of the payment for order flow. On other orders, as determined by Apex’s internal routing system, SogoTrade pays Apex a flat amount of $0.0025 per share without receiving any corresponding payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>5.66</ndoMarketPct>
+      <ndoMarketableLimitPct>14.70</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>66.99</ndoNonmarketableLimitPct>
+      <ndoOtherPct>12.65</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>56.62</orderPct>
+          <marketPct>48.21</marketPct>
+          <marketableLimitPct>47.27</marketableLimitPct>
+          <nonMarketableLimitPct>58.74</nonMarketableLimitPct>
+          <otherPct>60.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>738.08</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.6732</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8065.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.9611</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2255.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.1039</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>172.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>13.0227</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel Securities for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share for marketable limit orders and $0.0032 per share for non-marketable limit orders executed at Citadel Securities. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Citadel Securities is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel Securities in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>29.96</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.65</marketableLimitPct>
+          <nonMarketableLimitPct>37.01</nonMarketableLimitPct>
+          <otherPct>34.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>45.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.4152</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12761.24</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>26.9425</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Cboe EDGX for directing listed equity order flow to this venue. When adding liquidity SogoTrade receives a base retail rate of $0.0032 per share for securities priced at or above $1.00 or a rate of $0.00003 per share for securities priced below $1.00. The rate SogoTrade receives is affected by the following tiers: (1) a rate of $0.0034 per share for an average daily volume (“ADV”) equal or greater than 0.30% of the total consolidated volume (“TCV”) and an average daily added volume (“ADAV”) equal or greater to 20,000,000; or (2) a rate of $0.0037 per share for an ADV equal or greater than 0.40% of the TCV. 
+ 
+SogoTrade pays a rate of $0.003 per share when removing liquidity for securities priced at or above $1.00 or 0.3% of the dollar value for securities priced below $1.00. SogoTrade does not pay a fee for Day Regular Hours Only or Good to Day orders that remove liquidity on arrival.  
+ 
+The above rate is based upon the fee schedule effective at the end of the relevant quarter. Cboe’s fee schedule is subject to change. The most current schedule can be seen at https://www.cboe.com/us/equities/membership/fee_schedule/edgx/. SogoTrade uses the ZA, ZM, ZO, and ZR fee codes.  
+ 
+The net payment varies based on the size and type of security at the time of order execution. Fees are paid based on the size and type of security at the time of order execution. SogoTrade’s arrangement with Cboe EDGX is not based on a minimum order flow. SogoTrade receives remuneration in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>11.17</orderPct>
+          <marketPct>51.79</marketPct>
+          <marketableLimitPct>42.05</marketableLimitPct>
+          <nonMarketableLimitPct>2.03</nonMarketableLimitPct>
+          <otherPct>5.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1137.61</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8782.03</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.9992</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>203.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>196.74</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Virtu Americas for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share executed at Virtu Americas. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Virtu Americas is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Virtu Americas in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some equity orders to Apex Clearing Corporation. Apex may then route these orders to Virtu Americas, among other venues. SogoTrade receives payment from Apex for directing equity order flow under a fully disclosed clearing agreement.  Depending on Apex’s internal routing system, the following tiers apply: (1) for monthly shares between 1 and 10,000,000, SogoTrade pays Apex an amount of $0.0003 per share and receive a payment of 60% of the payment for order flow; (2) for monthly shares between 10,000,001 and 20,000,000, SogoTrade pays Apex an amount of $0.0002 per share and receive a payment of 70% of the payment for order flow; and (3) for monthly shares exceeding 20,000,000, SogoTrade pays Apex an amount of $0.0001 per share and receive a payment from Apex of 80% of the payment for order flow. On other orders, as determined by Apex’s internal routing system, SogoTrade pays Apex a flat amount of $0.0025 per share without receiving any corresponding payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>49.86</ndoMarketPct>
+      <ndoMarketableLimitPct>5.20</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>33.86</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.08</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>64.10</orderPct>
+          <marketPct>56.01</marketPct>
+          <marketableLimitPct>57.37</marketableLimitPct>
+          <nonMarketableLimitPct>78.99</nonMarketableLimitPct>
+          <otherPct>58.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>4058.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.3798</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1782.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.3696</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1818.82</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.7473</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1867.02</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.1330</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel for directing listed option order flow to this venue. SogoTrade receives a payment of $0.30 per contract with a penny spread and $0.80 per contract with a nickel spread. SogoTrade routes U.S.-listed option orders to Citadel to facilitate liquidity provision and price improvement opportunities for its customers. Citadel generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Citadel is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some option orders to Apex Clearing Corporation. Apex may then route these orders to Citadel, among other venues. SogoTrade receives payment from Apex for directing option order flow under a fully disclosed clearing agreement. The following tiers apply: (1) for monthly contracts between 1 and 25,000, SogoTrade pays Apex an amount of $0.03 per contract and receive a payment of 50% of the payment for order flow; and (2) for monthly contracts exceeding 25,000, SogoTrade pays Apex an amount of $0.03 per contract and receive 70% of the payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>30.61</orderPct>
+          <marketPct>35.45</marketPct>
+          <marketableLimitPct>34.58</marketableLimitPct>
+          <nonMarketableLimitPct>19.92</nonMarketableLimitPct>
+          <otherPct>39.65</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2519.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.3454</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1136.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>46.0427</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>976.66</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.5152</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2438.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>37.2472</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Wolverine for directing listed option order flow to this venue. SogoTrade receives a payment of $0.30 per contract with a penny spread and $0.80 per contract with a nickel spread. SogoTrade routes U.S.-listed options orders to Wolverine to facilitate liquidity provision and price improvement opportunities for its customers. Wolverine generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Wolverine is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Wolverine in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>7.17</ndoMarketPct>
+      <ndoMarketableLimitPct>7.44</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>71.61</ndoNonmarketableLimitPct>
+      <ndoOtherPct>13.78</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>48.79</orderPct>
+          <marketPct>40.69</marketPct>
+          <marketableLimitPct>37.54</marketableLimitPct>
+          <nonMarketableLimitPct>52.45</nonMarketableLimitPct>
+          <otherPct>40.05</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>41.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.7674</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>53.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.2359</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>93.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>27.2722</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>63.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.0477</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel Securities for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share for marketable orders and $0.0032 for non-marketable orders executed at Citadel Securities. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Citadel Securities is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel Securities and is outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>40.29</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>12.61</marketableLimitPct>
+          <nonMarketableLimitPct>45.99</nonMarketableLimitPct>
+          <otherPct>46.60</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-0.5474</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1836.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>31.4633</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.22</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Cboe EDGX for directing listed equity order flow to this venue. When adding liquidity SogoTrade receives a base retail rate of $0.0032 per share for securities priced at or above $1.00 or a rate of $0.00003 per share for securities priced below $1.00. The rate SogoTrade receives is affected by the following tiers: (1) a rate of $0.0034 per share for an average daily volume (“ADV”) equal or greater than 0.25% of the total consolidated volume (“TCV”) and an average daily added volume (“ADAV”) equal or greater to 5,000,000; or (2) a rate of $0.0037 per share for an ADV equal or greater than 0.40% of the TCV. 
+ 
+SogoTrade pays a rate of $0.003 per share when removing liquidity for securities priced at or above $1.00 or 0.3% of the dollar value for securities priced below $1.00. SogoTrade does not pay a fee for Day Regular Hours Only or Good to Day orders that remove liquidity on arrival.  
+ 
+The above rate is based upon the fee schedule effective at the end of the relevant quarter. Cboe’s fee schedule is subject to change. The most current schedule can be seen at https://www.cboe.com/us/equities/membership/fee_schedule/edgx/. SogoTrade uses the ZA, ZM, ZO, and ZR fee codes.  
+ 
+The net payment varies based on the size and type of security at the time of order execution. Fees are paid based on the size and type of security at the time of order execution. SogoTrade’s arrangement with Cboe EDGX is not based on a minimum order flow. SogoTrade receives remuneration in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>9.43</orderPct>
+          <marketPct>59.31</marketPct>
+          <marketableLimitPct>42.69</marketableLimitPct>
+          <nonMarketableLimitPct>0.49</nonMarketableLimitPct>
+          <otherPct>12.01</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>112.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>96.51</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7.17</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>37.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Virtu Americas for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share executed at Virtu Americas. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Virtu Americas is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Virtu Americas in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some equity orders to Apex Clearing Corporation. Apex may then route these orders to Virtu Americas, among other venues. SogoTrade receives payment from Apex for directing equity order flow under a fully disclosed clearing agreement.  Depending on Apex’s internal routing system, the following tiers apply: (1) for monthly shares between 1 and 10,000,000, SogoTrade pays Apex an amount of $0.0003 per share and receive a payment of 60% of the payment for order flow; (2) for monthly shares between 10,000,001 and 20,000,000, SogoTrade pays Apex an amount of $0.0002 per share and receive a payment of 70% of the payment for order flow; and (3) for monthly shares exceeding 20,000,000, SogoTrade pays Apex an amount of $0.0001 per share and receive a payment from Apex of 80% of the payment for order flow. On other orders, as determined by Apex’s internal routing system, SogoTrade pays Apex a flat amount of $0.0025 per share without receiving any corresponding payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>6.67</ndoMarketPct>
+      <ndoMarketableLimitPct>15.20</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>68.05</ndoNonmarketableLimitPct>
+      <ndoOtherPct>10.07</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>56.78</orderPct>
+          <marketPct>51.97</marketPct>
+          <marketableLimitPct>44.44</marketableLimitPct>
+          <nonMarketableLimitPct>58.58</nonMarketableLimitPct>
+          <otherPct>66.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>981.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.2879</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7395.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>8.6204</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2159.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.3793</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>166.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>7.9086</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel Securities for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share for marketable limit orders and $0.0032 per share for non-marketable limit orders executed at Citadel Securities. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Citadel Securities is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel Securities in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>29.44</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>7.79</marketableLimitPct>
+          <nonMarketableLimitPct>37.52</nonMarketableLimitPct>
+          <otherPct>27.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>81.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.0474</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>17100.44</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>28.1587</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-0.80</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-30.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Cboe EDGX for directing listed equity order flow to this venue. When adding liquidity SogoTrade receives a base retail rate of $0.0032 per share for securities priced at or above $1.00 or a rate of $0.00003 per share for securities priced below $1.00. The rate SogoTrade receives is affected by the following tiers: (1) a rate of $0.0034 per share for an average daily volume (“ADV”) equal or greater than 0.30% of the total consolidated volume (“TCV”) and an average daily added volume (“ADAV”) equal or greater to 20,000,000; or (2) a rate of $0.0037 per share for an ADV equal or greater than 0.40% of the TCV. 
+ 
+SogoTrade pays a rate of $0.003 per share when removing liquidity for securities priced at or above $1.00 or 0.3% of the dollar value for securities priced below $1.00. SogoTrade does not pay a fee for Day Regular Hours Only or Good to Day orders that remove liquidity on arrival.  
+ 
+The above rate is based upon the fee schedule effective at the end of the relevant quarter. Cboe’s fee schedule is subject to change. The most current schedule can be seen at https://www.cboe.com/us/equities/membership/fee_schedule/edgx/. SogoTrade uses the ZA, ZM, ZO, and ZR fee codes.  
+ 
+The net payment varies based on the size and type of security at the time of order execution. Fees are paid based on the size and type of security at the time of order execution. SogoTrade’s arrangement with Cboe EDGX is not based on a minimum order flow. SogoTrade receives remuneration in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>11.06</orderPct>
+          <marketPct>48.03</marketPct>
+          <marketableLimitPct>41.01</marketableLimitPct>
+          <nonMarketableLimitPct>1.50</nonMarketableLimitPct>
+          <otherPct>5.99</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1165.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>9502.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.9691</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>170.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7.17</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Virtu Americas for directing listed equity order flow to this venue. SogoTrade receives a payment of $0.0010 per share executed at Virtu Americas. The net payment varies based on the size and type of security at the time of order execution. Any difference in average net per share payments paid by market makers is due to the various types of orders and respective quantities they handle. SogoTrade’s arrangement with Virtu Americas is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Virtu Americas in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some equity orders to Apex Clearing Corporation. Apex may then route these orders to Virtu Americas, among other venues. SogoTrade receives payment from Apex for directing equity order flow under a fully disclosed clearing agreement.  Depending on Apex’s internal routing system, the following tiers apply: (1) for monthly shares between 1 and 10,000,000, SogoTrade pays Apex an amount of $0.0003 per share and receive a payment of 60% of the payment for order flow; (2) for monthly shares between 10,000,001 and 20,000,000, SogoTrade pays Apex an amount of $0.0002 per share and receive a payment of 70% of the payment for order flow; and (3) for monthly shares exceeding 20,000,000, SogoTrade pays Apex an amount of $0.0001 per share and receive a payment from Apex of 80% of the payment for order flow. On other orders, as determined by Apex’s internal routing system, SogoTrade pays Apex a flat amount of $0.0025 per share without receiving any corresponding payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>48.72</ndoMarketPct>
+      <ndoMarketableLimitPct>5.30</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>36.50</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.48</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>64.68</orderPct>
+          <marketPct>56.41</marketPct>
+          <marketableLimitPct>52.82</marketableLimitPct>
+          <nonMarketableLimitPct>78.83</nonMarketableLimitPct>
+          <otherPct>59.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3838.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.5503</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1402.53</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>47.7051</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1692.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.9073</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1387.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.9902</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Citadel for directing listed option order flow to this venue. SogoTrade receives a payment of $0.30 per contract with a penny spread and $0.80 per contract with a nickel spread. SogoTrade routes U.S.-listed option orders to Citadel to facilitate liquidity provision and price improvement opportunities for its customers. Citadel generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Citadel is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Citadel in the amounts outlined in the above Public Order Routing Report disclosures.
+
+SogoTrade routes some option orders to Apex Clearing Corporation. Apex may then route these orders to Citadel, among other venues. SogoTrade receives payment from Apex for directing option order flow under a fully disclosed clearing agreement. The following tiers apply: (1) for monthly contracts between 1 and 25,000, SogoTrade pays Apex an amount of $0.03 per contract and receive a payment of 50% of the payment for order flow; and (2) for monthly contracts exceeding 25,000, SogoTrade pays Apex an amount of $0.03 per contract and receive 70% of the payment for order flow.
+
+SogoTrade's agreement with Apex is not based on volume thresholds or a minimum order flow. Apex’s order routing information is viewable at https://public.s3.com/rule606/apex/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Wolverine Execution Services, LLC</name>
+          <orderPct>30.06</orderPct>
+          <marketPct>35.10</marketPct>
+          <marketableLimitPct>38.16</marketableLimitPct>
+          <nonMarketableLimitPct>19.94</nonMarketableLimitPct>
+          <otherPct>38.63</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2520.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>30.8763</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>525.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>36.9775</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1265.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.8250</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2607.65</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>42.8397</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>SogoTrade receives payment from Wolverine for directing listed option order flow to this venue. SogoTrade receives a payment of $0.30 per contract with a penny spread and $0.80 per contract with a nickel spread. SogoTrade routes U.S.-listed options orders to Wolverine to facilitate liquidity provision and price improvement opportunities for its customers. Wolverine generates revenue from executing or facilitating the execution of SogoTrade customer orders. SogoTrade’s arrangement with Wolverine is not based on volume thresholds, tiered payment schedules, or a minimum order flow. SogoTrade receives remuneration from Wolverine in the amounts outlined in the above Public Order Routing Report disclosures.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

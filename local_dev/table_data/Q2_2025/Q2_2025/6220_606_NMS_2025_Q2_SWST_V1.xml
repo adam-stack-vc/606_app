@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Hilltop Securities</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-30T21:31:20Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct>99.83</ndoPct>
+      <ndoMarketPct>90.75</ndoMarketPct>
+      <ndoMarketableLimitPct>2.04</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.99</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.23</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>20.60</orderPct>
+          <marketPct>19.62</marketPct>
+          <marketableLimitPct>22.63</marketableLimitPct>
+          <nonMarketableLimitPct>32.20</nonMarketableLimitPct>
+          <otherPct>33.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>243.83</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>56.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.9127</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>43.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>10.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.6964</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005 for shares priced above $3.  No payment is received for odd lots.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.16</orderPct>
+          <marketPct>19.49</marketPct>
+          <marketableLimitPct>19.47</marketableLimitPct>
+          <nonMarketableLimitPct>30.05</nonMarketableLimitPct>
+          <otherPct>23.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>218.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.9886</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>32.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.7001</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>33.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.6864</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.13</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.2000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>18.87</orderPct>
+          <marketPct>19.73</marketPct>
+          <marketableLimitPct>17.89</marketableLimitPct>
+          <nonMarketableLimitPct>6.44</nonMarketableLimitPct>
+          <otherPct>17.03</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>198.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8070</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>29.59</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.9128</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.6204</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>14.70</orderPct>
+          <marketPct>14.45</marketPct>
+          <marketableLimitPct>17.63</marketableLimitPct>
+          <nonMarketableLimitPct>18.69</nonMarketableLimitPct>
+          <otherPct>9.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>173.15</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.9999</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>35.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.9998</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>36.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0003</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.89</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0028</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>13.73</orderPct>
+          <marketPct>14.17</marketPct>
+          <marketableLimitPct>14.47</marketableLimitPct>
+          <nonMarketableLimitPct>7.33</nonMarketableLimitPct>
+          <otherPct>11.79</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>114.02</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>52.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>22.09</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.18</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>9.47</orderPct>
+          <marketPct>9.88</marketPct>
+          <marketableLimitPct>7.89</marketableLimitPct>
+          <nonMarketableLimitPct>4.56</nonMarketableLimitPct>
+          <otherPct>5.68</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>103.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2.69</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.33</ndoPct>
+      <ndoMarketPct>82.68</ndoMarketPct>
+      <ndoMarketableLimitPct>3.09</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>9.30</ndoNonmarketableLimitPct>
+      <ndoOtherPct>4.93</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>20.13</orderPct>
+          <marketPct>18.48</marketPct>
+          <marketableLimitPct>22.23</marketableLimitPct>
+          <nonMarketableLimitPct>30.45</nonMarketableLimitPct>
+          <otherPct>26.94</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1441.85</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.6685</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>157.28</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>3.3170</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>263.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.5722</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>110.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.7173</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005 for shares priced above $3.  No payment is received for odd lots.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.29</orderPct>
+          <marketPct>18.38</marketPct>
+          <marketableLimitPct>18.23</marketableLimitPct>
+          <nonMarketableLimitPct>27.67</nonMarketableLimitPct>
+          <otherPct>19.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1327.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.6705</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>142.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.3939</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>168.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.6230</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>86.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.6627</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>16.62</orderPct>
+          <marketPct>17.73</marketPct>
+          <marketableLimitPct>18.51</marketableLimitPct>
+          <nonMarketableLimitPct>7.41</nonMarketableLimitPct>
+          <otherPct>14.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>869.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.3250</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>182.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.5915</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>45.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.8489</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>102.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.5857</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>14.45</orderPct>
+          <marketPct>13.72</marketPct>
+          <marketableLimitPct>16.22</marketableLimitPct>
+          <nonMarketableLimitPct>19.15</nonMarketableLimitPct>
+          <otherPct>16.67</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>869.81</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.6428</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>157.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.9528</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>145.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.5433</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>86.54</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.6759</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>13.20</orderPct>
+          <marketPct>13.77</marketPct>
+          <marketableLimitPct>13.45</marketableLimitPct>
+          <nonMarketableLimitPct>8.39</nonMarketableLimitPct>
+          <otherPct>12.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>680.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.5071</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>234.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.5071</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>103.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.5069</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>60.39</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.5068</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>8.88</orderPct>
+          <marketPct>8.96</marketPct>
+          <marketableLimitPct>11.35</marketableLimitPct>
+          <nonMarketableLimitPct>6.62</nonMarketableLimitPct>
+          <otherPct>10.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>485.26</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>112.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>65.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>57.52</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Hilltop Securities</name>
+          <orderPct>7.41</orderPct>
+          <marketPct>8.96</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities executes as principal orders for Fractional Share positions remaining in customer accounts following transfers or other disposition of whole shares. No payment is received or provided for these orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>10.03</ndoMarketPct>
+      <ndoMarketableLimitPct>12.31</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>66.02</ndoNonmarketableLimitPct>
+      <ndoOtherPct>11.64</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>42.69</orderPct>
+          <marketPct>22.14</marketPct>
+          <marketableLimitPct>33.40</marketableLimitPct>
+          <nonMarketableLimitPct>47.29</nonMarketableLimitPct>
+          <otherPct>44.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>552.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>33.4413</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2570.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>33.1680</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10959.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>32.4533</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>452.85</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>57.4683</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held option orders is based on the following rates per contract:  Penny, 0.30; Non-Penny, 0.75.  Rates are for non-professional customer orders only.  No payment is received for subpenny contracts, index options or directed orders.  Fees incurred in the execution of index option orders are passed through to Hilltop. Other execution costs incurred are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>34.92</orderPct>
+          <marketPct>44.02</marketPct>
+          <marketableLimitPct>39.42</marketableLimitPct>
+          <nonMarketableLimitPct>29.08</nonMarketableLimitPct>
+          <otherPct>55.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>954.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.8976</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1662.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.8190</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2333.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>46.5023</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>288.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>33.5623</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for option orders is based on the following rates per contract:  Penny: 0.30; Non-Penny, 0.75.  No payment for proprietary symbols and fees incurred in their execution are passed through to Hilltop.  Other execution costs incurred are not passed through to Hilltop. No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time. Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>22.26</orderPct>
+          <marketPct>33.84</marketPct>
+          <marketableLimitPct>26.76</marketableLimitPct>
+          <nonMarketableLimitPct>23.51</nonMarketableLimitPct>
+          <otherPct>0.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>674.10</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>37.2637</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1465.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>48.8976</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1685.40</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>47.1837</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held option orders is based on the following rates per contract:  Penny, 0.30; Non-Penny, 0.75.  Rates are for non-professional customer orders only.  No payment is received for subpenny contracts, index options or directed orders.  Fees incurred in the execution of index option orders are passed through to Hilltop. Other execution costs incurred are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct>99.75</ndoPct>
+      <ndoMarketPct>90.43</ndoMarketPct>
+      <ndoMarketableLimitPct>2.01</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>6.17</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.39</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>20.86</orderPct>
+          <marketPct>19.42</marketPct>
+          <marketableLimitPct>27.69</marketableLimitPct>
+          <nonMarketableLimitPct>32.06</nonMarketableLimitPct>
+          <otherPct>55.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>179.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>27.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.5015</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>68.77</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.9964</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4.70</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.7292</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005 for shares priced above $3.  No payment is received for odd lots.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.27</orderPct>
+          <marketPct>19.70</marketPct>
+          <marketableLimitPct>19.54</marketableLimitPct>
+          <nonMarketableLimitPct>29.62</nonMarketableLimitPct>
+          <otherPct>16.98</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>178.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.9828</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20.17</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.6787</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>19.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.9227</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.9929</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>17.75</orderPct>
+          <marketPct>18.65</marketPct>
+          <marketableLimitPct>15.96</marketableLimitPct>
+          <nonMarketableLimitPct>7.75</nonMarketableLimitPct>
+          <otherPct>6.13</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>156.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8316</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>11.84</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.9577</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>14.28</orderPct>
+          <marketPct>14.21</marketPct>
+          <marketableLimitPct>17.59</marketableLimitPct>
+          <nonMarketableLimitPct>15.39</nonMarketableLimitPct>
+          <otherPct>9.43</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>123.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0001</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>16.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0005</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>27.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0007</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>5.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.9966</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>13.68</orderPct>
+          <marketPct>14.22</marketPct>
+          <marketableLimitPct>11.40</marketableLimitPct>
+          <nonMarketableLimitPct>7.64</nonMarketableLimitPct>
+          <otherPct>8.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>98.92</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>35.52</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10.06</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>9.61</orderPct>
+          <marketPct>9.89</marketPct>
+          <marketableLimitPct>7.82</marketableLimitPct>
+          <nonMarketableLimitPct>7.32</nonMarketableLimitPct>
+          <otherPct>4.25</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>85.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>30.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.36</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.29</ndoPct>
+      <ndoMarketPct>79.47</ndoMarketPct>
+      <ndoMarketableLimitPct>4.22</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>10.80</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.50</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>21.23</orderPct>
+          <marketPct>18.86</marketPct>
+          <marketableLimitPct>22.74</marketableLimitPct>
+          <nonMarketableLimitPct>30.14</nonMarketableLimitPct>
+          <otherPct>36.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1077.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.6724</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>148.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.0587</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>136.92</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.3076</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>83.04</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.0212</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005 for shares priced above $3.  No payment is received for odd lots.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.33</orderPct>
+          <marketPct>19.71</marketPct>
+          <marketableLimitPct>19.96</marketableLimitPct>
+          <nonMarketableLimitPct>26.92</nonMarketableLimitPct>
+          <otherPct>16.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1166.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8471</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>177.14</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.0172</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>132.07</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.1421</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>41.31</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0014</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>17.32</orderPct>
+          <marketPct>19.04</marketPct>
+          <marketableLimitPct>16.73</marketableLimitPct>
+          <nonMarketableLimitPct>7.81</nonMarketableLimitPct>
+          <otherPct>11.58</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1264.58</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8339</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>170.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.4938</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>34.93</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.6128</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>52.48</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>15.01</orderPct>
+          <marketPct>14.19</marketPct>
+          <marketableLimitPct>19.96</marketableLimitPct>
+          <nonMarketableLimitPct>18.58</nonMarketableLimitPct>
+          <otherPct>15.91</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>739.29</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.7232</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>193.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.5006</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>108.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.8479</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>74.11</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.9997</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>13.69</orderPct>
+          <marketPct>14.56</marketPct>
+          <marketableLimitPct>12.48</marketableLimitPct>
+          <nonMarketableLimitPct>9.25</nonMarketableLimitPct>
+          <otherPct>10.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>675.89</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8984</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>344.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.5364</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>46.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.1237</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>28.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>9.20</orderPct>
+          <marketPct>9.62</marketPct>
+          <marketableLimitPct>8.13</marketableLimitPct>
+          <nonMarketableLimitPct>7.16</nonMarketableLimitPct>
+          <otherPct>8.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>619.56</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>88.22</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>55.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>27.16</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>8.18</ndoMarketPct>
+      <ndoMarketableLimitPct>14.23</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>69.39</ndoNonmarketableLimitPct>
+      <ndoOtherPct>8.20</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>43.29</orderPct>
+          <marketPct>26.45</marketPct>
+          <marketableLimitPct>36.08</marketableLimitPct>
+          <nonMarketableLimitPct>45.02</nonMarketableLimitPct>
+          <otherPct>57.97</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>510.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>34.9042</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4089.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>34.8802</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>5308.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>36.3770</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>195.93</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>39.3434</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held option orders is based on the following rates per contract:  Penny, 0.30; Non-Penny, 0.75.  Rates are for non-professional customer orders only.  No payment is received for subpenny contracts, index options or directed orders.  Fees incurred in the execution of index option orders are passed through to Hilltop. Other execution costs incurred are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>34.05</orderPct>
+          <marketPct>41.60</marketPct>
+          <marketableLimitPct>33.70</marketableLimitPct>
+          <nonMarketableLimitPct>32.36</nonMarketableLimitPct>
+          <otherPct>41.48</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>791.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.0607</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1851.45</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>37.3427</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3378.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>38.9305</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>155.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>36.5802</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for option orders is based on the following rates per contract:  Penny: 0.30; Non-Penny, 0.75.  No payment for proprietary symbols and fees incurred in their execution are passed through to Hilltop.  Other execution costs incurred are not passed through to Hilltop. No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time. Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>22.57</orderPct>
+          <marketPct>31.68</marketPct>
+          <marketableLimitPct>30.22</marketableLimitPct>
+          <nonMarketableLimitPct>22.53</nonMarketableLimitPct>
+          <otherPct>0.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>577.65</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>43.6292</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1737.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>50.3550</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2488.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>52.1795</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held option orders is based on the following rates per contract:  Penny, 0.30; Non-Penny, 0.75.  Rates are for non-professional customer orders only.  No payment is received for subpenny contracts, index options or directed orders.  Fees incurred in the execution of index option orders are passed through to Hilltop. Other execution costs incurred are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct>99.83</ndoPct>
+      <ndoMarketPct>91.46</ndoMarketPct>
+      <ndoMarketableLimitPct>1.74</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.05</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.74</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>21.23</orderPct>
+          <marketPct>19.65</marketPct>
+          <marketableLimitPct>18.37</marketableLimitPct>
+          <nonMarketableLimitPct>29.15</nonMarketableLimitPct>
+          <otherPct>84.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>200.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20.51</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>25.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>9.05</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>3.0506</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005 for shares priced above $3.  No payment is received for odd lots.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.59</orderPct>
+          <marketPct>20.27</marketPct>
+          <marketableLimitPct>30.04</marketableLimitPct>
+          <nonMarketableLimitPct>28.66</nonMarketableLimitPct>
+          <otherPct>4.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>176.57</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.9890</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>15.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.1843</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>40.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.3653</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.7143</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>14.22</orderPct>
+          <marketPct>14.77</marketPct>
+          <marketableLimitPct>13.78</marketableLimitPct>
+          <nonMarketableLimitPct>8.54</nonMarketableLimitPct>
+          <otherPct>2.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>135.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8287</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>9.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11.53</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.8122</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>14.21</orderPct>
+          <marketPct>14.65</marketPct>
+          <marketableLimitPct>14.13</marketableLimitPct>
+          <nonMarketableLimitPct>10.24</nonMarketableLimitPct>
+          <otherPct>2.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>154.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>13.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>8.02</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.82</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>13.83</orderPct>
+          <marketPct>13.97</marketPct>
+          <marketableLimitPct>13.43</marketableLimitPct>
+          <nonMarketableLimitPct>14.88</nonMarketableLimitPct>
+          <otherPct>3.53</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>114.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>17.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.9993</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>18.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0007</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.84</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.9852</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares. Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>12.47</orderPct>
+          <marketPct>12.91</marketPct>
+          <marketableLimitPct>10.25</marketableLimitPct>
+          <nonMarketableLimitPct>8.54</nonMarketableLimitPct>
+          <otherPct>3.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>85.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>45.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.21</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>99.38</ndoPct>
+      <ndoMarketPct>80.61</ndoMarketPct>
+      <ndoMarketableLimitPct>4.20</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>11.84</ndoNonmarketableLimitPct>
+      <ndoOtherPct>3.35</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>22.28</orderPct>
+          <marketPct>19.61</marketPct>
+          <marketableLimitPct>23.58</marketableLimitPct>
+          <nonMarketableLimitPct>34.18</nonMarketableLimitPct>
+          <otherPct>42.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>867.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.6230</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>152.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.9548</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>174.15</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.3748</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>67.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.3734</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005 for shares priced above $3.  No payment is received for odd lots.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.84</orderPct>
+          <marketPct>20.30</marketPct>
+          <marketableLimitPct>20.55</marketableLimitPct>
+          <nonMarketableLimitPct>26.09</nonMarketableLimitPct>
+          <otherPct>15.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>914.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8133</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>182.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.5481</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>179.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.7976</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>33.66</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0013</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>G1 Execution Services, LLC</name>
+          <orderPct>14.73</orderPct>
+          <marketPct>14.97</marketPct>
+          <marketableLimitPct>13.35</marketableLimitPct>
+          <nonMarketableLimitPct>13.77</nonMarketableLimitPct>
+          <otherPct>14.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>704.23</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.8302</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>139.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.6397</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>72.90</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.8335</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>47.75</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0001</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>14.03</orderPct>
+          <marketPct>14.64</marketPct>
+          <marketableLimitPct>12.63</marketableLimitPct>
+          <nonMarketableLimitPct>11.59</nonMarketableLimitPct>
+          <otherPct>9.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>685.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>109.71</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>79.70</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>29.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>13.65</orderPct>
+          <marketPct>14.53</marketPct>
+          <marketableLimitPct>17.44</marketableLimitPct>
+          <nonMarketableLimitPct>7.71</nonMarketableLimitPct>
+          <otherPct>8.93</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>648.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.5490</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>151.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.5760</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>28.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>3.8292</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>35.29</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>UBS Securities, LLC</name>
+          <orderPct>12.66</orderPct>
+          <marketPct>13.71</marketPct>
+          <marketableLimitPct>12.46</marketableLimitPct>
+          <nonMarketableLimitPct>6.66</nonMarketableLimitPct>
+          <otherPct>8.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>580.79</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>4.9472</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>257.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>4.8754</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>53.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>4.9667</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>26.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>4.1432</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held NMS orders is based on a rate per share of 0.0005. No payment is received for subdollar shares.  Execution costs incurred in the execution of these orders are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per share are not adjusted for increases or decreases in quantities or percentages of shares routed. These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>7.95</ndoMarketPct>
+      <ndoMarketableLimitPct>14.52</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>68.43</ndoNonmarketableLimitPct>
+      <ndoOtherPct>9.10</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>41.10</orderPct>
+          <marketPct>33.01</marketPct>
+          <marketableLimitPct>35.09</marketableLimitPct>
+          <nonMarketableLimitPct>42.11</nonMarketableLimitPct>
+          <otherPct>50.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>360.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>42.2567</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>3093.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>39.9529</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6958.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>35.4447</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>276.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>41.5714</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held option orders is based on the following rates per contract:  Penny, 0.30; Non-Penny, 0.75.  Rates are for non-professional customer orders only.  No payment is received for subpenny contracts, index options or directed orders.  Fees incurred in the execution of index option orders are passed through to Hilltop. Other execution costs incurred are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Global Execution Brokers LP</name>
+          <orderPct>33.99</orderPct>
+          <marketPct>30.45</marketPct>
+          <marketableLimitPct>34.56</marketableLimitPct>
+          <nonMarketableLimitPct>32.17</nonMarketableLimitPct>
+          <otherPct>49.86</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>444.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>40.6633</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2763.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>39.5980</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>3152.85</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>42.8493</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>136.50</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>33.2927</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for option orders is based on the following rates per contract:  Penny: 0.30; Non-Penny, 0.75.  No payment for proprietary symbols and fees incurred in their execution are passed through to Hilltop.  Other execution costs incurred are not passed through to Hilltop. No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time. Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>24.82</orderPct>
+          <marketPct>36.54</marketPct>
+          <marketableLimitPct>30.00</marketableLimitPct>
+          <nonMarketableLimitPct>25.65</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>535.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>43.0120</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1793.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>43.6281</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2861.55</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>48.0771</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Hilltop Securities receives Payment for Order Flow as Indicated in the Net Payment Paid/Received disclosure for this Venue.  Payment received by Hilltop for Held option orders is based on the following rates per contract:  Penny, 0.30; Non-Penny, 0.75.  Rates are for non-professional customer orders only.  No payment is received for subpenny contracts, index options or directed orders.  Fees incurred in the execution of index option orders are passed through to Hilltop. Other execution costs incurred are not passed through to Hilltop.  No agreement exists specifying any minimum quantities or percentages required to be routed to any venue and rates paid per contract are not adjusted for increases or decreases in quantities or percentages of contracts routed.  These rates are subject to change at any time.  Please contact compliance-equity@hilltopsecurities.com with any questions.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

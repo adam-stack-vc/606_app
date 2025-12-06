@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20190331.xsd">
+  <version>1.2</version>
+  <bd>BNY Mellon Capital Markets, LLC</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-15T12:23:18Z</timestamp>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>4</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>0.00</ndoMarketPct>
+        <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+        <ndoOtherPct>100.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Pershing LLC (PERX)</name>
+              <orderPct>100.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>100.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>0.00</ndoMarketPct>
+        <ndoMarketableLimitPct>25.64</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+        <ndoOtherPct>74.36</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Pershing LLC (PERX)</name>
+              <orderPct>58.97</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>79.31</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>The Nasdaq Stock Market LLC (NSDQ)</name>
+              <orderPct>25.64</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>100.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>159</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Goldman Sachs &amp; Co (GSCO)</name>
+              <orderPct>15.38</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>20.69</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>9.65</ndoMarketPct>
+        <ndoMarketableLimitPct>15.35</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>47.81</ndoNonmarketableLimitPct>
+        <ndoOtherPct>27.19</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>34.21</orderPct>
+              <marketPct>54.55</marketPct>
+              <marketableLimitPct>34.29</marketableLimitPct>
+              <nonMarketableLimitPct>42.20</nonMarketableLimitPct>
+              <otherPct>12.90</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Citadel Securities LLC (CITL)</name>
+              <orderPct>27.63</orderPct>
+              <marketPct>31.82</marketPct>
+              <marketableLimitPct>37.14</marketableLimitPct>
+              <nonMarketableLimitPct>35.78</nonMarketableLimitPct>
+              <otherPct>6.45</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>19.30</orderPct>
+              <marketPct>13.64</marketPct>
+              <marketableLimitPct>28.57</marketableLimitPct>
+              <nonMarketableLimitPct>21.10</nonMarketableLimitPct>
+              <otherPct>12.90</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>18.42</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>67.74</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Pershing LLC (PERS)</name>
+              <orderPct>0.44</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.92</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>5</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>0.00</ndoMarketPct>
+        <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+        <ndoOtherPct>100.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Pershing LLC (PERX)</name>
+              <orderPct>100.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>100.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>0.00</ndoMarketPct>
+        <ndoMarketableLimitPct>40.00</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+        <ndoOtherPct>60.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Pershing LLC (PERX)</name>
+              <orderPct>60.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>100.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>The Nasdaq Stock Market LLC (NSDQ)</name>
+              <orderPct>40.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>100.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>495</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>26.81</ndoMarketPct>
+        <ndoMarketableLimitPct>4.68</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>32.34</ndoNonmarketableLimitPct>
+        <ndoOtherPct>36.17</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities LLC (CITL)</name>
+              <orderPct>32.77</orderPct>
+              <marketPct>52.38</marketPct>
+              <marketableLimitPct>36.36</marketableLimitPct>
+              <nonMarketableLimitPct>50.00</nonMarketableLimitPct>
+              <otherPct>2.35</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>25.53</orderPct>
+              <marketPct>28.57</marketPct>
+              <marketableLimitPct>27.27</marketableLimitPct>
+              <nonMarketableLimitPct>27.63</nonMarketableLimitPct>
+              <otherPct>21.18</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>24.26</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>67.06</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>17.45</orderPct>
+              <marketPct>19.05</marketPct>
+              <marketableLimitPct>36.36</marketableLimitPct>
+              <nonMarketableLimitPct>22.37</nonMarketableLimitPct>
+              <otherPct>9.41</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+    <rMonthly>
+      <year>2025</year>
+      <mon>6</mon>
+      
+      <rSP500>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>0.00</ndoMarketPct>
+        <ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+        <ndoOtherPct>100.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Pershing LLC (PERX)</name>
+              <orderPct>100.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>100.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rSP500>
+      
+      <rOtherStocks>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>0.00</ndoMarketPct>
+        <ndoMarketableLimitPct>80.00</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+        <ndoOtherPct>20.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>The Nasdaq Stock Market LLC (NSDQ)</name>
+              <orderPct>80.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>100.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>0.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>534</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>30.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Pershing LLC (PERX)</name>
+              <orderPct>20.00</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>100.00</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution and does not receive any payment for order flow from these venues.  These broker-dealers and market centers may include dealers who make markets in these securities.  BKCM and Pershing LLC are affiliated broker-dealers and subsidiaries of The Bank of New York Mellon Corporation.  Pershing LLC may receive payment for order flow routed to these venues. BKCM does not receive any payments from Pershing LLC on its order flow. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOtherStocks>
+      
+      <rOptions>
+        <ndoPct>100.00</ndoPct>
+        <ndoMarketPct>26.60</ndoMarketPct>
+        <ndoMarketableLimitPct>8.75</ndoMarketableLimitPct>
+        <ndoNonmarketableLimitPct>31.65</ndoNonmarketableLimitPct>
+        <ndoOtherPct>33.00</ndoOtherPct>
+        <rVenues>
+          
+            <rVenue>
+              <name>Citadel Securities LLC (CITL)</name>
+              <orderPct>32.66</orderPct>
+              <marketPct>44.30</marketPct>
+              <marketableLimitPct>30.77</marketableLimitPct>
+              <nonMarketableLimitPct>51.06</nonMarketableLimitPct>
+              <otherPct>6.12</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>DASH Financial Technologies LLC (DFIN)</name>
+              <orderPct>26.94</orderPct>
+              <marketPct>0.00</marketPct>
+              <marketableLimitPct>0.00</marketableLimitPct>
+              <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+              <otherPct>81.63</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Susquehanna International Group, LLP (SUSQ)</name>
+              <orderPct>22.90</orderPct>
+              <marketPct>32.91</marketPct>
+              <marketableLimitPct>19.23</marketableLimitPct>
+              <nonMarketableLimitPct>28.72</nonMarketableLimitPct>
+              <otherPct>10.20</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+            <rVenue>
+              <name>Wolverine Execution Svc. (WEXX)</name>
+              <orderPct>17.51</orderPct>
+              <marketPct>22.78</marketPct>
+              <marketableLimitPct>50.00</marketableLimitPct>
+              <nonMarketableLimitPct>20.21</nonMarketableLimitPct>
+              <otherPct>2.04</otherPct>
+              <netPmtPaidRecvMarketOrdersUsd>0</netPmtPaidRecvMarketOrdersUsd>
+              <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+              <netPmtPaidRecvMarketableLimitOrdersUsd>0</netPmtPaidRecvMarketableLimitOrdersUsd>
+              <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+              <netPmtPaidRecvNonMarketableLimitOrdersUsd>0</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+              <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+              <netPmtPaidRecvOtherOrdersUsd>0</netPmtPaidRecvOtherOrdersUsd>
+              <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+              <materialAspects>BNY Mellon Capital Markets, LLC (“BKCM”) routes non-directed equity orders to broker-dealers or market centers (i.e., primary exchanges or electronic communication networks (“ECNs”)) for execution. These broker-dealers and market centers may include dealers who make markets in these securities. </materialAspects>   
+            </rVenue>
+          
+        </rVenues>
+      </rOptions>
+      
+    </rMonthly>
+  
+</heldOrderRoutingPublicReport>

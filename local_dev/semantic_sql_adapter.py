@@ -11,7 +11,7 @@ Integrates:
 
 import os
 from langchain_experimental.sql import SQLDatabaseChain
-from langchain.utilities import SQLDatabase
+from langchain_community.utilities import SQLDatabase
 from langchain_openai import ChatOpenAI
 
 from context_direction import disambiguate as disambiguate_context

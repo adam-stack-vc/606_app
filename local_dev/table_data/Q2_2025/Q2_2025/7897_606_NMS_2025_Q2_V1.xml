@@ -1,0 +1,695 @@
+<heldOrderRoutingPublicReport
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+	<version>1.2</version>
+	<bd>INCA</bd>
+	<year>2025</year>
+	<qtr>2</qtr>
+	<timestamp>2025-07-31T09:30:45Z</timestamp>
+	<rMonthly>
+		<year>2025</year>
+		<mon>4</mon>
+		<rSP500>
+			<ndoPct>0.00</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues />
+		</rSP500>
+		<rOtherStocks>
+			<ndoPct>0.00</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues />
+		</rOtherStocks>
+		<rOptions>
+			<ndoPct>0.64</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>21.83</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>78.01</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.17</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Nasdaq Options</name>
+					<mic>XNDQ</mic>
+					<orderPct>65.71</orderPct>
+					<marketPct>50.00</marketPct>
+					<marketableLimitPct>16.36</marketableLimitPct>
+					<nonMarketableLimitPct>79.65</nonMarketableLimitPct>
+					<otherPct>5.55</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-192656.9200</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-46.0344</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>196915.6000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>36.4865</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-5977.5300</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-43.6316</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NASDAQ Options Market (&#8220;NOM&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon NOM&#8217;s pricing schedule. The pricing schedule provided by NOM, including the pricing for each tier, is available to the public https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-options-7  During June 2025, the payment rate is 1.00 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>CBOE Exchange</name>
+					<mic>XCBO</mic>
+					<orderPct>10.58</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>25.43</marketableLimitPct>
+					<nonMarketableLimitPct>6.44</nonMarketableLimitPct>
+					<otherPct>2.65</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-41498.9379</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-12.8181</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-25782.3850</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-30.8276</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-909.5250</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-6.7223</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe Exchange, Inc. (&#8220;Cboe&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon Cboe&#8217;s pricing schedule. The pricing schedule provided by Cboe, including the pricing for each tier, is available to the public https://www.cboe.com/us/options/membership/fee_schedule/cone/  During June 2025, the fee is 1.2625 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>NYSE ARCA Options</name>
+					<mic>ARCO</mic>
+					<orderPct>8.08</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>7.25</marketableLimitPct>
+					<nonMarketableLimitPct>8.27</nonMarketableLimitPct>
+					<otherPct>27.93</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>131319.1800</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>29.6755</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>439359.2100</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>51.5368</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>37632.4400</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>44.6904</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NYSE ARCA Options (&#8220;ARCA Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon ARCA Options&#8217; pricing schedule. The pricing schedule provided by ARCA Options, including the pricing for each tier, is available to the public https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf  During June 2025, the payment rate is 0.75 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MEMX Options</name>
+					<mic>MXOP</mic>
+					<orderPct>1.66</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>5.20</marketableLimitPct>
+					<nonMarketableLimitPct>0.68</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-153135.9500</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-48.2075</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-13893.9200</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-49.0414</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Members Exchange (&#8220;MXOP&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon MRX&#8217; pricing schedule. The pricing schedule provided by MRX, including the pricing for each tier, is available to the public https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/  During June 2025, the fee is 1.21 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>C2 Options Exchange, Inc.</name>
+					<mic>C2OX</mic>
+					<orderPct>1.51</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>5.65</marketableLimitPct>
+					<nonMarketableLimitPct>0.33</nonMarketableLimitPct>
+					<otherPct>9.37</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-57970.2200</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-43.2730</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-3323.4700</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-43.9903</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>4676.8500</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>11.1219</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Instinet pays fees and receives rebates based upon Cboe C2 Options Exchange&#8217;s (&#8220;C2&#8221;) pricing schedule. The pricing schedule provided by BZX Options, including the pricing for each tier, is available to the public at https://markets.cboe.com/us/options/membership/fee_schedule/ctwo/ During June 2025, the fee is 0.93 per contract or less, for orders routed to the destination which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at https://
+
+www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Nasdaq ISE</name>
+					<mic>XISX</mic>
+					<orderPct>1.50</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>5.40</marketableLimitPct>
+					<nonMarketableLimitPct>0.40</nonMarketableLimitPct>
+					<otherPct>4.81</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-32075.8900</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-43.2494</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-2041.2100</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-47.7476</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-2908.4100</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-37.1634</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Nasdaq ISE, LLC (&#8220;ISE&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon ISE&#8217;s pricing schedule. The pricing schedule provided by ISE, including the pricing for each tier, is available to the public https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207  During June 2025, the payment rate is 0.25 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MIAX Emerald, LLC.</name>
+					<mic>EMLD</mic>
+					<orderPct>1.46</orderPct>
+					<marketPct>50.00</marketPct>
+					<marketableLimitPct>5.43</marketableLimitPct>
+					<nonMarketableLimitPct>0.35</nonMarketableLimitPct>
+					<otherPct>3.58</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-37694.1000</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-50.9641</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-2449.6000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-52.0527</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-1182.3000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-49.9493</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>MIAX Emerald, LLC. (EMLD) provides tiered pricing. Instinet pays fees and receives rebates based upon the MIAX Emerald, LLC Options' pricing schedule. The pricing schedule provided by MIAX Emerald, LLC Options, including the pricing for each tier, is available to the public https://www.miaxglobal.com/markets/us-options/all-options-exchanges/fees  During June 2025, the payment rate is 0.25 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>NYSE American Options</name>
+					<mic>AMXO</mic>
+					<orderPct>1.30</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>5.05</marketableLimitPct>
+					<nonMarketableLimitPct>0.25</nonMarketableLimitPct>
+					<otherPct>4.07</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-12372.3400</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-24.0016</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-400.3500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-12.3451</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NYSE American Options (&#8220;AMEX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon AMEX Options&#8217; pricing schedule. The pricing schedule provided by AMEX Options, including the pricing for each tier, is available to the public https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf. During June 2025, the fee is 0.85 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Cboe BZX Options Exchange</name>
+					<mic>BATO</mic>
+					<orderPct>1.17</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>3.18</marketableLimitPct>
+					<nonMarketableLimitPct>0.60</nonMarketableLimitPct>
+					<otherPct>3.33</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-48858.4000</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-47.8399</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-4239.7000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-48.9573</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-2140.4500</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-45.0147</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe BZX Options Exchange (&#8220;BZX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon BZX Options&#8217; pricing schedule. The pricing schedule provided by BZX Options, including the pricing for each tier, is available to the public at https://markets.cboe.com/us/options/membership/fee_schedule/bzx/  During June 2025, the fee is 1.15 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Cboe EDGX Options</name>
+					<mic>EDGO</mic>
+					<orderPct>1.07</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>4.00</marketableLimitPct>
+					<nonMarketableLimitPct>0.25</nonMarketableLimitPct>
+					<otherPct>4.99</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-7948.2100</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-1.4918</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-572.4900</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-1.4169</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>716.4200</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>4.2115</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe EDGX Options (&#8220;EDGX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon EDGX Options&#8217; pricing schedule. The pricing schedule provided by EDGX Options, including the pricing for each tier, is available to the public http://markets.cboe.com/us/options/membership/fee_schedule/edgx/  During May 2025, the payment rate is 0.40 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+			</rVenues>
+		</rOptions>
+	</rMonthly>
+	<rMonthly>
+		<year>2025</year>
+		<mon>5</mon>
+		<rSP500>
+			<ndoPct>0.00</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues />
+		</rSP500>
+		<rOtherStocks>
+			<ndoPct>0.00</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues />
+		</rOtherStocks>
+		<rOptions>
+			<ndoPct>1.03</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>24.26</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>75.67</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.07</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Nasdaq Options</name>
+					<mic>XNDQ</mic>
+					<orderPct>64.60</orderPct>
+					<marketPct>50.00</marketPct>
+					<marketableLimitPct>19.22</marketableLimitPct>
+					<nonMarketableLimitPct>79.19</nonMarketableLimitPct>
+					<otherPct>17.61</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-85241.5600</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-39.5479</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>212813.3100</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>36.2448</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-5112.8700</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-45.0433</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NASDAQ Options Market (&#8220;NOM&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon NOM&#8217;s pricing schedule. The pricing schedule provided by NOM, including the pricing for each tier, is available to the public https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-options-7  During June 2025, the payment rate is 1.00 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>CBOE Exchange</name>
+					<mic>XCBO</mic>
+					<orderPct>12.05</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>25.59</marketableLimitPct>
+					<nonMarketableLimitPct>7.73</nonMarketableLimitPct>
+					<otherPct>2.76</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-41155.4200</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-35.2262</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-30301.1500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-69.2693</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-194.3450</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-4.0472</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe Exchange, Inc. (&#8220;Cboe&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon Cboe&#8217;s pricing schedule. The pricing schedule provided by Cboe, including the pricing for each tier, is available to the public https://www.cboe.com/us/options/membership/fee_schedule/cone/  During June 2025, the fee is 1.2625 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>NYSE ARCA Options</name>
+					<mic>ARCO</mic>
+					<orderPct>7.22</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>5.90</marketableLimitPct>
+					<nonMarketableLimitPct>7.63</nonMarketableLimitPct>
+					<otherPct>17.61</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>28905.0200</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>14.9676</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>173193.4300</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>47.3664</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>13771.9000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>33.1997</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NYSE ARCA Options (&#8220;ARCA Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon ARCA Options&#8217; pricing schedule. The pricing schedule provided by ARCA Options, including the pricing for each tier, is available to the public https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf  During June 2025, the payment rate is 0.75 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>C2 Options Exchange, Inc.</name>
+					<mic>C2OX</mic>
+					<orderPct>3.06</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>11.26</marketableLimitPct>
+					<nonMarketableLimitPct>0.43</nonMarketableLimitPct>
+					<otherPct>12.77</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-50624.9900</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-46.7849</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-3114.1600</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-48.8342</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-1972.8000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-40.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Instinet pays fees and receives rebates based upon Cboe C2 Options Exchange&#8217;s (&#8220;C2&#8221;) pricing schedule. The pricing schedule provided by BZX Options, including the pricing for each tier, is available to the public at https://markets.cboe.com/us/options/membership/fee_schedule/ctwo/ During June 2025, the fee is 0.93 per contract or less, for orders routed to the destination which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at https://
+
+www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Nasdaq ISE</name>
+					<mic>XISX</mic>
+					<orderPct>2.13</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>7.67</marketableLimitPct>
+					<nonMarketableLimitPct>0.35</nonMarketableLimitPct>
+					<otherPct>3.57</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-27902.5400</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-48.4419</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-2737.4400</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-62.8863</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-982.8100</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-38.8309</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Nasdaq ISE, LLC (&#8220;ISE&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon ISE&#8217;s pricing schedule. The pricing schedule provided by ISE, including the pricing for each tier, is available to the public https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207  During June 2025, the payment rate is 0.25 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MIAX Emerald, LLC.</name>
+					<mic>EMLD</mic>
+					<orderPct>1.84</orderPct>
+					<marketPct>50.00</marketPct>
+					<marketableLimitPct>6.07</marketableLimitPct>
+					<nonMarketableLimitPct>0.48</nonMarketableLimitPct>
+					<otherPct>2.19</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>2.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-26853.9000</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-51.8705</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-2577.9500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-52.9245</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-352.5000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-50.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>MIAX Emerald, LLC. (EMLD) provides tiered pricing. Instinet pays fees and receives rebates based upon the MIAX Emerald, LLC Options' pricing schedule. The pricing schedule provided by MIAX Emerald, LLC Options, including the pricing for each tier, is available to the public https://www.miaxglobal.com/markets/us-options/all-options-exchanges/fees  During June 2025, the payment rate is 0.25 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>NYSE American Options</name>
+					<mic>AMXO</mic>
+					<orderPct>1.67</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>6.36</marketableLimitPct>
+					<nonMarketableLimitPct>0.17</nonMarketableLimitPct>
+					<otherPct>1.84</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-17270.3500</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-39.1893</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-1001.4500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-42.7605</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NYSE American Options (&#8220;AMEX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon AMEX Options&#8217; pricing schedule. The pricing schedule provided by AMEX Options, including the pricing for each tier, is available to the public https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf. During June 2025, the fee is 0.85 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MEMX Options</name>
+					<mic>MXOP</mic>
+					<orderPct>1.40</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>3.32</marketableLimitPct>
+					<nonMarketableLimitPct>0.79</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-68714.2500</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-51.4845</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-8762.0200</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-57.0481</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Members Exchange (&#8220;MXOP&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon MRX&#8217; pricing schedule. The pricing schedule provided by MRX, including the pricing for each tier, is available to the public https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/  During June 2025, the fee is 1.21 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Cboe EDGX Options</name>
+					<mic>EDGO</mic>
+					<orderPct>1.00</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>3.49</marketableLimitPct>
+					<nonMarketableLimitPct>0.19</nonMarketableLimitPct>
+					<otherPct>2.30</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-13415.7300</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-11.1355</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-775.2900</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-8.2189</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>334.1900</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>4.5363</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe EDGX Options (&#8220;EDGX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon EDGX Options&#8217; pricing schedule. The pricing schedule provided by EDGX Options, including the pricing for each tier, is available to the public http://markets.cboe.com/us/options/membership/fee_schedule/edgx/  During May 2025, the payment rate is 0.40 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Cboe BZX Options Exchange</name>
+					<mic>BATO</mic>
+					<orderPct>1.00</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>2.15</marketableLimitPct>
+					<nonMarketableLimitPct>0.62</nonMarketableLimitPct>
+					<otherPct>3.80</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-26598.5500</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-51.3585</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-3407.9000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-52.7049</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-1093.6500</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-45.0432</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe BZX Options Exchange (&#8220;BZX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon BZX Options&#8217; pricing schedule. The pricing schedule provided by BZX Options, including the pricing for each tier, is available to the public at https://markets.cboe.com/us/options/membership/fee_schedule/bzx/  During June 2025, the fee is 1.15 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+			</rVenues>
+		</rOptions>
+	</rMonthly>
+	<rMonthly>
+		<year>2025</year>
+		<mon>6</mon>
+		<rSP500>
+			<ndoPct>0.00</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues />
+		</rSP500>
+		<rOtherStocks>
+			<ndoPct>0.00</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>0.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>0.00</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues />
+		</rOtherStocks>
+		<rOptions>
+			<ndoPct>1.40</ndoPct>
+			<ndoMarketPct>0.00</ndoMarketPct>
+			<ndoMarketableLimitPct>25.48</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>74.44</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.08</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Nasdaq Options</name>
+					<mic>XNDQ</mic>
+					<orderPct>59.78</orderPct>
+					<marketPct>45.71</marketPct>
+					<marketableLimitPct>12.10</marketableLimitPct>
+					<nonMarketableLimitPct>76.16</nonMarketableLimitPct>
+					<otherPct>1.95</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-83076.8400</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-45.5792</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>213841.2100</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>37.4114</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-1463.1400</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-49.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NASDAQ Options Market (&#8220;NOM&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon NOM&#8217;s pricing schedule. The pricing schedule provided by NOM, including the pricing for each tier, is available to the public https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-options-7  During June 2025, the payment rate is 1.00 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>CBOE Exchange</name>
+					<mic>XCBO</mic>
+					<orderPct>17.38</orderPct>
+					<marketPct>8.57</marketPct>
+					<marketableLimitPct>36.14</marketableLimitPct>
+					<nonMarketableLimitPct>10.96</nonMarketableLimitPct>
+					<otherPct>12.11</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>-2.2875</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>-76.2500</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-61739.0425</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-57.2416</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-46141.9675</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-75.9676</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-123.8275</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-12.6743</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe Exchange, Inc. (&#8220;Cboe&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon Cboe&#8217;s pricing schedule. The pricing schedule provided by Cboe, including the pricing for each tier, is available to the public https://www.cboe.com/us/options/membership/fee_schedule/cone/  During June 2025, the fee is 1.2625 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>NYSE ARCA Options</name>
+					<mic>ARCO</mic>
+					<orderPct>7.48</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>5.26</marketableLimitPct>
+					<nonMarketableLimitPct>8.22</nonMarketableLimitPct>
+					<otherPct>31.93</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-10409.7400</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-7.5460</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>185599.7800</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>44.9403</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>3560.1300</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>38.3180</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NYSE ARCA Options (&#8220;ARCA Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon ARCA Options&#8217; pricing schedule. The pricing schedule provided by ARCA Options, including the pricing for each tier, is available to the public https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf  During June 2025, the payment rate is 0.75 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>C2 Options Exchange, Inc.</name>
+					<mic>C2OX</mic>
+					<orderPct>3.30</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>12.04</marketableLimitPct>
+					<nonMarketableLimitPct>0.30</nonMarketableLimitPct>
+					<otherPct>6.54</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-51914.3900</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-47.7861</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-844.4300</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-49.3242</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-1219.6000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-40.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Instinet pays fees and receives rebates based upon Cboe C2 Options Exchange&#8217;s (&#8220;C2&#8221;) pricing schedule. The pricing schedule provided by BZX Options, including the pricing for each tier, is available to the public at https://markets.cboe.com/us/options/membership/fee_schedule/ctwo/ During June 2025, the fee is 0.93 per contract or less, for orders routed to the destination which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at https://
+
+www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MIAX Emerald, LLC.</name>
+					<mic>EMLD</mic>
+					<orderPct>2.12</orderPct>
+					<marketPct>45.71</marketPct>
+					<marketableLimitPct>7.12</marketableLimitPct>
+					<nonMarketableLimitPct>0.41</nonMarketableLimitPct>
+					<otherPct>1.37</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>4.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-31283.1500</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-50.9257</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-832.3500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-51.9245</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-1144.4000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-26.2116</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>MIAX Emerald, LLC. (EMLD) provides tiered pricing. Instinet pays fees and receives rebates based upon the MIAX Emerald, LLC Options' pricing schedule. The pricing schedule provided by MIAX Emerald, LLC Options, including the pricing for each tier, is available to the public https://www.miaxglobal.com/markets/us-options/all-options-exchanges/fees  During June 2025, the payment rate is 0.25 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Nasdaq ISE</name>
+					<mic>XISX</mic>
+					<orderPct>1.93</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>6.70</marketableLimitPct>
+					<nonMarketableLimitPct>0.29</nonMarketableLimitPct>
+					<otherPct>2.54</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-25710.3000</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-47.2824</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-1706.7700</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-88.2052</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-147.9600</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-26.7559</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Nasdaq ISE, LLC (&#8220;ISE&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon ISE&#8217;s pricing schedule. The pricing schedule provided by ISE, including the pricing for each tier, is available to the public https://listingcenter.nasdaq.com/rulebook/ise/rules/ISE%20Options%207  During June 2025, the payment rate is 0.25 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination. Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MEMX Options</name>
+					<mic>MXOP</mic>
+					<orderPct>1.46</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>3.60</marketableLimitPct>
+					<nonMarketableLimitPct>0.73</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-65700.2400</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-52.7348</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-3627.8100</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-56.3938</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Members Exchange (&#8220;MXOP&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon MRX&#8217; pricing schedule. The pricing schedule provided by MRX, including the pricing for each tier, is available to the public https://info.memxtrading.com/equities-trading-resources/us-equities-fee-schedule/  During June 2025, the fee is 1.21 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>NYSE American Options</name>
+					<mic>AMXO</mic>
+					<orderPct>1.19</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>4.33</marketableLimitPct>
+					<nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+					<otherPct>0.88</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-14798.8500</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-42.1524</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-314.6000</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-61.4453</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>NYSE American Options (&#8220;AMEX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon AMEX Options&#8217; pricing schedule. The pricing schedule provided by AMEX Options, including the pricing for each tier, is available to the public https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf. During June 2025, the fee is 0.85 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Cboe BZX Options Exchange</name>
+					<mic>BATO</mic>
+					<orderPct>0.97</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>2.09</marketableLimitPct>
+					<nonMarketableLimitPct>0.59</nonMarketableLimitPct>
+					<otherPct>1.66</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-28306.3000</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-52.0231</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-1444.3500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-57.3155</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-516.5000</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-45.1486</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>Cboe BZX Options Exchange (&#8220;BZX Options&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon BZX Options&#8217; pricing schedule. The pricing schedule provided by BZX Options, including the pricing for each tier, is available to the public at https://markets.cboe.com/us/options/membership/fee_schedule/bzx/  During June 2025, the fee is 1.15 per contract or less, for orders routed to the destination, which were 606A1 eligible.  Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>MIAX Pearl, LLC</name>
+					<mic>MPRL</mic>
+					<orderPct>0.81</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>1.79</marketableLimitPct>
+					<nonMarketableLimitPct>0.47</nonMarketableLimitPct>
+					<otherPct>1.17</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.0000</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>-29443.1100</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>-51.0766</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>-1107.5500</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>-53.4016</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-468.6800</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-47.4853</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>MIAX PEARL, LLC (&#8220;Pearl&#8221;) provides tiered pricing. Instinet pays fees and receives rebates based upon Pearl&#8217;s pricing schedule. The pricing schedule provided by Pearl, including the pricing for each tier, is available to the public https://www.miaxglobal.com/markets/us-options/all-options-exchanges/fees  During June 2025, the fee is 1.10 per contract or less, for orders routed to the destination, which were 606A1 eligible. Instinet, LLC does not maintain a profit-sharing relationship with the destination, it does not receive incentives/disincentives for equaling or exceeding/failing to meet agreed upon order flow volume thresholds, and it does not maintain an agreement regarding the minimum amount of order flow that it would send to a destination.   Instinet's tiers related to routing non-directed orders from institutional customers are available at 
+
+https://www.instinet.com/legal-regulatory/ILLC_Rule-606A1_Supplement_Q2-2025.CSV</materialAspects>
+				</rVenue>
+			</rVenues>
+		</rOptions>
+	</rMonthly>
+</heldOrderRoutingPublicReport>

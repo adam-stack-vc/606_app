@@ -1,0 +1,32 @@
+  {
+  "table_name": "venue_mapping",
+  "description": "Alias mapping table for venue name resolution",
+  "primary_key": "id",
+  "columns": [
+    {"name": "canonical_name", "type": "varchar", "description": "Official venue name"},
+    {"name": "alias", "type": "varchar", "description": "Alternative name or alias"},
+    {"name": "created_at", "type": "timestamp", "description": "Record creation timestamp"}
+  ],
+  "relationships": [
+    {
+      "type": "one_to_many",
+      "target_table": "executing_bd_606",
+      "join_condition": "venue_mapping.canonical_name = executing_bd_606.venues"
+    },
+    {
+      "type": "one_to_many",
+      "target_table": "monthly_data",
+      "join_condition": "venue_mapping.canonical_name = monthly_data.market_participant"
+    },
+    {
+      "type": "one_to_many",
+      "target_table": "finra_ats",
+      "join_condition": "venue_mapping.canonical_name = finra_ats.ats_name"
+    }
+  ],
+  "query_patterns": [
+    "Alias resolution",
+    "Venue name normalization",
+    "Cross-table venue matching"
+  ]
+}

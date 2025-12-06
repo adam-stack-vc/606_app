@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/CA</submissionType>
+    <accessionNumber>0000950123-24-000052</accessionNumber>
+    <filing_date>2024-02-06</filing_date>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0000094403</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00171</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>Stifel X</txNMSStockATSName>
+      <rbOperatesPursuantToFormATS>Y</rbOperatesPursuantToFormATS>
+      <taStatementAboutAmendment>This is a correcting amendment to the material amendment filed on January 8, 2024 (Accession No. 0000950123-24-000052). The changes in this amendment apply to certain subscribers, but do not apply to the broker-dealer operator. The changes apply to Part II Item 5(a) and are being made to conform certain language to be consistent with the language in Part III Item 5(c). Specifically, the changes relate to the routing of orders by certain Directed Participants.</taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>STIFEL, NICOLAUS &amp; COMPANY, INCORPORATED</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="Stifel X"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-01447</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000000793</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>Financial Industry Regulatory Authority, Inc.</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>01/01/1936</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>STFX</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>www.stifel.com</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>787 7th Avenue, 6th Floor</ats:street1>
+        <ats:city>New York</ats:city>
+        <ats:zip>10019</ats:zip>
+        <ats:state>US-NY</ats:state>
+      </part1Item7PrimarySite>
+      <part1Item7SecondarySiteRecords>
+        <secondarySiteI7>
+          <ats:street1>One South Street, 15th Floor</ats:street1>
+          <ats:city>Baltimore</ats:city>
+          <ats:zip>21202</ats:zip>
+          <ats:state>US-MD</ats:state>
+        </secondarySiteI7>
+      </part1Item7SecondarySiteRecords>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <part2Item1aArePermittedToEnterInterest rbPart2Item1aArePermittedToEnterInterest="Y">
+        <taPart2Item1aUnitNamesEnterInterest>Stifel, Nicolaus &amp; Company, Incorporated ("STFL") has a number of retail and institutional trading business units that can enter orders and trading interests into STFX by use of STFL's electronic trading platform. The Stifel business units that can enter or direct the entry of orders to STFX are listed below with a description of their activities, the associated MPID, and trading Capacity (e.g., agent, principal).
+
+BUSINESS UNIT: Retail Trading Desk ("RTD")
+DESCRIPTION: The RTD business unit routes large retail orders from STFL customers. Some of these destinations may include STFX. STFX receives these orders from the SOR. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: Portfolio &amp; Electronic Trading Desk ("PETD")
+DESCRIPTION: The PETD routes orders received from customers, affiliates, sales-traders and position traders to exchanges and execution venues, including STFX. The SOR enters orders from this desk to STFX. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: Cash/Market Making Trading Desk ("CMMTD")
+DESCRIPTION: The CMMTD is a market-making desk that includes retail and institutional order flow that routes orders to STFX, among other destinations, though the SOR. The SOR only enters agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: Closed End Funds Trading Desk ("Fund Desk")
+DESCRIPTION: The Fund Desk holds long, short, and overnight positions for closed end funds and may use STFX as a routing destination. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: Convertible Trading Desk ("CTD")
+DESCRIPTION: The CTD is a hybrid trading desk that generates equity, fixed income, and preferred stock orders in order to hedge STFL positions. In doing so, the CTD may access STFX as a routing destination. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: High Yield Trading Desk ("HYTD")
+DESCRIPTION: The HYTD is a market-making desk for multiple securities. STFX is one of the routing destinations for this desk. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: NYSE Floor Brokers Trading Desk
+DESCRIPTION: Traders execute orders in connection with positions established by retail, institutional and firm accounts. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: Options Trading Desk ("OTD")
+DESCRIPTION: The OTD routes agency and riskless principal order flow that includes STFX as a destination. The SOR will only enter agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency
+
+BUSINESS UNIT: Preferred Trading Desk ("PTD")
+DESCRIPTION: The PTD routes preferred stock orders to STFX and other destinations. The SOR only enters agency orders to STFX even though this desk handles both principal and agency transactions.
+MPID: STFL
+CAPACITY: Agency</taPart2Item1aUnitNamesEnterInterest>
+        <rbPart2Item1bAreSevicesSametoAllSubscribers>Y</rbPart2Item1bAreSevicesSametoAllSubscribers>
+        <rbPart2Item1cAreThereArrangements>N</rbPart2Item1cAreThereArrangements>
+      </part2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <affiliatesPermittedToEnterInterest rbPart2Item2aAreAfflPermittedToEnterInterest="Y">
+        <taPart2Item2aAfflThatEnterInterest>Yes, the list of STFL affiliates that can enter orders or direct the entry of orders and trading interest into STFX are listed below.
+
+AFFILIATE NAME: Stifel Independent Advisors, LLC
+TYPE OF ENTITY: SEC Registered Investment Adviser/Broker-Dealer
+CAPACITY: Agency
+MPID: CSAI
+
+AFFILIATE NAME: 1919 Investment Counsel, LLC
+TYPE OF ENTITY: SEC Registered Investment Adviser
+CAPACITY: Agency
+MPID: N/A
+
+AFFILIATE NAME: EquityCompass Investment Management, LLC
+TYPE OF ENTITY: SEC Registered Investment Adviser
+CAPACITY: Agency
+MPID: N/A
+
+AFFILIATE NAME: Keefe, Bruyette &amp; Woods, Inc.
+TYPE OF ENTITY: U.S. Registered Broker-Dealer
+CAPACITY: Agency
+MPID: KBWI
+
+AFFILIATE NAME: : Stifel Europe Bank AG
+TYPE OF ENTITY: Non-U.S. Broker-Dealer (German Broker-Dealer Equivalent)
+CAPACITY: Agency
+MPID: MNFB
+
+AFFILIATE NAME: Stifel Nicolaus Europe Limited
+TYPE OF ENTITY: Non-U.S. Investment manager
+CAPACITY: Agency
+MPID: N/A
+
+AFFILIATE NAME: Stifel Nicolaus Canada Inc.
+TYPE OF ENTITY: Institutional Broker (Canadian Broker-Dealer equivalent)
+CAPACITY: Agency
+MPID: SFCN
+
+AFFILIATE NAME: Washington Crossing Advisors LLC
+TYPE OF ENTITY: SEC Registered Investment Adviser
+CAPACITY: Agency
+MPID: N/A</taPart2Item2aAfflThatEnterInterest>
+        <rbPart2Item2bAreSevicestoAfflSametoSubscribers>Y</rbPart2Item2bAreSevicestoAfflSametoSubscribers>
+        <rbPart2Item2cAreThereArrangementsWithAffl>N</rbPart2Item2cAreThereArrangementsWithAffl>
+      </affiliatesPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfBD>N</rbPart2Item3aCanSubscrOptOutWithOATIOfBD>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>N</rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <rbPart2Item4aAreThereArrangementsBtwBDAndTC>N</rbPart2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>STFX is an internal-crossing network for orders in NMS stock originating from Participants (as defined below). Unaffiliated broker-dealers with retail customer orders ("Unaffiliated BDs") along with STFL business units, STFL affiliates, and their respective clients ("Participants") access STFX through the direct or indirect use of the products and services offered by STFL's Portfolio &amp; Electronic Trading Desk (PETD). More specifically, these Participants access STFX through any STFL or STFL-affiliate trading desk that uses the algorithms and/or SORs provided by the PETD.
+
+STFL's SOR platform is the sole point of entry into STFX. In addition to STFX, the SOR platform can access national securities exchanges, other alternative trading systems, and other market centers.  The platform contains multiple SOR configurations. SOR configurations may route to different execution venues and are created to achieve specific performance benchmarks and/or to satisfy specific risk tolerances and order constraints.  Risk tolerances and constraints may be directly set by a Participant, and/or by an algorithm to minimize an order's impact on the market.  Not every SOR configuration routes to STFX.  All outbound routes to STFX are subject to the same factors determining latency between the SOR platform and STFX. This means there is no difference in speed for orders reaching STFX once they leave the SOR.  Algorithms systematically select the appropriate SOR configuration to best achieve their intended benchmark.  Alternatively, a Participant can access a SOR configuration directly without utilizing an algorithm.  However, Participants cannot bypass the SOR to directly access STFX.  Except as may be prohibited by regulatory requirements, Institutional Participants (e.g., banks, insurance companies, mutual fund companies, registered investment advisors, pension funds, hedge funds, and other money managers) can request customization of their algorithm or SOR configurations at the session or Client ID-level to exclude specific trading venues, including STFX.
+
+In addition, Unaffiliated BDs as well as certain Institutional Participants that meet the specific eligibility standards described in Part III, Item 2b ("Directed Participants"), and upon written request, review, and approval by STFL's Head of Equity Trading, can: (1) in the case of Institutional Participants, direct that their orders route solely to STFX by utilizing a customized STFL SOR routing configuration, and (2) in the case of Unaffiliated BDs, direct that their retail customers first be directed to STFX before routing to other execution venues. These Directed Participants are treated as Subscribers for purposes of Regulation ATS. A Directed Participant's customized SOR routing configuration restricts the SOR to routing that Institutional Participant's orders only to STFX, thereby excluding all other execution venues as routing destinations.  In the case of Unaffiliated BDs, its customized SOR routing configuration directs the SOR to route that Unaffiliated BDs retail orders first to STFX then to other execution venues if no match occurs. Orders directed solely to STFX by either type of Directed Participant are subject to the same order validation process and priority rules described in Part III, Item 7 that apply to non-directed orders.  In addition, orders from Directed Participants utilize the same routing infrastructure, and are subject to the same factors determining latency (discussed above) between the STFL SOR and STFX as all non-directed orders.  While Directed Participants can route their orders solely to STFX, they cannot directly access STFX without first routing through the SOR platform mentioned above.  The STFL SOR platform is the only means of entry into STFX, but is capable of utilizing a customized SOR routing configuration to allow directed orders into STFX.  Retail Participants may not directly route orders to a specific algorithm, SOR, or execution venue.  The use of algorithms and SOR routing configurations for retail Participant orders is subject to the discretion of the STFL Retail Trading Desk.</taPart2Item5aProductsAndServices>
+        <rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>Y</rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <part2Item5cDoesAfflOfferProductsAndServices rbPart2Item5cDoesAfflOfferProductsAndServices="Y">
+        <taPart2Item5cAfflProvidedProductsAndServices>In addition to accessing STFX through the products and services that STFL offers Participants as described in Part III, Item 5.a., STFL affiliates and Unaffiliated BDs  may also provide their clients with indirect access to STFX through "white-labeling" arrangements. Under a "white-label" arrangement, a STFL affiliate or an Unaffiliated BD may offer its clients STFL's algorithms and/or SORs under the affiliate's own marketing name. Notably, these white-label arrangements do not contain specific terms and conditions for directing orders into STFX.</taPart2Item5cAfflProvidedProductsAndServices>
+        <rbPart2Item5dAreTCOfSevicesSametoAll>Y</rbPart2Item5dAreTCOfSevicesSametoAll>
+      </part2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>There are no STFL employees whose sole responsibility is to service STFX. Instead, multiple functional groups and business units within STFL jointly service all aspects of STFX's operations. As a result, these various business units and groups may require access to confidential trading information. Confidential information consists of Participants' identities, orders, transactions, strategies, and activities. The roles and responsibilities of these business units are described below:
+
+STFL BUSINESS UNIT: PETD
+DESCRIPTION: PETD manages all STFL program and algorithmic trading services and systems, including STFX. In turn, PETD management, algorithm support staff, programmers and quantitative analysts are responsible for the configuration, operation, and support of STFX, and have access to all Participant names, all orders, and all executions submitted to the ATS (confidential information). Confidential information accessible by authorized PETD personnel can be viewed in STFL's algorithmic trading and the SOR platform and its supporting secure database, as well as the OceanView GUI (see Item 7a below). Access to these systems and database is controlled by password and entitlement, or in the case of the OceanView GUI, by two-factor authentication. Furthermore, PETD sales and trading staff may request order and execution information specific to a Participant for whom they have an assigned client service obligation. Access to such information is provided on an on-demand basis in a file that is subject to STFL's standard confidentiality policies and procedures.
+
+STFL BUSINESS UNIT: Stifel Compliance
+DESCRIPTION: Stifel compliance is an oversight resource used across all products and services offered by STFL (including its business units) and its affiliates. Stifel Compliance has an institutional compliance group that helps oversee STFX's configurations and operations. In order to perform these functions, the group uses surveillance reports that contain all Participant names, orders, executions and summary statistics pertaining to the ATS. Access to this information is available to designated Stifel Institutional Compliance Group members via the OceanView GUI, the NASDAQ SMARTS surveillance system (see Item 7a below), and Stifel's compliance data repository. Access is controlled by password and entitlements, or two-factor authentication in the case of NASDAQ OceanView and SMARTS.
+
+STFL BUSINESS UNIT: Trade Support and Operations ("TSO")
+DESCRIPTION: TSO is a shared resource used across all products and services offered by STFL (including its business units) and its affiliates. TSO staff provide middle and back office support services to STFL and by extension to STFX. As part of these duties, TSO members have access to STFL's books and records system containing all client names and transactions. Access to this system is controlled by password and entitlements. In addition, to facilitate the booking, settlement, and accounting of transactions, designated TSO personnel can request, on a one-off basis, an end-of-day file containing Participant names, orders, and executions pertaining solely to the ATS. End-of-day files provided to TSO are subject to STFL's standard confidentiality policies and procedures (see Item 7a below).
+
+STFL BUSINESS UNIT: Information Technology ("IT")
+DESCRIPTION: IT is a shared resource used across all products and services offered by STFL (including its business units) and its affiliates. Various groups in IT support STFX, including networking, quality assurance, and trading system/client FIX connectivity. This support incudes STFX communications setup and quality assurance testing. IT supports this on an ongoing basis. As part of their general support of the PETD infrastructure, designated IT personnel have access to Participant names, orders, and executions pertaining to the ATS. Confidential information accessible by authorized personnel can be viewed in STFL's algorithmic trading and SOR platform and their supporting secure database, as well as the OceanView GUI (see Item 7a below). Access to these systems and database is controlled by password and entitlement, or in the case of the OceanView GUI, by two-factor authentication.
+
+STFL BUSINESS UNIT: Enterprise Risk Management ("ERM")
+DESCRIPTION: ERM is a shared resource used across all products and services offered by STFL (including its business units) and its affiliates. ERM staff assists with risk controls and surveillance report reviews in order to mitigate risk at STFL and STFX. In performing their duties, ERM have access to all Participant names, orders, executions and summary statistics pertaining to the ATS. Access to this information is available upon written request by designated ERM personnel via an end-of-day file that is subject to STFL's standard confidentiality policies and procedures (see Item 7a below).
+
+STFL BUSINESS UNIT: Legal
+DESCRIPTION: Legal is a shared resource used across all products and services offered by STFL (including its business units) and its affiliates. As it pertains to STFX, Legal provides guidance on relevant rules and regulations to ensure that STFX is operating in accordance with applicable legal requirements. Legal has access to Participant names, orders, executions and summary statistics pertaining to the ATS upon written request as it pertains to providing legal and regulatory guidance in connection with STFX operations. Access to this information is available via file that is subject to STFL's enterprise confidentiality policies and procedures (see Item 7a below).</taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>STFL has entered into an agreement with Operations and Compliance Network, LLC ("OCEAN"), a NASDAQ affiliate. Under the agreement, OCEAN (1) hosts, operates, and supports the STFX's technology platform, subject to STFL's oversight and control of STFX, and (2) provides support services related to STFL's compliance, surveillance, supervisory, recordkeeping and reporting obligations in connection with STFX. For surveillance purposes, NASDAQ and STFL compliance use the NASDAQ SMARTS surveillance system. That system provides alerts regarding transactions that could require further investigation. In addition, certain aspects of the services provided by OCEAN use infrastructure and support services shared by OCEAN and its affiliates. As the broker-dealer operator, STFL is responsible for the operation of STFX in compliance with federal securities laws.
+
+With respect to the applicable Item numbers in Part III of this form, STFL is responsible for:
+Items 1, 2, and 3 - Participants (clients) and determining their eligibility to access the ATS services;
+Item 5 - Controlling means of access to the ATS, and specifically, managing FIX connectivity outbound from STFL SOR to STFX;
+Items 7 and 8 - Defining acceptable order types and sizes within STFX (subject to OCEAN system specifications) and defining the matching rules used by the ATS to determine the price at which contra orders may cross within the NBBO;
+Items 13 and 14 - Defining segmentation categories, logic, and restrictions, and notifying Participants;
+Item 20 - Initiating a "block" in crossing if a technical issue cannot be completely resolved in a timely manner; and
+Item 22 - Clearance and settlement.
+
+With respect to the applicable Item numbers in Part III of this form, OCEAN provides:
+Item  4 -The hours of operation of the ATS;
+Item 10 - Opening the ATS for trading at the start of regular trading hours, and reopening the ATS following a "pause" in trading due to a regulatory halt or circuit breaker, or a "block" in trading initiated by STFX support personnel;
+Item 11 - Daily management of all hardware and software within the ATS production environment required to ensure the ongoing operation of the core trading system and surrounding systems;
+Item 17 -  Closing the ATS at the conclusion of regular trading hours;
+Item 20 - Automatically initiating a "pause" in crossing when a message is received via direct exchange feed or the SIP from all U.S. equity exchanges that indicate a regulatory trading halt or circuit breaker condition has been triggered;
+Item 21 -  Trade reporting; and
+Item 23 - Market data.
+
+The following items do not apply to STFX:
+Item 6 - Co-location and connectivity;
+Item 9 - Conditional orders and indications of interest,
+Item 12 - Liquidity providers,
+Item 15 - Display;
+Item 16 - Routing;
+Item 18 - Trading outside of regular trading hours;
+Item 19 - Fees;
+Item 24 - Order display and execution access,
+Item 25 - Fair access, and
+Item 26 - Aggregate platform data.</taPart2Item6bServiceProvider>
+        <rbPart2Item6cDoesServiceProviderUseATSServices>N</rbPart2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>STFL SAFEGUARDS REGARDING CONFIDENTIAL TRADING INFORMATION
+
+STFL has established and maintains written supervisory policies and procedures to protect confidential trading information related to all STFL products and services, including STFX. For purposes of this response, confidential information consists of Participants' identities, orders, transactions, strategies, and activities. All STFL personnel are subject to annual training regarding privacy and confidential information. Per firm policy, authorized STFL personnel have access to confidential information specific to STFX and/or its configuration as needed to fulfill their roles and responsibilities related to the operation and support of STFX. Authorized STFL personnel are strictly prohibited from using such information in an unauthorized manner and from discussing the details of any orders or executed trades occurring in STFX with persons who do not need such information to carry out their designated duties. Additionally, the SOR platform that directly accesses STFX does not take into account the means of entry or the type of participant (i.e., retail Participant, Institutional Participant, or Directed Participant) when sending subsequent orders to or canceling orders from STFX. The STFL SOR platform, however, does not share such order information specifically pertaining to exclusive routes to STFX with any other Stifel trading system, desk, or any third party, other than with personnel who require access to address operational, technological, legal, or compliance issues that may arise with STFX or the STFL SOR. The same client onboarding information is requested from both Participants and Directed Participants. Participants also cannot opt out of the STFL SOR having knowledge of orders bound for STFX. This information is inherent in the operation of STFX. The STFL SOR does not generate indications of interest based on STFX information.
+
+The STFX matching engine is hosted and operated by NASDAQ. In turn, the ATS matching engine and limit order book reside on hardware that is physically separate from STFL locations, systems, and personnel. Participant confidential information pertaining to STFX is accessible by authorized STFL personnel via the PETD algorithm and SOR environment and related databases/data repositories, the STFL compliance data repository, the NASDAQ OceanView GUI, the NASDAQ SMARTS surveillance system, and the NASDAQ cloud-based data warehouse. Access is granted to one or more of these environments, systems, data repositories, or data warehouses by the Head of Equity Trading and their designee, or the Chief Institutional Equity Compliance Officer and their designee. Only the designated compliance officer can grant access to compliance surveillance systems and data repositories. Access to all systems containing confidential information is controlled by password and entitlements and/or two-factor authentication. STFL personnel with access to real-time Participant confidential information are physically separated from general sales and trading staff on STFL's trading floor. Specific policies and procedures are applied as follows:
+
+1. Detect and prevent insider trading (including information barriers and Fire Walls):  STFL's Written Standard Procedures prohibit PETD staff from disclosing the identity of Participants and such persons' orders or executions other than to authorized Compliance, Supervision, Trading Management, Platform Technical Support, and Back Office personnel. As part of these controls, login credentials that are granted by the Head of Equity Trading or his/her designee control access to STFL's order management systems and execution data. These login credentials and their use is tracked. STFL Personnel are permitted to view information specific to their roles and/or the clients under their coverage. This information may include the algorithm or SOR used and the venue of execution. STFL order management systems do not contain any data relating to the specific operation of STFX. Access to systems containing confidential STFX specific information such as resting orders or Participant identities is restricted by a combination of login credentials, electronic tokens, two-factor authentication, and IP whitelisting. The SOR does not take into account means of entry or the type of participant (i.e., retail Participant, Institutional Participants, or Directed Participant) when sending subsequent orders to or canceling orders from STFX. The Head of Equity Trading or his/her designee are the only entities who can grant and revoke access to STFX operational systems.
+
+2. Restrict trading in personal accounts of certain STFL personnel and transactions in employee and employee-related accounts: All personnel supporting the operation of STFX are subject to STFL's personal trading policy and supervision. This policy requires STFL employees to maintain personal trading accounts at STFL and obtain prior written approval for all transactions in NMS stocks via STFL's EQUBE System and its Control Room. Approval is based on the STFL restricted list and the employee's response to questions regarding their access to material, nonpublic information, their potential role as a market maker in the requested security, their knowledge of client orders in the requested security, and their acknowledgement of the firm's holding period restriction (i.e., 30 days with an exception for unrealized losses in excess of certain thresholds).
+
+3. Prohibit certain activity that would disseminate confidential information, such as (i) limit the ability to reproduce or distribute "internal use only" or "broker/dealer only" items externally and (ii) prohibit the misuse of information obtained in a fiduciary capacity, or the sharing of information with any other unauthorized persons (e.g., spouses, relatives, household members, etc.). As it relates to STFX, this type of "internal use only" information includes daily STFX surveillance and end-of-day activity reports that NASDAQ makes available to authorized STFL personnel by electronic drop-copy to secure storage. Files are then archived on STFL's compliance data repository system.
+
+4. Review electronic communications: All electronic communications by STFX support staff are subject to random and periodic review.
+
+5. Govern employee-related and proprietary trading: Employee and principal (i.e., STFL acting as principal) transactions are not routed to STFX for execution, to mitigate the possibility of conflicts of interests.
+Internal and external auditors periodically review for compliance with firm policies and procedures governing all operational aspects of STFL PETD products, including STFX. STFL internal audit prepares, maintains, and distributes audit fieldwork for these products including STFX and reports to Supervision and Management.
+
+Access to NASDAQ Systems
+
+The following are NASDAQ-hosted systems accessible by STFL authorized personnel based on their specific roles and responsibilities in the operation and support of STFX. Access is granted by written request to NASDAQ by STFL's Head of Equity Trading or his/her designee. Access by STFL personnel is reviewed monthly by NASDAQ and provided to STFL for review.
+
+a. Configuration API - STFL personnel control and configure STFX through the Configuration API system. STFL's Head of Equity Trading or the manager of the Portfolio &amp; Electronic Trading Desk authorize Configuration API system access based on the requesting employee's designated role and responsibilities. By way of example, crossing rules and order type parameters are changed by file submission to the Configuration API with access controlled by electronic tokens and access keys.
+
+b. OceanView GUI - The OceanView GUI is a secure web application that allows personnel responsible for the support and supervision of the ATS to view summary and detailed order, transaction, configuration, and reporting information. Specifically, it allows role-designated STFL personnel on the PETD, in compliance, and in IT to administer the operational aspects of STFX, including such things as connectivity, risk settings, symbol maintenance, and trade review/cancelation. Access to the OceanView GUI is controlled by integration to the NetIQ 2FA system that requires two-factor authentication. STFL's Head of Equity Trading or the manager of the Portfolio &amp; Electronic Trading Desk authorize OceanView GUI system access based on the requesting employee's designated role and responsibilities. Authorized personnel with access to the OceanView GUI are separated from non-ATS and non-Algorithmic sales and trading personnel by a physical information barrier. To the extent that any authorized STFL personnel (i.e., the manager of the PETD) is also involved in the execution of transactions in NMS stock for a client or the firm, such personnel will do so from the other side of the information barrier, on a system without access to the OceanView GUI.
+
+c. JIRA Incident Management ("JIRA") - JIRA is a software system for STFL developers and NASDAQ technical support personnel to track technical issues pertaining to STFX. Access to JIRA is controlled by integration to the NetIQ 2FA system that uses two-factor authentication. STFL's Head of Equity Trading or the manager of the Portfolio &amp; Electronic Trading desk authorize access by STFL personnel to the STFX instance of the JIRA system based on the requesting employee's designated role and responsibilities.
+
+d. Short-Term Data Warehouse and Long-Term Storage (AWS Environment) - STFL developers access historical data from NASDAQ's AWS Environment to facilitate ATS specific transaction analysis, regulatory reporting, and summary management reporting. STFL's Head of Equity Trading or the manager of the Portfolio &amp; Electronic Trading desk authorize access to the AWS environment based on the requesting employee's designated role and responsibilities.
+
+e. NASDAQ SMARTS - SMARTS is a compliance software system provided by NASDAQ to STFL compliance and supervision personnel to facilitate in the surveillance of all activity in STFX. STFL's Head of Equity Trading or STFL's Equities Chief Compliance Officer authorize SMARTS access to compliance personnel based on their designated role and responsibilities.
+
+OCEAN Personnel
+
+Certain OCEAN and NASDAQ employees have access to Participant confidential trading information. Such employees include OCEAN and NASDAQ staff from Compliance, Operations, Technology Development (including trading and surrounding systems), Product Management, and Business Management. The confidential trading information consists of information regarding individual orders and executions, Participant codes, and order volume summaries in STFX. OCEAN's policies and procedures employ a three-pronged approach to permit access to STFX. First, an employee must complete compliance training specific to the OCEAN business unit. Second, an OCEAN employee must request, and OCEAN Compliance must approve, access to each specific system based on the employee's designated role and responsibilities. Third, once approved, the OCEAN employee must complete OCEAN's annual Compliance training. OCEAN employees that have access to confidential trading information are subject to OCEAN's "Information Barriers and Conflict Management Policies and Procedures."  All OCEAN employees are subject to NASDAQ's Global Trading Policy ("GTP"), which outlines all requirements and restrictions related to personal trading activity including holding periods, annual attestations, IPO restrictions and a prohibited list. OCEAN employees are required to disclose personal investment and brokerage accounts, positions, and transactions. NASDAQ's Global Ethics Team monitors personal trade activities against the GTP. OCEAN also conducts electronic communications reviews to identify policy violations including noncompliance with the above referenced policies and procedures. STFL has the right to audit OCEAN's operation of STFX, including OCEAN's access to and use of Participant confidential trading information either through audits conducted by STFL's own audit team or by third-party auditors. Such audits may be conducted on-site or off-site. OCEAN also is obligated to notify STFL of any actual or suspected unauthorized access to confidential information, which includes Participant confidential trading information, in a timely manner.</taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <rbPart2Item7bCanSubscriberConsentToDisclosure>N</rbPart2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>The following personnel and business units within STFL have access to confidential trading information regarding activity on STFX:
+
+BUSINESS UNIT: Senior Management
+PERSONNEL AND RESPONSIBILITIES: The COO, Global Head of Equities, Head of Equity Trading, and Head of Private Client have access to transaction and Participant data upon written request to authorized PETD or compliance personnel as part of their general supervisory duties as senior managers of STFL.
+
+BUSINESS UNIT: Portfolio &amp; Electronic Trading Desk
+PERSONNEL AND RESPONSIBILITIES: The Manager of the PETD, as well as Developers, Quantitative Analysts, and Trading support all have access to Participant confidential information only as required by their ATS designated roles and responsibilities. Furthermore, PETD Sales and Trading personnel have access to Participant confidential information upon request as needed as it pertains to the servicing of orders submitted to and executed within STFX.
+
+BUSINESS UNIT: Compliance &amp; Trading Supervision
+PERSONNEL AND RESPONSIBILITIES: Specific Staff in this unit, based on their designated roles and responsibilities, have access to all summarized and detailed order and execution information while reviewing daily surveillance reports and conducting ongoing control testing and oversight of the operation of STFX.
+
+BUSINESS UNIT: Trade Support &amp; Operations
+PERSONNEL AND RESPONSIBILITIES: Specific Staff in this unit, based on their designated roles and responsibilities, have access to client execution information in order to book, settle, and account for transactions occurring within STFX.
+
+BUSINESS UNIT: Information Technology
+PERSONNEL AND RESPONSIBILITIES: Specific Staff in this unit, based on their designated roles and responsibilities, have access to client order and execution information to fulfill responsibilities pertaining to QA testing, FIX connectivity, client system configuration, and general trading system troubleshooting.
+
+In connection with OCEAN's activities to support the technology platform for STFX, OCEAN personnel have access to STFX subscriber confidential trading information comprising of orders, executions, and ATS configuration details (i.e., risk settings and crossing/segmentation logic). OCEAN and its affiliates are subject to procedures for ensuring the confidentiality of all subscriber information related to STFX.</taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Investment Companies</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Asset Managers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Hedge Funds</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Banks</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Other</taPart3Item1SubscriberType>
+      <taPart3Item1OtherSubscrbrDtls>Unaffiliated BDs along with STFL business units, STFL affiliates, and their respective clients ("Participants") indirectly access STFX through the products and services offered by STFL. More specifically, these Participants access STFX through any STFL or STFL-affiliate trading desk that utilizes the algorithms and/or SOR provided by the PETD. Participants include investment companies, retail investors, asset managers, hedge funds, banks, and broker-dealers. Certain unaffiliated broker-dealers can also access STFX directly, or on behalf of a Participant, such as through an outsourced trading desk. In addition, certain clients of STFL or its affiliates can direct that their orders route solely to STFX. In order to route orders solely to STFX, these clients must be Directed Participants (as described in Part II, Item 5) and request a customized STFL SOR routing configuration that allows such direction of orders. Directed Participants that are Institutional Participants must satisfy the eligibility conditions described in Part III, Item 2b, and are treated as Subscribers for purposes of Regulation ATS.</taPart3Item1OtherSubscrbrDtls>
+      <rbPart3Item2aRegisteredBD>N</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>All Participants are required to be a STFL client or a STFL affiliate client and comply with all legal requirements applicable to their particular business type or trading activities.  Clients of Stifel and its affiliates are subject to the firm's account onboarding and review process which includes the completion of the firm's Know Your Client and Anti-Money Laundering process.
+
+Upon written request, review, and approval by Stifel's Head of Equity Trading and its Risk Management group, clients of STFL and its affiliates that are Institutional Participants as defined in Part II, Item 5a may request a customized STFL SOR routing configuration that restricts the SOR to routing their orders only to STFX.  This customization excludes all other execution venues as routing destinations for these orders.  Institutional Participants must be approved for this configuration, subject to the following additional eligibility conditions (i.e., to become Directed Participants):
+
+Assets Under Management ("AUM"): The Institutional Participant must: (a) have more than $10 billion in AUM at the time of their request; or (b) have more than $1 billion in AUM at the time of their request and use a third-party technology platform or execution service-bureau with its own SOR and execution algorithms ("Third-Party SOR Platform") that connect to STFX through Stifel's routing infrastructure and STFL SOR platforms (see Part III, Item 5: ("Means of Entry")).  An Institutional Participant with more than $10 billion AUM can also use a Third-Party Platform to connect to Stifel's routing infrastructure and the STFL SOR platform.
+
+Unaffiliated BDs, upon written request, review, and approval by Stifel's Head of Equity Trading and its Risk Management group, may request a customized STFL SOR routing configuration that will first direct the SOR to route their retail customer orders to STFX in an attempt to match such orders. For those retail orders that are not matched on STFX, the SOR will then route such orders to other execution venues.
+
+Stifel's Head of Equity Trading and its Risk Management group has sole discretion to accept or deny a potential Directed Participant even if they meet the eligibility criteria.</taPart3Item2bSummaryOfCndtns>
+        <rbPart3Item2cIsConditionsSameForAll>Y</rbPart3Item2cIsConditionsSameForAll>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>N</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>A Participant may be excluded from the ATS services if they are no longer a client of STFL and/or its affiliates, or if they cease to be a client in good standing. For example, STFL Account Supervision will close, and purge from internal systems, any account that is deemed inactive for a year or more. STFL Account Supervision can also flag an account for missing or incomplete documentation during periodic account reviews. In these cases, the client's failure to promptly provide the required account documentation may result in the restricting of trading in, or closure of the account.</taPart3Item3aExcludngSumryDtls>
+        <rbPart3Item3bIsCondtnsSameForAll>Y</rbPart3Item3bIsCondtnsSameForAll>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>STFX operates during regular trading hours (9:30:00 AM ET to 4:00:00 PM ET) and also follows the New York Stock Exchange holiday and early close schedule. STFX accepts orders from 8:00:00 AM to 4:00:00 PM ET. Matching commences at 9:30:00 AM ET. STFX does not match orders outside of regular trading hours. All orders received between 8:00:00 AM ET and 9:30:00 AM ET are queued by the system until matching begins at 9:30:00 AM ET and are subject to price-time priority.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <rbPart3Item5aIsPermitOrdrTradng>N</rbPart3Item5aIsPermitOrdrTradng>
+      <part3Item5cOthrDtls rbPart3Item5cIsAnyOtherMeans="Y">
+        <taPart3Item5cOthrMeansDtls>STFX is an internal-crossing network for orders in NMS stocks originating from Participants (as defined below). Unaffiliated BDs along with STFL business units, STFL affiliates, and their respective clients ("Participants") access STFX through the direct or indirect use of the products and services offered by STFL's Portfolio &amp; Electronic Trading Desk (PETD). More specifically, these Participants access STFX through any STFL or STFL-affiliate trading desk that uses the algorithms and/or SOR provided by the PETD.
+
+STFL's SOR platform is the sole point of entry into STFX. In addition to STFX, the SOR platform can access national securities exchanges, other alternative trading systems, and other market centers.  The platform contains multiple SOR configurations.  SOR configurations may route to different execution venues and are created to achieve specific performance benchmarks and/or to satisfy specific risk tolerances and order constraints.  Risk tolerances and constraints may be directly set by a Participant, and/or by an algorithm to minimize an order's impact on the market.  Not every SOR configuration routes to STFX.  All outbound routes to STFX are subject to the same factors determining latency between the SOR platform and STFX. This means there is no difference in speed for orders reaching STFX once they leave the SOR. STFL algorithms systematically select the appropriate SOR configuration to best achieve their intended benchmark.  Alternatively, a Participant can access a SOR configuration directly without utilizing an algorithm.  However, Participants cannot bypass the SOR to directly access STFX.  Except as may be prohibited by regulatory requirements, Institutional Participants can request customization of their algorithm or SOR configurations at the session or Client ID-level to exclude specific trading venues, including STFX.
+
+Both Unaffiliated BDs and Institutional Participants that meet the eligibility standards described in Part III, Item 2b ("Directed Participants"), and upon written request, review, and approval by STFL's Head of Equity Trading, can: (1) in the case of Institutional Participants, direct that their orders route solely to STFX by utilizing a customized STFL SOR routing configuration, and (2) in the case of Unaffiliated BDs, direct that their retail customers first be directed to STFX before routing to other execution venues.  These Directed Participants are treated as Subscribers for purposes of Regulation ATS. A Directed Participant's customized SOR routing configuration restricts the SOR to routing that Institutional Participant's orders only to STFX, thereby excluding all other execution venues as routing destinations.  In the case of Unaffiliated BDs, its customized SOR routing configuration directs the SOR to route that Unaffiliated BDs retail orders first to STFX then to other execution venues if no match occurs.  Orders directed solely to STFX by either type of Directed Participant are subject to the same order validation process and priority rules (see Part III, Item 7) as all non-directed orders.  In addition, orders from Directed Participants utilize the same routing infrastructure and are subject to the same factors determining latency (discussed above) between the STFL SOR and STFX as all non-directed orders.  While Directed Participants can route their orders solely to STFX, they cannot directly access STFX without first routing through the SOR platform mentioned above.  The STFL SOR platform is the only means of entry into STFX, but is capable of utilizing a customized SOR routing configuration to allow directed orders into STFX. Retail Participants may not directly route orders to a specific algorithm, SOR, or execution venue.  The use of algorithms and SOR routing configurations for retail Participant orders is subject to the discretion of the STFL Retail Trading Desk.
+
+In addition to accessing STFX through the regular products and services that Stifel offers Participants, STFL affiliates and Unaffiliated BDs may also provide their clients with indirect access to STFX through "white-labeling" arrangements. Under a "white-label" agreement, a STFL affiliate or Unaffiliated BD may offer its clients the trading products and services offered by STFL under the affiliate's own marketing name. Notably these white-label arrangements do not contain specific terms and conditions for routing orders into STFX. Otherwise, access to STFX by these affiliated and unaffiliated clients is the same as described in Part III, Item 5.a and above.</taPart3Item5cOthrMeansDtls>
+        <rbPart3Item5dIsTnCSameForAll>Y</rbPart3Item5dIsTnCSameForAll>
+      </part3Item5cOthrDtls>
+      <rbPart3Item6aIsCoLocRltdSrvcsOfrd>N</rbPart3Item6aIsCoLocRltdSrvcsOfrd>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>All orders within the STFX limit order book are subject to price then time priority. Upon receipt of a valid order from the STFL SOR, STFX applies an "Assigned Limit Price". The Assigned Limit Price of an order is the highest price for a buy order (lowest for a sell order) at which the order may be executed at or within the National Best Bid and Offer ("NBBO") after applying the constraints submitted to STFX by the Participant and/or the SOR (i.e., limit price or pegged order type). Assigned Limit Prices will be updated as necessary with each change in the NBBO. STFX will not apply an Assigned Limit Price worse than the Limit Price received on the order from the SOR - a Limit Price may be set by the Participant or by a STFL Algorithm and/or the SOR. STFL Algorithms and the SOR may independently submit a limit price and/or peg, time in force, and MinQty condition to STFX based on their design in achieving specific execution benchmarks and satisfying Participant order handling instructions. In any instance, a STFL Algorithm and/or SOR the submitted limit price or condition will not violate the Participant submitted limit price or condition.
+
+STFX does not have any order types that allow for routing to other Trading Centers, or that are designed not remove liquidity (e.g., post-only orders). All order types are the same across all access points to the ATS.
+
+The following order price types are available on STFX.
+
+1. Limit Orders - Limit Orders, which are determined by the Participant or by a STFL algorithm and/or the SOR are posted to the STFX order book with an Assigned Limit Price equal to the received order's Limit Price with the following exceptions: Orders received with Limit Prices outside the NBBO (i.e., at prices higher than the NBBO for buy orders and lower than the NBBO for sell orders) are given an Assigned Limit Price at the NBBO. For example, if the NBBO is $10.00 x $11.00, a buy order with a limit price of $12.00 will have an Assigned Limit Price of $11.00. Pursuant to Rule 612 under Regulation NMS, orders with a price not within the minimum quotation increment will be rejected. For orders in stocks priced at or above $1.00, the minimum increment is $0.01. For orders in stocks priced below $1.00, the minimum increment is $0.0001. STFX will abide by these pricing requirements. No order will be executed at a price worse than the order's Limit Price. If a Participant or a STFL algorithm/the SOR amends the Limit Price of an order submitted to STFX, the ATS will update the Assigned Limit Price as necessary.
+
+2. Market Orders - Market Orders are posted to the STFX order book with an Assigned Limit Price equal to the far price of the NBBO. For example, if the NBBO is $10.00 x $11.00, a buy market order will have an Assigned Limit Price of $11.00, while a sell market order will have an Assigned Limit Price of $10.00.
+Participant and/or STFL algorithm/SOR-initiated Limit Price changes will result in a new time stamp and the resetting of time priority.
+The following order conditions are available on STFX.
+1. Pegged Orders - Pegged Orders are posted to the STFX order book, subject to regulatory considerations, with an Assigned Limit Price determined by the prevailing NBBO and any Participant and/or STFL algorithm/SOR submitted limit price. STFX continuously reevaluates and updates the Assigned Limit Price for Pegged Orders for changes in the NBBO. Changes in the Assigned Limit Price due to a pegged order condition do not affect time priority. The three peg conditions are (i) Midpoint Peg - order is pegged as close as possible to the midpoint of the current NBBO; (ii) Market Peg - order is pegged to the far side of the market NBBO; (iii) Primary Peg - the order is pegged to the near side of NBBO. For example, if a stock is trading with an NBBO of $10.00 x $11.00, a Midpoint Peg buy order with no limit would have an Assigned Limit Price of $10.50. A Midpoint Peg buy order with a Participant submitted limit of $10.00 would have an Assigned Limit Price of $10.00. A Primary Peg buy order with no Participant submitted limit would have an Assigned Limit Price of $10.00. A Market Peg buy order with no Participant submitted limit would have an Assigned Limit Price of $11.00. For securities priced under $1.00, if the Assigned Limit Price of an order is the midpoint of the NBBO, STFX will conservatively round the price from five decimal places to four decimal places - i.e., the price of a buy order will be rounded down, and the price of a sell order will be rounded up. Other regulatory considerations are market-wide circuit breakers, and Limit Up / Limit Down / Regulation SHO conditions.
+
+Pegged orders are executable subject to price-time priority when a contra-order satisfies the pegged order's Assigned Limit Price and applicable MinQty constraints. Participant or STFL algorithm/SOR-initiated amendments to a Peg Condition result in the resetting of time priority. STFX-initiated changes to the Assigned Limit Price due to changes in the NBBO do not result in a new time stamp or change in the time priority. The execution price for Peg Orders in general is discussed in detail in Part III, Item 11c under Price Improvement.
+
+2. Day or IOC Orders - Day orders remain in the STFX order book until cancelled, the full quantity is executed, or the market closes. A Participant may modify, replace, or cancel day orders. Immediate-or-Cancel ("IOC") Orders will match immediately with eligible resting providing orders after which STFX will cancel back the balance. IOC orders may not be modified, replaced or cancelled. Participants can change a Day order to an IOC order. At such time, STFX will update the Assigned Limit Price of the order as necessary, along with its Time Priority, then execute or cancel the unexecuted balance of the order.
+
+3. Minimum Execution Quantity - Participants and/or a STFL algorithm/SOR may submit an order with a Minimum Execution Quantity (MinQty) Condition. STFX does not aggregate contra-side orders to meet the MinQty. The MinQty specified on an order can only be filled by a single contra-side order. All contra-side orders matched with an order with a specified MinQty condition must satisfy that MinQty. STFX cancels an order if the order's remaining quantity is less than the MinQty.
+
+Participant and/or STFL algorithm/SOR-initiated amendments to a Peg Condition, Minimum Execution Quantity, or Time in Force (day/IOC), will result in a new time stamp and the resetting of time priority.
+
+Limit Orders may be combined with any Peg Condition, MinQty Condition, or Time in Force as instructed by the Participant and/or the STFL algorithm/SOR. At the discretion of the Participant and/or the STFL
+Algorithm/SOR, all orders, except for IOC orders, can be modified or cancelled. Participant defined Price Limits and/or order conditions cannot be violated by an algorithm or the SOR. STFX may reject or cancel an order that does not pass validation; for example, if the order message contains: an invalid or missing handling instruction, a missing parameter (e.g., order side), a MinQty that is greater than the order quantity, or an invalid symbol. Alternatively, orders may be cancelled upon STFX support personnel initiating a system-wide or symbol-specific "block" due to STFL or NASDAQ technical or operational issues (i.e., loss of FIX connectivity or primary and backup hardware failure). During a  "block," STFX will immediately cancel all open orders in affected stocks on the order book and prohibit further order entry, order cancellation, and order replacement. In addition, STFX will prevent crossing in stocks with an NBBO that is locked or crossed. At the end of the regular session, STFX will cancel all open orders</taPart3Item7AOrdrTypExplain>
+      <rbPart3Item7bIsTnCSameForAll>Y</rbPart3Item7bIsTnCSameForAll>
+      <rbPart3Item8aIsMinOrMaxSizeReqd>N</rbPart3Item8aIsMinOrMaxSizeReqd>
+      <part3Item8cOddltOrdrReqs rbPart3Item8cIsOddLotsAcptdExecutd="Y">
+        <taPart3Item8cOddLtOrdrReqsnProcdurs>STFX accepts and executes odd-lot orders. There are no requirements or specific handling procedures for odd-lot orders. Odd-lot orders are treated the same as round-lot orders. STFX will not cancel a partially executed order even if an odd-lot remains, unless it is an IOC order or the unfilled order quantity falls below a MinQty constraint entered by the Participant.</taPart3Item8cOddLtOrdrReqsnProcdurs>
+        <rbPart3Item8dIsReqsProcdurSameForAll>Y</rbPart3Item8dIsReqsProcdurSameForAll>
+      </part3Item8cOddltOrdrReqs>
+      <part3Item8eMixltOrdrDetails rbPart3Item8eIsMixLotOrdrsAcptdExecutd="Y">
+        <taPart3Item8eMixltOrdrReqsProcDtls>STFX accepts and executes mixed-lot orders. There are no requirements or specific handling procedures for mixed-lot orders. STFX will not cancel a partially executed order, even if a mixed-lot remains, unless it is an IOC order or the unfilled order quantity falls below a MinQty constraint entered by the Participant.</taPart3Item8eMixltOrdrReqsProcDtls>
+        <rbPart3Item8fIsRecProcSameForAll>Y</rbPart3Item8fIsRecProcSameForAll>
+      </part3Item8eMixltOrdrDetails>
+      <rbPart3Item9aIsAnyMsgToIndicTI>N</rbPart3Item9aIsAnyMsgToIndicTI>
+      <taPart3Item10aOpenReOpenDtls>STFX accepts day orders (limit, market, pegged, MinQty) beginning at 8:00:00 AM ET. STFX does not allow Immediate or Cancel (IOC) orders prior to 9:30:00 AM ET. Orders received by the STFL SOR prior to 8:00:00 AM ET are queued by the SOR in order of time received and routed to STFX at 8:00:00 AM ET. All orders received by STFX between 8:00:00 AM ET and 9:30:00 AM ET are time-stamped and entered into the limit order book preserving any pre-existing time priority set by the order received time at the STFL SOR (See Part III Item 11a for more details on time priority). Excluding periods during regulatory trading halts (e.g., a halt due to volatility or news pending) or market-wide circuit breakers, STFX matches and executes crosses within the NBBO (with respect to Limit Up / Limit Down Bands) during regular market trading hours - 9:30:00 AM to 4:00:00 PM (or earlier for abbreviated trading sessions). STFX does not operate opening, re-opening, or closing auctions. STFX executes crosses based on price-time priority and the NBBO starting at 9:30:00 ET for all tradeable (not restricted) NMS stock symbols for which an NBBO can be determined by direct exchange feeds and/or the SIP feed. STFX does not require an opening trade on an NMS stock's primary exchange prior to executing a cross. STFX cancels all open orders at 4:00:00 PM ET and rejects all new orders received from 4:00:00 PM ET to 8:00:00 AM ET. At the conclusion of the regular trading session, STFX cancels all orders on the limit order book. STFX automatically initiates a "pause" in crossing when a message is received via direct exchange feed or the SIP from all U.S. equity exchanges that indicate a regulatory trading halt or circuit breaker condition has been triggered. During a "pause", STFX accepts new orders and cancels, but does not effect any crosses. STFX resumes crossing orders on the limit order book based on price-time priority (subject to Limit Up / Limit Down Bands) when a message received via direct exchange feed or the SIP indicates that trading has resumed on at least one exchange. Alternatively, STFX support personnel may "pause" or "block" crossing in one or many NMS stock symbols due to systemic issues (e.g., loss of FIX connectivity or primary and backup market data feeds). In the event of a STFL-initiated "block", STFX cancels all open orders and rejects all new orders. Once a STFL-initiated "block" is lifted, STFX accepts new orders and crossing resumes based on the new orders' price-time priority and the NBBO. STFX support personnel exercise discretion over whether to initiate a "pause" or "block" based on their assessment of the severity of the issue. For example, a temporary disruption in FIX connectivity would likely result in a "pause," while a sustained FIX connectivity outage would result in a "block" and in turn, the rejection and canceling of all orders in affected names.</taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>STFX does not operate an opening or re-opening auction. STFX crosses orders resting on the STFX limit order book starting at 9:30:00 AM ET according to price-time priority and the NBBO (please see Part III, Item 10a above). Following a "pause" in trading (e.g., due to a regulatory halt or circuit breaker), unexecuted orders can be cancelled by the Participant or the STFL SOR. Otherwise, unexecuted orders on the limit order book at the initiation of a "pause" remain open until executed or the end of regular trading hours. At the conclusion of a "pause", STFX matches open orders on the limit order book based on price-time priority and the NBBO. If STFX support personnel initiate a "block" on trading in one or many NMS stock symbol (e.g., due to loss of FIX connectivity or primary and backup market data feeds), all open orders in the affected symbol are cancelled. Once a "block" is lifted by STFL support personnel, STFX accepts new orders and effects crosses based on price-time priority and the NBBO.</taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>N</rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>
+      <taPart3Item11aStrucOfNmsStk>STFX is an internal-crossing system for orders in all NMS stock available for trading originating from Participants and routed through FIX connections to the ATS through the STFL SOR. STFX operates on hardware located at the Equinix NY4 data center. Orders submitted to STFX are placed on a limit order book and are non-displayed. All orders are submitted to STFX in the same manner - by way of the SOR connected to STFX via FIX connection. Marketable orders received but not executed at STFX are cancelled prior to any further routing.
+
+All orders within STFX are subject to price-time priority. Orders submitted to STFX are first validated based on Participant, NMS stock symbol, STFL trading restrictions on the NMS stock symbol and order handling instructions (e.g., market/limit on open, market/limit on close and stop are not valid order types in STFX). In addition, short locate information is validated per a list of acceptable MPIDs defined by STFL personnel. Invalid orders, or orders submitted for NMS stocks that have been "blocked" by STFX support personnel, are rejected by the ATS (a "block" on trading in one or many NMS stock symbols may occur due to loss of FIX connectivity or primary and backup market data feeds). Valid orders are given an Assigned Limit Price on the STFX limit order book. The Assigned Limit Price of an order is the highest price for a buy order (lowest for a sell order) at which the order may be executed at or within the National Best Bid and Offer ("NBBO") after applying the constraints submitted to STFX by the Participant and/or SOR (i.e., limit price or pegged order type). Assigned Limit Prices will be updated as necessary with each change in the NBBO. STFX will not apply an Assigned Limit Price worse than the Limit Price received on the order from the SOR - a Limit Price may be set by the Participant or by a STFL Algorithm and/or SOR. STFX attempts to match buy and sell orders upon arrival of a new marketable order, an order amendment, or change in the NBBO. Matches only occur at prices within the prevailing NBBO subject to specific order conditions and Limit Up / Limit Down bands as defined by FINRA rules.
+
+Time priority is determined by a time stamp at the point of entry into the ATS. The STFL SOR accepts and queues orders received prior to 8:00:00 AM ET. Queued orders are then transmitted to STFX at 8:00:00 AM ET preserving their original time priority. STFX rejects all new orders received during a STFX support-initiated trading "block" and between 4:00:00 PM ET and 8:00:00 AM ET. While it is possible for multiple orders to arrive at STFX at exactly the same time, the ATS gateway pushes all inbound messages through a sequencer so that no two orders receive an identical time stamp. Orders on the STFX limit order book may be modified, replaced, or cancelled between 8:00:00 AM ET and 4:00:00 PM ET except for during a STFX support-initiated trading "block". Amendments to the following order attributes will result in a new time stamp and the resetting of time priority: Price (limit), Minimum Quantity, Time in Force, Peg Condition, and Quantity Increase. STFX cancels all open orders remaining on the limit order book at the end of the regular trading session.</taPart3Item11aStrucOfNmsStk>
+      <rbPart3Item11bIsMeansFeciltsSameForAll>Y</rbPart3Item11bIsMeansFeciltsSameForAll>
+      <taPart3Item11cRulsProcsOfNmsStk>STFX only executes transactions (1) during regular trading hours, (2) in tradeable symbols, (3) at prices at or within the NBBO, and (4) according to pre-defined, applicable segmentation categories as discussed in Part III, Item 13(a). Short sales are permitted. However, short sale orders during a Regulation SHO triggered state will be placed in the limit order book at their limit price but will only be executed at Regulation SHO permitted prices above the prevailing NBB (i.e., when the price of a covered security decreases by 10% or more from the covered security's prior, primary closing price). In the event of a conflict between the timing of an execution and a cancel/halt/close event, the cancel/halt/close will take precedence.
+
+Non-Discretionary Restrictions/Rules
+
+Non-Discretionary Matching restrictions will be implemented to allow orders to match with other orders per the following protocols:
+1. Segmentation - STFL assigns Participants a Segmentation Category based on whether the point of entry for their orders is STFL's retail or institutional execution platform. Affiliates, as Participants, are assigned a segmentation category by the same methodology unless the nature of the affiliate's clients is more accurately represented by a different category. For example, a STFL affiliate whose primary clients are retail investors will be assigned to the retail segmentation category regardless of the point of entry for their orders. STFL's Portfolio &amp; Electronic Trading Management and Stifel Compliance make this determination jointly. STFX will only cross two orders if the Segmentation Category assigned to each order, and outlined below in Part III, Item 13a, is not restricted from crossing with the contra-side. Institutional Participants may restrict the matching of their orders to specific segmentation categories of contra-orders by written request to their STFL coverage employee. For example, a Participant on STFL's institutional platform may restrict matching only to orders submitted by Participants assigned to the Retail Segment. Retail Participants may not restrict matching to specific segments. STFL will process requests from Institutional Participants overnight to be effective the following trading day. The default segmentation for Institutional Participants allows their orders to cross against both retail Participants and Institutional Participants.
+
+2. Market State Logic - STFX will prevent trading in symbols with an NBBO that is locked or crossed.
+
+3. Regulatory Logic - STFX automatically initiates a "pause" in crossing when a message is received via direct exchange feed or the SIP from all U.S. equity exchanges that a regulatory trading halt (e.g., halted due to volatility or news pending) or a market-wide circuit breaker condition has been triggered. During a pause, STFX accepts new orders and cancels but does not effect any crosses. STFX resumes crossing orders subject to Limit Up / Limit Down Bands and Regulation SHO, when a message received via direct exchange feed or the SIP indicates that trading has resumed on at least one exchange.
+
+4. Principal Fill Logic - the ATS will not accept STFL principal capacity orders.
+
+5. STFL-Initiated "Block" from Crossing - STFX support personnel can initiate a "block" from crossing in one or many NMS stock symbols due to systemic issues (e.g., due to loss of FIX connectivity or primary and backup market data feeds). When a "block" is initiated, all open orders in affected symbol are cancelled and no new orders are accepted. Once a "block" is lifted by STFL support personnel, STFX accepts new orders and effects crosses based on price-time priority and the NBBO.
+
+Discretionary Restrictions/Rules
+
+1. Minimum Executable Quantity ("MinQty") - This allows Institutional Participants to specify a minimum quantity for execution against any single contra order. Retail Participants cannot specify a MinQty. This feature is implemented on an order-by-order basis at the time of order input. STFX does not aggregate orders to meet the MinQty. The MinQty specified on an order can only be filled by a single contra-side order. All contra-side orders matched with an order with MinQty enabled must satisfy that MinQty. STFX cancels an order if the order's remaining quantity is less than the minimum executable quantity. 2. Self-Match Logic - STFX maintains configurations that control if a Participant needs or does not need self-match prevention. Participants must request to enable self-match restrictions by contacting their STFL coverage employee in writing.
+
+Priority
+
+All orders within STFX are subject to price-time priority. STFX gives valid orders a time stamp upon acceptance and an Assigned Limit Price. STFX attempts to match buy and sell orders upon arrival of a new marketable order, an order amendment, or change in the NBBO. Matches only occur at prices within the NBBO subject to specific order conditions and Limit Up / Limit Down bands as defined by FINRA rules.
+
+Pricing Methodology
+
+All orders within the STFX limit order book are subject to price then time priority. Upon receipt of a valid order from the STFL SOR, STFX applies an "Assigned Limit Price". The Assigned Limit Price of an order is the highest price for a buy order (lowest for a sell order) at which the order may be executed at or within the National Best Bid and Offer ("NBBO") after applying the constraints submitted to STFX by the Participant and/or SOR (i.e., limit price or pegged order type). Assigned Limit Prices will be updated as necessary with each change in the NBBO. STFX will not apply an Assigned Limit Price worse than the Limit Price received on the order from the SOR - a Limit Price may be set by the Participant or by a STFL Algorithm and/or the SOR. STFL Algorithms and the SRFL SOR may independently submit a limit price and/or peg, time in force, and MinQty condition to STFX based on its design in achieving specific execution benchmarks and satisfying Participant order handling instructions. In any instance, a STFL Algorithm and/or the SOR submitted limit price or condition will not violate the Participant submitted limit price or condition.
+
+The following order price types are available on STFX:
+
+1. Limit Orders - Limit Orders, which are determined by the Participant or by a STFL algorithm and/or the SOR are posted to the STFX order book with an Assigned Limit Price equal to the received order's Limit Price with the following exceptions: Orders received with Limit Prices outside the NBBO (i.e., at prices higher than the NBBO for buy orders and lower than the NBBO for sell orders) are given an Assigned Limit Price at the NBBO. For example, if the NBBO is $10.00 x $11.00, a buy order with a limit price of $12.00 will have an Assigned Limit Price of $11.00. Pursuant to Rule 612 under Regulation NMS, orders with a price not within the minimum quotation increment will be rejected. For orders in stocks priced at or above $1.00, the minimum increment is $0.01. For orders in stocks priced below $1.00, the minimum increment is $0.0001. STFX will abide by these pricing requirements. No order will be executed at a price worse than the order's Limit Price. If a Participant or a STFL algorithm/the SOR amends the Limit Price of an order submitted to STFX, the ATS will update the Assigned Limit Price as necessary.
+
+2. Market Orders - Market Orders are posted to the STFX order book with an Assigned Limit Price equal to the far price of the NBBO. For example, if the NBBO is $10.00 x $11.00, a buy market order will have an Assigned Limit Price of $11.00, while a sell market order will have an Assigned Limit Price of $10.00.
+
+3. Pegged Orders - Pegged Orders are posted to the STFX order book, subject to regulatory considerations, with an Assigned Limit Price determined by the prevailing NBBO and any Participant and/or STFL algorithm/SOR submitted limit price. STFX continuously reevaluates and updates the Assigned Limit Price for Pegged Orders for changes in the NBBO. Changes in the Assigned Limit Price due to a pegged order condition do not affect time priority. The three peg conditions are (i) Midpoint Peg - order is pegged as close as possible to the midpoint of the current NBBO; (ii) Market Peg - order is pegged to the far side of the market NBBO; (iii) Primary Peg - the order is pegged to the near side of NBBO. For example, if a stock is trading with an NBBO of $10.00 x $11.00, a Midpoint Peg buy order with no limit would have an Assigned Limit Price of $10.50. A Midpoint Peg buy order with a Participant submitted limit of $10.00 would have an Assigned Limit Price of $10.00. A Primary Peg buy order with no Participant submitted limit would have an Assigned Limit Price of $10.00. A Market Peg buy order with no Participant submitted limit would have an Assigned Limit Price of $11.00. For securities priced under $1.00, if the Assigned Limit Price of an order is the midpoint of the NBBO, STFX will conservatively round the price from five decimal places to four decimal places - i.e., the price of a buy order will be rounded down, and the price of a sell order will be rounded up. Other regulatory considerations are market-wide circuit breakers, and Limit Up / Limit Down / Regulation SHO conditions.
+
+Amendments to an order will reset its time priority, with the exception of reduction in the size of an order or a short sale change (i.e., short sell order changed to long sell order, or long sell order changed to a short sell order). System-initiated updates to the Assigned Limit Price of pegged orders due to a change in the NBBO do not affect time priority.
+
+Price Improvement:
+STFX determines price improvement and the match price when executing orders based on the Assigned Limit Price and whether or not the order provides or takes liquidity. Price Improvement Logic operates as follows:
+1. Limit orders that Provide liquidity vs. the following orders that Take liquidity:
+a. Market = Execute at the Providing Limit Price
+b. Limit = Split Price Improvement on a 50%/50% basis
+c. Primary Peg = Execute at Taking Primary Peg
+d. Midpoint Peg = Execute at Taking Midpoint Peg
+e. Market Peg = Split Price Improvement on a 50%/50% basis
+
+
+2. Primary Peg orders that Provide liquidity vs. the following orders that Take liquidity:
+a. Market = Execute at Providing Primary Peg
+b. Limit = Execute at Providing Primary Peg
+c. Primary Peg = N/A - No Execution
+d. Midpoint Peg = N/A - No Execution
+e. Market Peg = Execute at Providing Primary Peg
+
+3. Midpoint Peg orders that Provide liquidity vs. the following orders that Take liquidity:
+a. Market = Execute at Providing Midpoint Peg
+b. Limit = Split Price Improvement on a 50%/50% basis
+c. Primary Peg = N/A - No Execution
+d. Midpoint Peg = Execute at Providing Midpoint Peg
+e. Market Peg = Split Price Improvement on a 50%/50% basis
+
+4. Market Peg orders that Provide liquidity vs. the following orders that Take liquidity:
+a. Market = Execute at Providing Market Peg
+b. Limit = Split Price Improvement on a 50%/50% basis
+c. Primary Peg = Execute at Providing Market Peg
+d. Midpoint Peg = Split Price Improvement on a 50%/50% basis
+e. Market Peg = Split Price Improvement on a 50%/50% basis
+
+Price Protection
+
+All orders submitted to STFX are assigned an Assigned Limit Price. In addition, no order will be executed at a price that violates the order's submitted Limit Price, the prevailing NBBO, Regulation SHO restrictions, and Limit Up / Limit Down bands.
+Locked/Crossed Markets
+
+STFX will prevent matching orders/trading in symbols with an NBBO that is locked or crossed.
+
+Time-Stamping of Orders and Executions
+
+Orders submitted to the STFL SOR before 8:00:00 AM ET and prior to the acceptance of orders by STFX will be queued by the SOR so that time priority is maintained upon routing to STFX. STFX time-stamps orders to the millisecond at the time they are accepted. Executions are time-stamped to the millisecond at the time that orders are matched. Amendments to the following order attributes will also result in a new time stamp and the resetting of time priority: Price (limit), Minimum Quantity, Time in Force, Peg Condition, and Quantity Increase.
+
+Errors
+STFL handles errors involving STFX in accordance with STFL's firm error policy. Errors specific to STFX stemming from ATS technical issues or operational issues pertaining to the configuration and support of the ATS are booked to the STFX error account and resolved by the buying or selling of shares by STFL as needed (not in STFX) and the filing and approval of an error report on STFL's EQUBE system. ATS technical issues that may result in an error include, but are not limited to, disruption in the primary price feed, disruption in FIX connections between STFX and the STFL SOR, or failure of hardware critical to the operation of the ATS. ATS operational issues that may result in an error include, but are not limited to, the improper configuration of a Participant's segmentation category. Errors caused by Participants are governed by the terms and conditions of their Stifel Account Agreement.</taPart3Item11cRulsProcsOfNmsStk>
+      <part3Item11dDiffDtls rbPart3Item11dIsProcsRulsSameForAll="N">
+        <taPart3Item11dDiffDtls>With regard to the non-discretionary rules identified in 11(c) above, only Institutional Participants may restrict the matching of their orders to specific segmentation categories of contra-orders. With regard to discretionary rules, only Institutional Participants may set a MinQty condition on an order. retail Participants cannot utilize either restriction/rule.</taPart3Item11dDiffDtls>
+      </part3Item11dDiffDtls>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <part3Item13aSegmntDtls rbPart3Item13aIsOrdrTiSegmntd="Y">
+        <taPart3Item13aSegProcdurDtls>Yes, orders entered into STFX are segmented into one of the following two Segmentation Categories:
+Category A: Stifel Retail
+Category B: Stifel Institutional
+
+Segmentation Categories are automatically assigned to each Participant order by the STFL SOR on outbound routes to STFX based on the following rules. The STFL Retail Segmentation Category is generally assigned to a Participant whose orders are entered into one of STFL's retail brokerage order management systems or advisory order management systems. In addition, orders from outside advisory managers, specific STFL private client groups, and the STFL retail trading desk are assigned to the Retail Category even though the point of entry for their orders is STFL's institutional order management system. In addition, orders from Unaffiliated BDs that are Directed Participants will be assigned to the STFL Retail Segmentation Category. The STFL Institutional Segmentation Category is assigned to Participants whose orders are entered into STFL's institutional order management system and who are not otherwise in the retail category. The rules governing the definition and assignment of Segmentation Categories are established within the STFL SOR platform and applied upon creation of each new Participant code. Only PETD programmers and the manager of the PETD can implement a change to the Participant Segmentation Categories upon review by the manager of the PETD and STFL Compliance. Affiliates, as Participants, are assigned a Segmentation Category by the same methodology unless the nature of the Affiliate's business and underlying clients are more accurately represented by the other category. This determination is made jointly by the manager of the PETD and STFL Compliance upon the initial creation of a Participant code within STFL's SOR platform. Segmentation Categories for Affiliates are reviewed, and if necessary, updated by the manager of the PETD and STFL Compliance as needed.
+
+For all Participants, the Segmentation Category assigned to an order is effective for the life of each order. There is no mechanism to override the Segmentation Category on an open order. Any proposed change to a specific Participant's assigned Segmentation Category must be made in writing and jointly approved by the manager of the PETD and STFL Compliance. Any such change would become effective at the start of the following regular trading session.
+
+In addition to the Assigned Segmentation Category, each order message submitted to STFX contains a Segmentation Restriction. The Segmentation Restriction allows institutional Participants to prohibit the crossing of their orders against all orders from all Participants assigned to a specific Segmentation Category. The default restriction for Retail Segmentation Category orders allows for matching against both other Retail Segment orders and Institutional Segment orders. The default restriction for Institutional Segmentation Category orders also allows matching against both Retail Segment orders and Institutional Segment orders. Only Institutional Participants may request a change to their Segmentation Restriction setting. Such requests must be received in writing and will become effective at the start of the following regular trading session. STFX will only cross two orders if the Segmentation Restrictions on each order allow for matching with their respective Segmentation Categories. For example, an order with the Institutional Segmentation Category will only be allowed to match against orders that do not contain a Segmentation Restriction on Institutional orders. Specifically, Institutional orders with a Segmentation Restriction that prohibits crossing against other Institutional Segment orders are only permitted to cross against Retail Segment orders. Segmentation Categories/Restrictions do not permit Participants to allow/prohibit crossing with a specific Participant, but rather restrict crossing with an entire category of Participants. Segmentation Categories, by nature of their use by Segmentation Restrictions, can affect price-time priority in the limit order book as they may not permit an otherwise matched order to cross. Institutional Participants that do not meet criteria to become Directed Participants are still subject to segmentation procedures.</taPart3Item13aSegProcdurDtls>
+        <rbPart3Item13bIsSegmntatnSameForAll>Y</rbPart3Item13bIsSegmntatnSameForAll>
+        <part3Item13dDsclrContntDtls rbPart3Item13dIsSegCatgDisclosd="Y">
+          <taPart3Item13dDsclosrContntDtls>Upon inquiry by the Participant, STFX support staff may verbally disclose the assigned Segmentation Category to a STFL client's authorized trader or their designated STFL account coverage personnel. This designation cannot be contested.</taPart3Item13dDsclosrContntDtls>
+          <rbPart3Item13eIsDsclosrSameForAll>Y</rbPart3Item13eIsDsclosrSameForAll>
+        </part3Item13dDsclrContntDtls>
+      </part3Item13aSegmntDtls>
+      <rbPart3Item13cIsCustmrOrdr>N</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>Orders can be designated to interact or not interact with certain orders based on (i) the Participant's assigned Segmentation Category and its use by the Segmentation Restrictions order parameter, or (ii)  the self-match prevention order parameter. The specific process by which Segmentation Categories/Restrictions are assigned and implemented are discussed in Part III, Item 13a. At the request of the Participant, the self-match prevention parameter is configured within the ATS by STFX support personnel. This parameter allows Participants to prohibit their own orders from crossing with each other. Requests to enable self-match prevention must be received in writing and will become effective at the start of the following regular trading session.</taPart3Item14aCntrPrtyDtls>
+        <rbPart3Item14bIsSelectnSameForAll>Y</rbPart3Item14bIsSelectnSameForAll>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>N</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>Order related information regarding orders routed to STFX is not provided to Participants (including Directed Participants) by STFX. Further, no real-time, client-specific information is provided by STFX to the STFL SOR for purposes other than notifying the SOR of an execution, rejection, or cancelation of a child order routed to STFX from the SOR. That said, eligible Direct Participants can route orders solely to STFX through a customized STFL SOR routing configuration that restricts the SOR to routing their orders only to STFX, thereby excluding all other execution venues (see Part II, Item 5). In these instances, STFL's SOR platform will necessarily have information about orders that are bound exclusively for STFX, and executions occurring at STFX. The STFL SOR platform, however, does not share such order information specifically pertaining to exclusive routes to STFX with any other Stifel trading system, desk or any third party, other than with personnel who require access to address operational, technological, legal, or compliance issues that may arise with STFX or the STFL SOR. Participants cannot opt out of the STFL SOR having knowledge of orders bound for STFX. This information is inherent in the operation of the system. The STFL SOR does not generate indications of interest based on information from STFX. Please also see the information provided regarding disclosure of confidential trading information provided in Part II, Item 7.</taPart3Item15bSubscrBndDtls>
+        <rbPart3Item15cIsDsplyProcSameForAll>Y</rbPart3Item15cIsDsplyProcSameForAll>
+      </part3Item15bSubSctbDtls>
+      <rbPart3Item16aIsInstRoutd>N</rbPart3Item16aIsInstRoutd>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <rbPart3Item18aIsOutsdeTrdingHrs>N</rbPart3Item18aIsOutsdeTrdingHrs>
+      <taPart3Item19aSrvcUsgFees>N/A- There are no fees or charges for use of STFX.</taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>N/A</taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>N/A</taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>STFX can systematically suspend ("pause") or stop ("block") trading in one or more NMS Stock(s) or the entire ATS due to regulatory compliance reasons or technical issues specific to STFX. Regulatory conditions that trigger an automatic "pause" include: (1) a regulatory trading halt (e.g., a halt due to volatility or news pending) or pause in trading at the primary listing exchange (e.g., market-wide circuit breaker); and (2) stock quoting in a Limit Up / Limit Down straddle state. STFX support personnel may also initiate a "pause" or "block" in trading due to (a) slowness or disruption in market data; (b) a disruption in FIX connectivity; or (c) a disruption in connectivity to STFX's primary and backup Trade Reporting Facilities. STFX support personnel monitor and resolve technical conditions in real time and exercise discretion over whether to initiate a "pause" or "block" based on their assessment of the severity of the issue. For example, a temporary disruption in FIX connectivity would likely result in a "pause", while a sustained FIX connectivity outage would result in a "block".
+
+While trading in a stock is "paused", STFX does not affect any crosses, but allows new order entry, order cancellation, and order amendment. All previous orders in a "paused" stock remain on the limit order book. A support-initiated "block" would occur if a technical issue cannot be completely resolved in a timely manner as determined by the manager of the PETD or the Head of Trading. While trading in a stock is "blocked", STFX does not allow order entry, order cancellation, or order amendment. All existing orders in a "blocked" stock on the limit order book are immediately cancelled.
+
+STFX has system controls designed to ensure that the ATS does not trigger the volume threshold for Regulation SCI or the Regulation ATS fair access volume threshold - STFX will "block" trading in the relevant symbol(s) prior to triggering the threshold(s).</taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>STFX uses the NASDAQ TRF as its primary trade reporting facilities. NASDAQ OCEAN initiates and manages the submission of reports, which STFL confirms. The NASDAQ TRF2 is the back-up trade reporting facility. If the primary TRF is not available, NASDAQ OCEAN will failover to the backup TRF on behalf of STFX where any unreported trades will be resubmitted.</taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>STFL, the operator of the STFX (an internal ATS), is a self-clearing broker-dealer and a member of the National Securities Clearing Corporation ("NSCC") and the Depository Trust Company ("DTC" Participant # 0793). All trades that are matched and executed on STFX are trades with STFL as counterparty on each side of the trade, and are entered into by STFL as agent for its customers (i.e. Participants) based on orders initiated by the customers. STFL does not effect transactions that are matched and executed on STFX on a principal basis, and neither does it become a counterparty to a transaction by interposing itself between two counterparties to the transaction (i.e., STFL does not novate any transactions).
+
+After two orders are matched on STFX, STFL will fill each original Participant order by internally executing the trade as counterparty with each Participant that is representative of the STFL order that was matched on STFX.
+When a matched trade on STFX involves Participants that custody their securities at STFL, the transactions will clear and settle internally through appropriate book entries in each Participants respective accounts at STFL. There are no unique procedures or material arrangements related to clearing these types of trades.
+
+When a matched trade on STFX involves a Participant that does not custody assets at STFL, such transactions are cleared and settled on delivery-versus-payment/receipt-versus-payment basis between STFL and the applicable Participant's prime broker. In connection with clearing and settling these trades, STFL has entered into Qualified Special Representative agreement in order to clear and settle these trades through NSCC as necessary.</taPart3Item22aMtrlArngmntDtls>
+      <rbPart3Item22bIsMtrlArngmtSameFrAll>Y</rbPart3Item22bIsMtrlArngmtSameFrAll>
+      <taPart3Item23aMrktDatSrc>STFX uses the services of NASDAQ OCEAN to manage the consumption of market data and derive the NBBO for use in pricing, prioritizing and executing orders. STFX can only execute orders at or within the NBBO. NASDAQ OCEAN utilizes the NASDAQ UltraFeed as its primary source of direct exchange data for all but the IEX, NYSE National, and CHX. The fully redundant feed from the securities information processor ("SIP") is utilized for the IEX, NYSE National, and CHX, as well as for redundancy purposes with all other exchanges. The SIP is also utilized for Limit Up / Limit Down and regulatory halt conditions. NASDAQ OCEAN systematically monitors direct feeds provided by UltraFeed and the SIP for latency. Should latency in the direct feeds exceed a threshold determined by NASDAQ OCEAN, crossing in affected symbols is automatically placed into a paused state until the issue is resolved or automatic failover to the SIP occurs. If failover occurs, STFX will utilize the SIP NBBO to resume and price transactions.</taPart3Item23aMrktDatSrc>
+      <rbPart3Item23bIsSrcSameFrAll>Y</rbPart3Item23bIsSrcSameFrAll>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <rbPart3Item26IsOrdrFloExecStatsPublshd>N</rbPart3Item26IsOrdrFloExecStatsPublshd>
+    </partThree>
+  </formData>
+</edgarSubmission>

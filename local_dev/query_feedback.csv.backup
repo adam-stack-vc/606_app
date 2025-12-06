@@ -1,0 +1,80 @@
+timestamp,question,sql_query,query_type,sql_results_count,genai_response,semantic_hints,query_notes,genai_notes,rating,,,,,,,,,
+2025-12-05T13:59:49.125262,PFOF for Robinhood in April 2024,"SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd
+FROM executing_bd_606
+WHERE year = 2024 AND month = '4' AND data_type = 'venue' AND executing_bd = 'Robinhood Securities, LLC';",direct_single,1,"In April 2024, Robinhood received a total payment for order flow (PFOF) of $72,262,786.30, which is approximately $72.3 million.",FALSE,,,5,,,,,,,,,
+2025-12-05T16:21:51.109474,PFOF for Robinhood in April 2024,"SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd
+FROM executing_bd_606
+WHERE year = 2024 AND month = '4' AND data_type = 'venue' AND executing_bd = 'Robinhood Securities, LLC';",direct_single,1,"In April 2024, Robinhood received a total of $72,262,786.30 in payment for order flow (PFOF).",FALSE,,,4,,,,,,,,,
+2025-12-05T16:30:11.903540,PFOF by stock group for Robinhood in 2024,"WITH base AS (
+SELECT stock_group, executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd
+FROM executing_bd_606
+WHERE year = 2024 AND data_type = 'venue' AND executing_bd = 'Robinhood Securities, LLC'
+GROUP BY stock_group, executing_bd
+)
+, ranked AS (
+  SELECT *, ROW_NUMBER() OVER (PARTITION BY stock_group ORDER BY total_pfof_usd DESC NULLS LAST) AS rn
+  FROM base
+)
+SELECT * FROM ranked WHERE rn = 1
+ORDER BY stock_group;",direct_single,3,"In 2024, Robinhood Securities, LLC generated payment for order flow (PFOF) as follows:
+
+- Options: $784.6M
+- Other Stocks: $157.0M
+- S&P 500: $28.3M
+
+These figures reflect the total PFOF by stock group for Robinhood.",FALSE,,,4,,,,,,,,,
+2025-12-05T16:41:05.685696,PFOF by stock group for Robinhood in 2024,"WITH base AS (
+SELECT stock_group, executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd
+FROM executing_bd_606
+WHERE year = 2024 AND data_type = 'venue' AND executing_bd = 'Robinhood Securities, LLC'
+GROUP BY stock_group, executing_bd
+)
+, ranked AS (
+  SELECT *, ROW_NUMBER() OVER (PARTITION BY stock_group ORDER BY total_pfof_usd DESC NULLS LAST) AS rn
+  FROM base
+)
+SELECT * FROM ranked WHERE rn = 1
+ORDER BY stock_group;",direct_single,3,"In 2024, Robinhood Securities, LLC generated payment for order flow (PFOF) as follows:
+
+- Options: $784.6M
+- Other Stocks: $157.0M
+- S&P 500: $28.3M
+
+These figures reflect the total PFOF by stock group for Robinhood.",FALSE,,"1) Robinhood Securities didn't generate the PFOF. ""When the entity is an executing_bd, the wording should be:  In 2024, [executing_bd name] received payment for order flow (PFOF) as follows:""
+2) Eliminate the generic ending parts of the executing_bd name as Robinhood Securities, LLC would be Robinhood.,
+",3,,,,,,,,,
+2025-12-05T16:41:51.162488,PFOF by stock group for Robinhood in 2024,"WITH base AS (
+SELECT stock_group, executing_bd, SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd
+FROM executing_bd_606
+WHERE year = 2024 AND data_type = 'venue' AND executing_bd = 'Robinhood Securities, LLC'
+GROUP BY stock_group, executing_bd
+)
+, ranked AS (
+  SELECT *, ROW_NUMBER() OVER (PARTITION BY stock_group ORDER BY total_pfof_usd DESC NULLS LAST) AS rn
+  FROM base
+)
+SELECT * FROM ranked WHERE rn = 1
+ORDER BY stock_group;",direct_single,3,"In 2024, Robinhood Securities, LLC generated payment for order flow (PFOF) as follows:
+
+- Options: $784.6M
+- Other Stocks: $157.0M
+- S&P 500: $28.3M
+
+These figures represent the total PFOF by stock group for Robinhood.",TRUE,,"1) Robinhood Securities didn't generate the PFOF. ""When the entity is an executing_bd, the wording should be:  In 2024, [executing_bd name] received payment for order flow (PFOF) as follows:""
+2) Eliminate the generic ending parts of the executing_bd name as Robinhood Securities, LLC would be Robinhood.,
+",3,,,,,,,,,
+2025-12-05T19:09:06.557271,How much volume did Citadel receive in January 2025?,Multiple queries executed,complex_multi_table,0,"The volume of trades that Citadel Securities LLC received in January 2025 cannot be directly determined from the provided data. However, we do have Payment for Order Flow (PFOF) data for Citadel from two executing brokers: Charles Schwab and Robinhood Securities, LLC. 
+
+Here is the PFOF data:
+
+| Executing Broker | Total PFOF (USD) |
+|------------------|------------------|
+| Charles Schwab   | 47,868,862.47    |
+| Robinhood Securities, LLC | 38,304,819.12 |
+
+Please note that the volume of trades is not equivalent to the PFOF. The PFOF is a payment received by a broker for directing trades to specific exchanges or market makers, like Citadel. The actual volume of trades would depend on the specific agreements and trade values, which are not provided in the data.",TRUE,"I don't see query so can't comment but the results are wrong on several areas:
+1) Citadel Securities LLC is not an executing_bd. Citadel Securities is a venue. Therefore Citadel Securities [sends, pays] PFOF to excecuting_bd, not receive
+2) volume always means share volume, not trade volume, unless the it is specified as a metric and in the table
+3) when volume is mentioned, the volume estimation should be triggered. ",,,How much PFOF did Citadel receive in January 2025?,"SELECT SUM(COALESCE(netpmtpaidrecvmarketordersusd, 0) + COALESCE(netpmtpaidrecvmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvnonmarketablelimitordersusd, 0) + COALESCE(netpmtpaidrecvotherordersusd, 0)) AS total_pfof_usd
+FROM executing_bd_606
+WHERE year = 2025 AND month = '1' AND data_type = 'venue';",direct_single,1,"In January 2025, Citadel received a total of $259,478,235.15 in payment for order flow (PFOF). This amount is approximately $259.5 million.",TRUE,,,3

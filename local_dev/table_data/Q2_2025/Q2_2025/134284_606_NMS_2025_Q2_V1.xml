@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+	<version>1.2</version>
+	<bd>RQD* Clearing LLC</bd>
+	<year>2025</year>
+	<qtr>2</qtr>
+	<timestamp>2025-07-30T18:10:00Z</timestamp>
+	<rMonthly>
+		<year>2025</year>
+		<mon>4</mon>
+		<rSP500>
+			<ndoPct>100.00</ndoPct>
+			<ndoMarketPct>66.82</ndoMarketPct>
+			<ndoMarketableLimitPct>3.35</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>29.83</ndoNonmarketableLimitPct>
+			<ndoOtherPct>.00</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Virtu Americas LLC</name>
+					<mic>NITE</mic>
+					<orderPct>31.62</orderPct>
+					<marketPct>44.74</marketPct>
+					<marketableLimitPct>10.85</marketableLimitPct>
+					<nonMarketableLimitPct>4.55</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>653.854</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>16.1577</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>18.854</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>18.1818</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>42.7392</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>27.5221</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+				    <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Virtu Americas LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+						A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+						B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+						C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+						D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+						E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+						There is a potential conflict inherent to a market maker such as Virtu Americans LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Virtu Americas LLC  can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Virtu’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+		   
+						Furthermore, RQD* Clearing LLC and  Virtu Americas LLC do not have any arrangements: 
+						- that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						- that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+						- for volume-based tiered payment schedules; or
+						- that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Virtu Americas LLC. 
+					</materialAspects>
+				</rVenue>
+                <rVenue>
+                    <name>Two Sigma Securities LLC</name>
+                    <mic>SOHO</mic>
+                    <orderPct>23.61</orderPct>
+                    <marketPct>18.92</marketPct>
+                    <marketableLimitPct>30.22</marketableLimitPct>
+                    <nonMarketableLimitPct>33.37</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>2100.43</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>602.798</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>3191.9408</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>31.9167</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Two Sigma Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Two Sigma Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Two Sigma Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Two Sigma’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Two Sigma Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Two Sigma Securities LLC. 
+                    </materialAspects>
+                </rVenue>
+				<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>44.77</orderPct>
+					<marketPct>36.34</marketPct>
+					<marketableLimitPct>58.93</marketableLimitPct>
+					<nonMarketableLimitPct>62.08</nonMarketableLimitPct>
+					<otherPct>100.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>2905.0564</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>653.426</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>3224.734</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>31.9179</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.02</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Jane Street Capital LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+				 		 A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share 
+				 		 B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share
+				 		 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 rebate of .0015 notional amount of the trade (15 basis points)
+				 		 D. US listed Security (NMS) marketable (remove liquidity) order executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) 
+				 		 There is a potential conflict inherent to a market maker such as Jane Street both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly, from such anticipated profit a market maker such as Jane Street can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market makers (such as Jane Street) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories.
+
+						 Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+						 - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+						 - for volume-based tiered payment schedules; or
+						 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+						</materialAspects>
+				</rVenue>
+                <rVenue>
+                    <name>LAMPOST CAPITAL LC</name>
+                    <mic>LAMP</mic>
+                    <orderPct>0.00</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.00</marketableLimitPct>
+                    <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. LAMPOST CAPITAL L.C. paid RQD* Clearing LLC rebates on orders according to the below terms:
+                    A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0025 per share and execution quantity is equal to or greater than one share.
+                    B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0025 per share and execution quantity is equal to or greater than one share.
+                    C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0005 notional amount of the trade (5 basis points) and execution quantity is equal to or greater than one share.
+                    D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share a charge of .0005 per share and execution quantity is equal to or greater than one share.
+                    There is a potential conflict inherent to a Firm such as LAMPOST CAPITAL L.C. both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit LAMPOST CAPITAL L.C. seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a Firm such as LAMPOST CAPITAL L.C. can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A Firm’s (such as LAMPOST CAPITAL L.C.’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+       
+                    Furthermore, RQD* Clearing LLC and LAMPOST CAPITAL L.C. do not have any arrangements: 
+                    - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                    - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                    - for volume-based tiered payment schedules; or
+                    - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to LAMPOST CAPITAL L.C. 
+       
+                   LAMPOST CAPITAL L.C. is a clearing client of RQD* Clearing, LLC
+                    </materialAspects>
+                </rVenue>
+			</rVenues>
+		</rSP500>
+		<rOtherStocks>
+			<ndoPct>100.00</ndoPct>
+			<ndoMarketPct>38.77</ndoMarketPct>
+			<ndoMarketableLimitPct>10.58</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>50.65</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.00</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Virtu Americas LLC</name>
+					<mic>NITE</mic>
+					<orderPct>7.47</orderPct>
+					<marketPct>16.07</marketPct>
+					<marketableLimitPct>3.41</marketableLimitPct>
+					<nonMarketableLimitPct>1.73</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>12976.6886</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>19.6360</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>381.3335</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>10.0060</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>1395.9675</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>22.6707</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+					<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Virtu Americas LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+						A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+						B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+						C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+						D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+						E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+						There is a potential conflict inherent to a market maker such as Virtu Americans LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Virtu Americas LLC  can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Virtu’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+		   
+						Furthermore, RQD* Clearing LLC and  Virtu Americas LLC do not have any arrangements: 
+						- that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						- that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+						- for volume-based tiered payment schedules; or
+						- that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Virtu Americas LLC. 
+					</materialAspects>
+				</rVenue>
+                <rVenue>
+                    <name>Two Sigma Securities LLC</name>
+                    <mic>SOHO</mic>
+                    <orderPct>36.84</orderPct>
+                    <marketPct>30.35</marketPct>
+                    <marketableLimitPct>41.35</marketableLimitPct>
+                    <nonMarketableLimitPct>40.87</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>74023.656</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>7.6460</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>40008.8276</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>2.4518</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>114593.4219</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>6.0345</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Two Sigma Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Two Sigma Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Two Sigma Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Two Sigma’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Two Sigma Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Two Sigma Securities LLC. 
+                    </materialAspects>
+                </rVenue>
+				<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>55.69</orderPct>
+					<marketPct>53.58</marketPct>
+					<marketableLimitPct>55.24</marketableLimitPct>
+					<nonMarketableLimitPct>57.40</nonMarketableLimitPct>
+					<otherPct>100.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>75734.5672</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>5.8683</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>42968.3045</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>1.9193</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>117442.5763</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>4.5736</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>4.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing, LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Jane Street Capital LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+				 		 A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share 
+				 		 B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share
+				 		 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 rebate of .0015 notional amount of the trade (15 basis points)
+				 		 D. US listed Security (NMS) marketable (remove liquidity) order executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) 
+				 		 There is a potential conflict inherent to a market maker such as Jane Street both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing, LLC customer orders. Accordingly from such anticipated profit a market maker such as Jane Street can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market makers (such as Jane Street) anticipated profit must be allocated among these three sub-categories, such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories.
+
+						 Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+						 - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+						 - for volume-based tiered payment schedules; or
+						 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+						 </materialAspects>
+				</rVenue>
+                <rVenue>
+                    <name>LAMPOST CAPITAL LC</name>
+                    <mic>LAMP</mic>
+                    <orderPct>0.00</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.00</marketableLimitPct>
+                    <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.125</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                  <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. LAMPOST CAPITAL L.C. paid RQD* Clearing LLC rebates on orders according to the below terms:
+                    A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0025 per share and execution quantity is equal to or greater than one share.
+                    B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0025 per share and execution quantity is equal to or greater than one share.
+                    C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0005 notional amount of the trade (5 basis points) and execution quantity is equal to or greater than one share.
+                    D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share a charge of .0005 per share and execution quantity is equal to or greater than one share.
+                    There is a potential conflict inherent to a Firm such as LAMPOST CAPITAL L.C. both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit LAMPOST CAPITAL L.C. seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a Firm such as LAMPOST CAPITAL L.C. can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A Firm’s (such as LAMPOST CAPITAL L.C.’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+       
+                    Furthermore, RQD* Clearing LLC and LAMPOST CAPITAL L.C. do not have any arrangements: 
+                    - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                    - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                    - for volume-based tiered payment schedules; or
+                    - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to LAMPOST CAPITAL L.C. 
+       
+                   LAMPOST CAPITAL L.C. is a clearing client of RQD* Clearing, LLC
+                    </materialAspects>
+                </rVenue>
+			</rVenues>
+		</rOtherStocks>
+		<rOptions>
+			<ndoPct>100.00</ndoPct>
+			<ndoMarketPct>1.73</ndoMarketPct>
+			<ndoMarketableLimitPct>5.00</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>21.44</ndoNonmarketableLimitPct>
+			<ndoOtherPct>71.83</ndoOtherPct>
+			<rVenues>
+			<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>55.31</orderPct>
+					<marketPct>79.55</marketPct>
+					<marketableLimitPct>55.91</marketableLimitPct>
+					<nonMarketableLimitPct>54.31</nonMarketableLimitPct>
+					<otherPct>54.99</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>25.50</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>119.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>146.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-56.34</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-1.7394</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Jane Street Capital, LLC (JNST) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Jane Street Capital, LLC both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Jane Street Capital, LLC generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Jane Street Capital, LLC (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Dash/IMC Financial Markets</name>
+					<mic>DFIN</mic>
+					<orderPct>43.00</orderPct>
+					<marketPct>20.45</marketPct>
+					<marketableLimitPct>44.09</marketableLimitPct>
+					<nonMarketableLimitPct>45.69</nonMarketableLimitPct>
+					<otherPct>42.66</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>66.00</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>163.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>100.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>1082.06</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>43.1271</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Dash/IMC Financial Markets (DFIN) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Dash/IMC Financial Markets both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Dash/IMC Financial Markets generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Dash/IMC Financial Markets (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and Dash/IMC Financial Markets do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Dash/IMC Financial Markets. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+                    <name>LAMPOST CAPITAL LC</name>
+                    <mic>LAMP</mic>
+                    <orderPct>1.69</orderPct>
+                    <marketPct>0.00</marketPct>
+                    <marketableLimitPct>0.00</marketableLimitPct>
+                    <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+                    <otherPct>2.35</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                  <materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to LAMPOST CAPITAL LC (LAMP) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as LAMPOST CAPITAL LC both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  LAMPOST CAPITAL LC generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from LAMPOST CAPITAL LC (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				No rebate nor charge per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and LAMPOST CAPITAL LC do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to LAMPOST CAPITAL LC. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+       
+                   LAMPOST CAPITAL L.C. is a clearing client of RQD* Clearing, LLC
+                    </materialAspects>
+                </rVenue>
+			</rVenues>
+		</rOptions>
+	</rMonthly>
+	<rMonthly>
+		<year>2025</year>
+		<mon>5</mon>
+		<rSP500>
+			<ndoPct>100.00</ndoPct>
+			<ndoMarketPct>66.06</ndoMarketPct>
+			<ndoMarketableLimitPct>3.38</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>30.55</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.01</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Virtu Americas LLC</name>
+					<mic>NITE</mic>
+					<orderPct>29.43</orderPct>
+					<marketPct>42.51</marketPct>
+					<marketableLimitPct>8.28</marketableLimitPct>
+					<nonMarketableLimitPct>3.49</nonMarketableLimitPct>
+					<otherPct>11.30</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>905.188</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>17.1565</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>.136</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>1.6687</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>.3232</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>1.8638</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>.16</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>31.3725</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Virtu Americas LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+					A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+					B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+					C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+					D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+					E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+					There is a potential conflict inherent to a market maker such as Virtu Americans LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Virtu Americas LLC  can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Virtu’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+	   
+					Furthermore, RQD* Clearing LLC and  Virtu Americas LLC do not have any arrangements: 
+					- that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+					- that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+					- for volume-based tiered payment schedules; or
+					- that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Virtu Americas LLC. 
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+                    <name>Two Sigma Securities LLC</name>
+                    <mic>SOHO</mic>
+                    <orderPct>22.65</orderPct>
+                    <marketPct>18.30</marketPct>
+                    <marketableLimitPct>29.21</marketableLimitPct>
+                    <nonMarketableLimitPct>31.35</nonMarketableLimitPct>
+                    <otherPct>0.00</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>2771.428</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>832.068</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>4139.5848</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>31.9467</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Two Sigma Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Two Sigma Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Two Sigma Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Two Sigma’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Two Sigma Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Two Sigma Securities LLC. 
+                    </materialAspects>
+                </rVenue>
+				<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>44.07</orderPct>
+					<marketPct>36.12</marketPct>
+					<marketableLimitPct>57.31</marketableLimitPct>
+					<nonMarketableLimitPct>59.80</nonMarketableLimitPct>
+					<otherPct>88.70</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>3571.7832</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>747.118</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>4154.6056</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>31.9458</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>4.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Jane Street Capital LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+				 		 A. US listed Security (NMS) non-marketable (add liquidity) orders equal to or over $1 per share rebate of .0032 per share 
+				 		 B. US listed Security (NMS) marketable (remove liquidity) order equal to or over $1 per share rebate of .0020 per share
+				 		 C. US listed Security (NMS) non-marketable (add liquidity) orders under $1 rebate of .0015 notional amount of the trade (15 basis points)
+				 		 D. US listed Security (NMS) marketable (remove liquidity) order under $1 per share rebate of .0010 notional amount of the trade (10 basis points) 
+				 		 There is a potential conflict inherent to a market maker such as Jane Street both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Jane Street can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market makers (such as Jane Street) anticipated profit must be allocated among these three sub-categories, such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories.
+
+						 Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+						 - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+						 - for volume-based tiered payment schedules; or
+						 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+						 </materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Citadel Securities LLC</name>
+					<mic>CDRG</mic>
+					<orderPct>3.85</orderPct>
+					<marketPct>3.07</marketPct>
+					<marketableLimitPct>5.20</marketableLimitPct>
+					<nonMarketableLimitPct>5.36</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>360.00</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>99.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>19.9999</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>507.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>31.9099</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Citadel Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Citadel Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Citadel Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Citadel’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Citadel Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Citadel Securities LLC.  
+						 </materialAspects>
+				</rVenue>
+			</rVenues>
+		</rSP500>
+		<rOtherStocks>
+			<ndoPct>100.00</ndoPct>
+			<ndoMarketPct>34.82</ndoMarketPct>
+			<ndoMarketableLimitPct>12.49</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>52.66</ndoNonmarketableLimitPct>
+			<ndoOtherPct>0.03</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Virtu Americas LLC</name>
+					<mic>NITE</mic>
+					<orderPct>6.49</orderPct>
+					<marketPct>15.79</marketPct>
+					<marketableLimitPct>2.17</marketableLimitPct>
+					<nonMarketableLimitPct>1.36</nonMarketableLimitPct>
+					<otherPct>80.12</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>21823.4778</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>19.7619</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>124.8545</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>17.6437</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>95.2458</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>21.2968</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Virtu Americas LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+					A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+					B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+					C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+					D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+					E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+					There is a potential conflict inherent to a market maker such as Virtu Americans LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Virtu Americas LLC  can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Virtu’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+	   
+					Furthermore, RQD* Clearing LLC and  Virtu Americas LLC do not have any arrangements: 
+					- that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+					- that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+					- for volume-based tiered payment schedules; or
+					- that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Virtu Americas LLC. 
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+                    <name>Two Sigma Securities LLC</name>
+                    <mic>SOHO</mic>
+                    <orderPct>35.49</orderPct>
+                    <marketPct>28.15</marketPct>
+                    <marketableLimitPct>40.13</marketableLimitPct>
+                    <nonMarketableLimitPct>39.24</nonMarketableLimitPct>
+                    <otherPct>0.01</otherPct>
+                    <netPmtPaidRecvMarketOrdersUsd>105479.08</netPmtPaidRecvMarketOrdersUsd>
+                    <netPmtPaidRecvMarketOrdersCph>19.9164</netPmtPaidRecvMarketOrdersCph>
+                    <netPmtPaidRecvMarketableLimitOrdersUsd>82867.42</netPmtPaidRecvMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvMarketableLimitOrdersCph>4.6268</netPmtPaidRecvMarketableLimitOrdersCph>
+                    <netPmtPaidRecvNonMarketableLimitOrdersUsd>204701.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+                    <netPmtPaidRecvNonMarketableLimitOrdersCph>9.5547</netPmtPaidRecvNonMarketableLimitOrdersCph>
+                    <netPmtPaidRecvOtherOrdersUsd>0.002</netPmtPaidRecvOtherOrdersUsd>
+                    <netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+                    <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Two Sigma Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Two Sigma Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Two Sigma Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Two Sigma’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Two Sigma Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Two Sigma Securities LLC. 
+                    </materialAspects>
+                </rVenue>
+				<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>52.75</orderPct>
+					<marketPct>51.50</marketPct>
+					<marketableLimitPct>51.95</marketableLimitPct>
+					<nonMarketableLimitPct>53.77</nonMarketableLimitPct>
+					<otherPct>19.87</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>77773.68</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>19.7584</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>50274.89</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>5.2820</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>127962.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>11.5895</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>2.04</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>20.0000</netPmtPaidRecvOtherOrdersCph>
+						 <materialAspects>RQD* Clearing, LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Jane Street Capital LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+				 		 A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share 
+				 		 B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share
+				 		 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 rebate of .0015 notional amount of the trade (15 basis points)
+				 		 D. US listed Security (NMS) marketable (remove liquidity) order executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) 
+				 		 There is a potential conflict inherent to a market maker such as Jane Street both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing, LLC customer orders. Accordingly from such anticipated profit a market maker such as Jane Street can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market makers (such as Jane Street) anticipated profit must be allocated among these three sub-categories, such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories.
+
+						 Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+						 - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds; 
+						 - for volume-based tiered payment schedules; or
+						 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+						 </materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Citadel Securities LLC</name>
+					<mic>CDRG</mic>
+					<orderPct>5.27</orderPct>
+					<marketPct>4.56</marketPct>
+					<marketableLimitPct>5.75</marketableLimitPct>
+					<nonMarketableLimitPct>5.63</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>10917.38</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>19.8373</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>8016.99</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>4.7881</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>19335.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>10.4775</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Citadel Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Citadel Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Citadel Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Citadel’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Citadel Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Citadel Securities LLC.  
+						 </materialAspects>
+				</rVenue>
+			</rVenues>
+		</rOtherStocks>
+		<rOptions>
+			<ndoPct>100.00</ndoPct>
+			<ndoMarketPct>1.11</ndoMarketPct>
+			<ndoMarketableLimitPct>7.02</ndoMarketableLimitPct>
+			<ndoNonmarketableLimitPct>41.46</ndoNonmarketableLimitPct>
+			<ndoOtherPct>50.41</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>34.20</orderPct>
+					<marketPct>55.56</marketPct>
+					<marketableLimitPct>42.11</marketableLimitPct>
+					<nonMarketableLimitPct>25.94</nonMarketableLimitPct>
+					<otherPct>39.41</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>11.50</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>384.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>125.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>-447.52</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>-21.2195</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Jane Street Capital, LLC (JNST) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Jane Street Capital, LLC both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Jane Street Capital, LLC generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Jane Street Capital, LLC (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract.  
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+
+				This is for marketable and non-marketable orders. 
+
+				Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Dash/IMC Financial Markets</name>
+					<mic>DFIN</mic>
+					<orderPct>53.07</orderPct>
+					<marketPct>40.74</marketPct>
+					<marketableLimitPct>52.04</marketableLimitPct>
+					<nonMarketableLimitPct>62.08</nonMarketableLimitPct>
+					<otherPct>46.09</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>7.50</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>341.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>330.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>953.04</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>21.3312</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Dash/IMC Financial Markets (DFIN) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Dash/IMC Financial Markets both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Dash/IMC Financial Markets generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Dash/IMC Financial Markets (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and Dash/IMC Financial Markets do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Dash/IMC Financial Markets. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Citadel Securities LLC</name>
+					<mic>CDRG</mic>
+					<orderPct>12.73</orderPct>
+					<marketPct>3.70</marketPct>
+					<marketableLimitPct>5.85</marketableLimitPct>
+					<nonMarketableLimitPct>11.98</nonMarketableLimitPct>
+					<otherPct>14.50</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>.50</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>32.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>50.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>266.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>21.1783</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Citadel Securities LLC (CDRG) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Citadel Securities LLC both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Citadel Securities LLC generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Citdel Securities LLC (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and Citadel Securities LLC do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Citadel Securities LLC. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+				</materialAspects>
+				</rVenue>
+			</rVenues>
+		</rOptions>
+	</rMonthly>
+	<rMonthly>
+	<year>2025</year>
+	<mon>6</mon>
+	<rSP500>
+		<ndoPct>100.00</ndoPct>
+		<ndoMarketPct>65.21</ndoMarketPct>
+		<ndoMarketableLimitPct>3.72</ndoMarketableLimitPct>
+		<ndoNonmarketableLimitPct>30.14</ndoNonmarketableLimitPct>
+		<ndoOtherPct>.93</ndoOtherPct>
+		<rVenues>
+			<rVenue>
+				<name>Virtu Americas LLC</name>
+				<mic>NITE</mic>
+				<orderPct>35.40</orderPct>
+				<marketPct>49.19</marketPct>
+				<marketableLimitPct>16.34</marketableLimitPct>
+				<nonMarketableLimitPct>7.52</nonMarketableLimitPct>
+				<otherPct>99.60</otherPct>
+				<netPmtPaidRecvMarketOrdersUsd>587.862</netPmtPaidRecvMarketOrdersUsd>
+				<netPmtPaidRecvMarketOrdersCph>16.3784</netPmtPaidRecvMarketOrdersCph>
+				<netPmtPaidRecvMarketableLimitOrdersUsd>.252</netPmtPaidRecvMarketableLimitOrdersUsd>
+				<netPmtPaidRecvMarketableLimitOrdersCph>3.3734</netPmtPaidRecvMarketableLimitOrdersCph>
+				<netPmtPaidRecvNonMarketableLimitOrdersUsd>15.9744</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+				<netPmtPaidRecvNonMarketableLimitOrdersCph>25.1604</netPmtPaidRecvNonMarketableLimitOrdersCph>
+				<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+				<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+			<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Virtu Americas LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+             A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+             B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+			 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+             D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+             E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+			 F. Extended hours orders routed to Virtu and filled outside the core session will not receive payment nor will incur a charge. However, orders marked as extended hours eligible filled during the core session will receive at the above payment terms.
+             There is a potential conflict inherent to a market maker such as Virtu Americans LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Virtu Americas LLC  can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Virtu’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+
+			 Furthermore, RQD* Clearing LLC and  Virtu Americas LLC do not have any arrangements: 
+			  - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+			  - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds; 
+			  - for volume-based tiered payment schedules; or
+			  - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Virtu Americas LLC. 
+            </materialAspects>
+			</rVenue>
+			<rVenue>
+				<name>Two Sigma Securities LLC</name>
+				<mic>SOHO</mic>
+				<orderPct>9.82</orderPct>
+				<marketPct>7.87</marketPct>
+				<marketableLimitPct>12.02</marketableLimitPct>
+				<nonMarketableLimitPct>14.07</nonMarketableLimitPct>
+				<otherPct>0.00</otherPct>
+				<netPmtPaidRecvMarketOrdersUsd>1356.17</netPmtPaidRecvMarketOrdersUsd>
+				<netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+				<netPmtPaidRecvMarketableLimitOrdersUsd>285.712</netPmtPaidRecvMarketableLimitOrdersUsd>
+				<netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+				<netPmtPaidRecvNonMarketableLimitOrdersUsd>1819.386</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+				<netPmtPaidRecvNonMarketableLimitOrdersCph>31.9254</netPmtPaidRecvNonMarketableLimitOrdersCph>
+				<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+				<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Two Sigma Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+					A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+					B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+					C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+					D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+					E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+					There is a potential conflict inherent to a market maker such as Two Sigma Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Two Sigma Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Two Sigma’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+	   
+					Furthermore, RQD* Clearing LLC and Two Sigma Securities LLC do not have any arrangements: 
+					- that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+					- that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+					- for volume-based tiered payment schedules; or
+					- that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Two Sigma Securities LLC. 
+				</materialAspects>
+			</rVenue>
+			<rVenue>
+				<name>Jane Street Capital LLC</name>
+				<mic>JNST</mic>
+				<orderPct>35.97</orderPct>
+				<marketPct>27.74</marketPct>
+				<marketableLimitPct>48.49</marketableLimitPct>
+				<nonMarketableLimitPct>51.80</nonMarketableLimitPct>
+				<otherPct>0.40</otherPct>
+				<netPmtPaidRecvMarketOrdersUsd>1677.9948</netPmtPaidRecvMarketOrdersUsd>
+				<netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+				<netPmtPaidRecvMarketableLimitOrdersUsd>374.752</netPmtPaidRecvMarketableLimitOrdersUsd>
+				<netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+				<netPmtPaidRecvNonMarketableLimitOrdersUsd>2091.6704</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+				<netPmtPaidRecvNonMarketableLimitOrdersCph>31.9363</netPmtPaidRecvNonMarketableLimitOrdersCph>
+				<netPmtPaidRecvOtherOrdersUsd>0.002</netPmtPaidRecvOtherOrdersUsd>
+				<netPmtPaidRecvOtherOrdersCph>0.0006</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Jane Street Capital LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+				 		 A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share 
+				 		 B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share
+				 		 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 rebate of .0015 notional amount of the trade (15 basis points)
+				 		 D. US listed Security (NMS) marketable (remove liquidity) order executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) 
+				 		 F. Extended hours orders routed to Jane Streeet Capital LLC and filled outside the core session will not receive payment nor will incur a charge. However, orders marked as extended hours eligible filled during the core session will receive at the above payment terms.
+						 There is a potential conflict inherent to a market maker such as Jane Street both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing, LLC customer orders. Accordingly from such anticipated profit a market maker such as Jane Street can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market makers (such as Jane Street) anticipated profit must be allocated among these three sub-categories, such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories.
+
+						 Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+						 - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds; 
+						 - for volume-based tiered payment schedules; or
+						 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+						 </materialAspects>
+			</rVenue>
+			<rVenue>
+					<name>Citadel Securities LLC</name>
+					<mic>CDRG</mic>
+					<orderPct>15.70</orderPct>
+					<marketPct>12.71</marketPct>
+					<marketableLimitPct>19.14</marketableLimitPct>
+					<nonMarketableLimitPct>22.21</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>991.77</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>19.9999</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>241.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>19.9999</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>1160.74</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>31.9524</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Citadel Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Citadel Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Citadel Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Citadel’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Citadel Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Citadel Securities LLC.  
+						 </materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>GTS Securities LLC</name>
+					<mic>GTSM</mic>
+					<orderPct>3.11</orderPct>
+					<marketPct>2.49</marketPct>
+					<marketableLimitPct>4.01</marketableLimitPct>
+					<nonMarketableLimitPct>4.40</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>200.916</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>20.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>41.982</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>20.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>260.6848</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>32.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. GTS Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        There is a potential conflict inherent to a market maker such as GTS Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as GTS Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as GTS’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and GTS Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to GTS Securities LLC.  
+						 </materialAspects>
+				</rVenue>
+		</rVenues>
+	</rSP500>
+	<rOtherStocks>
+		<ndoPct>100.00</ndoPct>
+		<ndoMarketPct>36.04</ndoMarketPct>
+		<ndoMarketableLimitPct>11.81</ndoMarketableLimitPct>
+		<ndoNonmarketableLimitPct>51.13</ndoNonmarketableLimitPct>
+		<ndoOtherPct>1.02</ndoOtherPct>
+		<rVenues>
+			<rVenue>
+				<name>Virtu Americas LLC</name>
+				<mic>NITE</mic>
+				<orderPct>8.95</orderPct>
+				<marketPct>14.73</marketPct>
+				<marketableLimitPct>7.08</marketableLimitPct>
+				<nonMarketableLimitPct>4.53</nonMarketableLimitPct>
+				<otherPct>48.17</otherPct>
+				<netPmtPaidRecvMarketOrdersUsd>20447.5602</netPmtPaidRecvMarketOrdersUsd>
+				<netPmtPaidRecvMarketOrdersCph>19.7572</netPmtPaidRecvMarketOrdersCph>
+				<netPmtPaidRecvMarketableLimitOrdersUsd>74.4254</netPmtPaidRecvMarketableLimitOrdersUsd>
+				<netPmtPaidRecvMarketableLimitOrdersCph>16.7409</netPmtPaidRecvMarketableLimitOrdersCph>
+				<netPmtPaidRecvNonMarketableLimitOrdersUsd>1285.8504</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+				<netPmtPaidRecvNonMarketableLimitOrdersCph>30.8267</netPmtPaidRecvNonMarketableLimitOrdersCph>
+				<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+				<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+			<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Virtu Americas LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+             A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+             B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+			 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+             D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+             E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+             F. Extended hours orders routed to Virtu and filled outside the core session will not receive payment nor will incur a charge. However, orders marked as extended hours eligible filled during the core session will receive at the above payment terms.
+			 There is a potential conflict inherent to a market maker such as Virtu Americans LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Virtu Americas LLC  can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Virtu’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+
+			 Furthermore, RQD* Clearing LLC and  Virtu Americas LLC do not have any arrangements: 
+		     - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+			 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+			 - for volume-based tiered payment schedules; or
+			 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Virtu Americas LLC. 
+			</materialAspects>
+			</rVenue>
+			<rVenue>
+				<name>Two Sigma Securities LLC</name>
+				<mic>SOHO</mic>
+				<orderPct>19.20</orderPct>
+				<marketPct>14.85</marketPct>
+				<marketableLimitPct>22.27</marketableLimitPct>
+				<nonMarketableLimitPct>21.93</nonMarketableLimitPct>
+				<otherPct>1.38</otherPct>
+				<netPmtPaidRecvMarketOrdersUsd>82932.1181</netPmtPaidRecvMarketOrdersUsd>
+				<netPmtPaidRecvMarketOrdersCph>19.9488</netPmtPaidRecvMarketOrdersCph>
+				<netPmtPaidRecvMarketableLimitOrdersUsd>52459.3206</netPmtPaidRecvMarketableLimitOrdersUsd>
+				<netPmtPaidRecvMarketableLimitOrdersCph>5.3017</netPmtPaidRecvMarketableLimitOrdersCph>
+				<netPmtPaidRecvNonMarketableLimitOrdersUsd>138516.4095</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+				<netPmtPaidRecvNonMarketableLimitOrdersCph>10.8188</netPmtPaidRecvNonMarketableLimitOrdersCph>
+				<netPmtPaidRecvOtherOrdersUsd>0.002</netPmtPaidRecvOtherOrdersUsd>
+				<netPmtPaidRecvOtherOrdersCph>0.0002</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Two Sigma Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+					A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+					B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+					C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+					D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+					E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+					There is a potential conflict inherent to a market maker such as Two Sigma Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Two Sigma Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Two Sigma’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+	   
+					Furthermore, RQD* Clearing LLC and Two Sigma Securities LLC do not have any arrangements: 
+					- that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+					- that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+					- for volume-based tiered payment schedules; or
+					- that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Two Sigma Securities LLC. 
+				</materialAspects>
+			</rVenue>
+			<rVenue>
+				<name>Jane Street Capital LLC</name>
+				<mic>JNST</mic>
+				<orderPct>45.39</orderPct>
+				<marketPct>44.83</marketPct>
+				<marketableLimitPct>44.34</marketableLimitPct>
+				<nonMarketableLimitPct>45.93</nonMarketableLimitPct>
+				<otherPct>50.45</otherPct>
+				<netPmtPaidRecvMarketOrdersUsd>59077.251</netPmtPaidRecvMarketOrdersUsd>
+				<netPmtPaidRecvMarketOrdersCph>6.5765</netPmtPaidRecvMarketOrdersCph>
+				<netPmtPaidRecvMarketableLimitOrdersUsd>30470.3339</netPmtPaidRecvMarketableLimitOrdersUsd>
+				<netPmtPaidRecvMarketableLimitOrdersCph>6.5765</netPmtPaidRecvMarketableLimitOrdersCph>
+				<netPmtPaidRecvNonMarketableLimitOrdersUsd>83285.643</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+				<netPmtPaidRecvNonMarketableLimitOrdersCph>14.5010</netPmtPaidRecvNonMarketableLimitOrdersCph>
+				<netPmtPaidRecvOtherOrdersUsd>5.00</netPmtPaidRecvOtherOrdersUsd>
+				<netPmtPaidRecvOtherOrdersCph>0.0004</netPmtPaidRecvOtherOrdersCph>
+						 <materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Jane Street Capital LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+				 		 A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share 
+				 		 B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share
+				 		 C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 rebate of .0015 notional amount of the trade (15 basis points)
+				 		 D. US listed Security (NMS) marketable (remove liquidity) order executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) 
+				 		 F. Extended hours orders routed to Jane Streeet Capital LLC and filled outside the core session will not receive payment nor will incur a charge. However, orders marked as extended hours eligible filled during the core session will receive at the above payment terms.
+						 There is a potential conflict inherent to a market maker such as Jane Street both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing, LLC customer orders. Accordingly from such anticipated profit a market maker such as Jane Street can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market makers (such as Jane Street) anticipated profit must be allocated among these three sub-categories, such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories.
+
+						 Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+						 - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+						 - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds; 
+						 - for volume-based tiered payment schedules; or
+						 - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+						 </materialAspects>
+			</rVenue>
+			<rVenue>
+					<name>Citadel Securities LLC</name>
+					<mic>CDRG</mic>
+					<orderPct>22.04</orderPct>
+					<marketPct>21.32</marketPct>
+					<marketableLimitPct>21.94</marketableLimitPct>
+					<nonMarketableLimitPct>23.01</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>61549.52</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>19.9626</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>39223.09</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>4.5747</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>92900.59</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>10.4855</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. Citadel Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        E. US listed (NMS) securities executions less than one share are executed without a rebate and without a cost to RQD Clearing LLC.
+                        There is a potential conflict inherent to a market maker such as Citadel Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as Citadel Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as Citadel’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and Citadel Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Citadel Securities LLC.  
+						 </materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>GTS Securities LLC</name>
+					<mic>GTSM</mic>
+					<orderPct>4.42</orderPct>
+					<marketPct>4.27</marketPct>
+					<marketableLimitPct>4.37</marketableLimitPct>
+					<nonMarketableLimitPct>4.60</nonMarketableLimitPct>
+					<otherPct>0.00</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>10613.90</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>17.7510</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>6412.2721</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>4.9638</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>14956.2383</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>11.7220</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+						<materialAspects>RQD* Clearing LLC receives revenue from third-party liquidity providers based on the order flow execution received at each destination. GTS Securities LLC paid RQD* Clearing LLC rebates on orders according to the below terms:
+                        A. US listed Security (NMS) non-marketable (add liquidity) orders executed equal to or over $1 per share rebate of .0032 per share and execution quantity is equal to or greater than one share.
+                        B. US listed Security (NMS) marketable (remove liquidity) order executed equal to or over $1 per share rebate of .0020 per share and execution quantity is equal to or greater than one share.
+                        C. US listed Security (NMS) non-marketable (add liquidity) orders executed under $1 a rebate of .0015 notional amount of the trade (15 basis points) and execution quantity is equal to or greater than one share.
+                        D. US listed Security (NMS) marketable (remove liquidity) orders executed under $1 per share rebate of .0010 notional amount of the trade (10 basis points) and execution quantity is equal to or greater than one share.
+                        There is a potential conflict inherent to a market maker such as GTS Securities LLC both paying for order flow and providing price improvement as the potential source of funds for each is the same namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD* Clearing LLC customer orders. Accordingly from such anticipated profit a market maker such as GTS Securities LLC can (i) forgo a portion of such anticipated profit to provide price improvement; (ii) forgo a portion of such anticipated profit to pay for order flow; or (iii) retain a larger portion of anticipated profit and not provide (or provide less) price improvement or not provide (or provide less) payment for order flow. A market maker’s (such as GTS’s) anticipated profit must be allocated among these three sub-categories such that an increased allocation to any one subcategory will result in a decreased allocation to one or more of the other categories. 
+           
+                        Furthermore, RQD* Clearing LLC and GTS Securities LLC do not have any arrangements: 
+                        - that require RQD* Clearing LLC to meet certain volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds; 
+                        - that require RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD* Clearing LLC for failing to meet certain minimum volume thresholds; 
+                        - for volume-based tiered payment schedules; or
+                        - that requires RQD* Clearing LLC to route any orders or a minimum number of orders to GTS Securities LLC.  
+						 </materialAspects>
+				</rVenue>
+		</rVenues>
+	</rOtherStocks>
+	<rOptions>
+		<ndoPct>100.00</ndoPct>
+		<ndoMarketPct>0.48</ndoMarketPct>
+		<ndoMarketableLimitPct>4.50</ndoMarketableLimitPct>
+		<ndoNonmarketableLimitPct>24.17</ndoNonmarketableLimitPct>
+		<ndoOtherPct>70.85</ndoOtherPct>
+			<rVenues>
+				<rVenue>
+					<name>Jane Street Capital LLC</name>
+					<mic>JNST</mic>
+					<orderPct>45.82</orderPct>
+					<marketPct>93.75</marketPct>
+					<marketableLimitPct>41.72</marketableLimitPct>
+					<nonMarketableLimitPct>38.06</nonMarketableLimitPct>
+					<otherPct>45.82</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>10.00</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>203.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>283.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>296.50</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>9.0203</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Jane Street Capital, LLC (JNST) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Jane Street Capital, LLC both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Jane Street Capital, LLC generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Jane Street Capital, LLC (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract.  
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+
+				This is for marketable and non-marketable orders. 
+
+				Furthermore, RQD* Clearing LLC and Jane Street Capital, LLC do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Jane Street Capital, LLC. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Dash/IMC Financial Markets</name>
+					<mic>DFIN</mic>
+					<orderPct>33.25</orderPct>
+					<marketPct>6.25</marketPct>
+					<marketableLimitPct>29.80</marketableLimitPct>
+					<nonMarketableLimitPct>35.34</nonMarketableLimitPct>
+					<otherPct>33.25</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>.50</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>50.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>119.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>148.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>1239.13</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>30.7019</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Dash/IMC Financial Markets (DFIN) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Dash/IMC Financial Markets both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Dash/IMC Financial Markets generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Dash/IMC Financial Markets (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and Dash/IMC Financial Markets do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Dash/IMC Financial Markets. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+				</materialAspects>
+				</rVenue>
+				<rVenue>
+					<name>Citadel Securities LLC</name>
+					<mic>CDRG</mic>
+					<orderPct>20.93</orderPct>
+					<marketPct>0.00</marketPct>
+					<marketableLimitPct>28.48</marketableLimitPct>
+					<nonMarketableLimitPct>26.60</nonMarketableLimitPct>
+					<otherPct>20.93</otherPct>
+					<netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+					<netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+					<netPmtPaidRecvMarketableLimitOrdersUsd>93.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+					<netPmtPaidRecvMarketableLimitOrdersCph>50.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+					<netPmtPaidRecvNonMarketableLimitOrdersUsd>113.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+					<netPmtPaidRecvNonMarketableLimitOrdersCph>50.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+					<netPmtPaidRecvOtherOrdersUsd>955.50</netPmtPaidRecvOtherOrdersUsd>
+					<netPmtPaidRecvOtherOrdersCph>50.0000</netPmtPaidRecvOtherOrdersCph>
+				<materialAspects>RQD* Clearing LLC routes customer orders in NMS securities that are options contracts to Citadel Securities LLC (CDRG) to facilitate the execution of and price improvement of client orders. Non-exchange third-party market centers compete for orders based on execution quality. There is a potential conflict inherent to a market maker such as Citadel Securities LLC both paying for order flow and providing price improvement, as the potential source of funds for each is the same, namely the anticipated profit the market maker seeks to earn from executing or facilitating the execution of RQD Clearing, LLC orders.  Citadel Securities LLC generates revenue from executing or facilitating the execution of RQD* Clearing, LLC customer orders. In exchange for such routing, RQD* Clearing LLC receives payment from Citdel Securities LLC (i.e. payment for order flow) in the amounts outlined in the above report and detailed below. 
+
+				0.50 per contract for executed contracts on non-index options
+				Exchange fees are passed back to RQD* Clearing LLC on Index Options 
+				
+				This is for marketable and non-marketable orders. 
+				Furthermore, RQD* Clearing LLC and Citadel Securities LLC do not have any arrangements: 
+
+				A. that requires RQD* Clearing, LLC to meet specific volume thresholds or that provide incentives to RQD* Clearing LLC for meeting or exceeding certain volume thresholds. 
+				B. that requires RQD* Clearing LLC to meet certain minimum volume thresholds or that provide disincentives to RQD Clearing LLC for failing to meet certain minimum volume thresholds. 
+				C. for volume-based tiered payment schedules; or 
+				D. that requires RQD* Clearing LLC to route any orders or a minimum number of orders to Citadel Securities LLC. 
+				No rebate is paid to RQD* Clearing LLC on sub-penny option contracts.
+				</materialAspects>
+				</rVenue>
+			</rVenues>		
+	</rOptions>
+	</rMonthly>
+</heldOrderRoutingPublicReport>

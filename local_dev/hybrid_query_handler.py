@@ -1227,6 +1227,24 @@ def generate_openai_synthesis(user_input: str, query_results: Dict, query_tags: 
             return ""
     except Exception:
         pass
+
+    # P0 FIX: Safety check - prevent hallucination on empty results
+    # Count total rows across all query results
+    total_rows = 0
+    for key, result in query_results.items():
+        if isinstance(result, dict):
+            row_count = result.get("row_count", 0)
+            # Also check if 'results' list is present and non-empty
+            results_list = result.get("results", [])
+            if results_list:
+                total_rows += len(results_list)
+            elif row_count:
+                total_rows += row_count
+
+    # If no data found anywhere, return clear message instead of hallucinating
+    if total_rows == 0:
+        return "No data found matching your query criteria. Please verify the time period, entity names, and filters are correct."
+
     # 0) Strict priority: if user asked for "first/earliest" per broker and we have it, return that directly
     try:
         if (query_tags.get('mentions_first')

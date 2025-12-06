@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Stifel, Nicolaus &amp; Co., Inc.</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-08-19T18:17:10Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>90.10</ndoMarketPct>
+      <ndoMarketableLimitPct>0.84</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>3.16</ndoNonmarketableLimitPct>
+      <ndoOtherPct>5.90</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>33.49</orderPct>
+          <marketPct>31.10</marketPct>
+          <marketableLimitPct>68.05</marketableLimitPct>
+          <nonMarketableLimitPct>47.19</nonMarketableLimitPct>
+          <otherPct>57.71</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>13491.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9999</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2955.38</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>2803.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>362.97</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.3579</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Virtu Americas. For held marketable orders, Stifel received $0.0015 per share for NMS securities priced greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>32.35</orderPct>
+          <marketPct>33.49</marketPct>
+          <marketableLimitPct>18.71</marketableLimitPct>
+          <nonMarketableLimitPct>29.87</nonMarketableLimitPct>
+          <otherPct>18.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9997.94</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.2372</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>637.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.3716</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>9.45</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.4099</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Citadel Securities LLC. For held marketable orders, Stifel received $0.0015 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>21.85</orderPct>
+          <marketPct>22.80</marketPct>
+          <marketableLimitPct>5.44</marketableLimitPct>
+          <nonMarketableLimitPct>14.46</nonMarketableLimitPct>
+          <otherPct>13.75</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from StoneX Financial, Inc. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided
+disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>11.22</orderPct>
+          <marketPct>11.59</marketPct>
+          <marketableLimitPct>4.31</marketableLimitPct>
+          <nonMarketableLimitPct>7.97</nonMarketableLimitPct>
+          <otherPct>8.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from GTS Securities LLC. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the
+Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>81.91</ndoMarketPct>
+      <ndoMarketableLimitPct>4.35</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>7.42</ndoNonmarketableLimitPct>
+      <ndoOtherPct>6.32</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>60.86</orderPct>
+          <marketPct>58.24</marketPct>
+          <marketableLimitPct>77.76</marketableLimitPct>
+          <nonMarketableLimitPct>65.42</nonMarketableLimitPct>
+          <otherPct>77.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>51771.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8556</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>29822.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.7078</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>23231.11</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.9414</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>2095.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.2813</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Virtu Americas. For held marketable orders, Stifel received $0.0015 per share for NMS securities priced greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>18.27</orderPct>
+          <marketPct>19.75</marketPct>
+          <marketableLimitPct>9.01</marketableLimitPct>
+          <nonMarketableLimitPct>16.15</nonMarketableLimitPct>
+          <otherPct>7.92</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18854.72</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.9657</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4738.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.6082</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>41.95</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.2068</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Citadel Securities, LLC. For held marketable orders, Stifel received $0.0015 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>12.64</orderPct>
+          <marketPct>13.90</marketPct>
+          <marketableLimitPct>3.35</marketableLimitPct>
+          <nonMarketableLimitPct>9.00</nonMarketableLimitPct>
+          <otherPct>6.96</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from StoneX Financial, Inc. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>6.93</orderPct>
+          <marketPct>7.37</marketPct>
+          <marketableLimitPct>3.07</marketableLimitPct>
+          <nonMarketableLimitPct>5.96</nonMarketableLimitPct>
+          <otherPct>5.11</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from GTS Securities LLC. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the
+Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>43.08</ndoMarketPct>
+      <ndoMarketableLimitPct>5.90</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>44.25</ndoNonmarketableLimitPct>
+      <ndoOtherPct>6.78</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Execution Services</name>
+          <orderPct>35.72</orderPct>
+          <marketPct>15.90</marketPct>
+          <marketableLimitPct>50.38</marketableLimitPct>
+          <nonMarketableLimitPct>51.76</nonMarketableLimitPct>
+          <otherPct>44.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Citadel Execution Services for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Susquehanna Financial Group, LLP</name>
+          <orderPct>31.01</orderPct>
+          <marketPct>13.28</marketPct>
+          <marketableLimitPct>45.56</marketableLimitPct>
+          <nonMarketableLimitPct>45.36</nonMarketableLimitPct>
+          <otherPct>37.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Susquehanna Financial Group, LLP for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>19.22</orderPct>
+          <marketPct>43.27</marketPct>
+          <marketableLimitPct>1.53</marketableLimitPct>
+          <nonMarketableLimitPct>0.10</nonMarketableLimitPct>
+          <otherPct>6.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Cboe Exchange, Inc. for options order flow.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>2.39</orderPct>
+          <marketPct>5.55</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Miami International Securities Exchange, LLC for options order flow.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>2.10</orderPct>
+          <marketPct>4.88</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Cboe EDGX Exchange, Inc. for options order flow.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>88.31</ndoMarketPct>
+      <ndoMarketableLimitPct>0.91</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>3.52</ndoNonmarketableLimitPct>
+      <ndoOtherPct>7.25</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>34.05</orderPct>
+          <marketPct>31.36</marketPct>
+          <marketableLimitPct>74.20</marketableLimitPct>
+          <nonMarketableLimitPct>59.42</nonMarketableLimitPct>
+          <otherPct>49.52</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10110.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9969</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1249.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>14.9952</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1591.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>14.9901</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>176.08</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>1.2045</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Virtu Americas. For held marketable orders, Stifel received $0.0015 per share for NMS securities priced greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>31.96</orderPct>
+          <marketPct>33.38</marketPct>
+          <marketableLimitPct>14.39</marketableLimitPct>
+          <nonMarketableLimitPct>22.42</nonMarketableLimitPct>
+          <otherPct>21.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8172.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.9583</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>448.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.6000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.2709</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Citadel Securities LLC. For held marketable orders, Stifel received $0.0015 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>21.73</orderPct>
+          <marketPct>22.65</marketPct>
+          <marketableLimitPct>5.39</marketableLimitPct>
+          <nonMarketableLimitPct>12.14</nonMarketableLimitPct>
+          <otherPct>17.24</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from StoneX Financial, Inc. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided
+disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>11.21</orderPct>
+          <marketPct>11.59</marketPct>
+          <marketableLimitPct>3.22</marketableLimitPct>
+          <nonMarketableLimitPct>5.76</nonMarketableLimitPct>
+          <otherPct>10.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from GTS Securities LLC. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the
+Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>77.06</ndoMarketPct>
+      <ndoMarketableLimitPct>5.67</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>10.62</ndoNonmarketableLimitPct>
+      <ndoOtherPct>6.65</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>59.55</orderPct>
+          <marketPct>57.17</marketPct>
+          <marketableLimitPct>73.76</marketableLimitPct>
+          <nonMarketableLimitPct>64.04</nonMarketableLimitPct>
+          <otherPct>67.81</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>43228.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.8992</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>29231.79</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>6.9578</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>24323.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>7.9980</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1463.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.2116</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Virtu Americas. For held marketable orders, Stifel received $0.0015 per share for NMS securities priced greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>19.57</orderPct>
+          <marketPct>20.63</marketPct>
+          <marketableLimitPct>13.66</marketableLimitPct>
+          <nonMarketableLimitPct>19.19</nonMarketableLimitPct>
+          <otherPct>12.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>19310.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>10.5585</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4489.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>11.1253</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7.63</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0535</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Citadel Securities, LLC. For held marketable orders, Stifel received $0.0015 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>12.50</orderPct>
+          <marketPct>13.97</marketPct>
+          <marketableLimitPct>3.13</marketableLimitPct>
+          <nonMarketableLimitPct>8.15</nonMarketableLimitPct>
+          <otherPct>10.41</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from StoneX Financial, Inc. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>6.99</orderPct>
+          <marketPct>7.37</marketPct>
+          <marketableLimitPct>2.93</marketableLimitPct>
+          <nonMarketableLimitPct>5.82</nonMarketableLimitPct>
+          <otherPct>7.82</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from GTS Securities LLC. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the
+Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>31.78</ndoMarketPct>
+      <ndoMarketableLimitPct>7.02</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.72</ndoNonmarketableLimitPct>
+      <ndoOtherPct>10.47</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Execution Services</name>
+          <orderPct>40.60</orderPct>
+          <marketPct>24.04</marketPct>
+          <marketableLimitPct>50.26</marketableLimitPct>
+          <nonMarketableLimitPct>50.55</nonMarketableLimitPct>
+          <otherPct>36.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Citadel Execution Services for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Susquehanna Financial Group, LLP</name>
+          <orderPct>36.02</orderPct>
+          <marketPct>19.88</marketPct>
+          <marketableLimitPct>46.15</marketableLimitPct>
+          <nonMarketableLimitPct>44.98</nonMarketableLimitPct>
+          <otherPct>34.80</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Susquehanna Financial Group, LLP for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>10.99</orderPct>
+          <marketPct>32.65</marketPct>
+          <marketableLimitPct>0.52</marketableLimitPct>
+          <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+          <otherPct>5.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Cboe Exchange, Inc. for options order flow.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>2.29</orderPct>
+          <marketPct>3.05</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>12.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Miami International Securities Exchange, LLC for options order flow.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>2.00</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>1.86</marketableLimitPct>
+          <nonMarketableLimitPct>3.30</nonMarketableLimitPct>
+          <otherPct>1.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Matrix Executions, LLC for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>90.47</ndoMarketPct>
+      <ndoMarketableLimitPct>0.28</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>1.90</ndoNonmarketableLimitPct>
+      <ndoOtherPct>7.36</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>32.46</orderPct>
+          <marketPct>31.20</marketPct>
+          <marketableLimitPct>33.87</marketableLimitPct>
+          <nonMarketableLimitPct>32.34</nonMarketableLimitPct>
+          <otherPct>48.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9775.02</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>876.55</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1685.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>115.12</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.8313</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Virtu Americas. For held marketable orders, Stifel received $0.0015 per share for NMS securities priced greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>32.20</orderPct>
+          <marketPct>33.12</marketPct>
+          <marketableLimitPct>37.76</marketableLimitPct>
+          <nonMarketableLimitPct>35.98</nonMarketableLimitPct>
+          <otherPct>19.76</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>7427.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>8.8964</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>388.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.3199</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.68</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.1443</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Citadel Securities LLC. For held marketable orders, Stifel received $0.0015 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>22.36</orderPct>
+          <marketPct>22.96</marketPct>
+          <marketableLimitPct>14.53</marketableLimitPct>
+          <nonMarketableLimitPct>20.84</nonMarketableLimitPct>
+          <otherPct>15.73</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from StoneX Financial, Inc. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided
+disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>11.51</orderPct>
+          <marketPct>11.74</marketPct>
+          <marketableLimitPct>8.47</marketableLimitPct>
+          <nonMarketableLimitPct>10.57</nonMarketableLimitPct>
+          <otherPct>9.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from GTS Securities LLC. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the
+Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>85.35</ndoMarketPct>
+      <ndoMarketableLimitPct>2.25</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>5.51</ndoNonmarketableLimitPct>
+      <ndoOtherPct>6.89</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Virtu Americas, LLC</name>
+          <orderPct>56.20</orderPct>
+          <marketPct>56.19</marketPct>
+          <marketableLimitPct>44.74</marketableLimitPct>
+          <nonMarketableLimitPct>42.65</nonMarketableLimitPct>
+          <otherPct>70.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>43432.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>14.9470</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>25829.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>7.3806</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>24578.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>8.3413</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1495.44</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.2460</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Virtu Americas. For held marketable orders, Stifel received $0.0015 per share for NMS securities priced greater than $1.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CITADEL SECURITIES LLC</name>
+          <orderPct>20.66</orderPct>
+          <marketPct>21.03</marketPct>
+          <marketableLimitPct>21.05</marketableLimitPct>
+          <nonMarketableLimitPct>27.32</nonMarketableLimitPct>
+          <otherPct>10.59</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>18619.63</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.8519</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4531.72</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.4932</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>18.34</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.1877</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel received payment from Citadel Securities, LLC. For held marketable orders, Stifel received $0.0015 per share.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>StoneX Financial, Inc.</name>
+          <orderPct>13.88</orderPct>
+          <marketPct>14.41</marketPct>
+          <marketableLimitPct>7.50</marketableLimitPct>
+          <nonMarketableLimitPct>15.07</nonMarketableLimitPct>
+          <otherPct>8.47</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from StoneX Financial, Inc. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>GTS SECURITIES LLC</name>
+          <orderPct>7.61</orderPct>
+          <marketPct>7.57</marketPct>
+          <marketableLimitPct>6.62</marketableLimitPct>
+          <nonMarketableLimitPct>9.83</nonMarketableLimitPct>
+          <otherPct>6.64</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not accept rebate, credits or payments from GTS Securities LLC. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the
+Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>32.10</ndoMarketPct>
+      <ndoMarketableLimitPct>7.00</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>50.68</ndoNonmarketableLimitPct>
+      <ndoOtherPct>10.22</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Citadel Execution Services</name>
+          <orderPct>41.38</orderPct>
+          <marketPct>25.25</marketPct>
+          <marketableLimitPct>51.03</marketableLimitPct>
+          <nonMarketableLimitPct>50.36</nonMarketableLimitPct>
+          <otherPct>40.88</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Citadel Execution Services for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Susquehanna Financial Group, LLP</name>
+          <orderPct>37.07</orderPct>
+          <marketPct>21.09</marketPct>
+          <marketableLimitPct>45.09</marketableLimitPct>
+          <nonMarketableLimitPct>46.23</nonMarketableLimitPct>
+          <otherPct>36.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Susquehanna Financial Group, LLP for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>8.54</orderPct>
+          <marketPct>24.54</marketPct>
+          <marketableLimitPct>0.39</marketableLimitPct>
+          <nonMarketableLimitPct>0.20</nonMarketableLimitPct>
+          <otherPct>5.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Cboe Exchange, Inc. for options order flow.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>2.71</orderPct>
+          <marketPct>4.66</marketPct>
+          <marketableLimitPct>0.91</marketableLimitPct>
+          <nonMarketableLimitPct>0.65</nonMarketableLimitPct>
+          <otherPct>8.02</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from Dash/IMC Financial Markets for options order flow.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX Emerald, LLC</name>
+          <orderPct>2.18</orderPct>
+          <marketPct>6.78</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>During the time period, Stifel did not receive rebates, credits or payments from MIAX Emerald, LLC for options order flow. The Firm and this venue did not have any arrangements: (i). that provided incentives to the Firm for meeting or exceeding certain volume thresholds; (ii). that provided disincentives to the Firm for failing to meet certain minimum volume thresholds; (iii). for volume-based tiered payment schedules; or (iv). for minimum amount of orders.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

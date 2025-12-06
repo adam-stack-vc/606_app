@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heldOrderRoutingPublicReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oh-20191231.xsd">
+  <version>1.3</version>
+  <bd>Guggenheim Securities, LLC</bd>
+  <year>2025</year>
+  <qtr>2</qtr>
+  <timestamp>2025-07-25T19:53:11Z</timestamp>
+  <rMonthly>
+    <year>2025</year>
+    <mon>04</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>0.38</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>6.42</ndoNonmarketableLimitPct>
+      <ndoOtherPct>93.20</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>26.11</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.11</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>27.99</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-16.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-51.8125</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-455.10</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-32.4604</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to CBOE Pricing Schedule available at https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>19.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>20.44</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3976.94</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>44.3212</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to NYSE ARCA Options Fees and Charges available at https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq GEMX, LLC</name>
+          <orderPct>13.25</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>5.41</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>14.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-5.94</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-99.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-374.00</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-43.6406</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/
+
+Additionally, please refer to Nasdaq GEMX, LLC Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/gemx/rules/GEMX%20Options%207</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>7.89</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>2.70</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>8.46</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6.30</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-90.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-438.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-27.1973</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to International Securities Exchange, LLC Options Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/ise/rules</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>5.48</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>40.54</marketableLimitPct>
+          <nonMarketableLimitPct>78.12</nonMarketableLimitPct>
+          <otherPct>0.34</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-7.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-59.2308</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2924.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-61.2112</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-243.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.8772</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-6057.32</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.2221</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Dash Financial Technologies LLC (“Dash”): Guggenheim Securities, LLC (“GS”) pays $0.05 per contract, plus exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable. For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.com/rule-606/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>4.87</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>10.81</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>5.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>1.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>155.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>27.1080</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to CBOE EDGX Options Exchange Options Pricing Schedule available at https://www.cboe.com/us/options/membership/fee_schedule/edgx/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>4.19</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>8.11</marketableLimitPct>
+          <nonMarketableLimitPct>20.13</nonMarketableLimitPct>
+          <otherPct>3.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-30.9630</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>254.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.2880</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>4720.40</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>23.5326</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC (“Matrix”): Guggenheim Securities, LLC (“GS”) pays $0.04 per contract, plus exchange, regulatory, market data and clearing fees and may receive exchange rebates. GS receives a rebate of $0.25 per spread contract for relevant orders traded using Matrix algorithms for contracts that trade in penny increments and receives a rebate of $0.40 per spread contract for relevant orders traded using Matrix algorithms for contracts that trade in non-penny increments.
+
+Furthermore, GS pays a flat fee of $0.05 per contract for paired orders eligible for exchange floor crossing plus exchange, regulatory, market data and clearing fees, but does not receive any rebates for such paired orders that are crossed on the exchange. For additional information regarding Matrix’s routing statistics, please refer to the relevant quarterly disclosure available at https://www.matrixexecutions.com/rule-606</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>3.37</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.62</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-461.79</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-19.8790</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to CBOE C2 Options Exchange [C2OX] Pricing Schedule available at https://www.cboe.com/us/options/membership/fee_schedule/ctwo/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>3.15</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.38</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1512.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-37.8915</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to Philadelphia Options Exchange Options Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/phlx/rules</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe BZX Exchange, Inc.</name>
+          <orderPct>2.17</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.33</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>451.90</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>30.9945</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to CBOE BZX Options Exchange Options Pricing Schedule available at https://www.cboe.com/us/options/membership/fee_schedule/bzx/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Miami International Securities Exchange, LLC</name>
+          <orderPct>1.80</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>10.81</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>1.89</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-37.28</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.5148</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to Miami International Securities Exchange [XMIO] Pricing Schedule available at https://www.miaxglobal.com/markets/us-options/all-options-exchanges/fees-archive</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>05</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.01</ndoMarketPct>
+      <ndoMarketableLimitPct>0.33</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>3.50</ndoNonmarketableLimitPct>
+      <ndoOtherPct>96.16</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>26.44</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>27.49</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>367.37</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>8.8672</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to NYSE ARCA Options Fees and Charges available at https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>19.33</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>20.10</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-754.72</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-27.5445</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to International Securities Exchange, LLC Options Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/ise/rules</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>9.82</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>10.21</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-501.71</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-25.0855</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to CBOE Pricing Schedule available at https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq PHLX LLC</name>
+          <orderPct>7.26</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>7.55</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-726.14</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-32.8868</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to Philadelphia Options Exchange Options Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/phlx/rules</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>6.70</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.97</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2449.15</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-70.7234</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/
+
+Additionally, please refer to MEMX LLC [MEMX] Pricing Schedule available at https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe EDGX Exchange, Inc.</name>
+          <orderPct>5.95</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>6.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>192.91</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>21.5783</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to CBOE EDGX Options Exchange Options Pricing Schedule available at https://www.cboe.com/us/options/membership/fee_schedule/edgx/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>4.13</orderPct>
+          <marketPct>100.00</marketPct>
+          <marketableLimitPct>47.37</marketableLimitPct>
+          <nonMarketableLimitPct>58.44</nonMarketableLimitPct>
+          <otherPct>1.99</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>197936.41</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>24.9834</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC (“Matrix”): Guggenheim Securities, LLC (“GS”) pays $0.04 per contract, plus exchange, regulatory, market data and clearing fees and may receive exchange rebates. GS receives a rebate of $0.25 per spread contract for relevant orders traded using Matrix algorithms for contracts that trade in penny increments and receives a rebate of $0.40 per spread contract for relevant orders traded using Matrix algorithms for contracts that trade in non-penny increments.
+
+Furthermore, GS pays a flat fee of $0.05 per contract for paired orders eligible for exchange floor crossing plus exchange, regulatory, market data and clearing fees, but does not receive any rebates for such paired orders that are crossed on the exchange. For additional information regarding Matrix’s routing statistics, please refer to the relevant quarterly disclosure available at https://www.matrixexecutions.com/rule-606</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MIAX SAPPHIRE LLC</name>
+          <orderPct>3.40</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>3.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1124.06</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-49.8696</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/
+
+ 
+
+Additionally, please refer to MIAX Sapphire LLC [EMLD] Pricing Schedule available at https://www.miaxglobal.com/markets/us-options/sapphire-options/fees</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe C2 Exchange, Inc.</name>
+          <orderPct>2.87</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.99</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-623.03</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-48.5604</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to CBOE C2 Options Exchange [C2OX] Pricing Schedule available at https://www.cboe.com/us/options/membership/fee_schedule/ctwo/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>NYSE American LLC</name>
+          <orderPct>2.58</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.69</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-603.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-73.6630</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to NYSE AMEX Options [AMXO] Pricing Schedule available at https://www.nyse.com/publicdocs/nyse/markets/american-options/NYSE_American_Options_Fee_Schedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq MRX, LLC</name>
+          <orderPct>2.14</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.23</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-7.25</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.0480</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to Nasdaq MRX [MCRY] Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/mrx/rules/MRX%20Options%207</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2025</year>
+    <mon>06</mon>
+    <rSP500>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct></ndoPct>
+      <ndoMarketPct></ndoMarketPct>
+      <ndoMarketableLimitPct></ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct></ndoNonmarketableLimitPct>
+      <ndoOtherPct></ndoOtherPct>
+      <rVenues/>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>100.00</ndoPct>
+      <ndoMarketPct>0.00</ndoMarketPct>
+      <ndoMarketableLimitPct>1.94</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>22.11</ndoNonmarketableLimitPct>
+      <ndoOtherPct>75.95</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>NYSE ARCA OPTIONS</name>
+          <orderPct>36.66</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>48.27</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>305.60</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.7333</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to NYSE ARCA Options Fees and Charges available at https://www.nyse.com/publicdocs/nyse/markets/arca-options/NYSE_Arca_Options_Fee_Schedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Matrix Executions, LLC / Simplex Trading, LLC</name>
+          <orderPct>19.22</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>62.16</marketableLimitPct>
+          <nonMarketableLimitPct>59.86</nonMarketableLimitPct>
+          <otherPct>6.29</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-574.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-16.6822</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10623.51</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>70.1639</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>113967.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>19.9673</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Matrix Executions, LLC (“Matrix”): Guggenheim Securities, LLC (“GS”) pays $0.04 per contract, plus exchange, regulatory, market data and clearing fees and may receive exchange rebates. GS receives a rebate of $0.25 per spread contract for relevant orders traded using Matrix algorithms for contracts that trade in penny increments and receives a rebate of $0.40 per spread contract for relevant orders traded using Matrix algorithms for contracts that trade in non-penny increments.
+
+Furthermore, GS pays a flat fee of $0.05 per contract for paired orders eligible for exchange floor crossing plus exchange, regulatory, market data and clearing fees, but does not receive any rebates for such paired orders that are crossed on the exchange. For additional information regarding Matrix’s routing statistics, please refer to the relevant quarterly disclosure available at https://www.matrixexecutions.com/rule-606</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Nasdaq ISE, LLC</name>
+          <orderPct>15.91</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>20.95</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-30.30</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-35.6471</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+
+Additionally, please refer to International Securities Exchange, LLC Options Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/ise/rules</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Dash/IMC Financial Markets</name>
+          <orderPct>8.61</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>24.32</marketableLimitPct>
+          <nonMarketableLimitPct>36.34</nonMarketableLimitPct>
+          <otherPct>0.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1.30</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-65.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1750.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-101.7674</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-482.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.1771</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2587.58</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.3394</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Dash Financial Technologies LLC (“Dash”): Guggenheim Securities, LLC (“GS”) pays $0.05 per contract, plus exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable. For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.com/rule-606/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MEMX LLC</name>
+          <orderPct>6.99</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>9.20</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1039.76</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-88.4150</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/
+
+Additionally, please refer to MEMX LLC [MEMX] Pricing Schedule available at https://info.memxtrading.com/us-options-trading-resources/us-options-fee-schedule/</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>Cboe Exchange, Inc.</name>
+          <orderPct>1.79</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>2.35</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.42</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-0.2064</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to CBOE Pricing Schedule available at https://cdn.cboe.com/resources/membership/Cboe_FeeSchedule.pdf</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>The NASDAQ Options Market LLC</name>
+          <orderPct>1.42</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>1.87</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-409.83</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-78.9653</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Guggenheim Securities, LLC accesses liquidity through Dash/IMC Financial Markets(“Dash”) and BofA Securities, Inc. (“BofA”) and they make all routing decisions.  Guggenheim Securities, LLC pays exchange, regulatory, market data and clearing fees and may receive exchange rebates where applicable.  For additional information regarding BofA’s routing statistics, please refer to the relevant quarterly disclosure available at http://public.s3.com/rule606/bofas/.  For additional information regarding Dash’s routing statistics, please refer to the relevant quarterly disclosure available at https://dashfinancial.comrule-606/ 
+Additionally, please refer to Nasdaq Options Market Pricing Schedule available at https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-options-7</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>

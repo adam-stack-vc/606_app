@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/CA</submissionType>
+    <accessionNumber>0001110644-25-000018</accessionNumber>
+    <filing_date>2025-11-26</filing_date>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0001110644</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00107</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>Liquidnet Negotiation ATS</txNMSStockATSName>
+      <taStatementAboutAmendment>This filing is a correcting amendment to Part II, Item 6 to add AWS and Salesforce as Service Providers, update the direct owner of LNI, add personnel and affiliates that have access to CTI; and Item 7 to change the access to data for Trade Coverage and Trading Desk personnel, add additional personnel with CTI access, and add language regarding LNIs CRM system. This is amending Schedule A to reflect a change of the Chief Compliance Officer. This is amending Schedule B to reflect a change of the direct owner of Liquidnet, Inc. The changes in this correcting amendment apply to all Subscribers and the Broker-Dealer Operator.</taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>LIQUIDNET, INC.</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="Liquidnet Negotiation ATS"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-52461</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000103987</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>Financial Industry Regulatory Authority</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>10/10/2000</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>LQNT</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>www.liquidnet.com</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>Equinix NY5</ats:street1>
+        <ats:street2>800 Secaucus Road</ats:street2>
+        <ats:city>Secaucus</ats:city>
+        <ats:zip>07094</ats:zip>
+        <ats:state>US-NJ</ats:state>
+      </part1Item7PrimarySite>
+      <part1Item7SecondarySiteRecords>
+        <secondarySiteI7>
+          <ats:street1>Cyrus One</ats:street1>
+          <ats:street2>800 Cottontail Lane</ats:street2>
+          <ats:city>Somerset</ats:city>
+          <ats:zip>08873</ats:zip>
+          <ats:state>US-NJ</ats:state>
+        </secondarySiteI7>
+      </part1Item7SecondarySiteRecords>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <part2Item1aArePermittedToEnterInterest rbPart2Item1aArePermittedToEnterInterest="Y">
+        <taPart2Item1aUnitNamesEnterInterest>The Broker-Dealer Operator (Liquidnet, Inc., also referred to as LNI) has two business units that can enter or direct the entry of orders into the NMS Stock ATS (the Negotiation ATS) (MPID LQNT):
+
+1. Trade Coverage personnel monitor and provide support for low-touch orders from LNI Participants (see definition of Participants in Item 2b of Part III). A low-touch order means an order initiated by a Participant without any action by a LNI representative. LNI uses the term Participant as the equivalent to the term Subscriber as used in the Form ATS-N questions. Trade Coverage personnel are not able to enter new orders into the H2O ATS but can amend an order at the request of a Participant.
+2. Trading desk is an electronic agency trading desk that handles high-touch orders as agent for Members and Customers (see definitions in Item 2b of Part III). A high-touch order means that the order is initiated by an LNI trader based on a Member or Customer instructions. In handling a high-touch order, an LNI trader can access the LNI ATSs (H2O and Negotiation) as well as third-party execution venues, subject to the instructions. The LNI trader accesses the LNI ATSs and third-party execution venues by creating an order in the execution management system (EMS) used by the LNI electronic agency trading desk.
+
+Each unit enters only agency orders. The MPID for each group is LQNB.</taPart2Item1aUnitNamesEnterInterest>
+        <rbPart2Item1bAreSevicesSametoAllSubscribers>Y</rbPart2Item1bAreSevicesSametoAllSubscribers>
+        <rbPart2Item1cAreThereArrangements>N</rbPart2Item1cAreThereArrangements>
+      </part2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <affiliatesPermittedToEnterInterest rbPart2Item2aAreAfflPermittedToEnterInterest="Y">
+        <taPart2Item2aAfflThatEnterInterest>LNI branded affiliates outside of the United States (collectively, the LNI BD Affiliates) route orders on an agency basis on behalf of their clients in U.S. symbols to for the Negotiation ATS execution. Orders sent by the LNI BD Affiliates to LNI may be routed to and receive executions in the Negotiation ATS. The LNI BD Affiliates do not have their own MPIDs.
+
+1. Liquidnet Asia Limited - broker-dealer, agency, no MPID.
+2. Liquidnet Australia Pty Ltd. - broker-dealer, agency, no MPID.
+3. Liquidnet Canada Inc. - broker-dealer, agency, no MPID.
+4. Liquidnet Europe Limited - broker-dealer, agency, no MPID.
+5. Liquidnet Japan Inc. - broker-dealer, agency, no MPID.
+6. Liquidnet Singapore Pte Ltd - broker-dealer, agency, no MPID.
+7. TP ICAP Europe SA - broker-dealer, agency, no MPID.
+
+The LNI BD Affiliates identified above may similarly onboard  Members, Customers, and LPs in their respective regions utilizing their own jurisdictional standards. LNI treats orders from LNI BD Affiliates Participants in an equivalent manner as if they are LNI Participants. For example, a Member of Liquidnet Asia Limited will be considered as a Member with the same access.</taPart2Item2aAfflThatEnterInterest>
+        <part2Item2bAreSevicestoAfflSametoSubscribers rbPart2Item2bAreSevicestoAfflSametoSubscribers="N">
+          <taPart2Item2bExplainDiff>The Liquidnet system (referred to as the System) is structured to permit participants of the Affiliates to have equivalent access to the Negotiation ATS as participants of LNI. If a participant located in a region outside the US transmits an order for an NMS stock, the System records that order as being routed by the LNI Affiliate in the participants region to LNI for execution. The participation criteria may vary based on the participants region, as described in the response to Item 2.b. of Part III.</taPart2Item2bExplainDiff>
+        </part2Item2bAreSevicestoAfflSametoSubscribers>
+        <rbPart2Item2cAreThereArrangementsWithAffl>N</rbPart2Item2cAreThereArrangementsWithAffl>
+      </affiliatesPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfBD>N</rbPart2Item3aCanSubscrOptOutWithOATIOfBD>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>N</rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <part2Item4aAreThereArrangementsBtwBDAndTC rbPart2Item4aAreThereArrangementsBtwBDAndTC="Y">
+        <taPart2Item4aTDAndATSServices>LNI, which routes Liquidnet pool contra (LPC) orders to the Negotiation ATS and LNI resting orders to the H2O ATS (as described in the Form ATS-N for the H2O ATS), interacts with the ATSs in a coordinated manner.
+
+In particular, LNI can simultaneously transmit an LPC order to the Negotiation ATS and an LNI resting order to the H2O ATS. Prior to commencing a negotiation in the Negotiation ATS with respect to an LPC order, LNI pauses the LNI resting order in the H2O ATS. After the negotiation is completed, LNI can resume the LNI resting order in the H2O ATS if there are remaining shares for the parent order.
+
+A participant can instruct LNI that a parent order that otherwise could be routed to both ATSs should only route to the H2O ATS and not to the Negotiation ATS.</taPart2Item4aTDAndATSServices>
+        <part2Item4bAreThereArrangementsBtwAfflAndTC rbPart2Item4bAreThereArrangementsBtwAfflAndTC="Y">
+          <taPart2Item4bTDAndATSServices>LNI, which routes LPC orders to the Negotiation ATS and LNI resting orders to the H2O ATS (as described in the Form ATS-N for the H2O ATS), interacts with the ATSs in a coordinated manner.
+
+In particular, LNI can simultaneously transmit an LPC order to the Negotiation ATS and an LNI resting order to the H2O ATS. Prior to commencing a negotiation in the Negotiation ATS with respect to an LPC order, LNI pauses the LNI resting order in the H2O ATS. After the negotiation is completed, LNI can resume the LNI resting order in the H2O ATS if there are remaining shares for the parent order.
+
+A participant can instruct LNI that a parent order that otherwise could be routed to both ATSs should only route to the H2O ATS and not to the Negotiation ATS.</taPart2Item4bTDAndATSServices>
+        </part2Item4bAreThereArrangementsBtwAfflAndTC>
+      </part2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>LNI offers the following products and services to Participants (see description of Participants in response to Item 2 of Part III) for the purpose of effecting transactions or submitting, disseminating or displaying orders and trading interest in the Negotiation ATS:
+
+1. Access to LNIs algorithms, which in turn is able to access numerous trading centers, including the Negotiation ATS (as discussed in Item 5 of Part III),
+2. Access to LNIs Liquidnet 5, which is a desktop trading application, accessed by Members only (see description of Members in response to Item 2b of Part III), that can be used to access directly LNIs algorithmic trading strategies, Negotiation ATS , H2O ATS (another NMS Stock ATS operated by LNI, and/or external venues,
+3. Access to targeted invitations (see description in Items 3 and 15 of Part III),
+4. Technology to interface with the Participants OMS,
+5. Technology to facilitate the transmission of orders and indications of interest (IOI) (see description in Item 7 of Part III) by a Participant to LNI and the Negotiation ATS,
+6. Access to the LNI Trading Desk,
+7. Sponsored broker. Members and Customers that participate in LNIs sponsored broker service can designate a sponsored broker for an order. In a sponsored broker arrangement, LNI acts as a service provider on behalf of the sponsored broker. If a trade is executed by LNI, LNI is responsible for trade settlement with the sponsored broker, and the sponsored broker is responsible for trade settlement with the Member or Customer, and
+8. Market data (as described in the response to Item 23 of Part III).</taPart2Item5aProductsAndServices>
+        <rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>Y</rbPart2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <part2Item5cDoesAfflOfferProductsAndServices rbPart2Item5cDoesAfflOfferProductsAndServices="Y">
+        <taPart2Item5cAfflProvidedProductsAndServices>LNI BD Affiliates offer the same products and services (see a description products and services in  Item 5a above) to their clients as LNI in their local jurisdictions which can result in the orders or indications of their clients being entered on the Negotiation ATS (see Item 2 of Part II for a description of these Affiliates).</taPart2Item5cAfflProvidedProductsAndServices>
+        <rbPart2Item5dAreTCOfSevicesSametoAll>Y</rbPart2Item5dAreTCOfSevicesSametoAll>
+      </part2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>Confidential trading information (CTI) of Participants of the Negotiation ATS may consist of:
+
+1. The identity of Participants,
+2. Orders and IOIs (including match status) transmitted to the Negotiation ATS by or on behalf of a Participant, and
+3. Trades executed in the Negotiation ATS by a Participant.
+
+Notwithstanding the preceding, LNI does not consider post-trade information that is aggregated and anonymized, or otherwise presented in a way that does not reveal a client to be a Participant of the Negotiation ATS to be CTI. For example, LNI may share post-trade data consisting of overall LNI trading activity, but the information is presented as overall LNI activity) with third-party providers for the purpose of analyzing LNIs business. Participants may opt out of having their overall LNI activity data provided to these third-party providers by contacting Trade Coverage. Post-trade information refers to information that has been reported to the consolidated tape pursuant to SRO trade reporting requirements.
+
+LNI does not have any personnel whose sole responsibility is to service the Negotiation ATS. Below is a summary of the shared personnel that provide services to the Negotiation ATS. Shared personnel are not involved in front office services. Only LNI employees, as provided below, offer front office services to Participants. Shared personnel of affiliates provide technical services, finance, risk, credit risk, legal, compliance and back-office support. Shared personnel are employed by LNI, ICAP Global Broking Inc. (IGBI), which is LNIs parent, and TP ICAP Americas Holdings Inc. (TPIAH), which is IGBIs parent, and certain affiliates Liquidnet Canada Inc. (LNC), Liquidnet Japan Inc. (LNJ), Liquidnet Australia Ply LTD (LNAU), Liquidnet Asia Limited (LNAL), Liquidnet Singapore Pte. Ltd. (LNS), Liquidnet Europe Ltd. (LNEL), Liquidnet Technologies Europe Limited (LNTE), TP ICAP Group Services Limited (TPGS), TP ICAP (Europe) S.A. (TPIE), TP ICAP Management Services (Hong Kong) Limited( TPHK), TP ICAP Management Services (Singapore) Pte. Ltd., TP ICAP Management Services (Australia) Pty Ltd. (TPMSA), Neptune Networks Limited (NNL), and Neptune Networks US LLC (NNUS) and have access to CTI of the Negotiation ATS:
+
+1. Business Analytics personnel. Business Analytics personnel provide data and reports to internal LNI personnel, such as Senior Leadership, Sales (which includes Trade Coverage and Trading Desk personnel, and Marketing, for use in monitoring, developing, and enhancing LNIs products and services, including ATS and non-ATS products and services. These personnel are employees of LNI, LNEL and LNAL.
+
+2. Product support personnel. These personnel provide implementation, technical and functional support for ATS and non-ATS activity. These personnel are employees of LNI, LNC, LNJ, LNAU, LNAL, LNS, LNEL, TPIE, and LNTE.
+
+3. Trade services personnel. These personnel handle account set-up, trade allocations and trade settlement for ATS and non-ATS activity. These personnel are employees of LNI, LNC, LNJ, LNAU, LNAL, LNS, LNEL, and TPIE.
+
+4. IT Infrastructure personnel. These personnel maintain the computers, networks, databases, and connectivity that comprise the LNI System, including ATS and non-ATS systems. These personnel are employees of IGBI, TPIAH, LNC, LNJ, LNAU, LNAL, LNS, LNEL, LNTE, TPGS, TPIE, TPHK, and TPMSA.
+
+5. Software Development and Quality Assurance personnel. These personnel are responsible for the development, enhancement, and maintenance of the software components of the LNI System, including ATS and non-ATS components. These personnel are employees of IGBI, TPIAH, LNC, LNJ, LNAU, LNAL, LNS, LNEL, LNTE, TPGS, TPIE, TPHK, and TPMSA.
+
+6. Product personnel. These personnel are responsible for the design and enhancement of LNIs trading products, including ATS and non-ATS products. These personnel are employees of IGBI; some of these personnel are dual employees of LNI LNC, LNAL, LNEL, and TPIE.
+
+7. Business intelligence personnel. This team develops reports for use by internal groups in monitoring, developing, and enhancing LNIs products and services, including ATS and non-ATS products and services. These personnel are employees of LNI, LNEL, and LNTE .
+
+8. Legal and Compliance personnel. Legal and Compliance personnel are responsible for working with the business units to establish and enforce legal and compliance policies, including ATS and non-ATS policies. Legal and Compliance are employees of TPIAH.
+
+9. Risk personnel. TPIAH maintains an organization-wide operational risk management program that includes ongoing assessments of strategic, environmental, financial, compliance, security and operational risks. Risk personnel are employees of TPIAH.
+
+10. Credit Risk personnel. These personnel manage the credit risk exposure of LNI, set credit limits for Participants, perform periodic credit reviews of Participants and monitor credit limits on a daily basis. Credit Risk personnel are employees of TPIAH.
+
+11. Information Risk personnel. These personnel are responsible for working with the business units to establish and enforce LNIs policies relating to information security, including ATS and non-ATS policies. These personnel are employees of LNI, LNC, LNJ, LNAU, LNAL, LNS, LNEL, and TPIE.
+
+12. Finance personnel. The Finance team has responsibility for accounts payable and receivable operations in connection with the operation of LNIs business.  These Finance personnel are employees of TPIAH and TPGS.
+
+13. Trade Coverage personnel. These personnel facilitate negotiations and executions involving Members and Customers, monitor and provide consultative support concerning Member and Customer orders, including orders that interact with the LNIs ATSs and/or other venues, and respond to inquiries and diagnose issues. These personnel are employees of LNI.
+
+14. Trading Desk personnel. These personnel can trade orders sent to the desk by a Members or Customers in accordance with their respective instructions. Trading Desk personnel handle, troubleshoot and monitor all high-touch Member or Customer orders. Trading Desk personnel also can view and monitor low-touch Member and Customer algo orders and provide consultative support to Members and Customers in connection with these orders. These personnel are employees of LNI.
+
+15. Execution Consulting &amp; Quant Strategies personnel. Execution Consulting &amp; Quant Strategies personnel are responsible for providing tailored trade performance reports, analyses and consultation to Members and Customers concerning the use and optimization of LNIs algos and other trading products. These personnel are employees of LNI, LNEL, and LNAL.
+
+16. Commission Management personnel. This service consists of commission sharing and commission aggregation. The commission sharing service involves Members and Customers using commission credits to pay for research and other permissible services. These personnel are employees of LNI.
+
+17. Fixed Income Sales &amp; Trading personnel. These personnel facilitate executions, respond to inquiries and diagnose issues involving Participants of the LNI Fixed Income ATS. The personnel are employees of LNI, LNEL, TPIE, NNL, and NNUS.
+
+18. NNL and NNUS Sales &amp; Trading personnel.  These personnel facilitate executions, respond to inquiries and diagnose issues involving Participants of the Neptune Networks platforms. The personnel are employees of LNI, LNEL, TPIE, NNL, and NNUS.
+
+19. Marketing personnel. These personnel perform marketing functions for LNI. The personnel are employees of LNI, LNEL and TPIE.
+For administrative purposes, all LNI employees are on the payroll of TPIAH. The classification of an employee as an IGBI or LNI employee is based on the function that the employee performs.
+
+For additional information, see the response to Item 7.d. of this Part II, which identifies the roles and responsibilities of any persons who have access to trading information, the trading information that is accessible by them, and the basis for the access. </taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>LNI has engaged the following service providers that provide services that may be considered material in connection with the operation of the Negotiation ATS:
+
+1. ICAP Global Broking Inc. Parent company of LNI. Develops and maintains the System and licenses the System to LNI as described in Item 6a above.
+
+2. TP ICAP Americas Holdings Inc. Parent of IGBI. TPIAH provides certain shared service employees as described in Item 6a above.
+
+3. TP ICAP Group Services Ltd. is an affiliate of LNI, which provides technology-related services to LNI granting a license for its Fusion system. Fusion enables clients to smoothly access affiliated liquidity pools across products, asset classes, brands and regions.
+
+4. Liquidnet Canada Inc. Provides certain shared service technical employees as described in Item 2a of Part II and Item 6a above.
+
+5. Liquidnet Japan Inc. Provides certain shared service technical employees as described in Item 2a of Part II and Item 6a above.
+
+6. Liquidnet Australia Ply LTD Provides certain shared service technical employees as described in Item 2a of Part II and Item 6a above.
+
+7. Liquidnet Asia Limited Provides certain shared service technical employees as described in Item 2a of Part II and Item 6a above.
+
+8. Liquidnet Singapore Pte. Ltd. Provides certain shared service technical employees as described in Item 2a of Part II and Item v6a above.
+
+9. Liquidnet Europe Ltd. Provides certain shared service technical employees as described in Item 2a of Part II and Item 6a above.
+
+10. Liquidnet Technologies Europe Limited Provides certain shared service employees as described in Item 6a above.
+
+11. TP ICAP (Europe) S.A. Provides certain shared service technical employees as described in Item 2a of Part II and Item 6a above.
+
+12. TP ICAP Management Services (Hong Kong) Limited Provides certain shared service employees as described in Item 6a above.
+
+13. TP ICAP Management Services (Singapore) Pte. Ltd. Provides certain shared service employees as described in Item 6a above.
+
+14. TP ICAP Management Services (Australia) Pty Ltd. Provides certain shared service employees as described in Item 6a above.
+
+15. Equinix. Data center provider for the System.
+
+16. Cyrus One. Data center provider for the System.
+
+17. Oracle. Database software used in connection with the operation of the Negotiation ATS.
+
+18. Redline. Provides market data used in the operation of the Negotiation ATS. See the response to Item 23 of Part III for additional detail.
+
+19. Goldman, Sachs &amp; Co. (GS) LNIs clearing broker for US equities. See the response to Item 22 of Part III for additional detail.
+
+20. Iron Mountain. Back-up tape storage.
+
+21. Amazon Web Services. Provides cloud computing services for the Negotiation ATS.
+
+22. Salesforce.  Provides client relationship management services to LNI.</taPart2Item6bServiceProvider>
+        <part2Item6cDoesServiceProviderUseATSServices rbPart2Item6cDoesServiceProviderUseATSServices="Y">
+          <taPart2Item6cProviderAfflAndServicesUsed>Goldman, Sachs &amp; Co. (GS) is LNIs clearing broker for US equities. Goldman Sachs Asset Management LP, an affiliate of GS, is a Member.</taPart2Item6cProviderAfflAndServicesUsed>
+          <rbPart2Item6dAreATSSevicesSametoAll>Y</rbPart2Item6dAreATSSevicesSametoAll>
+        </part2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>1. Background
+
+LNI maintains policies and standards designed to limit sharing of LNI clients CTI with only those who have a need to know such information in order to perform their job functions. These policies and standards also apply to LNI personnel and shared personnel involved in the operation of the Negotiation ATS or responsible for the ATSs compliance with applicable laws.
+
+As noted in Part II, Item 6, any information regarding a Participants identity, orders, IOIs , or executions related to that Participant is considered CTI. LNI does not consider post-trade information that is aggregated and anonymized, or otherwise presented in a way that does not reveal a Participant of the Negotiation ATS to be CTI.
+
+2. Identity of Participants
+
+LNI maintains the anonymity of all Members and Customers.
+
+3. Disclosure to 3rd-party vendors
+
+LNI discloses execution data to certain 3rd-party vendors that provide services to the Negotiation ATS and are subject to contractual non-disclosure obligations. Examples of these vendors are LNIs clearing firm and a vendor that has developed software to display participant-specific risk management data in a graphical manner to LNI support personnel.
+
+4. Disclosure of aggregated data
+
+LNI discloses certain aggregated trading data to participants and other third-parties. Aggregated data is not symbol specific. Aggregated data may be broken out by one or more categories, including but not limited to: sector; index; and market cap (micro, small, mid and large).
+
+5. Reports to participants relating to their own trading activity
+
+LNI may provide to Members and Customers information regarding their own equity orders, including, but not limited to, (a) order details, consisting of order time, quantity, symbol, side, order type and limit price (if applicable), (ii) match details, consisting of match quantity, match duration, firm-up details, success rates, contra category type, match break reasons, and potential match analysis and (iii) execution details, consisting of time and quantity of any execution and whether the execution resulted from a targeted invitation.
+
+Additionally, to assist Members in conducting analysis of LNI as an execution venue and to address concerns raised by Members relating to system usage, LNI can provide a report containing information that was previously visible to a trader at the Member firm through the Liquidnet 5. The data in these reports can be symbol-specific and can include, but not limited to, the time of a match, broker block notification, or targeted invitation notification and the actions taken by the Member and the contra (to the extent previously visible to a trader at the Member firm).
+
+LNIs automated routing customers (or their respective service providers) transmitting algo orders (including conditional orders) may receive electronic notification in real-time of the matching of an algo order with an available contra.
+
+6. Access to internal applications
+
+LNI has implemented procedures for employees requesting access to applications that contain CTI. For an employee to be granted access to an application with confidential trading information a request must be placed through a third-party software tool (or formally documented for batch updates) for addition to a role-based group which includes approved applications and data access for that roles job responsibilities. This request is then approved by the role owner/supervisor prior to access being granted. All applications with CTI are integrated or reviewed on a regular basis against these role-based groups and tested on a regular frequency to ensure compliance.
+
+LNI then performs regular access reviews utilizing several key processes governed by LNIs Transparency Working Group, including:
+*Monthly user delta reviews: A review of user changes made to role-based groups is completed and compared vs joiner, movers and leaver lists;
+*Quarterly Visibility Matrix review: Data access permission of each role is validated quarterly to ensure adherence with regulations and disclosures;
+*Quarterly Role Owner Approval of all Users: A formal review is conducted quarterly of all users within each role by the role owner/supervisor.
+
+Any exceptions must be explained/escalated/approved by senior management or access will be immediately removed.
+
+7. Annual SSAE18 SOC2 and ISO 27001 assessments
+
+Each year, LNI engages an outside auditor to assess the suitability and implementation of LNIs information security controls. This assessment includes a review of LNIs processes and procedures for protecting the confidentiality of CTI. The report of this assessment (called an SSAE18 SOC2 assessment) is available to Participants upon request.
+
+SSAE is the Statement on Standards for Attestation Engagements, which is overseen by The American Institute of Certified Public Accountants (AICPA) and more specifically the Auditing Standards Board (ASB). The SOC 2 report evaluates the business information systems that relate to security, availability, processing integrity, confidentiality and privacy.
+
+LNI also obtains an annual ISO 27001 certification. ISO 27001 is a framework of policies and procedures that includes all legal, physical and technical controls involved in an organizations information risk management process. According to the ISO 27001 documentation, ISO 27001 was developed to provide a model for establishing, implementing, operating, monitoring, reviewing, maintaining, and improving an information security management system. Organizations can become ISO 27001 certified by undergoing a third-party assessment by an accredited auditor. LNI engages an outside auditor to confirm that it has implemented information security compliant with ISO 27001. LNIs ISO 27001 certification available to Participants upon request.
+
+8. Employee trading policies and review
+
+The LNI Employee Trading Policy (the Policy) is designed to protect against trading on Member, Customer, and LP CTI. The Policy is applicable to all LNI employees in the US, including those employees who possess FINRA-registered licenses maintained by LNI (Covered Persons). Covered Persons are divided between Access Employees and Non-Access Employees. An Access Employee is defined as a Covered Person who has visibility into Member, Customer, or LP real-time order, execution, and indication information as part of their daily responsibility. Access Employees are subject to the additional requirements set forth below. A Non-Access Employees includes anyone outside of the Access Employee definition. Non-Access Employees are subject to the requirements of this Policy forth below.
+
+Covered Persons are permitted to maintain their personal brokerage accounts - and other related (i.e. IRA and ERISA) accounts, (Covered Accounts) with a third-party broker, subject to the requirements and restrictions set forth in the Policy. All Covered Persons are required to disclose their Covered Accounts to the Compliance Department, and provide duplicate transaction confirmations, and if required, duplicate account statements. Access Employees must obtain approval from their manager prior to placing orders in equity securities, equity derivatives and ETFs and must attest to not being in possession of CTI. Non-Access will complete on an annual basis a certification affirming compliance with the Policy.
+
+Prior to the establishment of a Covered Account with a third-party broker, a Covered Person is required to obtain approval from the Compliance Department. A Covered Person is permitted to buy and sell the following: equity securities, equity derivatives and ETFs in a Covered Account. Covered persons are prohibited from participating in Initial Public Offerings (IPOs).
+
+LNI uses a third-party software product to facilitate disclosure and pre-approval of Covered Accounts and pre-clearance of transaction requests, and to assist in monitoring for compliance with LNI policies related to employee trading. Covered Persons are subject to a ten-day holding period for all equity single stock(s) and equity derivative transactions executed in their respective Personal Accounts. This 10-day holding period will not apply to transactions in ETFs or any other securities transaction(s) or other Financial Instrument as defined in the Policy.
+
+Covered Employees who violate LNIs employee trading policies are subject to sanction, including potential termination of employment.
+
+9. E-mail, IM and correspondence review
+
+LNI has policies for review of email, IM and other correspondence sent by registered LNI employees. These reviews, which are conducted by LNIs business managers (with oversight by Compliance), include a review for any communications that could evidence misuse of customer information in violation of LNI firm policy. LNI maintains a record of all email, IM and other correspondence sent and received; these records are available for review by LNI personnel as required in response to a regulatory inquiry or in connection with an internal review.
+
+10. Supervisory process
+
+LNI supervisory personnel are required to certify on a monthly basis that any use of Participant data within the supervisors business unit is in compliance with LNI firm policy. LNI personnel are only permitted to use Participant data for the purpose of performing their respective business functions as described in the response to Item 7.d. of this Part II.
+
+11. System access controls
+
+LNI has instituted technological controls on access to trading information, including username and password controls, secure remote access with two-factor authentication, access control lists on systems and networks, and network segmentation. These controls are evaluated on an annual basis by an external party and included in an SSAE18 report and ISO 27001 certification, which are available to our participants and regulators.
+
+12. Monitoring of data transmission
+
+All e-mail, web traffic and information copied to removable storage is monitored by a data leakage protection system, which provides alerts to the Information Security department should confidential information be detected in these communication channels.
+
+13. Firewall and IDS protection
+
+LNIs external network perimeters are protected by firewalls and intrusion detection systems. LNI engages a third-party consultant to perform annual external network security assessments.
+
+14. Liquidnet Transparency Controls
+
+LNI makes available to Members and Customers a web-based system known as Liquidnet Transparency Controls. Liquidnet Transparency Controls allows Members and Customers to view details about the liquidity sources with which they interact and the products and services they participate in that utilize their trading information. Members and Customers use the tool to make elections relating to certain liquidity sources and products and services that access the participants trading information. See the response to Item 14 of Part III for additional detail regarding Liquidnet Transparency Controls. </taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <part2Item7bCanSubscriberConsentToDisclosure rbPart2Item7bCanSubscriberConsentToDisclosure="Y">
+        <taPart2Item7bExplainHowAndConditions>Liquidnet Transparency Controls (described in the response to Item 7.a. of this Part II) involves two categories of settings: one category of setting relates to liquidity sources; the other category of setting relates to data usage. This response focuses on the settings in Liquidnet Transparency Controls that relate to data usage.
+
+There are four settings in Liquidnet Transparency Controls that relate to data usage, as follows:
+
+1. LNI community advertising. LNI community advertising refers to any trade advertising that is limited to LNI Members and Customers. Examples of community trade advertising are advertising through Liquidnet 5, LNI sales coverage, and third-party EMSs and OMSs of Members and Customers. By default, Members and Customers are opted in to intra-day (including real-time) LNI community advertising of their trades. Through Liquidnet Transparency Controls, Members and Customers can opt-out of intra-day LNI community advertising of their trades.
+
+2. External trade advertising. External trade advertising refers to any trade advertising that is not limited to LNI Members and Customers. External trade advertising includes Bloomberg advertising. By default, Members and Customers are opted in to intra-day (including real-time) external advertising of their trades. Through Liquidnet Transparency Controls, Members and Customers can opt-out of intra-day external advertising. After T+20, LNI can disclose executed trades to current and prospective Members and Customers, regardless of whether the parties to the trade have opted out of community or external advertising.
+
+3. Trading Desk personnel access to execution data. By default, Trading Desk personnel can view all executions by the participants that they cover, regardless of the order type. A Member or customer can elect through Liquidnet Transparency Controls to restrict Trading Desk personnel to only view the Members or Customers algo executions (.
+
+4. Targeted invitations. A qualifying Member elects whether to receive targeted invitations through Liquidnet 5. Participation in this functionality is subject to opting-in through Liquidnet Transparency Controls because the sender of a manual targeted invitation is notified whether there is at least one recipient for the targeted invitation. See the response to Item 15 of Part III for additional detail.
+
+The only Participants that can make elections through Liquidnet Transparency Controls are Members and Customers. LPs cannot make elections through Liquidnet Transparency Controls and cannot opt-out from intra-day LNI community and external advertising, subject to the following exception:
+
+A. Transition managers can make elections through Liquidnet Transparency Controls.
+
+B. LNI, at its sole discretion, may grant LPs with the option to opt-out of intra-day external advertising and instead opt-in to the least aggressive option available for external advertising in those markets.
+
+Participants cannot opt-out from LNI community advertising after T+20. In other words, after T+20, LNI can disclose any executions to any existing or prospective Member or Customer.
+
+Regardless of any opt-in, LNI does not identify the Participant in any of the communications described above.
+
+Upon request by a Member or Customer, LNI may, in its sole discretion, limit access by Trade Coverage and Trading Desk personnel to a Members or Customers order and execution data.  </taPart2Item7bExplainHowAndConditions>
+        <part2Item7cCanSubscriberWithdrawConsent rbPart2Item7cCanSubscriberWithdrawConsent="Y">
+          <taPart2Item7cExplainHowAndConditions>A Participant can update any existing default or election in Liquidnet Transparency Controls by updating the Liquidnet Transparency Controls website or by instructing its sales or trading coverage to implement the requested change.
+
+Upon request by a Member or Customer, LNI may, in its sole discretion, limit access by Trade Coverage or Trading Desk personnel to a Members or Customers order and execution data.</taPart2Item7cExplainHowAndConditions>
+        </part2Item7cCanSubscriberWithdrawConsent>
+      </part2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>The following is a summary of the roles and responsibilities in LNI that have access to trading information, the trading information that is accessible by the employees in these roles and the basis for the access.
+
+1. Trade Coverage personnel
+
+Roles and responsibilities
+
+Trade Coverage personnel facilitate negotiations and executions involving Members and Customers, monitor Member and Customer orders that interact with the LNIs ATSs and/or external venues (including algorithmic orders), and respond to inquiries and diagnose issues. While Trade Coverage personnel cannot execute Member or Customer orders, they may recommend order modifications, where appropriate. In real-time, Trade Coverage personnel may also troubleshoot an order that is not performing properly, where instructed by a Member or Customer, troubleshooting can include modifying the parameters of the order. Trade Coverage personnel can communicate real-time or historical LNI trade execution data to Members and Customers, subject to compliance with Members or Customers Transparency Controls settings. Trade Coverage personnel can also communicate real-time or historical public or readily available execution data to Members and Customers; for example, to notify Members and Customers of the closing volume in a stock in the overall market for one or more days prior. Readily available data means data that is available to industry participants through Bloomberg and similar subscription services. Trade Coverage personnel can also provide various transaction cost analysis (TCA) reports and/or trading analytics to Members and Customers. Trade Coverage personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Through various internal support tools, Trade Coverage personnel can view: Members and Customers order and execution information, including, but not limited to, live and broken match data (including potential match quantity); negotiation histories; LNI algo (including both low touch and high touch orders), Liquidnet-only, LN auto-ex, automated negotiation and targeted invitation orders created by Members and Customers; activity relating to specific LNI products (such as targeted invitations); information relating to OMS placements; interaction between LNI and the Negotiation and H2O ATSs; and all trades executed by LNI. Trade Coverage personnel can view this information at the Member, Customer, and trader level. When a Trade Coverage representative can view a match through an internal support tool, the Trade Coverage representative can view both sides to the match.
+
+Trade Coverage personnel can also view information relating to the traders at Members or Customers (traders) who access the Negotiation ATS, including, but not limited to: whether or not the trader is logged in; the traders current number of indications in the System and the shares and principal value represented by those indications; number, shares and principal value of outside and invalid indications; and the traders historical executed ADV through the System.
+
+Indications means the non-binding expressions of trading interest that a Member transmits to LNI from the Members OMS. Indications are non-binding because a further affirmative action is required by the trader before an execution can occur. See the responses to Items 11.a. and 11.c. of Part III for additional detail.
+
+Upon request by a Member or Customer, LNI may, in its sole discretion, limit access by Trade Coverage personnel to a Members or Customers order and execution data. A Member may also provide consent for Trade Coverage personnel to view a Members match or IOI information for enhanced servicing to facilitate additional trading opportunities. A Members match information or IOI would never be shared with Trading Coverage personnel without explicit consent of the Member.
+
+Member, Customer, and Trader performance and activity through LNI.
+
+Trade Coverage personnel have access to reports on Member, Customer and trader performance and activity through the System.
+
+Reports also can include data on indications received from a Member by instrument type, including aggregate number of indications, principal value or shares and the time of the most recent indication received from a Member. These reports do not include symbol information. Liquidity data is not broken out between buy and sell liquidity.
+
+2. Trading Desk personnel
+
+Roles and responsibilities
+
+Trading Desk personnel sit on the trading desk. They can trade orders sent to the desk by a Participant in accordance with the Participants instructions. Through the EMS used by the Trading Desk:
+
+A. Trading Desk personnel handle, troubleshoot and monitor all high-touch Participant orders.
+
+B. Trading Desk personnel also can view and monitor low-touch Member and Customer algo orders and provide consultative support to Members and Customers in connection with these orders.
+
+Trade Coverage personnel can perform the Trading Desk function on a back-up basis. In such cases, Trade Coverage personnel will not have access to internal Trade Coverage support tools.
+
+Trading Desk personnel provide services for the non-ATS portion of LNIs business.
+
+Access to data
+
+Through internal support tools, Trading Desk personnel can view all orders and executions regardless of order type.  A Member or Customer can elect through Liquidnet Transparency Controls to restrict Trading Desk personnel to only view the Members or Customers algo and high-touch care orders and executions.
+
+
+Upon request by a Member or Customer, LNI may, in its sole discretion, limit access by Trading Desk personnel to a Members or Customers order and execution data. A Member may also provide consent for Trading Desk personnel to view a Members match or IOI information for enhanced servicing to facilitate additional trading opportunities. A Members match information or IOI would never be shared with Trading Desk personnel without explicit consent of the Member.
+
+3. Execution Consulting &amp; Quant Strategies personnel
+
+Roles and responsibilities
+
+LNIs Execution Consulting &amp; Quant Strategies personnel are responsible for providing tailored trade performance reports, analyses and consultation to Members and Customers concerning the use and optimization of LNIs full suite of trading products. The personnel also support the design, research, and specification of LNIs product suite including, but not limited to, LNIs algorithms, quant models and analytics signals. Additionally, these personnel also provide reports and analyses on community performance on an aggregate basis, as well as transaction cost analysis. Product Support personnel can escalate production issues to this team for research and resolution. Trade Coverage and Trading Desk personnel also may escalate to the Execution Consulting &amp; Quant Strategies team Member and Customer queries relating to trading decisions made by LNI products, such as algos. LNIs Execution Consulting &amp; Quant Strategies personnel cannot engage in trading activity and cannot modify any parameters of a LNI algo order. Execution Consulting &amp; Quant Strategies personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Execution Consulting &amp; Quant Strategies personnel have access to all order, indication , match and execution information on an intraday basis.
+
+4. Commission Management Services personnel
+
+Roles and responsibilities
+
+LNIs Commission Management Services personnel provide commission management services including commission aggregation, commission analyzer and broker vote services. Commission Management personnel provide services for the non-ATS portion of LNIs business.
+
+Access to data
+
+LNIs Commission Management Services personnel have access to all LNI trade and allocation information.
+
+5. Business Analytics group personnel
+
+Roles and responsibilities
+
+The Business Analytics team provides data and reports to internal LNI personnel , such as Senior Leadership, Sales (which includes Trade Coverage and Trading Desk personnel), Project Management, and Marketing, for use in monitoring, developing and enhancing LNIs products and services as well as in support of LNIs sales and marketing efforts. In addition, Business Analytics personnel provide Members and Customers with analysis and reporting that offers Members and Customers insight into how they are using LNIs products and services. Business Analytics personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Business Analytics personnel have access to indication, order, and trade information in the database and through internal reporting tools. Reports, which can include trading information, may only be provided by the Business Analytics group to employees in other groups if those employees are authorized, pursuant to LNIs policies, to have access to the associated data.
+
+6. Product Support personnel
+
+Roles and responsibilities
+
+Product Support personnel assist with implementation of participants, maintain up-time of the System, support connectivity with participants, and assist in resolving technical and functional issues affecting participants in their use of the System. Product Support and Implementation personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Product Support personnel have access to indication, order, and trade information in the database and through the various LNI support tools to assist in addressing technical and functional issues affecting Members and Customers. Product Support personnel also have access to logs from each Members LNI desktop trading application and OMS interface with LNI to assist in researching and troubleshooting implementation issues, evaluating additional liquidity from a Member that could be provided to the System, and suggesting technical improvement to a Members interface.
+
+7. Trade Services personnel
+
+Roles and responsibilities
+
+Trade Services handles account set-up, trade allocations and trade settlement. Trade Support personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Trade Services personnel have access to Member and Customer execution, account, allocation and settlement information and the full quantity of any executed order.
+
+8. IT Infrastructure personnel
+
+Roles and responsibilities
+
+IT Infrastructure personnel maintain the computers, networks, databases and connectivity that comprise the LNI System. ETS personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+A subset of the IT Infrastructure , such as but not limited to Database Administration has access to indication, order, execution, and other trading information to troubleshoot production and System issues, when directed by the Product Support group.
+
+9. Software Development and Quality Assurance personnel
+
+Roles and responsibilities
+
+Software Development and Quality Assurance personnel are responsible for development, enhancement, and maintenance of the software components of the LNI System. Software Development and Quality Assurance personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+These personnel have access to indication, order, execution, and other trading information on a real-time basis in connection with the performance of their duties.
+
+10. Product personnel
+
+Roles and responsibilities
+
+Product personnel are responsible for the design and enhancement of LNIs trading products. Product personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Product personnel have access to indication, order, execution and other trading information for the products that they work on (for example, the LNI desktop trading application, algos, TCA and commission management).
+
+Product personnel can access and analyze trader usage data to enhance LNIs products. An example of analyzing trader usage data would be to identify the conditions under which a trader is more likely to respond to a targeted invitation.
+
+Members of the Product group have access to reports on Member and trader performance and activity through LNI, as described above in the Sales coverage section. These reports are not symbol-specific and do not include symbol-level information.
+
+In addition, designated members of the Product group have access to the EMS used by the LNI Trading Desk and Trade Coverage personnel. This access is to assist LNI in responding to inquiries from Members and Customers relating to System functionality in connection with day-to-day trading activity by Members and Customers.
+
+11. Business Intelligence personnel
+
+Roles and responsibilities
+
+The Business Intelligence personnel develop reports for use by internal groups, including Business Analytics, Senior Leadership, Sales (which includes Trade Coverage and Trading Desk personnel), and Marketing, for use in monitoring, developing, and enhancing LNIs products and services as well as in support of LNIs sales and marketing efforts. Business Intelligence personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Business Intelligence personnel have access to indication, order, execution and other trading information in the LNI database that includes all order and other trading information.
+
+Reports, which can include trading information, may only be provided by the Business Intelligence group to employees in other groups if those employees are authorized, pursuant to LNIs policies, to have access to the associated data.
+
+12. Legal and Compliance personnel
+
+Roles and responsibilities
+
+Legal and Compliance personnel are responsible for working with the business units to establish and enforce legal and compliance policies.
+
+Legal and Compliance personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+Legal and Compliance personnel are permitted to access trading information in fulfilling their responsibilities, including for the conduct of investigations.
+
+13. Risk Personnel
+
+TPIAH maintains an organization-wide operational risk management program that includes ongoing assessments of strategic, environmental, financial, compliance, security and operational risks.
+
+Access to data
+
+As part of these responsibilities, Risk personnel have access to trading information after the end of the trading day.
+
+14. Credit Risk personnel
+
+These personnel manage the credit risk exposure of LNI, set credit limits for Participants, perform periodic credit reviews of Participants and monitor credit limits on a daily basis.
+
+Access to data
+
+As part of these responsibilities, Credit Risk personnel have access to trading information during the trading day.
+
+15. Information Risk personnel
+
+Information Risk is responsible for the delivery of a trusted, reliable information security function that is aligned with LNI business initiatives. The function is a systematic process aimed at identifying, assessing, and prioritizing risks that may affect the confidentiality, integrity, and availability of LNIs information assets. Information Risk creates a tailored cybersecurity strategy that incorporates risk-reduction activities, such as deploying technology controls, updating policies, or training employees to reduce human error.
+
+Access to data
+
+Information Risk personnel are permitted to access trading information in fulfilling their responsibilities of protecting the LNI information assets.
+
+16. Finance personnel
+
+Roles and responsibilities
+
+Designated members of the Finance team have responsibility for accounts payable and receivable operations in connection with the operation of LNIs business. Finance personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+Access to data
+
+As part of these responsibilities, Finance personnel have access to trading information after the end of the trading day.
+
+17. Management personnel
+
+To assist LNIs Senior Leadership and Sales management personnel which includes Trade Coverage and Trading Desk) in evaluating LNIs business performance, these personnel may have access to order, execution, and other trading information. Management personnel provide services for the ATS and non-ATS portions of LNIs business.
+
+18. Fixed Income Sales &amp; Trading personnel
+
+Roles and responsibilities
+
+These personnel facilitate executions, respond to inquiries and diagnose issues involving Participants of the Liquidnet Fixed Income ATS.
+
+Access to data
+
+Fixed Income Sales &amp; Trading personnel have access to LNIs CRM as further described in this section below.
+
+19. NNL and NNUS Sales &amp; Trading personnel
+
+Roles and responsibilities
+
+These personnel facilitate executions, respond to inquiries and diagnose issues involving Participants of the Neptune Networks platforms.
+
+Access to data
+
+NNL and NNUS personnel have access to LNIs CRM as further described in this section below.
+
+20. Marketing personnel
+
+Roles and responsibilities
+
+These personnel provide marketing services to LNI.
+
+Access to data
+
+Marketing  personnel have access to LNIs CRM as further described in this section below.
+
+21. Aggregated data
+
+In addition to the above, LNI can provide trading data to employees where the data is not symbol-specific and is broken out by category, including but not limited to: country; sector; index and market cap (e.g., large, mid, small and micro). This data is used for business planning, sales and marketing purposes.
+
+22. Internal support tools
+
+Through LNI internal support tools, LNI Sales (which includes Trade Coverage and Trading Desk personnel) have access to Member and Customer configuration settings in order to respond to Member and Customer requests. Examples of these types of settings include Member and Customer names, usernames (including trader names), Transparency Controls settings and whether a Member or Customer is enabled for specific LNI products such as trading analytics, targeted invitations, or LNI algos. Personnel can view Member and Customer settings for all regions and users. These internal tools do not contain trading data.
+
+23. Internal dashboards
+
+Through various internal dashboards, LNI personnel and their supervisors have access to the following:
+
+A. Data that they are otherwise authorized to view based on their function, as expressly described in the specific section above relating to their specific function.
+
+B. Data that is not symbol-specific relating to revenue, volume and product usage. This data can be broken out by Member or Customer and individual trader. This data can include data described below that is not symbol specific.
+
+24. Client relationship management (CRM) system
+
+LNI and LNI affiliate personnel in the following departments have access to the trading version of LNIs Salesforce CRM; Trade Coverage personnel, Trading Desk personnel, Fixed Income Sales &amp; Trading personnel, Neptune Networks Sales personnel; Business Intelligence; Compliance; Risk; Management; Liquidity Partnerships personnel; Execution Consulting &amp; Quant Strategies personnel; Finance; Product Support; Business Analytics; Marketing; and Trade Services. LNIs CRM system contains standard CRM information relating to participants, including, but not limited to, participant contact information, participant actual and target revenue information, participant trading volume information (not symbol-specific), the status of support incidents, and reports on participant meetings and calls. The CRM system does not contain symbol-specific information, but users can enter specific symbols into the CRM system in connection with the resolution of trade errors and other trading incidents.
+
+25. Data that is not symbol-specific
+
+LNI personnel in the following departments have access to data relating to Participant and trader activity through LNI that is not symbol specific (non-symbol data): Business Intelligence; Trade Coverage, Trading Desk; Commission Management; Compliance; Risk; Senior Leadership;; Execution Consulting &amp; Quant Strategies personnel; Finance; Product; Product Support; Business Analytics; Technology; Trade Coverage; and Trade Services. </taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Investment Companies</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Issuers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Asset Managers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Principal Trading Firms</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Hedge Funds</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Banks</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <rbPart3Item2aRegisteredBD>N</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>To access the Negotiation ATS, whether by way of a direct connection or otherwise, a Participant must be on-boarded to trade equities at LNI. In order to be on-boarded and active, any required on-boarding agreements applicable to the proposed trading relationship for that type of Participant must be signed or acknowledged by the Participant, LNI must have completed its know-your-customer requirements, Participant must submit appropriate financial information; specifically, total assets and assets under management for institutional clients and net capital for broker-dealers, and LNI must have given the Participant a limit required under the Securities Exchange Act Rule 15c3-5.  LNIs clearing firm, Goldman Sachs, must consent to any entity becoming a Member or Customer of the Negotiation ATS.
+
+For the purposes of this Form ATS-N, all Participants of Negotiation, i.e., direct and indirect Participant, LNI Business Units, and LNI Affiliates, are referred to collectively as "Participants." Differences between LNI Business Units and LNI Affiliates, on the one hand, and direct and indirect Participants, on the other, related to ATS eligibility are discussed in Part II, Items  1 and 2. Customers of LNI Affiliates do not have direct access to the H20 ATS.
+Participant categories
+
+The Participant categories for the Negotiation ATS are as follows:
+
+1.	Members
+2.	Customers
+
+There are two categories of Customers:
+
+1.	Trading desk and algo customers
+2.	Automated routing customers
+
+Participation in the Negotiation ATS can be either direct or indirect. Direct participation means that a Participant transmits an order directly to the Negotiation ATS. Indirect participation means that a Participant transmits a parent order to LNI, and LNI subsequently transmits a child order to the Negotiation ATS; this child order is referred to as an LPC order. If an order from a Participant can access the Negotiation and H2O ATSs, the order is transmitted through LNI as a parent order, and LNI manages interaction with the two ATSs.
+
+A Member can participate directly in the Negotiation ATS by transmitting a manual negotiation order. A Member also can transmit a parent order to LNI, and LNI can transmit an LPC order to the Negotiation ATS as a child order of the Members parent order.
+
+A Customer can transmit a parent order to LNI, and LNI can transmit an LPC order to the Negotiation ATS as a child order of the Customers parent order.
+
+Members
+
+A Member is an entity that meets the Member admission and retention criteria, as applicable. A Member must be a buy-side institutional investor, a broker-dealer that is a transition manager, a sell-side firm that is an outsourced dealing services provider, an outsourced trading desk,  or a broker-dealer acting on an agency basis for buy-side clients only.
+
+Members transmit indications from their order or execution management system (OMS) to LNI and manage those indications through Liquidnet 5, which is installed at one or more trader desktops at the Member firm. Indications can be transmitted through a periodic sweep, FIX transmission or other method agreed among LNI, the Member and the OMS vendor, as applicable. OMS is defined to mean software that a Member uses to manage its orders.
+
+Trading desk and algo customers
+
+A trading desk customer or an algo customer interacts with LNI through a method other than through Liquidnet 5. A trading desk customer transmits high-touch orders to the LNI trading desk. An algo customer transmits low-touch orders to LNI, but not through Liquidnet 5. Algo customers typically transmit orders to LNI through their OMS. A trading desk or algo customer must be an institutional investor;  a broker-dealer that is a transition manager; or an outsourced trading desk.
+
+Automated routing customers
+
+As an alternative means of accessing LNI and the Negotiation  ATS, buy-side institutions that meet certain applicable Member admission criteria can transmit orders (including conditional orders) to LNI and the Negotiation ATS via their own automated order router. These buy-side institutions can participate directly, through a service provider, or through a routing securities dealer (referred to as an automated routing dealer) as long as the securities dealer identifies the buy-side institution to LNI on an order-by-order basis (through FIX or an equivalent mechanism), subject to the exception below.
+
+An automated routing customer must be an institutional investor that transmits orders through an internal order router, and an institutional investor that transmits orders through an order router operated by a third-party service provider and are referred to as buy-side automated routing customers. A broker-dealer that transmits orders through an order router on behalf of one or more institutional investors is  referred to as automated routing brokers.
+
+LNI may, in its sole discretion, permit a broker-dealer acting as an outsourced trading desk on behalf of buy-side institutions to participate as an automated routing dealer even if the dealer does not identify the buy-side institution to LNI on an order-by-order basis.
+
+Participating in multiple participant categories
+
+A buy-side firm can be both a Member and a Customer. When transmitting orders through Liquidnet 5, a buy-side firm is acting as a Member; when transmitting orders through another method, a buy-side firm is acting as a customer.</taPart3Item2bSummaryOfCndtns>
+        <rbPart3Item2cIsConditionsSameForAll>Y</rbPart3Item2cIsConditionsSameForAll>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>Y</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>LNI can exclude a Participant from the ATS services as follows:
+
+1.	LNI can exclude a Participant if the Participant ceases to meet any of the applicable admission criteria for the applicable Participant category.
+
+2.	LNI can exclude a Participant based on an inadequate level of System usage. Inadequate level of system usage means that the Participants trading activity does not generate sufficient revenue to cover the connectivity, market data and other costs involved in supporting the Participant.
+
+3.	LNI can suspend or terminate a Participants participation in the Negotiation ATS in accordance with LNIs risk management processes, based on credit concerns, material disciplinary history, regulatory compliance, system and technical issues, non-compliance with the Liquidnet Trading Rules, and other factors that LNI determines appropriate, subject to LNI acting in a non-discriminatory manner.
+
+4.	LNI can determine that a Participant is no longer eligible to participate as a Member but is eligible to participate as a customer based on the Participant continuing to meet the customer admission and retention criteria but not the Member admission and retention criteria (for example, if a Participants assets under management falls below any applicable minimum assets under management requirement for Members, as LNI may establish in any region from time to time).
+5.	LNI can suspend or terminate a Participants participation if it determines that the Participant is engaging in manipulative trading activities or disclosing broker block information to a third party.
+
+6.	LNI may disable a Participant from sending conditional orders if LNI determines that the participants firm-up rate is too low; in making this determination, LNI takes into account whether the participants failure to firm-up is having an adverse trading cost impact on other participants.
+
+
+
+
+
+
+Match breaks
+
+Trade Coverage personnel can break a match when specifically requested by a Member, or when Trade Coverage reasonably determines that the contra is not responsive on a match and it is unlikely that the contra will take action on the match, subject to the following conditions:
+
+* Trade Coverage is required to notify the contras Trade Coverage when proposing a match break.
+* The contras Trade Coverage may elect to contact the contra, in which case the initiating Trade Coverage should hold off on any further steps until hearing back from the contras Trade Coverage; if the contra is not available, or the contra indicates that he or she will not take action on the match, the contras Trade Coverage should notify the initiating Trade Coverage, at which point the initiating Trade Coverage is permitted to break the match.
+* In all cases, Trade Coverage is required to input through an internal LNI sales tool the reason or reasons for the match break.
+* As an alternative to Trade Coverage breaking a match, Trade Coverage can request that a Member Services representative break the match.
+
+A match break prevents the two specific indications from matching for the remainder of the trading day. At the request of a Member, LNI can undo a match break.
+
+Symbol blocks
+
+At the request of a Member, LNI can block the Member from matching on a specific symbol with a specific contra based on a negative trading experience with the contra in that symbol. It is LNIs policy to comply with the Members request. LNI automatically removes any symbol block at the end of the fifth trading day after the date on which the symbol block was first instituted.
+
+SuperBlock Governance
+
+If the parties to a match avail themselves of the SuperBlock functionality, LNI expects that a transaction will occur between the parties. There is no time limit set specific to a SuperBlock match that will systematically break matches. However, for policing purposes, LNI has set a two-minute threshold for a response time to a SuperBlock. While matches may extend beyond that threshold and result in successful trades, in the event matches break without a successful trade, and the Trader had a sufficient amount of time to respond to the match (two minutes), that Trader will be subject to suspension of SuperBlock privileges.
+
+Unless there is a legitimate reason for a failure to trade, the failing party will not be allowed to use the SuperBlock functionality for a period of time. For a first offense, the failing Participant will be precluded from using the SuperBlock functionality for one week, for a second offense the time period is one month and six months for a third offense.
+
+An example of a legitimate failure would be where an indication or order with a limit price triggers a SuperBlock related match while the limit is marketable, if the limit becomes unmarketable, the System will automatically cancel the match.
+
+An example of a non-legitimate failure would be where a Trader is involved in a match utilizing the SuperBlock functionality, then removes the indication without trading. A Member trader has the ability to change an indication status from Available to Match to Outside, which breaks all existing matches and prevents further matches.
+See response to Item 11.c. of Part III for additional detail regarding SuperBlock functionality. </taPart3Item3aExcludngSumryDtls>
+        <rbPart3Item3bIsCondtnsSameForAll>Y</rbPart3Item3bIsCondtnsSameForAll>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>The hours of operation for the Negotiation ATS are 6:00 am to 4:15 pm ET on days that the US equity markets are open for trading. The Negotiation ATS accepts indications starting at 6:00 am. The Negotiation ATS matches indications and permits negotiations between 9:00 am and 4:15 pm. LPC orders can be entered and executed between 9:30 am and 4:15 pm.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <part3Item5aProtocolDetails rbPart3Item5aIsPermitOrdrTradng="Y">
+        <taPart3Item5aProtocolused>Any reference to FIX in this document means FIX version 4.0, 4.2 or 4.4. The following are the methods by which orders can be entered directly into the Negotiation ATS:
+
+1.	Traders at Member firms can enter into manual negotiations through Liquidnet 5.
+
+2.	 LNI, acting as agent, can enter into automated negotiations in the Negotiation ATS on behalf of Members that create the following types of orders: algo orders; Liquidnet-only orders; LN auto-ex orders; automated negotiation orders; and manual targeted invitations.
+
+3.	LNI, acting as agent, can enter into automated negotiations in the Negotiation ATS on behalf of Customers that create the following types of orders: algo orders; Liquidnet-only orders; and LN auto-ex orders. The orders created by LNI in connection with these automated negotiations are child indications and orders of the Participants parent order. These child indications and orders are referred to as LPC indications and LPC orders. Communication between LNIs internal EMS and the Negotiation ATS is through the FIX protocol. Communication of parent orders is through FIX or a proprietary communication protocol agreed between LNI and the applicable OMS vendor.
+
+4.	 LNI trading desk personnel, acting as agent on behalf of Customers, can enter high-touch orders in the LNI EMS for transmission to the Negotiation ATS and other execution venues. These high-touch orders can be algo orders or Liquidnet-only orders. LNI, acting as agent, can enter into automated negotiations in the Negotiation ATS on behalf of these high-touch orders. The indications and orders created by LNI in connection with these automated negotiations are child indications and orders of the Participants parent order. These child indications and orders are referred to as LPC indications and LPC orders. </taPart3Item5aProtocolused>
+        <part3Item5bProtocolDetails rbPart3Item5bIsProtclsameForAll="N">
+          <taPart3Item5aProtocolSumryDtls>Orders transmitted from a Participants OMS use the FIX protocol or a proprietary communication protocol agreed between LNI and the applicable OMS vendor. </taPart3Item5aProtocolSumryDtls>
+        </part3Item5bProtocolDetails>
+      </part3Item5aProtocolDetails>
+      <part3Item5cOthrDtls rbPart3Item5cIsAnyOtherMeans="Y">
+        <taPart3Item5cOthrMeansDtls>Members can create algo orders, Liquidnet-only orders, LN auto-ex orders, automated negotiation orders, manual targeted invitations, and SuperBlock indications or orders through Liquidnet 5. Members enter these orders manually. Members transmit manual negotiation orders directly to the Negotiation ATS; the other order types are parent orders, and LNI can transmit an LPC order to the Negotiation ATS subsequent to receipt of the parent order.
+
+Customers can create algo, Liquidnet-only and LN auto-ex orders through a desktop application that provides a subset of Liquidnet 5 functionality. Customers enter these orders manually. These order types are parent orders, and LNI can transmit an LPC order to the Negotiation ATS subsequent to LNIs receipt of the parent order.
+
+Customers can transmit algo and Liquidnet-only orders to LNI. Customers can transmit algo orders from their OMS. They can transmit Liquidnet-only orders from their OMS or from a smart order router. These orders are all transmitted using FIX. These order types are parent orders, and LNI can transmit an LPC order to the Negotiation ATS subsequent to LNIs receipt of the parent order.
+
+Customers can transmit parent orders to the high-touch trading desk using FIX, by instant message (such as Bloomberg chat) or by telephone. These order types are parent orders, and LNI can transmit an LNI resting order to the Negotiation ATS subsequent to receipt of the parent order.
+
+Auto Order Creation
+
+LNI can provide functionality for a Member where the Member can designate and configure criteria for LNI to automate the creation of a parent order from an indication received by LNI from the Member. The criteria designated by the Member are automatically applied to indications subsequently received from the Member.
+
+The functionality can be configured to apply to select indications based on criteria mutually agreed upon by the Member and LNI. Likewise, attributes of the parent order created are mutually agreed upon by the Member and LNI.</taPart3Item5cOthrMeansDtls>
+        <part3Item5dTnCDetails rbPart3Item5dIsTnCSameForAll="N">
+          <taPart3Item5dTnCSumryDtls>Only Members and Customers that have access to the LNI desktop trading application can enter orders manually through that application. </taPart3Item5dTnCSumryDtls>
+        </part3Item5dTnCDetails>
+      </part3Item5cOthrDtls>
+      <rbPart3Item6aIsCoLocRltdSrvcsOfrd>N</rbPart3Item6aIsCoLocRltdSrvcsOfrd>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>The Negotiation ATS has two order types:
+
+1.	Manual negotiation orders
+2.	Liquidnet pool contra orders
+
+Functionality
+
+The Negotiation ATS provides the functionality of SuperBlock matching, which allows for Members and Customers to trade in larger sizes.
+
+We describe this functionality in greater detail in response to this Item 11.c. of Part III
+
+1.	Manual negotiation orders
+
+Indications
+
+Background
+
+Members interact with the System by transmitting indications to LNI. Indications are non-binding, which means that a further affirmative action must be taken by the Member trader before an executed trade can occur.
+
+OMS requirement
+
+Every Member that provides indications to the System must have an OMS with which LNI can interface. An OMS is software that a Member uses to manage its order flow.
+
+OMS integration adapter
+
+When a Member trader logs on to the System, the LNI integration adapter electronically transmits to the System orders from the Members OMS assigned to that Member trader. After the trader has logged on, the LNI integration adapter periodically queries the Members OMS and updates the System with changes from the OMS relating to the traders orders.
+
+OMS limit orders
+
+LNI may filter or make ineligible for trading indications of liquidity where the related OMS order has a limit instruction that is outside the market, as described below.
+
+Additional information
+
+The method of integration with a Member, including whether an OMS integration adapter is used, can vary based on the Members OMS and workflow.
+
+Indication quantities
+
+OMS order quantity and available quantity
+
+OMS order quantity is the quantity specified in the Members OMS for a particular OMS order. Available quantity is the quantity specified in the Members OMS for a particular OMS order, less the quantity previously executed or placed at other trading venues, as specified in the Members OMS.
+
+OMS order quantity and available quantity are determined by the Members OMS. A Member trader cannot change these quantities in the System except by changing the quantities in his or her OMS.
+
+Working quantity
+
+Working quantity for an indication received by the System defaults to the available quantity for that indication, but a trader can manually change his or her working quantity in the System to less than (but not more than) the available quantity. A traders working quantity sets the maximum quantity he or she can execute in a negotiation or through a LNI algo, Liquidnet-only, LN auto-ex, automated negotiation, or manual targeted invitation order. A trader can change his or her working quantity for an indication at any time prior to a negotiation.
+
+Indication matching functionality
+
+Regarding indication matching functionality, see clause (ii) below in this section relating to manual negotiation orders.
+
+Minimum match quantity and negotiated execution size
+
+See the response to Item 8 of this Part III.
+
+Tolerance
+
+See the response to Item 11.c. of this Part III.
+
+Indication status
+
+See the response to Item 11.c. of this Part III.
+
+(I) Prioritization
+
+General priority rules
+
+The System prioritizes available contras based on time, except for the following contras prioritized ahead of others:
+
+*A contra that represents the LPC with at least one order that is enabled to participate in SuperBlock matching and matched counterparty has enabled SuperBlock matching
+*A contra that represents an indication that is enabled to participate in SuperBlock matching and matched counterparty has enabled SuperBlock matching
+*A contra that represents the LPC (see below)
+
+These general priority rules are subject to the exceptions set forth below in this sub-section.
+
+Exceptions where sender cannot execute against a contra
+
+The following exceptions apply where a member trader has Liquidnet 5.9 or higher and the Trader submits a negotiation proposal from a match pop-up:
+
+* If the System determines that the quantity of the senders proposal is below the minimum quantity of an LPC contra, the System can transmit the senders proposal to a lower priority contra instead of the LPC.
+* If the System determines that the sender has a limit price that is more restrictive than the mid-price and a higher priority contra has a mid-peg instruction, the System can transmit the senders proposal to a lower priority contra who does not have a mid-peg instruction.
+
+Previous mid-peg invitation missed or declined by a trader
+
+If a mid-peg invitation sent by a trader (Trader 1) is above the tolerance of a contra (Trader 2) and missed or declined by Trader 2 (or expires), (i) Trader 1 will be the only available contra displayed to Trader 2 for a period of 30 seconds (and, thus, the only contra to whom Trader 2 can send an invitation during that period), and (ii) a trader at another Member firm will not see Trader 2 as an available contra during this 30-second period (and, thus, cannot submit a proposal to Trader 2 during this 30-second period). The 30-second period is reduced to 10 seconds when Trader 2 declined the invitation from Trader 1 and specified the reason as Explicit Price Only.
+
+(ii) Conditions
+
+Contras
+
+Members transmit indications to LNIs indication matching engine. When a Member trader has an indication that is transmitted to the indication matching engine of the Negotiation ATS, and there is at least one other Trader with a matching indication on the opposite side (a contra-party or contra), the System notifies the first trader and any contra. A matching indication (or match) is one that is in the same equity and instrument type, where both the trader and the contra are within each others minimum tolerance quantities as described below, and where each matching indication is eligible for matching based on the pricing conditions described below. Members cannot be matched with opposite side orders having the same Member ID.
+
+Setting indications of liquidity to outside
+
+A trader may set an indication to outside, which makes the indication ineligible for the indication matching engine of the Negotiation ATS. Indications that are eligible for the indication matching engine are considered in the pool.
+
+Upon request, LNI can configure a Members indication to be automatically set to outside if the Member does not take an action on a match of the indication within a specified period of time after commencement of the match, as directed by the Member. LNI implements this configuration with an exception where the Member previously executed with one or more of the contras on the indication.
+
+Price alerts
+
+When a Member trader sets an indication to outside, the trader can set a price alert. The alert notifies the trader when the price set for the indication is back in the market.
+
+Matches
+
+The System determines matches based on the security IDs provided by each Member. The System only matches buy and sell indications for a security if they are of the same instrument type.
+
+Matching indications with OMS limits - during market hours
+
+During regular trading hours, indications with OMS limits are eligible for matching where the limit on a buy indication is at or above the applicable reference price and the limit on a sell indication is at or below the applicable reference price. The default reference price for regular trading hours is the bid (in the case of a buy indication) and the offer (in the case of a sell indication), but a Member can request that LNI set the mid-price as the reference price.
+
+Matching indications with OMS limits - pre-open and market open
+
+LNI allows matching of indications pre-open or at market open based on the following reference prices in the applicable stock:
+
+* If there is a valid best bid and best offer in the market:
+** The best bid (in the case of a buy indication) and the best offer (in the case of a sell indication)
+* If a valid best bid and best offer is not available, last sale price
+* If a valid best bid and best offer and last sale price are not available, most recent closing price.
+
+Matching indications with OMS limits - after the close
+
+LNI only allows matching of indications after the close if the closing price is within each sides OMS limit.
+
+Match pop-ups
+
+In addition to a standard match notification, the System provides a larger alert to the Trader on each side upon commencement of a match (also referred to as a match pop-up). A Trader can close a match pop-up at any time. A Trader also can request that LNI disable all match pop-ups for the Trader from displaying upon the commencement of a match. Through an internal sales tool, an RM can request the refresh of a match pop-up, which has the following effect: (i) if the Trader has previously closed the pop-up for that match, the System will send another match pop-up to the Trader; and (ii) if the Trader has not previously closed the pop-up and the pop-up is no longer visible to the Trader because it is hidden behind another screen on the Traders desktop, the System will attempt to make the pop-up visible to the Trader.
+
+Match break notification
+
+The System notifies both sides if a match breaks. If a Member trader has Liquidnet 5.9 or higher, the System further reports to the trader if a match break results from the contra changing the contras indication to outside status.
+
+(iii) Order types designed not to remove liquidity
+
+The unique negotiation model of the Negotiation ATS does not involve order types that either provide or remove liquidity.
+
+(iv) Pegged orders
+
+There are three types of negotiation proposals: priced; mid-peg; and closing price. A priced proposal has an associated price displayed to the contra and can only be executed at the indicated price. A mid-peg proposal does not have an associated price. A mid-peg proposal, if accepted, is executed at the mid-price at the time of execution. A closing price proposal, if accepted, is executed at the closing price for the stock. The closing price for a stock is determined by reference to the applicable market data feed sourced by LNI, as described in this Form ATS-N. A closing price proposal cannot be executed if the execution price is more than 1.5% away from the mid-price as of the time of execution.
+
+Prior to the open of trading, only priced proposals can be submitted during a negotiation. During the regular trading session in the primary market, only priced and mid-peg proposals can be submitted during a negotiation. After the close of the regular trading session, only closing price proposals can be submitted during a negotiation.
+
+(v) Routing
+
+The Negotiation ATS does not route manual negotiation orders to other venues. These orders cannot interact with the H2O ATS.
+
+(vi) Time-in-force
+
+There is a 30-second time limit for responding to an initial proposal and a 20-second time limit for responding to a subsequent proposal in a negotiation. If an initial proposal is not accepted by a contra within 30 seconds, the initial proposal expires. If a subsequent proposal in a negotiation is not accepted by a contra within 20 seconds, the proposal expires.
+
+(vii) Modifications
+
+A Member cannot modify a negotiation proposal.
+
+After a Member trader submits a proposal, he or she can cancel that proposal by either:
+
+* Clicking cancel, to cancel the proposal; or
+* Clicking end, to terminate the negotiation (.
+
+If a trader cancels a proposal, he or she can resubmit another proposal.
+
+(viii) Availability of order types across all forms of connectivity
+
+Manual negotiation orders are only available through Liquidnet 5.
+
+C. LPC orders
+
+Matching of LPC and manual negotiation orders
+
+Members transmit indications to the indication matching engine, which is part of the Negotiation ATS. Traders at Member firm can manually negotiate on matching indications through Liquidnet 5. This is referred to as manual negotiation. A trader using Liquidnet 5 can negotiate against another manually negotiating trader or against the LPC.LPC
+
+LNI can transmit all or a portion of a Participants parent order as an indication eligible for matching through the LNI indication matching engine. The following are the types of parent orders:
+
+* LNI algo order
+* Liquidnet-only order
+* LN auto-ex order
+* Automated negotiation order
+* Manual targeted invitation.
+
+When a match occurs, the indication associated with the Participants parent order is represented as an available indication (the LPC indication) to the contra trader with an indication (sometime referred to as the manual contra).
+
+In this scenario, the System can negotiate on behalf of one or more Participants that transmitted parent orders. The feature of the negotiation functionality that performs this negotiation is referred to as the LPC. The functionality is referred to as auto-negotiation.
+
+When the terms of a negotiation are agreed between a manual contra and the LPC, LNI transmits a firm order to the Negotiation ATS as a child order of the Participants parent order. This is the LPC order. The word pool refers to the fact that the System can aggregate parent orders from multiple Participants when negotiating with a manual contra.
+
+Consistent with LNIs negotiation functionality, a manual contra can only negotiate with one contra on a match; the contra to the manual contra could be another manual negotiator or the LPC, negotiating on behalf of one or more Participant parent orders.
+
+The LPC only can negotiate with one manual contra at any time with respect to any match.
+
+During the period that the LPC is involved in an auto-negotiation, child orders of the related parent order cannot execute in the H2O ATS.
+
+The LPC will only execute in accordance with the price constraint instructions of the Participants parent order.
+
+Negotiations involving LPC orders
+
+See the response to Item 11.c. of this Part III.
+
+(i) Prioritization
+
+Where the LPC represents multiple contras, LNI executes the two (or more) same-side orders equally (for each order, up to its quantity), except that execution amounts are rounded up or down to the closest higher or lower round lot amounts to avoid an odd-lot execution. In addition, a same-side order may be unable to participate in an execution based on its minimum size being too large.
+Where the LPC represents multiple contras and the LPC is participating in a Firm SuperBlock match with a manual contra, only those orders enabled for SuperBlock matching and meeting the SuperBlock matching minimum will participate in the execution. Two or more same-side orders meeting this criterion will execute equally as described in the paragraph above.
+Regarding the prioritization between manual negotiation and LPC orders, see the discussion of Prioritization in the section above on manual negotiation orders.
+
+(ii) Conditions
+
+An LPC indication can only match with a contra-side indication if the associated parent order for the LPC indication has a price constraint that is at or above the mid-price, in the case of a buy order, or at or below the mid-price, in the case of a sell order. The LPC can only transmit a proposal or accept a counter-proposal at the mid-price or better from the perspective of the LPC.
+
+See sub-section D below for a description of the firm contra configuration and the associated order conditions.
+
+(iii) Order types designed not to remove liquidity
+
+The unique negotiation model of the Negotiation ATS does not involve order types that either provide or remove liquidity.
+
+(iv) Pegged orders
+
+The LPC can only transmit a proposal or accept a counter-proposal at the mid-price or better from the perspective of the LPC.
+
+(v) Routing
+
+While the Negotiation ATS does not route orders, LNI, which routes LPC orders to the Negotiation ATS and LNI resting orders to the H2O ATS (as described in the Form ATS-N for the H2O ATS), interacts with the ATSs in a coordinated manner.
+
+In particular, LNI can simultaneously transmit an LPC order to the Negotiation ATS-N and an LNI resting order to the H2O ATS. Prior to commencing a negotiation in the Negotiation ATS with respect to an LPC order, LNI pauses the LNI resting order in the H2O ATS. After the negotiation is completed, LNI can resume the LNI resting order in the H2O ATS if there are remaining shares for the parent order.
+
+Manual negotiation orders only interact with the Negotiation ATS and do not interact with the H2O ATS.
+
+(vi) Time-in-force
+
+There is a 30-second time limit for responding to an initial proposal and a 20-second time limit for responding to a subsequent proposal in a negotiation. If an initial proposal is not accepted by a contra within 30 seconds, the initial proposal expires. If a subsequent proposal in a negotiation is not accepted by a contra within 20 seconds, the proposal expires.
+
+(vii) Modifications
+
+The LPC cannot modify a negotiation proposal. The LPC can cancel a proposal and resubmit another proposal.
+
+(viii) Availability of order types across all forms of connectivity
+
+This order type is created by LNI as a child order of one of the following types of parent orders from a Participant: algo orders; Liquidnet-only orders; LN auto-ex orders; automated negotiation orders; and manual targeted invitations.
+
+The connectivity for each of these types of parent orders is set forth in the response to Item 6 of this Part III.
+
+D. Firm contra configuration for LPC orders
+
+(i) Prioritization
+
+An order that has the firm contra configuration is included in the LPC (described above) and has the same priority as other LPC orders, except as otherwise set forth in this section.
+
+(ii) Conditions
+
+Associated parent order
+
+Subject to the conditions and exceptions set forth in this section, LNI instructs the Negotiation ATS to apply the firm contra configuration to child orders where the parent order is (i) a Liquidnet-only order from an automated routing customer, or (ii) a LNI algo, LN auto-ex or automated negotiation order or a manual targeted invitation.
+
+Any order received by the Negotiation ATS with the firm contra configuration is displayed to a Member with a matching contra-indication as a firm contra, except as otherwise described in this section.
+
+Firm and conditional orders
+
+The Negotiation ATS cannot execute an order with the firm contra configuration until LNI confirms that the applicable shares have not previously been executed in the H2O ATS. In addition, the parent order to an order that has the firm contra configuration can be firm or conditional. If the parent order is conditional, prior to executing the child order, the System send a request to the Participants system to commit the shares on the order, and the Participants system responds by sending all or a portion of its remaining unexecuted shares to LNIs Systems (known as a firm-up). This firm-up request is used to protect the Customer against over-execution. Participant firm-up rates are periodically reviewed by LNIs Trade Coverage personnel and associated analytics teams, with appropriate follow-up to the Customer to address any issues.
+
+Minimum size
+
+A Participant can designate a minimum size for any order that has the firm contra configuration.
+
+Display
+
+See the response to Item 15 of this Part III for information on the display of orders with the firm contra configuration.
+
+Indication status
+
+Following execution against an order with the firm contra configuration, the Member traders indication remains available to match.
+
+(iii) Orders type designed not to remove liquidity
+
+The unique negotiation model of the Negotiation ATS does not involve order types that either provide or remove liquidity.
+
+(iv) Pegged orders
+
+All Member traders who have upgraded to a version of the LNI desktop application that supports firm contra away functionality are enabled to receive firm contra away order notifications for US equities. A firm contra away order notification displays a firm contra order when the limit price specified for the firm contra buy order is below the mid-price (but equal to or above the best bid), or when the limit price specified for the firm contra sell order is above the mid-price (but equal to or below the best ask). In such cases, a trader who receives a firm contra away order notification may elect to create a firm contra accept that can execute at a price anywhere within the spread. A trader who is enabled to receive firm contra away order notifications but receives a firm contra mid order notification may elect to create either (i) a mid-only firm contra accept with an execution price pegged to the mid-price or (ii) a firm contra accept that can execute at a price anywhere within the spread.
+
+A member may elect to only receive orders with the firm contra configuration when the limit price specified for a firm contra buy order is at or above the mid-price, or when the limit price specified for a firm contra sell order is at or below the mid-price (this is referred to as a firm contra mid order notification). In such cases, the Member trader is only permitted to create a firm contra accept at an execution price pegged to the mid-price.
+
+(v) Routing
+
+While the Negotiation ATS does not route orders, LNI, which routes LPC orders (including LPC orders with the firm contra configuration) to the Negotiation ATS and LNI resting orders to the H2O ATS (as described in the Form ATS-N for the H2O ATS), interacts with the ATSs in a coordinated manner.
+
+In particular, LNI can simultaneously transmit an LPC order (including an LPC order with the firm contra configuration) to the Negotiation ATS-N and an LNI resting order to the H2O ATS. Prior to commencing a negotiation in the Negotiation ATS with respect to an LPC order, LNI pauses the LNI resting order in the H2O ATS. After the negotiation is completed, LNI can resume the LNI resting order in the H2O ATS if there are remaining shares for the parent order.
+
+(vi) Time-in-force
+
+Any order that has the firm contra configuration is a day order. LNI cancels the order upon the Participants cancel of the parent order.
+
+(vii) Modifications
+
+Modification of a parent order can result in modification of the associated child LPC order that has the firm contra configuration.
+
+(viii) Availability of order types across all forms of connectivity
+
+This order type is created by LNI as a child order of one of the following types of parent orders from a Participant: (i) a Liquidnet-only order from an automated routing customer; or (ii) a LNI algo or LN auto-ex order or a manual targeted invitation.
+
+The connectivity for each of these types of parent orders is set forth in the response to Item 6 of this Part III. </taPart3Item7AOrdrTypExplain>
+      <part3Item7bTnCDetails rbPart3Item7bIsTnCSameForAll="N">
+        <taPart3Item7bTnCSumryDtls>The following are the differences in the order types and attributes for different categories of Participants and within each category:
+
+1.	Only Members can transmit indications to LNI, create orders from those indications, view matching contra-indications in the Negotiation ATS, and negotiate matches based on those indications.
+
+2.	Only Members can create orders through Liquidnet 5.
+
+3.	The following parent order types can only be created through Liquidnet 5: manual and automated negotiation orders; and manual targeted invitation orders. As a result, only Members can create these types of orders.
+
+4.	Only Members can view orders that have the firm contra configuration and execute against those orders in the Negotiation ATS.
+
+5.	The firm contra configuration is only available for automated routing customers and Members and Customers that create algo or LN auto-ex orders or send manual targeted invitations.
+
+6.	Only qualifying Members are eligible to receive targeted invitations.
+
+7.	LNI, from time-to-time, may roll-out new functionality to Participants in phases or make certain functionality available on a pilot basis.
+
+LNI may offer different non-ATS broker services to different Participants. For example, LNI may provide customization of algo orders for certain Customers upon request.
+
+See the response to Item 7a. of this Part III for additional detail. </taPart3Item7bTnCSumryDtls>
+      </part3Item7bTnCDetails>
+      <part3Item8aSizeReqrmnts rbPart3Item8aIsMinOrMaxSizeReqd="Y">
+        <taPart3Item8aOtiSizeReqrmns>Minimum order size for all orders
+
+The Negotiation ATS does not have a minimum order size.
+
+The Negotiation ATS does have a minimum negotiated match and execution size in the Negotiation ATS which is at least one of the following amounts:
+
+1. 5,000 shares;
+2. 5% of ADV for the stock; or
+3. $200,000 principal value.
+
+For this purpose, ADV means the average daily trading volume in the stock for the 30 prior trading days.
+
+Notwithstanding, the minimum negotiated match and execution size defined above, the Negotiation ATS enforces a minimum match and execution size floor to ensure that negotiated executions meet or exceed the lesser of 2,500 shares or 25% of ADV for the stock. For example, a potential match with 5% of ADV of the stock (and less than 25% of the ADV) will be executed if the number of shares is below 5,000 shares but greater than 2,500 shares. In this example, if the number of shares is below 2,500 shares, then the execution will not occur. In another example, a potential match with $200,000 principal value will be executed if the number of shares is below 5,000 shares but greater than 2,500 shares. In this example, if the number of shares were below 2,500 and the match did not meet or exceed 25% ADV, then the execution will not occur.
+
+In the case of a continuing negotiation after a partial execution, the minimum negotiated execution size is the lesser of (i) the minimum negotiated execution size set forth above, and (ii) the remaining unexecuted quantity of the side with the lower remaining unexecuted quantity.
+
+The order size for an order in the Negotiation ATS cannot be less than the minimum negotiated execution size.
+
+Minimum size for negotiation orders
+
+A Member can set tolerance parameters for manual negotiation. Tolerance parameters filter a Member from matching with contras with a size that is below the Members tolerance as determined by these parameters.
+
+Tolerance
+
+A Member is matched with a contra only if the working quantity of each Member is at or above the contras minimum tolerance quantity (or tolerance). A Members tolerance on an indication represents the minimum working quantity in shares that a contra must have for the Member to be matched against that contra. Tolerance is intended to protect a Member from being matched and negotiating with a contra whose working quantity is too small.
+
+A Members tolerance on an indication equals the lowest of the following three quantities:
+
+* Working quantity tolerance. The Members working quantity on the indication multiplied by the Members working quantity tolerance percentage.
+* ADV tolerance percentage. The ADV of the stock multiplied by the Members ADV tolerance percentage.
+* Default maximum tolerance. The default maximum tolerance for US equities, which is the minimum negotiated execution size.
+
+As of the date that LNI changes the default maximum tolerance from 35,000 shares to the minimum negotiated execution size:
+
+* LNI will set the minimum negotiated execution size as the default maximum tolerance for any Trader that had a default maximum tolerance of 35,000 shares immediately prior to the effective date of this filing.
+* LNI will not change the pre-existing default maximum tolerance for any Trader that had a default maximum tolerance above 35,000 shares immediately prior to the effective date of this filing.
+
+Working quantity and ADV tolerance percentages
+
+Through Liquidnet 5, a Member trader can adjust his or her default working quantity tolerance percentage or default ADV tolerance percentage, or each of them, to a percentage, ranging from 1% to 25%. The default tolerance percentages apply to all of a Members indications, unless the Member overrides the defaults for a specific indication (as described below). For new Members, LNI sets the default working quantity and ADV tolerances at 3% for each Trader.
+
+A Member can also request that LNI disable ADV tolerance, in which case ADV tolerance would not apply to the Members indications.
+
+Maximum tolerance
+
+Members have the following options with respect to maximum tolerance:
+
+* A Member can determine whether the maximum tolerance should be applied.
+* If a Member determines that the maximum tolerance should be applied, the Member can choose to keep the default maximum tolerance set by LNI, or the Member can choose to increase the maximum tolerance.
+* If the Member wants to change the default maximum tolerance, the Member can choose to set the maximum tolerance based on number of shares or based on principal value.
+
+A Member should contact its Sales coverage or Member Services for a report of its current maximum tolerance, if any, and to request any modifications, or to request that the maximum tolerance be enabled or disabled. Maximum tolerance is set at the Member level.
+
+If a Trader is set to the default maximum tolerance, this is the equivalent of not applying any tolerance other than the minimum negotiated execution size.
+
+Adjusting tolerance for an indication
+
+A Member can adjust his or her tolerance for an indication through Liquidnet 5 by taking any of the following actions for the indication:
+
+* Adjusting the tolerance share number
+* Adjusting the tolerance principal value
+* Adjusting the working quantity tolerance percentage
+* Adjusting the ADV tolerance percentage.
+
+If the Member adjusts any of these parameters, the System will use that parameter as the Member traders tolerance, except that the tolerance cannot exceed 25% of the traders working quantity on the indication or 25% of ADV (unless the Trader has disabled ADV tolerance for all indications). If a Member adjusts a parameter and the adjustment does not cause the Members adjusted tolerance value to exceed 25% of working quantity (and 25% of ADV, where applicable), and a subsequent execution or other event causes the adjusted tolerance value to exceed 25% of the Members working quantity, the System will compute the Members tolerance based on his working quantity (and, where applicable ADV) tolerance percentages that were in place prior to the tolerance adjustment.
+
+See the response to Item 11.c. of this Part III for additional detail regarding tolerance.
+
+Minimum size for Participant parent orders
+
+For the following parent order types, a Participant can set a minimum execution size that is at or above the minimum negotiated execution size: algo orders; Liquidnet-only orders; LN auto-ex orders; automated negotiation orders; and manual targeted invitation orders. See the response to Item 11.c. of this Part III for additional detail.
+
+SuperBlock functionality.
+
+The SuperBlock functionality provides Members and Customer to enter into a match with a higher minimum share size depending on the market capitalization of the security. Only indications or orders that are above this LNI designated size will be allowed to be a Superblock related match. LNI has five categories of market capitalization - micro-cap, small cap, mid cap, large cap, and mega cap.
+
+The minimum size for micro-cap is the lesser of 75,000 shares or 15% of the securitys 30-day ADV. The minimum size for small cap is the lesser of 100,000 shares or 10% of the securitys 30-day ADV. The minimum size for mid cap is the lesser of 125,000 shares,10% of the securitys 30-day ADV or $5M notional amount. The minimum size for large cap is the lesser of 175,000 shares, 7% of the securitys 30-day ADV or $15M notional amount. The minimum size for mega cap is the lesser of 200,000 shares, or15% of the securitys 30-day ADV or $25M notional amount.
+
+See the response to Item 11.c. of this Part III for additional detail regarding SuperBlock.
+
+Maximum order size
+
+LNI applies certain maximum order size controls for risk control purposes. The Negotiation ATS limits the principal value of any execution to $300 million.
+
+Members can set hard and soft per order quantity limits through Liquidnet 5 to protect against order entry error. The following options are available:
+
+* By Trader. Each Trader can set his or her quantity limits.
+
+* Hard or soft limit. A Trader can set a hard limit or a soft limit. With a hard limit, a Trader cannot submit a negotiation proposal or create a LNI algo, Liquidnet-only, LN auto-ex, automated negotiation, or manual targeted invitation order (a Member order) that exceeds the Traders designated limit. With a soft limit, the System notifies the Trader when he or she enters a price and quantity for a negotiation proposal or a Member order that exceeds his or her designated limit, but the Trader can proceed to submit the negotiation proposal or create the Member order.
+
+* Shares or principal value. A Trader can designate a maximum share limit or a maximum principal value limit.
+
+The LNI EMS provides for maximum size controls relating to principal value, share limit and order size as a percentage of ADV (in shares).
+
+Notwithstanding any maximum size control set through Liquidnet 5 or the LNI EMS, the principal value of an execution in the Negotiation ATS can never exceed $300 million.  </taPart3Item8aOtiSizeReqrmns>
+        <part3Item8bReqProcDetails rbPart3Item8bIsReqProcSameForAll="N">
+          <taPart3Item8bDiffrncsInOtiReqrmnts>Tolerance applies for manual negotiation orders only. For any LPC order, LNI complies with any minimum size instructions of the Participants parent order. The same maximum size limit applies for all orders in the Negotiation ATS. </taPart3Item8bDiffrncsInOtiReqrmnts>
+        </part3Item8bReqProcDetails>
+      </part3Item8aSizeReqrmnts>
+      <rbPart3Item8cIsOddLotsAcptdExecutd>N</rbPart3Item8cIsOddLotsAcptdExecutd>
+      <rbPart3Item8eIsMixLotOrdrsAcptdExecutd>N</rbPart3Item8eIsMixLotOrdrsAcptdExecutd>
+      <part3Item9aMsgDtls rbPart3Item9aIsAnyMsgToIndicTI="Y">
+        <taPart3Item9aMsgUsgDtls>Indications
+
+The Negotiation ATS provides functionality for the matching and negotiation of indications.
+
+Conditional LPC orders
+
+The parent order to an LPC order can be a conditional order. In this scenario, the Negotiation ATS communicates to LNI the agreement between the manual and LPC orders, and LNI automatically sends a request to the Participants system to commit the shares on the parent order. The Participants system responds by either sending or not sending a firm-up of the shares (known as a firm-up). These firm-up processes are automated. These messages are transmitted using the FIX protocol. The permitted time period for a firm-up is one second if the parent order is a LNI algo or Liquidnet-only order and five seconds if the parent order is an LN auto-ex order.
+
+The information in a firm-up request message includes an order identifier for the conditional order and confirmation of the order instructions from the conditional order, including symbol, side, limit price, quantity and other order instructions, such as minimum quantity, time-in-force and mid-peg or better. Sending a firm-up request message communicates to a Participant that there is at least one contra-side firm or conditional order.
+
+LPC orders with the firm contra configuration
+
+The Negotiation ATS cannot execute an order with the firm contra configuration until LNI confirms that the applicable shares have not previously been executed in the H2O ATS. In addition, the parent order to an order that has the firm contra configuration can be firm or conditional. If the parent order is conditional, prior to executing the child order, the System send a request to the Participants system to commit the shares on the order, and the Participants system responds by sending all or a portion of its remaining unexecuted shares to LNIs Systems (known as a firm-up). This firm-up request is used to protect the customer against over-execution. Participant firm-up rates are periodically reviewed by LNIs Trade Coverage personnel and associated analytics teams, with appropriate follow-up to the customer to address any issues. In this scenario, the permitted time period for a firm-up is one second.
+
+Matching on placed orders for manual negotiation
+
+Member firms that meet certain criteria may be configured to match with other LNI contras based on a quantity that includes shares already placed at other trading venues. LNI monitors Members with this configuration for usage in alignment with Member community protocols.
+
+A trader at a Member firm with this configuration must manually update his or her OMS to free up shares placed at the other trading venues before submitting or accepting a bid or offer in an LNI negotiation or creating a Member order.
+
+Members that are configured to match on placed orders can set filters so they do not match when they have executed a specified percentage of the parent OMS order away from LNI that day and the remaining quantity on the order is below a specified percentage of the 30-day historical ADV for the stock. </taPart3Item9aMsgUsgDtls>
+      </part3Item9aMsgDtls>
+      <part3Item9bMsgDtls rbPart3Item9bIsIndIntrstSameForAll="N">
+        <taPart3Item9bMsgUsgDtls>Matching on placed orders only applies for Members. LNI transmits conditional orders as child LPC orders on behalf of Participant parent orders.</taPart3Item9bMsgUsgDtls>
+      </part3Item9bMsgDtls>
+      <taPart3Item10aOpenReOpenDtls>The Negotiation ATS does not conduct any specific opening process that is different from its standard trading process.
+
+Trading halts
+
+The Negotiation ATS does not display matching indications, permit negotiations, or execute trades during a trading halt. When a trading halt ends, the Negotiation ATS can display matches and permits negotiations and executions.
+
+LNI pauses all orders during a trading halt, whether or not the orders were created through the LNI desktop application. By default, the System will auto-resume all orders after the trading halt ends, but a Member will be able to manually cancel any order created through the LNI desktop application or otherwise upon occurrence of the trading halt.
+
+After a trading halt, the Negotiation ATS does not execute an order in a stock until the primary market for the stock has recommenced trading. The Negotiation ATS does not conduct any specific process after a trading halt that is different from its standard trading process. </taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>The Negotiation ATS does not conduct any specific opening process that is different from its standard trading process.
+
+When there is a stoppage of trading in a security, the Negotiation ATS stops matching indications. When trading resumes in the security, the Negotiation ATS once again permits the matching and execution of orders in the security.
+
+LNI pauses all orders during a trading halt, whether or not the orders were created through the LNI desktop application. By default, the System will auto-resume all orders after the trading halt ends, but a Member will be able to manually cancel any order created through the LNI desktop application or otherwise upon occurrence of the trading halt. </taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <part3Item10eDiffDtls rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg="Y">
+        <taPart3Item10eDiffDtls>Matching indications with OMS limits - during market hours During regular trading hours, indications with OMS limits are eligible for matching where the limit on a buy indication is at or above the applicable reference price and the limit on a sell indication is at or below the applicable reference price. The default reference price for regular trading hours is the bid (in the case of a buy indication) and the offer (in the case of a sell indication), but a Member can request that LNI set the mid-price as the reference price. Matching indications with OMS limits - pre-open and market open LNI allows matching of indications pre-open or at market open based on the following reference prices in the applicable stock: * If there is a valid best bid and best offer in the market: ** The best bid (in the case of a buy indication) and the best offer (in the case of a sell indication) * If a valid best bid and best offer is not available, last sale price * If a valid best bid and best offer and last sale price are not available, most recent closing price.</taPart3Item10eDiffDtls>
+      </part3Item10eDiffDtls>
+      <taPart3Item11aStrucOfNmsStk>Negotiation process
+
+All trading in the Negotiation ATS involves two manually negotiating traders executing against each other or one manually negotiating trader executing against the LPC.
+
+Stocks traded
+
+The Negotiation ATS allows for the trading of all NMS stocks that are listed on a US exchange. The Negotiation ATS only allows for the trading of NMS stocks and does not allow for the trading of unlisted stocks.
+
+Order types
+
+The Negotiation ATS has two order types:
+
+1.  Manual negotiation orders
+2  Liquidnet pool contra orders.
+
+In the Negotiation ATS:
+
+* Manual negotiation orders can execute against other manual negotiation orders and against LPC orders.
+* LPC orders can only execute against manual negotiation orders.
+
+Conditional orders
+
+The Negotiation ATS permits conditional orders, as described in the response to Item 9 of this Part III.
+
+Indications
+
+Members interact with the System by transmitting indications to LNI. Indications are non-binding, which means that a further affirmative action must be taken by the trader before an executed trade can occur. Every Member that provides indications to the System must have an OMS with which LNI can interface. An OMS is software that a Member uses to manage its order flow.
+
+When a trader logs on to the System, the LNI integration adapter electronically transmits to the System orders from the Members OMS assigned to that trader. After the trader has logged on, the LNI integration adapter periodically queries the Members OMS and updates the System with changes from the OMS relating to the traders orders. The method of integration with a Member, including whether an OMS integration adapter is used, can vary based on the Members OMS and workflow.
+
+Matching of manual negotiation orders
+
+When a trader has an indication that is transmitted to the indication matching engine of the Negotiation ATS, and there is at least one other trader with a matching indication on the opposite side (a contra-party or contra), the System notifies the first trader and any contra. A matching indication (or match) is one that is in the same equity and instrument type, where both the trader and the contra are within each others minimum tolerance quantities as described in this Form ATS-N filing, and where each matching indication is eligible for matching based on the pricing conditions described in this Form ATS-N filing. Members cannot be matched with opposite side orders having the same Member ID.
+
+Indications may be either available to match or outside
+
+Unless otherwise configured for a trader, all indications are, by default, available to match with other available contras in the pool. Once matched with an available contra, a trader can send or receive an initial proposal to negotiate. If a trader changes the status of an indication to outside, that indication will not match with available contra indications.
+
+Manual negotiation
+
+When the System notifies a trader of an available contra for a security, the trader can start a negotiation for that security by specifying a price and negotiation quantity and submitting a bid or offer. This is also referred to as submitting an initial proposal. A trader can only submit a proposal on any match to one contra at a time.
+
+LNI negotiations are anonymous one-to-one negotiations through which traders submit bids and offers to each other. The first bid or offer in a negotiation is submitted when one trader submits an initial proposal. Subsequent bids and offers may be submitted as counterbids or counter-offers in the negotiation. Bids and offers are sometimes referred to as proposals.
+
+Counter-proposals
+
+A trader can submit a counter-proposal in response to a priced proposal by specifying a negotiation quantity and price (or mid-peg) and submitting. If a trader submits a counter-proposal, the trader receiving the counter-proposal has the same options as above upon receipt of an initial proposal.
+
+Acceptances
+
+A trader can accept a contras proposal by clicking accept or execute, as applicable. A trader also can accept a proposal by submitting the same price as the price of the contras proposal (as long as the traders negotiation quantity is within the contras tolerance).
+
+LPC; auto-negotiation
+
+Participants consist of Members and Customers. Participants can transmit various types of parent orders to LNI, as set forth below. Based on these parent orders, LNI can transmit LPC indications and orders to the Negotiation ATS.
+
+LNI can transmit all or a portion of a Participants parent order as an indication eligible for matching through the LNI indication matching engine. When a match occurs, the indication associated with the Participants parent order is represented as an available indication (the LPC indication) to the contra trader with an indication (sometime referred to as the manual contra).
+
+In this scenario, the System can negotiate on behalf of one or more Participants that transmitted parent orders. The feature of the negotiation functionality that performs this negotiation is referred to as the LPC. The functionality is referred to as auto-negotiation.
+
+When the terms of a negotiation are agreed between a manual contra and the LPC, LNI transmits a firm order to the Negotiation ATS as a child order of the Participant parent orders. This is the LPC order. The word pool refers to the fact that the System can aggregate parent orders from multiple Participants when negotiating with a manual contra.
+
+The LPC will only execute in accordance with the price constraint instructions of the parent order.
+
+The following are the types of Participant parent orders:
+
+* Algo orders
+* Liquidnet-only orders
+* LN auto-ex orders
+* Automated negotiation orders
+* Manual targeted invitations.
+
+Additional detail
+
+See the responses to Items 7.a. and 11.c. of this Part III for additional detail. </taPart3Item11aStrucOfNmsStk>
+      <part3Item11bMeansFeciltsDtls rbPart3Item11bIsMeansFeciltsSameForAll="N">
+        <taPart3Item11bMeansFeciltsDtls>1.	Only Members can transmit indications to LNI, create orders from those indications, view matching contra-indications in the Negotiation ATS, and negotiate matches based on those indications.
+
+2.	Only Members can create orders through Liquidnet 5.
+
+3.	 The following parent order types can only be created through Liquidnet 5: manual and automated negotiation orders; and manual targeted invitation orders. As a result, only Members can create these types of orders.
+
+4.	Only Members can view orders that have the firm contra configuration and execute against those orders in the Negotiation ATS.
+
+5.	The firm contra configuration is only available for automated routing customers and Members and Customers that create algo or LN auto-ex orders or send manual targeted invitations.
+
+6.	Only qualifying Members  are eligible to receive targeted invitations.
+
+7.	LNI, from time-to-time, may roll-out new functionality to Participants in phases or make certain functionality available on a pilot basis.
+
+8.	LNI may offer different non-ATS broker services to different Participants. For example, LNI may provide customization of algo orders for certain Customers upon request. </taPart3Item11bMeansFeciltsDtls>
+      </part3Item11bMeansFeciltsDtls>
+      <taPart3Item11cRulsProcsOfNmsStk>A. Order types
+
+See the response to Item 7.a. of this Part III.
+
+B. Background information and definitions
+
+This section provides background information and definitions that apply to the order types described in Item 7.a. of this Part III.
+
+(i) Positive action rate
+
+Positive action means sending an invite to a contra or creating an algo, Liquidnet-only, LN auto-ex, automated negotiation, or manual targeted invitation order. Positive action rate (PAR) is the percentage of matched symbols where a party takes a positive action.
+
+(ii) Mid-peg instructions; price constraints
+
+General
+
+The Negotiation ATS provides for mid-price executions in certain situations, as described below.
+
+Mid-price
+
+Mid-price means the mid-point between the highest displayed bid price and lowest displayed ask price in the US market at the time of execution. LNI determines the best bid and best ask by reference to the applicable market data feed sourced by LNI, as described in the response to Item 23 of this Part III.
+
+If the spread is one cent, the mid-price is 1/2 cent above the best bid and below the best ask. If the spread is zero cents, the mid-price is the best bid/best ask. If the spread is negative (i.e., the best bid is higher than the best ask), the Negotiation ATS will not execute the order. If the spread is zero, the Negotiation ATS will only execute the order if at least one side of the trade is participating in a manual negotiation or has created an automated negotiation order.
+
+Mid-peg instruction
+
+A mid-peg instruction may or may not apply for an algo, Liquidnet-only, LN auto-ex, automated negotiation, or manual targeted invitation order. Regardless of whether a mid-peg instruction applies for the parent order, an LPC order always has a mid-peg instruction. In other words, the LPC will not purchase above the mid-price or sell below the mid-price.
+
+Price constraint
+
+On any order, a user can provide a fixed limit price. If a user only provides a mid-peg instruction, the users price constraint is the mid-price. If a user provides a fixed limit price for an order and a mid-peg instruction also applies, the price constraint of the order is as follows:
+
+* Buy order. Lower of the limit price of the order and the mid-price
+* Sell order. Higher of the limit price of the order and the mid-price.
+
+The price constraint of an order can vary over time based on changes in the mid-price.
+
+When transmitting an LPC order to the Negotiation ATS, LNI complies with any price constraints of the parent order.
+
+(iii) Not-held orders
+
+LNI handles all orders on a not held basis, unless otherwise expressly instructed by the Participant. This means that LNI is not held to seek immediate execution of the order but instead uses its judgment to seek best execution of the order consistent with the Participants instructions. In this Form ATS-N, a limit order refers to a not held order where the Participant specifies a maximum purchase or minimum sale price; a market order refers to a not held order where the Participant does not specify a maximum purchase or minimum sale price.
+
+C. Matching, negotiation and execution process
+
+(i) Indication matching functionality
+
+See the response to Item 7.a. of this Part III.
+
+(ii) Minimum quantity for matching and negotiation (tolerance)
+
+See the response to Item 8 of this Part III.
+
+(iii) Tolerance
+
+Matching based on tolerance
+
+A Trader is matched with a contra only if the working quantity of each Trader is at or above the other Traders minimum tolerance quantity (or tolerance). A Traders tolerance on an indication represents the minimum working quantity in shares that a contra must have for the Trader to be matched against that contra. Tolerance is intended to protect a Trader from being matched and negotiating with a contra whose working quantity is too small. See the attached ATS-N Part3 ITM for additional detail regarding tolerance.
+
+(iv) Indication status
+
+Indications may be either available to match or outside
+
+Unless otherwise configured for a Trader, all indications are, by default, available to match with other available contras in the pool. Once matched with an available contra, a Trader can send or receive an initial proposal to negotiate. If a Trader changes the status of an indication to outside, that indication will not match with available contra indications.
+
+Manually changing status from outside
+
+A Trader can manually change the status of an indication from outside to available to match.
+
+Carrying over status to the next trading day
+
+LNI makes available to Members a configuration where the status of the Members indications (available to match or outside) are carried over to the next trading day.
+
+Defaulting indications to outside
+
+LNI makes available to Members various configuration rules that default specific types of indications to outside. These rules can include, for example, defaulting to outside: indications with market-on-open instructions; indications with market-on-close instructions; or indications that are part of a portfolio or program list.
+
+(v) Prioritization of contras
+
+See the response to Item 7.a. of this Part III.
+
+(vi) Negotiations
+
+Starting a negotiation; submitting an initial proposal
+
+When the System notifies a Trader of an available contra for a security, the Trader can start a negotiation for that security by specifying a price and negotiation quantity and submitting a bid or offer. This is also referred to as submitting an initial proposal.
+
+When a Trader submits an initial proposal in response to a match, he or she is making a firm bid or offer. A Trader can only submit a proposal on any match to one contra at a time.
+
+Submitting an initial proposal from the match pop-up screen or the negotiation room
+
+A Trader can submit an initial proposal from the match pop-up screen or from the negotiation room. If a Trader does not have a match pop-up displayed for a match, a Trader can open the negotiation room or open the match pop-up screen to submit an initial proposal.
+
+Negotiation quantity
+
+Negotiation quantity is the quantity set by a Trader when he or she makes a bid, offer, counter-bid or counter-offer or agreed to by a Trader when he or she accepts a bid, offer, counter-bid or counter-offer. A Traders negotiation quantity defaults to his or her working quantity at the start of a negotiation, but the Trader can modify his or her negotiation quantity before submitting a bid, offer, counterbid, or counteroffer.
+
+Bids and offers (proposals)
+
+LNI negotiations are anonymous one-to-one negotiations through which Traders submit bids and offers to each other. The first bid or offer in a negotiation is submitted when one Trader submits an initial proposal. Subsequent bids and offers may be submitted as counterbids or counteroffers in the negotiation. Bids and offers are sometimes referred to as proposals.
+
+A Trader (or a group of Traders, as described below) may only enter into a negotiation with respect to a specific indication with one contra at a time.
+
+Prices specified in proposals are limit prices.
+
+Priced, mid-peg and closing price proposals
+
+There are three types of negotiation proposals: priced; mid-peg; and closing price. A priced proposal has an associated price displayed to the contra and can only be executed at the indicated price. A mid-peg proposal does not have an associated price. A mid-peg proposal, if accepted, is executed at the mid-price at the time of execution. A closing price proposal, if accepted, is executed at the closing price for the stock. The closing price for a stock is determined by reference to the applicable market data feed sourced by LNI, as described in this Form ATS-N. A closing price proposal cannot be executed if the execution price is more than 1.5% away from the mid-price as of the time of execution.
+
+Prior to the open of trading, only priced proposals can be submitted during a negotiation. During the regular trading session in the primary market, only priced and mid-peg proposals can be submitted during a negotiation. After the close of the regular trading session, only closing price proposals can be submitted during a negotiation.
+
+Responding to an initial proposal
+
+When a Trader submits an initial proposal, the System displays a match pop-up to the Trader at the contra Member firm notifying the contra of the initial proposal. Upon receipt of the initial proposal, the Trader at the contra Member firm can adjust his or her quantity (the negotiation quantity) and also take one of the following actions:
+
+* Seek to execute against the proposal
+* Submit a counter-proposal
+* Decline the proposal.
+
+However, a contra cannot submit a counter-proposal in response to a mid-peg invitation.
+
+
+
+Providing reason for a decline
+
+When declining a proposal (including a mid-peg proposal), a Trader must specify a decline reason. The System provides default reasons; Traders can modify the list of default reasons through the settings area of the desktop application.
+
+Canceling a proposal
+
+After a Trader submits a proposal, he or she can cancel that proposal by either:
+
+* Clicking cancel, to cancel the proposal; or
+* Clicking end, to terminate the negotiation.
+
+If a Trader cancels a proposal, he or she can resubmit another proposal.
+
+Counter-proposals
+
+A trader can submit a counter-proposal in response to a priced proposal by specifying a negotiation quantity and price (or mid-peg) and submitting. If a Trader submits a counter-proposal, the Trader receiving the counter-proposal has the same options as above upon receipt of an initial proposal.
+
+Declining a proposal or ending a negotiation
+
+If a Trader declines a proposal or ends a negotiation, it terminates the current negotiation.
+
+Time limit
+
+There is a 30-second time limit for responding to an initial proposal and a 20-second time limit for responding to a subsequent proposal in a negotiation. If an initial proposal is not accepted by a contra within 30 seconds, the initial proposal expires. If a subsequent proposal in a negotiation is not accepted by a contra within 20 seconds, the proposal expires.
+
+Either Trader can submit a proposal in a negotiation after one of the Traders has failed to respond to a proposal within the applicable time limit. After a time expiration, if the two Traders submit a proposal at the same price and within each others tolerances, and prior to either Trader receiving the other Traders proposal, the second proposal received by the LNI back-end software will be treated as an accept.
+
+The timer for any proposal starts when the LNI back-end software confirms that the contra has received the proposal. Any acceptance, to be effective, must be received by the LNI back-end software prior to the expiration of its 30-second (or 20-second) clock.
+
+Minimum tolerance quantities during negotiations
+
+A Trader specifies a negotiation quantity each time he or she submits a proposal. If a Trader submits a negotiation quantity that is below the Traders own minimum tolerance for the associated indication, the System reduces the Traders tolerance for the indication to this negotiation quantity.
+
+If the negotiation quantity submitted by a contra is below a Traders minimum tolerance, LNI notifies the Trader that the contras proposal is below the Traders tolerance. Commencing with Liquidnet 5.9, this notification is provided by displaying to the Trader the possible execution sizes as the range between (i) the minimum negotiated execution size for US equities, and (ii) the Traders minimum tolerance for the indication.
+
+The contra then has the same options as he would have in response to any other proposal.
+
+A Traders tolerance during a negotiation is the product of his working quantity and tolerance percentage. For example, if a Trader has a working quantity of 100,000 shares and a tolerance percentage of 20%, his or her tolerance for the negotiation is 20,000 shares.
+
+A Trader can change his or her working quantity for an indication prior to a negotiation. When a negotiation starts, the working quantity is no longer updated upon a change in the OMS. A Trader cannot change his or her available quantity for an indication through the System.
+
+Crossed proposals
+
+If a Trader submits a bid during a negotiation that is higher than the contras offer, or submits an offer during a negotiation that is lower than the contras bid, the System will execute the order at the contras bid or offer price, as applicable.
+
+Acceptances
+
+A Trader can accept a contras proposal by clicking accept or execute, as applicable. A Trader also can accept a proposal by submitting the same price as the price of the contras proposal (as long as the Traders negotiation quantity is within the contras tolerance).
+
+Accepts after changing quantity
+
+If a Trader accepts after changing his or her negotiation quantity, it is treated as an accept if the Traders negotiation quantity is still above the contras tolerance, but is treated as a counter-proposal if the Traders negotiation quantity is below the contras tolerance.
+
+Imputed price constraint for accept of mid-peg proposal
+
+When a Trader accepts a mid-peg proposal:
+
+* If the accepting Trader is a buyer, the System imputes a price constraint of 30 basis points above the mid displayed to the Trader when the Trader clicks accept
+* If the accepting Trader is a seller, the System imputes a price constraint of 30 basis points below the mid displayed to the Trader when the Trader clicks accept.
+
+Hard limits on submitting or accepting a negotiation proposal
+
+If a Member has the protect OMS limit configuration enabled, the System does not permit a Trader to submit or accept a negotiation proposal that is outside the Traders OMS limit. If a Member has the protect match limit configuration enabled, the System does not permit a Trader to submit or accept a negotiation proposal that is outside the Traders match limit.
+
+LNI refers to the restrictions described in the preceding paragraph as hard limits because a Trader cannot override them.
+
+Soft limits on acceptance of a negotiation proposal
+
+Upon request, LNI can configure a Trader for any of the following alerts after a Trader accepts a negotiation proposal:
+
+* Alert that the execution price is outside the Traders OMS limit
+* Alert that the execution price is outside the Traders match limit
+* Alert that the execution price is outside the spread.
+
+These alerts are soft alerts; a trade is not executed unless the Trader confirms the acceptance after receipt of the alert and LNIs back-end software records the confirmation. These soft alerts do not apply where a hard OMS or match limit applies.
+
+The soft limits are not enabled unless requested by a Trader.
+
+The System also provides certain types of alerts prior to a Trader accepting a negotiation proposal.
+
+Limit price for mid-peg proposal sent during a negotiation; imputed limit price where Trader does not set a limit price
+
+When a Member provides a limit price in its OMS, the System applies that limit price to a mid-peg proposal sent by the Member during a negotiation. If the Member does not provide a limit price in its OMS, the Member can set a limit price for the associated indication through Liquidnet 5 (referred to as a match limit). In that case, the System applies the match limit to a mid-peg proposal sent by the Member during a negotiation. A Trader can modify a match limit but not an OMS limit during a negotiation.
+
+If the Member does not set an OMS limit or a match limit for an indication, the System imputes a limit price (as described in this sub-section) for execution of a mid-peg proposal. The constraints described in the preceding sub-section apply to the accepting Trader; the imputed limit price described in this sub-section applies to the Trader who submits a mid-peg proposal for acceptance by the contra where the System has not received an OMS limit price from the Traders OMS or a match limit.
+
+This default limit price restricts a mid-peg proposal from being executed at a price that, in the case of a buy (or sell) proposal, is more than 35 basis points above (or below) the mid-point of the best bid and offer in the market as of the time that the submitter opened the negotiation room. Members can override the default limit price of 35 basis points and set a different limit price through Liquidnet 5 expressed as either of the following:
+
+* Basis points from the mid-price as of the time that the submitter opened the negotiation room; or
+* Cents from the best offer in the market (in the case of a buy order) or cents from the best bid in the market (in the case of a sell order) as of the time that the submitter opened the negotiation room.
+
+In all cases, the minimum price increment for US equities applies, such that if the imputed limit price above is not equal to a permitted increment, the imputed limit price is adjusted to the following:
+
+* In the case of a buy limit price, the lowest permitted price increment above that limit price, and
+* In the case of a sell limit price, the highest permitted price increment below that price constraint.
+
+A Trader can modify a default limit price on an order-by-order basis, subject to complying with the price increment requirements for US equities.
+
+Execution quantity
+
+When an acceptance is effective in accordance with the preceding section, a trade is executed for the lesser of the two parties negotiation quantities, except that all negotiations are subject to a minimum execution quantity equal to the minimum negotiated execution size set forth above. However, in the case of a continuing negotiation after a partial execution, the minimum negotiated execution size will be the lesser of (i) the minimum negotiated execution size set forth above, and (ii) the remaining unexecuted quantity of the side with the lower remaining unexecuted quantity.
+
+Closing price proposals
+
+After the close of the regular session of trading in the primary market, the only type of proposal that can be submitted during a negotiation is a closing price proposal.
+
+Continuing negotiations
+
+After a trade is executed, the Participants can continue to negotiate and execute trades with respect to the same security as long as they each have a remaining working quantity, even if one Traders remaining quantity is below the contras minimum tolerance quantity.
+
+In a continuing negotiation, either party can submit a proposal.
+
+In a continuing negotiation, the negotiation quantity for each Trader defaults to the lesser of the Traders negotiation quantity at the time of execution and the Traders current working quantity.
+
+In a continuing negotiation, if the two Traders submit proposals at the same price and within each others tolerances, and prior to either Trader receiving the other Traders proposal, the second proposal received by the LNI back-end software will be treated as an accept.
+
+D. Negotiations involving the LPC
+
+LPC or manual contra can commence a negotiation
+
+A negotiation can be commenced by the LPC or by the manual contra.
+
+Negotiation commenced by the LPC
+
+The LPC can send a mid-peg proposal to the manual contra. In response, the manual contra has the same options as it does upon receipt of a mid-peg proposal from another manual contra (as described above with respect to manual negotiations).
+
+Negotiation commenced by the manual contra
+
+The manual contra can send an invitation to the LPC, either as a mid-peg proposal or a priced proposal.
+
+* If the manual contra sends a mid-peg proposal, the LPC can enter into the negotiation room and accept on behalf of the Participant that transmitted the parent order (subject to the execution price being within the price constraints of the manual contra and the LPC).
+
+* If the manual contra sends a priced proposal:
+
+** If the proposal is at or better than the mid (from the perspective of the LPC), the LPC can enter into the negotiation room and accept on behalf of the Participant that transmitted the parent order.
+
+** If the proposal is worse than the mid (from the perspective of the LPC), the LPC can enter into the negotiation room and respond to the manual contra with a mid-peg proposal. In response to the LPCs mid-peg proposal, the manual contra has the same options as it does upon receipt of a mid-peg proposal from another manual contra (as described above with respect to manual negotiations).
+
+Automated negotiation instruction
+
+Members notified of a match can provide an automated negotiation instruction. With this instruction, the LPC can negotiate on behalf of the Member. In addition, the Members order can interact in the H2O ATS against other Member and Customer orders and, subject to the Member or Customer having opted in to interacting with liquidity partners, against orders from liquidity partners in the H2O ATS. A Member providing an automated negotiation instruction can designate an expiration time or condition through the LNI desktop application.
+
+Additional detail on auto-negotiation
+
+The LPC can send a mid-peg proposal to the manual contra. In certain scenarios, after a failed attempt, the System will stop sending invites to the manual contra. Failed attempts could result from the manual contra declining or missing the invite or the limit on the LPC-eligible order going out of market before the manual contra responds to the invite. A Member can request a configuration whereby the Member would continue to receive invites until the Member declines the invite or exits the negotiation.
+
+Ability of RMs to reset the auto-negotiation functionality
+
+Through an internal sales support tool, an RM can reset the auto-negotiation functionality, which results in the System sending an additional invite to the manual contra, provided that the manual contra is still available to match, the LPC-eligible order is still within the parameters (limit and quantity) to send an invite, and one of the following sets of conditions has occurred:
+
+* The LPC and the manual contra are matched, and there was a partial execution between the two sides more than 30 seconds prior
+* The LPC and the manual contra are matched, the RM is aware that the manual contra was off the desk earlier, and the RM subsequently becomes aware that the manual contra has returned to the desk
+* The LPC and the manual contra are matched, a previous negotiation failed because the mid-price moved away from the manual contras limit, and the price has now moved back within the manual contras limit
+* The LPC and the manual contra are matched, and a technical issue arose that prevented the negotiation from completing.
+
+An RM has no ability to modify the parameters of an LPC-eligible order.
+
+E. Compliance with short sale price test
+
+If there is an intra-day decline of 10% or more in the price of a US equity relative to the prior days closing price, for the remainder of that trading day and the following trading day, the Negotiation ATS will only execute short-sale orders at the mid-price or higher.
+
+F. Locked and crossed markets
+
+The Negotiation ATS will not execute an order for an equity if the market in that equity is crossed (i.e., the best posted bid is higher than the best posted offer). The Negotiation ATS can execute orders if the market is locked.
+
+G. Trade errors
+
+If, as a result of an error, both sides to a trade in the Negotiation ATS agree to cancel the trade or agree to an adjustment in price, quantity or other term, the Negotiation ATS will cancel (and, if applicable replace) the original execution. LNI will record any replacement trade in the Negotiation ATS.
+
+If, as a result of an error, LNI agrees to an adjustment in price, quantity or other term with one side to the trade but not the other side, LNI will effect that adjustment outside of the Negotiation ATS. The adjustment might require LNI to take on a principal position. When trading out of the principal position, LNI does not access the Negotiation ATS.
+
+H. SuperBlock Matching
+
+The SuperBlock functionality is an enhancement to the Systems negotiation process following a match between two Traders. SuperBlock allows Members or Customers to access large block opportunities by opting into advertising and consuming more information on the opportunity size of a match; a higher minimum trade size; and an obligation to trade on a match.
+
+Members or Customers will need to enable SuperBlock related matching as a functionality and will need to append the SuperBlock designation to each indication following a match or each order prior to sending such order to the System. Only indications and orders that are above a designated share size for each category of market capitalization of the security (as detailed in Item 8 of Part III) will be allowed to become a Superblock related match. The Trader entering an indication or order must provide the side, quantity, and limit price. The SuperBlock functionality is available on during regular trading hours of the System.
+
+Liquidnet 5 Automated Negotiation, Firm Contra, and Auto-Ex orders may be manually enabled to participate in SuperBlock matching. Electronic FIX orders meeting SuperBlock minimum matching size may be auto enabled by the System for SuperBlock matching where the Member trader has opted into this.
+
+There are two workflows for SuperBlock related matches:
+
+* Indication to Indication Matching
+* Indication to Automated Order Matching
+
+Description of Indication-to-Indication Matching
+
+When an indication match occurs, each trader at the Member can enable their indication to participate in a SuperBlock match via a toggle on the match pop-up. When both sides of the match have enabled the indication to participate in a SuperBlock match, the match will transition to a Buy Side SuperBlock Contra match for both sides. The match pop-up will display the minimum SuperBlock matching quantity to both parties. Once the indication match transitions to a SuperBlock match, all other matches against the participating indications will be canceled by the System.
+Where two same-side indications are enabled to participate in a SuperBlock match, the indication that was enabled first will have priority on a SuperBlock match. For example, if two buyers enable their indications to participate in a SuperBlock match and a matched seller enables SuperBlock matching, the buyer who enabled their indication for SuperBlock matching first will get the SuperBlock match with the seller.
+When two counterparties are engaged in a SuperBlock match there are only two actions: The first actor will submit a mid-peg order, and the second actor will execute/accept the mid-peg order.
+
+Description of Indication-to-Automated Order Matching
+
+A Customer trader may enable Automated Negotiation, Auto-Ex, and FIX orders to participate in SuperBlock matching. When a match occurs between an indication and an Automated Order that is enabled to participate in SuperBlock matching and above minimum SuperBlock matching size, the Member trader may activate the SuperBlock match via the toggle on the match pop-up. The match pop-up will transition from a Firm Contra match to a Firm SuperBlock Contra match.
+
+The match pop-up will display the minimum SuperBlock matching quantity. When the Member trader firms up on the SuperBlock match, LNI will cross the orders at the mid-point price. When a Member trader is engaged in a SuperBlock match against an order, that Member trader has one action: to execute or accept the mid-peg order. </taPart3Item11cRulsProcsOfNmsStk>
+      <rbPart3Item11dIsProcsRulsSameForAll>Y</rbPart3Item11dIsProcsRulsSameForAll>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <part3Item13aSegmntDtls rbPart3Item13aIsOrdrTiSegmntd="Y">
+        <taPart3Item13aSegProcdurDtls>The Participant categories of the Negotiation ATS are set forth in the response to Item 2 of this Part III. LNI Sales personnel classify a Participant into the relevant category at the time of onboarding, subject to review by LNIs Member Services group. These groups contact Legal and Compliance with any questions. LNI notifies a Participant of its categorization at the time of on-boarding. If a Participant questions its initial categorization or subsequently requests a change in categorization, a review is conducted by LNIs Sales and Member Services groups in consultation with Legal and Compliance. </taPart3Item13aSegProcdurDtls>
+        <part3Item13bSegmntDtls rbPart3Item13bIsSegmntatnSameForAll="N">
+          <taPart3Item13bSegDiffDtls>The following are differences in order types and attributes for different categories of Participants and within each category.
+
+1.	Only Members can transmit indications to LNI, create orders from those indications, view matching contra-indications in the Negotiation ATS, and negotiate matches based on those indications.
+
+2.	Only Members can create orders through Liquidnet 5.
+
+3.	The following parent order types can only be created through Liquidnet 5: manual and automated negotiation orders; and manual targeted invitation orders. As a result, only Members can create these types of orders.
+
+4.	Only Members can view orders that have the firm contra configuration and execute against those orders in the Negotiation ATS.
+
+5.	The firm contra configuration is only available for automated routing customers and Members and Customers that create algo or LN auto-ex orders or send manual targeted invitations.
+
+6.	Only qualifying Members are eligible to receive targeted invitations.
+
+7.	 LNI, from time-to-time, may roll-out new functionality to Participants in phases or make certain functionality available on a pilot basis.
+
+LNI may offer different non-ATS broker services to different Participants. For example, LNI may provide customization of algo orders for certain Customers upon request.
+
+The Negotiation ATS only applies segmentation of orders and trading interest based on the category of Participant, as listed above in this response.</taPart3Item13bSegDiffDtls>
+        </part3Item13bSegmntDtls>
+        <part3Item13dDsclrContntDtls rbPart3Item13dIsSegCatgDisclosd="Y">
+          <taPart3Item13dDsclosrContntDtls>LNI notifies a Participant of its categorization at the time of on-boarding. LNI also provides advance notice to a Participant of any change in category. For example, if a Participant no longer meets the minimum assets criteria to be a Member, LNI would communicate this to the Member and inform the Member that the Member could participate as a Customer. If a Participant questions its initial categorization or subsequently requests a change in categorization, a review is conducted by LNIs Sales and Member Services groups in consultation with Legal and Compliance. In determining how to classify a Member or Customer that engages in more than one type of business activity, LNI seeks to ascertain the primary business activity of the Member or Customer firms business unit that interacts with LNI. LNI maintains the anonymity of all Members and Customers. </taPart3Item13dDsclosrContntDtls>
+          <rbPart3Item13eIsDsclosrSameForAll>Y</rbPart3Item13eIsDsclosrSameForAll>
+        </part3Item13dDsclrContntDtls>
+      </part3Item13aSegmntDtls>
+      <rbPart3Item13cIsCustmrOrdr>N</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>Liquidnet Transparency Controls
+
+Members and Customers can elect through Liquidnet Transparency Controls whether or not to interact with certain sources of liquidity.
+
+Specifically, Members and Customers can choose whether or not to interact with any or all of the following:
+
+* Orders from LPs (IOC or resting)
+*Receiving targeted invitations from Members or Customers
+A Member or Customer only receives notification of targeted invitations if the Member or Customer has opted-in to receiving them.
+
+
+
+
+
+
+
+Sources of liquidity for which an election is not available
+
+All Members and Customers interact with the following sources of liquidity and cannot choose whether or not to interact with these sources of liquidity:
+
+* Indications and orders from other Members
+* Orders from Customers
+* Orders from Customers that are transition managers
+* Orders from automated routing customers.
+
+Process for Members and Customers to confirm and update their elections
+
+LNI maintains for each Member and Customer a record of each source of liquidity with which the Member or Customer interacts. Through the Liquidnet Transparency Controls web-based system, Members and eligible Customers can view and update the sources of liquidity with which they interact. Any changes input through Liquidnet Transparency Controls are implemented within twenty-four hours. A Member or Customer also can update its Liquidnet Transparency Controls elections by contacting its sales or trading coverage.
+
+Symbol blocks
+
+At the request of a Member, LNI can block the Member from matching on a specific symbol with a specific contra based on a negative trading experience with the contra in that symbol. It is LNIs policy to comply with the Members request. LNI automatically removes any symbol block at the end of the fifth trading day after the date on which the symbol block was first instituted.
+
+Matches and executions against the same or an affiliated Participant
+
+The Negotiation ATS does not permit two indications or orders with the same Participant identifier to match or execute against each other. A Participant can instruct the Negotiation ATS to block crossing between affiliated Participant identifiers, as notified by the Participant. </taPart3Item14aCntrPrtyDtls>
+        <part3Item14bSelectDtls rbPart3Item14bIsSelectnSameForAll="N">
+          <taPart3Item14bSelectnDiffDtls>As described in the response to Item 14.a. of this Part III, Members and Customers can make elections through Liquidnet Transparency Controls relating to the sources of liquidity with which they interact. </taPart3Item14bSelectnDiffDtls>
+        </part3Item14bSelectDtls>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>N</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>Liquidnet 5
+
+A Member trader using Liquidnet 5 can view the following:
+
+* Matching contra-side indications
+* Parent orders represented in the LPC that match against the Traders indications; these LPC indications appear to the Trader using Liquidnet 5 as matching contra-side indications or as firm contra orders, as described below
+* Actions taken by the contra during a match or negotiation, including a negotiation proposal submitted by the contra.
+
+If a Member trader using Liquidnet 5 creates an automated negotiation order, the Member trader can continue to view the negotiation actions of the contra.
+
+Matching indications display the symbol and side. When a Trader sees a match, the Trader knows that each sides working quantity meets the other sides quantity tolerance (see the response to Item 8.a. of this Part III) and that the contras reference price for matching is within any OMS limit for the contra (see the response to Item 7.a. of this Part III). LPC indications appear to the Member trader using Liquidnet 5 as matching contra-side indications or as firm contra orders (as described below). Match information is displayed for as long as the conditions for the match, as described in the response to Item 11.c. of this Part III, continue in effect.
+
+A negotiation proposal displays the symbol, side, and price. In addition, upon receipt of a negotiation proposal, the recipient is notified whether the quantity of the contras proposal meets the recipients tolerance. A negotiation proposal is displayed during the period that a negotiation is in effect.
+
+Display of SuperBlock matches
+
+When both parties to a match have appended the SuperBlock functionality, the minimum size (as described in Item 8.a. of this Part III) for the security will be included in the pop-up. The parties can negotiate a higher size. Match information is displayed for as long as the conditions for the match, as described in the response to Item 11.c. of this Part III, continue in effect.
+
+Display of matches with the LPC
+
+All same-side parent orders are displayed jointly as one matching contra in the LPC.
+
+If all manual contras that are opposite-side to the LPC have Liquidnet 5.12 or higher, the LPC is displayed to each manual contra as a firm contra order. By default, a Member with a manual indication receives notification of a firm contra order that is below the tolerance of the Members indication if the firm contra order meets the minimum negotiated execution size. The notification indicates whether the quantity of the firm contra order is below the Members tolerance. A Member can elect to override this default and only receive notification of firm contra orders that are at or above the Members tolerance.
+
+If one or more manual contras that are opposite side to the LPC have Liquidnet 5.11 or prior, the LPC is displayed to each manual contra as a matching indication. In this scenario, the LPC is only displayed to each manual contra if the LPC meets the Members tolerance.
+
+While the LPC is displayed to a manual contra, a manual contra is not displayed to the LPC unless the parent order represented by the LPC is an automated negotiation order.
+
+An LPC order is displayed to a Customer trader with a matching contra-indication (the Member trader) for as long as the conditions for matching, as described in the response to Item 11.c. of this Part III, remain in effect. The following information regarding the LPC displayed as a firm contra order is displayed or otherwise known to the manual Trader: symbol; side; whether or not the LPC is executable at the mid-price; and that the quantity of the LPC meets the manual Traders tolerance.</taPart3Item15bSubscrBndDtls>
+        <part3Item15cDsplyProcDtls rbPart3Item15cIsDsplyProcSameForAll="N">
+          <taPart3Item5cDsplyProcDiffDtls>Only Members have access to Liquidnet 5. Accordingly, only Members can view the information that can be accessed through Liquidnet 5, as set forth in the response to Item 15.b. of this Part III. In particular, only Members can view the following:
+
+* Matching contra-side indications
+* LPC indications that match against the traders indications; these indications appear to the trader using Liquidnet 5 as matching contra-side indications
+* Actions taken by the contra during a match or negotiation, including a negotiation proposal submitted by the contra or a chat message from the contra during the negotiation
+* Orders with the firm contra configuration.</taPart3Item5cDsplyProcDiffDtls>
+        </part3Item15cDsplyProcDtls>
+      </part3Item15bSubSctbDtls>
+      <rbPart3Item16aIsInstRoutd>N</rbPart3Item16aIsInstRoutd>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <part3Item18aTrdingHrDtls rbPart3Item18aIsOutsdeTrdingHrs="Y">
+        <part3Item18bOutsdHrsDiffDtls rbPart3Item18bIsAnyDiffInTrdingOutSdHrs="Y">
+          <taPart3Item18bDiffDtls>There are three types of negotiation proposals: priced; mid-peg; and closing price. A priced proposal has an associated price displayed to the contra and can only be executed at the indicated price. A mid-peg proposal does not have an associated price. A mid-peg proposal, if accepted, is executed at the mid-price at the time of execution. A closing price proposal, if accepted, is executed at the closing price for the stock. The closing price for a stock is determined by reference to the applicable market data feed sourced by LNI, as described in the response to Item 23 of this Part III. A closing price proposal cannot be executed if the execution price is more than 1.5% away from the mid-price as of the time of execution.
+
+Prior to the open of trading on the primary market, only priced proposals can be submitted during a negotiation. During the regular trading session of the primary market, only priced and mid-peg proposals can be submitted during a negotiation. After the close of the regular trading session of the primary market, only closing price proposals can be submitted during a negotiation.</taPart3Item18bDiffDtls>
+        </part3Item18bOutsdHrsDiffDtls>
+        <part3Item18cOutsdHrstrtmntDtls rbPart3Item18cIsTrtedDiffOutsdHrs="N">
+          <taPart3Item18cTrtmntDiffDtls>The Negotiation ATS permits the execution of manual negotiation orders between 9:00 am and 4:15 pm ET. The Negotiation ATS permits the execution of LPC orders between 9:30 am and 4:15 pm.</taPart3Item18cTrtmntDiffDtls>
+        </part3Item18cOutsdHrstrtmntDtls>
+      </part3Item18aTrdingHrDtls>
+      <taPart3Item19aSrvcUsgFees>LNI does not charge a subscription, onboarding, or connectivity or message traffic fee (or any other fee that is not transaction-based) for use of the NMS Stock ATS services. LNI charges a transaction-based fee at the broker-dealer level, and not at the ATS level. See the response to Item 19.b. of this Part III for detail regarding the fees and charges by LNI.
+
+LNI is assessed certain Consolidated Audit Trail (CAT) regulatory fees relating to trading on the Negotiation ATS as an execution venue. In matches between buy-side Subscribers, LNI is the only CAT executing broker associated with the trade and is therefore assessed a CAT fee for such transactions. LNI does not pass through these CAT fees to Subscribers.
+
+In a match between a buy-side Subscriber and a broker-dealer, both LNI and the broker-dealer identified on the media/tape trade report would be assessed CAT fees for that transaction directly by FINRA. LNI does not pass through the CAT fees to the buy-side Subscriber. In a match between two broker-dealers, LNI is identified as one a CAT executing broker and one of the broker-dealers is identified as the other CAT executing broker on the media tape report; both LNI and that broker-dealer are assessed a CAT fee for that transaction. The other broker-dealer is identified on a non-media trade report and is not assessed a CAT fee. In these instances, LNI does not pass through the CAT fee that it is assessed on the media trade report to the broker-dealer that is on the non-media trade report. </taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>LNI charges a transaction-based fee for trading by Participants. LNIs range of fees for trading activity that involves use of the NMS Stock ATS services is 0 to 6 cents per share. The upper end of the range represents a bundled fee for use of the NMS Stock ATS services and non-ATS services or products offered, including add-on amounts paid by a Participant and credited to the Participants commission sharing account as agreed with the Participant. The lower end of the range represents the scenario where, for an algo order, there is no differential between the fee charged by LNI for executions in the Negotiation ATS and the fee charged by LNI for external executions. Participants also can elect to pay fees as a percentage of the principal amount traded instead of based on cents per share. The following are variables that can impact the fee charged by LNI: stock price; execution size; volume of business; order types; means of access to the Negotiation ATS (for example, through the LNI desktop trading application or through routing); category of Participant; and products used by the Participant. The bundled services and products include the following, as described in more detail in this Form ATS-N: ATS-specific services; functionality provided through the LNI desktop trading application; sales and trading services and support; technical and product support; account set-up; trade processing and settlement support; order handling and routing; algorithmic trading services; quantitative analysis services, including pre- and post-trade transaction cost analysis; integration with Participant systems, including Participant order and execution management systems; trading and market surveillance; capital markets; commission aggregation and management services; and sponsored broker services. </taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>None</taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>The Negotiation ATS does not display matching indications, permit negotiations, or execute trades during a trading halt. When a trading halt ends, the Negotiation ATS can display matches and permits negotiations and executions.
+
+Liquidnet pauses all orders during a trading halt, whether or not the orders were created through the Liquidnet desktop application. By default, the System will auto-resume all orders after the trading halt ends, but a Member will be able to manually cancel any order created through the Liquidnet desktop application or otherwise upon occurrence of the trading halt.
+
+LNI blocks trading in a stock on the Liquidnet ATSs if the Liquidnet ATSs, in the aggregate, have executed 5% or more of market volume in the stock for three of the preceding five calendar months. Each month, prior to the commencement of trading on the 1st day of the month, LNI Product Support personnel review a report of all stocks where the Liquidnet ATSs, in the aggregate, have traded 5% or more of market volume in the stock for three of the preceding five months and implement a block on trading those stocks for the current calendar month.</taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>LNI reports all executions on the Negotiation ATS to the NASDAQ TRF (the trade reporting facility operated by NASDAQ) in Carteret, NJ in accordance with regulatory requirements. LNI also has a connection to the NASDAQ TRF in Chicago, IL as a back-up trade reporting facility.</taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>Clearing arrangement LNI has entered into a fully-disclosed clearing arrangement with Goldman, Sachs &amp; Co. (GS) pursuant to which GS acts as LNIs clearing broker. Upon execution of a trade on the Negotiation ATS, LNI, as the executing broker, is obligated to arrange for clearance and settlement of the trade with each party to the trade. LNI has contracted with GS, as LNIs clearing broker, to effect clearance and settlement of trades executed on the H2O ATS. Allocations During the trading day or after the close of trading on trade date, LNIs buy-side Participants are required to electronically send to LNI trade allocations for all trades executed through LNI (including through the Negotiation ATS) that day. This data may be electronically transmitted to LNI via DTCCs Central Trade Manager (CTM) software or another mutually agreed upon method of transmission. After receipt of the allocations, LNI transmits trade information to its clearing broker. Clearance and settlement process Settlement of trades with buy-side Participants is between GS and the custodian or prime broker for the account or accounts designated by the buy-side Participant. Trades with broker-dealer Participants are cleared and settled by GS with the broker-dealer Participant (or with a clearing broker of the broker-dealer Participant) through the NSCC and DTCC clearance and settlement platforms. All buy-side accounts to which executions are allocated are Delivery Versus Payment (DVP) and Receive Versus Payment (RVP) accounts. All trades settle according to an accounts standing instructions. Buy-side Participants are required to maintain all settlement instructions as current and update any instructions in the DTCC Alert platform or notify LNIs brokerage operations group as soon as possible. Step-outs Buy-side Participants can step-out or give-up to third-party brokers trades executed through LNI, subject to consent among LNI, the buy-side Participant and the third-party broker. Trade confirmations LNIs clearing broker sends trade confirmations in accordance with applicable legal requirements. </taPart3Item22aMtrlArngmntDtls>
+      <part3Item22bMtrlArngmntDiffDtls rbPart3Item22bIsMtrlArngmtSameFrAll="N">
+        <taPart3Item22bDiffDtls>The processes for clearance and settlement of transactions are different for buy-side and sell-side Participants, as described in the response for Item 22.a. of this Part III. This is consistent with standard industry practice.</taPart3Item22bDiffDtls>
+      </part3Item22bMtrlArngmntDiffDtls>
+      <taPart3Item23aMrktDatSrc>General
+
+Through the LNI desktop trading application, LNI provides traders at Participant firms with market data (highest displayed bid and lowest displayed ask) for the equities that are traded in the System.
+
+Market data source
+
+For the Negotiation ATS and for market data that is displayed through the LNI desktop trading application, LNI sources the market data (best bid, best ask and last sale) through Bloomberg and/or Redline Trading Solutions, which obtains the data directly from the applicable Securities Information Processor (SIP): NASDAQ UTP, for NASDAQ-listed securities; and the Consolidated Tape Association (CTA), for NYSE and other listed securities. The market data feed provides consolidated quotes of multiple display venues. LNI displays the best bid, best ask and last sale through the LNI desktop trading application.
+
+The Negotiation ATS uses the market data provided by Bloomberg and/or Redline Trading Solutions to determine the execution price for trades that the Negotiation ATS executes at the mid-point of the NBBO. </taPart3Item23aMrktDatSrc>
+      <part3Item23bMrktSrcDiffDtls rbPart3Item23bIsSrcSameFrAll="N">
+        <taPart3Item23bDiffDtls>Only Members have access to Liquidnet 5.</taPart3Item23bDiffDtls>
+      </part3Item23bMrktSrcDiffDtls>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <rbPart3Item26IsOrdrFloExecStatsPublshd>N</rbPart3Item26IsOrdrFloExecStatsPublshd>
+    </partThree>
+  </formData>
+</edgarSubmission>
