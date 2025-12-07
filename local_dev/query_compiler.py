@@ -1,7 +1,7 @@
 from typing import Dict, List, Optional, Any
 import json
 import os
-from models import StructuredIntent, Period, Filters
+from query_models import StructuredIntent, Period, Filters
 from value_normalizer import normalize_value
 
 # -----------------------------------------------------------------------------
@@ -105,6 +105,50 @@ def _time_filters(table: str, intent: StructuredIntent) -> List[str]:
 
     return wheres
 
+def _build_filters(intent: StructuredIntent, table: str) -> List[str]:
+    """
+    Build comprehensive WHERE clauses including time and normalized entity filters.
+    Used by all builder functions to ensure consistency.
+    """
+    wheres = _time_filters(table, intent)
+    
+    # Pydantic Filters object
+    if intent.filters.executing_bd:
+        safe_val = normalize_value("executing_bd", intent.filters.executing_bd).replace("'", "''")
+        wheres.append(f"executing_bd = '{safe_val}'")
+    if intent.filters.venues:
+        safe_val = normalize_value("venues", intent.filters.venues).replace("'", "''")
+        wheres.append(f"venues = '{safe_val}'")
+    if intent.filters.stock_group:
+        safe_val = normalize_value("stock_group", intent.filters.stock_group).replace("'", "''")
+        wheres.append(f"stock_group = '{safe_val}'")
+    if intent.filters.ats_name:
+        safe_val = normalize_value("ats_name", intent.filters.ats_name).replace("'", "''")
+        wheres.append(f"ats_name = '{safe_val}'")
+    if intent.filters.market_participant:
+        safe_val = normalize_value("market_participant", intent.filters.market_participant).replace("'", "''")
+        wheres.append(f"market_participant = '{safe_val}'")
+    if intent.filters.data_type:
+        wheres.append(f"data_type = '{intent.filters.data_type}'")
+    
+    # Handle dynamic extra entities from intent.entities dict (legacy compatibility)
+    for k, v in intent.entities.items():
+        col = _map_entity_to_column(k, table) or k
+        if col == "venue": col = "venues"
+        if col == "broker": col = "executing_bd"
+        if v:
+            safe_val = normalize_value(col, str(v)).replace("'", "''")
+            # Avoid duplicate filters
+            if f"{col} = '{safe_val}'" not in wheres:
+                wheres.append(f"{col} = '{safe_val}'")
+
+    # Specific logic for PFOF
+    if table == "executing_bd_606" and intent.metric == "pfof":
+        if "data_type = 'venue'" not in wheres:
+            wheres.append("data_type = 'venue'")
+            
+    return wheres
+
 def _pfof_sum_expr() -> str:
     return (
         "COALESCE(netpmtpaidrecvmarketordersusd, 0) + "
@@ -195,7 +239,7 @@ def build_cross_table_list(intent: StructuredIntent, limit: int = 30) -> str:
     )
 
 def build_string_length(intent: StructuredIntent, table: str, column: str) -> str:
-    wheres = _time_filters(table, intent)
+    wheres = _build_filters(intent, table)
     where_clause = " AND ".join(wheres) if wheres else "TRUE"
     order_dir = "DESC" if intent.is_longest else "ASC"
     
@@ -217,7 +261,7 @@ def build_per_entity_average(intent: StructuredIntent, table: str) -> str:
     metric_expr = metric_select.split(" AS ")[0]
     metric_alias = f"{intent.metric}_per_{per_entity}"
     
-    wheres = _time_filters(table, intent)
+    wheres = _build_filters(intent, table)
     where_clause = " AND ".join(wheres) if wheres else "TRUE"
     
     return (
@@ -235,12 +279,7 @@ def build_count(intent: StructuredIntent, table: str) -> str:
     if col == "broker": col = "executing_bd"
     if col == "venue": col = "venues"
     
-    wheres = _time_filters(table, intent)
-    
-    # Add filters
-    if intent.filters.executing_bd:
-        wheres.append(f"executing_bd = '{intent.filters.executing_bd}'")
-    
+    wheres = _build_filters(intent, table)
     where_clause = " AND ".join(wheres) if wheres else "TRUE"
     
     return f"SELECT COUNT(DISTINCT {col}) AS {count_dim}_count FROM {table} WHERE {where_clause};"
@@ -263,10 +302,6 @@ def build_top_per_group(intent: StructuredIntent, table: str) -> str:
     metric_select = _metric_select(table, intent)
     
     # Recursively build base query
-    # We need a simpler intent for the inner query to get the aggregates
-    # This is getting complex to reconstruct perfectly without the helper from sql_templates
-    # Simplification: Just build the aggregate query inline here
-    
     selects = [partition_expr + f" AS {partition_dim}"]
     groups = [partition_expr]
     
@@ -277,9 +312,7 @@ def build_top_per_group(intent: StructuredIntent, table: str) -> str:
         
     selects.append(metric_select)
     
-    wheres = _time_filters(table, intent)
-    if table == "executing_bd_606" and intent.metric == "pfof":
-        wheres.append("data_type = 'venue'")
+    wheres = _build_filters(intent, table)
         
     where_clause = " AND ".join(wheres) if wheres else "TRUE"
     group_clause = f"GROUP BY {', '.join(groups)}"
@@ -329,7 +362,6 @@ def compile_sql(intent: StructuredIntent) -> str:
     # Standard Aggregate / List / TopN / Earliest / Latest Logic
     selects = []
     groups = []
-    wheres = []
     
     # 1. Handle Dimensions & Grouping
     for dim in intent.dimensions:
@@ -345,44 +377,9 @@ def compile_sql(intent: StructuredIntent) -> str:
         selects.append(f"{col_expr} as {dim}")
         groups.append(col_expr)
 
-    # 2. Handle Filters
-    wheres.extend(_time_filters(table, intent))
+    # 2. Handle Filters (using common builder)
+    wheres = _build_filters(intent, table)
     
-    # Pydantic Filters object
-    if intent.filters.executing_bd:
-        safe_val = normalize_value("executing_bd", intent.filters.executing_bd).replace("'", "''")
-        wheres.append(f"executing_bd = '{safe_val}'")
-    if intent.filters.venues:
-        safe_val = normalize_value("venues", intent.filters.venues).replace("'", "''")
-        wheres.append(f"venues = '{safe_val}'")
-    if intent.filters.stock_group:
-        safe_val = normalize_value("stock_group", intent.filters.stock_group).replace("'", "''")
-        wheres.append(f"stock_group = '{safe_val}'")
-    if intent.filters.ats_name:
-        safe_val = normalize_value("ats_name", intent.filters.ats_name).replace("'", "''")
-        wheres.append(f"ats_name = '{safe_val}'")
-    if intent.filters.market_participant:
-        safe_val = normalize_value("market_participant", intent.filters.market_participant).replace("'", "''")
-        wheres.append(f"market_participant = '{safe_val}'")
-    if intent.filters.data_type:
-        wheres.append(f"data_type = '{intent.filters.data_type}'")
-    
-    # Handle dynamic extra entities from intent.entities dict (legacy compatibility)
-    for k, v in intent.entities.items():
-        col = _map_entity_to_column(k, table) or k
-        if col == "venue": col = "venues"
-        if col == "broker": col = "executing_bd"
-        if v:
-            safe_val = normalize_value(col, str(v)).replace("'", "''")
-            # Avoid duplicate filters
-            if f"{col} = '{safe_val}'" not in wheres:
-                wheres.append(f"{col} = '{safe_val}'")
-
-    # Specific logic for PFOF
-    if table == "executing_bd_606" and intent.metric == "pfof":
-        if "data_type = 'venue'" not in wheres:
-            wheres.append("data_type = 'venue'")
-
     # Handle Aggregate with Count (SPECIAL CASE)
     metric_sql = _metric_select(table, intent)
     
@@ -415,15 +412,10 @@ def compile_sql(intent: StructuredIntent) -> str:
     elif intent.operation == "earliest" or intent.operation == "latest":
         order_dir = "ASC" if intent.operation == "earliest" else "DESC"
         # Sort by time dimensions
-        time_cols = []
         if table == "monthly_data":
-            time_cols = ["year", "month"] # assumes these are in selects/groups from dimensions logic?
-            # actually for earliest/latest we usually want to find the row with min/max time
-            # ignoring specific dimensions logic for a second to match build_earliest_latest
-            if table == "monthly_data":
-                return f"WITH by_month AS (SELECT EXTRACT(YEAR FROM day) as year, EXTRACT(MONTH FROM day) as month, {metric_sql} FROM {table} WHERE {where_clause} GROUP BY 1, 2) SELECT year, month, total_shares FROM by_month ORDER BY year {order_dir}, month {order_dir} LIMIT 1;"
-            elif table == "executing_bd_606":
-                return f"WITH by_month AS (SELECT year, month, {metric_sql} FROM {table} WHERE {where_clause} GROUP BY 1, 2) SELECT year, month, total_pfof_usd FROM by_month WHERE total_pfof_usd > 0 ORDER BY year {order_dir}, (NULLIF(month,'')::int) {order_dir} LIMIT 1;"
+            return f"WITH by_month AS (SELECT EXTRACT(YEAR FROM day) as year, EXTRACT(MONTH FROM day) as month, {metric_sql} FROM {table} WHERE {where_clause} GROUP BY 1, 2) SELECT year, month, total_shares FROM by_month ORDER BY year {order_dir}, month {order_dir} LIMIT 1;"
+        elif table == "executing_bd_606":
+            return f"WITH by_month AS (SELECT year, month, {metric_sql} FROM {table} WHERE {where_clause} GROUP BY 1, 2) SELECT year, month, total_pfof_usd FROM by_month WHERE total_pfof_usd > 0 ORDER BY year {order_dir}, (NULLIF(month,'')::int) {order_dir} LIMIT 1;"
         
     elif intent.order_by:
         order_clause = f"ORDER BY {intent.order_by} {'DESC' if intent.order_desc else 'ASC'}"

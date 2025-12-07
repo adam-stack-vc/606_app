@@ -257,6 +257,25 @@ def save_feedback():
     st.session_state.genai_notes = ""
     st.session_state.rating = 3
 
+def reset_feedback():
+    """Reset feedback CSV file"""
+    try:
+        # Define column headers
+        headers = ['timestamp', 'question', 'sql_query', 'query_type', 'sql_results_count',
+                  'genai_response', 'semantic_hints', 'query_notes', 'genai_notes', 'rating']
+        
+        # Create empty DataFrame with headers
+        df = pd.DataFrame(columns=headers)
+        
+        # Write to CSV
+        df.to_csv(FEEDBACK_CSV, index=False, quoting=csv_module.QUOTE_ALL)
+        
+        st.toast("Feedback data has been reset!", icon="🗑️")
+        st.rerun()
+        
+    except Exception as e:
+        st.error(f"Error resetting feedback: {e}")
+
 # Main UI
 st.title("🔍 606 Query Analysis Tool")
 st.markdown("Enter a natural language question to analyze the query generation process")
@@ -330,7 +349,7 @@ if st.session_state.current_response:
     with col1:
         st.subheader("📝 Generated Query")
     with col2:
-        st.info("Neuro-Symbolic")
+        st.info("Neuro-Symbolic v1.3")
 
     tab1, tab2 = st.tabs(["SQL Query", "Logic Details"])
 
@@ -464,6 +483,12 @@ with st.sidebar:
                     file_name=f"all_feedback_{datetime.now().strftime('%Y%m%d')}.csv",
                     mime="text/csv"
                 )
+                
+                # Reset button
+                st.markdown("---")
+                if st.button("🗑️ Reset Feedback Data", type="secondary", help="Clear all feedback entries and reset count to 0"):
+                    reset_feedback()
+                    
         except Exception as e:
             st.error(f"Error reading feedback CSV: {e}")
             st.error("Try running: python scripts/fix_csv.py")

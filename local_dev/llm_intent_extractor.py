@@ -62,14 +62,15 @@ Your task is to analyze the user's question and return a JSON object representin
 - **top_per_group**: Top N within each group (e.g., "top venue per broker", "top participant per quarter")
 - **count**: Count distinct entities (e.g., "how many venues did X use") - use count_dimension field
 - **per_entity_average**: Average metric per entity (e.g., "average PFOF per venue") - use per_entity field
-- **earliest**: Earliest record by time (e.g., "first month with data")
-- **latest**: Latest record by time (e.g., "most recent quarter")
-- **cross_table_list**: List entities across all tables
+- **earliest**: Earliest record by time (e.g., "first month with data", "when did it start")
+- **latest**: Latest record by time (e.g., "most recent quarter", "last available data")
+- **cross_table_list**: List entities across all tables (e.g., "list all entities", "show all market participants")
+- **multi**: Complex queries requiring join/synthesis across tables (e.g., ratios between tables, market share)
 - **string_length**: Longest/shortest name
 
 # Metric Types
 - **pfof**: Payment for order flow (executing_bd_606 only)
-- **volume**: Total shares/notional (monthly_data, finra_ats) or estimated volume from cents-per-hundred (executing_bd_606)
+- **volume**: Estimated volume from cents-per-hundred (executing_bd_606) OR total shares/notional (monthly_data, finra_ats)
 - **trades**: Trade count (monthly_data, finra_ats)
 - **pfof_and_volume**: Both PFOF and estimated volume (executing_bd_606 only)
 - **tape_a**: NYSE-listed stocks volume
@@ -78,24 +79,25 @@ Your task is to analyze the user's question and return a JSON object representin
 - **tape**: All tapes combined (monthly_data)
 - **venues**: Used for counting venues
 
-# Entity Recognition and Preposition Rules
-**CRITICAL: Use prepositions to determine entity type:**
-- "PFOF **from** [entity]" → venue (wholesaler paying PFOF)
-  Example: "PFOF from Citadel" → filters.venues = "Citadel"
-- "PFOF **for** [entity]" → executing_bd (broker receiving PFOF)
-  Example: "PFOF for Robinhood" → filters.executing_bd = "Robinhood"
-
-**Entity Type Mappings:**
-- **Brokers (executing_bd)**: Robinhood, Charles Schwab, TD Ameritrade, Webull, E*TRADE
-- **Venues/Wholesalers (venue)**: Citadel, Virtu, Wolverine, Two Sigma, Jane Street, Goldman Sachs, Morgan Stanley
-- **Market participants**: Exchange names on monthly_data (e.g., "NYSE", "NASDAQ")
-- **ATS names**: Alternative trading systems on finra_ats (e.g., "SIGMA X2", "UBS ATS")
+# Critical Rules
+1. **Estimated Volume**: If the user asks for "estimated volume" or "volume" from a broker (executing_bd_606), SET metric="volume". The compiler will handle the complex calculation.
+2. **Earliest/Latest**: If the user asks for "earliest month", "first month", "when did X start", use operation="earliest". Do NOT use "aggregate".
+3. **List Venues**: If asking to "list venues for broker X", use operation="list" and dimensions=["venues"].
+4. **Multi-Table Ratios**: If the user asks for a **ratio**, **percentage**, or **comparison** involving "PFOF" (606 table) and "Total Market Volume" or "Tape Volume" (monthly_data table), you MUST use **operation="multi"**.
+   - Example: "Ratio of PFOF to Tape A volume" -> operation="multi"
+   - Example: "Robinhood's share of total market volume" -> operation="multi"
+   - Do NOT try to calculate this in a single query.
+5. **Entity Filters**:
+   - "PFOF **from** [entity]" → entity is a **venue** (filters.venues)
+   - "PFOF **for** [entity]" → entity is a **broker** (filters.executing_bd)
+   - "Robinhood" is always a broker (executing_bd).
+   - "Citadel" is always a venue/wholesaler (venues).
 
 # Response Format
 Return ONLY a valid JSON object matching this structure:
 {{
   "metric": "pfof|volume|trades|...",
-  "operation": "aggregate|topN|list|...",
+  "operation": "aggregate|topN|list|earliest|latest|multi|...",
   "dimensions": ["dimension1", "dimension2"],
   "period": {{ "year": 2024, "month": 6, "quarter": 2 }},
   "filters": {{
@@ -115,12 +117,15 @@ Return ONLY a valid JSON object matching this structure:
   "entities": {{ "venue": "Citadel" }} 
 }}
 
-Rules:
-1. Infer table implicitly; do not output table name (the compiler handles this).
-2. For PFOF queries, ALWAYS set filters.data_type = "venue".
-3. For "top X per Y" queries, use operation="top_per_group" and dimensions=[Y, X].
-4. For "how many X" queries, use operation="count" and count_dimension="X".
-5. Map "Citadel" to filters.venues and "Robinhood" to filters.executing_bd unless context implies otherwise.
+Examples:
+1. "What was the estimated volume for Robinhood in Q1 2024?"
+   -> metric="volume", operation="aggregate", period={{year:2024, quarter:1}}, filters={{executing_bd: "Robinhood"}}
+2. "Earliest month with non-zero PFOF in 2025"
+   -> metric="pfof", operation="earliest", period={{year:2025}}
+3. "List venues used by Robinhood"
+   -> operation="list", dimensions=["venues"], filters={{executing_bd: "Robinhood"}}
+4. "What month had the highest ratio of PFOF to Tape A volume?"
+   -> operation="multi"
 """
 
 
